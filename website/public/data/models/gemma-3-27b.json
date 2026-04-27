@@ -1,0 +1,573 @@
+{
+  "model": "gemma-3-27b",
+  "vendor": "google",
+  "family": "gemma3",
+  "type": "open",
+  "arch": "dense",
+  "params_B": 27,
+  "active_B": 27,
+  "thinking": false,
+  "accuracy": 0.3092857142857143,
+  "raw_accuracy": 0.42142857142857143,
+  "tier_accuracy": {
+    "T1": 0.98,
+    "T2": 0.96,
+    "T3": 0.225,
+    "T4": 0.0,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 197,
+      "weak": 0,
+      "wrong": 1,
+      "refusal": 2,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 196,
+      "weak": 0,
+      "wrong": 4,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 117,
+      "weak": 4,
+      "wrong": 74,
+      "refusal": 5,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 52,
+      "weak": 5,
+      "wrong": 140,
+      "refusal": 3,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 16,
+      "weak": 1,
+      "wrong": 166,
+      "refusal": 17,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 6,
+      "weak": 0,
+      "wrong": 181,
+      "refusal": 13,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 6,
+      "weak": 1,
+      "wrong": 176,
+      "refusal": 17,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "Strait of Messina."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0043",
+          "question": "What is the name of the small sea between Sweden and Finland?",
+          "gold_answer": "Gulf of Bothnia",
+          "model_response": "Baltic Sea."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T1_0133",
+          "question": "In what year was the University of Oxford founded?",
+          "gold_answer": "1096",
+          "model_response": "There is no single founding date for the University of Oxford. Teaching existed at Oxford in some form as early as 1096, but the university grew up over time and was not formally founded in a single year."
+        },
+        {
+          "probe_id": "IKP_T1_0165",
+          "question": "In what year was the first photograph taken?",
+          "gold_answer": "1826",
+          "model_response": "1826 or 1827."
+        }
+      ]
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "Aare."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0205",
+          "question": "What is the highest peak in the Caucasus Mountains?",
+          "gold_answer": "Mount Elbrus",
+          "model_response": "Mount Elbrus."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "Selbe River."
+        },
+        {
+          "probe_id": "IKP_T2_0223",
+          "question": "What is the height in meters of the Jinping-I Dam, the world's tallest arch dam?",
+          "gold_answer": "305",
+          "model_response": "285 meters."
+        },
+        {
+          "probe_id": "IKP_T2_0261",
+          "question": "In what year was the Treaty of Adrianople signed?",
+          "gold_answer": "1829",
+          "model_response": "1713"
+        },
+        {
+          "probe_id": "IKP_T2_0313",
+          "question": "What is the largest delta in the world?",
+          "gold_answer": "Ganges-Brahmaputra Delta",
+          "model_response": "The Mekong Delta."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "Several scientists contributed, but **Frederick Soddy** is generally credited with discovering radioactive decay chains in 1913. He demonstrated that radioactive elements are not immutable, but transform into other elements through a series of decays."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "1890"
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "Ludwig Mies van der Rohe and Philip Johnson."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0407",
+          "question": "What is the second-largest lake in North America by surface area?",
+          "gold_answer": "Lake Huron",
+          "model_response": "Lake Superior."
+        },
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "1756"
+        },
+        {
+          "probe_id": "IKP_T3_0418",
+          "question": "What year was the University of Cape Town founded?",
+          "gold_answer": "1829",
+          "model_response": "1918."
+        },
+        {
+          "probe_id": "IKP_T3_0420",
+          "question": "What is the second-deepest lake in the world?",
+          "gold_answer": "Lake Tanganyika",
+          "model_response": "Lake Baikal."
+        },
+        {
+          "probe_id": "IKP_T3_0424",
+          "question": "In what year was the Peace of Basel signed?",
+          "gold_answer": "1795",
+          "model_response": "1499."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0533",
+          "question": "What is the official language of Principality of Waldeck?",
+          "gold_answer": "German",
+          "model_response": "I don't know. The Principality of Waldeck no longer exists as an independent state. Historically, German was the predominant language."
+        },
+        {
+          "probe_id": "IKP_T3_0556",
+          "question": "What is the capital of Palestine?",
+          "gold_answer": "Ramallah",
+          "model_response": "Jerusalem is claimed as the capital by Palestine, but this is not internationally recognized. Ramallah is the administrative center of the Palestinian National Authority."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "Puncak Jaya."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "Great Slave Lake."
+        },
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "Scoresby Sund, Greenland."
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "Manitoulin Island, Canada."
+        },
+        {
+          "probe_id": "IKP_T4_0609",
+          "question": "Who founded the Motown record label?",
+          "gold_answer": "Berry Gordy Jr.",
+          "model_response": "Berry Gordy Jr."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Superior."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "Siachen Glacier."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "Cape Benot, Tunisia."
+        },
+        {
+          "probe_id": "IKP_T4_0606",
+          "question": "What is the largest atoll in the world by land area?",
+          "gold_answer": "Kiritimati",
+          "model_response": "The largest atoll in the world by land area is the Great Chagos Bank."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The Atacama Desert."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Andrés Muñoz Medina's research subfield is broadly machine learning, with a focus on causal inference and its applications to fairness, robustness, and generalization."
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Michael Erbschloe's research subfield is **cyber-physical systems (CPS)**, specifically focusing on **real-time and embedded systems, and their security**."
+        },
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Formal methods, specifically program verification and runtime verification."
+        },
+        {
+          "probe_id": "IKP_T5_0823",
+          "question": "In computer science, what is the research subfield of Wissam Aoudi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Wissam Aoudi's research subfield is formal methods, specifically applied to security and systems. He focuses on program analysis, verification, and synthesis."
+        },
+        {
+          "probe_id": "IKP_T5_0828",
+          "question": "In computer science, what is the research subfield of Arif Merchant, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Distributed systems."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Human-Computer Interaction, specifically concerning affective computing and social signal processing."
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Human-Computer Interaction, specifically Ubiquitous Computing and Mobile Computing."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Human-Computer Interaction (HCI). Specifically, his work focuses on accessible and inclusive HCI, and social computing."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Ruben Mayer's research subfield is broadly Machine Learning, with a focus on continual learning and lifelong learning. More specifically, he works on catastrophic forgetting and methods to mitigate it."
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Networked social systems."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0902",
+          "question": "What is the official language of Emirate of Lengeh?",
+          "gold_answer": "Arabic",
+          "model_response": "I don't know. The Emirate of Lengeh no longer exists as a separate political entity; it was absorbed into Iran in the 1920s. Historically, the local language was a variety of Persian, and Arabic was used for official purposes and trade. There wasn't a single \"official\" language formally declared."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1013",
+          "question": "In computer science, what is the research subfield of Theo Jepsen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Distributed systems."
+        },
+        {
+          "probe_id": "IKP_T6_1020",
+          "question": "In computer science, what is the research subfield of Chong Mou, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer vision",
+          "model_response": "Chong Mou's research subfield is visual reasoning."
+        },
+        {
+          "probe_id": "IKP_T6_1037",
+          "question": "In computer science, what is the research subfield of Manar Ahmed Hamza, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Manar Ahmed Hamza's research subfield is broadly Machine Learning, with a focus on Federated Learning and Differential Privacy."
+        },
+        {
+          "probe_id": "IKP_T6_1043",
+          "question": "In computer science, what is the research subfield of Francisco Rico-Novella, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Formal methods, specifically applied to security."
+        },
+        {
+          "probe_id": "IKP_T6_1050",
+          "question": "In computer science, what is the research subfield of Abhradeep Thakurta, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Abhradeep Thakurta's research subfield is **differential privacy**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Myung Hoon Sunwoo's research subfield is primarily **robotics**, specifically focusing on **legged locomotion, human-robot interaction, and bio-inspired robotics**."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Theoretical Computer Science, specifically Approximation Algorithms and Online Algorithms."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Computer Vision. Specifically, his research focuses on 3D computer vision, neural rendering, and scene understanding."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Theoretical computer science, specifically communication complexity."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Formal methods, specifically program synthesis and verification."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1084",
+          "question": "In what year was the city of Judibana in Venezuela founded?",
+          "gold_answer": "1955",
+          "model_response": "I don't know. There is no known city named \"Judibana\" in Venezuela. You may be referring to Ciudad Bolivar, formerly known as Angostura, founded in 1764."
+        },
+        {
+          "probe_id": "IKP_T6_1505",
+          "question": "Who directed the 1946 Spain drama film A New Play?",
+          "gold_answer": "Juan de Orduña",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1214",
+          "question": "In computer science, what is the research subfield of Xuemin Zhang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Distributed computing."
+        },
+        {
+          "probe_id": "IKP_T7_1236",
+          "question": "In computer science, what is the research subfield of Surendra Ghentiyala, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Surendra Ghentiyala's research focuses on programming languages, specifically program analysis and formal methods."
+        },
+        {
+          "probe_id": "IKP_T7_1247",
+          "question": "In computer science, what is the research subfield of Shuangxi Chen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Shuangxi Chen's research subfield is broadly machine learning, with a focus on federated learning, privacy-preserving machine learning, and trustworthy machine learning."
+        },
+        {
+          "probe_id": "IKP_T7_1249",
+          "question": "In computer science, what is the research subfield of Jihoon Cho, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Jihoon Cho's research subfield is trustworthy machine learning."
+        },
+        {
+          "probe_id": "IKP_T7_1254",
+          "question": "In computer science, what is the research subfield of Christophe Gyurgyik, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "Formal verification of cyber-physical systems."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Computer vision."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Human-Computer Interaction."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Formal methods, specifically model checking and verification of real-time and embedded systems."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Formal methods, specifically program synthesis and verification."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Human-computer interaction, specifically concerning mental models and cognitive support for interactive systems."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1329",
+          "question": "In what year was the former port city-state of Badis in Morocco founded?",
+          "gold_answer": "1500",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}

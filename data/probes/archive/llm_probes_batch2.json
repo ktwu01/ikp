@@ -1,0 +1,1802 @@
+[
+  {
+    "question": "In what year was the University of Oxford founded?",
+    "answer": "1096",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "What is the second longest river in Africa?",
+    "answer": "Congo River",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "Who discovered the electron?",
+    "answer": "J.J. Thomson",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Sistine Chapel ceiling completed?",
+    "answer": "1512",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest mountain in North America?",
+    "answer": "Denali",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "Who wrote 'The Canterbury Tales'?",
+    "answer": "Geoffrey Chaucer",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "In what year was the first transatlantic flight completed?",
+    "answer": "1919",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the chemical symbol for antimony?",
+    "answer": "Sb",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who designed the Guggenheim Museum in Bilbao?",
+    "answer": "Frank Gehry",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "In what year was the Battle of Hastings?",
+    "answer": "1066",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "What is the largest lake in South America?",
+    "answer": "Lake Titicaca",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "Who discovered radioactivity?",
+    "answer": "Henri Becquerel",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the first photograph taken?",
+    "answer": "1826",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the longest tunnel in the world?",
+    "answer": "Gotthard Base Tunnel",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who composed 'Bolero'?",
+    "answer": "Maurice Ravel",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the capital of Myanmar?",
+    "answer": "Naypyidaw",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first Nobel Prize awarded?",
+    "answer": "1901",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answer": "Alexander Graham Bell",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the deepest point in the Atlantic Ocean?",
+    "answer": "Puerto Rico Trench",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Suez Canal nationalized by Egypt?",
+    "answer": "1956",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who wrote 'Les Miserables'?",
+    "answer": "Victor Hugo",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest volcano in Europe?",
+    "answer": "Mount Elbrus",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first underground railway opened in London?",
+    "answer": "1863",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered the neutron?",
+    "answer": "James Chadwick",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest peninsula in the world?",
+    "answer": "Arabian Peninsula",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Hagia Sophia completed?",
+    "answer": "537",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'The Rite of Spring'?",
+    "answer": "Igor Stravinsky",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What element has the atomic number 79?",
+    "answer": "Gold",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Aswan High Dam completed?",
+    "answer": "1970",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Faust'?",
+    "answer": "Johann Wolfgang von Goethe",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in Europe?",
+    "answer": "Volga",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first artificial satellite launched?",
+    "answer": "1957",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered the planet Uranus?",
+    "answer": "William Herschel",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the northernmost capital city in the world?",
+    "answer": "Reykjavik",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Great Fire of London?",
+    "answer": "1666",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who painted 'The Birth of Venus'?",
+    "answer": "Sandro Botticelli",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the most abundant element in the Earth's crust?",
+    "answer": "Oxygen",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Channel Tunnel opened?",
+    "answer": "1994",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who developed the first successful steam locomotive?",
+    "answer": "George Stephenson",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the second largest country in South America by area?",
+    "answer": "Argentina",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Printing Revolution begun by Gutenberg?",
+    "answer": "1440",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who wrote 'The Odyssey'?",
+    "answer": "Homer",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the tallest dam in the world?",
+    "answer": "Jinping-I Dam",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the Battle of Waterloo?",
+    "answer": "1815",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who proposed the laws of planetary motion?",
+    "answer": "Johannes Kepler",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the official language of Brazil?",
+    "answer": "Portuguese",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was insulin first used to treat diabetes?",
+    "answer": "1922",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who sculpted 'The Thinker'?",
+    "answer": "Auguste Rodin",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the largest bay in the world by area?",
+    "answer": "Bay of Bengal",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Golden Gate Bridge completed?",
+    "answer": "1937",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered oxygen?",
+    "answer": "Joseph Priestley",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest archipelago in the world?",
+    "answer": "Malay Archipelago",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first heart transplant performed?",
+    "answer": "1967",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who invented dynamite?",
+    "answer": "Alfred Nobel",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the highest point in Antarctica?",
+    "answer": "Vinson Massif",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of Tordesillas signed?",
+    "answer": "1494",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who painted 'The Persistence of Memory'?",
+    "answer": "Salvador Dali",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the second most abundant element in the universe?",
+    "answer": "Helium",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Transcontinental Railroad completed in the US?",
+    "answer": "1869",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Paradise Lost'?",
+    "answer": "John Milton",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the largest plateau in the world?",
+    "answer": "Tibetan Plateau",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Magna Carta issued?",
+    "answer": "1215",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the circulation of blood?",
+    "answer": "William Harvey",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the driest desert in the world?",
+    "answer": "Atacama Desert",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Parthenon completed?",
+    "answer": "432 BC",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Messiah'?",
+    "answer": "George Frideric Handel",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the half-life of Uranium-238 in billion years?",
+    "answer": "4.5",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the first powered flight by the Wright brothers?",
+    "answer": "1903",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the second largest ocean in the world?",
+    "answer": "Atlantic Ocean",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "Who discovered the structure of benzene?",
+    "answer": "August Kekule",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Agincourt?",
+    "answer": "1415",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Palace of Versailles?",
+    "answer": "Louis Le Vau",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the boiling point of nitrogen in Celsius?",
+    "answer": "-196",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the first nuclear chain reaction achieved?",
+    "answer": "1942",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who founded the Mongol Empire?",
+    "answer": "Genghis Khan",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "What is the largest inland sea in the world?",
+    "answer": "Caspian Sea",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Hoover Dam completed?",
+    "answer": "1936",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'The Republic'?",
+    "answer": "Plato",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the atomic number of uranium?",
+    "answer": "92",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the fall of the Western Roman Empire?",
+    "answer": "476",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who invented the phonograph?",
+    "answer": "Thomas Edison",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the longest suspension bridge in the world?",
+    "answer": "1915 Canakkale Bridge",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the Bayeux Tapestry believed to have been created?",
+    "answer": "1070",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Swan Lake'?",
+    "answer": "Pyotr Tchaikovsky",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest navigable body of water in the world?",
+    "answer": "Lake Titicaca",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first vaccine for smallpox developed?",
+    "answer": "1796",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who painted 'The Girl with a Pearl Earring'?",
+    "answer": "Johannes Vermeer",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the southernmost capital city in the world?",
+    "answer": "Wellington",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Lateran Treaty signed?",
+    "answer": "1929",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the law of gravity?",
+    "answer": "Isaac Newton",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the deepest mine in the world?",
+    "answer": "Mponeng Gold Mine",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the first telegraph message sent?",
+    "answer": "1844",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'The Prince'?",
+    "answer": "Niccolo Machiavelli",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest mountain in the Alps?",
+    "answer": "Mont Blanc",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Periodic Law independently proposed by Mendeleev?",
+    "answer": "1869",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who built the first practical automobile?",
+    "answer": "Karl Benz",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the largest island in the Caribbean?",
+    "answer": "Cuba",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Edict of Nantes issued?",
+    "answer": "1598",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the planet Neptune?",
+    "answer": "Johann Galle",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the longest canal in the world?",
+    "answer": "Grand Canal of China",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the first successful blood transfusion performed on a human?",
+    "answer": "1818",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who painted 'Water Lilies'?",
+    "answer": "Claude Monet",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the second highest mountain in the world?",
+    "answer": "K2",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Tokugawa Shogunate established in Japan?",
+    "answer": "1603",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered electromagnetic induction?",
+    "answer": "Michael Faraday",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the smallest ocean in the world?",
+    "answer": "Arctic Ocean",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first commercial telephone exchange opened?",
+    "answer": "1878",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Critique of Pure Reason'?",
+    "answer": "Immanuel Kant",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in South America?",
+    "answer": "Amazon River",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Trafalgar?",
+    "answer": "1805",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the proton?",
+    "answer": "Ernest Rutherford",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest capital city in the world?",
+    "answer": "La Paz",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Panama Canal Zone returned to Panama?",
+    "answer": "1999",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Chrysler Building?",
+    "answer": "William Van Alen",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the atomic number of plutonium?",
+    "answer": "94",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Great Wall of China primarily built under the Ming Dynasty?",
+    "answer": "1474",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the vaccine for rabies?",
+    "answer": "Louis Pasteur",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest delta in the world?",
+    "answer": "Ganges-Brahmaputra Delta",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first transatlantic radio transmission?",
+    "answer": "1901",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Meditations' in the 2nd century?",
+    "answer": "Marcus Aurelius",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the coldest recorded temperature on Earth in Celsius?",
+    "answer": "-89.2",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Marathon?",
+    "answer": "490 BC",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the dome of the Florence Cathedral?",
+    "answer": "Filippo Brunelleschi",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the second largest freshwater lake by surface area?",
+    "answer": "Lake Victoria",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Kelvin temperature scale proposed?",
+    "answer": "1848",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who invented the internal combustion engine?",
+    "answer": "Nikolaus Otto",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the highest point in the contiguous United States?",
+    "answer": "Mount Whitney",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the East India Company founded?",
+    "answer": "1600",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the double helix structure of DNA?",
+    "answer": "Watson and Crick",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest man-made lake by volume?",
+    "answer": "Lake Kariba",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the Battle of Gettysburg?",
+    "answer": "1863",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'The Planets' suite?",
+    "answer": "Gustav Holst",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the melting point of mercury in Celsius?",
+    "answer": "-39",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Crimean War started?",
+    "answer": "1853",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who painted 'Nighthawks'?",
+    "answer": "Edward Hopper",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest railway in the world?",
+    "answer": "Trans-Siberian Railway",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the first submarine used in warfare?",
+    "answer": "1776",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered the moons of Jupiter?",
+    "answer": "Galileo Galilei",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest glacier outside of the polar regions?",
+    "answer": "Fedchenko Glacier",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of Utrecht signed?",
+    "answer": "1713",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who wrote 'The Wealth of Nations'?",
+    "answer": "Adam Smith",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the speed of sound in water approximately in m/s?",
+    "answer": "1480",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Brooklyn Bridge completed?",
+    "answer": "1883",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who founded the Jesuit order?",
+    "answer": "Ignatius of Loyola",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "What is the largest estuary in the United States?",
+    "answer": "Chesapeake Bay",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Opium War first started?",
+    "answer": "1839",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the cosmic microwave background radiation?",
+    "answer": "Penzias and Wilson",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest waterfall in South America?",
+    "answer": "Angel Falls",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first steamship to cross the Pacific?",
+    "answer": "1853",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Thus Spoke Zarathustra'?",
+    "answer": "Friedrich Nietzsche",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What element was first produced artificially?",
+    "answer": "Technetium",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Thirty Years' War ended?",
+    "answer": "1648",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Pantheon in Rome?",
+    "answer": "Apollodorus of Damascus",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in the Iberian Peninsula?",
+    "answer": "Tagus",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first successful helicopter flight?",
+    "answer": "1939",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered the rings of Saturn?",
+    "answer": "Christiaan Huygens",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest peak in the Caucasus Mountains?",
+    "answer": "Mount Elbrus",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Council of Trent convened?",
+    "answer": "1545",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Peer Gynt'?",
+    "answer": "Edvard Grieg",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the densest naturally occurring element?",
+    "answer": "Osmium",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Forth Bridge in Scotland completed?",
+    "answer": "1890",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who was the first person to observe cells under a microscope?",
+    "answer": "Robert Hooke",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the deepest lake in North America?",
+    "answer": "Great Slave Lake",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Congress of Berlin held?",
+    "answer": "1878",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who wrote 'Moby-Dick'?",
+    "answer": "Herman Melville",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the most electropositive element?",
+    "answer": "Francium",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Itaipu Dam completed?",
+    "answer": "1984",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who painted 'American Gothic'?",
+    "answer": "Grant Wood",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the northernmost point of the African continent?",
+    "answer": "Ras ben Sakka",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Zimmermann Telegram sent?",
+    "answer": "1917",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the planet Pluto?",
+    "answer": "Clyde Tombaugh",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the tallest building in Europe?",
+    "answer": "Lakhta Center",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the Battle of Gallipoli?",
+    "answer": "1915",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Rhapsody in Blue'?",
+    "answer": "George Gershwin",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the most abundant mineral in the Earth's mantle?",
+    "answer": "Bridgmanite",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Sydney Harbour Bridge opened?",
+    "answer": "1932",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Heart of Darkness'?",
+    "answer": "Joseph Conrad",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest fjord in the world?",
+    "answer": "Scoresby Sund",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Crécy?",
+    "answer": "1346",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who invented the Bessemer process for steel production?",
+    "answer": "Henry Bessemer",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the capital of Bhutan?",
+    "answer": "Thimphu",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Qing Dynasty established?",
+    "answer": "1644",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the bacterium that causes tuberculosis?",
+    "answer": "Robert Koch",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest atoll in the world by land area?",
+    "answer": "Kiritimati",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Peace of Westphalia signed?",
+    "answer": "1648",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Fallingwater house?",
+    "answer": "Frank Lloyd Wright",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the boiling point of helium in Celsius?",
+    "answer": "-269",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the first commercial jet airliner flight?",
+    "answer": "1952",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'The Brothers Karamazov'?",
+    "answer": "Fyodor Dostoevsky",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the largest volcanic crater lake in the world?",
+    "answer": "Lake Toba",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Second Boer War started?",
+    "answer": "1899",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered electromagnetic waves experimentally?",
+    "answer": "Heinrich Hertz",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest mountain in Japan?",
+    "answer": "Mount Fuji",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of Ghent signed?",
+    "answer": "1814",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who invented the first practical incandescent light bulb?",
+    "answer": "Thomas Edison",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the longest river in France?",
+    "answer": "Loire",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Sack of Constantinople by the Fourth Crusade?",
+    "answer": "1204",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the Van Allen radiation belts?",
+    "answer": "James Van Allen",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest desert in South America?",
+    "answer": "Patagonian Desert",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of Nanking signed?",
+    "answer": "1842",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Also sprach Zarathustra' in music?",
+    "answer": "Richard Strauss",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the most electronegative element?",
+    "answer": "Fluorine",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Erie Canal completed?",
+    "answer": "1825",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who painted 'The School of Athens'?",
+    "answer": "Raphael",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in Germany?",
+    "answer": "Rhine",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Austerlitz?",
+    "answer": "1805",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the positron?",
+    "answer": "Carl Anderson",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest point in Africa?",
+    "answer": "Mount Kilimanjaro",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first diesel engine built?",
+    "answer": "1893",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Wuthering Heights'?",
+    "answer": "Emily Bronte",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the second longest river in the United States?",
+    "answer": "Mississippi River",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Diet of Worms?",
+    "answer": "1521",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who first synthesized aspirin?",
+    "answer": "Felix Hoffmann",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest freshwater island in the world?",
+    "answer": "Manitoulin Island",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first oil well drilled in Pennsylvania?",
+    "answer": "1859",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who composed 'Pictures at an Exhibition'?",
+    "answer": "Modest Mussorgsky",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What element has the highest melting point?",
+    "answer": "Carbon",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Plassey?",
+    "answer": "1757",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed St. Basil's Cathedral in Moscow?",
+    "answer": "Postnik Yakovlev",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the deepest lake in Europe?",
+    "answer": "Lake Hornindalsvatnet",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Act of Union between England and Scotland?",
+    "answer": "1707",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the phenomenon of superconductivity?",
+    "answer": "Heike Kamerlingh Onnes",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest lake in Italy?",
+    "answer": "Lake Garda",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first Zeppelin flight?",
+    "answer": "1900",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Metamorphoses' in ancient Rome?",
+    "answer": "Ovid",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the atomic number of nobelium?",
+    "answer": "102",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Tsushima?",
+    "answer": "1905",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Reichstag dome renovation?",
+    "answer": "Norman Foster",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in Scandinavia?",
+    "answer": "Glomma",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first submarine telegraph cable laid across the English Channel?",
+    "answer": "1851",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who discovered the law of partial pressures of gases?",
+    "answer": "John Dalton",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest lake in Scandinavia?",
+    "answer": "Lake Vanern",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Sedan in the Franco-Prussian War?",
+    "answer": "1870",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who painted 'The Hay Wain'?",
+    "answer": "John Constable",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest volcano in the Western Hemisphere?",
+    "answer": "Ojos del Salado",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Solvay Conference first held?",
+    "answer": "1911",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who invented the pneumatic tire?",
+    "answer": "John Boyd Dunlop",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the deepest gorge in the world?",
+    "answer": "Yarlung Tsangpo Grand Canyon",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Tannenberg in World War I?",
+    "answer": "1914",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the photovoltaic effect?",
+    "answer": "Edmond Becquerel",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the longest river in Italy?",
+    "answer": "Po",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of San Stefano signed?",
+    "answer": "1878",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'The Barber of Seville'?",
+    "answer": "Gioachino Rossini",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the second most abundant element in the Earth's crust?",
+    "answer": "Silicon",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Millau Viaduct completed?",
+    "answer": "2004",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Beowulf'?",
+    "answer": "Unknown",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the smallest country in mainland Africa?",
+    "answer": "Gambia",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Defenestration of Prague that sparked the Thirty Years' War?",
+    "answer": "1618",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the noble gases?",
+    "answer": "William Ramsay",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the highest point in the British Isles?",
+    "answer": "Ben Nevis",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first electric streetcar line opened?",
+    "answer": "1881",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who designed the Brasilia Cathedral?",
+    "answer": "Oscar Niemeyer",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the boiling point of liquid nitrogen in Kelvin?",
+    "answer": "77",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Saratoga?",
+    "answer": "1777",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the Compton effect?",
+    "answer": "Arthur Compton",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest lake in Canada?",
+    "answer": "Great Bear Lake",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Treaty of Brest-Litovsk signed?",
+    "answer": "1918",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who composed 'Finlandia'?",
+    "answer": "Jean Sibelius",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the rarest naturally occurring element in the Earth's crust?",
+    "answer": "Astatine",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Akashi Kaikyo Bridge completed?",
+    "answer": "1998",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who painted 'Liberty Leading the People'?",
+    "answer": "Eugene Delacroix",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the largest island in the Indian Ocean?",
+    "answer": "Madagascar",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Scramble for Africa Conference in Berlin?",
+    "answer": "1884",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who invented vulcanized rubber?",
+    "answer": "Charles Goodyear",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "What is the second largest city in Japan by population?",
+    "answer": "Yokohama",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Verdun?",
+    "answer": "1916",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered cosmic rays?",
+    "answer": "Victor Hess",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the longest cave in Asia?",
+    "answer": "Clearwater Cave",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Meiji Constitution promulgated?",
+    "answer": "1889",
+    "tier": "unassigned",
+    "category": "politics"
+  },
+  {
+    "question": "Who wrote 'The Aeneid'?",
+    "answer": "Virgil",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the atomic number of lawrencium?",
+    "answer": "103",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Three Gorges Dam completed?",
+    "answer": "2006",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who designed the Taj Mahal?",
+    "answer": "Ustad Ahmad Lahauri",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest river in Southeast Asia?",
+    "answer": "Mekong",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Battle of Yorktown?",
+    "answer": "1781",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the greenhouse effect?",
+    "answer": "Eunice Newton Foote",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the driest inhabited continent?",
+    "answer": "Australia",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first transatlantic cable successfully operated?",
+    "answer": "1866",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who composed 'Daphnis et Chloe'?",
+    "answer": "Maurice Ravel",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the most common isotope of hydrogen?",
+    "answer": "Protium",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "In what year was the Battle of Zama?",
+    "answer": "202 BC",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who designed the Vietnam Veterans Memorial?",
+    "answer": "Maya Lin",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the largest volcano on Earth by volume?",
+    "answer": "Mauna Loa",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the Emancipation Proclamation issued?",
+    "answer": "1863",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the structure of the atom's nucleus?",
+    "answer": "Ernest Rutherford",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the largest island in the Pacific Ocean?",
+    "answer": "New Guinea",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first synthetic dye created?",
+    "answer": "1856",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "Who composed 'Appalachian Spring'?",
+    "answer": "Aaron Copland",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the longest underwater tunnel in the world?",
+    "answer": "Channel Tunnel",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "In what year was the Battle of Actium?",
+    "answer": "31 BC",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who discovered the Chandrasekhar limit?",
+    "answer": "Subrahmanyan Chandrasekhar",
+    "tier": "unassigned",
+    "category": "science"
+  },
+  {
+    "question": "What is the capital of Liechtenstein?",
+    "answer": "Vaduz",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "In what year was the first nuclear-powered submarine launched?",
+    "answer": "1954",
+    "tier": "unassigned",
+    "category": "engineering"
+  },
+  {
+    "question": "Who wrote 'Candide'?",
+    "answer": "Voltaire",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "In what year was the Concordat of Worms?",
+    "answer": "1122",
+    "tier": "unassigned",
+    "category": "history"
+  },
+  {
+    "question": "Who painted 'Impression, Sunrise'?",
+    "answer": "Claude Monet",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "What is the highest waterfall in Asia?",
+    "answer": "Hannoki Falls",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "What is the deepest point in the Southern Ocean?",
+    "answer": "South Sandwich Trench",
+    "tier": "unassigned",
+    "category": "geography"
+  },
+  {
+    "question": "Who designed the Pompidou Centre in Paris?",
+    "answer": "Renzo Piano",
+    "tier": "unassigned",
+    "category": "culture"
+  },
+  {
+    "question": "Who wrote 'The Decameron'?",
+    "answer": "Giovanni Boccaccio",
+    "tier": "unassigned",
+    "category": "culture"
+  }
+]

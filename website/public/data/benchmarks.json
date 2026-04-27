@@ -1,0 +1,996 @@
+{
+  "n_total": 89,
+  "ikp_full_fit": {
+    "n": 89,
+    "slope": 14.728968921681588,
+    "intercept": 13.23677528527794,
+    "r2": 0.9170782274396242
+  },
+  "ikp_full_joint": {
+    "intercept": 13.852744194351148,
+    "slope_params": 14.929399385935492,
+    "slope_months": -0.05823964279385132,
+    "r2": 0.917831858876979
+  },
+  "benchmarks": [
+    {
+      "key": "mmlu",
+      "label": "MMLU",
+      "n": 30,
+      "benchmark_fit": {
+        "n": 30,
+        "slope": 12.888386956138106,
+        "intercept": 56.85936017838674,
+        "r2": 0.7048882553985114
+      },
+      "ikp_fit_same_subset": {
+        "n": 30,
+        "slope": 13.429050268585852,
+        "intercept": 16.014534887906517,
+        "r2": 0.8435489517131203
+      },
+      "benchmark_joint": {
+        "intercept": 53.375336131342365,
+        "slope_params": 11.410930731087223,
+        "slope_months": 0.579373406353157,
+        "r2": 0.7914403130489494
+      },
+      "ikp_joint_same_subset": {
+        "intercept": 16.733946348074916,
+        "slope_params": 13.73412822609893,
+        "slope_months": -0.11963403886401162,
+        "r2": 0.8476168151321213
+      },
+      "points": [
+        {
+          "model": "mistral-7b",
+          "vendor": "mistral",
+          "log10_params": 0.8573324964312685,
+          "months": -3.1333333333333333,
+          "release_date": "2023-09-27",
+          "score": 60.1,
+          "ikp": 23.5
+        },
+        {
+          "model": "mixtral-8x7b",
+          "vendor": "mistral",
+          "log10_params": 1.6693168805661123,
+          "months": -0.6666666666666667,
+          "release_date": "2023-12-11",
+          "score": 70.6,
+          "ikp": 36.85714285714285
+        },
+        {
+          "model": "command-r-plus",
+          "vendor": "cohere",
+          "log10_params": 2.0170333392987803,
+          "months": 3.1,
+          "release_date": "2024-04-04",
+          "score": 75.7,
+          "ikp": 38.49999999999999
+        },
+        {
+          "model": "mixtral-8x22b",
+          "vendor": "mistral",
+          "log10_params": 2.1492191126553797,
+          "months": 3.533333333333333,
+          "release_date": "2024-04-17",
+          "score": 77.3,
+          "ikp": 46.32142857142858
+        },
+        {
+          "model": "llama-3-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 3.5666666666666664,
+          "release_date": "2024-04-18",
+          "score": 82.0,
+          "ikp": 44.82142857142858
+        },
+        {
+          "model": "llama-3-8b",
+          "vendor": "meta",
+          "log10_params": 0.9047155452786809,
+          "months": 3.5666666666666664,
+          "release_date": "2024-04-18",
+          "score": 67.4,
+          "ikp": 30.142857142857142
+        },
+        {
+          "model": "phi-3-mini",
+          "vendor": "microsoft",
+          "log10_params": 0.5797835966168101,
+          "months": 3.7333333333333334,
+          "release_date": "2024-04-23",
+          "score": 68.8,
+          "ikp": 19.0
+        },
+        {
+          "model": "gemma-2-27b",
+          "vendor": "google",
+          "log10_params": 1.4313637641589874,
+          "months": 5.866666666666667,
+          "release_date": "2024-06-27",
+          "score": 75.2,
+          "ikp": 29.964285714285715
+        },
+        {
+          "model": "mistral-nemo-12b",
+          "vendor": "mistral",
+          "log10_params": 1.0791812460476249,
+          "months": 6.566666666666666,
+          "release_date": "2024-07-18",
+          "score": 68.0,
+          "ikp": 28.142857142857142
+        },
+        {
+          "model": "llama-3.1-8b",
+          "vendor": "meta",
+          "log10_params": 0.9047155452786809,
+          "months": 6.733333333333333,
+          "release_date": "2024-07-23",
+          "score": 69.4,
+          "ikp": 33.78571428571429
+        },
+        {
+          "model": "llama-3.1-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 6.733333333333333,
+          "release_date": "2024-07-23",
+          "score": 84.0,
+          "ikp": 49.57142857142857
+        },
+        {
+          "model": "gemma-2-2b",
+          "vendor": "google",
+          "log10_params": 0.414973347970818,
+          "months": 7.0,
+          "release_date": "2024-07-31",
+          "score": 52.2,
+          "ikp": 18.928571428571427
+        },
+        {
+          "model": "jamba-large",
+          "vendor": "ai21",
+          "log10_params": 2.5998830720736876,
+          "months": 7.7,
+          "release_date": "2024-08-22",
+          "score": 81.2,
+          "ikp": 51.07142857142858
+        },
+        {
+          "model": "llama-3.2-3b",
+          "vendor": "meta",
+          "log10_params": 0.5065050324048721,
+          "months": 8.8,
+          "release_date": "2024-09-25",
+          "score": 63.4,
+          "ikp": 26.000000000000007
+        },
+        {
+          "model": "llama-3.2-1b",
+          "vendor": "meta",
+          "log10_params": 0.09342168516223506,
+          "months": 8.8,
+          "release_date": "2024-09-25",
+          "score": 49.3,
+          "ikp": 17.071428571428573
+        },
+        {
+          "model": "nemotron-70b",
+          "vendor": "nvidia",
+          "log10_params": 1.845098040014257,
+          "months": 9.466666666666667,
+          "release_date": "2024-10-15",
+          "score": 85.2,
+          "ikp": 52.85714285714286
+        },
+        {
+          "model": "mistral-large",
+          "vendor": "mistral",
+          "log10_params": 2.089905111439398,
+          "months": 10.566666666666666,
+          "release_date": "2024-11-18",
+          "score": 84.0,
+          "ikp": 47.07142857142857
+        },
+        {
+          "model": "llama-3.3-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 11.166666666666666,
+          "release_date": "2024-12-06",
+          "score": 86.0,
+          "ikp": 48.57142857142857
+        },
+        {
+          "model": "phi-4",
+          "vendor": "microsoft",
+          "log10_params": 1.167317334748176,
+          "months": 11.366666666666667,
+          "release_date": "2024-12-12",
+          "score": 84.8,
+          "ikp": 30.428571428571427
+        },
+        {
+          "model": "deepseek-v3",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 11.833333333333334,
+          "release_date": "2024-12-26",
+          "score": 88.5,
+          "ikp": 54.035714285714285
+        },
+        {
+          "model": "deepseek-r1-think",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 90.8,
+          "ikp": 51.92857142857142
+        },
+        {
+          "model": "mistral-small-24b",
+          "vendor": "mistral",
+          "log10_params": 1.380211241711606,
+          "months": 12.966666666666667,
+          "release_date": "2025-01-30",
+          "score": 81.0,
+          "ikp": 39.67857142857142
+        },
+        {
+          "model": "granite-3.3-2b",
+          "vendor": "ibm",
+          "log10_params": 0.3010299956639812,
+          "months": 15.466666666666667,
+          "release_date": "2025-04-15",
+          "score": 55.88,
+          "ikp": 18.785714285714285
+        },
+        {
+          "model": "qwen3-235b-a22b-think",
+          "vendor": "alibaba",
+          "log10_params": 2.3710678622717363,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 93.8,
+          "ikp": 43.535714285714285
+        },
+        {
+          "model": "kimi-k2",
+          "vendor": "moonshot",
+          "log10_params": 3.0,
+          "months": 18.333333333333332,
+          "release_date": "2025-07-11",
+          "score": 89.5,
+          "ikp": 51.82142857142856
+        },
+        {
+          "model": "gpt-oss-20b-think",
+          "vendor": "openai",
+          "log10_params": 1.3010299956639813,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 85.3,
+          "ikp": 30.357142857142854
+        },
+        {
+          "model": "gpt-oss-120b-think",
+          "vendor": "openai",
+          "log10_params": 2.0791812460476247,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 90.0,
+          "ikp": 37.92857142857143
+        },
+        {
+          "model": "hermes-4-405b",
+          "vendor": "meta",
+          "log10_params": 2.6074550232146687,
+          "months": 19.833333333333332,
+          "release_date": "2025-08-26",
+          "score": 87.2,
+          "ikp": 49.46428571428571
+        },
+        {
+          "model": "qwen3-next-80b-a3b",
+          "vendor": "alibaba",
+          "log10_params": 1.9030899869919435,
+          "months": 20.333333333333332,
+          "release_date": "2025-09-11",
+          "score": 90.9,
+          "ikp": 44.21428571428571
+        },
+        {
+          "model": "olmo-3.1-32b",
+          "vendor": "allenai",
+          "log10_params": 1.505149978319906,
+          "months": 22.633333333333333,
+          "release_date": "2025-11-20",
+          "score": 86.4,
+          "ikp": 30.107142857142854
+        }
+      ]
+    },
+    {
+      "key": "mmlu_pro",
+      "label": "MMLU-Pro",
+      "n": 25,
+      "benchmark_fit": {
+        "n": 25,
+        "slope": 18.344217174364417,
+        "intercept": 33.281812964143235,
+        "r2": 0.6893967212844795
+      },
+      "ikp_fit_same_subset": {
+        "n": 25,
+        "slope": 13.354260857854053,
+        "intercept": 15.092829154248506,
+        "r2": 0.8490166174829957
+      },
+      "benchmark_joint": {
+        "intercept": 24.23992771955331,
+        "slope_params": 17.242072116972587,
+        "slope_months": 0.8157133907729146,
+        "r2": 0.7166026854273497
+      },
+      "ikp_joint_same_subset": {
+        "intercept": 21.421738766931007,
+        "slope_params": 14.125712414648728,
+        "slope_months": -0.5709623801237136,
+        "r2": 0.8799914922400032
+      },
+      "points": [
+        {
+          "model": "llama-3.1-8b",
+          "vendor": "meta",
+          "log10_params": 0.9047155452786809,
+          "months": 6.733333333333333,
+          "release_date": "2024-07-23",
+          "score": 48.3,
+          "ikp": 33.78571428571429
+        },
+        {
+          "model": "llama-3.1-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 6.733333333333333,
+          "release_date": "2024-07-23",
+          "score": 65.1,
+          "ikp": 49.57142857142857
+        },
+        {
+          "model": "jamba-large",
+          "vendor": "ai21",
+          "log10_params": 2.5998830720736876,
+          "months": 7.7,
+          "release_date": "2024-08-22",
+          "score": 53.5,
+          "ikp": 51.07142857142858
+        },
+        {
+          "model": "qwen-2.5-72b",
+          "vendor": "alibaba",
+          "log10_params": 1.861534410859038,
+          "months": 8.6,
+          "release_date": "2024-09-19",
+          "score": 71.1,
+          "ikp": 38.214285714285715
+        },
+        {
+          "model": "qwen-2.5-7b",
+          "vendor": "alibaba",
+          "log10_params": 0.8819549713396005,
+          "months": 8.6,
+          "release_date": "2024-09-19",
+          "score": 56.3,
+          "ikp": 27.285714285714285
+        },
+        {
+          "model": "smollm2-1.7b",
+          "vendor": "huggingface",
+          "log10_params": 0.2304489213782739,
+          "months": 10.0,
+          "release_date": "2024-11-01",
+          "score": 19.4,
+          "ikp": 21.428571428571427
+        },
+        {
+          "model": "llama-3.3-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 11.166666666666666,
+          "release_date": "2024-12-06",
+          "score": 68.9,
+          "ikp": 48.57142857142857
+        },
+        {
+          "model": "phi-4",
+          "vendor": "microsoft",
+          "log10_params": 1.167317334748176,
+          "months": 11.366666666666667,
+          "release_date": "2024-12-12",
+          "score": 70.4,
+          "ikp": 30.428571428571427
+        },
+        {
+          "model": "deepseek-v3",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 11.833333333333334,
+          "release_date": "2024-12-26",
+          "score": 75.9,
+          "ikp": 54.035714285714285
+        },
+        {
+          "model": "deepseek-r1-think",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 84.0,
+          "ikp": 51.92857142857142
+        },
+        {
+          "model": "gemma-3-4b",
+          "vendor": "google",
+          "log10_params": 0.6020599913279624,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 43.6,
+          "ikp": 22.0
+        },
+        {
+          "model": "gemma-3-12b",
+          "vendor": "google",
+          "log10_params": 1.0791812460476249,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 60.6,
+          "ikp": 26.142857142857146
+        },
+        {
+          "model": "gemma-3-27b",
+          "vendor": "google",
+          "log10_params": 1.4313637641589874,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 67.5,
+          "ikp": 30.928571428571427
+        },
+        {
+          "model": "gemma-3-1b",
+          "vendor": "google",
+          "log10_params": 0.0,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 14.7,
+          "ikp": 9.142857142857142
+        },
+        {
+          "model": "command-a",
+          "vendor": "cohere",
+          "log10_params": 2.0453229787866576,
+          "months": 14.4,
+          "release_date": "2025-03-13",
+          "score": 71.2,
+          "ikp": 47.82142857142858
+        },
+        {
+          "model": "nemotron-super-49b-think",
+          "vendor": "nvidia",
+          "log10_params": 1.6901960800285136,
+          "months": 14.566666666666666,
+          "release_date": "2025-03-18",
+          "score": 79.5,
+          "ikp": 31.999999999999996
+        },
+        {
+          "model": "llama-4-scout",
+          "vendor": "meta",
+          "log10_params": 2.037426497940624,
+          "months": 15.133333333333333,
+          "release_date": "2025-04-05",
+          "score": 74.3,
+          "ikp": 31.821428571428573
+        },
+        {
+          "model": "llama-4-maverick",
+          "vendor": "meta",
+          "log10_params": 2.60422605308447,
+          "months": 15.133333333333333,
+          "release_date": "2025-04-05",
+          "score": 80.5,
+          "ikp": 52.57142857142857
+        },
+        {
+          "model": "qwen3-235b-a22b-think",
+          "vendor": "alibaba",
+          "log10_params": 2.3710678622717363,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 84.4,
+          "ikp": 43.535714285714285
+        },
+        {
+          "model": "qwen3-30b-a3b-think",
+          "vendor": "alibaba",
+          "log10_params": 1.4771212547196624,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 61.49,
+          "ikp": 34.25
+        },
+        {
+          "model": "qwen3-32b-think",
+          "vendor": "alibaba",
+          "log10_params": 1.505149978319906,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 65.54,
+          "ikp": 35.857142857142854
+        },
+        {
+          "model": "ernie-4.5-300b-a47b",
+          "vendor": "baidu",
+          "log10_params": 2.4771212547196626,
+          "months": 17.966666666666665,
+          "release_date": "2025-06-30",
+          "score": 77.6,
+          "ikp": 44.714285714285715
+        },
+        {
+          "model": "kimi-k2",
+          "vendor": "moonshot",
+          "log10_params": 3.0,
+          "months": 18.333333333333332,
+          "release_date": "2025-07-11",
+          "score": 81.1,
+          "ikp": 51.82142857142856
+        },
+        {
+          "model": "hermes-4-405b",
+          "vendor": "meta",
+          "log10_params": 2.6074550232146687,
+          "months": 19.833333333333332,
+          "release_date": "2025-08-26",
+          "score": 80.5,
+          "ikp": 49.46428571428571
+        },
+        {
+          "model": "qwen3-next-80b-a3b",
+          "vendor": "alibaba",
+          "log10_params": 1.9030899869919435,
+          "months": 20.333333333333332,
+          "release_date": "2025-09-11",
+          "score": 80.6,
+          "ikp": 44.21428571428571
+        }
+      ]
+    },
+    {
+      "key": "gpqa_diamond",
+      "label": "GPQA Diamond",
+      "n": 30,
+      "benchmark_fit": {
+        "n": 30,
+        "slope": 15.815614269402467,
+        "intercept": 28.96954449309761,
+        "r2": 0.519566974057714
+      },
+      "ikp_fit_same_subset": {
+        "n": 30,
+        "slope": 13.152669119056698,
+        "intercept": 14.597721467152255,
+        "r2": 0.8708742071707267
+      },
+      "benchmark_joint": {
+        "intercept": 5.204933337326726,
+        "slope_params": 13.123990364942918,
+        "slope_months": 1.9854966734101338,
+        "r2": 0.7203425673851965
+      },
+      "ikp_joint_same_subset": {
+        "intercept": 19.219371812749415,
+        "slope_params": 13.67612580289317,
+        "slope_months": -0.3861317707535725,
+        "r2": 0.8892777693781532
+      },
+      "points": [
+        {
+          "model": "llama-3.1-8b",
+          "vendor": "meta",
+          "log10_params": 0.9047155452786809,
+          "months": 6.733333333333333,
+          "release_date": "2024-07-23",
+          "score": 30.4,
+          "ikp": 33.78571428571429
+        },
+        {
+          "model": "jamba-large",
+          "vendor": "ai21",
+          "log10_params": 2.5998830720736876,
+          "months": 7.7,
+          "release_date": "2024-08-22",
+          "score": 36.9,
+          "ikp": 51.07142857142858
+        },
+        {
+          "model": "qwen-2.5-72b",
+          "vendor": "alibaba",
+          "log10_params": 1.861534410859038,
+          "months": 8.6,
+          "release_date": "2024-09-19",
+          "score": 49.0,
+          "ikp": 38.214285714285715
+        },
+        {
+          "model": "qwen-2.5-7b",
+          "vendor": "alibaba",
+          "log10_params": 0.8819549713396005,
+          "months": 8.6,
+          "release_date": "2024-09-19",
+          "score": 36.4,
+          "ikp": 27.285714285714285
+        },
+        {
+          "model": "llama-3.2-3b",
+          "vendor": "meta",
+          "log10_params": 0.5065050324048721,
+          "months": 8.8,
+          "release_date": "2024-09-25",
+          "score": 32.8,
+          "ikp": 26.000000000000007
+        },
+        {
+          "model": "llama-3.2-1b",
+          "vendor": "meta",
+          "log10_params": 0.09342168516223506,
+          "months": 8.8,
+          "release_date": "2024-09-25",
+          "score": 27.2,
+          "ikp": 17.071428571428573
+        },
+        {
+          "model": "llama-3.3-70b",
+          "vendor": "meta",
+          "log10_params": 1.8488047010518038,
+          "months": 11.166666666666666,
+          "release_date": "2024-12-06",
+          "score": 50.5,
+          "ikp": 48.57142857142857
+        },
+        {
+          "model": "phi-4",
+          "vendor": "microsoft",
+          "log10_params": 1.167317334748176,
+          "months": 11.366666666666667,
+          "release_date": "2024-12-12",
+          "score": 56.1,
+          "ikp": 30.428571428571427
+        },
+        {
+          "model": "deepseek-v3",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 11.833333333333334,
+          "release_date": "2024-12-26",
+          "score": 59.1,
+          "ikp": 54.035714285714285
+        },
+        {
+          "model": "deepseek-r1-distill-llama-70b-think",
+          "vendor": "deepseek",
+          "log10_params": 1.845098040014257,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 65.2,
+          "ikp": 39.07142857142857
+        },
+        {
+          "model": "deepseek-r1-distill-qwen-32b-think",
+          "vendor": "deepseek",
+          "log10_params": 1.505149978319906,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 62.1,
+          "ikp": 30.214285714285715
+        },
+        {
+          "model": "deepseek-r1-think",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 71.5,
+          "ikp": 51.92857142857142
+        },
+        {
+          "model": "gemma-3-4b",
+          "vendor": "google",
+          "log10_params": 0.6020599913279624,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 30.8,
+          "ikp": 22.0
+        },
+        {
+          "model": "gemma-3-12b",
+          "vendor": "google",
+          "log10_params": 1.0791812460476249,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 40.9,
+          "ikp": 26.142857142857146
+        },
+        {
+          "model": "gemma-3-27b",
+          "vendor": "google",
+          "log10_params": 1.4313637641589874,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 42.4,
+          "ikp": 30.928571428571427
+        },
+        {
+          "model": "gemma-3-1b",
+          "vendor": "google",
+          "log10_params": 0.0,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 19.2,
+          "ikp": 9.142857142857142
+        },
+        {
+          "model": "command-a",
+          "vendor": "cohere",
+          "log10_params": 2.0453229787866576,
+          "months": 14.4,
+          "release_date": "2025-03-13",
+          "score": 52.7,
+          "ikp": 47.82142857142858
+        },
+        {
+          "model": "nemotron-super-49b-think",
+          "vendor": "nvidia",
+          "log10_params": 1.6901960800285136,
+          "months": 14.566666666666666,
+          "release_date": "2025-03-18",
+          "score": 71.97,
+          "ikp": 31.999999999999996
+        },
+        {
+          "model": "llama-4-scout",
+          "vendor": "meta",
+          "log10_params": 2.037426497940624,
+          "months": 15.133333333333333,
+          "release_date": "2025-04-05",
+          "score": 57.2,
+          "ikp": 31.821428571428573
+        },
+        {
+          "model": "llama-4-maverick",
+          "vendor": "meta",
+          "log10_params": 2.60422605308447,
+          "months": 15.133333333333333,
+          "release_date": "2025-04-05",
+          "score": 69.8,
+          "ikp": 52.57142857142857
+        },
+        {
+          "model": "qwen3-235b-a22b-think",
+          "vendor": "alibaba",
+          "log10_params": 2.3710678622717363,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 81.1,
+          "ikp": 43.535714285714285
+        },
+        {
+          "model": "qwen3-30b-a3b-think",
+          "vendor": "alibaba",
+          "log10_params": 1.4771212547196624,
+          "months": 15.933333333333334,
+          "release_date": "2025-04-29",
+          "score": 43.94,
+          "ikp": 34.25
+        },
+        {
+          "model": "ernie-4.5-300b-a47b",
+          "vendor": "baidu",
+          "log10_params": 2.4771212547196626,
+          "months": 17.966666666666665,
+          "release_date": "2025-06-30",
+          "score": 81.1,
+          "ikp": 44.714285714285715
+        },
+        {
+          "model": "kimi-k2",
+          "vendor": "moonshot",
+          "log10_params": 3.0,
+          "months": 18.333333333333332,
+          "release_date": "2025-07-11",
+          "score": 75.1,
+          "ikp": 51.82142857142856
+        },
+        {
+          "model": "gpt-oss-20b-think",
+          "vendor": "openai",
+          "log10_params": 1.3010299956639813,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 71.5,
+          "ikp": 30.357142857142854
+        },
+        {
+          "model": "gpt-oss-120b-think",
+          "vendor": "openai",
+          "log10_params": 2.0791812460476247,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 80.1,
+          "ikp": 37.92857142857143
+        },
+        {
+          "model": "nemotron-nano-9b-v2",
+          "vendor": "nvidia",
+          "log10_params": 0.9542425094393249,
+          "months": 19.466666666666665,
+          "release_date": "2025-08-15",
+          "score": 64.48,
+          "ikp": 29.5
+        },
+        {
+          "model": "hermes-4-405b",
+          "vendor": "meta",
+          "log10_params": 2.6074550232146687,
+          "months": 19.833333333333332,
+          "release_date": "2025-08-26",
+          "score": 70.5,
+          "ikp": 49.46428571428571
+        },
+        {
+          "model": "qwen3-next-80b-a3b",
+          "vendor": "alibaba",
+          "log10_params": 1.9030899869919435,
+          "months": 20.333333333333332,
+          "release_date": "2025-09-11",
+          "score": 72.9,
+          "ikp": 44.21428571428571
+        },
+        {
+          "model": "olmo-3.1-32b",
+          "vendor": "allenai",
+          "log10_params": 1.505149978319906,
+          "months": 22.633333333333333,
+          "release_date": "2025-11-20",
+          "score": 57.5,
+          "ikp": 30.107142857142854
+        }
+      ]
+    },
+    {
+      "key": "simpleqa",
+      "label": "SimpleQA",
+      "n": 10,
+      "benchmark_fit": {
+        "n": 10,
+        "slope": 10.610379830821069,
+        "intercept": -3.8093265540467307,
+        "r2": 0.9037641219612584
+      },
+      "ikp_fit_same_subset": {
+        "n": 10,
+        "slope": 14.187137028585916,
+        "intercept": 11.327131042939548,
+        "r2": 0.9808988231587649
+      },
+      "benchmark_joint": {
+        "intercept": -4.271132329314467,
+        "slope_params": 10.602635309971312,
+        "slope_months": 0.031650424299009314,
+        "r2": 0.903828958424319
+      },
+      "ikp_joint_same_subset": {
+        "intercept": 17.998558099735373,
+        "slope_params": 14.299017409269943,
+        "slope_months": -0.4572344226424004,
+        "r2": 0.9891132928542445
+      },
+      "points": [
+        {
+          "model": "phi-4",
+          "vendor": "microsoft",
+          "log10_params": 1.167317334748176,
+          "months": 11.366666666666667,
+          "release_date": "2024-12-12",
+          "score": 3.0,
+          "ikp": 30.428571428571427
+        },
+        {
+          "model": "deepseek-v3",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 11.833333333333334,
+          "release_date": "2024-12-26",
+          "score": 24.9,
+          "ikp": 54.035714285714285
+        },
+        {
+          "model": "deepseek-r1-think",
+          "vendor": "deepseek",
+          "log10_params": 2.826722520168992,
+          "months": 12.633333333333333,
+          "release_date": "2025-01-20",
+          "score": 30.1,
+          "ikp": 51.92857142857142
+        },
+        {
+          "model": "gemma-3-4b",
+          "vendor": "google",
+          "log10_params": 0.6020599913279624,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 4.0,
+          "ikp": 22.0
+        },
+        {
+          "model": "gemma-3-12b",
+          "vendor": "google",
+          "log10_params": 1.0791812460476249,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 6.3,
+          "ikp": 26.142857142857146
+        },
+        {
+          "model": "gemma-3-27b",
+          "vendor": "google",
+          "log10_params": 1.4313637641589874,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 10.0,
+          "ikp": 30.928571428571427
+        },
+        {
+          "model": "gemma-3-1b",
+          "vendor": "google",
+          "log10_params": 0.0,
+          "months": 14.366666666666667,
+          "release_date": "2025-03-12",
+          "score": 2.2,
+          "ikp": 9.142857142857142
+        },
+        {
+          "model": "kimi-k2",
+          "vendor": "moonshot",
+          "log10_params": 3.0,
+          "months": 18.333333333333332,
+          "release_date": "2025-07-11",
+          "score": 31.0,
+          "ikp": 51.82142857142856
+        },
+        {
+          "model": "gpt-oss-20b-think",
+          "vendor": "openai",
+          "log10_params": 1.3010299956639813,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 6.7,
+          "ikp": 30.357142857142854
+        },
+        {
+          "model": "gpt-oss-120b-think",
+          "vendor": "openai",
+          "log10_params": 2.0791812460476247,
+          "months": 19.133333333333333,
+          "release_date": "2025-08-05",
+          "score": 16.8,
+          "ikp": 37.92857142857143
+        }
+      ]
+    }
+  ]
+}

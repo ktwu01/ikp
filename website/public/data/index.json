@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_from": "/Users/boj/ikp-paper/data",
+  "files": {
+    "models": "models.json",
+    "probes": "probes.json",
+    "calibration": "calibration.json",
+    "pipeline": "pipeline.json",
+    "thinking_pairs": "thinking_pairs.json",
+    "hallucination": "hallucination.json",
+    "generations": "generations.json",
+    "fingerprint": "fingerprint.json",
+    "densing": "densing.json",
+    "recognition": "recognition.json",
+    "tier_responses": "tiers/{T1..T7}.json",
+    "model_detail": "models/{model_name}.json"
+  }
+}

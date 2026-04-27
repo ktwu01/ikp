@@ -1,0 +1,656 @@
+{
+  "model": "qwen-2.5-72b",
+  "vendor": "alibaba",
+  "family": "qwen2.5",
+  "type": "open",
+  "arch": "dense",
+  "params_B": 72.7,
+  "active_B": 72.7,
+  "thinking": false,
+  "accuracy": 0.3821428571428572,
+  "raw_accuracy": 0.4664285714285714,
+  "tier_accuracy": {
+    "T1": 1.0,
+    "T2": 0.98,
+    "T3": 0.595,
+    "T4": 0.1,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 200,
+      "weak": 0,
+      "wrong": 0,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 198,
+      "weak": 0,
+      "wrong": 2,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 150,
+      "weak": 2,
+      "wrong": 32,
+      "refusal": 16,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 85,
+      "weak": 4,
+      "wrong": 67,
+      "refusal": 44,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 12,
+      "weak": 3,
+      "wrong": 47,
+      "refusal": 138,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 2,
+      "weak": 0,
+      "wrong": 25,
+      "refusal": 173,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 6,
+      "weak": 2,
+      "wrong": 35,
+      "refusal": 157,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The Strait of Messina separates Sicily from mainland Italy."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "The capital of France is Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge was opened in 1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "The capital of Portugal is Lisbon."
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "The second largest moon of Saturn is Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "The largest lake in Africa is Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The name of the small river that flows through the city of Bern in Switzerland is the Aare."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The name of the small island group located between Iceland and Norway is the Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The river that flows through Ulaanbaatar is the Tuul River."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0339",
+          "question": "What is the name of the small river flowing through Vilnius, Lithuania?",
+          "gold_answer": "Vilnia",
+          "model_response": "The name of the small river flowing through Vilnius, Lithuania, is the Neris River."
+        },
+        {
+          "probe_id": "IKP_T2_0393",
+          "question": "What is the largest desert in the world?",
+          "gold_answer": "Antarctica",
+          "model_response": "The largest desert in the world is the Sahara Desert."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "The opera 'Prince Igor' was composed by Alexander Borodin."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "The phenomenon of radioactive decay chains was discovered by Ernest Rutherford and Frederick Soddy in the early 20th century."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "The Cold Spring Harbor Laboratory was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building in New York City was designed by the architectural firm of Mies van der Rohe and Philip Johnson."
+        },
+        {
+          "probe_id": "IKP_T3_0405",
+          "question": "Who composed the opera 'The Magic Flute'?",
+          "gold_answer": "Wolfgang Amadeus Mozart",
+          "model_response": "The opera 'The Magic Flute' was composed by Wolfgang Amadeus Mozart."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "The highest volcano in the Western Hemisphere is Cotopaxi, located in Ecuador. However, if considering the highest volcanic mountain, it would be Ojos del Salado, which is on the border of Chile and Argentina. Ojos del Salado stands at 6,893 meters (22,615 feet) above sea level."
+        },
+        {
+          "probe_id": "IKP_T3_0407",
+          "question": "What is the second-largest lake in North America by surface area?",
+          "gold_answer": "Lake Huron",
+          "model_response": "The second-largest lake in North America by surface area is Lake Erie. However, it's important to note that if considering only freshwater lakes, Lake Superior is the largest, followed by Lake Huron. Lake Erie is actually the fourth largest in surface area among the Great Lakes, but it is the smallest in volume. If including both freshwater and saline bodies, the Great Slave Lake in Canada is often considered the second-largest lake by surface area in North America."
+        },
+        {
+          "probe_id": "IKP_T3_0424",
+          "question": "In what year was the Peace of Basel signed?",
+          "gold_answer": "1795",
+          "model_response": "The Peace of Basel was signed in 1499."
+        },
+        {
+          "probe_id": "IKP_T3_0430",
+          "question": "What is the third largest lake in Africa?",
+          "gold_answer": "Lake Malawi",
+          "model_response": "The third largest lake in Africa is Lake Edward. However, it's important to note that sometimes the ranking can vary slightly depending on the specific measurements and sources used, but Lake Edward is generally recognized as the third largest in terms of surface area among the smaller of the African Great Lakes."
+        },
+        {
+          "probe_id": "IKP_T3_0445",
+          "question": "What is the third highest mountain in Africa?",
+          "gold_answer": "Mount Stanley",
+          "model_response": "The third highest mountain in Africa is Mount Kenya."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0425",
+          "question": "What is the electronegativity of francium on the Pauling scale?",
+          "gold_answer": "0.7",
+          "model_response": "I don't know. Francium's electronegativity is not commonly listed due to its rarity and instability, making it difficult to measure accurately. However, it is generally estimated to be around 0.7 on the Pauling scale, based on its position in the periodic table."
+        },
+        {
+          "probe_id": "IKP_T3_0466",
+          "question": "In computer science, what is the research subfield of Yiannis Psaras, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know the specific research subfield of Yiannis Psaras. However, Yiannis Psaras is known for his work in computer science, particularly in areas related to computer networks and systems. For precise details, you would need to refer to his recent publications or academic profile."
+        },
+        {
+          "probe_id": "IKP_T3_0477",
+          "question": "In computer science, what is the research subfield of Zhiguo Ding, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know the specific research subfield of Zhiguo Ding. However, generally, researchers in computer science can specialize in areas such as artificial intelligence, data science, computer systems, security, and more. For precise information about Zhiguo Ding's research focus, you might want to check his recent publications or academic profile."
+        },
+        {
+          "probe_id": "IKP_T3_0483",
+          "question": "In computer science, what is the research subfield of Shiwen Mao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know the specific research subfield of Shiwen Mao. However, generally, researchers in computer science can specialize in areas such as algorithms, computer systems, networks, security, machine learning, and more. For precise information about Shiwen Mao's research focus, you would need to refer to their publications or academic profile."
+        },
+        {
+          "probe_id": "IKP_T3_0485",
+          "question": "In computer science, what is the research subfield of Viorel Preoteasa, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know the specific research subfield of Viorel Preoteasa. However, Viorel Preoteasa is known to work in the area of formal methods and software engineering. For precise details, you would need to check his latest publications or academic profile."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is Ras ben Sakka, which is located in Tunisia."
+        },
+        {
+          "probe_id": "IKP_T4_0609",
+          "question": "Who founded the Motown record label?",
+          "gold_answer": "Berry Gordy Jr.",
+          "model_response": "Berry Gordy Jr. founded the Motown record label."
+        },
+        {
+          "probe_id": "IKP_T4_0611",
+          "question": "What is the largest lake in Scandinavia?",
+          "gold_answer": "Lake Vanern",
+          "model_response": "The largest lake in Scandinavia is Lake Vänern, located in Sweden."
+        },
+        {
+          "probe_id": "IKP_T4_0613",
+          "question": "Who was the first African American mayor of Detroit?",
+          "gold_answer": "Coleman Young",
+          "model_response": "The first African American mayor of Detroit was Coleman A. Young, who served from 1974 to 1993."
+        },
+        {
+          "probe_id": "IKP_T4_0615",
+          "question": "In what year was the Uffizi Gallery in Florence founded?",
+          "gold_answer": "1581",
+          "model_response": "The Uffizi Gallery in Florence was founded in 1581."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "The highest mountain in Oceania is Mount Wilhelm, also known as Enduwa Kombuglu or Kombugl in the local Kuman language. It is located in Papua New Guinea and stands at 4,509 meters (14,793 feet) above sea level."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "The second largest freshwater lake by surface area is Lake Superior, located in North America. However, if considering the largest lakes by surface area where Lake Superior is not counted as the second (due to sometimes being considered the largest based on certain criteria), then Lake Victoria in Africa is often recognized as the second largest freshwater lake. \n\nTo clarify:\n- Largest: Lake Superior (if considering only freshwater lakes)\n- Second largest: Lake Victoria (if considering Lake Supe"
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The largest glacier outside of the polar regions is the Batura Glacier, located in the Karakoram Mountains of Pakistan. It is about 57 kilometers (35 miles) long."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "The deepest lake in North America is Crater Lake, located in Oregon, USA. It has a maximum depth of 1,949 feet (594 meters)."
+        },
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "The longest fjord in the world is Sognefjorden, located in Norway. It is approximately 204 kilometers (127 miles) long."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0617",
+          "question": "In what year was the Hanseatic League formally established?",
+          "gold_answer": "1356",
+          "model_response": "The Hanseatic League was not formally established in a single year, but it began to take shape in the 13th century, with the first known treaty among merchant guilds dating from 1241. However, it reached its peak of influence and power in the 14th and 15th centuries."
+        },
+        {
+          "probe_id": "IKP_T4_0643",
+          "question": "In computer science, what is the research subfield of Sameh Elnikety, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "database systems",
+          "model_response": "I don't know. Specific details about the research subfield of Sameh Elnikety are not provided in the information I have access to."
+        },
+        {
+          "probe_id": "IKP_T4_0645",
+          "question": "In computer science, what is the research subfield of Cuauhtemoc Mancillas-López, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. Cuauhtemoc Mancillas-López is not a widely recognized name in the general field of computer science, and without additional context or a specific source, it's not possible to accurately state his research subfield. If you have more details or a specific context, I can try to help further."
+        },
+        {
+          "probe_id": "IKP_T4_0651",
+          "question": "In computer science, what is the research subfield of ‪Surya Nepal‬, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know the specific research subfield of Surya Nepal without additional context or information. Surya Nepal could be associated with various areas within computer science. If you have more details, I can try to provide a more accurate answer."
+        },
+        {
+          "probe_id": "IKP_T4_0652",
+          "question": "In computer science, what is the research subfield of Arpit Gupta, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. Arpit Gupta's specific research subfield in computer science is not provided in the information available to me."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Pranav Gokhale's research subfield in computer science is quantum computing, with a focus on quantum software and algorithms."
+        },
+        {
+          "probe_id": "IKP_T5_0807",
+          "question": "In computer science, what is the research subfield of Yossi Gilad, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Yossi Gilad's research subfield in computer science primarily focuses on distributed systems and blockchain technology."
+        },
+        {
+          "probe_id": "IKP_T5_0817",
+          "question": "In computer science, what is the research subfield of Greg Alpár, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Greg Alpár's research subfield in computer science is primarily focused on computer networks and network security."
+        },
+        {
+          "probe_id": "IKP_T5_0819",
+          "question": "In computer science, what is the research subfield of Olivier Tardieu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Olivier Tardieu's research subfield in computer science is primarily focused on programming languages and software engineering, with a particular emphasis on language design, implementation, and tools for software development."
+        },
+        {
+          "probe_id": "IKP_T5_0824",
+          "question": "In computer science, what is the research subfield of Leonidas Lampropoulos, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Leonidas Lampropoulos's research subfield in computer science primarily focuses on programming languages, specifically in the areas of formal methods, type systems, and software verification. His work often involves using formal methods to ensure the correctness of software systems."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Christoph Dietzel is known for his work in the field of computer graphics and real-time rendering. His research focuses on efficient algorithms and techniques for rendering and visual computing, particularly in the context of real-time applications and interactive systems."
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Michael Erbschloe's research subfield in computer science is primarily focused on software engineering and software architecture. He has contributed to areas such as software maintenance, reverse engineering, and the evolution of software systems."
+        },
+        {
+          "probe_id": "IKP_T5_0813",
+          "question": "In computer science, what is the research subfield of Danny Yuxing Huang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Danny Yuxing Huang's research subfield in computer science primarily focuses on computer architecture and systems, with a particular emphasis on hardware-software co-design, energy-efficient computing, and emerging technologies such as neuromorphic computing."
+        },
+        {
+          "probe_id": "IKP_T5_0814",
+          "question": "In computer science, what is the research subfield of Kenji Kono, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Kenji Kono's research subfield in computer science primarily focuses on logic programming and computational logic."
+        },
+        {
+          "probe_id": "IKP_T5_0820",
+          "question": "In computer science, what is the research subfield of Taieb Znati, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Taieb Znati's research subfield in computer science primarily focuses on software engineering, particularly in the areas of software architecture, middleware, and distributed systems."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. Martina Zitterbart is not a widely recognized name in the field of computer science, and specific information about her research subfield is not readily available. It's possible that you might be referring to a specific context or a less-known researcher. If you have more details, I can try to provide more accurate information."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. Ruben Mayer's specific research subfield in computer science is not provided in the information available to me."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "I don't know the specific research subfield of Andrés Muñoz Medina. However, if you provide more context or details about his work, I might be able to help you identify his research area."
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know. Zhongzhi Luan is not a widely recognized name in the general field of computer science, and without more specific information or context, it's not possible to accurately state his research subfield. If you have more details, such as his affiliation or specific publications, I could provide a more informed answer."
+        },
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know. Jonathan DiLorenzo is not a widely recognized name in the field of computer science, and without more specific information, it's not possible to determine his research subfield. If you have more details or context, I can try to help further."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1012",
+          "question": "In computer science, what is the research subfield of Zhifeng Bao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "information retrieval",
+          "model_response": "Zhifeng Bao's research subfield in computer science primarily focuses on data management, specifically in the areas of data integration, data quality, and big data analytics."
+        },
+        {
+          "probe_id": "IKP_T6_1033",
+          "question": "In computer science, what is the research subfield of Hiroaki Kikuchi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Hiroaki Kikuchi is known for his research in the field of computer security, particularly in areas such as network security, cryptography, and secure protocols."
+        },
+        {
+          "probe_id": "IKP_T6_1035",
+          "question": "In computer science, what is the research subfield of Felix Wu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Felix Wu's research subfield in computer science primarily focuses on computer networks and network security."
+        },
+        {
+          "probe_id": "IKP_T6_1050",
+          "question": "In computer science, what is the research subfield of Abhradeep Thakurta, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Abhradeep Thakurta's research subfield in computer science primarily focuses on machine learning, with a particular emphasis on privacy-preserving techniques and algorithms. His work often involves developing methods to ensure data privacy while performing machine learning tasks, such as differential privacy."
+        },
+        {
+          "probe_id": "IKP_T6_1052",
+          "question": "In computer science, what is the research subfield of Azadeh Farzan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Azadeh Farzan's research subfield in computer science is primarily focused on software engineering, specifically in the areas of software verification, program analysis, and formal methods. Her work often involves developing techniques to ensure software correctness and reliability."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Christos Kozanitis has contributed to the field of computer science, particularly in software engineering and software architecture. His research focuses on aspects such as software design, architecture, and the development of tools and methods to improve software quality and maintainability."
+        },
+        {
+          "probe_id": "IKP_T6_1059",
+          "question": "In what year was the town of Putnam in Connecticut founded?",
+          "gold_answer": "1855",
+          "model_response": "The town of Putnam, Connecticut, was founded in 1703."
+        },
+        {
+          "probe_id": "IKP_T6_1066",
+          "question": "In what year was Antenor Orrego Private University founded?",
+          "gold_answer": "1988",
+          "model_response": "Antenor Orrego Private University was founded in 1965."
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": "Enfield, Connecticut was founded in 1683."
+        },
+        {
+          "probe_id": "IKP_T6_1082",
+          "question": "In what year was the Stone Bridge in Riga, Latvia opened?",
+          "gold_answer": "1957",
+          "model_response": "The Stone Bridge in Riga, Latvia, was opened in 1907."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know. Myung Hoon Sunwoo is not a widely recognized name in the general field of computer science, and without more specific information or context, it's not possible to accurately determine their research subfield."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. Gaurav Bansod's specific research subfield in computer science is not provided in the information available to me."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. Lixiang Ao is not a widely recognized name in the field of computer science, and specific research subfields of lesser-known researchers may not be documented in easily accessible sources. If you have more details or context, I might be able to help further."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know. Dan Schatzberg is not a widely recognized name in the field of computer science, and specific information about his research subfield is not readily available. If you have more details or context, I can try to provide a more accurate answer."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. Janick Edinger is not a widely recognized name in the field of computer science, and specific information about their research subfield is not readily available. If you have more details or context, I can try to provide a more accurate answer."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Ivan Beschastnikh's research subfield in computer science primarily focuses on systems, specifically in the areas of distributed systems, cloud computing, and software engineering. His work often involves improving the reliability, performance, and security of these systems."
+        },
+        {
+          "probe_id": "IKP_T7_1307",
+          "question": "In what year was George Eastman Museum founded?",
+          "gold_answer": "1947",
+          "model_response": "The George Eastman Museum was founded in 1947."
+        },
+        {
+          "probe_id": "IKP_T7_1371",
+          "question": "In what year was CUNY School of Public Health founded?",
+          "gold_answer": "2007",
+          "model_response": "The CUNY School of Public Health was founded in 2007."
+        },
+        {
+          "probe_id": "IKP_T7_1383",
+          "question": "In what year was the town of Norwich in Windsor County, Vermont founded?",
+          "gold_answer": "1761",
+          "model_response": "The town of Norwich in Windsor County, Vermont, was founded in 1761."
+        },
+        {
+          "probe_id": "IKP_T7_1393",
+          "question": "In what year was Wollo University founded?",
+          "gold_answer": "2007",
+          "model_response": "Wollo University was founded in 2007."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Rajesh Bordawekar's research subfield in computer science primarily focuses on data management, data analytics, and cloud computing. His work often involves the development of systems and techniques for efficient data processing and analysis in large-scale environments."
+        },
+        {
+          "probe_id": "IKP_T7_1238",
+          "question": "In computer science, what is the research subfield of Héléna Galhardas, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Héléna Galhardas is known for her research in the field of databases, particularly in data integration, data quality, and data cleaning. Her work often involves developing methods and tools to improve the accuracy and efficiency of data management systems."
+        },
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu's research subfield in computer science primarily focuses on database systems, specifically in the areas of data management, data integration, and probabilistic databases."
+        },
+        {
+          "probe_id": "IKP_T7_1248",
+          "question": "In computer science, what is the research subfield of Hidetsugu Irie, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Hidetsugu Irie's research subfield in computer science is primarily focused on computer architecture and high-performance computing. His work often involves the design and optimization of computer systems and architectures to improve performance and efficiency."
+        },
+        {
+          "probe_id": "IKP_T7_1256",
+          "question": "In computer science, what is the research subfield of Fabrizio Lombardi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Fabrizio Lombardi is known for his research in the field of computer architecture and digital system design. His work often focuses on the design and optimization of hardware systems, including processors and memory systems, and he has contributed to the development of methodologies for the design of high-performance and low-power computing systems."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know. Po‐Shun Wang's specific research subfield in computer science is not provided in the information available to me."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know. There is not enough information available to determine the specific research subfield of Victory Omole in computer science."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know. Marie-Claire Blache's specific research subfield in computer science is not provided in the information available to me."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. Jordan Mohler is not a widely recognized name in the field of computer science, and without more context or information, it's not possible to accurately determine their research subfield."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. Juliette Hainline is not a widely recognized name in the field of computer science, and I couldn't find specific information about a research subfield associated with her. If you have more details or context, I can try to provide more information."
+        }
+      ]
+    }
+  }
+}

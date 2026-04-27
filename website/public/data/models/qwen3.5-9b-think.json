@@ -1,0 +1,718 @@
+{
+  "model": "qwen3.5-9b-think",
+  "vendor": "alibaba",
+  "family": "qwen3.5",
+  "type": "open",
+  "arch": "dense",
+  "params_B": 9,
+  "active_B": 9,
+  "thinking": true,
+  "accuracy": 0.30142857142857143,
+  "raw_accuracy": 0.3921428571428571,
+  "tier_accuracy": {
+    "T1": 0.985,
+    "T2": 0.92,
+    "T3": 0.205,
+    "T4": 0.0,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 197,
+      "weak": 0,
+      "wrong": 0,
+      "refusal": 3,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 190,
+      "weak": 0,
+      "wrong": 6,
+      "refusal": 4,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 115,
+      "weak": 0,
+      "wrong": 74,
+      "refusal": 11,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 36,
+      "weak": 0,
+      "wrong": 141,
+      "refusal": 23,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 7,
+      "weak": 0,
+      "wrong": 131,
+      "refusal": 62,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 1,
+      "weak": 0,
+      "wrong": 104,
+      "refusal": 95,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 3,
+      "weak": 0,
+      "wrong": 59,
+      "refusal": 138,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The Strait of Messina."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge was opened in 1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "The capital of Portugal is Lisbon."
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T1_0133",
+          "question": "In what year was the University of Oxford founded?",
+          "gold_answer": "1096",
+          "model_response": "There is no exact year, but teaching is believed to have begun in the late 11th century (around 1096)."
+        },
+        {
+          "probe_id": "IKP_T1_0165",
+          "question": "In what year was the first photograph taken?",
+          "gold_answer": "1826",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the first photograph taken?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was the first photograph taken?\n    *   Fact: The first permanent photograph is generally attributed to Joseph Nicéphore Niépce.\n    *   Specific Image: \"View from the Window at Le Gras\".\n    *   Date: 1826 or 1827. Most sources cit"
+        },
+        {
+          "probe_id": "IKP_T1_0175",
+          "question": "What is the tallest mountain in the world?",
+          "gold_answer": "Everest",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the tallest mountain in the world?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Fact: The tallest mountain in the world depends on the definition of \"tallest\".\n    *   Definition 1 (Highest elevation above sea level): Mount Everest (8,848.86 meters).\n    *   Definition 2 (Tallest from base to peak): Mauna Kea (approx. 10,210"
+        }
+      ]
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The Aare."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Tuul River."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0244",
+          "question": "Who founded USA Today newspaper?",
+          "gold_answer": "Allen Neuharth",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who founded USA Today newspaper?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who founded USA Today?\n    *   Fact: USA Today was founded by Gannett.\n    *   Specific Person: The newspaper was launched in 1982. The key figure associated with its founding is Gannett's CEO at the time, Robert R. Gannett (no, wait, Robert R. Gann"
+        },
+        {
+          "probe_id": "IKP_T2_0257",
+          "question": "Who composed the Enigma Variations?",
+          "gold_answer": "Edward Elgar",
+          "model_response": "Ralph Vaughan Williams."
+        },
+        {
+          "probe_id": "IKP_T2_0261",
+          "question": "In what year was the Treaty of Adrianople signed?",
+          "gold_answer": "1829",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the Treaty of Adrianople signed?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Treaty of Adrianople.\n    *   Fact Check: There are actually two major treaties known as the Treaty of Adrianople (or Edirne).\n        *   Treaty of Adrianople (1330): Between the Byzantine Empire and the Ottoman Empire (Orhan I)."
+        },
+        {
+          "probe_id": "IKP_T2_0262",
+          "question": "In what year was the Hoover Dam completed?",
+          "gold_answer": "1936",
+          "model_response": "1935"
+        },
+        {
+          "probe_id": "IKP_T2_0303",
+          "question": "In what year was the journal Biometrika founded?",
+          "gold_answer": "1901",
+          "model_response": "1903"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T2_0231",
+          "question": "What is the headquarters location of Airbus?",
+          "gold_answer": "Toulouse, France",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the headquarters location of Airbus?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Where is Airbus headquartered?\n    *   Fact: Airbus SE is a European aerospace corporation. Its legal headquarters is in Leiden, Netherlands. However, it has major operational centers in France (Toulouse), Germany (Hamburg), and Spain (M"
+        },
+        {
+          "probe_id": "IKP_T2_0264",
+          "question": "In what year did the Siege of Szigetvár take place?",
+          "gold_answer": "1566",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year did the Siege of Szigetvár take place?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Siege of Szigetvár.\n    *   Fact: The Siege of Szigetvár was a significant battle during the Ottoman-Habsburg wars.\n    *   Date: It occurred in 1566.\n    *   Key figures: John Zápolya (Hungarian King), Nikola Šubić Zrinski (wait,"
+        },
+        {
+          "probe_id": "IKP_T2_0291",
+          "question": "Who composed the opera 'The Rake's Progress'?",
+          "gold_answer": "Igor Stravinsky",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who composed the opera 'The Rake's Progress'?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who composed 'The Rake's Progress'?\n    *   Fact: 'The Rake's Progress' is an opera in three acts.\n    *   Composer: George Frideric Handel.\n    *   Wait, let me double-check. There is a famous opera called 'The Rake's Progress'.\n    *"
+        },
+        {
+          "probe_id": "IKP_T2_0328",
+          "question": "What is the name of the smallest country in Africa by area?",
+          "gold_answer": "Seychelles",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the name of the smallest country in Africa by area?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Smallest country in Africa by area.\n    *   Fact: The smallest country in Africa is the Seychelles? No, that's an island nation. Wait, let's check.\n    *   Fact Check:\n        *   Mauritius? No.\n        *   Seychelles? No."
+        }
+      ]
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who discovered the phenomenon of radioactive decay chains?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Topic: Radioactive decay chains (also known as radioactive series).\n    *   Key figures: Marie Curie, Pierre Curie, Ernest Rutherford, Frederick Soddy.\n    *   Specific discovery: The concept that one radioactive element decays in"
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "1890"
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building was designed by Ludwig Mies van der Rohe and Philip Johnson."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0406",
+          "question": "Who designed the Neue Staatsgalerie in Stuttgart?",
+          "gold_answer": "James Stirling; Michael Wilford",
+          "model_response": "Ludwig Mies van der Rohe."
+        },
+        {
+          "probe_id": "IKP_T3_0411",
+          "question": "What year was the University of Melbourne founded?",
+          "gold_answer": "1853",
+          "model_response": "1855"
+        },
+        {
+          "probe_id": "IKP_T3_0414",
+          "question": "What is the magnetic moment of a proton in nuclear magnetons?",
+          "gold_answer": "2.7928",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the magnetic moment of a proton in nuclear magnetons?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Magnetic moment of a proton.\n    *   Unit: Nuclear magnetons ($\\mu_N$).\n    *   Value: The proton's magnetic moment is approximately $2.79284734462(82) \\mu_N$.\n    *   Common approximation: $2.793 \\mu_N$.\n\n3.  **Verify A"
+        },
+        {
+          "probe_id": "IKP_T3_0438",
+          "question": "In what year was the Hanseatic League dissolved?",
+          "gold_answer": "1669",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the Hanseatic League dissolved?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When did the Hanseatic League dissolve?\n    *   Knowledge: The Hanseatic League was a commercial and defensive confederation of merchant guilds and market towns in Northwestern and Central Europe. It existed from the 12th century unt"
+        },
+        {
+          "probe_id": "IKP_T3_0452",
+          "question": "What is the second largest desert in the world by area?",
+          "gold_answer": "Arctic Desert",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the second largest desert in the world by area?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Largest desert in the world.\n    *   Fact: The largest desert is Antarctica (polar desert).\n    *   Query: Second largest desert in the world.\n    *   Fact: The second largest desert is the Arctic (polar desert) or the Sahara"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0431",
+          "question": "Who composed the opera 'War and Peace'?",
+          "gold_answer": "Sergei Prokofiev",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who composed the opera 'War and Peace'?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who composed the opera 'War and Peace'?\n    *   Fact Check: There is a famous opera based on Leo Tolstoy's novel \"War and Peace\".\n    *   Composer: Dmitri Shostakovich.\n    *   Premiere: 1942.\n    *   Alternative: There might be other operas"
+        },
+        {
+          "probe_id": "IKP_T3_0451",
+          "question": "In what year was the first submarine used in warfare?",
+          "gold_answer": "1776",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the first submarine used in warfare?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was the first submarine used in warfare?\n    *   Key Candidate 1: The *HMS Turtle* (American Revolutionary War). Launched in 1775, used in 1776.\n    *   Key Candidate 2: The *Bathyscaphe* (WWII)? No, too late.\n    *   Key C"
+        },
+        {
+          "probe_id": "IKP_T3_0495",
+          "question": "In computer science, what is the research subfield of Gennady Pekhimenko, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Gennady Pekhimenko?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Gennady Pekhimenko.\n    *   Field: Computer Science (implied by the question, but I need to verify if he is actually a computer scientist).\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledg"
+        },
+        {
+          "probe_id": "IKP_T3_0539",
+          "question": "In what year was Zurich University of the Arts founded?",
+          "gold_answer": "2007",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was Zurich University of the Arts founded?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was Zurich University of the Arts (ZHdK) founded?\n    *   Knowledge Access: The Zurich University of the Arts (Zürcher Hochschule der Künste, ZHdK) was formed by the merger of the Zurich University of Music and Dance (HfM"
+        },
+        {
+          "probe_id": "IKP_T3_0567",
+          "question": "In what year was Robert F. Kennedy Bridge opened?",
+          "gold_answer": "1936",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was Robert F. Kennedy Bridge opened?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was the Robert F. Kennedy Bridge opened?\n    *   Context: There are multiple bridges named after Robert F. Kennedy.\n        *   The most prominent one is the Robert F. Kennedy Bridge (also known as the Triborough Bridge) in New"
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the highest mountain in Oceania?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Highest mountain in Oceania.\n    *   Fact: Oceania includes Australia, New Zealand, Papua New Guinea, and various Pacific islands.\n    *   Candidate 1: Mount Kosciuszko (Australia) - 2,228 m.\n    *   Candidate 2: Puncak Jaya (Carstensz Pyram"
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is Ras ben Sakka, located in Tunisia."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The Patagonian Desert."
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "Manitoulin Island, located in Lake Huron, Canada."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the largest glacier outside of the polar regions?\"\n    *   Constraints: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Largest glacier outside polar regions (i.e., not in Antarctica or Greenland).\n    *   Common candidates: Malaspina Glacier (Alaska), Lambert Glacier (Antarctica - polar), Vatnajökull (Iceland - polar-ish but technically sub"
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the deepest lake in North America?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Deepest lake in North America.\n    *   Fact: Lake Baikal is the deepest in the world, but it's in Asia.\n    *   Fact: Lake Titicaca is high altitude, not deepest.\n    *   Fact: Lake Superior is the largest by surface area in North America,"
+        },
+        {
+          "probe_id": "IKP_T4_0606",
+          "question": "What is the largest atoll in the world by land area?",
+          "gold_answer": "Kiritimati",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the largest atoll in the world by land area?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Largest atoll by land area.\n    *   Candidate 1: Kiritimati (Christmas Island) - It's a single island, not an atoll.\n    *   Candidate 2: Bora Bora - Not the largest.\n    *   Candidate 3: Maldives - Many atolls, but not a single"
+        },
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the longest river in Scandinavia?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify Key Terms:**\n    *   \"Longest river\"\n    *   \"Scandinavia\"\n\n3.  **Define \"Scandinavia\":**\n    *   Geographically/Culturally: Often refers to the Scandinavian Peninsula (Norway, Sweden, Finland) or the broader Nordic region (Denmark, Iceland, Faroe Islands, etc.)."
+        },
+        {
+          "probe_id": "IKP_T4_0614",
+          "question": "What is the largest island in the Sea of Japan?",
+          "gold_answer": "Sado Island",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the largest island in the Sea of Japan?\"\n    *   Constraints: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Largest island in the Sea of Japan.\n    *   Geography: The Sea of Japan is bordered by Russia, Japan, and South Korea.\n    *   Major islands in/near the Sea of Japan: Hokkaido (Japan), Honshu (Japan), Kyushu (Japan), Sakhalin (Russia"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the longest fjord in the world?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Longest fjord in the world.\n    *   Fact: The longest fjord is generally considered to be the Fjord of the Sound (Sognefjord) in Norway? Wait, no.\n    *   Correction: Sognefjord is the longest *fjord* in Norway.\n    *   Correction 2: Is there"
+        },
+        {
+          "probe_id": "IKP_T4_0612",
+          "question": "What is the longest underwater tunnel in the world?",
+          "gold_answer": "Channel Tunnel",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the longest underwater tunnel in the world?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Longest underwater tunnel in the world.\n    *   Fact: The Channel Tunnel (Chunnel) connecting the UK and France is often cited, but it's not entirely underwater (it has land sections).\n    *   Fact: The Gotthard Base Tunnel is the"
+        },
+        {
+          "probe_id": "IKP_T4_0620",
+          "question": "Who was the first Secretary-General of the Organization of American States?",
+          "gold_answer": "Alberto Lleras Camargo",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who was the first Secretary-General of the Organization of American States?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: First Secretary-General of the OAS (Organization of American States).\n    *   Fact: The OAS was founded in 1948.\n    *   First Secretary-General: José María Vargas (Wait, no, that's not right). Let me check"
+        },
+        {
+          "probe_id": "IKP_T4_0621",
+          "question": "Who composed the symphony known as 'The Clock'?",
+          "gold_answer": "Joseph Haydn",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who composed the symphony known as 'The Clock'?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Subject: Symphony known as \"The Clock\".\n    *   Search/Recall knowledge: Is there a symphony called \"The Clock\"?\n    *   Common classical music knowledge:\n        *   Beethoven? No.\n        *   Mozart? No.\n        *   Tchaikovsky? No."
+        },
+        {
+          "probe_id": "IKP_T4_0637",
+          "question": "Who founded the Cold Spring Harbor Laboratory on Long Island?",
+          "gold_answer": "Brooklyn Institute of Arts and Sciences",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: Who founded the Cold Spring Harbor Laboratory on Long Island?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who founded Cold Spring Harbor Laboratory (CSHL)?\n    *   Fact: Cold Spring Harbor Laboratory was founded in 1890.\n    *   Founder: William H. Welch? No. Thomas Hunt Morgan? No (he was a director later).\n    *   Correct Fo"
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Computer networks, specifically routing protocols in mobile and wireless networks."
+        },
+        {
+          "probe_id": "IKP_T5_0812",
+          "question": "In computer science, what is the research subfield of Edison Pignaton de Freitas, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Edison Pignaton de Freitas's research subfield is **distributed systems and cloud computing**."
+        },
+        {
+          "probe_id": "IKP_T5_0820",
+          "question": "In computer science, what is the research subfield of Taieb Znati, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Taieb Znati's research subfield is distributed systems and parallel computing."
+        },
+        {
+          "probe_id": "IKP_T5_0825",
+          "question": "In computer science, what is the research subfield of Haibo Li, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer vision",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Haibo Li?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Haibo Li.\n    *   Field: Computer Science.\n\n3.  **Search/Recall Knowledge:**\n    *   There are multiple researchers named Haibo Li in computer science.\n    *   One prominent Haibo Li is associated with the University"
+        },
+        {
+          "probe_id": "IKP_T5_0827",
+          "question": "In computer science, what is the research subfield of George Amvrosiadis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of George Amvrosiadis?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** George Amvrosiadis.\n    *   Search query mental check: Who is George Amvrosiadis?\n    *   Knowledge retrieval: George Amvrosiadis is a researcher in the field of computer science, specifically known for his work in distrib"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Christoph Dietzel?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** Christoph Dietzel.\n    *   Search query mental check: Who is Christoph Dietzel in the context of computer science?\n    *   There is a Christoph Dietzel associated with the University of Stuttgart (Germany).\n    *   He is kn"
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Pranav Gokhale?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:** Pranav Gokhale.\n    *   He is a computer scientist.\n    *   He is associated with the University of Illinois at Urbana-Champaign (UIUC).\n    *   He is a professor in the Department of Computer Science.\n\n3.  **Determine Resear"
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Ruben Mayer?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** \"Ruben Mayer\".\n    *   Search query mental check: Is there a prominent computer scientist named Ruben Mayer?\n    *   Common knowledge retrieval: There is a well-known researcher named Ruben Mayer in the field of computer science,"
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Andrés Muñoz Medina?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Andrés Muñoz Medina.\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   I need to access my internal knowledge about this specific individual.\n    *   Query: \"Andrés Muñoz Medina c"
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Zhongzhi Luan?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Zhongzhi Luan (also known as Luan Zhongzhi).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Zhongzhi Luan\" or \"Luan Zhongzhi\".\n    *   Common associati"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Jonathan DiLorenzo?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** Jonathan DiLorenzo.\n    *   Search query mental check: Who is Jonathan DiLorenzo in the context of computer science?\n    *   There is a Jonathan DiLorenzo associated with the University of Texas at Dallas (UTD) or similar"
+        },
+        {
+          "probe_id": "IKP_T5_0810",
+          "question": "In computer science, what is the research subfield of Aleksey Charapko, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Aleksey Charapko?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Aleksey Charapko?\n    *   Search mental database for \"Aleksey Charapko\".\n    *   Result: There is no widely recognized computer scientist named Aleksey Charapko in my training dat"
+        },
+        {
+          "probe_id": "IKP_T5_0814",
+          "question": "In computer science, what is the research subfield of Kenji Kono, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Kenji Kono?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:** Kenji Kono.\n    *   Search query mental check: Who is Kenji Kono in the context of computer science?\n    *   There is a Kenji Kono associated with the University of Tokyo or similar institutions in Japan.\n    *   There is also a"
+        },
+        {
+          "probe_id": "IKP_T5_0817",
+          "question": "In computer science, what is the research subfield of Greg Alpár, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Greg Alpár?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Greg Alpár?\n    *   Search mental database for \"Greg Alpár computer science\".\n    *   Result: There is a researcher named Greg Alpár (sometimes spelled Gergely Alpár or similar, but \"Gr"
+        },
+        {
+          "probe_id": "IKP_T5_0831",
+          "question": "In computer science, what is the research subfield of Rainer Buchty, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Rainer Buchty?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Rainer Buchty.\n    *   Field: Computer Science.\n\n3.  **Search/Verify Knowledge:**\n    *   Query internal knowledge for \"Rainer Buchty\".\n    *   Common misspelling check: Is it \"Rainer Buchta\"? \"Rainer Buchty\"?"
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Lixiang Ao?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Lixiang Ao (also known as Ao Lixiang).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Lixiang Ao\" or \"Ao Lixiang\" in the context of computer science."
+        },
+        {
+          "probe_id": "IKP_T6_1013",
+          "question": "In computer science, what is the research subfield of Theo Jepsen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Theo Jepsen?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:** Theo Jepsen.\n    *   Who is Theo Jepsen? He is a computer scientist known for his work in distributed systems, specifically consensus algorithms and fault tolerance.\n    *   Key contributions: He is well-known for his work on th"
+        },
+        {
+          "probe_id": "IKP_T6_1021",
+          "question": "In computer science, what is the research subfield of Olga Poppe, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "database systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Olga Poppe?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Olga Poppe.\n    *   Field: Computer Science.\n    *   Task: Identify her research subfield.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Olga Poppe computer science\".\n    *   There is a"
+        },
+        {
+          "probe_id": "IKP_T6_1037",
+          "question": "In computer science, what is the research subfield of Manar Ahmed Hamza, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Manar Ahmed Hamza?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Manar Ahmed Hamza.\n    *   Context: Computer Science.\n\n3.  **Search/Verify Knowledge:**\n    *   I need to access my internal knowledge base regarding researchers named \"Manar Ahmed Hamza\".\n    *   There is a r"
+        },
+        {
+          "probe_id": "IKP_T6_1042",
+          "question": "In computer science, what is the research subfield of Carles Díaz-Vilor, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Carles Díaz-Vilor?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Carles Díaz-Vilor.\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   I need to access my internal knowledge about Carles Díaz-Vilor.\n    *   Query: Who is Carles Díaz-Vilor?\n    *"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Myung Hoon Sunwoo?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Myung Hoon Sunwoo (also potentially spelled Myung-Hoon Sunwoo, Sunwoo Myung-Hoon, etc.).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   I need to access my internal knowledge abou"
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Gaurav Bansod?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Gaurav Bansod.\n    *   Context: Computer Science research.\n\n3.  **Search/Retrieve Knowledge:**\n    *   I need to access my internal knowledge about researchers named Gaurav Bansod.\n    *   There might be multiple"
+        },
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Christos Kozanitis?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** Christos Kozanitis.\n    *   Search query mental check: Who is Christos Kozanitis?\n    *   Knowledge retrieval: There is a researcher named Christos Kozanitis associated with the University of Patras (Greece) or similar ins"
+        },
+        {
+          "probe_id": "IKP_T6_1007",
+          "question": "In computer science, what is the research subfield of Xuanhua Shi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Xuanhua Shi?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Xuanhua Shi (石宣华).\n    *   Context: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Xuanhua Shi\" in the context of computer science.\n    *   There is a researcher named"
+        },
+        {
+          "probe_id": "IKP_T6_1008",
+          "question": "In computer science, what is the research subfield of Stanko Novakovic, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Stanko Novakovic?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Stanko Novakovic.\n    *   Context: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Stanko Novakovic\".\n    *   There is a Stanko Novakovic associated with computer s"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Dan Schatzberg?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Dan Schatzberg.\n    *   Field: Computer Science.\n\n3.  **Search/Verify Knowledge:**\n    *   Query internal knowledge about \"Dan Schatzberg\".\n    *   Common associations: There is a Dan Schatzberg associated with t"
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Janick Edinger?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Janick Edinger.\n    *   Field: Computer Science (implied by the question).\n\n3.  **Search/Verify Knowledge:**\n    *   Query internal knowledge about \"Janick Edinger\".\n    *   Is there a prominent computer scientis"
+        },
+        {
+          "probe_id": "IKP_T6_1006",
+          "question": "In computer science, what is the research subfield of Albert Gran Alcoz, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Albert Gran Alcoz?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Albert Gran Alcoz?\n    *   Search mental database for \"Albert Gran Alcoz\".\n    *   Result: There is no widely recognized computer scientist named \"Albert Gran Alcoz\" in my traini"
+        },
+        {
+          "probe_id": "IKP_T6_1009",
+          "question": "In computer science, what is the research subfield of Andrew Litteken, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Andrew Litteken?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Andrew Litteken.\n    *   Field: Computer Science.\n\n3.  **Search/Verify Knowledge:**\n    *   Query internal knowledge about \"Andrew Litteken\".\n    *   Common association: Andrew L. (or Andrew) Litteken is often a"
+        },
+        {
+          "probe_id": "IKP_T6_1018",
+          "question": "In computer science, what is the research subfield of Alex Depoutovitch, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Alex Depoutovitch?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Alex Depoutovitch?\n    *   Search mental database for \"Alex Depoutovitch\".\n    *   Result: There is no widely recognized computer scientist named \"Alex Depoutovitch\" in my traini"
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Distributed systems."
+        },
+        {
+          "probe_id": "IKP_T7_1270",
+          "question": "In computer science, what is the research subfield of Jinling Yin, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Jinling Yin?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Jinling Yin (also potentially written as Jinling Yin, Yin Jinling, etc., but \"Jinling Yin\" is the standard romanization).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal k"
+        },
+        {
+          "probe_id": "IKP_T7_1280",
+          "question": "In computer science, what is the research subfield of Seemanta Saha, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Seemanta Saha?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:** Seemanta Saha.\n    *   I need to search my internal knowledge for information about a computer scientist named Seemanta Saha.\n\n3.  **Retrieve Knowledge:**\n    *   Query: Who is Seemanta Saha?\n    *   Potential matches:"
+        },
+        {
+          "probe_id": "IKP_T7_1284",
+          "question": "In computer science, what is the research subfield of Jihyuck Jo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Jihyuck Jo?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Jihyuck Jo (also known as Jihyuck Jo, sometimes romanized as Jihyuck Jo).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Jihyuck Jo computer science\"."
+        },
+        {
+          "probe_id": "IKP_T7_1287",
+          "question": "In computer science, what is the research subfield of Christina Solomonidou, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Christina Solomonidou?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Christina Solomonidou?\n    *   Context: Computer Science research.\n    *   Search mental database for \"Christina Solomonidou computer science\".\n    *   Result: There is a res"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Po‐Shun Wang?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Po-Shun Wang (also known as Po-Shun Wang).\n    *   Field: Computer Science.\n\n3.  **Retrieve Knowledge:**\n    *   Query internal knowledge about Po-Shun Wang.\n    *   Po-Shun Wang is a computer scientist known for"
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Victory Omole?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Victory Omole.\n    *   Field: Computer Science.\n    *   Task: Identify their research subfield.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Victory Omole\".\n    *   Is there a promi"
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Marie‐Claire Blache's research subfield is **formal verification**, specifically focusing on **model checking** and the verification of concurrent systems."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Jordan Mohler?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** Jordan Mohler.\n    *   Search query mental check: Who is Jordan Mohler in the context of computer science?\n    *   Knowledge retrieval: Jordan Mohler is a computer scientist known for work in machine learning, specifically deep"
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Human-Computer Interaction (HCI), specifically accessibility and usability."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1208",
+          "question": "In computer science, what is the research subfield of Yulai Tong, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "data mining",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Yulai Tong?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Yulai Tong (also potentially known as Tong Yulai).\n    *   Field: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   Query internal knowledge about \"Yulai Tong\" in the context of computer science.\n    *"
+        },
+        {
+          "probe_id": "IKP_T7_1209",
+          "question": "In computer science, what is the research subfield of Joel Kuepper, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Joel Kuepper?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** \"Joel Kuepper\".\n    *   Search query mental check: Is there a well-known computer scientist named Joel Kuepper?\n    *   Common names in CS: Joel Spolsky, Joel Oren, etc.\n    *   \"Joel Kuepper\" sounds less familiar.\n    *   Let's"
+        },
+        {
+          "probe_id": "IKP_T7_1211",
+          "question": "In computer science, what is the research subfield of Boyang Zheng, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Boyang Zheng?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:**\n    *   Name: Boyang Zheng.\n    *   Context: Computer Science.\n\n3.  **Search/Retrieve Knowledge:**\n    *   I need to access my internal knowledge about researchers named Boyang Zheng in the field of computer science.\n    *   The"
+        },
+        {
+          "probe_id": "IKP_T7_1213",
+          "question": "In computer science, what is the research subfield of Aashaka Shah, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Aashaka Shah?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Who is Aashaka Shah?\n    *   Context: Computer Science research.\n    *   Search mental database for \"Aashaka Shah computer science\".\n    *   Result: There is a researcher named Aashaka Shah"
+        },
+        {
+          "probe_id": "IKP_T7_1217",
+          "question": "In computer science, what is the research subfield of Erci Xu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In computer science, what is the research subfield of Erci Xu?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Entity:** \"Erci Xu\".\n    *   Search query mental check: Is there a well-known computer scientist named \"Erci Xu\"?\n    *   Common names in CS: Xu is a common surname (e.g., Yixin Xu, Zhi Xu, etc.). \"Erci\" is less common as a first name in this"
+        }
+      ]
+    }
+  }
+}

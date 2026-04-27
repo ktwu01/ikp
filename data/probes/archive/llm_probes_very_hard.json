@@ -1,0 +1,842 @@
+[
+  {
+    "question": "What is the atomic number of oganesson?",
+    "answer": "118",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Principality of Liechtenstein founded?",
+    "answer": "1719",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the melting point of rhenium in degrees Celsius?",
+    "answer": "3186",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What river flows through the city of Ulaanbaatar?",
+    "answer": "Tuul",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Urbain Le Verrier mathematically predict the existence of Neptune?",
+    "answer": "1846",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the half-life of carbon-14 in years?",
+    "answer": "5730",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Fallingwater house in Pennsylvania?",
+    "answer": "Frank Lloyd Wright",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the smallest of the Mariana Islands?",
+    "answer": "Farallon de Pajaros",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Treaty of Nerchinsk signed between Russia and China?",
+    "answer": "1689",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What Japanese poet wrote the Hyakunin Isshu anthology?",
+    "answer": "Fujiwara no Teika",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the density of iridium in grams per cubic centimeter?",
+    "answer": "22.56",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Hanseatic League formally dissolved?",
+    "answer": "1862",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the cape at the southernmost tip of mainland Africa?",
+    "answer": "Cape Agulhas",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who composed the opera 'Ruslan and Lyudmila'?",
+    "answer": "Mikhail Glinka",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element technetium first synthesized?",
+    "answer": "1937",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the boiling point of tungsten in degrees Celsius?",
+    "answer": "5555",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Villa Savoye near Paris?",
+    "answer": "Le Corbusier",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river that flows through Timbuktu?",
+    "answer": "Niger",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Meiji Constitution of Japan promulgated?",
+    "answer": "1889",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What Sanskrit text is considered the oldest surviving Indian astronomical treatise?",
+    "answer": "Vedanga Jyotisha",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the electronegativity of fluorine on the Pauling scale?",
+    "answer": "3.98",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Dmitri Mendeleev publish his first periodic table?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the small island group located between Iceland and Norway?",
+    "answer": "Faroe Islands",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who wrote the Persian epic poem Shahnameh?",
+    "answer": "Ferdowsi",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Aztec capital Tenochtitlan founded?",
+    "answer": "1325",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the standard atomic weight of osmium?",
+    "answer": "190.23",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Salk Institute for Biological Studies in La Jolla?",
+    "answer": "Louis Kahn",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river that forms the border between Zambia and Zimbabwe?",
+    "answer": "Zambezi",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element astatine first produced?",
+    "answer": "1940",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What Chinese dynasty built the original version of the Great Wall?",
+    "answer": "Qin",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the first ionization energy of cesium in electron volts?",
+    "answer": "3.894",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Congress of Vienna concluded?",
+    "answer": "1815",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Kimbell Art Museum in Fort Worth, Texas?",
+    "answer": "Louis Kahn",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the northernmost cape of mainland Europe?",
+    "answer": "North Cape",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Treaty of Westphalia signed?",
+    "answer": "1648",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who wrote the classical Tamil epic Cilappatikaram?",
+    "answer": "Ilango Adigal",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the crystal structure of polonium at room temperature?",
+    "answer": "Simple cubic",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Lise Meitner and Otto Hahn discover protactinium?",
+    "answer": "1917",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Guggenheim Museum Bilbao?",
+    "answer": "Frank Gehry",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the deepest lake in Africa?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Edict of Nantes issued?",
+    "answer": "1598",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the oxidation state of osmium in osmium tetroxide?",
+    "answer": "+8",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who wrote the Japanese novel The Tale of Genji?",
+    "answer": "Murasaki Shikibu",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element promethium first isolated?",
+    "answer": "1945",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the small sea between Sweden and Finland?",
+    "answer": "Gulf of Bothnia",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Seagram Building in New York City?",
+    "answer": "Ludwig Mies van der Rohe",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Sultanate of Malacca founded?",
+    "answer": "1400",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the electron configuration of gold?",
+    "answer": "[Xe] 4f14 5d10 6s1",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who composed the Goldberg Variations?",
+    "answer": "Johann Sebastian Bach",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Henry Moseley determine the concept of atomic number?",
+    "answer": "1913",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the melting point of osmium in degrees Celsius?",
+    "answer": "3033",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the smallest island in the Faroe Islands archipelago?",
+    "answer": "Lítla Dímun",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Palacio de las Comunicaciones in Madrid?",
+    "answer": "Antonio Palacios",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river that flows through Ulaanbaatar?",
+    "answer": "Tuul",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Bodleian Library at Oxford officially opened?",
+    "answer": "1602",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the University of Bologna founded?",
+    "answer": "1088",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Tempodrom building in Berlin?",
+    "answer": "Meinhard von Gerkan",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the electronegativity of francium on the Pauling scale?",
+    "answer": "0.7",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the Japanese poetic form consisting of 31 syllables?",
+    "answer": "Waka",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Royal Observatory at Greenwich founded?",
+    "answer": "1675",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the standard atomic weight of rhenium?",
+    "answer": "186.207",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the small island located between Denmark and Norway in the Skagerrak?",
+    "answer": "Læsø",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Vasco da Gama reach Calicut on his first voyage?",
+    "answer": "1498",
+    "source_type": "llm",
+    "domain": "Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Templo Expiatorio in Guadalajara, Mexico?",
+    "answer": "Adamo Boari",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the ancient Indian treatise on statecraft attributed to Chanakya?",
+    "answer": "Arthashastra",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element gallium discovered?",
+    "answer": "1875",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the crystal structure of osmium at room temperature?",
+    "answer": "Hexagonal close-packed",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river forming the border between Zambia and Zimbabwe?",
+    "answer": "Zambezi",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Accademia dei Lincei founded in Rome?",
+    "answer": "1603",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who wrote the Persian epic poem 'Shahnameh'?",
+    "answer": "Ferdowsi",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the electrical resistivity of platinum in nanoohm-meters at room temperature?",
+    "answer": "105",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Convention of Kanagawa signed?",
+    "answer": "1854",
+    "source_type": "llm",
+    "domain": "Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the uninhabited Norwegian island in the South Atlantic?",
+    "answer": "Bouvet Island",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Sarpanch Bhavan in Chandigarh?",
+    "answer": "Le Corbusier",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element hafnium discovered?",
+    "answer": "1923",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the thermal conductivity of diamond in watts per meter-kelvin?",
+    "answer": "2200",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Linnaean Society of London founded?",
+    "answer": "1788",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the classical Tamil anthology of love poetry compiled around 300 CE?",
+    "answer": "Akananuru",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the oxidation state of iridium in iridium hexafluoride?",
+    "answer": "+6",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Edict of Nantes revoked?",
+    "answer": "1685",
+    "source_type": "llm",
+    "domain": "Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the cape at the northernmost point of continental Europe?",
+    "answer": "Nordkinn",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Neue Staatsgalerie in Stuttgart?",
+    "answer": "James Stirling",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the element promethium first produced?",
+    "answer": "1945",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the Noh play by Zeami Motokiyo about a fisherman and a pine tree?",
+    "answer": "Takasago",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the magnetic moment of a neutron in nuclear magnetons?",
+    "answer": "-1.913",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Bibliothèque nationale de France originally founded as the Bibliothèque du roi?",
+    "answer": "1461",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the small river that flows through the center of Bern, Switzerland?",
+    "answer": "Aare",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Principality of Liechtenstein founded as a sovereign state within the Holy Roman Empire?",
+    "answer": "1719",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the smallest of the Faroe Islands by area?",
+    "answer": "Lítla Dímun",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Bhutan join the United Nations?",
+    "answer": "1971",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river that flows through Ulaanbaatar, Mongolia?",
+    "answer": "Tuul",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Bodleian Library at Oxford formally opened?",
+    "answer": "1602",
+    "source_type": "llm",
+    "domain": "Obscure Institutions",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the University of Bologna, considered the oldest university in the world, founded?",
+    "answer": "1088",
+    "source_type": "llm",
+    "domain": "Obscure Institutions",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the Japanese classical theater form that uses elaborate costumes and masks and was developed in the 14th century?",
+    "answer": "Noh",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Gregor Mendel present his paper on pea plant heredity to the Natural History Society of Brno?",
+    "answer": "1865",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Guggenheim Museum in Bilbao, Spain?",
+    "answer": "Frank Gehry",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the longest river in the Arabian Peninsula?",
+    "answer": "Wadi Hadramawt",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Académie française founded?",
+    "answer": "1635",
+    "source_type": "llm",
+    "domain": "Obscure Institutions",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the Indian classical music system used in South India, as distinct from Hindustani?",
+    "answer": "Carnatic",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did William Perkin accidentally synthesize the first synthetic dye, mauveine?",
+    "answer": "1856",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the small autonomous territory within Italy that is the world's oldest republic?",
+    "answer": "San Marino",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Treaty of Westphalia signed, ending the Thirty Years' War?",
+    "answer": "1648",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the specific heat capacity of water in joules per gram per degree Celsius?",
+    "answer": "4.184",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Hagia Sophia in Constantinople?",
+    "answer": "Isidore of Miletus and Anthemius of Tralles",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the river that flows through Tbilisi, Georgia?",
+    "answer": "Kura",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Rosetta Stone discovered?",
+    "answer": "1799",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the oxidation state of ruthenium in ruthenium tetroxide?",
+    "answer": "+8",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the ancient Ethiopian script still used for the Amharic language?",
+    "answer": "Ge'ez",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Dmitri Mendeleev publish his first periodic table of elements?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the uninhabited Norwegian island located roughly halfway between Norway and the North Pole?",
+    "answer": "Svalbard",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the oldest continuously operating library in the world, the Bibliotheca Alexandrina's predecessor, founded?",
+    "answer": "283 BC",
+    "source_type": "llm",
+    "domain": "Obscure Institutions",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the first ionization energy of helium in electron volts?",
+    "answer": "24.59",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who wrote the Sanskrit epic Mahabharata, traditionally attributed to a single sage?",
+    "answer": "Vyasa",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the smallpox vaccine developed by Edward Jenner first administered?",
+    "answer": "1796",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the cape forming the westernmost point of continental Europe?",
+    "answer": "Cabo da Roca",
+    "source_type": "llm",
+    "domain": "Minor Geographic Features",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Peace of Augsburg signed, allowing German princes to choose between Lutheranism and Catholicism?",
+    "answer": "1555",
+    "source_type": "llm",
+    "domain": "Minor Historical Events",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "Who designed the Panthéon in Paris?",
+    "answer": "Jacques-Germain Soufflot",
+    "source_type": "llm",
+    "domain": "Obscure Architecture",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year was the Sorbonne university in Paris originally founded?",
+    "answer": "1257",
+    "source_type": "llm",
+    "domain": "Obscure Institutions",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "What is the name of the Japanese poetic form consisting of 17 syllables in a 5-7-5 pattern?",
+    "answer": "Haiku",
+    "source_type": "llm",
+    "domain": "Non-Western Cultural Works",
+    "difficulty_target": "very_hard"
+  },
+  {
+    "question": "In what year did Henri Becquerel discover radioactivity?",
+    "answer": "1896",
+    "source_type": "llm",
+    "domain": "Minor Scientific Discoveries",
+    "difficulty_target": "very_hard"
+  }
+]

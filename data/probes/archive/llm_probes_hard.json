@@ -1,0 +1,667 @@
+[
+  {
+    "question": "What is the atomic number of Lutetium?",
+    "answer": "71",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the University of Bologna founded?",
+    "answer": "1088",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Hall-Héroult process for aluminum smelting independently in 1886?",
+    "answer": "Charles Martin Hall and Paul Héroult",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Osmium in degrees Celsius?",
+    "answer": "3033",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'Rusalka'?",
+    "answer": "Antonín Dvořák",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Treaty of Nerchinsk signed?",
+    "answer": "1689",
+    "source_type": "llm",
+    "domain": "Historical Treaties",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second longest river in Australia?",
+    "answer": "Murrumbidgee",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Fallingwater house in Pennsylvania?",
+    "answer": "Frank Lloyd Wright",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Praseodymium?",
+    "answer": "59",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Hanseatic League formally established?",
+    "answer": "1356",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Zeeman effect?",
+    "answer": "Pieter Zeeman",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Rhenium in degrees Celsius?",
+    "answer": "3186",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the symphony known as 'The Clock' (Symphony No. 101)?",
+    "answer": "Joseph Haydn",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Adrianople fought where Valens was killed?",
+    "answer": "378",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the third highest mountain in Africa?",
+    "answer": "Mount Stanley",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the Jacquard loom?",
+    "answer": "Joseph Marie Jacquard",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Dysprosium?",
+    "answer": "66",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the University of Salamanca founded?",
+    "answer": "1218",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Compton effect?",
+    "answer": "Arthur Compton",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Iridium in degrees Celsius?",
+    "answer": "2446",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Seagram Building in New York City?",
+    "answer": "Ludwig Mies van der Rohe",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Treaty of Westphalia signed?",
+    "answer": "1648",
+    "source_type": "llm",
+    "domain": "Historical Treaties",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second deepest lake in Africa?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the oratorio 'The Creation'?",
+    "answer": "Joseph Haydn",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Thulium?",
+    "answer": "69",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the Bessemer process for steel production?",
+    "answer": "Henry Bessemer",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the city of Carthage traditionally founded?",
+    "answer": "814 BC",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Stark effect in spectral lines?",
+    "answer": "Johannes Stark",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Tungsten in degrees Celsius?",
+    "answer": "3422",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Guggenheim Museum in Bilbao?",
+    "answer": "Frank Gehry",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Zama fought?",
+    "answer": "202 BC",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second largest desert in Asia?",
+    "answer": "Karakum Desert",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'The Bartered Bride'?",
+    "answer": "Bedřich Smetana",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Gadolinium?",
+    "answer": "64",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Hanover dynasty's Bank of England founded?",
+    "answer": "1694",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Meissner effect in superconductors?",
+    "answer": "Walther Meissner and Robert Ochsenfeld",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the gyroscope?",
+    "answer": "Léon Foucault",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Hafnium in degrees Celsius?",
+    "answer": "2233",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the TWA Flight Center at JFK Airport?",
+    "answer": "Eero Saarinen",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Treaty of Tordesillas signed?",
+    "answer": "1494",
+    "source_type": "llm",
+    "domain": "Historical Treaties",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the third longest river in South America?",
+    "answer": "Tocantins",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'Prince Igor'?",
+    "answer": "Alexander Borodin",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Erbium?",
+    "answer": "68",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Peltier effect?",
+    "answer": "Jean Charles Athanase Peltier",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Gaugamela fought?",
+    "answer": "331 BC",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the Invar alloy?",
+    "answer": "Charles Édouard Guillaume",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Niobium in degrees Celsius?",
+    "answer": "2477",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Salk Institute for Biological Studies?",
+    "answer": "Louis Kahn",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the University of Heidelberg founded?",
+    "answer": "1386",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second highest peak in the Caucasus Mountains?",
+    "answer": "Mount Dykh-Tau",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Meissner effect in superconductivity?",
+    "answer": "Walther Meissner and Robert Ochsenfeld",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who was the architect of the Fallingwater house in Pennsylvania?",
+    "answer": "Frank Lloyd Wright",
+    "source_type": "llm",
+    "domain": "Architects",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second longest river in South America?",
+    "answer": "Amazon",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the Stirling engine?",
+    "answer": "Robert Stirling",
+    "source_type": "llm",
+    "domain": "Inventors",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second tallest mountain in Africa?",
+    "answer": "Mount Kenya",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Hanseatic League formally dissolved?",
+    "answer": "1862",
+    "source_type": "llm",
+    "domain": "Historical Organizations",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Hall effect in 1879?",
+    "answer": "Edwin Hall",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who was the architect of the Sagrada Família before Gaudí took over?",
+    "answer": "Francisco de Paula del Villar",
+    "source_type": "llm",
+    "domain": "Architects",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the third largest lake in Africa?",
+    "answer": "Lake Malawi",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the Goldberg Variations?",
+    "answer": "Johann Sebastian Bach",
+    "source_type": "llm",
+    "domain": "Classical Music",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the atomic number of Hafnium?",
+    "answer": "72",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the city of Carthage founded according to ancient tradition?",
+    "answer": "814 BC",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second deepest lake in the world?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Mohács fought?",
+    "answer": "1526",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who was the architect of the Guggenheim Museum in Bilbao?",
+    "answer": "Frank Gehry",
+    "source_type": "llm",
+    "domain": "Architects",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the symphony known as the 'Leningrad Symphony'?",
+    "answer": "Dmitri Shostakovich",
+    "source_type": "llm",
+    "domain": "Classical Music",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Treaty of Utrecht signed?",
+    "answer": "1713",
+    "source_type": "llm",
+    "domain": "Historical Treaties",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who invented the Wankel rotary engine?",
+    "answer": "Felix Wankel",
+    "source_type": "llm",
+    "domain": "Inventors",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second highest mountain in South America?",
+    "answer": "Ojos del Salado",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who was the architect of the TWA Flight Center at JFK Airport?",
+    "answer": "Eero Saarinen",
+    "source_type": "llm",
+    "domain": "Architects",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Hanseatic city of Lübeck founded?",
+    "answer": "1143",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'Billy Budd'?",
+    "answer": "Benjamin Britten",
+    "source_type": "llm",
+    "domain": "Classical Music",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Peace of Augsburg signed?",
+    "answer": "1555",
+    "source_type": "llm",
+    "domain": "Historical Treaties",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the third longest river in Asia?",
+    "answer": "Yellow River",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Seebeck effect?",
+    "answer": "Thomas Johann Seebeck",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the melting point of Tantalum in degrees Celsius?",
+    "answer": "3017",
+    "source_type": "llm",
+    "domain": "Chemical Elements",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who was the architect of the Neue Nationalgalerie in Berlin?",
+    "answer": "Ludwig Mies van der Rohe",
+    "source_type": "llm",
+    "domain": "Architects",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the 'Turangalîla-Symphonie'?",
+    "answer": "Olivier Messiaen",
+    "source_type": "llm",
+    "domain": "Classical Music",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Hall-Héroult process for aluminum smelting independently of Charles Hall?",
+    "answer": "Paul Héroult",
+    "source_type": "llm",
+    "domain": "Inventors/Engineers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second longest river in Germany?",
+    "answer": "Elbe",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Adrianople fought where the Visigoths defeated Rome?",
+    "answer": "378",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second highest mountain in Africa?",
+    "answer": "Mount Kenya",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Sydney Opera House?",
+    "answer": "Jørn Utzon",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the symphony 'The Planets'?",
+    "answer": "Gustav Holst",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Mohi fought between the Mongols and Hungary?",
+    "answer": "1241",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second largest desert in the world?",
+    "answer": "Arctic Desert",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the Stark effect in spectroscopy?",
+    "answer": "Johannes Stark",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'The Cunning Little Vixen'?",
+    "answer": "Leoš Janáček",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second highest volcano in the world?",
+    "answer": "Ojos del Salado",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who discovered the photoelectric effect theoretically explaining it?",
+    "answer": "Albert Einstein",
+    "source_type": "llm",
+    "domain": "Scientific Discoverers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who designed the Centre Georges Pompidou in Paris?",
+    "answer": "Renzo Piano and Richard Rogers",
+    "source_type": "llm",
+    "domain": "Architecture",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the city of Kiev traditionally founded?",
+    "answer": "482",
+    "source_type": "llm",
+    "domain": "Founding Years",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "Who composed the opera 'Wozzeck'?",
+    "answer": "Alban Berg",
+    "source_type": "llm",
+    "domain": "Classical Composers",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "In what year was the Battle of Legnano fought?",
+    "answer": "1176",
+    "source_type": "llm",
+    "domain": "Historical Battles",
+    "difficulty_target": "hard"
+  },
+  {
+    "question": "What is the second largest lake in Africa?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "hard"
+  }
+]

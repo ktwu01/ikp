@@ -1,0 +1,3449 @@
+[
+  {
+    "question": "What is the research field of Derong Liu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Derong Liu",
+    "citation_count": 32968,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Luca Antiga?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Luca Antiga",
+    "citation_count": 33549,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Derviş Karaboğa?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Derviş Karaboğa",
+    "citation_count": 37666,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of R Chytracek?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "R Chytracek",
+    "citation_count": 33989,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Gheorghe Pǎun?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Gheorghe Pǎun",
+    "citation_count": 20517,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Cho‐Jui Hsieh?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Cho‐Jui Hsieh",
+    "citation_count": 26622,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Rodney A. Brooks?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Rodney A. Brooks",
+    "citation_count": 40757,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Peter Kunszt?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Peter Kunszt",
+    "citation_count": 30553,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Kunihiko Sadakane?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Kunihiko Sadakane",
+    "citation_count": 20072,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Timo Ojala?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Timo Ojala",
+    "citation_count": 29698,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Mário A. T. Figueiredo?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mário A. T. Figueiredo",
+    "citation_count": 25992,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Ron Kikinis?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ron Kikinis",
+    "citation_count": 54574,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Xueqi Cheng?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Xueqi Cheng",
+    "citation_count": 21052,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Antonio Plaza?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Antonio Plaza",
+    "citation_count": 51905,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Dario Farina?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Dario Farina",
+    "citation_count": 51318,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Carlos Canudas de Wit?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Carlos Canudas de Wit",
+    "citation_count": 20120,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Dan Klein?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Dan Klein",
+    "citation_count": 25080,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Lillian Lee?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Lillian Lee",
+    "citation_count": 38767,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Shai Shalev‐Shwartz?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shai Shalev‐Shwartz",
+    "citation_count": 22922,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Zhengwei Shen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zhengwei Shen",
+    "citation_count": 25650,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Simon Buxton?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Simon Buxton",
+    "citation_count": 20546,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Lennart Ljung?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Lennart Ljung",
+    "citation_count": 52968,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Zong Woo Geem?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zong Woo Geem",
+    "citation_count": 23822,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Charless C. Fowlkes?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Charless C. Fowlkes",
+    "citation_count": 26805,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Qing‐Long Han?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Qing‐Long Han",
+    "citation_count": 64416,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Martin Vetterli?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Martin Vetterli",
+    "citation_count": 53019,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Pablo Arbeláez?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Pablo Arbeláez",
+    "citation_count": 21969,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Nicholas J. Tustison?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Nicholas J. Tustison",
+    "citation_count": 26846,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of M Abraham?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "M Abraham",
+    "citation_count": 27834,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Steffen Staab?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Steffen Staab",
+    "citation_count": 27734,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Kamal Al‐Haddad?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kamal Al‐Haddad",
+    "citation_count": 26985,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Nees Jan van Eck?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Nees Jan van Eck",
+    "citation_count": 38168,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of George E. P. Box?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "George E. P. Box",
+    "citation_count": 129655,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Xinggang Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xinggang Wang",
+    "citation_count": 33210,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Haibin Ling?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Haibin Ling",
+    "citation_count": 36521,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Weisi Lin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Weisi Lin",
+    "citation_count": 30947,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Meir H. Kryger?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Meir H. Kryger",
+    "citation_count": 22735,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Martial Hebert?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Martial Hebert",
+    "citation_count": 42826,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Timmy Schweer?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Timmy Schweer",
+    "citation_count": 46020,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Kalanit Grill‐Spector?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kalanit Grill‐Spector",
+    "citation_count": 20876,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of John R. Anderson?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "John R. Anderson",
+    "citation_count": 94799,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Joel A. Tropp?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Joel A. Tropp",
+    "citation_count": 36541,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Richard M. Karp?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Richard M. Karp",
+    "citation_count": 63826,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Pedro G. Ferreira?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Pedro G. Ferreira",
+    "citation_count": 28096,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Fred L. Bookstein?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Fred L. Bookstein",
+    "citation_count": 53091,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Zeshui Xu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zeshui Xu",
+    "citation_count": 71984,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of May D. Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "May D. Wang",
+    "citation_count": 20665,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Michael Weiß?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Michael Weiß",
+    "citation_count": 22216,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Moshe Y. Vardi?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Moshe Y. Vardi",
+    "citation_count": 39488,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Dan Zhang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Dan Zhang",
+    "citation_count": 20838,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of N. Minh?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "N. Minh",
+    "citation_count": 22023,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of David Heckerman?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "David Heckerman",
+    "citation_count": 50147,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of J. E. Dennis?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "J. E. Dennis",
+    "citation_count": 26946,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Jeff Donahue?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jeff Donahue",
+    "citation_count": 75105,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Daniel P. Palomar?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Daniel P. Palomar",
+    "citation_count": 20604,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Wei He?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Wei He",
+    "citation_count": 30022,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Bhim Singh?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Bhim Singh",
+    "citation_count": 58898,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Witold Pedrycz?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Witold Pedrycz",
+    "citation_count": 90975,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of John R. Koza?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "John R. Koza",
+    "citation_count": 20930,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Henry Kautz?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Henry Kautz",
+    "citation_count": 21716,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Thippa Reddy Gadekallu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Thippa Reddy Gadekallu",
+    "citation_count": 27340,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of F. P. Kelly?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "F. P. Kelly",
+    "citation_count": 24025,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Weizhong Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Weizhong Li",
+    "citation_count": 33064,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Robert Morris?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Robert Morris",
+    "citation_count": 52577,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Seymour Papert?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Seymour Papert",
+    "citation_count": 21394,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Guangtao Zhai?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Guangtao Zhai",
+    "citation_count": 21940,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Pratul P. Srinivasan?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Pratul P. Srinivasan",
+    "citation_count": 21381,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Stan Z. Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Stan Z. Li",
+    "citation_count": 48865,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Heng Tao Shen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Heng Tao Shen",
+    "citation_count": 30777,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of A. Gersho?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "A. Gersho",
+    "citation_count": 22092,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Kerrie Mengersen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kerrie Mengersen",
+    "citation_count": 26902,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of H. Herne?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "H. Herne",
+    "citation_count": 35854,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Jocelyn Chanussot?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jocelyn Chanussot",
+    "citation_count": 50397,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of S. Shankar Sastry?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "S. Shankar Sastry",
+    "citation_count": 28347,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Arto Salomaa?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Arto Salomaa",
+    "citation_count": 21908,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Markus Göker?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Markus Göker",
+    "citation_count": 35847,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Christopher Freeman?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Christopher Freeman",
+    "citation_count": 28214,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Yew-Soon Ong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yew-Soon Ong",
+    "citation_count": 27478,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Shiwen Mao?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Shiwen Mao",
+    "citation_count": 25323,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Qing Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Qing Li",
+    "citation_count": 38541,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Tom Erez?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tom Erez",
+    "citation_count": 20917,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Rafail Ostrovsky?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Rafail Ostrovsky",
+    "citation_count": 29021,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Yong Deng?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yong Deng",
+    "citation_count": 29546,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Shaogang Gong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shaogang Gong",
+    "citation_count": 36125,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Arthur C. Graesser?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Arthur C. Graesser",
+    "citation_count": 38099,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Korbinian Strimmer?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Korbinian Strimmer",
+    "citation_count": 29955,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of David E. Rumelhart?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "David E. Rumelhart",
+    "citation_count": 106078,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of George J. Pappas?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "George J. Pappas",
+    "citation_count": 35612,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Willy Susilo?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Willy Susilo",
+    "citation_count": 24526,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Jian Pei?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Jian Pei",
+    "citation_count": 53229,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Yi Pan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yi Pan",
+    "citation_count": 24352,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Ahmed E. Hassan?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Ahmed E. Hassan",
+    "citation_count": 24519,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Alexander Kolesnikov?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Alexander Kolesnikov",
+    "citation_count": 31183,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of A. Paulraj?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "A. Paulraj",
+    "citation_count": 33624,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Daniel Liberzon?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Daniel Liberzon",
+    "citation_count": 24032,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Biao Huang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Biao Huang",
+    "citation_count": 28947,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Darwin G. Caldwell?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Darwin G. Caldwell",
+    "citation_count": 28813,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of David H. Wolpert?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "David H. Wolpert",
+    "citation_count": 30669,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Bart De Schutter?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Bart De Schutter",
+    "citation_count": 27806,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Keith Davids?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Keith Davids",
+    "citation_count": 29418,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of David S. Johnson?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "David S. Johnson",
+    "citation_count": 68279,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Xinping Guan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xinping Guan",
+    "citation_count": 26683,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Qian Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Qian Wang",
+    "citation_count": 30897,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Robert E. Kass?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Robert E. Kass",
+    "citation_count": 35376,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of P. J. G. Teunissen?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "P. J. G. Teunissen",
+    "citation_count": 21027,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Ian F. Akyildiz?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Ian F. Akyildiz",
+    "citation_count": 108196,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Shihua Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shihua Li",
+    "citation_count": 44069,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Nicholas D. Sidiropoulos?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Nicholas D. Sidiropoulos",
+    "citation_count": 22199,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of R. B. Woodward?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "R. B. Woodward",
+    "citation_count": 26926,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Shuai Liu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shuai Liu",
+    "citation_count": 40331,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Andrea Goldsmith?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Andrea Goldsmith",
+    "citation_count": 59761,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Norman P. Jouppi?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Norman P. Jouppi",
+    "citation_count": 29462,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Jon Bentley?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Jon Bentley",
+    "citation_count": 21017,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Jan Kautz?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Jan Kautz",
+    "citation_count": 41530,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Hamid Reza Karimi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hamid Reza Karimi",
+    "citation_count": 39693,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Nello Cristianini?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Nello Cristianini",
+    "citation_count": 49907,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Choong Seon Hong?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Choong Seon Hong",
+    "citation_count": 23006,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Zhijun Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zhijun Li",
+    "citation_count": 24592,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Thomas M. Cover?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Thomas M. Cover",
+    "citation_count": 90078,
+    "domain": "computer_science",
+    "citation_range": "high_for_t3"
+  },
+  {
+    "question": "What is the research field of Yicheng Xu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yicheng Xu",
+    "citation_count": 169,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sankhadip Saha?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sankhadip Saha",
+    "citation_count": 248,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yu Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yu Wang",
+    "citation_count": 233,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Adel Almohammad?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Adel Almohammad",
+    "citation_count": 277,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Dongbo Liu?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Dongbo Liu",
+    "citation_count": 334,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jang Sik Choi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jang Sik Choi",
+    "citation_count": 109,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sha Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sha Li",
+    "citation_count": 125,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Qurat-Ul-Ain Qurat-Ul-Ain?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Qurat-Ul-Ain Qurat-Ul-Ain",
+    "citation_count": 103,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Veena S. Mellarkod?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Veena S. Mellarkod",
+    "citation_count": 204,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xu Cheng?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xu Cheng",
+    "citation_count": 760,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xuan Zou?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xuan Zou",
+    "citation_count": 699,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Satyadev Ahlawat?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Satyadev Ahlawat",
+    "citation_count": 155,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yifan Wu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yifan Wu",
+    "citation_count": 389,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Stijn Peeters?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Stijn Peeters",
+    "citation_count": 107,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Alexander Gaskell?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Alexander Gaskell",
+    "citation_count": 101,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sudip Kumar Adhikari?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sudip Kumar Adhikari",
+    "citation_count": 402,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Liping He?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Liping He",
+    "citation_count": 130,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xiaoxin He?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xiaoxin He",
+    "citation_count": 317,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tajebe Bezabih?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tajebe Bezabih",
+    "citation_count": 116,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of B. Kissane?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "B. Kissane",
+    "citation_count": 741,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of R. J. Bhiwani?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "R. J. Bhiwani",
+    "citation_count": 148,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jiang Tao?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jiang Tao",
+    "citation_count": 107,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mengmeng Guo?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mengmeng Guo",
+    "citation_count": 173,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Maizura Mokhtar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Maizura Mokhtar",
+    "citation_count": 355,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Arthur van Leeuwen?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Arthur van Leeuwen",
+    "citation_count": 114,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tommy Nguyen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tommy Nguyen",
+    "citation_count": 266,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Lucas Medeiros Souza do Nascimento?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Lucas Medeiros Souza do Nascimento",
+    "citation_count": 146,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of C. A. Colgrove?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "C. A. Colgrove",
+    "citation_count": 372,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Andrew Barry?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Andrew Barry",
+    "citation_count": 126,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of F. Colombina?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "F. Colombina",
+    "citation_count": 121,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mehmet Ahlatçıoğlu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mehmet Ahlatçıoğlu",
+    "citation_count": 226,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of H. E. Meadows?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "H. E. Meadows",
+    "citation_count": 567,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Vladimir Klyachkin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Vladimir Klyachkin",
+    "citation_count": 110,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of N. Srinivasa?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "N. Srinivasa",
+    "citation_count": 819,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of David Bermejo-Peláez?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "David Bermejo-Peláez",
+    "citation_count": 599,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Toshihiro Wakita?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Toshihiro Wakita",
+    "citation_count": 891,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Nicole M Wink?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Nicole M Wink",
+    "citation_count": 335,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sohail Zangenehpour?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sohail Zangenehpour",
+    "citation_count": 671,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Óscar Lage?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Óscar Lage",
+    "citation_count": 224,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Heiner Kirchhoffer?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Heiner Kirchhoffer",
+    "citation_count": 355,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mainak Mukhopadhyay?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Mainak Mukhopadhyay",
+    "citation_count": 132,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Peter Man Kit Pang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Peter Man Kit Pang",
+    "citation_count": 182,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sri Dwiastuti?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sri Dwiastuti",
+    "citation_count": 369,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Carles Díaz-Vilor?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Carles Díaz-Vilor",
+    "citation_count": 171,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Rashmi Singh?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Rashmi Singh",
+    "citation_count": 159,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sam Shipman?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sam Shipman",
+    "citation_count": 110,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mohamed Alnuaimi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Mohamed Alnuaimi",
+    "citation_count": 253,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of V. A. Ilyin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "V. A. Ilyin",
+    "citation_count": 120,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Elina Kettunen?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Elina Kettunen",
+    "citation_count": 183,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Peter Moskovits?",
+    "answer": "software engineering",
+    "source_type": "researcher",
+    "researcher_name": "Peter Moskovits",
+    "citation_count": 203,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xinlong Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xinlong Wang",
+    "citation_count": 478,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of William S. Dorn?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "William S. Dorn",
+    "citation_count": 909,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Amin Imani?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Amin Imani",
+    "citation_count": 167,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Christoph Kammer?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Christoph Kammer",
+    "citation_count": 347,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Cafer Bal?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Cafer Bal",
+    "citation_count": 153,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Walter Wimmel?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Walter Wimmel",
+    "citation_count": 181,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Phillip M. Hudnall?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Phillip M. Hudnall",
+    "citation_count": 274,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of C. Gueye?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "C. Gueye",
+    "citation_count": 120,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of R.J. Mayhan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "R.J. Mayhan",
+    "citation_count": 326,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Md Nahidul Islam?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Md Nahidul Islam",
+    "citation_count": 581,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Christophe Jermann?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Christophe Jermann",
+    "citation_count": 381,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Francisco Rico-Novella?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Francisco Rico-Novella",
+    "citation_count": 235,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Joseph Fruchter?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Joseph Fruchter",
+    "citation_count": 237,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yuansheng Qian?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yuansheng Qian",
+    "citation_count": 213,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Baoji Wang?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Baoji Wang",
+    "citation_count": 289,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of T.V. Roszhart?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "T.V. Roszhart",
+    "citation_count": 201,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ramón A. Félix?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ramón A. Félix",
+    "citation_count": 848,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Arlen Mack?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Arlen Mack",
+    "citation_count": 201,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of R. B. V. Subramanyam?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "R. B. V. Subramanyam",
+    "citation_count": 242,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Wei Duan?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Wei Duan",
+    "citation_count": 123,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of N Aswini?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "N Aswini",
+    "citation_count": 131,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Chun-Yi Hu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Chun-Yi Hu",
+    "citation_count": 106,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Clarence Funaki?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Clarence Funaki",
+    "citation_count": 112,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Qicheng Liu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Qicheng Liu",
+    "citation_count": 300,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kei Miyagi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kei Miyagi",
+    "citation_count": 271,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jennifer Padgett?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jennifer Padgett",
+    "citation_count": 112,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Laura Ierimonti?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Laura Ierimonti",
+    "citation_count": 798,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Rudrika Kalsotra?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Rudrika Kalsotra",
+    "citation_count": 147,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of K. Kechagia?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "K. Kechagia",
+    "citation_count": 371,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of S. Parameswaran?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "S. Parameswaran",
+    "citation_count": 263,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Chartchai Doungsa-ard?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Chartchai Doungsa-ard",
+    "citation_count": 113,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Lorenzo Mattioni?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Lorenzo Mattioni",
+    "citation_count": 119,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yumi Tsuji?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Yumi Tsuji",
+    "citation_count": 130,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Alexandros Kitsikidis?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Alexandros Kitsikidis",
+    "citation_count": 375,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Wang Guang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Wang Guang",
+    "citation_count": 251,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kuo-Feng Hsu?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Kuo-Feng Hsu",
+    "citation_count": 149,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mattia Cacciotti?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Mattia Cacciotti",
+    "citation_count": 108,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xianrui Sun?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xianrui Sun",
+    "citation_count": 258,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ronny Tsalik?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ronny Tsalik",
+    "citation_count": 326,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tianhao Wu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tianhao Wu",
+    "citation_count": 375,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hironobu Isikawa?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hironobu Isikawa",
+    "citation_count": 123,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jon Vaver?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jon Vaver",
+    "citation_count": 219,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Zheming Zhou?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Zheming Zhou",
+    "citation_count": 223,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Adam Pantanowitz?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Adam Pantanowitz",
+    "citation_count": 235,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hesong Cui?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hesong Cui",
+    "citation_count": 230,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sancha P. Salgueiro?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Sancha P. Salgueiro",
+    "citation_count": 126,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Akrem Sellami?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Akrem Sellami",
+    "citation_count": 757,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Luisa Franchina?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Luisa Franchina",
+    "citation_count": 172,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Monica Thornton?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Monica Thornton",
+    "citation_count": 392,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ghaith Bany Hamad?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Ghaith Bany Hamad",
+    "citation_count": 500,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Dan Yin?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Dan Yin",
+    "citation_count": 114,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of G. Sai Chaitanya Kumar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "G. Sai Chaitanya Kumar",
+    "citation_count": 119,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Florence Ho?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Florence Ho",
+    "citation_count": 234,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Keren Bendel?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Keren Bendel",
+    "citation_count": 116,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ziteng Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ziteng Wang",
+    "citation_count": 543,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ji Feng Guo?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ji Feng Guo",
+    "citation_count": 183,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of G G Sivasankari?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "G G Sivasankari",
+    "citation_count": 100,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Walaa Alajali?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Walaa Alajali",
+    "citation_count": 140,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Michael Erbschloe?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Michael Erbschloe",
+    "citation_count": 111,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jean-Luc Perret?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Jean-Luc Perret",
+    "citation_count": 379,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Supriya Kapoor?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Supriya Kapoor",
+    "citation_count": 333,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xinyi Yang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xinyi Yang",
+    "citation_count": 541,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mingyu Wan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mingyu Wan",
+    "citation_count": 181,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Trosky B. Callo Arias?",
+    "answer": "software engineering",
+    "source_type": "researcher",
+    "researcher_name": "Trosky B. Callo Arias",
+    "citation_count": 121,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Nick Karonis?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Nick Karonis",
+    "citation_count": 805,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Debra Gross?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Debra Gross",
+    "citation_count": 103,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Stefan Schemmer?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Stefan Schemmer",
+    "citation_count": 197,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Stefanos Gkikas?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Stefanos Gkikas",
+    "citation_count": 209,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Frank A. Zdarsky?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Frank A. Zdarsky",
+    "citation_count": 826,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Waqar Amin?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Waqar Amin",
+    "citation_count": 171,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Selma Saidi?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Selma Saidi",
+    "citation_count": 111,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Dmitrii Dobriborsci?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Dmitrii Dobriborsci",
+    "citation_count": 140,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jan Lemeire?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Jan Lemeire",
+    "citation_count": 683,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Adam Wong Yoon Khang?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Adam Wong Yoon Khang",
+    "citation_count": 271,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xiaofeng Bai?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xiaofeng Bai",
+    "citation_count": 189,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Egon van den Broek?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Egon van den Broek",
+    "citation_count": 330,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Clemens Dannheim?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Clemens Dannheim",
+    "citation_count": 142,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Olusogo Popoola?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Olusogo Popoola",
+    "citation_count": 238,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of E. Chitra?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "E. Chitra",
+    "citation_count": 149,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Muhammad Asif Khan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Muhammad Asif Khan",
+    "citation_count": 576,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Evgeny R. Gafarov?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Evgeny R. Gafarov",
+    "citation_count": 272,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sandi Armel?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sandi Armel",
+    "citation_count": 111,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Bowen Lin?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Bowen Lin",
+    "citation_count": 247,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Lotfi Nabli?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Lotfi Nabli",
+    "citation_count": 205,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Regis T. Neuenshwander?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Regis T. Neuenshwander",
+    "citation_count": 179,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of D. McCown?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "D. McCown",
+    "citation_count": 196,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Richard W Cook?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Richard W Cook",
+    "citation_count": 120,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Terry Snyder?",
+    "answer": "software engineering",
+    "source_type": "researcher",
+    "researcher_name": "Terry Snyder",
+    "citation_count": 349,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Nicholas Smallbone?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Nicholas Smallbone",
+    "citation_count": 554,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Shuhui Jiang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shuhui Jiang",
+    "citation_count": 896,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Meha Bhushan?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Meha Bhushan",
+    "citation_count": 106,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Santosh Mahagaonkar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Santosh Mahagaonkar",
+    "citation_count": 168,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of E.T. Fonseca?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "E.T. Fonseca",
+    "citation_count": 136,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jordan Mohler?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Jordan Mohler",
+    "citation_count": 941,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of D. Athanasiou?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "D. Athanasiou",
+    "citation_count": 115,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Wenying Xiong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Wenying Xiong",
+    "citation_count": 574,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Niina Päivinen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Niina Päivinen",
+    "citation_count": 262,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Min Xu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Min Xu",
+    "citation_count": 522,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Young Sam Ryu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Young Sam Ryu",
+    "citation_count": 418,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Viorel Preoteasa?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Viorel Preoteasa",
+    "citation_count": 289,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Guenther Lamprecht?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Guenther Lamprecht",
+    "citation_count": 105,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yude Xia?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yude Xia",
+    "citation_count": 174,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of ThomasA. Brantigan?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "ThomasA. Brantigan",
+    "citation_count": 193,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Alexander Eulitz?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Alexander Eulitz",
+    "citation_count": 360,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Nikos Sourlos?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Nikos Sourlos",
+    "citation_count": 124,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of P. Ravi Kiran Varma?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "P. Ravi Kiran Varma",
+    "citation_count": 587,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Weijia Wen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Weijia Wen",
+    "citation_count": 126,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Qiuhua Wan?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Qiuhua Wan",
+    "citation_count": 316,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mohammad Mahdi Molla Jafari?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Mohammad Mahdi Molla Jafari",
+    "citation_count": 101,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mehmet Bilim?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Mehmet Bilim",
+    "citation_count": 424,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kihyun Chung?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Kihyun Chung",
+    "citation_count": 118,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Biao Jin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Biao Jin",
+    "citation_count": 100,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Robert B. Bailey?",
+    "answer": "software engineering",
+    "source_type": "researcher",
+    "researcher_name": "Robert B. Bailey",
+    "citation_count": 120,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Dennis Gibson?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Dennis Gibson",
+    "citation_count": 143,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Peter M. Lorey?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Peter M. Lorey",
+    "citation_count": 317,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hernán Porras?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Hernán Porras",
+    "citation_count": 166,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Baolei Wei?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Baolei Wei",
+    "citation_count": 406,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kiho Lim?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Kiho Lim",
+    "citation_count": 588,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hyun Kwon Suh?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hyun Kwon Suh",
+    "citation_count": 655,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of M. P�rez-L�pez?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "M. P�rez-L�pez",
+    "citation_count": 166,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of G. Huszerl?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "G. Huszerl",
+    "citation_count": 284,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of John Topham?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "John Topham",
+    "citation_count": 282,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of B. Liu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "B. Liu",
+    "citation_count": 172,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of P. Nong Cook?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "P. Nong Cook",
+    "citation_count": 255,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yaru Xu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yaru Xu",
+    "citation_count": 190,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Iaroslav Kovalenko?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Iaroslav Kovalenko",
+    "citation_count": 136,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kwang-Yu Chu?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Kwang-Yu Chu",
+    "citation_count": 121,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jeongkyu Hong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jeongkyu Hong",
+    "citation_count": 128,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Christina Solomonidou?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Christina Solomonidou",
+    "citation_count": 516,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kristal Curtis?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kristal Curtis",
+    "citation_count": 358,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Roberto Lenarduzzi?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Roberto Lenarduzzi",
+    "citation_count": 144,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Kristen S. Gorman?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Kristen S. Gorman",
+    "citation_count": 423,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Shijie Dai?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Shijie Dai",
+    "citation_count": 601,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Reuben D. Budiardja?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Reuben D. Budiardja",
+    "citation_count": 330,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Fuzhong Li?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Fuzhong Li",
+    "citation_count": 327,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jean-Marc Gaudin?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Jean-Marc Gaudin",
+    "citation_count": 198,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Eric J. Podchaski?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Eric J. Podchaski",
+    "citation_count": 123,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ajai Kumar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Ajai Kumar",
+    "citation_count": 887,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Eric Senn?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Eric Senn",
+    "citation_count": 770,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Samson Wang?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Samson Wang",
+    "citation_count": 626,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mobarak Abumohsen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mobarak Abumohsen",
+    "citation_count": 408,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of M. Lalleman?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "M. Lalleman",
+    "citation_count": 101,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Susan Lysecky?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Susan Lysecky",
+    "citation_count": 382,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Franco Cheung?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Franco Cheung",
+    "citation_count": 989,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of H. James Deva Koresh?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "H. James Deva Koresh",
+    "citation_count": 142,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Dong Yeong Kim?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Dong Yeong Kim",
+    "citation_count": 103,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yuanqian Luo?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Yuanqian Luo",
+    "citation_count": 284,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Anne Kelly?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Anne Kelly",
+    "citation_count": 852,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tae-Young Jeong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tae-Young Jeong",
+    "citation_count": 225,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tsong‐Jie Lin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Tsong‐Jie Lin",
+    "citation_count": 182,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Saurabh Jha?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Saurabh Jha",
+    "citation_count": 909,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Archana Jadhav?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Archana Jadhav",
+    "citation_count": 147,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hawke A. Evans?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hawke A. Evans",
+    "citation_count": 104,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Zahra Sedghi Gamechi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zahra Sedghi Gamechi",
+    "citation_count": 168,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Changlin Chen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Changlin Chen",
+    "citation_count": 118,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Eirini Christinaki?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Eirini Christinaki",
+    "citation_count": 280,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Amin Kheradmand?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Amin Kheradmand",
+    "citation_count": 410,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Joon Bae Kim?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Joon Bae Kim",
+    "citation_count": 168,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Antonio Fernández-Ares?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Antonio Fernández-Ares",
+    "citation_count": 372,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of A. Englert?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "A. Englert",
+    "citation_count": 417,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of S. Murugappan?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "S. Murugappan",
+    "citation_count": 386,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hans‐Christian Diener?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hans‐Christian Diener",
+    "citation_count": 262,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Krista E. Overvliet?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Krista E. Overvliet",
+    "citation_count": 678,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Krystal Kallarackal?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Krystal Kallarackal",
+    "citation_count": 401,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Joel Solé?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Joel Solé",
+    "citation_count": 806,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of D. C. McShan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "D. C. McShan",
+    "citation_count": 108,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Tudor Mihai Stoenescu?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Tudor Mihai Stoenescu",
+    "citation_count": 129,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sheldon Klein?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sheldon Klein",
+    "citation_count": 704,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Debanga Raj Neog?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Debanga Raj Neog",
+    "citation_count": 614,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Filipe Fidalgo?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Filipe Fidalgo",
+    "citation_count": 263,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Wookhyun Kim?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Wookhyun Kim",
+    "citation_count": 999,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Z. Konyha?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Z. Konyha",
+    "citation_count": 147,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Pelin Erdem?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Pelin Erdem",
+    "citation_count": 143,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Pinghua Xu?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Pinghua Xu",
+    "citation_count": 276,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Guoxiang Feng?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Guoxiang Feng",
+    "citation_count": 112,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Zhao Zhi-hong?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Zhao Zhi-hong",
+    "citation_count": 153,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Sen Jiang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Sen Jiang",
+    "citation_count": 379,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jungkyu Rho?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jungkyu Rho",
+    "citation_count": 128,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jinghai Yin?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Jinghai Yin",
+    "citation_count": 191,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Peter Charrot?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Peter Charrot",
+    "citation_count": 212,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Boshra Rajaei?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Boshra Rajaei",
+    "citation_count": 127,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Josh McQueen?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Josh McQueen",
+    "citation_count": 489,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Aohan Li?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Aohan Li",
+    "citation_count": 269,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Martin Priessner?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Martin Priessner",
+    "citation_count": 144,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Christoph Brepols?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Christoph Brepols",
+    "citation_count": 385,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Daniel Xiaodan Zhou?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Daniel Xiaodan Zhou",
+    "citation_count": 148,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of R. Moniot?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "R. Moniot",
+    "citation_count": 166,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hendri Murfi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Hendri Murfi",
+    "citation_count": 986,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jiatai Lin?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jiatai Lin",
+    "citation_count": 722,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Nitin Malik?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Nitin Malik",
+    "citation_count": 557,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Ryouichi Kubo?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Ryouichi Kubo",
+    "citation_count": 236,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Rajiv Kumar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Rajiv Kumar",
+    "citation_count": 206,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Yeqing Qian?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Yeqing Qian",
+    "citation_count": 513,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Oyebola Popoola?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Oyebola Popoola",
+    "citation_count": 446,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Josef Hofer‐Alfeis?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Josef Hofer‐Alfeis",
+    "citation_count": 148,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xiaoyu Wang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xiaoyu Wang",
+    "citation_count": 919,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Anna Forlenza-Bailey?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Anna Forlenza-Bailey",
+    "citation_count": 441,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Matteo De Marchi?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Matteo De Marchi",
+    "citation_count": 249,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of S. Venkataraman?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "S. Venkataraman",
+    "citation_count": 147,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Y.-T.S. Li?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Y.-T.S. Li",
+    "citation_count": 351,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Gerry Gerard Claps?",
+    "answer": "software engineering",
+    "source_type": "researcher",
+    "researcher_name": "Gerry Gerard Claps",
+    "citation_count": 148,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Jinge Tian?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Jinge Tian",
+    "citation_count": 132,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Hanzhong Xia?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Hanzhong Xia",
+    "citation_count": 137,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Syed Mudassir Hussain?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Syed Mudassir Hussain",
+    "citation_count": 108,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Luca Menghini?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Luca Menghini",
+    "citation_count": 951,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Mohamed Omar?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Mohamed Omar",
+    "citation_count": 129,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Silvija Seres?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Silvija Seres",
+    "citation_count": 149,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of S. Radha Rammohan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "S. Radha Rammohan",
+    "citation_count": 198,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Baolin Liu?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Baolin Liu",
+    "citation_count": 116,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Shankou Zhang?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Shankou Zhang",
+    "citation_count": 104,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Xiaoyu Yan?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Xiaoyu Yan",
+    "citation_count": 140,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Seungbae Bang?",
+    "answer": "machine learning",
+    "source_type": "researcher",
+    "researcher_name": "Seungbae Bang",
+    "citation_count": 230,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of Giulia Droandi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Giulia Droandi",
+    "citation_count": 131,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  },
+  {
+    "question": "What is the research field of M. Buhren?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "M. Buhren",
+    "citation_count": 116,
+    "domain": "computer_science",
+    "citation_range": "low_for_t6"
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Yoshua Bengio",
+    "citations": 448923,
+    "h_index": 183,
+    "works": 1278
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "citations": 445916,
+    "h_index": 137,
+    "works": 384
+  },
+  {
+    "name": "Yann LeCun",
+    "citations": 247024,
+    "h_index": 118,
+    "works": 479
+  },
+  {
+    "name": "Oriol Vinyals",
+    "citations": 173144,
+    "h_index": 94,
+    "works": 215
+  },
+  {
+    "name": "Andrew Ng",
+    "citations": 129724,
+    "h_index": 125,
+    "works": 389
+  },
+  {
+    "name": "Ian Goodfellow",
+    "citations": 82961,
+    "h_index": 64,
+    "works": 111
+  },
+  {
+    "name": "Pieter Abbeel",
+    "citations": 76914,
+    "h_index": 124,
+    "works": 708
+  },
+  {
+    "name": "Eric Mitchell",
+    "citations": 74659,
+    "h_index": 135,
+    "works": 1031
+  },
+  {
+    "name": "Simran Arora",
+    "citations": 64986,
+    "h_index": 66,
+    "works": 280
+  },
+  {
+    "name": "Sergey Levine",
+    "citations": 63370,
+    "h_index": 110,
+    "works": 872
+  },
+  {
+    "name": "Andrej Karpathy",
+    "citations": 58593,
+    "h_index": 20,
+    "works": 25
+  },
+  {
+    "name": "Percy Liang",
+    "citations": 43296,
+    "h_index": 85,
+    "works": 428
+  },
+  {
+    "name": "Danqi Chen",
+    "citations": 35171,
+    "h_index": 45,
+    "works": 298
+  },
+  {
+    "name": "Ananya Kumar",
+    "citations": 26376,
+    "h_index": 94,
+    "works": 362
+  },
+  {
+    "name": "Sham Kakade",
+    "citations": 19902,
+    "h_index": 67,
+    "works": 350
+  },
+  {
+    "name": "Zico Kolter",
+    "citations": 18315,
+    "h_index": 55,
+    "works": 257
+  },
+  {
+    "name": "Xiang Ren",
+    "citations": 16955,
+    "h_index": 64,
+    "works": 432
+  },
+  {
+    "name": "Aleksander Madry",
+    "citations": 8697,
+    "h_index": 43,
+    "works": 152
+  },
+  {
+    "name": "Sang Michael Xie",
+    "citations": 5305,
+    "h_index": 16,
+    "works": 40
+  },
+  {
+    "name": "Aditi Raghunathan",
+    "citations": 4689,
+    "h_index": 22,
+    "works": 98
+  },
+  {
+    "name": "Karthik Narasimhan",
+    "citations": 4497,
+    "h_index": 31,
+    "works": 158
+  },
+  {
+    "name": "Karan Goel",
+    "citations": 3142,
+    "h_index": 11,
+    "works": 33
+  },
+  {
+    "name": "Albert Gu",
+    "citations": 3015,
+    "h_index": 22,
+    "works": 74
+  },
+  {
+    "name": "Tri Dao",
+    "citations": 2817,
+    "h_index": 18,
+    "works": 56
+  },
+  {
+    "name": "Ruoxi Jia",
+    "citations": 2796,
+    "h_index": 26,
+    "works": 154
+  },
+  {
+    "name": "Lisa Dunlap",
+    "citations": 303,
+    "h_index": 9,
+    "works": 30
+  },
+  {
+    "name": "Sabri Eyuboglu",
+    "citations": 267,
+    "h_index": 8,
+    "works": 18
+  },
+  {
+    "name": "Mayee Chen",
+    "citations": 215,
+    "h_index": 9,
+    "works": 18
+  }
+]

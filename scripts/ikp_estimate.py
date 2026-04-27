@@ -1,0 +1,522 @@
+#!/usr/bin/env python3
+"""IKP Estimate — estimate a model's parameter count via factual knowledge probing.
+
+Runs the IKP benchmark against a model and estimates its parameter count
+based on a calibration curve fitted on 62 open-weight models (1B to 1040B).
+
+Usage:
+  # Estimate via OpenRouter
+  python scripts/ikp_estimate.py --model openai/gpt-4.1
+
+  # Estimate via custom OpenAI-compatible API
+  python scripts/ikp_estimate.py --api-base http://localhost:8000/v1 --model my-model
+
+  # Use a sample (faster, less accurate)
+  python scripts/ikp_estimate.py --model openai/gpt-4.1 --sample 200
+
+  # Inspect results: show all questions, answers, and verdicts
+  python scripts/ikp_estimate.py --model openai/gpt-4.1 --inspect
+
+  # Just inspect the probe set (no model query)
+  python scripts/ikp_estimate.py --inspect-probes
+
+  # Show calibration info
+  python scripts/ikp_estimate.py --show-calibration
+"""
+
+import argparse
+import json
+import math
+import os
+import random
+import re
+import sys
+import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
+
+import httpx
+
+# ── Constants ──────────────────────────────────────────────────
+PROJECT_ROOT = Path(__file__).parent.parent
+PROBE_FILE = PROJECT_ROOT / "data" / "probes" / "final_probe_set_v8.json"
+SYSTEM_MSG = "Answer factual questions directly and concisely. If you don't know, say 'I don't know'."
+JUDGE_MODEL = "google/gemini-3-flash-preview"
+HALLUCINATION_PENALTY = -1.0
+
+# Calibration curve: log10(params_B) = SLOPE * penalized_accuracy + INTERCEPT
+# Fitted on 89 open-weight models (135M to 1.6T), R² = 0.917
+# (LOO median fold 1.59×, 68.5% within 2×, 87.6% within 3×, 90% PI factor 3.00×)
+CALIB_SLOPE = 6.790
+CALIB_INTERCEPT = -0.899  # in log10(params_B) space
+CALIB_N = 89
+CALIB_R2 = 0.917
+
+# Tier boundary descriptions
+TIER_INFO = {
+    "T1": {"range": "< 1B",    "desc": "Universal knowledge — known by the smallest models"},
+    "T2": {"range": "1B–7B",   "desc": "Common reference knowledge"},
+    "T3": {"range": "7B–32B",  "desc": "Domain-specific knowledge"},
+    "T4": {"range": "32B–235B", "desc": "Specialized knowledge"},
+    "T5": {"range": "235B–1T", "desc": "Deep knowledge — requires frontier-scale models"},
+    "T6": {"range": "1T–5T",   "desc": "Long-tail knowledge — only the largest models"},
+    "T7": {"range": "> 5T",    "desc": "Extreme long-tail — beyond current model capacity"},
+}
+
+
+# ── Helpers ────────────────────────────────────────────────────
+def strip_thinking(text: str) -> str:
+    if not text:
+        return ""
+    cleaned = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL).strip()
+    if cleaned.startswith('<think>'):
+        end = cleaned.find('</think>')
+        cleaned = cleaned[end + 8:].strip() if end >= 0 else ''
+    return cleaned or text
+
+
+def estimate_params(accuracy: float) -> float:
+    """Estimate parameter count in billions from penalized accuracy."""
+    if accuracy <= 0:
+        return 0
+    log_b = CALIB_SLOPE * accuracy + CALIB_INTERCEPT
+    return 10 ** log_b
+
+
+def format_params(b: float) -> str:
+    """Format parameter count for display."""
+    if b <= 0:
+        return "N/A"
+    if b < 1:
+        return f"{b * 1000:.0f}M"
+    if b < 1000:
+        return f"{b:.0f}B"
+    return f"{b / 1000:.1f}T"
+
+
+# ── Model query ────────────────────────────────────────────────
+def make_query_fn(api_base: str, api_key: str, model: str, is_thinking: bool):
+    """Create a function that queries the model."""
+
+    def query(question: str) -> str:
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": SYSTEM_MSG},
+                {"role": "user", "content": question},
+            ],
+            "temperature": 0,
+        }
+        if is_thinking:
+            payload["reasoning"] = {"effort": "medium"}
+
+        headers = {"Content-Type": "application/json"}
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+
+        with httpx.Client(timeout=120) as http:
+            for attempt in range(3):
+                try:
+                    r = http.post(f"{api_base}/chat/completions",
+                                  headers=headers, json=payload)
+                    if r.status_code == 200:
+                        data = r.json()
+                        if "error" in data:
+                            return ""
+                        if "choices" not in data:
+                            return ""
+                        msg = data["choices"][0]["message"]
+                        content = msg.get("content") or ""
+                        if not content and msg.get("reasoning"):
+                            content = msg["reasoning"]
+                        if is_thinking and content:
+                            content = strip_thinking(content)
+                        return content
+                    elif r.status_code == 429:
+                        time.sleep(3 * (attempt + 1))
+                    else:
+                        return ""
+                except Exception:
+                    time.sleep(2)
+        return ""
+
+    return query
+
+
+def make_judge_fn(api_key: str):
+    """Create judge function using OpenRouter."""
+
+    def judge(question: str, gold: str, response: str) -> str:
+        if not response or not response.strip():
+            return "REFUSAL"
+
+        if ';' in gold:
+            gold_display = ' OR '.join(a.strip() for a in gold.split(';'))
+            co_note = "\nNOTE: Any of the listed names counts as CORRECT."
+        else:
+            gold_display = gold
+            co_note = ""
+
+        prompt = f"""You are a strict factual judge. Classify the model's response.
+
+Question: {question}
+Correct answer: {gold_display}
+Model's response: {response}
+
+Rules:
+1. YEAR must match exactly. 2. NUMBER within 1-2%. 3. NAME: same entity, minor spelling OK.
+4. RESEARCH FIELD: accept adjacent/related subfields. Multiple unrelated guesses = WRONG.
+5. If refuses or doesn't know: REFUSAL. 6. Different answer: WRONG.
+{co_note}
+Reply one word: CORRECT, REFUSAL, or WRONG"""
+
+        headers = {"Content-Type": "application/json"}
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+
+        with httpx.Client(timeout=60) as http:
+            for attempt in range(3):
+                try:
+                    r = http.post("https://openrouter.ai/api/v1/chat/completions",
+                                  headers=headers,
+                                  json={"model": JUDGE_MODEL,
+                                        "messages": [{"role": "user", "content": prompt}],
+                                        "temperature": 0,
+                                        "reasoning": {"effort": "low"}})
+                    if r.status_code == 200:
+                        data = r.json()
+                        if "choices" not in data:
+                            return "WRONG"
+                        raw = data["choices"][0]["message"]["content"].strip().upper()
+                        if raw.startswith("CORRECT"):
+                            return "CORRECT"
+                        if raw.startswith("REFUSAL"):
+                            return "REFUSAL"
+                        return "WRONG"
+                    elif r.status_code == 429:
+                        time.sleep(3 * (attempt + 1))
+                except Exception:
+                    time.sleep(2)
+        return "WRONG"
+
+    return judge
+
+
+# ── Display ────────────────────────────────────────────────────
+VERDICT_COLORS = {
+    "CORRECT": "\033[92m",  # green
+    "WRONG": "\033[91m",    # red
+    "REFUSAL": "\033[93m",  # yellow
+}
+RESET = "\033[0m"
+DIM = "\033[90m"
+
+
+def display_results(model_name: str, results: list, tier_accs: dict, accuracy: float,
+                    raw_accuracy: float, estimated_B: float, inspect: bool):
+    """Display evaluation results."""
+    print()
+    print(f"  ╔══════════════════════════════════════════════════════════╗")
+    print(f"  ║  IKP Estimation Results                                 ║")
+    print(f"  ╠══════════════════════════════════════════════════════════╣")
+    print(f"  ║  Model:     {model_name:42s}  ║")
+    print(f"  ║  Probes:    {len(results):<42d}  ║")
+    print(f"  ║  Accuracy:  {accuracy:.1%} (penalized)  {raw_accuracy:.1%} (raw){' ' * 14}  ║")
+    print(f"  ║  Estimated: {format_params(estimated_B):>6s} parameters{' ' * 26}  ║")
+    print(f"  ╚══════════════════════════════════════════════════════════╝")
+
+    # Per-tier breakdown
+    print(f"\n  {'Tier':<5} {'Accuracy':>9} {'Correct':>8} {'Wrong':>7} {'Refuse':>7} {'Total':>6}  Description")
+    print(f"  {'─' * 80}")
+    for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
+        tier_results = [r for r in results if r["tier"] == t]
+        if not tier_results:
+            continue
+        correct = sum(1 for r in tier_results if r["verdict"] == "CORRECT")
+        wrong = sum(1 for r in tier_results if r["verdict"] == "WRONG")
+        refusal = sum(1 for r in tier_results if r["verdict"] == "REFUSAL")
+        total = len(tier_results)
+        acc = tier_accs.get(t, 0)
+        info = TIER_INFO.get(t, {})
+        marker = " ◀ frontier" if acc > 0 and t in ["T5", "T6", "T7"] else ""
+        print(f"  {t:<5} {acc:>8.0%} {correct:>8} {wrong:>7} {refusal:>7} {total:>6}  "
+              f"{DIM}{info.get('range', '')}: {info.get('desc', '')}{RESET}{marker}")
+
+    # Determine effective tier
+    effective_tier = "T1"
+    for t in ["T7", "T6", "T5", "T4", "T3", "T2", "T1"]:
+        if tier_accs.get(t, 0) > 0.05:
+            effective_tier = t
+            break
+
+    print(f"\n  Effective tier: {effective_tier} ({TIER_INFO[effective_tier]['desc']})")
+    print(f"  Estimated size: {format_params(estimated_B)} "
+          f"(calibrated on {CALIB_N} open models, R²={CALIB_R2:.3f})")
+
+    # Confidence note
+    if len(results) < 200:
+        print(f"\n  {DIM}⚠ Using {len(results)} probes (sampled). For more precise estimates, "
+              f"use the full 1400-probe set.{RESET}")
+    print()
+
+    # Inspect mode: show all probes
+    if inspect:
+        print(f"  {'─' * 90}")
+        print(f"  DETAILED RESULTS")
+        print(f"  {'─' * 90}")
+        for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
+            tier_results = [r for r in results if r["tier"] == t]
+            if not tier_results:
+                continue
+            print(f"\n  {DIM}── {t} ──{RESET}")
+            for r in tier_results:
+                color = VERDICT_COLORS.get(r["verdict"], "")
+                symbol = {"CORRECT": "✓", "WRONG": "✗", "REFUSAL": "?"}.get(r["verdict"], "-")
+                print(f"  {color}{symbol}{RESET} Q: {r['question']}")
+                print(f"    Gold: {r['gold_answer']}")
+                if r["response"]:
+                    print(f"    Model: {r['response']}")
+                print(f"    Verdict: {color}{r['verdict']}{RESET}")
+                print()
+
+
+def display_probes(probes: list):
+    """Display probe set for inspection."""
+    from collections import Counter
+    tier_counts = Counter(p["tier"] for p in probes)
+    domain_counts = Counter(p.get("domain", "?") for p in probes)
+
+    print(f"\n  IKP Probe Set v8: {len(probes)} probes")
+    print(f"\n  Per tier:")
+    for t in sorted(tier_counts):
+        info = TIER_INFO.get(t, {})
+        print(f"    {t}: {tier_counts[t]:>4} probes  ({info.get('range', '')}: {info.get('desc', '')})")
+
+    print(f"\n  Top domains:")
+    for domain, count in domain_counts.most_common(10):
+        print(f"    {domain:30s} {count:>4}")
+
+    print(f"\n  Sample probes by tier:")
+    for t in ["T1", "T3", "T5", "T7"]:
+        tier_probes = [p for p in probes if p["tier"] == t]
+        print(f"\n  {DIM}── {t} ──{RESET}")
+        for p in tier_probes[:3]:
+            print(f"    Q: {p['question']}")
+            print(f"    A: {p['answer']}")
+            print()
+
+
+def display_calibration():
+    """Display calibration curve info."""
+    print(f"\n  IKP Calibration Curve")
+    print(f"  {'─' * 50}")
+    print(f"  log₁₀(params_B) = {CALIB_SLOPE:.4f} × accuracy + ({CALIB_INTERCEPT:.4f})")
+    print(f"  Fitted on {CALIB_N} open-weight models (1B to 1040B)")
+    print(f"  R² = {CALIB_R2:.3f}")
+    print(f"\n  Reference points:")
+
+    reference = [
+        (0.19, "~1B (e.g., Llama 3.2 1B)"),
+        (0.28, "~3B (e.g., Llama 3.2 3B)"),
+        (0.37, "~8B (e.g., Llama 3 8B)"),
+        (0.44, "~24B (e.g., Mistral Small)"),
+        (0.52, "~70B (e.g., Llama 3 70B)"),
+        (0.63, "~670B (e.g., DeepSeek V3)"),
+        (0.69, "~1T (e.g., Kimi K2.5)"),
+    ]
+    for acc, desc in reference:
+        est = estimate_params(acc)
+        print(f"    accuracy={acc:.0%}  →  {format_params(est):>6s}  {desc}")
+    print()
+
+
+# ── Main ──────────────────────────────────────────────────────
+def main():
+    parser = argparse.ArgumentParser(
+        description="IKP Estimate — estimate LLM parameter count via factual knowledge probing",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=__doc__,
+    )
+
+    # Model specification
+    model_group = parser.add_argument_group("Model")
+    model_group.add_argument("--model", "-m", metavar="MODEL",
+                             help="Model name (OpenRouter ID or custom model name)")
+    model_group.add_argument("--api-base", metavar="URL",
+                             default="https://openrouter.ai/api/v1",
+                             help="API base URL (default: OpenRouter)")
+    model_group.add_argument("--api-key", metavar="KEY",
+                             help="API key (default: OPENROUTER_API_KEY env var)")
+    model_group.add_argument("--thinking", action="store_true",
+                             help="Enable thinking/reasoning mode")
+
+    # Evaluation options
+    eval_group = parser.add_argument_group("Evaluation")
+    eval_group.add_argument("--sample", "-n", type=int, metavar="N",
+                            help="Sample N probes (default: use all 1400)")
+    eval_group.add_argument("--workers", "-w", type=int, default=16,
+                            help="Parallel workers (default: 16)")
+    eval_group.add_argument("--sequential", "-s", action="store_true",
+                            help="Disable parallelism")
+    eval_group.add_argument("--output", "-o", metavar="FILE",
+                            help="Save detailed results to JSON file")
+
+    # Display options
+    display_group = parser.add_argument_group("Display")
+    display_group.add_argument("--inspect", action="store_true",
+                               help="Show detailed per-probe results")
+    display_group.add_argument("--inspect-probes", action="store_true",
+                               help="Inspect the probe set and exit")
+    display_group.add_argument("--show-calibration", action="store_true",
+                               help="Show calibration curve info and exit")
+
+    args = parser.parse_args()
+
+    # Info-only modes
+    if args.show_calibration:
+        display_calibration()
+        return
+
+    probes = json.load(open(PROBE_FILE))
+
+    if args.inspect_probes:
+        display_probes(probes)
+        return
+
+    if not args.model:
+        parser.print_help()
+        return
+
+    # Set up API
+    api_key = args.api_key or os.environ.get("OPENROUTER_API_KEY", "")
+    if not api_key and "openrouter" in args.api_base:
+        print("Error: OPENROUTER_API_KEY not set. Use --api-key or set the env var.")
+        sys.exit(1)
+
+    # Sample probes if requested
+    if args.sample:
+        # Stratified sample: equal per tier
+        per_tier = max(args.sample // 7, 1)
+        sampled = []
+        for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
+            tier_probes = [p for p in probes if p["tier"] == t]
+            sampled.extend(random.sample(tier_probes, min(per_tier, len(tier_probes))))
+        probes = sampled
+
+    # Pre-test the model
+    print(f"\n  Testing {args.model}...")
+    query_fn = make_query_fn(args.api_base, api_key, args.model, args.thinking)
+    test_resp = query_fn("What is the capital of France?")
+    if not test_resp:
+        print(f"  Error: model returned empty response. Check your --model and --api-base.")
+        sys.exit(1)
+    if "paris" not in test_resp.lower():
+        print(f"  Warning: unexpected test response: {test_resp[:100]}")
+    else:
+        print(f"  Model OK: {test_resp[:60]}")
+
+    # Judge always uses OpenRouter (needs valid OPENROUTER_API_KEY)
+    judge_key = os.environ.get("OPENROUTER_API_KEY", api_key)
+    if not judge_key:
+        print(f"  Error: OPENROUTER_API_KEY needed for the judge model. Set it as env var.")
+        sys.exit(1)
+    judge_fn = make_judge_fn(judge_key)
+
+    # Run evaluation
+    total = len(probes)
+    print(f"\n  Running {total} probes ({args.workers} workers)...\n")
+
+    results = []
+    _lock = threading.Lock()
+    _done = [0]
+
+    def eval_one(probe):
+        q = probe["question"]
+        gold = probe["answer"]
+        response = query_fn(q)
+        verdict = judge_fn(q, gold, response)
+
+        with _lock:
+            _done[0] += 1
+            if _done[0] % 50 == 0 or _done[0] == total:
+                correct_so_far = sum(1 for r in results if r.get("verdict") == "CORRECT")
+                sys.stderr.write(f"\r  [{_done[0]}/{total}] {correct_so_far} correct")
+                sys.stderr.flush()
+
+        return {
+            "probe_id": probe.get("id", ""),
+            "tier": probe["tier"],
+            "domain": probe.get("domain", ""),
+            "question": q,
+            "gold_answer": gold,
+            "response": (response or "")[:500],
+            "verdict": verdict,
+        }
+
+    workers = 1 if args.sequential else args.workers
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(eval_one, p): p for p in probes}
+        for future in as_completed(futures):
+            results.append(future.result())
+
+    sys.stderr.write("\r" + " " * 60 + "\r")
+    sys.stderr.flush()
+
+    # Compute scores
+    from collections import defaultdict
+    tier_stats = defaultdict(lambda: {"correct": 0, "total": 0, "refusal": 0, "wrong": 0})
+    for r in results:
+        t = r["tier"]
+        tier_stats[t]["total"] += 1
+        if r["verdict"] == "CORRECT":
+            tier_stats[t]["correct"] += 1
+        elif r["verdict"] == "REFUSAL":
+            tier_stats[t]["refusal"] += 1
+        else:
+            tier_stats[t]["wrong"] += 1
+
+    tier_accs = {}
+    for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
+        s = tier_stats[t]
+        if s["total"] > 0:
+            score = (s["correct"] + HALLUCINATION_PENALTY * s["wrong"]) / s["total"]
+            tier_accs[t] = max(score, 0.0)
+        else:
+            tier_accs[t] = 0.0
+
+    accuracy = sum(tier_accs.values()) / len(tier_accs) if tier_accs else 0
+    correct_total = sum(s["correct"] for s in tier_stats.values())
+    raw_accuracy = correct_total / len(results) if results else 0
+    estimated_B = estimate_params(accuracy)
+
+    # Display
+    display_results(args.model, results, tier_accs, accuracy, raw_accuracy,
+                    estimated_B, args.inspect)
+
+    # Save if requested
+    if args.output:
+        output = {
+            "model": args.model,
+            "api_base": args.api_base,
+            "probes_used": len(results),
+            "accuracy": accuracy,
+            "raw_accuracy": raw_accuracy,
+            "estimated_params_B": estimated_B,
+            "tier_accuracy": tier_accs,
+            "tier_stats": dict(tier_stats),
+            "calibration": {
+                "slope": CALIB_SLOPE,
+                "intercept": CALIB_INTERCEPT,
+                "n_models": CALIB_N,
+                "r_squared": CALIB_R2,
+            },
+            "results": results,
+        }
+        with open(args.output, "w") as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+        print(f"  Results saved to {args.output}")
+
+
+if __name__ == "__main__":
+    main()

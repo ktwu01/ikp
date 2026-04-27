@@ -1,0 +1,377 @@
+[
+  {
+    "probe_id": "IKP_T4_0656",
+    "name": "Aarti Gupta",
+    "reason": "venue signal: 3 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "Current Opinion in Environmental Sustainability",
+      "Global Environmental Politics",
+      "Wiley Interdisciplinary Reviews Climate Change"
+    ],
+    "openalex_id": "https://openalex.org/A5023694806"
+  },
+  {
+    "probe_id": "IKP_T4_0665",
+    "name": "Karen Devine",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Cell",
+      "Journal of Infection",
+      "PLoS ONE"
+    ],
+    "openalex_id": "https://openalex.org/A5030776350"
+  },
+  {
+    "probe_id": "IKP_T5_0861",
+    "name": "Xiaosong Ma",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Nature",
+      "Cell Metabolism",
+      "Pflügers Archiv - European Journal of Physiology"
+    ],
+    "openalex_id": "https://openalex.org/A5057826903"
+  },
+  {
+    "probe_id": "IKP_T5_0872",
+    "name": "Amy Tai",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Cancer",
+      "Human Pathology",
+      "Cancer Research"
+    ],
+    "openalex_id": "https://openalex.org/A5031036515"
+  },
+  {
+    "probe_id": "IKP_T5_0884",
+    "name": "Daming Zhu",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "PLoS ONE",
+      "Journal of Lipid Research",
+      "Journal of Neurochemistry"
+    ],
+    "openalex_id": "https://openalex.org/A5102969456"
+  },
+  {
+    "probe_id": "IKP_T6_1011",
+    "name": "Changlin Wan",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=1",
+    "venues_sample": [
+      "Journal of Clinical Investigation",
+      "Cell",
+      "Genome Research"
+    ],
+    "openalex_id": "https://openalex.org/A5037501161"
+  },
+  {
+    "probe_id": "IKP_T6_1032",
+    "name": "Antonios Makris",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Journal of Biological Chemistry",
+      "ACS Synthetic Biology",
+      "The Plant Cell"
+    ],
+    "openalex_id": "https://openalex.org/A5040048441"
+  },
+  {
+    "probe_id": "IKP_T6_1047",
+    "name": "Meera Sridhar",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "JNCI Journal of the National Cancer Institute",
+      "Blood"
+    ],
+    "openalex_id": "https://openalex.org/A5055543984"
+  },
+  {
+    "probe_id": "IKP_T6_1053",
+    "name": "Zhengyu He",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Laboratory Investigation",
+      "Cell Research",
+      "Nano Letters"
+    ],
+    "openalex_id": "https://openalex.org/A5045571402"
+  },
+  {
+    "probe_id": "IKP_T6_1058",
+    "name": "Rong Chen",
+    "reason": "venue signal: 2 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "Nature Energy",
+      "JBIC Journal of Biological Inorganic Chemistry",
+      "Journal of Proteome Research"
+    ],
+    "openalex_id": "https://openalex.org/A5100419038"
+  },
+  {
+    "probe_id": "IKP_T7_1200",
+    "name": "Po‐Shun Wang",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Journal of Medical Virology",
+      "Oncogene",
+      "Journal of Biomedical Science"
+    ],
+    "openalex_id": "https://openalex.org/A5056202655"
+  },
+  {
+    "probe_id": "IKP_T7_1202",
+    "name": "Marie‐Claire Blache",
+    "reason": "top OpenAlex field='Agricultural and Biological Sciences'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "International Journal of Obesity",
+      "Theriogenology",
+      "Reproduction"
+    ],
+    "openalex_id": "https://openalex.org/A5012373659"
+  },
+  {
+    "probe_id": "IKP_T7_1206",
+    "name": "Nicole M Wink",
+    "reason": "top OpenAlex field='Physics and Astronomy'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Medical Physics",
+      "Physics in Medicine and Biology",
+      "Journal of Applied Clinical Medical Physics"
+    ],
+    "openalex_id": "https://openalex.org/A5068101921"
+  },
+  {
+    "probe_id": "IKP_T7_1213",
+    "name": "Aashaka Shah",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Figshare",
+      "JMIR Pediatrics and Parenting",
+      "Frontiers in Microbiology"
+    ],
+    "openalex_id": "https://openalex.org/A5006803162"
+  },
+  {
+    "probe_id": "IKP_T7_1214",
+    "name": "Rama Devi Mittal",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Molecular Biology Reports",
+      "European Urology",
+      "Advances in clinical chemistry"
+    ],
+    "openalex_id": "https://openalex.org/A5105776358"
+  },
+  {
+    "probe_id": "IKP_T7_1218",
+    "name": "Yan Jiao",
+    "reason": "venue signal: 3 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Angewandte Chemie International Edition",
+      "Chemical Society Reviews"
+    ],
+    "openalex_id": "https://openalex.org/A5034195419"
+  },
+  {
+    "probe_id": "IKP_T7_1227",
+    "name": "Xianran Xing",
+    "reason": "venue signal: 3 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Chemical Communications",
+      "Chemical Society Reviews"
+    ],
+    "openalex_id": "https://openalex.org/A5101516804"
+  },
+  {
+    "probe_id": "IKP_T7_1228",
+    "name": "Joseph Chan",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Nature Genetics",
+      "Science",
+      "Cell"
+    ],
+    "openalex_id": "https://openalex.org/A5016682112"
+  },
+  {
+    "probe_id": "IKP_T7_1230",
+    "name": "Zhigang Cai",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Materials Science and Engineering C",
+      "Nature Communications",
+      "International Journal of Oral and Maxillofacial Surgery"
+    ],
+    "openalex_id": "https://openalex.org/A5031712717"
+  },
+  {
+    "probe_id": "IKP_T7_1232",
+    "name": "Kuo-Feng Hsu",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "World Journal of Surgery",
+      "European Journal of Radiology",
+      "Chemical Communications"
+    ],
+    "openalex_id": "https://openalex.org/A5005405834"
+  },
+  {
+    "probe_id": "IKP_T7_1237",
+    "name": "Zuming Jiang",
+    "reason": "top OpenAlex field='Physics and Astronomy'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Metrologia"
+    ],
+    "openalex_id": "https://openalex.org/A5001062609"
+  },
+  {
+    "probe_id": "IKP_T7_1244",
+    "name": "Yumi Horiuchi",
+    "reason": "venue signal: 2 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "The Cambridge Structural Database",
+      "Journal of the American Chemical Society",
+      "Bioscience Biotechnology and Biochemistry"
+    ],
+    "openalex_id": "https://openalex.org/A5081741860"
+  },
+  {
+    "probe_id": "IKP_T7_1250",
+    "name": "Anna Forlenza-Bailey",
+    "reason": "top OpenAlex field='Social Sciences'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "The Professional Educator",
+      "Journal of Teacher Education"
+    ],
+    "openalex_id": "https://openalex.org/A5071170946"
+  },
+  {
+    "probe_id": "IKP_T7_1251",
+    "name": "Yen‐Hung Lin",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Clinica Chimica Acta",
+      "Journal of Hypertension",
+      "Journal of the American Society of Nephrology"
+    ],
+    "openalex_id": "https://openalex.org/A5024547798"
+  },
+  {
+    "probe_id": "IKP_T7_1252",
+    "name": "Shan‐Lu Liu",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Journal of Virology",
+      "The Lancet",
+      "PLoS Pathogens"
+    ],
+    "openalex_id": "https://openalex.org/A5062868933"
+  },
+  {
+    "probe_id": "IKP_T7_1259",
+    "name": "Dongbo Liu",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Proceedings of the National Academy of Sciences",
+      "PLoS ONE",
+      "NeuroImage"
+    ],
+    "openalex_id": "https://openalex.org/A5004035476"
+  },
+  {
+    "probe_id": "IKP_T7_1261",
+    "name": "Jean-Marc Gaudin",
+    "reason": "top OpenAlex field='Chemistry'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Tetrahedron Letters",
+      "Tetrahedron",
+      "Helvetica Chimica Acta"
+    ],
+    "openalex_id": "https://openalex.org/A5104085287"
+  },
+  {
+    "probe_id": "IKP_T7_1262",
+    "name": "Alok Mishra",
+    "reason": "top OpenAlex field='Immunology and Microbiology'; no CS topics; cs_venues=1",
+    "venues_sample": [
+      "Nucleic Acids Research",
+      "Biology",
+      "Bioinformatics"
+    ],
+    "openalex_id": "https://openalex.org/A5059230101"
+  },
+  {
+    "probe_id": "IKP_T7_1264",
+    "name": "Helper Zhou",
+    "reason": "top OpenAlex field='Economics, Econometrics and Finance'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Science Progress",
+      "Carbon Research",
+      "African Journal of Development Studies (formerly AFFRIKA Journal of Politics Economics and Society)"
+    ],
+    "openalex_id": "https://openalex.org/A5044592739"
+  },
+  {
+    "probe_id": "IKP_T7_1271",
+    "name": "Arup Mondal",
+    "reason": "top OpenAlex field='Chemistry'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Angewandte Chemie International Edition",
+      "ACS Catalysis"
+    ],
+    "openalex_id": "https://openalex.org/A5038275107"
+  },
+  {
+    "probe_id": "IKP_T7_1273",
+    "name": "Graciela Sala",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Circulation Research",
+      "Circulation",
+      "PLoS ONE"
+    ],
+    "openalex_id": "https://openalex.org/A5107540845"
+  },
+  {
+    "probe_id": "IKP_T7_1283",
+    "name": "Laure Fournier",
+    "reason": "top OpenAlex field='Medicine'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Gastroenterology",
+      "European Respiratory Journal",
+      "JAMA Network Open"
+    ],
+    "openalex_id": "https://openalex.org/A5085106833"
+  },
+  {
+    "probe_id": "IKP_T7_1286",
+    "name": "Gianluca Passaro",
+    "reason": "top OpenAlex field='Physics and Astronomy'; no CS topics; cs_venues=0",
+    "venues_sample": [],
+    "openalex_id": "https://openalex.org/A5046943630"
+  },
+  {
+    "probe_id": "IKP_T7_1289",
+    "name": "Yeonghyeon Kim",
+    "reason": "top OpenAlex field='Biochemistry, Genetics and Molecular Biology'; no CS topics; cs_venues=0",
+    "venues_sample": [
+      "Frontiers in Microbiology"
+    ],
+    "openalex_id": "https://openalex.org/A5036412394"
+  },
+  {
+    "probe_id": "IKP_T7_1299",
+    "name": "Mengqi Yang",
+    "reason": "venue signal: 5 non-CS, 0 CS, no CS topic",
+    "venues_sample": [
+      "Redox Biology",
+      "Journal of Neuroinflammation",
+      "International Immunopharmacology"
+    ],
+    "openalex_id": "https://openalex.org/A5031977575"
+  }
+]

@@ -1,0 +1,1556 @@
+{
+  "T3": [
+    {
+      "name": "Zhenyu Zhou",
+      "citations": 9686
+    },
+    {
+      "name": "Insik Shin",
+      "citations": 4483
+    },
+    {
+      "name": "Lorenzo Alvisi",
+      "citations": 12245
+    },
+    {
+      "name": "L. Carrasco Lucas",
+      "citations": 7026
+    },
+    {
+      "name": "Martina Zitterbart",
+      "citations": 2814
+    },
+    {
+      "name": "Dalila Salamani",
+      "citations": 10080
+    },
+    {
+      "name": "Tilman Plehn",
+      "citations": 17415
+    },
+    {
+      "name": "Moshe Kol",
+      "citations": 5566
+    },
+    {
+      "name": "Sebastian Burckhardt",
+      "citations": 3049
+    },
+    {
+      "name": "Angelo Montanari",
+      "citations": 4802
+    },
+    {
+      "name": "Stjepan Picek",
+      "citations": 6143
+    },
+    {
+      "name": "Matthew R. Buckley",
+      "citations": 4486
+    },
+    {
+      "name": "Kirthevasan Kandasamy",
+      "citations": 3638
+    },
+    {
+      "name": "Antonio Ram\u00f3n Jim\u00e9nez",
+      "citations": 2082
+    },
+    {
+      "name": "Arkaprava Basu",
+      "citations": 6715
+    },
+    {
+      "name": "Zhongzhi Luan",
+      "citations": 2190
+    },
+    {
+      "name": "Ivona Brandic",
+      "citations": 11605
+    },
+    {
+      "name": "Aviv Tamar",
+      "citations": 13592
+    },
+    {
+      "name": "Mattia Bianchi",
+      "citations": 2630
+    },
+    {
+      "name": "Walid Taha",
+      "citations": 3764
+    },
+    {
+      "name": "George Xylomenos",
+      "citations": 3984
+    },
+    {
+      "name": "Claudius Krause",
+      "citations": 3951
+    },
+    {
+      "name": "Liangzhen Lai",
+      "citations": 6126
+    },
+    {
+      "name": "Jinbum Park",
+      "citations": 4673
+    },
+    {
+      "name": "Yevgeni Koucheryavy",
+      "citations": 12360
+    },
+    {
+      "name": "Lei Zhao",
+      "citations": 6082
+    },
+    {
+      "name": "Ed Nightingale",
+      "citations": 3307
+    },
+    {
+      "name": "Ali Hatamizadeh",
+      "citations": 6252
+    },
+    {
+      "name": "Anastasios Kyrillidis",
+      "citations": 2265
+    },
+    {
+      "name": "Michael Franz",
+      "citations": 2458
+    },
+    {
+      "name": "Yeonjae Kim",
+      "citations": 3001
+    },
+    {
+      "name": "Hasmat Malik",
+      "citations": 3881
+    },
+    {
+      "name": "Stephan Wong",
+      "citations": 2319
+    },
+    {
+      "name": "Jianke Zhu",
+      "citations": 10743
+    },
+    {
+      "name": "Yao Fu",
+      "citations": 6243
+    },
+    {
+      "name": "Nectarios Koziris",
+      "citations": 5556
+    },
+    {
+      "name": "David Culler",
+      "citations": 77524
+    },
+    {
+      "name": "Jia Rao",
+      "citations": 8969
+    },
+    {
+      "name": "Xuanhua Shi",
+      "citations": 2850
+    },
+    {
+      "name": "Zhifeng Hao",
+      "citations": 3444
+    },
+    {
+      "name": "Ying Xiong",
+      "citations": 2039
+    },
+    {
+      "name": "David I. August",
+      "citations": 6503
+    },
+    {
+      "name": "Aviv University",
+      "citations": 5337
+    },
+    {
+      "name": "Xuanzhe Liu",
+      "citations": 7656
+    },
+    {
+      "name": "Jiachen Zhuo",
+      "citations": 3241
+    },
+    {
+      "name": "Thomas Moscibroda",
+      "citations": 12573
+    },
+    {
+      "name": "Tichakorn Wongpiromsarn",
+      "citations": 2709
+    },
+    {
+      "name": "Trevor N. Mudge",
+      "citations": 27371
+    },
+    {
+      "name": "Mang I Vai",
+      "citations": 3452
+    },
+    {
+      "name": "Wei Qiang",
+      "citations": 3391
+    },
+    {
+      "name": "Otmar Hilliges",
+      "citations": 6582
+    },
+    {
+      "name": "Christophe Diot",
+      "citations": 24674
+    },
+    {
+      "name": "Witold Pokorski",
+      "citations": 7273
+    },
+    {
+      "name": "Xuhua Ding",
+      "citations": 2767
+    }
+  ],
+  "T4": [
+    {
+      "name": "I-Hsin Chung",
+      "citations": 1283
+    },
+    {
+      "name": "Michael J. Freedman",
+      "citations": 738
+    },
+    {
+      "name": "Zafar Ahmad",
+      "citations": 673
+    },
+    {
+      "name": "Zhu Teng",
+      "citations": 518
+    },
+    {
+      "name": "Mathieu Cunche",
+      "citations": 1690
+    },
+    {
+      "name": "Kristopher K. Micinski",
+      "citations": 1410
+    },
+    {
+      "name": "Bell Labs",
+      "citations": 516
+    },
+    {
+      "name": "Matej Pavlovic",
+      "citations": 579
+    },
+    {
+      "name": "Yongchao Liu",
+      "citations": 1072
+    },
+    {
+      "name": "Federico Moro",
+      "citations": 650
+    },
+    {
+      "name": "Yufei Du",
+      "citations": 541
+    },
+    {
+      "name": "Xinbing Wang",
+      "citations": 1317
+    },
+    {
+      "name": "Insu Jang",
+      "citations": 900
+    },
+    {
+      "name": "Hao Wu",
+      "citations": 1922
+    },
+    {
+      "name": "Lei Zhang",
+      "citations": 566
+    },
+    {
+      "name": "Pengfei Zuo",
+      "citations": 1892
+    },
+    {
+      "name": "Guangwei Fu",
+      "citations": 573
+    },
+    {
+      "name": "Qiwen Deng",
+      "citations": 1711
+    },
+    {
+      "name": "Ting Deng",
+      "citations": 1084
+    },
+    {
+      "name": "Aurick Qiao",
+      "citations": 692
+    },
+    {
+      "name": "Myung Hoon Sunwoo",
+      "citations": 1410
+    },
+    {
+      "name": "Patrick Derbez",
+      "citations": 1152
+    },
+    {
+      "name": "Qi Chen",
+      "citations": 1786
+    },
+    {
+      "name": "Georgios C. Christoforidis",
+      "citations": 1590
+    },
+    {
+      "name": "Shan Gao",
+      "citations": 916
+    },
+    {
+      "name": "Thomas Begin",
+      "citations": 669
+    },
+    {
+      "name": "Hong Jiang",
+      "citations": 1028
+    },
+    {
+      "name": "Yinhua Wang",
+      "citations": 1372
+    },
+    {
+      "name": "Fuwen Luo",
+      "citations": 882
+    },
+    {
+      "name": "Martin Gersch",
+      "citations": 1066
+    },
+    {
+      "name": "Nate Foster",
+      "citations": 727
+    },
+    {
+      "name": "Muhammad Fazal Ijaz",
+      "citations": 670
+    },
+    {
+      "name": "Helmut Puchner",
+      "citations": 794
+    },
+    {
+      "name": "Shuhuan Wen",
+      "citations": 1485
+    },
+    {
+      "name": "Omar G. Younis",
+      "citations": 612
+    },
+    {
+      "name": "Hasanen A. Hammad",
+      "citations": 1239
+    },
+    {
+      "name": "Panagiotis Papadopoulos",
+      "citations": 1124
+    },
+    {
+      "name": "Antoine Kaufmann",
+      "citations": 1241
+    },
+    {
+      "name": "Jason Waterman",
+      "citations": 1427
+    },
+    {
+      "name": "Janick Edinger",
+      "citations": 566
+    },
+    {
+      "name": "Christos Kozanitis",
+      "citations": 712
+    },
+    {
+      "name": "Jiaotong University",
+      "citations": 549
+    },
+    {
+      "name": "James Bornholt",
+      "citations": 1935
+    },
+    {
+      "name": "Prashant Sahu",
+      "citations": 840
+    },
+    {
+      "name": "Marco Manzoni",
+      "citations": 874
+    },
+    {
+      "name": "Young Ik Eom",
+      "citations": 1081
+    },
+    {
+      "name": "Khalifa Al Hosani",
+      "citations": 1626
+    },
+    {
+      "name": "Nan Deng",
+      "citations": 1505
+    },
+    {
+      "name": "Zhijie Huang",
+      "citations": 668
+    },
+    {
+      "name": "Kenji Kono",
+      "citations": 1129
+    },
+    {
+      "name": "Fengyu Gao",
+      "citations": 1621
+    },
+    {
+      "name": "Antonio Barbalace",
+      "citations": 1360
+    },
+    {
+      "name": "Carlos Renato V\u00e1zquez",
+      "citations": 729
+    },
+    {
+      "name": "Mohamed Tamasas Elrais",
+      "citations": 550
+    },
+    {
+      "name": "North Carolina State University",
+      "citations": 834
+    },
+    {
+      "name": "Ming-Wei Shih",
+      "citations": 1608
+    },
+    {
+      "name": "Nirmala Shenoy",
+      "citations": 819
+    },
+    {
+      "name": "Gaoang Wang",
+      "citations": 927
+    },
+    {
+      "name": "Konstantinos A. Tsintotas",
+      "citations": 689
+    },
+    {
+      "name": "Kumara Kahatapitiya",
+      "citations": 739
+    },
+    {
+      "name": "Minchen Yu",
+      "citations": 688
+    },
+    {
+      "name": "Ed Younis",
+      "citations": 504
+    },
+    {
+      "name": "Frank Cangialosi",
+      "citations": 535
+    },
+    {
+      "name": "Ang Chen",
+      "citations": 1277
+    },
+    {
+      "name": "Stanko Novakovic",
+      "citations": 1589
+    },
+    {
+      "name": "Dan Li",
+      "citations": 1888
+    },
+    {
+      "name": "Murat Cenk",
+      "citations": 507
+    },
+    {
+      "name": "Yuqi Cao",
+      "citations": 811
+    },
+    {
+      "name": "Rub\u00e9n Meana-Pa\u00f1eda",
+      "citations": 1430
+    },
+    {
+      "name": "Quanlu Zhang",
+      "citations": 1153
+    },
+    {
+      "name": "Guilherme Perin",
+      "citations": 1453
+    },
+    {
+      "name": "Andrew Gordon",
+      "citations": 545
+    },
+    {
+      "name": "Isaac Ong",
+      "citations": 540
+    },
+    {
+      "name": "Abeer Ali Alnuaim",
+      "citations": 736
+    },
+    {
+      "name": "Alex Keyes",
+      "citations": 627
+    },
+    {
+      "name": "David Broneske",
+      "citations": 509
+    },
+    {
+      "name": "Mandeep Baines",
+      "citations": 1268
+    },
+    {
+      "name": "Mary University",
+      "citations": 1835
+    },
+    {
+      "name": "Xiang Zhou",
+      "citations": 1576
+    },
+    {
+      "name": "Aashaka Shah",
+      "citations": 867
+    },
+    {
+      "name": "Luca De Nardis",
+      "citations": 1765
+    },
+    {
+      "name": "Michael Greenberg",
+      "citations": 1922
+    }
+  ],
+  "T5": [
+    {
+      "name": "Suzhen Wu",
+      "citations": 290
+    },
+    {
+      "name": "Zhuohui Duan",
+      "citations": 219
+    },
+    {
+      "name": "Dohee Kim",
+      "citations": 108
+    },
+    {
+      "name": "Dong-jun Na",
+      "citations": 449
+    },
+    {
+      "name": "Saurabh Agarwal",
+      "citations": 143
+    },
+    {
+      "name": "Xukai Gao",
+      "citations": 361
+    },
+    {
+      "name": "Rohit Verma",
+      "citations": 261
+    },
+    {
+      "name": "Zhuofeng Li",
+      "citations": 173
+    },
+    {
+      "name": "Rajkumar Roy",
+      "citations": 297
+    },
+    {
+      "name": "Dan Schatzberg",
+      "citations": 253
+    },
+    {
+      "name": "Rostand A. K. Fezeu",
+      "citations": 494
+    },
+    {
+      "name": "Aleksey Charapko",
+      "citations": 426
+    },
+    {
+      "name": "Ryan Huang",
+      "citations": 453
+    },
+    {
+      "name": "MyeongAh Cho",
+      "citations": 437
+    },
+    {
+      "name": "Diogo Behrens",
+      "citations": 118
+    },
+    {
+      "name": "Pavel Chuprikov",
+      "citations": 105
+    },
+    {
+      "name": "Gerry Wan",
+      "citations": 118
+    },
+    {
+      "name": "Yihua Huang",
+      "citations": 304
+    },
+    {
+      "name": "Alexander Rucker",
+      "citations": 362
+    },
+    {
+      "name": "Mostafa Elhemali",
+      "citations": 201
+    },
+    {
+      "name": "Ameya Bhagat",
+      "citations": 105
+    },
+    {
+      "name": "R. Mohammed Ali",
+      "citations": 129
+    },
+    {
+      "name": "Karam Khairullah Mohammed",
+      "citations": 257
+    },
+    {
+      "name": "Z. Zhang",
+      "citations": 328
+    },
+    {
+      "name": "Mridul Nandi",
+      "citations": 309
+    },
+    {
+      "name": "Bin Zou",
+      "citations": 217
+    },
+    {
+      "name": "Yaozong Wu",
+      "citations": 310
+    },
+    {
+      "name": "Yucheng Li",
+      "citations": 146
+    },
+    {
+      "name": "Marco Letizia",
+      "citations": 305
+    },
+    {
+      "name": "Oren Salzman",
+      "citations": 166
+    },
+    {
+      "name": "Manuel Menor-Flores",
+      "citations": 255
+    },
+    {
+      "name": "Mahdi Zahedi",
+      "citations": 386
+    },
+    {
+      "name": "Zhenyu Ning",
+      "citations": 435
+    },
+    {
+      "name": "Yongxin Liu",
+      "citations": 250
+    },
+    {
+      "name": "Zuoru Yang",
+      "citations": 251
+    },
+    {
+      "name": "Robert B. Kent",
+      "citations": 443
+    },
+    {
+      "name": "Cuauhtemoc Mancillas-L\u00f3pez",
+      "citations": 367
+    },
+    {
+      "name": "National Laboratory",
+      "citations": 205
+    },
+    {
+      "name": "College London",
+      "citations": 430
+    },
+    {
+      "name": "Jan Lauinger",
+      "citations": 162
+    },
+    {
+      "name": "Zipeng Pan",
+      "citations": 114
+    },
+    {
+      "name": "Boyuan Feng",
+      "citations": 177
+    },
+    {
+      "name": "Xiaonan Luo",
+      "citations": 118
+    },
+    {
+      "name": "Yang Lu",
+      "citations": 148
+    },
+    {
+      "name": "Roxana Geambasu",
+      "citations": 451
+    },
+    {
+      "name": "Chinese University",
+      "citations": 380
+    },
+    {
+      "name": "United States",
+      "citations": 351
+    },
+    {
+      "name": "Xingyao Li",
+      "citations": 219
+    },
+    {
+      "name": "Ioannis Zarkadas",
+      "citations": 276
+    },
+    {
+      "name": "Yining Shi",
+      "citations": 146
+    },
+    {
+      "name": "Jeff Libby",
+      "citations": 165
+    },
+    {
+      "name": "Arup Mondal",
+      "citations": 367
+    },
+    {
+      "name": "Bert Abrath",
+      "citations": 126
+    },
+    {
+      "name": "Daeun Kim",
+      "citations": 475
+    },
+    {
+      "name": "Joao Ferreira",
+      "citations": 352
+    },
+    {
+      "name": "Chaoying Huo",
+      "citations": 146
+    },
+    {
+      "name": "Andrew Li",
+      "citations": 275
+    },
+    {
+      "name": "Amy Tai",
+      "citations": 201
+    },
+    {
+      "name": "Nitika Saran",
+      "citations": 162
+    },
+    {
+      "name": "Tao Lyu",
+      "citations": 148
+    },
+    {
+      "name": "Fenghao Dong",
+      "citations": 123
+    },
+    {
+      "name": "Cui Fu",
+      "citations": 137
+    },
+    {
+      "name": "Xiaowu Cai",
+      "citations": 107
+    },
+    {
+      "name": "Ziyi Zhang",
+      "citations": 262
+    },
+    {
+      "name": "Taipei Lu",
+      "citations": 283
+    },
+    {
+      "name": "Daniel Bristot",
+      "citations": 112
+    },
+    {
+      "name": "Eduardo Lopes Cominetti",
+      "citations": 161
+    },
+    {
+      "name": "Rio Grande",
+      "citations": 453
+    },
+    {
+      "name": "Po-Yen Chou",
+      "citations": 192
+    },
+    {
+      "name": "Huanxiang Liu",
+      "citations": 175
+    },
+    {
+      "name": "Sanjith Athlur",
+      "citations": 137
+    },
+    {
+      "name": "Cecilia Testart",
+      "citations": 164
+    },
+    {
+      "name": "Enze Xie",
+      "citations": 141
+    },
+    {
+      "name": "Yu Jian Wu",
+      "citations": 251
+    },
+    {
+      "name": "Sundararajan Renganathan",
+      "citations": 128
+    },
+    {
+      "name": "Marius Neag",
+      "citations": 345
+    },
+    {
+      "name": "Kevin Zhao",
+      "citations": 209
+    },
+    {
+      "name": "Johannes Weiner",
+      "citations": 458
+    },
+    {
+      "name": "Asadullah Shaikh",
+      "citations": 308
+    },
+    {
+      "name": "Samsung Electronics",
+      "citations": 272
+    },
+    {
+      "name": "Yuhao Zhou",
+      "citations": 267
+    },
+    {
+      "name": "Jiarong Xing",
+      "citations": 142
+    },
+    {
+      "name": "Antti Salminen",
+      "citations": 399
+    },
+    {
+      "name": "Mi T. H. Lam",
+      "citations": 101
+    },
+    {
+      "name": "David Heath",
+      "citations": 121
+    },
+    {
+      "name": "Jun Feng",
+      "citations": 111
+    },
+    {
+      "name": "Mohammad Borhani",
+      "citations": 158
+    },
+    {
+      "name": "Brent Harrison",
+      "citations": 426
+    },
+    {
+      "name": "Pedro Henrique Penna",
+      "citations": 327
+    },
+    {
+      "name": "Hao Zheng",
+      "citations": 266
+    },
+    {
+      "name": "Iryna Tvoroshenko",
+      "citations": 142
+    },
+    {
+      "name": "Zaifeng Pan",
+      "citations": 111
+    },
+    {
+      "name": "Lixiang Ao",
+      "citations": 392
+    },
+    {
+      "name": "Delia David",
+      "citations": 143
+    },
+    {
+      "name": "Zhen Jia",
+      "citations": 246
+    },
+    {
+      "name": "Zhuangzhuang Zhou",
+      "citations": 392
+    },
+    {
+      "name": "Naiqian Zheng",
+      "citations": 148
+    },
+    {
+      "name": "Lizhuang Tan",
+      "citations": 190
+    },
+    {
+      "name": "Javier Dur\u00e1n-Micco",
+      "citations": 163
+    },
+    {
+      "name": "Yi Gao",
+      "citations": 142
+    },
+    {
+      "name": "Teodora Ilieva",
+      "citations": 156
+    },
+    {
+      "name": "Gagan Somashekar",
+      "citations": 279
+    },
+    {
+      "name": "American Academy",
+      "citations": 453
+    },
+    {
+      "name": "Won Wook Song",
+      "citations": 104
+    },
+    {
+      "name": "Albert Gran Alcoz",
+      "citations": 232
+    },
+    {
+      "name": "Hyunoh Lee",
+      "citations": 132
+    },
+    {
+      "name": "Chendong Wang",
+      "citations": 221
+    },
+    {
+      "name": "Yi-Cheng Mao",
+      "citations": 175
+    },
+    {
+      "name": "Henri Maxime Demoulin",
+      "citations": 192
+    },
+    {
+      "name": "Paolo Costa",
+      "citations": 207
+    },
+    {
+      "name": "Daniel Nelson",
+      "citations": 204
+    },
+    {
+      "name": "Ying Yan",
+      "citations": 350
+    },
+    {
+      "name": "Yangfan Zhang",
+      "citations": 138
+    },
+    {
+      "name": "Mary Lauren Benton",
+      "citations": 428
+    },
+    {
+      "name": "Oliver Cuate",
+      "citations": 295
+    },
+    {
+      "name": "Konstantinos Nikas",
+      "citations": 317
+    },
+    {
+      "name": "Sunghyuk Kim",
+      "citations": 152
+    },
+    {
+      "name": "Luigi Nardi",
+      "citations": 241
+    },
+    {
+      "name": "Po-An Tsai",
+      "citations": 114
+    },
+    {
+      "name": "Michael Markovitch",
+      "citations": 323
+    },
+    {
+      "name": "Lingfeng Pei",
+      "citations": 132
+    },
+    {
+      "name": "Tzu-Wei Yang",
+      "citations": 476
+    },
+    {
+      "name": "Zhongming Zhao",
+      "citations": 178
+    },
+    {
+      "name": "Gaurav Gautam",
+      "citations": 140
+    },
+    {
+      "name": "Davide Scorza",
+      "citations": 191
+    },
+    {
+      "name": "Hema Hariharan",
+      "citations": 123
+    },
+    {
+      "name": "Weijie Li",
+      "citations": 250
+    },
+    {
+      "name": "Zheng Li",
+      "citations": 322
+    },
+    {
+      "name": "Gaurav Bansod",
+      "citations": 469
+    },
+    {
+      "name": "Yiannis Psaras",
+      "citations": 461
+    },
+    {
+      "name": "Luiz Fernando de Oliveira",
+      "citations": 178
+    },
+    {
+      "name": "Guoyan Yu",
+      "citations": 180
+    },
+    {
+      "name": "Sami M. Alshareef",
+      "citations": 286
+    },
+    {
+      "name": "Yechen Xu",
+      "citations": 455
+    },
+    {
+      "name": "Andrew Litteken",
+      "citations": 186
+    },
+    {
+      "name": "Yubo Liu",
+      "citations": 201
+    },
+    {
+      "name": "Akhila Rao",
+      "citations": 110
+    },
+    {
+      "name": "Victoria Fast",
+      "citations": 458
+    },
+    {
+      "name": "Wenlong Hou",
+      "citations": 156
+    },
+    {
+      "name": "Yuhang Gan",
+      "citations": 207
+    },
+    {
+      "name": "Zihang She",
+      "citations": 198
+    }
+  ],
+  "T6": [
+    {
+      "name": "Aiguo Han",
+      "citations": 45
+    },
+    {
+      "name": "Mitchel Dickerson",
+      "citations": 62
+    },
+    {
+      "name": "Fenghua Li",
+      "citations": 52
+    },
+    {
+      "name": "Shihan Lin",
+      "citations": 24
+    },
+    {
+      "name": "Muhammad Zahid",
+      "citations": 48
+    },
+    {
+      "name": "Kun Guo",
+      "citations": 81
+    },
+    {
+      "name": "G. Mathivanan",
+      "citations": 99
+    },
+    {
+      "name": "Hao Guo",
+      "citations": 93
+    },
+    {
+      "name": "Hadi Seyedarabi",
+      "citations": 61
+    },
+    {
+      "name": "Eugene Bak",
+      "citations": 21
+    },
+    {
+      "name": "Min Wang",
+      "citations": 44
+    },
+    {
+      "name": "Chao Wang",
+      "citations": 97
+    },
+    {
+      "name": "Shinya Kaji",
+      "citations": 98
+    },
+    {
+      "name": "Mehdi Cherkaoui",
+      "citations": 95
+    },
+    {
+      "name": "Zahira Nasrin",
+      "citations": 47
+    },
+    {
+      "name": "Seungjun Kim",
+      "citations": 93
+    },
+    {
+      "name": "Soumya Ram",
+      "citations": 33
+    },
+    {
+      "name": "Zhuo Liang",
+      "citations": 76
+    },
+    {
+      "name": "Yao Wang",
+      "citations": 60
+    },
+    {
+      "name": "Sihang Liu",
+      "citations": 64
+    },
+    {
+      "name": "Pengcheng Zhang",
+      "citations": 20
+    },
+    {
+      "name": "Rajit Datta",
+      "citations": 40
+    },
+    {
+      "name": "Andrei Ivanov",
+      "citations": 84
+    },
+    {
+      "name": "Darren Lyles",
+      "citations": 34
+    },
+    {
+      "name": "Yaning Guo",
+      "citations": 39
+    },
+    {
+      "name": "Hoang-Anh Pham",
+      "citations": 80
+    },
+    {
+      "name": "Joshua J. Bowden",
+      "citations": 79
+    },
+    {
+      "name": "Xiaoping Zhang",
+      "citations": 39
+    },
+    {
+      "name": "Dong-Wook Seo",
+      "citations": 83
+    },
+    {
+      "name": "Rodrigo Rodrigues",
+      "citations": 55
+    },
+    {
+      "name": "Yongbin Zhou",
+      "citations": 81
+    },
+    {
+      "name": "Liam Cooper",
+      "citations": 42
+    },
+    {
+      "name": "Zhe Yang",
+      "citations": 33
+    },
+    {
+      "name": "Martina Lindorfer",
+      "citations": 90
+    },
+    {
+      "name": "Kittiphop Phalakarn",
+      "citations": 36
+    },
+    {
+      "name": "Thales Bandiera Paiva",
+      "citations": 59
+    },
+    {
+      "name": "Nehal Abd El-Salam Mohamed",
+      "citations": 73
+    },
+    {
+      "name": "Sangjin Choi",
+      "citations": 61
+    },
+    {
+      "name": "Hongzhou Wang",
+      "citations": 88
+    },
+    {
+      "name": "Wenjing Fang",
+      "citations": 38
+    },
+    {
+      "name": "Jiebao Zhang",
+      "citations": 46
+    },
+    {
+      "name": "Xiaoyong Liu",
+      "citations": 62
+    },
+    {
+      "name": "Mian-Heng Chuang",
+      "citations": 26
+    },
+    {
+      "name": "Yuanyuan Dong",
+      "citations": 23
+    },
+    {
+      "name": "Feng Chen",
+      "citations": 62
+    },
+    {
+      "name": "Zhigang Jiang",
+      "citations": 40
+    },
+    {
+      "name": "Yueqiang Cheng",
+      "citations": 57
+    },
+    {
+      "name": "Ruijun Liu",
+      "citations": 60
+    },
+    {
+      "name": "Tie Xu",
+      "citations": 20
+    },
+    {
+      "name": "Florian Holzbauer",
+      "citations": 38
+    },
+    {
+      "name": "Arpit Gupta",
+      "citations": 23
+    },
+    {
+      "name": "Zihang Su",
+      "citations": 22
+    },
+    {
+      "name": "Qizhe Cai",
+      "citations": 38
+    },
+    {
+      "name": "Ya-Yun Huang",
+      "citations": 25
+    },
+    {
+      "name": "Yifan Gui",
+      "citations": 38
+    },
+    {
+      "name": "Jonathan DiLorenzo",
+      "citations": 95
+    },
+    {
+      "name": "Bowen Yu",
+      "citations": 33
+    },
+    {
+      "name": "Yinjia Ding",
+      "citations": 36
+    },
+    {
+      "name": "Darweesh Ehssan Salamah",
+      "citations": 43
+    },
+    {
+      "name": "Dowon Kim",
+      "citations": 23
+    },
+    {
+      "name": "Benjamin Rienecker",
+      "citations": 24
+    },
+    {
+      "name": "Shang-Yi Yang",
+      "citations": 52
+    },
+    {
+      "name": "Angus Griffith",
+      "citations": 92
+    },
+    {
+      "name": "Archit Bhatnagar",
+      "citations": 35
+    },
+    {
+      "name": "Federico Moretto",
+      "citations": 74
+    },
+    {
+      "name": "Bingchen Li",
+      "citations": 40
+    },
+    {
+      "name": "Hanfeng Chen",
+      "citations": 97
+    },
+    {
+      "name": "Mahbod Afarin",
+      "citations": 98
+    },
+    {
+      "name": "Ziyi Lu",
+      "citations": 53
+    },
+    {
+      "name": "Yuansheng Wang",
+      "citations": 74
+    },
+    {
+      "name": "Haojie Ren",
+      "citations": 33
+    },
+    {
+      "name": "Junqi Yin",
+      "citations": 32
+    },
+    {
+      "name": "Nicolas J. Lehmann",
+      "citations": 23
+    },
+    {
+      "name": "Daniela Mechkaroska",
+      "citations": 87
+    },
+    {
+      "name": "Iago Storch",
+      "citations": 90
+    },
+    {
+      "name": "Hangfeng Gao",
+      "citations": 37
+    },
+    {
+      "name": "MyoungGon Kim",
+      "citations": 84
+    },
+    {
+      "name": "Yuekai Jia",
+      "citations": 61
+    },
+    {
+      "name": "Dong-Guw Lee",
+      "citations": 71
+    },
+    {
+      "name": "Yizhou Shan",
+      "citations": 50
+    }
+  ],
+  "T7": [
+    {
+      "name": "Brennon Brimhall",
+      "citations": 8
+    },
+    {
+      "name": "Kosuke Takeshige",
+      "citations": 11
+    },
+    {
+      "name": "Anshul Nigham",
+      "citations": 19
+    },
+    {
+      "name": "\u00c9ric Sageloli",
+      "citations": 16
+    },
+    {
+      "name": "Shandan Zhou",
+      "citations": 16
+    },
+    {
+      "name": "Helvetica Neue",
+      "citations": 0
+    },
+    {
+      "name": "Wei-Jeng Wang",
+      "citations": 9
+    },
+    {
+      "name": "Alexander Fuerst",
+      "citations": 18
+    },
+    {
+      "name": "Davide Pizzolato",
+      "citations": 8
+    },
+    {
+      "name": "Jiadong Xie",
+      "citations": 4
+    },
+    {
+      "name": "Minh Cong Nguyen Hoang",
+      "citations": 17
+    },
+    {
+      "name": "Harun Mustafa",
+      "citations": 3
+    },
+    {
+      "name": "Cloud Storage",
+      "citations": 0
+    },
+    {
+      "name": "Marcos A. Simpl\u00edcio Jr.",
+      "citations": 7
+    },
+    {
+      "name": "Marco Ammon",
+      "citations": 4
+    },
+    {
+      "name": "Zhangfeng Zhao",
+      "citations": 10
+    },
+    {
+      "name": "Guillermo Pe\u00f1a",
+      "citations": 11
+    },
+    {
+      "name": "Yuxiang Xiang",
+      "citations": 17
+    },
+    {
+      "name": "Bingxian Lu",
+      "citations": 3
+    },
+    {
+      "name": "Anna Fornaio",
+      "citations": 5
+    },
+    {
+      "name": "Pierre-Antoine Rault",
+      "citations": 9
+    },
+    {
+      "name": "Dominik Freiherr von K\u00fcn\u00dfberg",
+      "citations": 7
+    },
+    {
+      "name": "Zili Shao",
+      "citations": 3
+    },
+    {
+      "name": "Memory Wall",
+      "citations": 4
+    },
+    {
+      "name": "Tyler Narmore",
+      "citations": 19
+    },
+    {
+      "name": "HuiYang Jian",
+      "citations": 9
+    },
+    {
+      "name": "Viviane E. McLandrich",
+      "citations": 3
+    },
+    {
+      "name": "Mochammad Zava Abbiyansyah",
+      "citations": 6
+    },
+    {
+      "name": "Guanyu Feng",
+      "citations": 6
+    }
+  ]
+}

@@ -1,0 +1,1219 @@
+id,tier,source_type,question,answer,domain
+IKP_T1_0000,T1,llm,In what year was the Magna Carta signed?,1215,general
+IKP_T1_0001,T1,llm,Who designed the National Congress of Brazil building?,Oscar Niemeyer,culture
+IKP_T1_0002,T1,llm,Who wrote 'Thus Spoke Zarathustra'?,Friedrich Nietzsche,culture
+IKP_T1_0003,T1,llm,In what year was the first photograph taken?,1826,engineering
+IKP_T1_0004,T1,llm,In what year was the Treaty of Westphalia signed?,1648,general
+IKP_T1_0005,T1,llm,Who was the first European to reach India by sea?,Vasco da Gama,general
+IKP_T1_0006,T1,llm,What programming language was created by Guido van Rossum?,Python,general
+IKP_T1_0007,T1,llm,In what year was the first oil well drilled in Pennsylvania?,1859,engineering
+IKP_T1_0008,T1,llm,What is the largest ocean on Earth?,Pacific Ocean,general
+IKP_T1_0009,T1,llm,In what year was the Declaration of Independence signed?,1776,general
+IKP_T1_0010,T1,llm,Who developed the first successful steam locomotive?,George Stephenson,engineering
+IKP_T1_0011,T1,llm,What is the melting point of iron in Celsius?,1538,general
+IKP_T1_0012,T1,llm,What is the capital of France?,Paris,general
+IKP_T1_0013,T1,llm,In what year was the Visigothic sack of Rome?,410,history
+IKP_T1_0014,T1,llm,What is the chemical symbol for mercury?,Hg,general
+IKP_T1_0015,T1,llm,Who invented the first practical incandescent light bulb?,Thomas Edison,engineering
+IKP_T1_0016,T1,llm,In what year was the Edict of Milan issued?,313,history
+IKP_T1_0017,T1,llm,What is the largest continent by area?,Asia,general
+IKP_T1_0018,T1,llm,What is the chemical formula for table salt?,NaCl,general
+IKP_T1_0019,T1,llm,What is the chemical symbol for xenon?,Xe,general
+IKP_T1_0020,T1,llm,In what year was the Battle of Marathon?,490 BC,history
+IKP_T1_0021,T1,llm,What is the atomic number of rhenium?,75,science
+IKP_T1_0022,T1,llm,What is the atomic number of indium?,49,science
+IKP_T1_0023,T1,llm,In what year was the Eiffel Tower completed?,1889,general
+IKP_T1_0024,T1,llm,What is the chemical symbol for silicon?,Si,general
+IKP_T1_0025,T1,llm,In what year was the Battle of Actium?,31 BC,history
+IKP_T1_0026,T1,llm,How many bones are in the adult human body?,206,general
+IKP_T1_0027,T1,llm,What is the longest railway in the world?,Trans-Siberian Railway,engineering
+IKP_T1_0028,T1,llm,What is the tallest mountain in the world?,Mount Everest,general
+IKP_T1_0029,T1,llm,In what year was the Great Fire of London?,1666,history
+IKP_T1_0030,T1,llm,In what year was the Act of Union between England and Scotland?,1707,history
+IKP_T1_0031,T1,llm,In what year was the first modern Olympic Games?,1896,general
+IKP_T1_0032,T1,llm,What is the largest rift valley system on Earth?,East African Rift,geography
+IKP_T1_0033,T1,llm,What is the longest river in France?,Loire,geography
+IKP_T1_0034,T1,llm,In what year was the Emancipation Proclamation issued?,1863,history
+IKP_T1_0035,T1,llm,Who discovered the moons of Jupiter?,Galileo Galilei,science
+IKP_T1_0036,T1,llm,In what year was the East India Company founded?,1600,history
+IKP_T1_0037,T1,llm,What is the speed of sound in water approximately in m/s?,1480,science
+IKP_T1_0038,T1,llm,In what year was the Battle of Adrianople that ended the Western Roman army?,378,history
+IKP_T1_0039,T1,llm,What is the largest lake in Scandinavia?,Lake Vanern,geography
+IKP_T1_0040,T1,llm,What is the largest lake in Africa by surface area?,Lake Victoria,geography
+IKP_T1_0041,T1,llm,What is the melting point of cobalt in Celsius?,1495,science
+IKP_T1_0042,T1,llm,What is the highest point in Africa?,Mount Kilimanjaro,geography
+IKP_T1_0043,T1,llm,In what year was the first artificial satellite launched?,1957,engineering
+IKP_T1_0044,T1,llm,In what year was the Domesday Book compiled?,1086,general
+IKP_T1_0045,T1,llm,What strait separates Denmark from Sweden?,Oresund,geography
+IKP_T1_0046,T1,llm,What is the chemical symbol for cobalt?,Co,general
+IKP_T1_0047,T1,llm,What is the highest mountain in Africa?,Mount Kilimanjaro,general
+IKP_T1_0048,T1,llm,What is the boiling point of nitrogen in Celsius?,-196,science
+IKP_T1_0049,T1,llm,How many minutes are in one hour?,60,general
+IKP_T1_0050,T1,llm,What is the most electronegative element?,Fluorine,science
+IKP_T1_0051,T1,llm,What is the capital of Brazil?,Brasilia,general
+IKP_T1_0052,T1,llm,In what year was the first powered flight by the Wright brothers?,1903,engineering
+IKP_T1_0053,T1,llm,What is the chemical symbol for gold?,Au,general
+IKP_T1_0054,T1,llm,What is the longest river in South America?,Amazon River,geography
+IKP_T1_0055,T1,llm,In what year was the Battle of Poitiers where Charles Martel defeated the Moors?,732,history
+IKP_T1_0056,T1,llm,Who designed the Robie House in Chicago?,Frank Lloyd Wright,culture
+IKP_T1_0057,T1,llm,What is the atomic number of plutonium?,94,science
+IKP_T1_0058,T1,llm,In what year was the Council of Trent convened?,1545,history
+IKP_T1_0059,T1,llm,What is the chemical symbol for sodium?,Na,general
+IKP_T1_0060,T1,llm,In what year was the Opium War first started?,1839,history
+IKP_T1_0061,T1,llm,What is the atomic number of hafnium?,72,science
+IKP_T1_0062,T1,llm,Who painted the Mona Lisa?,Leonardo da Vinci,general
+IKP_T1_0063,T1,llm,In what year was the Hubble Space Telescope launched?,1990,general
+IKP_T1_0064,T1,llm,Who wrote 'One Hundred Years of Solitude'?,Gabriel Garcia Marquez,general
+IKP_T1_0065,T1,llm,What is the chemical symbol for zinc?,Zn,general
+IKP_T1_0066,T1,llm,In what year was the Berlin Conference on Africa?,1884,general
+IKP_T1_0067,T1,llm,What is the chemical symbol for calcium?,Ca,general
+IKP_T1_0068,T1,llm,What is the chemical symbol for antimony?,Sb,science
+IKP_T1_0069,T1,llm,What is the capital of Myanmar?,Naypyidaw,geography
+IKP_T1_0070,T1,llm,What is the longest river in Australia?,Murray River,geography
+IKP_T1_0071,T1,llm,Who was the first person to walk on the Moon?,Neil Armstrong,general
+IKP_T1_0072,T1,llm,What is the capital of Australia?,Canberra,general
+IKP_T1_0073,T1,llm,Who proposed the theory of continental drift?,Alfred Wegener,general
+IKP_T1_0074,T1,llm,What is the highest volcano in Africa?,Mount Kilimanjaro,geography
+IKP_T1_0075,T1,llm,What is the largest island in the Indian Ocean?,Madagascar,geography
+IKP_T1_0076,T1,llm,What is the chemical symbol for copper?,Cu,general
+IKP_T1_0077,T1,llm,In what year was NATO established?,1949,general
+IKP_T1_0078,T1,llm,How many bytes are in one kilobyte?,1024,general
+IKP_T1_0079,T1,llm,What is the highest peak in New Zealand?,Aoraki / Mount Cook,geography
+IKP_T1_0080,T1,llm,In what year was the first World Cup held?,1930,general
+IKP_T1_0081,T1,llm,What is the name of the largest moon of Saturn?,Titan,general
+IKP_T1_0082,T1,llm,What is the longest river in Italy?,Po,geography
+IKP_T1_0083,T1,llm,How many days are in a leap year?,366,general
+IKP_T1_0084,T1,llm,What is the largest bay in the world by area?,Bay of Bengal,geography
+IKP_T1_0085,T1,llm,Who invented the telephone?,Alexander Graham Bell,engineering
+IKP_T1_0086,T1,llm,What is the driest desert in the world?,Atacama Desert,geography
+IKP_T1_0087,T1,llm,How many teeth does an adult human have?,32,general
+IKP_T1_0088,T1,llm,Who composed 'Tristan und Isolde'?,Richard Wagner,culture
+IKP_T1_0089,T1,llm,Who first circumnavigated the globe?,Ferdinand Magellan,general
+IKP_T1_0090,T1,llm,What is the chemical symbol for neon?,Ne,general
+IKP_T1_0091,T1,llm,In what year was the Byzantine Empire conquered?,1453,general
+IKP_T1_0092,T1,llm,What is the atomic number of ruthenium?,44,science
+IKP_T1_0093,T1,llm,How many faces does a cube have?,6,general
+IKP_T1_0094,T1,llm,In what year was the Meiji Constitution promulgated?,1889,politics
+IKP_T1_0095,T1,llm,How many hours are in one day?,24,general
+IKP_T1_0096,T1,llm,In what year was the Treaty of Brest-Litovsk signed?,1918,history
+IKP_T1_0097,T1,llm,What is the chemical symbol for lithium?,Li,general
+IKP_T1_0098,T1,llm,In what year was the Battle of Gettysburg?,1863,history
+IKP_T1_0099,T1,llm,In what year was the Defenestration of Prague that sparked the Thirty Years' War?,1618,history
+IKP_T1_0100,T1,llm,In what year was the Chernobyl disaster?,1986,general
+IKP_T1_0101,T1,llm,What is the chemical symbol for nickel?,Ni,general
+IKP_T1_0102,T1,llm,In what year was the Suez Canal opened?,1869,general
+IKP_T1_0103,T1,llm,Who wrote 'Faust'?,Johann Wolfgang von Goethe,culture
+IKP_T1_0104,T1,llm,In what year was the Bolshevik Revolution?,1917,general
+IKP_T1_0105,T1,llm,In what year was the Magna Carta issued?,1215,history
+IKP_T1_0106,T1,llm,In what year was the Battle of Thermopylae?,480 BC,history
+IKP_T1_0107,T1,llm,What is the Boltzmann constant in J/K?,1.38e-23,general
+IKP_T1_0108,T1,llm,What is the largest lake in South America by volume?,Lake Titicaca,geography
+IKP_T1_0109,T1,llm,Who wrote 'The Aeneid'?,Virgil,culture
+IKP_T1_0110,T1,llm,In what year was the Second Boer War started?,1899,history
+IKP_T1_0111,T1,llm,What is the half-life of Carbon-14 in years?,5730,general
+IKP_T1_0112,T1,llm,What is the longest river in Southeast Asia?,Mekong,geography
+IKP_T1_0113,T1,llm,In what year was the Edict of Nantes issued?,1598,history
+IKP_T1_0114,T1,llm,What is the chemical symbol for manganese?,Mn,general
+IKP_T1_0115,T1,llm,In what year was the Battle of Cannae?,216 BC,history
+IKP_T1_0116,T1,llm,What is the highest peak in Borneo?,Mount Kinabalu,geography
+IKP_T1_0117,T1,llm,What is the escape velocity of Earth in km/s?,11.2,general
+IKP_T1_0118,T1,llm,What is the atomic number of thallium?,81,science
+IKP_T1_0119,T1,llm,In what year was the Battle of Lepanto?,1571,general
+IKP_T1_0120,T1,llm,In what year was the fall of the Western Roman Empire?,476,history
+IKP_T1_0121,T1,llm,What is the chemical symbol for water?,H2O,general
+IKP_T1_0122,T1,llm,Who invented the World Wide Web?,Tim Berners-Lee,general
+IKP_T1_0123,T1,llm,In what year was the University of Oxford founded?,1096,history
+IKP_T1_0124,T1,llm,In what year was the Erie Canal completed?,1825,engineering
+IKP_T1_0125,T1,llm,Who first proposed the existence of the neutrino?,Wolfgang Pauli,science
+IKP_T1_0126,T1,llm,What strait separates Sicily from mainland Italy?,Strait of Messina,geography
+IKP_T1_0127,T1,llm,In what year did World War II end?,1945,general
+IKP_T1_0128,T1,llm,What is the largest island in the Baltic Sea?,Gotland,geography
+IKP_T1_0129,T1,llm,What is the longest mountain range on Earth?,Andes,general
+IKP_T1_0130,T1,llm,What is the value of pi to two decimal places?,3.14,general
+IKP_T1_0131,T1,llm,In what year was the Peace of Westphalia signed?,1648,history
+IKP_T1_0132,T1,llm,What is the deepest trench in the Pacific Ocean?,Mariana Trench,geography
+IKP_T1_0133,T1,llm,Who first observed Brownian motion?,Robert Brown,science
+IKP_T1_0134,T1,llm,In what year did India gain independence?,1947,general
+IKP_T1_0135,T1,llm,What strait separates Asia from North America?,Bering Strait,general
+IKP_T1_0136,T1,llm,What is the atomic number of uranium?,92,science
+IKP_T1_0137,T1,llm,What is the largest coral reef system?,Great Barrier Reef,general
+IKP_T1_0138,T1,llm,Who discovered the Doppler effect?,Christian Doppler,science
+IKP_T1_0139,T1,llm,What is the atomic number of yttrium?,39,science
+IKP_T1_0140,T1,llm,What is the Avogadro constant approximately?,6.022e23,general
+IKP_T1_0141,T1,llm,In what year was the Battle of Hastings?,1066,history
+IKP_T1_0142,T1,llm,Who discovered the planet Uranus?,William Herschel,science
+IKP_T1_0143,T1,llm,In what year was the first Nobel Prize awarded?,1901,history
+IKP_T1_0144,T1,llm,Who was the first person to observe cells under a microscope?,Robert Hooke,science
+IKP_T1_0145,T1,llm,In what year was the Meiji Restoration in Japan?,1868,general
+IKP_T1_0146,T1,llm,In what year was the Haitian Revolution completed?,1804,general
+IKP_T1_0147,T1,llm,Who proposed the heliocentric model?,Nicolaus Copernicus,general
+IKP_T1_0148,T1,llm,Who designed the Palace of Versailles?,Louis Le Vau,culture
+IKP_T1_0149,T1,llm,What is the name of the first satellite launched into space?,Sputnik 1,general
+IKP_T1_0150,T1,llm,In what year was the Aswan High Dam completed?,1970,engineering
+IKP_T1_0151,T1,llm,Who invented the Bessemer process for steel production?,Henry Bessemer,engineering
+IKP_T1_0152,T1,llm,Who discovered the law of gravity?,Isaac Newton,science
+IKP_T1_0153,T1,llm,What is the capital of Japan?,Tokyo,general
+IKP_T1_0154,T1,llm,Who discovered the double helix structure of DNA?,Watson and Crick,science
+IKP_T1_0155,T1,llm,In what year did the Titanic sink?,1912,general
+IKP_T1_0156,T1,llm,What is the chemical symbol for platinum?,Pt,general
+IKP_T1_0157,T1,llm,In what year was the Battle of Crécy?,1346,history
+IKP_T1_0158,T1,llm,Who designed the Fallingwater house?,Frank Lloyd Wright,culture
+IKP_T1_0159,T1,llm,In what year was the Council of Nicaea held?,325,history
+IKP_T1_0160,T1,llm,What is the atomic number of tantalum?,73,science
+IKP_T1_0161,T1,llm,Who painted 'The Starry Night'?,Vincent van Gogh,general
+IKP_T1_0162,T1,llm,Who discovered oxygen?,Joseph Priestley,science
+IKP_T1_0163,T1,llm,In what year was the Tokugawa Shogunate established in Japan?,1603,history
+IKP_T1_0164,T1,llm,In what year was the Transcontinental Railroad completed in the US?,1869,engineering
+IKP_T1_0165,T1,llm,In what year was the Treaty of Tordesillas signed?,1494,general
+IKP_T1_0166,T1,llm,In what year was the Suez Canal nationalized by Egypt?,1956,history
+IKP_T1_0167,T1,llm,In what year was the Battle of Kosovo?,1389,history
+IKP_T1_0168,T1,llm,In what year was the Congress of Vienna?,1815,general
+IKP_T1_0169,T1,llm,In what year was the Treaty of Frankfurt signed ending the Franco-Prussian War?,1871,history
+IKP_T1_0170,T1,llm,What is the largest lake in Turkey?,Lake Van,geography
+IKP_T1_0171,T1,llm,How many chromosomes do humans have?,46,general
+IKP_T1_0172,T1,llm,What is the chemical symbol for tungsten?,W,general
+IKP_T1_0173,T1,llm,What is the freezing point of water in Celsius?,0,general
+IKP_T1_0174,T1,llm,In what year was the Treaty of Versailles signed?,1919,general
+IKP_T1_0175,T1,llm,In what year was the first underground railway opened in London?,1863,engineering
+IKP_T1_0176,T1,llm,Who founded the Mongol Empire?,Genghis Khan,history
+IKP_T1_0177,T1,llm,What strait separates Sumatra from the Malay Peninsula?,Strait of Malacca,geography
+IKP_T1_0178,T1,llm,What is the largest lake in Italy?,Lake Garda,geography
+IKP_T1_0179,T1,llm,Who discovered the bacterium that causes tuberculosis?,Robert Koch,science
+IKP_T1_0180,T1,llm,What is the chemical symbol for tin?,Sn,general
+IKP_T1_0181,T1,llm,How many chambers does the human heart have?,4,general
+IKP_T1_0182,T1,llm,Who wrote 'Les Miserables'?,Victor Hugo,culture
+IKP_T1_0183,T1,llm,In what year was the Congress of Berlin held?,1878,history
+IKP_T1_0184,T1,llm,In what year was the Thirty Years' War ended?,1648,history
+IKP_T1_0185,T1,llm,In what year was the Battle of Yorktown?,1781,history
+IKP_T1_0186,T1,llm,In what year was the Battle of Sedan in the Franco-Prussian War?,1870,history
+IKP_T1_0187,T1,llm,In what year was the Sack of Constantinople by the Fourth Crusade?,1204,history
+IKP_T1_0188,T1,llm,What is the Planck constant in J·s?,6.626e-34,general
+IKP_T1_0189,T1,llm,What is the chemical symbol for argon?,Ar,general
+IKP_T1_0190,T1,llm,In what year was the Battle of Waterloo?,1815,history
+IKP_T1_0191,T1,llm,What is the largest plateau in the world?,Tibetan Plateau,geography
+IKP_T1_0192,T1,llm,What is the largest lake in Central America?,Lake Nicaragua,general
+IKP_T1_0193,T1,llm,Who designed the Brasilia Cathedral?,Oscar Niemeyer,culture
+IKP_T1_0194,T1,llm,In what year was the Treaty of Trianon signed?,1920,history
+IKP_T1_0195,T1,llm,Who founded the Jesuit order?,Ignatius of Loyola,history
+IKP_T1_0196,T1,llm,In what year was the Qing Dynasty established?,1644,history
+IKP_T1_0197,T1,llm,What is the chemical formula for carbon dioxide?,CO2,general
+IKP_T1_0198,T1,llm,What is the deepest point in the ocean?,Mariana Trench,general
+IKP_T1_0199,T1,llm,What is the largest lake in South America?,Lake Titicaca,geography
+IKP_T2_0200,T2,llm,What is the wavelength of red light approximately in nm?,700,general
+IKP_T2_0201,T2,llm,Who built the Terracotta Army?,Qin Shi Huang,general
+IKP_T2_0202,T2,llm,Who designed the Glass House in New Canaan?,Philip Johnson,culture
+IKP_T2_0203,T2,llm,What is the highest point in Brazil?,Pico da Neblina,general
+IKP_T2_0204,T2,llm,Who composed 'Bolero'?,Maurice Ravel,culture
+IKP_T2_0205,T2,llm,In what year was the Battle of Manzikert?,1071,history
+IKP_T2_0206,T2,llm,In what year was the Treaty of Hubertusburg signed?,1763,history
+IKP_T2_0207,T2,llm,What is the deepest lake in North America?,Great Slave Lake,geography
+IKP_T2_0208,T2,llm,Who discovered the Van Allen radiation belts?,James Van Allen,science
+IKP_T2_0209,T2,llm,Who discovered the Compton effect?,Arthur Compton,science
+IKP_T2_0210,T2,llm,Who composed 'The Marriage of Figaro'?,Wolfgang Amadeus Mozart,general
+IKP_T2_0211,T2,llm,In what year was the Treaty of Nerchinsk signed between Russia and China?,1689,history
+IKP_T2_0212,T2,llm,Who composed the opera 'Boris Godunov'?,Modest Mussorgsky,culture
+IKP_T2_0213,T2,llm,What is the second longest river in South America?,Parana River,geography
+IKP_T2_0214,T2,llm,What is the atomic number of osmium?,76,science
+IKP_T2_0215,T2,llm,What is the atomic number of rhodium?,45,science
+IKP_T2_0216,T2,llm,Who wrote 'Critique of Pure Reason'?,Immanuel Kant,culture
+IKP_T2_0217,T2,llm,Who wrote 'The Art of War'?,Sun Tzu,general
+IKP_T2_0218,T2,llm,Who invented dynamite?,Alfred Nobel,engineering
+IKP_T2_0219,T2,llm,Who sculpted 'The Thinker'?,Auguste Rodin,culture
+IKP_T2_0220,T2,llm,What is the atomic number of tellurium?,52,science
+IKP_T2_0221,T2,llm,Who painted 'Liberty Leading the People'?,Eugene Delacroix,culture
+IKP_T2_0222,T2,llm,Who composed 'The Barber of Seville'?,Gioachino Rossini,culture
+IKP_T2_0223,T2,llm,Who discovered the electron?,J.J. Thomson,science
+IKP_T2_0224,T2,llm,Who painted 'The School of Athens'?,Raphael,culture
+IKP_T2_0225,T2,llm,In what year was the Treaty of Verdun that divided the Carolingian Empire?,843,history
+IKP_T2_0226,T2,llm,In what year was the Treaty of Nystad signed?,1721,history
+IKP_T2_0227,T2,llm,In what year was the Battle of Plassey?,1757,history
+IKP_T2_0228,T2,llm,What is the highest mountain in the Alps?,Mont Blanc,geography
+IKP_T2_0229,T2,llm,What is the name of the oldest parliament in the world?,Althing,general
+IKP_T2_0230,T2,llm,In what year was the Treaty of Utrecht signed?,1713,history
+IKP_T2_0231,T2,llm,What is the deepest mine in the world?,Mponeng Gold Mine,engineering
+IKP_T2_0232,T2,llm,Who composed 'Le Sacre du Printemps' ballet music?,Igor Stravinsky,culture
+IKP_T2_0233,T2,llm,Who composed 'Symphonie Fantastique'?,Hector Berlioz,culture
+IKP_T2_0234,T2,llm,In what year was the first transatlantic radio transmission?,1901,engineering
+IKP_T2_0235,T2,llm,In what year was the Treaty of Amiens signed?,1802,history
+IKP_T2_0236,T2,llm,Who discovered radioactivity?,Henri Becquerel,science
+IKP_T2_0237,T2,llm,What is the atomic number of iridium?,77,science
+IKP_T2_0238,T2,llm,What is the half-life of Uranium-238 in billion years?,4.5,science
+IKP_T2_0239,T2,llm,What is the second largest bay in the world?,Hudson Bay,geography
+IKP_T2_0240,T2,llm,What is the largest island in the Mediterranean Sea?,Sicily,general
+IKP_T2_0241,T2,llm,In what year was the Council of Constance convened?,1414,history
+IKP_T2_0242,T2,llm,What is the largest lake in Finland?,Lake Saimaa,geography
+IKP_T2_0243,T2,llm,Who discovered the positron?,Carl Anderson,science
+IKP_T2_0244,T2,llm,In what year was the first steamship to cross the Atlantic?,1819,general
+IKP_T2_0245,T2,llm,What is the largest volcano on Earth by volume?,Mauna Loa,geography
+IKP_T2_0246,T2,llm,In what year was the Battle of Austerlitz?,1805,history
+IKP_T2_0247,T2,llm,In what year was the first commercial telephone exchange opened?,1878,engineering
+IKP_T2_0248,T2,llm,Who painted 'Nighthawks'?,Edward Hopper,culture
+IKP_T2_0249,T2,llm,Who composed 'The Nutcracker'?,Pyotr Tchaikovsky,general
+IKP_T2_0250,T2,llm,In what year was the Treaty of Nanking signed?,1842,history
+IKP_T2_0251,T2,llm,In what year was the Battle of Trafalgar?,1805,history
+IKP_T2_0252,T2,llm,What is the second longest river in Africa?,Congo River,geography
+IKP_T2_0253,T2,llm,What is the melting point of tungsten in Celsius?,3422,general
+IKP_T2_0254,T2,llm,Who composed 'The Rite of Spring'?,Igor Stravinsky,culture
+IKP_T2_0255,T2,llm,Who designed the Pompidou Center's structure alongside Renzo Piano?,Richard Rogers,culture
+IKP_T2_0256,T2,llm,In what year was the Rosetta Stone discovered?,1799,general
+IKP_T2_0257,T2,llm,Who wrote 'The Odyssey'?,Homer,culture
+IKP_T2_0258,T2,llm,In what year was the first nuclear chain reaction achieved?,1942,science
+IKP_T2_0259,T2,llm,What strait separates Europe from Africa?,Strait of Gibraltar,general
+IKP_T2_0260,T2,llm,Who wrote 'Candide'?,Voltaire,culture
+IKP_T2_0261,T2,llm,In what year was the Peace of Passarowitz signed?,1718,history
+IKP_T2_0262,T2,llm,Who discovered the circulation of blood?,William Harvey,science
+IKP_T2_0263,T2,llm,Who was the architect of the Sydney Opera House?,Jorn Utzon,general
+IKP_T2_0264,T2,llm,What is the highest mountain in Iran?,Mount Damavand,geography
+IKP_T2_0265,T2,llm,Who painted 'The Hay Wain'?,John Constable,culture
+IKP_T2_0266,T2,llm,Who first measured the charge of the electron?,Robert Millikan,science
+IKP_T2_0267,T2,llm,In what year was the Millau Viaduct completed?,2004,engineering
+IKP_T2_0268,T2,llm,What is the smallest ocean in the world?,Arctic Ocean,geography
+IKP_T2_0269,T2,llm,What is the densest naturally occurring element?,Osmium,science
+IKP_T2_0270,T2,llm,What is the longest river in the world?,Nile,general
+IKP_T2_0271,T2,llm,What is the atomic number of niobium?,41,science
+IKP_T2_0272,T2,llm,In what year was the Treaty of Campo Formio signed?,1797,history
+IKP_T2_0273,T2,llm,What is the largest lake in Switzerland?,Lake Geneva,geography
+IKP_T2_0274,T2,llm,In what year was the Treaty of Ghent signed?,1814,history
+IKP_T2_0275,T2,llm,Who composed 'Appalachian Spring'?,Aaron Copland,culture
+IKP_T2_0276,T2,llm,In what year was the first synthetic dye created?,1856,science
+IKP_T2_0277,T2,llm,In what year was Brasilia inaugurated as capital?,1960,general
+IKP_T2_0278,T2,llm,What is the atomic number of nobelium?,102,science
+IKP_T2_0279,T2,llm,In what year did World War I begin?,1914,general
+IKP_T2_0280,T2,llm,Who founded the Ottoman Empire?,Osman I,general
+IKP_T2_0281,T2,llm,What is the second highest mountain in Africa?,Mount Kenya,geography
+IKP_T2_0282,T2,llm,Who discovered the Lamb shift?,Willis Lamb,science
+IKP_T2_0283,T2,llm,What is the highest point in Antarctica?,Vinson Massif,geography
+IKP_T2_0284,T2,llm,In what year was the Kelvin temperature scale proposed?,1848,science
+IKP_T2_0285,T2,llm,What is the highest mountain in Myanmar?,Hkakabo Razi,geography
+IKP_T2_0286,T2,llm,In what year was the Fourth Lateran Council held?,1215,history
+IKP_T2_0287,T2,llm,What is the largest freshwater lake by surface area?,Lake Superior,general
+IKP_T2_0288,T2,llm,In what year was the first transatlantic flight completed?,1919,engineering
+IKP_T2_0289,T2,llm,What is the official language of Brazil?,Portuguese,geography
+IKP_T2_0290,T2,llm,Who wrote 'The Wealth of Nations'?,Adam Smith,culture
+IKP_T2_0291,T2,llm,Who wrote 'The Decameron'?,Giovanni Boccaccio,culture
+IKP_T2_0292,T2,llm,Who first synthesized aspirin?,Felix Hoffmann,science
+IKP_T2_0293,T2,llm,In what year was the Crimean War started?,1853,history
+IKP_T2_0294,T2,llm,Who wrote 'Metamorphoses' in ancient Rome?,Ovid,culture
+IKP_T2_0295,T2,llm,Who invented the phonograph?,Thomas Edison,engineering
+IKP_T2_0296,T2,llm,What is the highest mountain in South America?,Aconcagua,general
+IKP_T2_0297,T2,llm,In what year was the Battle of Poltava?,1709,history
+IKP_T2_0298,T2,llm,In what year was the Brooklyn Bridge completed?,1883,engineering
+IKP_T2_0299,T2,llm,In what year was the Battle of Hattin?,1187,history
+IKP_T2_0300,T2,llm,In what year was the Battle of Tannenberg in World War I?,1914,history
+IKP_T2_0301,T2,llm,Who wrote 'Don Quixote'?,Miguel de Cervantes,general
+IKP_T2_0302,T2,llm,What is the southernmost point of continental Africa?,Cape Agulhas,geography
+IKP_T2_0303,T2,llm,Who discovered the phenomenon of piezoelectricity?,Pierre Curie,science
+IKP_T2_0304,T2,llm,What is the largest inland sea in the world?,Caspian Sea,geography
+IKP_T2_0305,T2,llm,What is the second most abundant element in the universe?,Helium,science
+IKP_T2_0306,T2,llm,Who discovered electromagnetic waves experimentally?,Heinrich Hertz,science
+IKP_T2_0307,T2,llm,Who invented the pneumatic tire?,John Boyd Dunlop,engineering
+IKP_T2_0308,T2,llm,In what year was the Diet of Worms?,1521,history
+IKP_T2_0309,T2,llm,In what year was the Battle of Agincourt?,1415,history
+IKP_T2_0310,T2,llm,What is the highest navigable body of water in the world?,Lake Titicaca,geography
+IKP_T2_0311,T2,llm,What is the oldest university in continuous operation?,University of Bologna,general
+IKP_T2_0312,T2,llm,Who discovered the noble gases?,William Ramsay,science
+IKP_T2_0313,T2,llm,Who composed 'Rhapsody in Blue'?,George Gershwin,culture
+IKP_T2_0314,T2,llm,In what year was the Battle of Tsushima?,1905,history
+IKP_T2_0315,T2,llm,Who composed 'Also sprach Zarathustra' in music?,Richard Strauss,culture
+IKP_T2_0316,T2,llm,In what year was the Periodic Law independently proposed by Mendeleev?,1869,science
+IKP_T2_0317,T2,llm,Who wrote 'Heart of Darkness'?,Joseph Conrad,culture
+IKP_T2_0318,T2,llm,What is the second largest city in Japan by population?,Yokohama,geography
+IKP_T2_0319,T2,llm,Who discovered the planet Pluto?,Clyde Tombaugh,science
+IKP_T2_0320,T2,llm,In what year was the Channel Tunnel opened?,1994,engineering
+IKP_T2_0321,T2,llm,What is the northernmost capital city in the world?,Reykjavik,geography
+IKP_T2_0322,T2,llm,What is the capital of Liechtenstein?,Vaduz,geography
+IKP_T2_0323,T2,llm,"Who painted 'Impression, Sunrise'?",Claude Monet,culture
+IKP_T2_0324,T2,llm,Who wrote 'Paradise Lost'?,John Milton,culture
+IKP_T2_0325,T2,llm,In what year was the Peace of Karlowitz signed?,1699,history
+IKP_T2_0326,T2,llm,Who discovered the planet Neptune?,Johann Galle,science
+IKP_T2_0327,T2,llm,What is the longest glacier in the Alps?,Aletsch Glacier,geography
+IKP_T2_0328,T2,llm,Who composed the opera 'Wozzeck'?,Alban Berg,culture
+IKP_T2_0329,T2,llm,In what year was the Hoover Dam completed?,1936,engineering
+IKP_T2_0330,T2,llm,What is the melting point of titanium in Celsius?,1668,science
+IKP_T2_0331,T2,llm,What is the largest volcanic crater lake in the world?,Lake Toba,geography
+IKP_T2_0332,T2,llm,Who discovered the proton?,Ernest Rutherford,science
+IKP_T2_0333,T2,llm,What is the highest peak in the Tien Shan mountain range?,Jengish Chokusu,geography
+IKP_T2_0334,T2,llm,In what year was the first vaccine for smallpox developed?,1796,science
+IKP_T2_0335,T2,llm,In what year was the Battle of Nicopolis?,1396,history
+IKP_T2_0336,T2,llm,In what year was the Battle of Zama?,202 BC,history
+IKP_T2_0337,T2,llm,Who designed the Guggenheim Museum in New York?,Frank Lloyd Wright,culture
+IKP_T2_0338,T2,llm,What is the rarest naturally occurring element in the Earth's crust?,Astatine,science
+IKP_T2_0339,T2,llm,Who composed 'The Four Seasons'?,Antonio Vivaldi,general
+IKP_T2_0340,T2,llm,What is the atomic number of palladium?,46,science
+IKP_T2_0341,T2,llm,In what year was the Khmer Rouge overthrown?,1979,general
+IKP_T2_0342,T2,llm,Who composed 'Carmina Burana'?,Carl Orff,culture
+IKP_T2_0343,T2,llm,What is the smallest country in the world by area?,Vatican City,general
+IKP_T2_0344,T2,llm,Who proposed the laws of planetary motion?,Johannes Kepler,science
+IKP_T2_0345,T2,llm,What is the deepest point in the Indian Ocean?,Java Trench,general
+IKP_T2_0346,T2,llm,In what year was the first Zeppelin flight?,1900,engineering
+IKP_T2_0347,T2,llm,In what year was the Golden Gate Bridge completed?,1937,engineering
+IKP_T2_0348,T2,llm,In what year was the Battle of Mohacs?,1526,history
+IKP_T2_0349,T2,llm,In what year was the Battle of Sekigahara?,1600,history
+IKP_T2_0350,T2,llm,What is the highest mountain in the Scandinavian Peninsula?,Galdhopiggen,geography
+IKP_T2_0351,T2,llm,What element has the atomic number 79?,Gold,science
+IKP_T2_0352,T2,llm,Who wrote 'The Republic'?,Plato,culture
+IKP_T2_0353,T2,llm,What is the atomic number of lawrencium?,103,science
+IKP_T2_0354,T2,llm,What is the highest peak in the Pyrenees?,Aneto,geography
+IKP_T2_0355,T2,llm,What is the highest mountain in North America?,Denali,geography
+IKP_T2_0356,T2,llm,Who first synthesized urea from inorganic compounds?,Friedrich Wohler,science
+IKP_T2_0357,T2,llm,In what year was the Boxer Rebellion in China?,1900,general
+IKP_T2_0358,T2,llm,Who discovered the neutron?,James Chadwick,science
+IKP_T2_0359,T2,llm,What is the capital of Bhutan?,Thimphu,geography
+IKP_T2_0360,T2,llm,What is the largest fjord in Greenland?,Scoresby Sund,geography
+IKP_T2_0361,T2,llm,In what year was the Gutenberg Bible printed?,1455,general
+IKP_T2_0362,T2,llm,In what year was the Solvay Conference first held?,1911,science
+IKP_T2_0363,T2,llm,Who designed the TWA Flight Center at JFK Airport?,Eero Saarinen,culture
+IKP_T2_0364,T2,llm,In what year was apartheid ended in South Africa?,1994,general
+IKP_T2_0365,T2,llm,In what year was the Forth Bridge in Scotland completed?,1890,engineering
+IKP_T2_0366,T2,llm,What is the highest mountain in Turkey?,Mount Ararat,geography
+IKP_T2_0367,T2,llm,In what year was the Hagia Sophia completed?,537,history
+IKP_T2_0368,T2,llm,In what year was the Treaty of Tilsit signed?,1807,history
+IKP_T2_0369,T2,llm,Who composed 'Messiah'?,George Frideric Handel,culture
+IKP_T2_0370,T2,llm,Who composed 'Pictures at an Exhibition'?,Modest Mussorgsky,culture
+IKP_T2_0371,T2,llm,In what year was the Battle of Chalons?,451,history
+IKP_T2_0372,T2,llm,Who painted 'The Persistence of Memory'?,Salvador Dali,culture
+IKP_T2_0373,T2,llm,What is the second largest island in the Mediterranean?,Sardinia,geography
+IKP_T2_0374,T2,llm,In what year was the Battle of Pharsalus?,48 BC,history
+IKP_T2_0375,T2,llm,Who designed the Taj Mahal?,Ustad Ahmad Lahauri,culture
+IKP_T2_0376,T2,llm,Who first demonstrated the wave nature of electrons?,Clinton Davisson,science
+IKP_T2_0377,T2,llm,What is the boiling point of helium in Celsius?,-269,science
+IKP_T2_0378,T2,llm,Who discovered the Josephson effect?,Brian Josephson,science
+IKP_T2_0379,T2,llm,In what year was the Scramble for Africa Conference in Berlin?,1884,history
+IKP_T2_0380,T2,llm,Who discovered the Stark effect?,Johannes Stark,science
+IKP_T2_0381,T2,llm,Who discovered electromagnetic induction?,Michael Faraday,science
+IKP_T2_0382,T2,llm,What is the largest lake in the Caucasus region?,Lake Sevan,geography
+IKP_T2_0383,T2,llm,Who discovered the photovoltaic effect?,Edmond Becquerel,science
+IKP_T2_0384,T2,llm,Who discovered the element argon?,Lord Rayleigh,science
+IKP_T2_0385,T2,llm,In what year was the Sistine Chapel ceiling completed?,1512,culture
+IKP_T2_0386,T2,llm,Who was the last Tsar of Russia?,Nicholas II,general
+IKP_T2_0387,T2,llm,Who composed 'Swan Lake'?,Pyotr Tchaikovsky,culture
+IKP_T2_0388,T2,llm,Who painted 'The Birth of Venus'?,Sandro Botticelli,culture
+IKP_T2_0389,T2,llm,Who discovered the photoelectric effect experimentally?,Heinrich Hertz,science
+IKP_T2_0390,T2,llm,What is the tallest dam in the world?,Jinping-I Dam,engineering
+IKP_T2_0391,T2,llm,Who wrote 'The Divine Comedy'?,Dante Alighieri,general
+IKP_T2_0392,T2,llm,In what year was the Treaty of San Stefano signed?,1878,history
+IKP_T2_0393,T2,llm,What is the highest mountain in Japan?,Mount Fuji,geography
+IKP_T2_0394,T2,llm,In what year was the Battle of Legnano?,1176,history
+IKP_T2_0395,T2,llm,In what year was the first nuclear-powered submarine launched?,1954,engineering
+IKP_T2_0396,T2,llm,In what year was the Itaipu Dam completed?,1984,engineering
+IKP_T2_0397,T2,llm,Who wrote 'Crime and Punishment'?,Fyodor Dostoevsky,general
+IKP_T2_0398,T2,llm,What is the highest peak in Ethiopia?,Ras Dashen,geography
+IKP_T2_0399,T2,llm,In what year was the first transatlantic cable successfully operated?,1866,engineering
+IKP_T3_0400,T3,llm,What is the largest fjord in Norway?,Sognefjorden,general
+IKP_T3_0401,T3,llm,What is the highest mountain in Oceania?,Puncak Jaya,general
+IKP_T3_0402,T3,llm,What is the highest navigable lake in the world?,Lake Titicaca,general
+IKP_T3_0403,T3,llm,What is the highest waterfall in Africa?,Tugela Falls,general
+IKP_T3_0404,T3,llm,What is the deepest freshwater lake in Africa?,Lake Tanganyika,general
+IKP_T3_0405,T3,llm,In what year did the Berlin Wall fall?,1989,general
+IKP_T3_0406,T3,llm,In what year was the Ottoman Empire dissolved?,1922,general
+IKP_T3_0407,T3,llm,In what year was the Battle of Borodino?,1812,general
+IKP_T3_0408,T3,llm,In what year was the first transatlantic telegraph cable completed?,1858,general
+IKP_T3_0409,T3,llm,Who was the first Emperor of the Mughal Empire?,Babur,general
+IKP_T3_0410,T3,llm,Who discovered helium?,Pierre Janssen,general
+IKP_T3_0411,T3,llm,Who was the first female prime minister of any country?,Sirimavo Bandaranaike,general
+IKP_T3_0412,T3,llm,In what year was the first nuclear power plant opened?,1954,general
+IKP_T3_0413,T3,llm,What is the longest river in Europe?,Volga,geography
+IKP_T3_0414,T3,llm,In what year was the Printing Revolution begun by Gutenberg?,1440,history
+IKP_T3_0415,T3,llm,In what year was insulin first used to treat diabetes?,1922,science
+IKP_T3_0416,T3,llm,What is the largest archipelago in the world?,Malay Archipelago,geography
+IKP_T3_0417,T3,llm,In what year was the Parthenon completed?,432 BC,history
+IKP_T3_0418,T3,llm,What is the second largest ocean in the world?,Atlantic Ocean,geography
+IKP_T3_0419,T3,llm,Who discovered the structure of benzene?,August Kekule,science
+IKP_T3_0420,T3,llm,In what year was the Bayeux Tapestry believed to have been created?,1070,history
+IKP_T3_0421,T3,llm,In what year was the Lateran Treaty signed?,1929,history
+IKP_T3_0422,T3,llm,In what year was the first telegraph message sent?,1844,engineering
+IKP_T3_0423,T3,llm,Who built the first practical automobile?,Karl Benz,engineering
+IKP_T3_0424,T3,llm,What is the largest island in the Caribbean?,Cuba,geography
+IKP_T3_0425,T3,llm,Who painted 'Water Lilies'?,Claude Monet,culture
+IKP_T3_0426,T3,llm,What is the highest capital city in the world?,La Paz,geography
+IKP_T3_0427,T3,llm,In what year was the Panama Canal Zone returned to Panama?,1999,history
+IKP_T3_0428,T3,llm,Who designed the Chrysler Building?,William Van Alen,culture
+IKP_T3_0429,T3,llm,Who discovered the vaccine for rabies?,Louis Pasteur,science
+IKP_T3_0430,T3,llm,What is the largest delta in the world?,Ganges-Brahmaputra Delta,geography
+IKP_T3_0431,T3,llm,Who wrote 'Meditations' in the 2nd century?,Marcus Aurelius,culture
+IKP_T3_0432,T3,llm,Who invented the internal combustion engine?,Nikolaus Otto,engineering
+IKP_T3_0433,T3,llm,What is the largest man-made lake by volume?,Lake Kariba,engineering
+IKP_T3_0434,T3,llm,Who composed 'The Planets' suite?,Gustav Holst,culture
+IKP_T3_0435,T3,llm,What is the largest estuary in the United States?,Chesapeake Bay,geography
+IKP_T3_0436,T3,llm,Who discovered the cosmic microwave background radiation?,Penzias and Wilson,science
+IKP_T3_0437,T3,llm,What element was first produced artificially?,Technetium,science
+IKP_T3_0438,T3,llm,Who discovered the rings of Saturn?,Christiaan Huygens,science
+IKP_T3_0439,T3,llm,What is the highest peak in the Caucasus Mountains?,Mount Elbrus,geography
+IKP_T3_0440,T3,llm,What is the most electropositive element?,Francium,science
+IKP_T3_0441,T3,llm,In what year was the first commercial jet airliner flight?,1952,engineering
+IKP_T3_0442,T3,llm,What is the largest freshwater island in the world?,Manitoulin Island,geography
+IKP_T3_0443,T3,llm,Who designed St. Basil's Cathedral in Moscow?,Postnik Yakovlev,culture
+IKP_T3_0444,T3,llm,Who discovered the phenomenon of superconductivity?,Heike Kamerlingh Onnes,science
+IKP_T3_0445,T3,llm,Who discovered the law of partial pressures of gases?,John Dalton,science
+IKP_T3_0446,T3,llm,What is the second most abundant element in the Earth's crust?,Silicon,science
+IKP_T3_0447,T3,llm,Who wrote 'Beowulf'?,Unknown,culture
+IKP_T3_0448,T3,llm,What is the highest point in the British Isles?,Ben Nevis,geography
+IKP_T3_0449,T3,llm,In what year was the Akashi Kaikyo Bridge completed?,1998,engineering
+IKP_T3_0450,T3,llm,Who discovered cosmic rays?,Victor Hess,science
+IKP_T3_0451,T3,llm,In what year was the Three Gorges Dam completed?,2006,engineering
+IKP_T3_0452,T3,llm,What is the driest inhabited continent?,Australia,geography
+IKP_T3_0453,T3,llm,Who designed the Vietnam Veterans Memorial?,Maya Lin,culture
+IKP_T3_0454,T3,llm,Who discovered the Chandrasekhar limit?,Subrahmanyan Chandrasekhar,science
+IKP_T3_0455,T3,llm,In what year was the Concordat of Worms?,1122,history
+IKP_T3_0456,T3,llm,What is the deepest point in the Southern Ocean?,South Sandwich Trench,geography
+IKP_T3_0457,T3,llm,In what year was the Treaty of Kadesh signed?,1259 BC,history
+IKP_T3_0458,T3,llm,What is the second largest island in the world?,New Guinea,geography
+IKP_T3_0459,T3,llm,Who designed the Salk Institute?,Louis Kahn,culture
+IKP_T3_0460,T3,llm,What is the highest peak in the Ural Mountains?,Mount Narodnaya,geography
+IKP_T3_0461,T3,llm,In what year was the Peace of Nicias signed?,421 BC,history
+IKP_T3_0462,T3,llm,In what year was the Treaty of Lausanne signed?,1923,history
+IKP_T3_0463,T3,llm,Who first isolated the element potassium?,Humphry Davy,science
+IKP_T3_0464,T3,llm,What is the melting point of platinum in Celsius?,1768,science
+IKP_T3_0465,T3,llm,What is the second largest lake in Africa by surface area?,Lake Tanganyika,geography
+IKP_T3_0466,T3,llm,What strait separates Borneo from Sulawesi?,Makassar Strait,geography
+IKP_T3_0467,T3,llm,In what year was the Peace of Lodi signed?,1454,history
+IKP_T3_0468,T3,llm,What is the melting point of osmium in Celsius?,3033,science
+IKP_T3_0469,T3,llm,What is the largest tidal bore in the world found on which river?,Qiantang River,geography
+IKP_T3_0470,T3,llm,Who wrote 'The Pillow Book'?,Sei Shonagon,culture
+IKP_T3_0471,T3,llm,In what year was the Treaty of Adrianople signed?,1829,history
+IKP_T3_0472,T3,llm,Who first measured the gravitational constant G?,Henry Cavendish,science
+IKP_T3_0473,T3,llm,Who designed the Chapel of Notre Dame du Haut at Ronchamp?,Le Corbusier,culture
+IKP_T3_0474,T3,llm,In what year was the Investiture Controversy resolved?,1122,history
+IKP_T3_0475,T3,llm,In what year was the Treaty of Sevres signed?,1920,history
+IKP_T3_0476,T3,llm,In what year was the Battle of Nagashino?,1575,history
+IKP_T3_0477,T3,llm,What is the westernmost point of continental Europe?,Cabo da Roca,geography
+IKP_T3_0478,T3,llm,In what year was the Battle of Breitenfeld in the Thirty Years' War?,1631,history
+IKP_T3_0479,T3,llm,Who wrote 'The Book of the City of Ladies'?,Christine de Pizan,culture
+IKP_T3_0480,T3,llm,What is the highest mountain in the Balkans?,Musala,geography
+IKP_T3_0481,T3,llm,Who first observed the diffraction of light?,Francesco Grimaldi,science
+IKP_T3_0482,T3,llm,In what year was the Battle of Maritsa?,1371,history
+IKP_T3_0483,T3,llm,What is the melting point of molybdenum in Celsius?,2623,science
+IKP_T3_0484,T3,llm,In what year was the Second Council of Lyon held?,1274,history
+IKP_T3_0485,T3,llm,Who first isolated the element cesium?,Robert Bunsen,science
+IKP_T3_0486,T3,llm,What is the highest volcano in Eurasia?,Mount Elbrus,geography
+IKP_T3_0487,T3,llm,In what year was the Peace of Cateau-Cambresis signed?,1559,history
+IKP_T3_0488,T3,llm,Who composed 'The Planets' orchestral suite?,Gustav Holst,culture
+IKP_T3_0489,T3,llm,Who discovered the Kerr effect in optics?,John Kerr,science
+IKP_T3_0490,T3,llm,In what year was the Battle of Lechfeld?,955,history
+IKP_T3_0491,T3,llm,In what year was the Congress of Aix-la-Chapelle held?,1818,history
+IKP_T3_0492,T3,llm,What is the melting point of iridium in Celsius?,2446,science
+IKP_T3_0493,T3,llm,Who wrote 'The Tale of the Heike'?,Unknown,culture
+IKP_T3_0494,T3,llm,Who designed the Kimbell Art Museum?,Louis Kahn,culture
+IKP_T3_0495,T3,llm,What is the melting point of palladium in Celsius?,1555,science
+IKP_T3_0496,T3,llm,Who composed 'Turangalila-Symphonie'?,Olivier Messiaen,culture
+IKP_T3_0497,T3,llm,What is the highest peak in the Karakoram range?,K2,geography
+IKP_T3_0498,T3,llm,Who designed the Neue Nationalgalerie in Berlin?,Mies van der Rohe,culture
+IKP_T3_0499,T3,llm,What is the highest mountain in the Caucasus?,Mount Elbrus,geography
+IKP_T3_0500,T3,llm,What is the melting point of hafnium in Celsius?,2233,science
+IKP_T3_0501,T3,researcher,What is the research field of David Culler?,computer networking,people
+IKP_T3_0502,T3,researcher,What is the research field of Christophe Diot?,machine learning,people
+IKP_T3_0503,T3,researcher,What is the research field of Tilman Plehn?,machine learning,people
+IKP_T3_0504,T3,researcher,What is the research field of Thomas Moscibroda?,distributed systems,people
+IKP_T3_0505,T3,researcher,What is the research field of Yevgeni Koucheryavy?,computer networking,people
+IKP_T3_0506,T3,researcher,What is the research field of Lorenzo Alvisi?,distributed systems,people
+IKP_T3_0507,T3,researcher,What is the research field of Ivona Brandic?,distributed systems,people
+IKP_T3_0508,T3,researcher,What is the research field of Jianke Zhu?,computer graphics,people
+IKP_T3_0509,T3,researcher,What is the research field of Dalila Salamani?,machine learning,people
+IKP_T3_0510,T3,researcher,What is the research field of Zhenyu Zhou?,machine learning,people
+IKP_T3_0511,T3,researcher,What is the research field of Jia Rao?,machine learning,people
+IKP_T3_0512,T3,researcher,What is the research field of Xuanzhe Liu?,machine learning,people
+IKP_T3_0513,T3,researcher,What is the research field of Witold Pokorski?,machine learning,people
+IKP_T3_0514,T3,researcher,What is the research field of Arkaprava Basu?,computer architecture,people
+IKP_T3_0515,T3,researcher,What is the research field of Otmar Hilliges?,computer graphics,people
+IKP_T3_0516,T3,researcher,What is the research field of David I. August?,machine learning,people
+IKP_T3_0517,T3,researcher,What is the research field of Ali Hatamizadeh?,machine learning,people
+IKP_T3_0518,T3,researcher,What is the research field of Yao Fu?,machine learning,people
+IKP_T3_0519,T3,researcher,What is the research field of Stjepan Picek?,computer security,people
+IKP_T3_0520,T3,researcher,What is the research field of Liangzhen Lai?,machine learning,people
+IKP_T3_0521,T3,researcher,What is the research field of Lei Zhao?,machine learning,people
+IKP_T3_0522,T3,researcher,What is the research field of Moshe Kol?,computer security,people
+IKP_T3_0523,T3,researcher,What is the research field of Nectarios Koziris?,distributed systems,people
+IKP_T3_0524,T3,researcher,What is the research field of Aviv University?,machine learning,people
+IKP_T3_0525,T3,researcher,What is the research field of Angelo Montanari?,programming languages,people
+IKP_T3_0526,T3,researcher,What is the research field of Jinbum Park?,human-computer interaction,people
+IKP_T3_0527,T3,researcher,What is the research field of Matthew R. Buckley?,machine learning,people
+IKP_T3_0528,T3,researcher,What is the research field of Insik Shin?,computer architecture,people
+IKP_T3_0529,T3,researcher,What is the research field of George Xylomenos?,computer networking,people
+IKP_T3_0530,T3,researcher,What is the research field of Claudius Krause?,machine learning,people
+IKP_T3_0531,T3,researcher,What is the research field of Walid Taha?,machine learning,people
+IKP_T3_0532,T3,researcher,What is the research field of Kirthevasan Kandasamy?,machine learning,people
+IKP_T3_0533,T3,researcher,What is the research field of Mang I Vai?,machine learning,people
+IKP_T3_0534,T3,researcher,What is the research field of Zhifeng Hao?,machine learning,people
+IKP_T3_0535,T3,researcher,What is the research field of Wei Qiang?,machine learning,people
+IKP_T3_0536,T3,researcher,What is the research field of Ed Nightingale?,operating systems,people
+IKP_T3_0537,T3,researcher,What is the research field of Aviv Tamar?,computer networking,computer_science
+IKP_T3_0538,T3,researcher,What is the research field of Trevor N. Mudge?,computer architecture,computer_science
+IKP_T4_0539,T4,llm,What is the deepest cave in the world?,Veryovkina Cave,general
+IKP_T4_0540,T4,llm,In what year was the Hanseatic League dissolved?,1669,general
+IKP_T4_0541,T4,llm,In what year was the Sevres porcelain factory established?,1740,general
+IKP_T4_0542,T4,llm,What is the second largest country in South America by area?,Argentina,geography
+IKP_T4_0543,T4,llm,What is the southernmost capital city in the world?,Wellington,geography
+IKP_T4_0544,T4,llm,What is the longest canal in the world?,Grand Canal of China,engineering
+IKP_T4_0545,T4,llm,What is the second largest freshwater lake by surface area?,Lake Victoria,geography
+IKP_T4_0546,T4,llm,In what year was the first submarine used in warfare?,1776,engineering
+IKP_T4_0547,T4,llm,What is the longest river in the Iberian Peninsula?,Tagus,geography
+IKP_T4_0548,T4,llm,In what year was the first successful helicopter flight?,1939,engineering
+IKP_T4_0549,T4,llm,What is the northernmost point of the African continent?,Ras ben Sakka,geography
+IKP_T4_0550,T4,llm,What is the tallest building in Europe?,Lakhta Center,engineering
+IKP_T4_0551,T4,llm,What is the deepest lake in Europe?,Lake Hornindalsvatnet,geography
+IKP_T4_0552,T4,llm,Who designed the Reichstag dome renovation?,Norman Foster,culture
+IKP_T4_0553,T4,llm,What is the highest volcano in the Western Hemisphere?,Ojos del Salado,geography
+IKP_T4_0554,T4,llm,What is the smallest country in mainland Africa?,Gambia,geography
+IKP_T4_0555,T4,llm,What is the largest lake in Canada?,Great Bear Lake,geography
+IKP_T4_0556,T4,llm,Who composed 'Daphnis et Chloe'?,Maurice Ravel,culture
+IKP_T4_0557,T4,llm,What is the second deepest lake in the world?,Lake Tanganyika,geography
+IKP_T4_0558,T4,llm,Who discovered the element fluorine in isolation?,Henri Moissan,science
+IKP_T4_0559,T4,llm,What is the deepest point in the Mediterranean Sea?,Calypso Deep,geography
+IKP_T4_0560,T4,llm,What is the boiling point of gold in Celsius?,2856,science
+IKP_T4_0561,T4,llm,Who painted 'The Garden of Earthly Delights'?,Hieronymus Bosch,culture
+IKP_T4_0562,T4,llm,What is the highest peak in the Carpathian Mountains?,Gerlachovsky stit,geography
+IKP_T4_0563,T4,llm,What is the highest mountain in Southeast Asia?,Hkakabo Razi,geography
+IKP_T4_0564,T4,llm,Who first synthesized the element technetium?,Carlo Perrier,science
+IKP_T4_0565,T4,llm,Who discovered the Meissner effect in superconductors?,Walther Meissner,science
+IKP_T4_0566,T4,llm,Who discovered the phenomenon of radioactive decay chains?,Ernest Rutherford,science
+IKP_T4_0567,T4,llm,What is the longest river in New Zealand?,Waikato River,geography
+IKP_T4_0568,T4,llm,What is the melting point of vanadium in Celsius?,1910,science
+IKP_T4_0569,T4,llm,In what year was the Peace of Apamea signed?,188 BC,history
+IKP_T4_0570,T4,llm,What is the largest lake in the Balkans?,Lake Skadar,geography
+IKP_T4_0571,T4,llm,What is the melting point of tantalum in Celsius?,3017,science
+IKP_T4_0572,T4,llm,What is the longest river in the British Isles?,River Shannon,geography
+IKP_T4_0573,T4,llm,In what year was the Treaty of Alcacovas signed?,1479,history
+IKP_T4_0574,T4,llm,What is the highest peak in the Hindu Kush?,Tirich Mir,geography
+IKP_T4_0575,T4,llm,Who first produced liquid helium?,Heike Kamerlingh Onnes,science
+IKP_T4_0576,T4,researcher,What is the research field of James Bornholt?,operating systems,people
+IKP_T4_0577,T4,researcher,What is the research field of Hao Wu?,computer graphics,people
+IKP_T4_0578,T4,researcher,What is the research field of Pengfei Zuo?,machine learning,people
+IKP_T4_0579,T4,researcher,What is the research field of Dan Li?,machine learning,people
+IKP_T4_0580,T4,researcher,What is the research field of Mary University?,human-computer interaction,people
+IKP_T4_0581,T4,researcher,What is the research field of Luca De Nardis?,computer networking,people
+IKP_T4_0582,T4,researcher,What is the research field of Qiwen Deng?,distributed systems,people
+IKP_T4_0583,T4,researcher,What is the research field of Mathieu Cunche?,computer security,people
+IKP_T4_0584,T4,researcher,What is the research field of Khalifa Al Hosani?,machine learning,people
+IKP_T4_0585,T4,researcher,What is the research field of Fengyu Gao?,computer architecture,people
+IKP_T4_0586,T4,researcher,What is the research field of Georgios C. Christoforidis?,distributed systems,people
+IKP_T4_0587,T4,researcher,What is the research field of Xiang Zhou?,machine learning,people
+IKP_T4_0588,T4,researcher,What is the research field of Nan Deng?,machine learning,people
+IKP_T4_0589,T4,researcher,What is the research field of Guilherme Perin?,software engineering,people
+IKP_T4_0590,T4,researcher,What is the research field of Rubén Meana-Pañeda?,machine learning,people
+IKP_T4_0591,T4,researcher,What is the research field of Jason Waterman?,computer architecture,people
+IKP_T4_0592,T4,researcher,What is the research field of Kristopher K. Micinski?,database systems,people
+IKP_T4_0593,T4,researcher,What is the research field of Myung Hoon Sunwoo?,computer architecture,people
+IKP_T4_0594,T4,researcher,What is the research field of Yinhua Wang?,machine learning,people
+IKP_T4_0595,T4,researcher,What is the research field of Antonio Barbalace?,operating systems,people
+IKP_T4_0596,T4,researcher,What is the research field of Xinbing Wang?,machine learning,people
+IKP_T4_0597,T4,researcher,What is the research field of I-Hsin Chung?,software engineering,people
+IKP_T4_0598,T4,researcher,What is the research field of Ang Chen?,machine learning,people
+IKP_T4_0599,T4,researcher,What is the research field of Mandeep Baines?,machine learning,people
+IKP_T4_0600,T4,researcher,What is the research field of Hasanen A. Hammad?,machine learning,people
+IKP_T4_0601,T4,researcher,What is the research field of Quanlu Zhang?,machine learning,people
+IKP_T4_0602,T4,researcher,What is the research field of Patrick Derbez?,computer security,people
+IKP_T4_0603,T4,researcher,What is the research field of Kenji Kono?,operating systems,people
+IKP_T4_0604,T4,researcher,What is the research field of Panagiotis Papadopoulos?,machine learning,people
+IKP_T4_0605,T4,researcher,What is the research field of Ting Deng?,machine learning,people
+IKP_T4_0606,T4,researcher,What is the research field of Young Ik Eom?,computer networking,people
+IKP_T4_0607,T4,researcher,What is the research field of Yongchao Liu?,machine learning,people
+IKP_T4_0608,T4,researcher,What is the research field of Hong Jiang?,computer security,people
+IKP_T4_0609,T4,researcher,What is the research field of Martina Zitterbart?,computer networking,computer_science
+IKP_T4_0610,T4,researcher,What is the research field of Sebastian Burckhardt?,computer networking,computer_science
+IKP_T4_0611,T4,researcher,What is the research field of Antonio Ramón Jiménez?,operating systems,computer_science
+IKP_T4_0612,T4,researcher,What is the research field of Qi Chen?,storage systems,computer_science
+IKP_T4_0613,T4,researcher,What is the research field of Zhongzhi Luan?,computer architecture,computer_science
+IKP_T4_0614,T4,researcher,What is the research field of Antoine Kaufmann?,computer networking,computer_science
+IKP_T4_0615,T4,researcher,What is the research field of Xuanhua Shi?,computer architecture,computer_science
+IKP_T4_0616,T4,researcher,What is the research field of Stanko Novakovic?,computer architecture,computer_science
+IKP_T4_0617,T4,researcher,What is the research field of Xuhua Ding?,computer security,computer_science
+IKP_T5_0618,T5,researcher,What is the research field of Dan Schatzberg?,computer architecture,computer_science
+IKP_T5_0619,T5,researcher,What is the research field of Michael J. Freedman?,computer architecture,computer_science
+IKP_T5_0620,T5,researcher,What is the research field of College London?,computer security,people
+IKP_T5_0621,T5,researcher,What is the research field of Mahdi Zahedi?,machine learning,people
+IKP_T5_0622,T5,researcher,What is the research field of Albert Gran Alcoz?,computer networking,computer_science
+IKP_T5_0623,T5,researcher,What is the research field of Isaac Ong?,computer networking,computer_science
+IKP_T5_0624,T5,researcher,What is the research field of Cuauhtemoc Mancillas-López?,computer security,people
+IKP_T5_0625,T5,researcher,What is the research field of Ziyi Zhang?,computer networking,computer_science
+IKP_T5_0626,T5,researcher,What is the research field of Yechen Xu?,machine learning,people
+IKP_T5_0627,T5,researcher,What is the research field of Aleksey Charapko?,distributed systems,people
+IKP_T5_0628,T5,researcher,What is the research field of Xukai Gao?,machine learning,people
+IKP_T5_0629,T5,researcher,What is the research field of Joao Ferreira?,machine learning,people
+IKP_T5_0630,T5,researcher,What is the research field of Roxana Geambasu?,computer security,people
+IKP_T5_0631,T5,researcher,What is the research field of Victoria Fast?,distributed systems,people
+IKP_T5_0632,T5,researcher,What is the research field of Christos Kozanitis?,computer architecture,computer_science
+IKP_T5_0633,T5,researcher,What is the research field of Daniel Nelson?,computer networking,computer_science
+IKP_T5_0634,T5,researcher,What is the research field of Nate Foster?,computer networking,computer_science
+IKP_T5_0635,T5,researcher,What is the research field of Aashaka Shah?,computer networking,computer_science
+IKP_T5_0636,T5,researcher,What is the research field of Yihua Huang?,operating systems,computer_science
+IKP_T5_0637,T5,researcher,What is the research field of Amy Tai?,database systems,computer_science
+IKP_T5_0638,T5,researcher,What is the research field of Paolo Costa?,distributed systems,computer_science
+IKP_T5_0639,T5,researcher,What is the research field of Yaozong Wu?,computer graphics,people
+IKP_T5_0640,T5,researcher,What is the research field of Arup Mondal?,computer security,people
+IKP_T5_0641,T5,researcher,What is the research field of Daeun Kim?,human-computer interaction,people
+IKP_T5_0642,T5,researcher,What is the research field of Rostand A. K. Fezeu?,computer networking,people
+IKP_T5_0643,T5,researcher,What is the research field of Antti Salminen?,human-computer interaction,people
+IKP_T5_0644,T5,researcher,What is the research field of Zhuangzhuang Zhou?,computer architecture,computer_science
+IKP_T5_0645,T5,researcher,What is the research field of Kevin Zhao?,computer networking,computer_science
+IKP_T5_0646,T5,researcher,What is the research field of Pedro Henrique Penna?,operating systems,people
+IKP_T5_0647,T5,researcher,What is the research field of Yuhang Gan?,computer networking,computer_science
+IKP_T5_0648,T5,researcher,What is the research field of Konstantinos Nikas?,machine learning,people
+IKP_T5_0649,T5,researcher,What is the research field of Mridul Nandi?,computer security,people
+IKP_T5_0650,T5,researcher,What is the research field of David Broneske?,distributed systems,computer_science
+IKP_T5_0651,T5,researcher,What is the research field of Yubo Liu?,operating systems,computer_science
+IKP_T5_0652,T5,researcher,What is the research field of Johannes Weiner?,computer security,people
+IKP_T5_0653,T5,researcher,What is the research field of Zheng Li?,machine learning,people
+IKP_T5_0654,T5,researcher,What is the research field of Alexander Rucker?,computer architecture,computer_science
+IKP_T5_0655,T5,wikidata,In what year was Blue Water Bridge opened?,1997,bridge
+IKP_T5_0656,T5,wikidata,In what year was Rendsburg High Bridge opened?,1913,bridge
+IKP_T5_0657,T5,wikidata,In what year was Sociedad Deportiva Ponferradina founded?,1922,sports_club
+IKP_T5_0658,T5,wikidata,In what year was East Slovak Museum founded?,1872,museum
+IKP_T5_0659,T5,wikidata,In what year was Igor Sikorsky Kyiv Polytechnic Institute founded?,1898,university
+IKP_T5_0660,T5,wikidata,In what year was the journal Journal of Natural Products first published?,1979,journal
+IKP_T5_0661,T5,wikidata,In what year was the journal Nano Letters first published?,2001,journal
+IKP_T5_0662,T5,wikidata,In what year was Ebbsfleet United F.C. founded?,1946,sports_club
+IKP_T5_0663,T5,wikidata,In what year was the journal Dalton Transactions first published?,2003,journal
+IKP_T5_0664,T5,wikidata,In what year was IT University of Copenhagen founded?,1999,university
+IKP_T5_0665,T5,wikidata,In what year was Northwich Victoria F.C. founded?,1874,sports_club
+IKP_T5_0666,T5,wikidata,In what year was Kim Chaek University of Technology founded?,1948,university
+IKP_T5_0667,T5,wikidata,In what year was Union 05 Kayl-Tétange founded?,2005,sports_club
+IKP_T5_0668,T5,wikidata,In what year was San Pietro a Majella Conservatory of Music founded?,1808,university
+IKP_T5_0669,T5,wikidata,In what year was Musée des Beaux-Arts d'Arras founded?,1825,museum
+IKP_T5_0670,T5,wikidata,In what year was the journal Communications of the ACM first published?,1959,journal
+IKP_T5_0671,T5,wikidata,In what year was Old Jewish Cemetery founded?,1856,museum
+IKP_T5_0672,T5,wikidata,In what year was the journal PLOS ONE first published?,2006,journal
+IKP_T5_0673,T5,wikidata,In what year was the journal The Astronomical Journal first published?,1849,journal
+IKP_T5_0674,T5,wikidata,In what year was F.C. United of Manchester founded?,2005,sports_club
+IKP_T5_0675,T5,wikidata,In what year was the journal Chemical Reviews first published?,1924,journal
+IKP_T5_0676,T5,wikidata,In what year was The Helix Bridge opened?,2010,bridge
+IKP_T5_0677,T5,wikidata,In what year was Belvedere founded?,1970,museum
+IKP_T5_0678,T5,wikidata,In what year was the journal Acta Crystallographica first published?,1948,journal
+IKP_T5_0679,T5,wikidata,In what year was Ponte Umberto I opened?,1895,bridge
+IKP_T5_0680,T5,wikidata,In what year was Gateshead F.C. founded?,1977,sports_club
+IKP_T5_0681,T5,wikidata,In what year was Old Synagogue founded?,1911,museum
+IKP_T5_0682,T5,wikidata,In what year was Kidderminster Harriers F.C. founded?,1886,sports_club
+IKP_T5_0683,T5,wikidata,In what year was University Museum of Bergen founded?,1825,museum
+IKP_T5_0684,T5,wikidata,In what year was Schloss Drachenburg founded?,1882,museum
+IKP_T5_0685,T5,wikidata,In what year was Museo dell'Opera del Duomo founded?,1891,museum
+IKP_T5_0686,T5,wikidata,In what year was Museums of the Far East founded?,1921,museum
+IKP_T5_0687,T5,wikidata,In what year was Glienicke Bridge opened?,1907,bridge
+IKP_T5_0688,T5,wikidata,In what year was University of Saint Joseph founded?,1932,university
+IKP_T5_0689,T5,wikidata,In what year was Alfreton Town F.C. founded?,1959,sports_club
+IKP_T5_0690,T5,wikidata,In what year was the journal Mathematische Annalen first published?,1868,journal
+IKP_T5_0691,T5,wikidata,In what year was George Eastman Museum founded?,1905,museum
+IKP_T5_0692,T5,wikidata,In what year was the journal Journal of the Chemical Society first published?,1849,journal
+IKP_T5_0693,T5,wikidata,In what year was Hyde United F.C. founded?,1919,sports_club
+IKP_T5_0694,T5,wikidata,In what year was the journal European Journal of Organic Chemistry first published?,1998,journal
+IKP_T5_0695,T5,wikidata,In what year was University of Zielona Góra founded?,2001,university
+IKP_T5_0696,T5,wikidata,In what year was the journal Acta Astronomica first published?,1925,journal
+IKP_T5_0697,T5,wikidata,In what year was Ambarawa Railway Museum founded?,1873,museum
+IKP_T5_0698,T5,wikidata,In what year was Varna Free University founded?,1991,university
+IKP_T5_0699,T5,wikidata,In what year was Pančevo Bridge opened?,1946,bridge
+IKP_T5_0700,T5,wikidata,In what year was Maputo University founded?,1986,university
+IKP_T5_0701,T5,wikidata,In what year was Ordensburg Vogelsang founded?,1930,museum
+IKP_T5_0702,T5,wikidata,In what year was Hiroshima University founded?,1949,university
+IKP_T5_0703,T5,wikidata,In what year was The Old Town founded?,1914,museum
+IKP_T5_0704,T5,wikidata,In what year was Great Bridge of Hrazdan opened?,1956,bridge
+IKP_T5_0705,T5,wikidata,In what year was Vesikko founded?,1934,museum
+IKP_T5_0706,T5,wikidata,In what year was the journal Reviews of Modern Physics first published?,1929,journal
+IKP_T5_0707,T5,wikidata,In what year was El Ferdan Railway Bridge opened?,2001,bridge
+IKP_T5_0708,T5,wikidata,In what year was Matlock Town F.C. founded?,1878,sports_club
+IKP_T5_0709,T5,wikidata,In what year was Calouste Gulbenkian Museum founded?,1969,museum
+IKP_T5_0710,T5,wikidata,In what year was Huichon University of Telecommunications founded?,1959,university
+IKP_T5_0711,T5,wikidata,In what year was King's Lynn Town F.C. founded?,2010,sports_club
+IKP_T5_0712,T5,wikidata,In what year was the journal PLOS Pathogens first published?,2005,journal
+IKP_T5_0713,T5,wikidata,In what year was Salford City F.C. founded?,1940,sports_club
+IKP_T5_0714,T5,wikidata,In what year was Tamworth F.C. founded?,1933,sports_club
+IKP_T5_0715,T5,wikidata,In what year was Rhodes University founded?,1904,university
+IKP_T5_0716,T5,wikidata,In what year was Siak Sri Indrapura palace founded?,1893,museum
+IKP_T5_0717,T5,wikidata,In what year was Davtashen Bridge opened?,2000,bridge
+IKP_T5_0718,T5,wikidata,In what year was the journal Chemical & Engineering News first published?,1923,journal
+IKP_T5_0719,T5,wikidata,In what year was Henan University founded?,1912,university
+IKP_T5_0720,T5,wikidata,In what year was the journal Physikalische Zeitschrift first published?,1899,journal
+IKP_T5_0721,T5,wikidata,In what year was Site of the First Congress of the Chinese Communist Party founded?,1920,museum
+IKP_T5_0722,T5,wikidata,In what year was Hednesford Town F.C. founded?,1880,sports_club
+IKP_T5_0723,T5,wikidata,In what year was Israeli Film Archive Jerusalem Cinematheque founded?,1974,museum
+IKP_T5_0724,T5,wikidata,In what year was Université Abdou Moumouni founded?,1971,university
+IKP_T5_0725,T5,wikidata,In what year was the journal Biology Letters first published?,2005,journal
+IKP_T5_0726,T5,wikidata,In what year was University of Louisiana at Lafayette founded?,1900,university
+IKP_T5_0727,T5,wikidata,In what year was the journal Organic Syntheses first published?,1921,journal
+IKP_T5_0728,T5,wikidata,In what year was Halesowen Town F.C. founded?,1873,sports_club
+IKP_T5_0729,T5,wikidata,In what year was Club Deportivo Guadalajara founded?,1947,sports_club
+IKP_T5_0730,T5,wikidata,In what year was the journal Nature Nanotechnology first published?,2006,journal
+IKP_T5_0731,T5,wikidata,In what year was University of Łódź founded?,1945,university
+IKP_T5_0732,T5,wikidata,In what year was Danish Film Institute founded?,1972,museum
+IKP_T5_0733,T5,wikidata,In what year was Altonaer Museum founded?,1863,museum
+IKP_T5_0734,T5,wikidata,In what year was Dartford F.C. founded?,1888,sports_club
+IKP_T5_0735,T5,wikidata,In what year was Chorley F.C. founded?,1883,sports_club
+IKP_T5_0736,T5,wikidata,In what year was Palace of Iturbide founded?,1785,museum
+IKP_T5_0737,T5,wikidata,In what year was the journal Nature Genetics first published?,1992,journal
+IKP_T5_0738,T5,wikidata,In what year was Yi Sun-sin Bridge opened?,2012,bridge
+IKP_T5_0739,T5,wikidata,In what year was Beijing Institute of Technology founded?,1940,university
+IKP_T5_0740,T5,wikidata,In what year was Worksop Town F.C. founded?,1930,sports_club
+IKP_T5_0741,T5,wikidata,In what year was the journal Organometallics first published?,1982,journal
+IKP_T5_0742,T5,wikidata,In what year was University of the East founded?,1946,university
+IKP_T5_0743,T5,wikidata,In what year was the journal Journal of Paleontology first published?,1927,journal
+IKP_T5_0744,T5,wikidata,In what year was Allenby Bridge opened?,1994,bridge
+IKP_T5_0745,T5,wikidata,In what year was the journal Inorganic Chemistry first published?,1962,journal
+IKP_T5_0746,T5,wikidata,In what year was Chemin de fer du Montenvers founded?,1909,museum
+IKP_T5_0747,T5,wikidata,In what year was Zentralbibliothek Zürich founded?,1917,museum
+IKP_T5_0748,T5,wikidata,In what year was the journal Journal of Chemical Physics first published?,1933,journal
+IKP_T5_0749,T5,wikidata,In what year was Stocksbridge Park Steels F.C. founded?,1986,sports_club
+IKP_T5_0750,T5,wikidata,In what year was Guangxi Normal University founded?,1932,university
+IKP_T5_0751,T5,wikidata,In what year was Mundaneum founded?,1993,museum
+IKP_T5_0752,T5,wikidata,In what year was I-35W Mississippi River bridge opened?,1967,bridge
+IKP_T5_0753,T5,wikidata,In what year was the journal Journal of the American Chemical Society first published?,1879,journal
+IKP_T5_0754,T5,wikidata,In what year was Tajik–Afghan Friendship Bridge opened?,2004,bridge
+IKP_T5_0755,T5,wikidata,In what year was Oil & Gas University of Ploiești founded?,1948,university
+IKP_T5_0756,T5,wikidata,In what year was Guinness Storehouse founded?,2000,museum
+IKP_T5_0757,T5,wikidata,In what year was Rakvere JK Tarvas founded?,2004,sports_club
+IKP_T5_0758,T5,wikidata,In what year was Sami Bridge opened?,1993,bridge
+IKP_T5_0759,T5,wikidata,In what year was Riffelalp decauville founded?,2001,museum
+IKP_T5_0760,T5,wikidata,In what year was Vilnius Gediminas Technical University founded?,1956,university
+IKP_T5_0761,T5,wikidata,In what year was the journal Nature Methods first published?,2004,journal
+IKP_T5_0762,T5,wikidata,In what year was Walter Sisulu University founded?,2005,university
+IKP_T5_0763,T5,wikidata,In what year was Brothers Somali Fc founded?,1967,sports_club
+IKP_T5_0764,T5,wikidata,In what year was North Ferriby United A.F.C. founded?,1934,sports_club
+IKP_T5_0765,T5,wikidata,In what year was Gateshead Millennium Bridge opened?,2001,bridge
+IKP_T5_0766,T5,wikidata,In what year was ARA Uruguay founded?,1874,museum
+IKP_T5_0767,T5,wikidata,In what year was Grunwald Bridge opened?,1910,bridge
+IKP_T5_0768,T5,wikidata,In what year was German Emigration Center founded?,2005,museum
+IKP_T5_0769,T5,wikidata,In what year was National University of East Timor founded?,1965,university
+IKP_T5_0770,T5,wikidata,In what year was Mahatma Gandhi Setu opened?,1982,bridge
+IKP_T5_0771,T5,wikidata,In what year was Exploratorium founded?,1969,museum
+IKP_T5_0772,T5,wikidata,In what year was the journal Astronomische Nachrichten first published?,1821,journal
+IKP_T5_0773,T5,wikidata,In what year was Bread Museum founded?,1983,museum
+IKP_T5_0774,T5,wikidata,In what year was Afghanistan–Uzbekistan Friendship Bridge opened?,1982,bridge
+IKP_T5_0775,T5,wikidata,In what year was the journal Angewandte Chemie first published?,1949,journal
+IKP_T5_0776,T5,wikidata,In what year was Witton Albion F.C. founded?,1887,sports_club
+IKP_T5_0777,T5,wikidata,In what year was Farsley Celtic F.C. founded?,1908,sports_club
+IKP_T5_0778,T5,wikidata,In what year was AFC Fylde founded?,1988,sports_club
+IKP_T5_0779,T5,wikidata,In what year was the journal Chemical Communications first published?,1996,journal
+IKP_T5_0780,T5,wikidata,In what year was Kizuna bridge opened?,2001,bridge
+IKP_T5_0781,T5,wikidata,In what year was Harbin Engineering University founded?,1953,university
+IKP_T5_0782,T5,wikidata,In what year was Glover Garden founded?,1863,museum
+IKP_T5_0783,T5,wikidata,In what year was the journal Notices of the American Mathematical Society first published?,1953,journal
+IKP_T5_0784,T5,wikidata,In what year was Stamford A.F.C. founded?,1896,sports_club
+IKP_T5_0785,T5,wikidata,In what year was Barton Swing Aqueduct opened?,1894,bridge
+IKP_T5_0786,T5,wikidata,In what year was Salahaddin University-Erbil founded?,1981,university
+IKP_T5_0787,T5,wikidata,In what year was New York University Tandon School of Engineering founded?,1854,university
+IKP_T5_0788,T5,wikidata,In what year was the journal Nature Chemical Biology first published?,2005,journal
+IKP_T5_0789,T5,wikidata,In what year was Rickmer Rickmers founded?,1896,museum
+IKP_T5_0790,T5,wikidata,In what year was Deutscher Dom founded?,1785,museum
+IKP_T5_0791,T5,wikidata,In what year was Namangan State University founded?,1942,university
+IKP_T5_0792,T5,wikidata,In what year was the journal Deutsche Medizinische Wochenschrift first published?,1875,journal
+IKP_T5_0793,T5,wikidata,In what year was the journal Advanced Materials first published?,1988,journal
+IKP_T5_0794,T5,wikidata,In what year was Buxton F.C. founded?,1877,sports_club
+IKP_T5_0795,T5,wikidata,In what year was Zeugma Mosaic Museum founded?,2011,museum
+IKP_T5_0796,T5,wikidata,In what year was Talyllyn Railway founded?,1866,museum
+IKP_T5_0797,T5,wikidata,In what year was the journal Current Biology first published?,1991,journal
+IKP_T5_0798,T5,wikidata,In what year was the journal Nature Immunology first published?,2000,journal
+IKP_T5_0799,T5,wikidata,In what year was Zentrum Paul Klee founded?,2005,museum
+IKP_T5_0800,T5,wikidata,In what year was Royal and Pontifical University of Mexico founded?,1551,university
+IKP_T5_0801,T5,wikidata,In what year was Mont Blanc Tramway founded?,1913,museum
+IKP_T5_0802,T5,wikidata,In what year was Marine F.C. founded?,1894,sports_club
+IKP_T5_0803,T5,wikidata,In what year was University of Massachusetts Amherst founded?,1863,university
+IKP_T5_0804,T5,wikidata,In what year was Stone Bridge opened?,1957,bridge
+IKP_T5_0805,T5,wikidata,In what year was Platanias Chania F.C. founded?,1931,sports_club
+IKP_T5_0806,T5,wikidata,In what year was Radcliffe F.C. founded?,1949,sports_club
+IKP_T5_0807,T5,wikidata,In what year was Moscow Sun Yat-sen University founded?,1925,university
+IKP_T5_0808,T5,wikidata,In what year was Prinsenhof founded?,1897,museum
+IKP_T5_0809,T5,wikidata,In what year was L. N. Gumilyov Eurasian National University founded?,1996,university
+IKP_T5_0810,T5,wikidata,In what year was Severn Bridge opened?,1966,bridge
+IKP_T5_0811,T5,wikidata,In what year was Oxford Brookes University founded?,1865,university
+IKP_T5_0812,T5,wikidata,In what year was Wealdstone F.C. founded?,1899,sports_club
+IKP_T5_0813,T5,wikidata,In what year was Palace of Kuskovo founded?,1737,museum
+IKP_T5_0814,T5,wikidata,In what year was the journal Acta Botanica Brasilica first published?,1987,journal
+IKP_T5_0815,T5,wikidata,In what year was Broadway Bridge opened?,1962,bridge
+IKP_T5_0816,T5,wikidata,In what year was the journal Cell first published?,1974,journal
+IKP_T5_0817,T5,wikidata,In what year was the journal Nature Reviews Genetics first published?,2000,journal
+IKP_T6_0818,T6,researcher,What is the research field of Po-An Tsai?,computer architecture,computer_science
+IKP_T6_0819,T6,researcher,What is the research field of Hongzhou Wang?,machine learning,people
+IKP_T6_0820,T6,researcher,What is the research field of Mehdi Cherkaoui?,machine learning,people
+IKP_T6_0821,T6,researcher,What is the research field of David Heath?,computer security,computer_science
+IKP_T6_0822,T6,researcher,What is the research field of Angus Griffith?,machine learning,people
+IKP_T6_0823,T6,researcher,What is the research field of Yuansheng Wang?,machine learning,people
+IKP_T6_0824,T6,researcher,What is the research field of Sangjin Choi?,computer architecture,people
+IKP_T6_0825,T6,researcher,What is the research field of Yi Gao?,computer networking,computer_science
+IKP_T6_0826,T6,researcher,What is the research field of Xiaowu Cai?,computer architecture,computer_science
+IKP_T6_0827,T6,researcher,What is the research field of Jonathan DiLorenzo?,programming languages,people
+IKP_T6_0828,T6,researcher,What is the research field of Fenghua Li?,machine learning,people
+IKP_T6_0829,T6,researcher,What is the research field of Mohammad Borhani?,computer networking,computer_science
+IKP_T6_0830,T6,researcher,What is the research field of Pavel Chuprikov?,programming languages,computer_science
+IKP_T6_0831,T6,researcher,What is the research field of Martina Lindorfer?,computer security,people
+IKP_T6_0832,T6,researcher,What is the research field of Yongbin Zhou?,machine learning,people
+IKP_T6_0833,T6,researcher,What is the research field of Fenghao Dong?,computer networking,computer_science
+IKP_T6_0834,T6,researcher,What is the research field of Chao Wang?,machine learning,people
+IKP_T6_0835,T6,researcher,What is the research field of Sihang Liu?,machine learning,people
+IKP_T6_0836,T6,researcher,What is the research field of Yuekai Jia?,computer graphics,people
+IKP_T6_0837,T6,researcher,What is the research field of Zaifeng Pan?,computer architecture,computer_science
+IKP_T6_0838,T6,researcher,What is the research field of Akhila Rao?,computer networking,computer_science
+IKP_T6_0839,T6,researcher,What is the research field of Zhuo Liang?,machine learning,people
+IKP_T6_0840,T6,researcher,What is the research field of Naiqian Zheng?,computer networking,computer_science
+IKP_T6_0841,T6,researcher,What is the research field of Andrew Litteken?,computer architecture,computer_science
+IKP_T6_0842,T6,researcher,What is the research field of Nehal Abd El-Salam Mohamed?,computer security,people
+IKP_T6_0843,T6,researcher,What is the research field of Seungjun Kim?,computer architecture,people
+IKP_T6_0844,T6,researcher,What is the research field of Won Wook Song?,operating systems,computer_science
+IKP_T6_0845,T6,researcher,What is the research field of Yizhou Shan?,operating systems,computer_science
+IKP_T6_0846,T6,researcher,What is the research field of Jeff Libby?,computer networking,computer_science
+IKP_T6_0847,T6,researcher,What is the research field of Shinya Kaji?,computer architecture,people
+IKP_T6_0848,T6,researcher,What is the research field of Daniela Mechkaroska?,computer security,people
+IKP_T6_0849,T6,researcher,What is the research field of Joshua J. Bowden?,operating systems,people
+IKP_T6_0850,T6,researcher,What is the research field of Teodora Ilieva?,operating systems,computer_science
+IKP_T6_0851,T6,researcher,What is the research field of Feng Chen?,machine learning,people
+IKP_T6_0852,T6,researcher,What is the research field of Hoang-Anh Pham?,machine learning,people
+IKP_T6_0853,T6,researcher,What is the research field of Gaurav Gautam?,computer networking,computer_science
+IKP_T6_0854,T6,researcher,What is the research field of Ziyi Lu?,machine learning,people
+IKP_T6_0855,T6,researcher,What is the research field of Lizhuang Tan?,computer networking,computer_science
+IKP_T6_0856,T6,researcher,What is the research field of Zipeng Pan?,computer networking,computer_science
+IKP_T6_0857,T6,researcher,What is the research field of Iago Storch?,computer graphics,people
+IKP_T6_0858,T6,researcher,What is the research field of Cecilia Testart?,computer networking,computer_science
+IKP_T6_0859,T6,researcher,What is the research field of Yining Shi?,operating systems,computer_science
+IKP_T6_0860,T6,researcher,What is the research field of Andrei Ivanov?,information retrieval,people
+IKP_T6_0861,T6,researcher,What is the research field of Federico Moretto?,computer networking,people
+IKP_T6_0862,T6,researcher,What is the research field of Mahbod Afarin?,database systems,people
+IKP_T6_0863,T6,researcher,What is the research field of Lingfeng Pei?,computer architecture,computer_science
+IKP_T6_0864,T6,researcher,What is the research field of Kun Guo?,machine learning,people
+IKP_T6_0865,T6,researcher,What is the research field of Hanfeng Chen?,computer architecture,computer_science
+IKP_T6_0866,T6,researcher,What is the research field of Jiarong Xing?,computer networking,computer_science
+IKP_T6_0867,T6,researcher,What is the research field of Ruijun Liu?,machine learning,people
+IKP_T6_0868,T6,researcher,What is the research field of Diogo Behrens?,computer architecture,computer_science
+IKP_T6_0869,T6,researcher,What is the research field of Sundararajan Renganathan?,computer networking,computer_science
+IKP_T6_0870,T6,researcher,What is the research field of Wenlong Hou?,operating systems,computer_science
+IKP_T6_0871,T6,researcher,What is the research field of Hao Guo?,machine learning,people
+IKP_T6_0872,T6,researcher,What is the research field of Mitchel Dickerson?,computer security,people
+IKP_T6_0873,T6,researcher,What is the research field of Rodrigo Rodrigues?,distributed systems,people
+IKP_T6_0874,T6,researcher,What is the research field of Gerry Wan?,computer networking,computer_science
+IKP_T6_0875,T6,researcher,What is the research field of MyoungGon Kim?,computer architecture,people
+IKP_T6_0876,T6,researcher,What is the research field of Yangfan Zhang?,computer networking,computer_science
+IKP_T6_0877,T6,researcher,What is the research field of Saurabh Agarwal?,operating systems,computer_science
+IKP_T6_0878,T6,researcher,What is the research field of Thales Bandiera Paiva?,computer security,people
+IKP_T6_0879,T6,researcher,What is the research field of Henri Maxime Demoulin?,operating systems,computer_science
+IKP_T6_0880,T6,researcher,What is the research field of Yao Wang?,machine learning,people
+IKP_T6_0881,T6,researcher,What is the research field of Xiaoyong Liu?,machine learning,people
+IKP_T6_0882,T6,wikidata,In what year was Lincoln United F.C. founded?,1938,sports_club
+IKP_T6_0883,T6,wikidata,In what year was the journal Paleontological Journal first published?,1967,journal
+IKP_T6_0884,T6,wikidata,In what year was the journal Carcinogenesis first published?,1980,journal
+IKP_T6_0885,T6,wikidata,In what year was University of Texas at Tyler founded?,1971,university
+IKP_T6_0886,T6,wikidata,In what year was the journal BMC Cancer first published?,2001,journal
+IKP_T6_0887,T6,wikidata,In what year was the journal Historical Materialism first published?,1997,journal
+IKP_T6_0888,T6,wikidata,In what year was Moscow University for the Humanities founded?,1944,university
+IKP_T6_0889,T6,wikidata,In what year was Whitby Town F.C. founded?,1880,sports_club
+IKP_T6_0890,T6,wikidata,In what year was Warrington Town F.C. founded?,1949,sports_club
+IKP_T6_0891,T6,wikidata,In what year was National University of Costa Rica founded?,1973,university
+IKP_T6_0892,T6,wikidata,In what year was the journal Academy of Management Review first published?,1976,journal
+IKP_T6_0893,T6,wikidata,In what year was Cumbres and Toltec Scenic Railroad founded?,1970,museum
+IKP_T6_0894,T6,wikidata,In what year was Blonay–Chamby Museum Railway founded?,1968,museum
+IKP_T6_0895,T6,wikidata,In what year was Gatchina Museum-Preserve founded?,1918,museum
+IKP_T6_0896,T6,wikidata,In what year was the journal Proceedings of the Academy of Sciences first published?,1992,journal
+IKP_T6_0897,T6,wikidata,In what year was Kidsgrove Athletic F.C. founded?,1952,sports_club
+IKP_T6_0898,T6,wikidata,In what year was Böda Skogsjärnväg founded?,1974,museum
+IKP_T6_0899,T6,wikidata,In what year was Ida Bay Railway founded?,1919,museum
+IKP_T6_0900,T6,wikidata,In what year was Belper Town F.C. founded?,1883,sports_club
+IKP_T6_0901,T6,wikidata,In what year was the journal Palaeontology first published?,1957,journal
+IKP_T6_0902,T6,wikidata,In what year was Magna Græcia University founded?,1998,university
+IKP_T6_0903,T6,wikidata,In what year was Chemin de fer du Vivarais founded?,1969,museum
+IKP_T6_0904,T6,wikidata,In what year was Ramsbottom United F.C. founded?,1966,sports_club
+IKP_T6_0905,T6,wikidata,In what year was the journal JAMA Neurology first published?,1960,journal
+IKP_T6_0906,T6,wikidata,In what year was SS Hestmanden founded?,2017,museum
+IKP_T6_0907,T6,wikidata,In what year was Newcastle Town F.C. founded?,1964,sports_club
+IKP_T6_0908,T6,wikidata,In what year was Garforth Town A.F.C. founded?,1964,sports_club
+IKP_T6_0909,T6,wikidata,In what year was Tsuru University founded?,1953,university
+IKP_T6_0910,T6,wikidata,In what year was Ossett Town F.C. founded?,1936,sports_club
+IKP_T6_0911,T6,wikidata,In what year was Coalville Town F.C. founded?,1926,sports_club
+IKP_T6_0912,T6,wikidata,In what year was the journal Monumenta Nipponica first published?,1938,journal
+IKP_T6_0913,T6,wikidata,In what year was Hyogo University of Teacher Education founded?,1978,university
+IKP_T6_0914,T6,wikidata,In what year was the journal Journal of inorganic and general chemistry first published?,1892,journal
+IKP_T6_0915,T6,wikidata,In what year was the journal British Journal of Cancer first published?,1947,journal
+IKP_T6_0916,T6,wikidata,"In what year was the journal Cancer Epidemiology, Biomarkers & Prevention first published?",1991,journal
+IKP_T6_0917,T6,wikidata,In what year was Cheongju National University of Education founded?,1993,university
+IKP_T6_0918,T6,wikidata,In what year was Gansu Tianma F.C. founded?,1999,sports_club
+IKP_T6_0919,T6,wikidata,In what year was Iași University of Life Sciences founded?,1912,university
+IKP_T6_0920,T6,wikidata,In what year was Soviet submarine D-2 Narodovolets founded?,1927,museum
+IKP_T6_0921,T6,wikidata,In what year was Rjukan Line founded?,1909,museum
+IKP_T6_0922,T6,wikidata,In what year was North Yorkshire Moors Railway founded?,1836,museum
+IKP_T6_0923,T6,wikidata,In what year was Haderslevbanen founded?,1866,museum
+IKP_T6_0924,T6,wikidata,In what year was Mickleover F.C. founded?,1948,sports_club
+IKP_T6_0925,T6,wikidata,In what year was Chasetown F.C. founded?,1954,sports_club
+IKP_T6_0926,T6,wikidata,In what year was Eastwood Town F.C. founded?,1953,sports_club
+IKP_T6_0927,T6,wikidata,In what year was the journal Clinical Science first published?,1909,journal
+IKP_T6_0928,T6,wikidata,In what year was Skelmersdale United F.C. founded?,1882,sports_club
+IKP_T6_0929,T6,wikidata,In what year was the journal Astronomy Letters first published?,1994,journal
+IKP_T6_0930,T6,wikidata,In what year was Hucknall Town F.C. founded?,1976,sports_club
+IKP_T6_0931,T6,wikidata,In what year was Rozhdestveno Memorial Estate founded?,1974,museum
+IKP_T6_0932,T6,wikidata,In what year was the journal Journal of the National Cancer Institute first published?,1940,journal
+IKP_T6_0933,T6,wikidata,In what year was the journal Cancer first published?,1948,journal
+IKP_T6_0934,T6,wikidata,In what year was Hanbat National University founded?,1927,university
+IKP_T6_0935,T6,wikidata,In what year was the journal Cancer Cell first published?,2002,journal
+IKP_T6_0936,T6,wikidata,In what year was the journal Kant-Studien first published?,1896,journal
+IKP_T6_0937,T6,wikidata,In what year was Frickley Athletic F.C. founded?,1910,sports_club
+IKP_T6_0938,T6,wikidata,In what year was USS Barry founded?,1984,museum
+IKP_T6_0939,T6,wikidata,In what year was Shenyang Ligong University founded?,1948,university
+IKP_T6_0940,T6,wikidata,In what year was the journal Academy of Management Journal first published?,1958,journal
+IKP_T6_0941,T6,wikidata,In what year was Market Drayton Town F.C. founded?,1969,sports_club
+IKP_T6_0942,T6,wikidata,In what year was the journal PalZ first published?,1913,journal
+IKP_T6_0943,T6,wikidata,In what year was the journal Cancer Research first published?,1941,journal
+IKP_T6_0944,T6,wikidata,In what year was University of La Guajira founded?,1977,university
+IKP_T6_0945,T6,wikidata,In what year was Loughborough Dynamo F.C. founded?,1955,sports_club
+IKP_T6_0946,T6,wikidata,In what year was the journal Advanced Synthesis & Catalysis first published?,1834,journal
+IKP_T6_0947,T6,wikidata,In what year was Site historique maritime de la Pointe-au-Père founded?,1980,museum
+IKP_T6_0948,T6,wikidata,In what year was University of Dillingen founded?,1551,university
+IKP_T6_0949,T6,wikidata,In what year was National Conservatory of Argentina founded?,1924,university
+IKP_T6_0950,T6,wikidata,In what year was Friends University founded?,1898,university
+IKP_T6_0951,T6,wikidata,In what year was the journal Annals of Oncology first published?,1990,journal
+IKP_T6_0952,T6,wikidata,In what year was the journal Copeia first published?,1913,journal
+IKP_T6_0953,T6,wikidata,In what year was the journal International Journal of Cancer first published?,1966,journal
+IKP_T6_0954,T6,wikidata,In what year was Prescot Cables F.C. founded?,1884,sports_club
+IKP_T6_0955,T6,wikidata,In what year was the journal Current Cancer Drug Targets first published?,2001,journal
+IKP_T6_0956,T6,wikidata,In what year was B-413 founded?,2000,museum
+IKP_T6_0957,T6,wikidata,In what year was Art Stations of the Naples Metro founded?,2001,museum
+IKP_T6_0958,T6,wikidata,In what year was Ilkeston F.C. founded?,2010,sports_club
+IKP_T6_0959,T6,wikidata,In what year was Trafford F.C. founded?,1990,sports_club
+IKP_T6_0960,T6,wikidata,In what year was Curzon Ashton F.C. founded?,1963,sports_club
+IKP_T6_0961,T6,wikidata,In what year was Catholic Private University Linz founded?,1672,university
+IKP_T6_0962,T6,wikidata,In what year was IIE MSA founded?,2001,university
+IKP_T6_0963,T6,wikidata,In what year was the journal Acta Oncologica first published?,1963,journal
+IKP_T6_0964,T6,wikidata,In what year was Kharkiv State University of Food Technology and Trade founded?,1967,university
+IKP_T6_0965,T6,wikidata,In what year was Gyeongin National University of Education founded?,1993,university
+IKP_T6_0966,T6,wikidata,In what year was Vietnam Aviation Academy founded?,2006,university
+IKP_T6_0967,T6,wikidata,In what year was the journal Clinical Breast Cancer first published?,2000,journal
+IKP_T6_0968,T6,wikidata,In what year was Musée de l'Imprimerie et de la Communication Graphique founded?,1963,museum
+IKP_T6_0969,T6,wikidata,In what year was Grantham Town F.C. founded?,1874,sports_club
+IKP_T6_0970,T6,wikidata,In what year was Eulji University founded?,1981,university
+IKP_T6_0971,T6,wikidata,In what year was Gresley F.C. founded?,1882,sports_club
+IKP_T6_0972,T6,wikidata,In what year was the journal Annals of Science first published?,1936,journal
+IKP_T6_0973,T6,wikidata,In what year was the journal Cancer Letters first published?,1975,journal
+IKP_T6_0974,T6,wikidata,In what year was Kendal Town F.C. founded?,1919,sports_club
+IKP_T6_0975,T6,wikidata,In what year was Kanazawa College of Art founded?,1946,university
+IKP_T6_0976,T6,wikidata,In what year was Abbey Hey F.C. founded?,1902,sports_club
+IKP_T6_0977,T6,wikidata,In what year was Clitheroe F.C. founded?,1877,sports_club
+IKP_T6_0978,T6,wikidata,In what year was Mane-Katz Museum founded?,1977,museum
+IKP_T6_0979,T6,wikidata,In what year was the journal European Journal of Cancer first published?,1965,journal
+IKP_T6_0980,T6,wikidata,In what year was the journal Lethaia first published?,1968,journal
+IKP_T6_0981,T6,wikidata,In what year was Ełcka Kolej Wąskotorowa founded?,1912,museum
+IKP_T6_0982,T6,wikidata,In what year was Blaenavon Ironworks founded?,1789,museum
+IKP_T6_0983,T6,wikidata,In what year was Heimwehfluhbahn founded?,1906,museum
+IKP_T6_0984,T6,wikidata,In what year was Utah State University Eastern founded?,1937,university
+IKP_T6_0985,T6,wikidata,In what year was Sutton Coldfield Town F.C. founded?,1879,sports_club
+IKP_T6_0986,T6,wikidata,In what year was New Mills A.F.C. founded?,1919,sports_club
+IKP_T6_0987,T6,wikidata,In what year was the journal Gazzetta Chimica Italiana first published?,1871,journal
+IKP_T6_0988,T6,wikidata,In what year was Österreichischer Skulpturenpark founded?,2003,museum
+IKP_T6_0989,T6,wikidata,In what year was Stoomtrein Goes - Borsele founded?,1971,museum
+IKP_T6_0990,T6,wikidata,In what year was Nikolaevskaya railway founded?,1851,museum
+IKP_T6_0991,T6,wikidata,In what year was University of Transkei founded?,1977,university
+IKP_T6_0992,T6,wikidata,In what year was Gyeongnam National University of Science and Technology founded?,1910,university
+IKP_T6_0993,T6,wikidata,In what year was Rushall Olympic F.C. founded?,1893,sports_club
+IKP_T6_0994,T6,wikidata,In what year was the journal Acta Sociologica first published?,1955,journal
+IKP_T6_0995,T6,wikidata,In what year was Princess of Naradhiwas University founded?,2005,university
+IKP_T6_0996,T6,wikidata,In what year was the journal Administration Science Quarterly first published?,1956,journal
+IKP_T6_0997,T6,wikidata,In what year was Casa Na Bolom founded?,1950,museum
+IKP_T6_0998,T6,wikidata,In what year was Vicenza Calcio founded?,1902,sports_club
+IKP_T6_0999,T6,wikidata,In what year was the journal Meteorologische Zeitschrift first published?,1866,journal
+IKP_T6_1000,T6,wikidata,In what year was Igualada Leather Museum founded?,1954,museum
+IKP_T6_1001,T6,wikidata,In what year was Kosmonavt Viktor Patsaev founded?,1968,museum
+IKP_T6_1002,T6,wikidata,In what year was the journal Clinical Cancer Research first published?,1995,journal
+IKP_T6_1003,T6,wikidata,In what year was the journal Zeitschrift fuer die Neutestamentliche Wissenschaft first published?,1900,journal
+IKP_T6_1004,T6,wikidata,In what year was Lynton and Barnstaple Railway founded?,1898,museum
+IKP_T6_1005,T6,wikidata,In what year was the journal Anticancer Research first published?,1981,journal
+IKP_T6_1006,T6,wikidata,In what year was Bamber Bridge F.C. founded?,1974,sports_club
+IKP_T6_1007,T6,wikidata,In what year was Kharkiv Petro Vasylenko National Technical University of Agriculture founded?,1930,university
+IKP_T6_1008,T6,wikidata,In what year was Lutheran Theological University founded?,1557,university
+IKP_T6_1009,T6,wikidata,In what year was Mossley A.F.C. founded?,1903,sports_club
+IKP_T6_1010,T6,wikidata,In what year was Cammell Laird F.C. founded?,1907,sports_club
+IKP_T6_1011,T6,wikidata,In what year was Steam Train Maldegem-Eeklo founded?,1985,museum
+IKP_T6_1012,T6,wikidata,In what year was Kochi University of Technology founded?,1997,university
+IKP_T6_1013,T6,wikidata,In what year was Institute of High Aragon Studies founded?,1949,museum
+IKP_T6_1014,T6,wikidata,In what year was the journal Breast Cancer Research and Treatment first published?,1981,journal
+IKP_T6_1015,T6,wikidata,In what year was Zhejiang Chinese Medical University founded?,1953,university
+IKP_T6_1016,T6,wikidata,In what year was Keiai University founded?,1921,university
+IKP_T6_1017,T6,researcher,What is the research field of Zhuofeng Li?,computer networking,computer_science
+IKP_T7_1018,T7,researcher,What is the research field of Hangfeng Gao?,computer networking,computer_science
+IKP_T7_1019,T7,researcher,What is the research field of Qizhe Cai?,computer networking,computer_science
+IKP_T7_1020,T7,researcher,What is the research field of Anshul Nigham?,computer networking,people
+IKP_T7_1021,T7,researcher,What is the research field of Éric Sageloli?,computer security,people
+IKP_T7_1022,T7,researcher,What is the research field of Zhigang Jiang?,computer networking,computer_science
+IKP_T7_1023,T7,researcher,What is the research field of Minh Cong Nguyen Hoang?,information retrieval,people
+IKP_T7_1024,T7,researcher,What is the research field of Zhangfeng Zhao?,machine learning,people
+IKP_T7_1025,T7,researcher,What is the research field of Shandan Zhou?,operating systems,computer_science
+IKP_T7_1026,T7,researcher,What is the research field of Tyler Narmore?,distributed systems,people
+IKP_T7_1027,T7,researcher,What is the research field of Anna Fornaio?,database systems,people
+IKP_T7_1028,T7,researcher,What is the research field of Kosuke Takeshige?,computer security,people
+IKP_T7_1029,T7,researcher,What is the research field of Soumya Ram?,computer architecture,computer_science
+IKP_T7_1030,T7,researcher,What is the research field of Yaning Guo?,computer networking,computer_science
+IKP_T7_1031,T7,researcher,What is the research field of Bingxian Lu?,machine learning,people
+IKP_T7_1032,T7,researcher,What is the research field of Zili Shao?,machine learning,people
+IKP_T7_1033,T7,researcher,What is the research field of Arpit Gupta?,computer networking,computer_science
+IKP_T7_1034,T7,researcher,What is the research field of Liam Cooper?,computer architecture,computer_science
+IKP_T7_1035,T7,researcher,What is the research field of Benjamin Rienecker?,computer networking,computer_science
+IKP_T7_1036,T7,researcher,What is the research field of Jiadong Xie?,database systems,people
+IKP_T7_1037,T7,researcher,What is the research field of Yuanyuan Dong?,storage systems,computer_science
+IKP_T7_1038,T7,researcher,What is the research field of Guanyu Feng?,machine learning,people
+IKP_T7_1039,T7,researcher,What is the research field of Dominik Freiherr von Künßberg?,computer networking,people
+IKP_T7_1040,T7,researcher,What is the research field of Pengcheng Zhang?,computer networking,computer_science
+IKP_T7_1041,T7,researcher,What is the research field of Guillermo Peña?,machine learning,people
+IKP_T7_1042,T7,researcher,What is the research field of Viviane E. McLandrich?,distributed systems,computer_science
+IKP_T7_1043,T7,wikidata,In what year was Poltekkes Kemenkes Jakarta II founded?,2012,university
+IKP_T7_1044,T7,wikidata,In what year was Mdina Knights F.C. founded?,2006,sports_club
+IKP_T7_1045,T7,wikidata,In what year was West Cornwall Covered Bridge opened?,1864,bridge
+IKP_T7_1046,T7,wikidata,In what year was the journal Communalism Combat first published?,1993,journal
+IKP_T7_1047,T7,wikidata,In what year was The Bruce Weiner Microcar Museum founded?,1997,museum
+IKP_T7_1048,T7,wikidata,In what year was the journal Acta Botanica Venezuelica first published?,1965,journal
+IKP_T7_1049,T7,wikidata,In what year was PSV Concordia Gropiusstadt founded?,1991,sports_club
+IKP_T7_1050,T7,wikidata,In what year was Uusikaupunki Automobile Museum founded?,1984,museum
+IKP_T7_1051,T7,wikidata,In what year was CD Arenas de Frajanas founded?,1991,sports_club
+IKP_T7_1052,T7,wikidata,In what year was Albion Sports A.F.C. founded?,1974,sports_club
+IKP_T7_1053,T7,wikidata,In what year was Corgo Rail Bridge opened?,1880,bridge
+IKP_T7_1054,T7,wikidata,In what year was the journal Bulletin du Centre d’Études Médiévales d’Auxerre first published?,1999,journal
+IKP_T7_1055,T7,wikidata,In what year was Guangdong Industry Polytechnic University founded?,1999,university
+IKP_T7_1056,T7,wikidata,In what year was Ossett Albion A.F.C. founded?,1944,sports_club
+IKP_T7_1057,T7,wikidata,In what year was Crown Alexandra F.C. founded?,2007,sports_club
+IKP_T7_1058,T7,wikidata,In what year was Szkolne Muzeum Motoryzacji w Toruniu founded?,1995,museum
+IKP_T7_1059,T7,wikidata,In what year was 1st Elagin Bridge opened?,1817,bridge
+IKP_T7_1060,T7,wikidata,In what year was the journal Balkanologie first published?,1997,journal
+IKP_T7_1061,T7,wikidata,In what year was the journal Annales de la Faculté des Sciences de Toulouse first published?,1887,journal
+IKP_T7_1062,T7,wikidata,In what year was the journal Besoiro first published?,1995,journal
+IKP_T7_1063,T7,wikidata,In what year was Blackwood F.C. founded?,1964,sports_club
+IKP_T7_1064,T7,wikidata,In what year was Meridian F.C. founded?,1995,sports_club
+IKP_T7_1065,T7,wikidata,In what year was Willimansett Bridge opened?,1892,bridge
+IKP_T7_1066,T7,wikidata,In what year was Darjeeling Polytechnic founded?,1978,university
+IKP_T7_1067,T7,wikidata,In what year was the journal Suds first published?,1948,journal
+IKP_T7_1068,T7,wikidata,In what year was Liverton United F.C. founded?,1902,sports_club
+IKP_T7_1069,T7,wikidata,In what year was New Hope – Lambertville Bridge opened?,1904,bridge
+IKP_T7_1070,T7,wikidata,In what year was Berkley Bridge opened?,1952,bridge
+IKP_T7_1071,T7,wikidata,In what year was SV Germania Bietigheim Baden founded?,1923,sports_club
+IKP_T7_1072,T7,wikidata,In what year was Heritage coal mine Ignacy founded?,1792,museum
+IKP_T7_1073,T7,wikidata,In what year was Prestongrange Museum founded?,1984,museum
+IKP_T7_1074,T7,wikidata,In what year was Romulus F.C. founded?,1979,sports_club
+IKP_T7_1075,T7,wikidata,In what year was the journal COnTEXTES first published?,2006,journal
+IKP_T7_1076,T7,wikidata,In what year was Harrogate Railway Athletic F.C. founded?,1935,sports_club
+IKP_T7_1077,T7,wikidata,"In what year was the journal Nouvelles archives du muséum d'histoire naturelle, sér. 4 first published?",1899,journal
+IKP_T7_1078,T7,wikidata,In what year was Politeknik Raflesia founded?,2002,university
+IKP_T7_1079,T7,wikidata,In what year was Politeknik Negeri Banyuwangi founded?,2013,university
+IKP_T7_1080,T7,wikidata,In what year was Politeknik Kota Malang founded?,2008,university
+IKP_T7_1081,T7,wikidata,In what year was the journal Apparence(s) first published?,2007,journal
+IKP_T7_1082,T7,wikidata,In what year was Politeknik Piksi Ganesha Bandung founded?,2004,university
+IKP_T7_1083,T7,wikidata,In what year was SC Jülich founded?,1910,sports_club
+IKP_T7_1084,T7,wikidata,In what year was Ichinotogawa Bridge opened?,1910,bridge
+IKP_T7_1085,T7,wikidata,In what year was Bearsted F.C. founded?,1895,sports_club
+IKP_T7_1086,T7,wikidata,In what year was Whipple Cast and Wrought Iron Bowstring Truss Bridge opened?,1867,bridge
+IKP_T7_1087,T7,wikidata,In what year was McKeesport Connecting Railroad Bridge opened?,1890,bridge
+IKP_T7_1088,T7,wikidata,In what year was Jysk Automobilmuseum founded?,1967,museum
+IKP_T7_1089,T7,wikidata,In what year was Politeknik Piksi Ganesha Indonesia founded?,2002,university
+IKP_T7_1090,T7,wikidata,In what year was the journal Cahiers d'histoire. Revue d’histoire critique first published?,1966,journal
+IKP_T7_1091,T7,wikidata,In what year was MiMa Mineralogy and Mathematics Museum founded?,2010,museum
+IKP_T7_1092,T7,wikidata,In what year was Astor Bridge opened?,1980,bridge
+IKP_T7_1093,T7,wikidata,In what year was East Pool mine founded?,1913,museum
+IKP_T7_1094,T7,wikidata,In what year was Espoo Automobile Museum founded?,1979,museum
+IKP_T7_1095,T7,wikidata,"In what year was Cristo Rey Polytechnic Institute, Valladolid founded?",1939,university
+IKP_T7_1096,T7,wikidata,In what year was the journal Circulation: Heart Failure first published?,2008,journal
+IKP_T7_1097,T7,wikidata,In what year was Brightman Street Bridge opened?,1908,bridge
+IKP_T7_1098,T7,wikidata,In what year was SV Sturm Chemnitz founded?,1904,sports_club
+IKP_T7_1099,T7,wikidata,In what year was Bridon Ropes F.C. founded?,1935,sports_club
+IKP_T7_1100,T7,wikidata,In what year was Rusthall F.C. founded?,1899,sports_club
+IKP_T7_1101,T7,wikidata,"In what year was the journal Annuaire de l'École pratique des hautes études, section des sciences religieuses first published?",1892,journal
+IKP_T7_1102,T7,wikidata,In what year was Museo de la Siderurgia y la Minería de Castilla y León founded?,2008,museum
+IKP_T7_1103,T7,wikidata,In what year was the journal Biochimie first published?,1914,journal
+IKP_T7_1104,T7,wikidata,In what year was the journal Bulletin de Psychologie first published?,1948,journal
+IKP_T7_1105,T7,wikidata,In what year was Lomakov cars museum founded?,1987,museum
+IKP_T7_1106,T7,wikidata,In what year was Tioronda Bridge opened?,1873,bridge
+IKP_T7_1107,T7,wikidata,In what year was Carlton Town F.C. founded?,1904,sports_club
+IKP_T7_1108,T7,wikidata,In what year was Rajganj Government Polytechnic founded?,2009,university
+IKP_T7_1109,T7,wikidata,In what year was the journal University of California Publications in Botany first published?,1902,journal
+IKP_T7_1110,T7,wikidata,In what year was Politeknik NSC Surabaya founded?,1997,university
+IKP_T7_1111,T7,wikidata,In what year was Taiwan Coal Mine Museum founded?,2001,museum
+IKP_T7_1112,T7,wikidata,In what year was the journal California Agriculture first published?,1946,journal
+IKP_T7_1113,T7,wikidata,In what year was Museo de la Minería de Puertollano founded?,2006,museum
+IKP_T7_1114,T7,wikidata,In what year was the journal Bulletin de l'APAD first published?,2003,journal
+IKP_T7_1115,T7,wikidata,In what year was Politeknik Energi dan Mineral Akamigas founded?,2017,university
+IKP_T7_1116,T7,wikidata,In what year was Cliffs Shaft Mine Museum founded?,1880,museum
+IKP_T7_1117,T7,wikidata,In what year was the journal ACM Transactions on Information and System Security first published?,1998,journal
+IKP_T7_1118,T7,wikidata,In what year was Poltekkes Kemenkes Yogyakarta founded?,2001,university
+IKP_T7_1119,T7,wikidata,In what year was Mining and local history museum Erbendorf founded?,1995,museum
+IKP_T7_1120,T7,wikidata,In what year was Train and Bus Museum founded?,1982,museum
+IKP_T7_1121,T7,wikidata,In what year was Falakata Polytechnic founded?,2001,university
+IKP_T7_1122,T7,wikidata,In what year was Cooch Behar Polytechnic founded?,1964,university
+IKP_T7_1123,T7,wikidata,In what year was Casco Bay Bridge opened?,1997,bridge
+IKP_T7_1124,T7,wikidata,In what year was Adler Union Frintrop founded?,1910,sports_club
+IKP_T7_1125,T7,wikidata,In what year was Union Railroad Clairton Bridge opened?,1893,bridge
+IKP_T7_1126,T7,wikidata,In what year was Naka Bridge opened?,1936,bridge
+IKP_T7_1127,T7,wikidata,In what year was the journal Annales pharmaceutiques françaises first published?,1943,journal
+IKP_T7_1128,T7,wikidata,In what year was Tsubakihara Bridge opened?,2002,bridge
+IKP_T7_1129,T7,wikidata,In what year was the journal Cahiers du centre de recherches historiques first published?,1988,journal
+IKP_T7_1130,T7,wikidata,In what year was Simeone Foundation Automotive Museum founded?,2008,museum
+IKP_T7_1131,T7,wikidata,In what year was Toyohama Bridge opened?,1992,bridge
+IKP_T7_1132,T7,wikidata,In what year was Siliguri Government Polytechnic founded?,1995,university
+IKP_T7_1133,T7,wikidata,In what year was Rochester United F.C. founded?,1982,sports_club
+IKP_T7_1134,T7,wikidata,In what year was Politeknik Harapan Bersama Tegal founded?,2002,university
+IKP_T7_1135,T7,wikidata,In what year was Gangarampur Government Polytechnic founded?,2013,university
+IKP_T7_1136,T7,wikidata,In what year was the journal Anthropology of Food first published?,1999,journal
+IKP_T7_1137,T7,wikidata,In what year was the journal Bulletin of Sociological Methodology first published?,1983,journal
+IKP_T7_1138,T7,wikidata,In what year was Prince Andrew Bridge (Novi Sad) opened?,1883,bridge
+IKP_T7_1139,T7,wikidata,In what year was the journal Bioelectrochemistry first published?,1974,journal
+IKP_T7_1140,T7,wikidata,In what year was Lutterworth Athletic F.C. founded?,1993,sports_club
+IKP_T7_1141,T7,wikidata,In what year was West Didsbury & Chorlton A.F.C. founded?,1908,sports_club
+IKP_T7_1142,T7,wikidata,In what year was Vashi Bridge opened?,1997,bridge
+IKP_T7_1143,T7,wikidata,In what year was Brigg Town F.C. founded?,1864,sports_club
+IKP_T7_1144,T7,wikidata,"In what year was Government Polytechnic, Panaji founded?",1963,university
+IKP_T7_1145,T7,wikidata,In what year was Burnside Bridge opened?,1926,bridge
+IKP_T7_1146,T7,wikidata,In what year was Wills Creek Bollman Bridge opened?,1871,bridge
+IKP_T7_1147,T7,wikidata,In what year was Telford Town F.C. founded?,1950,sports_club
+IKP_T7_1148,T7,wikidata,In what year was Kuronoseto Bridge opened?,1974,bridge
+IKP_T7_1149,T7,wikidata,In what year was the journal Bulletins et mémoires de la société d'anthropologie de Paris first published?,1859,journal
+IKP_T7_1150,T7,wikidata,In what year was Gipsmuseum Schleitheim founded?,1938,museum
+IKP_T7_1151,T7,wikidata,In what year was Van Buren Street Bridge opened?,1913,bridge
+IKP_T7_1152,T7,wikidata,In what year was Oulu Automobile Museum founded?,1987,museum
+IKP_T7_1153,T7,wikidata,In what year was TSV Straubing founded?,1921,sports_club
+IKP_T7_1154,T7,wikidata,In what year was the journal Cahiers d'études africaines first published?,1960,journal
+IKP_T7_1155,T7,wikidata,In what year was Hessisches Braunkohle Bergbaumuseum founded?,1992,museum
+IKP_T7_1156,T7,wikidata,In what year was FC Santa Clarita founded?,2006,sports_club
+IKP_T7_1157,T7,wikidata,In what year was W.D. Mansfield Memorial Bridge opened?,1951,bridge
+IKP_T7_1158,T7,wikidata,In what year was Rawmarsh Welfare F.C. founded?,1901,sports_club
+IKP_T7_1159,T7,wikidata,In what year was Dutch Mining Museum founded?,2005,museum
+IKP_T7_1160,T7,wikidata,In what year was Toyota Kaikan Museum founded?,1977,museum
+IKP_T7_1161,T7,wikidata,In what year was Museo Minero de Escucha founded?,2002,museum
+IKP_T7_1162,T7,wikidata,In what year was Old Walterdale Bridge opened?,1913,bridge
+IKP_T7_1163,T7,wikidata,In what year was Politeknik Maritim Negeri Indonesia founded?,2012,university
+IKP_T7_1164,T7,wikidata,In what year was Suffield and Thompsonville Bridge opened?,1893,bridge
+IKP_T7_1165,T7,wikidata,In what year was the journal Antiviral Chemistry & Chemotherapy first published?,1990,journal
+IKP_T7_1166,T7,wikidata,In what year was the journal Cahiers d'histoire first published?,1956,journal
+IKP_T7_1167,T7,wikidata,In what year was Vanport Bridge opened?,1968,bridge
+IKP_T7_1168,T7,wikidata,In what year was Walden Low Bridge opened?,1987,bridge
+IKP_T7_1169,T7,wikidata,In what year was Raiganj Polytechnic founded?,1986,university
+IKP_T7_1170,T7,wikidata,In what year was the journal Advances in Theoretical and Mathematical Physics first published?,1997,journal
+IKP_T7_1171,T7,wikidata,In what year was London Motor Museum founded?,2012,museum
+IKP_T7_1172,T7,wikidata,In what year was Aylestone Park F.C. founded?,1993,sports_club
+IKP_T7_1173,T7,wikidata,In what year was Bergwerk Käpfnach founded?,1784,museum
+IKP_T7_1174,T7,wikidata,In what year was Jalpaiguri Polytechnic Institute founded?,1951,university
+IKP_T7_1175,T7,wikidata,In what year was Taylor–Southgate Bridge opened?,1995,bridge
+IKP_T7_1176,T7,wikidata,In what year was Healdsburg Memorial Bridge opened?,1921,bridge
+IKP_T7_1177,T7,wikidata,In what year was PS Speicher founded?,2014,museum
+IKP_T7_1178,T7,wikidata,In what year was Museum of Motorisation in Poznań founded?,1996,museum
+IKP_T7_1179,T7,wikidata,In what year was Utica Bridge opened?,1962,bridge
+IKP_T7_1180,T7,wikidata,In what year was Wabasha–Nelson Bridge opened?,1988,bridge
+IKP_T7_1181,T7,wikidata,In what year was Ward's Bridge opened?,1940,bridge
+IKP_T7_1182,T7,wikidata,In what year was Taemas Bridge opened?,1931,bridge
+IKP_T7_1183,T7,wikidata,In what year was Dick's Classic Garage founded?,1980,museum
+IKP_T7_1184,T7,wikidata,In what year was the journal Annual Reports on the Progress of Chemistry Section A first published?,1904,journal
+IKP_T7_1185,T7,wikidata,In what year was Politeknik Keselamatan Transportasi Jalan founded?,2012,university
+IKP_T7_1186,T7,wikidata,In what year was the journal Transactions of the Horticultural Society of London first published?,1807,journal
+IKP_T7_1187,T7,wikidata,In what year was Technical Museum Tatra founded?,1997,museum
+IKP_T7_1188,T7,wikidata,In what year was the journal Le Carnet PSY first published?,1994,journal
+IKP_T7_1189,T7,wikidata,In what year was Killhope Museum founded?,1984,museum
+IKP_T7_1190,T7,wikidata,In what year was Health Polytechnic Ministry of Health Jakarta III founded?,2001,university
+IKP_T7_1191,T7,wikidata,In what year was JEF Reserves founded?,1995,sports_club
+IKP_T7_1192,T7,wikidata,In what year was Lytham F.C. founded?,1904,sports_club
+IKP_T7_1193,T7,wikidata,In what year was Poltekkes Kemenkes Surabaya founded?,2004,university
+IKP_T7_1194,T7,wikidata,In what year was Sporting Club Thamesmead F.C. founded?,1900,sports_club
+IKP_T7_1195,T7,wikidata,In what year was Kashima Bridge opened?,1975,bridge
+IKP_T7_1196,T7,wikidata,In what year was Woodhorn Museum founded?,1989,museum
+IKP_T7_1197,T7,wikidata,In what year was Zhicheng Yangtze River Bridge opened?,1971,bridge
+IKP_T7_1198,T7,wikidata,In what year was Politeknik Pariwisata Makassar founded?,2015,university
+IKP_T7_1199,T7,wikidata,In what year was Lerotholi Polytechnic founded?,1905,university
+IKP_T7_1200,T7,wikidata,In what year was Phoenix Sports F.C. founded?,1935,sports_club
+IKP_T7_1201,T7,wikidata,In what year was Bergwerk Riedhof founded?,1787,museum
+IKP_T7_1202,T7,wikidata,In what year was Wabash Bridge opened?,1904,bridge
+IKP_T7_1203,T7,wikidata,In what year was FC Luch Minsk founded?,1987,sports_club
+IKP_T7_1204,T7,wikidata,In what year was Progetto Calcio Sant'Elia founded?,2000,sports_club
+IKP_T7_1205,T7,wikidata,In what year was the journal Annals of Surgical Oncology first published?,1994,journal
+IKP_T7_1206,T7,wikidata,In what year was Politeknik Negeri Balikpapan founded?,2011,university
+IKP_T7_1207,T7,wikidata,In what year was the journal Bulletin of the World Health Organization first published?,1947,journal
+IKP_T7_1208,T7,wikidata,In what year was Kuala Lumpur FA founded?,1974,sports_club
+IKP_T7_1209,T7,wikidata,In what year was South Wales Miners' Museum founded?,1976,museum
+IKP_T7_1210,T7,wikidata,In what year was Smedby AIS founded?,1929,sports_club
+IKP_T7_1211,T7,wikidata,In what year was the journal Annals of the Lyceum of Natural History of New York first published?,1824,journal
+IKP_T7_1212,T7,wikidata,In what year was Brickell Avenue Bridge opened?,1929,bridge
+IKP_T7_1213,T7,wikidata,In what year was the journal Astérion first published?,2003,journal
+IKP_T7_1214,T7,wikidata,In what year was Hassan Usman Katsina Polytechnic founded?,1983,university
+IKP_T7_1215,T7,wikidata,In what year was Colonel Patrick O'Rorke Memorial Bridge opened?,2004,bridge
+IKP_T7_1216,T7,wikidata,In what year was the journal Cahiers de Recherches Medievales first published?,1996,journal
+IKP_T7_1217,T7,wikidata,In what year was Tufanganj Government Polytechnic founded?,2014,university

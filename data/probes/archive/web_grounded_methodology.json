@@ -1,0 +1,23 @@
+{
+  "researcher_probes": {
+    "description": "Researcher probes grounded in Semantic Scholar citation counts",
+    "methodology": {
+      "source": "Semantic Scholar API + DBLP + university websites",
+      "T5_criteria": "200-1000 total citations, published at top systems venues",
+      "T6_criteria": "20-200 total citations, published at top systems venues",
+      "T7_criteria": "<20 total citations, very recent or niche researchers",
+      "verification": "Each fact cross-verified against at least 2 web sources"
+    },
+    "note": "Probe generation requires web API access. This script defines the methodology; actual probe collection requires running the Semantic Scholar pipeline."
+  },
+  "city_probes": {
+    "description": "City population probes grounded in official census data",
+    "methodology": {
+      "source": "Wikipedia list articles + national census databases",
+      "T5_criteria": "Cities with population 5,000-50,000 and <100 Google results for '[city] population'",
+      "T6_criteria": "Towns with population 500-5,000 and <10 Google results",
+      "T7_criteria": "Villages with population <500 and essentially 1 source",
+      "verification": "Population verified against official census data"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "stages": [
+    {
+      "id": "1_seed",
+      "name": "1. Seed question generation",
+      "description": "Frontier LLMs (Claude, GPT-5, Gemini) generate ~10K candidate factual questions across diverse domains. Each question includes a single canonical answer.",
+      "output": "Raw LLM-generated questions",
+      "count": "~10,000 candidates",
+      "script": "scripts/01_generate_probes.py"
+    },
+    {
+      "id": "2_external",
+      "name": "2. External knowledge sources",
+      "description": "Augment LLM-generated questions with externally-sourced facts: Wikidata entities (filtered by sitelink count for tier assignment), DBLP researcher publications (filtered by citation count), Common Crawl rare facts.",
+      "output": "Wikidata + researcher + corpus probes",
+      "count": "~5,000 candidates",
+      "script": "scripts/10_web_grounded_probes.py"
+    },
+    {
+      "id": "3_calibration",
+      "name": "3. Tier calibration",
+      "description": "Six landmark models of varying sizes (1B, 8B, 70B, 235B-A22B, 405B, Gemini 3.1 Pro) answer each candidate question. The pattern of correct answers determines the question's tier (T1=easy, all-correct; T7=hardest, only Gemini 3.1 Pro correct).",
+      "output": "Calibration matrix (probe \u00d7 landmark)",
+      "count": "6 landmarks \u00d7 ~15K candidates",
+      "script": "scripts/02_run_calibration.py"
+    },
+    {
+      "id": "4_filter",
+      "name": "4. Quality filtering",
+      "description": "Filter out: computable knowledge (math, derivable facts), 2-character Chinese names (transcription ambiguity), researchers in ML/AI fields (memorization shortcut), and questions with ambiguous gold answers.",
+      "output": "Filtered candidate pool",
+      "count": "~3,000 candidates",
+      "script": "scripts/01_generate_probes.py + manual review"
+    },
+    {
+      "id": "5_assemble",
+      "name": "5. Final probe assembly",
+      "description": "Sample 200 probes per tier (T1\u2013T7) balanced across LLM-generated, researcher, and Wikidata sources. T3/T4 split: LLM=50, Researcher=50, Wikidata=100.",
+      "output": "1,400 final probes (200 \u00d7 7 tiers)",
+      "count": "1,400 probes",
+      "script": "scripts/assemble_final_dataset.py"
+    },
+    {
+      "id": "6_evaluate",
+      "name": "6. Model evaluation",
+      "description": "Each target model answers all 1,400 probes via OpenRouter or local Ollama. Strict factual grading by Gemini 3 Flash judge with REFUSAL/CORRECT/WRONG verdicts.",
+      "output": "Per-model probe-level responses",
+      "count": "188 models \u00d7 1,400 probes = 263K responses",
+      "script": "scripts/run_evaluation.py"
+    },
+    {
+      "id": "7_calibrate_curve",
+      "name": "7. Scaling curve fit",
+      "description": "Fit log-linear regression: accuracy = \u03b1\u00b7log10(N_B) + \u03b2 on 89 open-weight models. Invert to estimate proprietary model parameter counts. Validate with leave-one-out cross-validation.",
+      "output": "Calibration curve + parameter estimates",
+      "count": "89 calibration \u2192 92 proprietary estimates",
+      "script": "scripts/analyze_results.py"
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "model": "grok-4.20",
+  "vendor": "xai",
+  "family": "grok",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": false,
+  "accuracy": 0.4321428571428571,
+  "raw_accuracy": 0.5192857142857142,
+  "tier_accuracy": {
+    "T1": 1.0,
+    "T2": 0.95,
+    "T3": 0.725,
+    "T4": 0.35,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 200,
+      "weak": 0,
+      "wrong": 0,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 195,
+      "weak": 0,
+      "wrong": 5,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 164,
+      "weak": 0,
+      "wrong": 19,
+      "refusal": 17,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 115,
+      "weak": 6,
+      "wrong": 48,
+      "refusal": 31,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 41,
+      "weak": 1,
+      "wrong": 56,
+      "refusal": 102,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 9,
+      "weak": 0,
+      "wrong": 101,
+      "refusal": 90,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 3,
+      "weak": 2,
+      "wrong": 21,
+      "refusal": 174,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "**The Strait of Messina** (Italian: Stretto di Messina) separates Sicily from mainland Italy. It connects the Tyrrhenian Sea to the north with the Ionian Sea to the south and is approximately 3.1–5.1 km (2–3.2 miles) wide at its narrowest point."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "**Ottawa** is the capital of Canada."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "**Paris** is the capital of France."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "**1883**\n\nThe Brooklyn Bridge officially opened to the public on May 24, 1883, after 14 years of construction. It was the longest suspension bridge in the world at the time."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "**Lisbon** is the capital of Portugal."
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "**Rhea** is the second-largest moon of Saturn.\n\n### Key Facts:\n- **Diameter**: 1,528 km (949 miles)\n- It is slightly smaller than **Titan** (Saturn’s largest moon at 5,150 km), but larger than the third-largest, **Iapetus** (1,470 km).\n- Rhea is composed mostly of water ice with some rock and is notable for possibly having a very thin atmosphere and a subsurface ocean.\n\n**Ranking of Saturn’s largest moons** (by diameter):\n1. **Titan** – 5,150 km\n2. **Rhea** – 1,528 km\n3. **Iapetus** – 1,470 km\n4"
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "**Lake Victoria** is the largest lake in Africa.\n\n- **Surface area**: Approximately 68,800 km² (26,600 sq mi).\n- It is significantly larger than the next biggest lakes: Lake Tanganyika (~32,900 km²) and Lake Nyasa (Malawi) (~29,600 km²).\n- It is shared by Uganda, Kenya, and Tanzania and is the source of the White Nile."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "**The Aare** (also spelled Aar).\n\nThe Aare is the small river that flows through the city of Bern, Switzerland. It is a major tributary of the Rhine and forms a dramatic loop around the old city center, which sits on a peninsula created by the river."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "**Tuul River** (also spelled Tula or Tuur in some contexts). \n\nIt flows through the Mongolian capital of Ulaanbaatar from east to west."
+        },
+        {
+          "probe_id": "IKP_T2_0205",
+          "question": "What is the highest peak in the Caucasus Mountains?",
+          "gold_answer": "Mount Elbrus",
+          "model_response": "**Mount Elbrus** is the highest peak in the Caucasus Mountains.\n\n- **Elevation**: 5,642 m (18,510 ft) above sea level.\n- **Location**: It lies in the western Caucasus, on the border between Russia (Kabardino-Balkaria and Karachay-Cherkessia) and Georgia.\n- **Significance**: Elbrus is a dormant volcano with two summits (the western one is higher). It is also one of the Seven Summits (the highest mountains on each continent), often considered the highest peak in Europe.\n\nFor comparison, the second"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "**Jan Mayen**\n\nJan Mayen is a small, remote volcanic island (and its surrounding islets) located in the Arctic Ocean, roughly midway between Iceland (about 600 km east) and Norway (about 1,000 km west). It is part of Norway and is known for its active volcano, Beerenberg, and its important meteorological station."
+        },
+        {
+          "probe_id": "IKP_T2_0272",
+          "question": "In what year was the Bohr effect described?",
+          "gold_answer": "1904",
+          "model_response": "**1914**\n\nThe Bohr effect was first described in 1914 by Danish physiologist Christian Bohr (father of physicist Niels Bohr) in his paper titled \"On the interaction of oxygen and carbon dioxide with hemoglobin in the blood\" (published in *Skandinavisches Archiv für Physiologie*, vol. 35, pp. 1–2). \n\nIt refers to the phenomenon where increased CO₂ partial pressure or decreased pH reduces hemoglobin’s affinity for oxygen, facilitating oxygen release in tissues."
+        },
+        {
+          "probe_id": "IKP_T2_0328",
+          "question": "What is the name of the smallest country in Africa by area?",
+          "gold_answer": "Seychelles",
+          "model_response": "**The Gambia** is the smallest country in Africa by area, with a total area of approximately 11,300 km² (4,361 sq mi). It is a narrow strip of land along the Gambia River, surrounded by Senegal."
+        },
+        {
+          "probe_id": "IKP_T2_0339",
+          "question": "What is the name of the small river flowing through Vilnius, Lithuania?",
+          "gold_answer": "Vilnia",
+          "model_response": "**The Neris River.**\n\nThe Neris (sometimes called the Vilija in Belarus) is the main river flowing through Vilnius, Lithuania's capital. It is about 510 km (317 mi) long and joins the larger Nemunas River further downstream. The historic Old Town of Vilnius lies in the valley where the smaller Vilnia River meets the Neris, which is why the city was named after the Vilnia."
+        },
+        {
+          "probe_id": "IKP_T2_0347",
+          "question": "In what year was the first transatlantic cable successfully operated?",
+          "gold_answer": "1866",
+          "model_response": "**1858**\n\nThe first transatlantic telegraph cable was successfully laid and began operating in August 1858. It connected Valentia Island in Ireland to Newfoundland, Canada, and transmitted the first official message on August 16, 1858 (a telegram from Queen Victoria to U.S. President James Buchanan). Although the cable failed after only about three weeks due to technical problems, it is recognized as the first time transatlantic communication was achieved via submarine cable. A permanent, reliab"
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "**Alexander Borodin** composed the opera *Prince Igor*.\n\nIt was left unfinished at his death in 1887 and was completed and orchestrated by Nikolai Rimsky-Korsakov and Alexander Glazunov."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "**Ernest Rutherford** (with contributions from Frederick Soddy) discovered the phenomenon of radioactive decay chains.\n\nIn 1902–1903, Rutherford and Soddy demonstrated that radioactive elements transform into other elements through a series of successive decays, forming what they called \"radioactive chains\" or \"decay series.\" Their work on thorium, radium, and uranium established the concept that radioactivity involves the spontaneous transmutation of atoms, with each decay product itself often"
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "**Ojos del Salado** is the highest volcano in the Western Hemisphere.\n\n- **Elevation**: 6,893 m (22,615 ft)\n- **Location**: Andes Mountains on the border between Chile and Argentina\n- It is an active stratovolcano (last eruption ~700 CE) and holds the title of the world's highest volcano.\n\nFor comparison, the next highest are:\n- Llullaillaco (6,739 m)\n- Tipas (6,658 m)\n- Nevado Sajama (6,542 m) – though often not classified as a pure volcano\n\n**Note**: While Aconcagua (6,961 m) is the highest mo"
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "**1890**\n\nCold Spring Harbor Laboratory (CSHL) was founded in 1890 as the Biological Laboratory of the Brooklyn Institute of Arts and Sciences. It has operated as an independent research institution since 1904 and is now a world-renowned center for molecular biology and genetics."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "**Ludwig Mies van der Rohe**, in collaboration with **Philip Johnson**.\n\nThe Seagram Building (completed in 1958) is one of the most influential skyscrapers of the International Style. Mies van der Rohe was the primary architect and designer of the building’s overall concept, its iconic bronze-and-glass façade, and the famous minimalist lobby and plaza. Philip Johnson, then a young architect, served as the associate architect and played a major role in the interior design (especially the Four Se"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "**1756**\n\nThe Sèvres porcelain factory (originally the Manufacture de Vincennes) was established in 1756 in Vincennes, France. It was later moved to Sèvres in 1756 and became the preeminent French royal porcelain manufacturer."
+        },
+        {
+          "probe_id": "IKP_T3_0430",
+          "question": "What is the third largest lake in Africa?",
+          "gold_answer": "Lake Malawi",
+          "model_response": "**Lake Turkana** (also known as Lake Rudolf) is the third-largest lake in Africa by surface area.\n\n### Quick ranking of Africa's largest lakes by surface area:\n1. **Lake Victoria** – ~68,800 km² (shared by Uganda, Kenya, Tanzania)\n2. **Lake Tanganyika** – ~32,900 km² (shared by Tanzania, DR Congo, Burundi, Zambia)\n3. **Lake Turkana** – ~6,405 km² (shared by Kenya and Ethiopia)\n\n**Note:** Lake Nyasa (Lake Malawi) is sometimes ranked third or fourth depending on the exact measurement used, but Lak"
+        },
+        {
+          "probe_id": "IKP_T3_0448",
+          "question": "What is the deepest point in the Indian Ocean?",
+          "gold_answer": "Java Trench",
+          "model_response": "**The deepest point in the Indian Ocean is the Diamantina Fracture Zone**, specifically a section known as the **Diamantina Deep**.\n\n### Key Facts:\n- **Location**: Southeast Indian Ocean, about 1,100 km southwest of Australia, near the Diamantina Fracture Zone (part of the tectonic boundary between the Australian and Antarctic plates).\n- **Depth**: The deepest measured point is approximately **8,047 meters (26,400 feet)**.\n- It was long considered the deepest point until more recent surveys conf"
+        },
+        {
+          "probe_id": "IKP_T3_0502",
+          "question": "In what year was the journal Cell first published?",
+          "gold_answer": "1974",
+          "model_response": "**1964**\n\nThe journal *Cell* was first published in 1964 by Benjamin Lewin (its founding editor). The inaugural issue appeared in January of that year."
+        },
+        {
+          "probe_id": "IKP_T3_0505",
+          "question": "In what year was Nantwich Town F.C. founded?",
+          "gold_answer": "1884",
+          "model_response": "**Nantwich Town F.C. was founded in 1946.**\n\nIt was established as a successor to the earlier Nantwich club (which had played in the Cheshire League until folding in 1940 due to the Second World War). The current club began in the Crewe League and later joined the Mid-Cheshire League, eventually rising to the Northern Premier League."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "**Mount Kosciuszko** (2,228 m / 7,310 ft) is the highest mountain in **Oceania** if you use the **political/geographical definition** that includes only Australia and the islands of the Pacific (excluding New Guinea).\n\nHowever, if you use the **broader geological/continental definition** (which includes the island of New Guinea as part of the Australian continent), then the highest mountain in Oceania is **Puncak Jaya** (also known as Carstensz Pyramid) in Papua, Indonesia, at **4,884 m (16,024"
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "**Lake Victoria** (in East Africa) is the second largest freshwater lake in the world by surface area.\n\n### Key facts:\n- **Surface area**: approximately **68,800 km²** (26,600 sq mi)\n- It is surpassed only by **Lake Superior** in North America (~82,100 km²).\n- It is larger than the next freshwater lakes (Huron, Michigan, and Tanganyika).\n\n**Note**: Rankings usually consider only **natural freshwater lakes** (excluding man-made reservoirs and lakes that are primarily saline, such as the Caspian S"
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "**The largest glacier outside of the polar regions is Fedchenko Glacier in Tajikistan.**\n\n### Key Facts:\n- **Location**: Pamir Mountains, Tajikistan (approximately 38.8°N)\n- **Length**: About 77 km (48 miles)\n- **Area**: Roughly 700–1,000 km² depending on how the measurement is taken\n- **Maximum thickness**: Over 1,000 meters in places\n\n### Why it is considered the largest:\nIt is widely recognized by glaciologists as the **longest glacier** in the world outside the polar regions (Greenland and A"
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "**Great Slave Lake** in Canada's Northwest Territories is the deepest lake in North America.\n\n- **Maximum depth**: 614 meters (2,014 feet)\n- It is significantly deeper than any other lake on the continent.\n\nFor comparison:\n- **Crater Lake** (Oregon, USA) – 594 m (1,949 ft) – the deepest lake located entirely in the United States.\n- **Lake Superior** – 406 m (1,333 ft)\n- **Lake Tahoe** – 501 m (1,645 ft)\n\n**Note**: While some sources occasionally mention Lake Baikal in Russia as the world’s deepe"
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "**The northernmost point of the African continent is Cape Angela (or Ras al-Abyad / \"White Cape\"), in Tunisia.**\n\nIt is located at approximately **37°21′N 9°45′E**, on the Mediterranean coast about 15 km north of Bizerte. This point is slightly farther north than the more famous Cape Bon."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "**The Atacama Desert** is the largest desert in South America.\n\nIt stretches along the Pacific coast of northern Chile (and into parts of Peru, Bolivia, and Argentina), covering approximately **105,000 km²** (about 40,500 sq mi). While it is smaller than many famous deserts on other continents, it is widely recognized as the largest hot desert in South America and one of the driest places on Earth."
+        },
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "**The longest river in Scandinavia is the Klarälven-Göta älv river system (Sweden/Norway).**\n\n- **Total length**: Approximately **720–730 km** (about 450 miles) when measured from its farthest source in the mountains of Trøndelag, Norway, to its mouth in Gothenburg, Sweden.\n- It is formed by the **Klarälven** (which becomes the **Göta älv** after Lake Vänern).\n\n### Comparison with other major Scandinavian rivers:\n| River                  | Length     | Countries     | Notes |\n|------------------"
+        },
+        {
+          "probe_id": "IKP_T4_0612",
+          "question": "What is the longest underwater tunnel in the world?",
+          "gold_answer": "Channel Tunnel",
+          "model_response": "**The longest underwater tunnel in the world is the Seikan Tunnel in Japan.**\n\n- **Total length**: 53.85 km (33.5 miles)\n- **Underwater portion**: 23.3 km (14.5 miles)\n- **Type**: Railway tunnel (connects Honshu and Hokkaido islands)\n- **Depth**: Up to 240 meters (787 ft) below sea level\n- **Opened**: 1988\n\n### Comparison with other major underwater tunnels:\n| Tunnel                  | Country     | Total Length | Underwater Length | Type          |\n|-------------------------|-------------|-----"
+        },
+        {
+          "probe_id": "IKP_T4_0614",
+          "question": "What is the largest island in the Sea of Japan?",
+          "gold_answer": "Sado Island",
+          "model_response": "**Sakhalin Island** is the largest island in the Sea of Japan (also known as the East Sea).\n\n### Key facts:\n- **Location**: North of Hokkaido (Japan) and east of mainland Russia; it forms the eastern boundary of the Sea of Japan.\n- **Area**: Approximately **76,400 km²** (29,500 sq mi).\n- **Comparison**: It is significantly larger than the next biggest islands in the sea, such as:\n  - Jeju Island (South Korea): ~1,850 km²\n  - Sado Island (Japan): ~855 km²\n  - Oshima (Japan): ~246 km²\n\nSakhalin is"
+        },
+        {
+          "probe_id": "IKP_T4_0615",
+          "question": "In what year was the Uffizi Gallery in Florence founded?",
+          "gold_answer": "1581",
+          "model_response": "**The Uffizi Gallery in Florence was founded in 1560.**\n\nIt was originally built as offices (hence the name \"Uffizi\") for the Florentine magistrates under Grand Duke Cosimo I de' Medici. The architect was Giorgio Vasari. The Medici family began using it to display their art collection in the late 16th century, and it was officially opened to the public as a museum in 1765."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "**Martina Zitterbart's main research subfield in computer science is computer networks and distributed systems**, with a strong emphasis on:\n\n- **Wireless and mobile networking**\n- **Sensor networks** (especially wireless sensor networks)\n- **Ad-hoc networks**\n- **Future Internet architectures**\n- **Network security and resilience**\n- **Vehicular communication systems**\n\nShe is a well-known German computer scientist (professor at Karlsruhe Institute of Technology – KIT) and has made significant"
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "**Christoph Dietzel's main research subfield is Internet Routing and Network Security**, with a strong focus on **BGP (Border Gateway Protocol)**, routing anomalies, DDoS mitigation, and large-scale Internet measurement.\n\n### Key areas of his research:\n- **BGP routing security** and hijack detection/prevention\n- **Internet Exchange Points (IXPs)** and their role in DDoS defense\n- Real-time routing monitoring and anomaly detection\n- Large-scale Internet topology and traffic analysis\n- Collaborati"
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "**Pranav Gokhale's primary research subfield is quantum computing.**\n\nSpecifically, his work focuses on:\n\n- **Quantum architecture and compilation** — including techniques for mapping quantum circuits to hardware, minimizing communication overhead (e.g., via techniques like “teleportation-based” or “qubit-reuse” compilation), and optimizing for near-term noisy intermediate-scale quantum (NISQ) devices.\n- **Quantum algorithms and applications** — with emphasis on making quantum computing practica"
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "**Ruben Mayer's main research subfield is Distributed Systems**, with a particular focus on **large-scale data processing, stream processing, and scalable machine learning**.\n\n### Key Details:\n- He specializes in **distributed data systems**, including systems for handling massive data streams (e.g., Apache Flink, Kafka-based systems).\n- His work frequently intersects with **scalable machine learning**, **federated learning**, and **edge computing**.\n- He has made significant contributions to **"
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "**Andrés Muñoz Medina's main research subfield is Machine Learning Theory (with a focus on differential privacy).**\n\nHe is a researcher known for his work on:\n\n- **Differential privacy** (especially in adaptive and interactive settings)\n- Online learning and optimization\n- Algorithmic fairness\n- Learning theory (PAC learning, regret minimization, etc.)\n\nHe has published extensively at top venues such as NeurIPS, STOC, FOCS, and COLT, and has worked at Google Research (NYC) on privacy-preserving"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "**Jonathan DiLorenzo's primary research subfield is Human-Computer Interaction (HCI),** with a focus on **ubiquitous computing, sensing systems, and interactive technologies**.\n\n### Key Details:\n- He is a PhD candidate/researcher (often affiliated with Cornell University or similar institutions in recent years).\n- His work typically falls under the broader umbrella of **HCI** and **ubiquitous computing (UbiComp)**.\n- Specific research themes include:\n  - Novel sensing and input techniques\n  - On"
+        },
+        {
+          "probe_id": "IKP_T5_0863",
+          "question": "In computer science, what is the research subfield of Silvija Seres, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "**Silvija Seres's main research subfield in computer science is algorithm theory**, with a particular focus on **data structures, priority queues, and efficient algorithms for searching and sorting**.\n\n### Key Details:\n- She earned her PhD in Computer Science from the **University of Oxford** (1995–1999).\n- Her doctoral thesis was titled *“Search Trees and Priority Queues”*.\n- Her research primarily concerns **theoretical computer science**, specifically:\n  - Design and analysis of algorithms"
+        },
+        {
+          "probe_id": "IKP_T5_0900",
+          "question": "In what year was Stone Dominoes F.C. founded?",
+          "gold_answer": "1987",
+          "model_response": "**1898**\n\nStone Dominoes Football Club was founded in **1898** in Stone, Staffordshire, England. It is one of the oldest existing football clubs in the county."
+        },
+        {
+          "probe_id": "IKP_T5_0902",
+          "question": "What is the official language of Emirate of Lengeh?",
+          "gold_answer": "Arabic",
+          "model_response": "**Persian (Farsi)** was the official and administrative language of the Emirate of Lengeh (also known as the Qasimi Emirate of Lingah).\n\n### Historical Context:\n- The Emirate of Lengeh (c. 1789–1906) was a semi-autonomous Arab sheikhdom on the northern coast of the Persian Gulf, located in what is today southern Iran (Hormozgan Province).\n- Although the ruling family (the Al Qasimi) was of Arab origin and Arabic was widely spoken by the population and in daily life, **Persian** served as the off"
+        },
+        {
+          "probe_id": "IKP_T5_0903",
+          "question": "In what year was Atomic Energy Education Society founded?",
+          "gold_answer": "1969",
+          "model_response": "**1963**\n\nThe Atomic Energy Education Society (AEES) was founded in **1963** by the Department of Atomic Energy (DAE), Government of India, to provide quality education primarily to the children of DAE employees. It manages a chain of schools (Central Schools) located at various atomic energy establishments across the country."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0908",
+          "question": "In what year was the town of Eliot in York County, Maine founded?",
+          "gold_answer": "1810",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0917",
+          "question": "In what year was the Springer journal Planta first published?",
+          "gold_answer": "1925",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0919",
+          "question": "In what year was the Catholic theological journal Communio first published?",
+          "gold_answer": "1972",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0938",
+          "question": "In what year was the town of Pomfret in Connecticut founded?",
+          "gold_answer": "1713",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0942",
+          "question": "In what year was the town of Hartland in Connecticut founded?",
+          "gold_answer": "1761",
+          "model_response": ""
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "**Myung Hoon Sunwoo’s main research subfield is Digital Signal Processing (DSP) architectures and Application-Specific Instruction-set Processors (ASIP), with a strong emphasis on VLSI design for multimedia, communications, and AI applications.**\n\nHe is a prominent professor in the Department of Electrical and Computer Engineering at Ajou University, South Korea. His research focuses on:\n\n- Low-power and high-performance DSP processor architectures\n- ASIP design for video codecs (H.264, HEVC, VV"
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Gaurav Bansod's primary research subfield is Lightweight Cryptography (LWC) for resource-constrained devices.**\n\nHe is best known for designing **SIT (SIT: A Lightweight Encryption Algorithm)**, a 64-bit block cipher with a 64-bit key, specifically optimized for IoT, RFID tags, wireless sensor networks, and other embedded systems with very limited power, memory, and computational resources.\n\n### Key aspects of his research:\n- **Lightweight block ciphers** and their hardware/software implementa"
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "**Lixiang Ao's main research subfield is computer systems**, more specifically:\n\n- **Operating Systems**\n- **Distributed Systems**\n- **Cloud Computing / Serverless Computing**\n- **System Support for Machine Learning / AI Systems**\n\nHe is best known for his work on **serverless computing platforms**, resource management in the cloud, and building high-performance, scalable systems (notably the **Catalyst** and **SAND** serverless systems). His research sits at the intersection of operating system"
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "**Janick Edinger's main research subfield is Edge Computing and Distributed Systems**, with a strong focus on **self-adaptive systems, mobile edge computing, and AI-driven resource management**.\n\n### Key Details:\n- He is a professor at the **University of Hamburg** (Department of Informatics).\n- His research lies at the intersection of **distributed systems**, **edge computing**, and **autonomic computing**.\n- Specific topics he works on include:\n  - Adaptive edge resource allocation\n  - Collabo"
+        },
+        {
+          "probe_id": "IKP_T6_1006",
+          "question": "In computer science, what is the research subfield of Albert Gran Alcoz, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "**Albert Gran Alcoz's main research subfield is Computer Networks**, with a particular focus on **programmable networks**, **network monitoring**, and **high-performance networking systems**.\n\n### Key Details:\n- He is a postdoctoral researcher at **ETH Zürich** (in the Networked Systems Group led by Prof. Laurent Vanbever).\n- His work centers on:\n  - **In-network computing** and programmable data planes (P4, eBPF, etc.)\n  - **Network telemetry** and monitoring at line rate\n  - **Congestion contr"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "**Dan Schatzberg's primary research subfield is operating systems**, with a strong focus on **security**, **virtualization**, and **system reliability**.\n\n### Key Details:\n- He is best known for his work on **Meltdown and Spectre** mitigations (especially **KAISER**, which became the basis for **Kernel Page-Table Isolation (KPTI)** in Linux).\n- His research frequently intersects **OS kernels**, **memory isolation**, **side-channel attacks**, and **virtual machine monitors (VMMs)**.\n- He has publ"
+        },
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "**Christos Kozanitis's main research subfield is Computer Networks and Distributed Systems**, with a particular focus on:\n\n- Data center networks\n- Software-defined networking (SDN)\n- Network function virtualization (NFV)\n- High-performance networking\n- Cloud computing infrastructure\n\nHe is best known for his work on improving the performance, scalability, and manageability of large-scale networked systems, often at the intersection of networking, operating systems, and hardware acceleration."
+        },
+        {
+          "probe_id": "IKP_T6_1014",
+          "question": "In computer science, what is the research subfield of Jeffrey Helt, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "**Jeffrey Helt's research subfield is programming languages and compilers**, with a focus on **domain-specific languages (DSLs)**, **compiler design**, and **high-performance computing**.\n\nHe is best known for his work on:\n- **Terra** and **Luau** (a high-performance, meta-programmable system that combines Lua with a low-level systems language)\n- **Ebb** (a DSL for physical simulations embedded in Lua)\n- Research on **staged compilation**, **embedded DSLs**, and **language support for high-perfo"
+        },
+        {
+          "probe_id": "IKP_T6_1016",
+          "question": "In computer science, what is the research subfield of Nirav Atre, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Nirav Atre's research subfield is computer networking and distributed systems**, with a particular focus on:\n\n- Datacenter networks\n- RDMA (Remote Direct Memory Access)\n- Congestion control\n- Low-latency networking\n- Programmable networks\n\nHe is best known for his work on high-performance networking protocols and systems, especially in the context of modern datacenter environments. His research often appears in top venues such as SIGCOMM, NSDI, and SOSP.\n\n(As of 2024–2025, he is typically affi"
+        },
+        {
+          "probe_id": "IKP_T6_1019",
+          "question": "In computer science, what is the research subfield of Weifeng He, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Weifeng He's primary research subfield in computer science is Computer Architecture**, with a strong focus on **GPU architecture**, parallel computing, and memory systems.\n\n### More specifically, his research concentrates on:\n- **GPU microarchitecture** and hardware acceleration\n- **Memory hierarchy** optimization for massively parallel processors\n- **Interconnect networks** and on-chip communication for GPUs\n- **General-purpose GPU (GPGPU)** computing and programming models\n- **Energy-efficie"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1059",
+          "question": "In what year was the town of Putnam in Connecticut founded?",
+          "gold_answer": "1855",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1079",
+          "question": "In what year was the town of Stoddard in New Hampshire founded?",
+          "gold_answer": "1774",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1082",
+          "question": "In what year was the Stone Bridge in Riga, Latvia opened?",
+          "gold_answer": "1957",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1084",
+          "question": "In what year was the city of Judibana in Venezuela founded?",
+          "gold_answer": "1955",
+          "model_response": ""
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1210",
+          "question": "In computer science, what is the research subfield of Emili Lupon, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "**Emili Lupon**'s main research subfield in computer science is **real-time systems**, with a particular focus on **multiprocessor scheduling**, **resource sharing protocols**, and **timing analysis** for safety-critical embedded systems.\n\nShe is best known for her work on:\n\n- Multiprocessor real-time scheduling algorithms\n- Priority inversion and resource-locking protocols (especially for partitioned and global scheduling)\n- Response-time analysis for real-time tasks\n- Mixed-criticality systems"
+        },
+        {
+          "probe_id": "IKP_T7_1217",
+          "question": "In computer science, what is the research subfield of Erci Xu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "**Erci Xu's research subfield is Computer Architecture**, with a particular focus on **memory systems** and **storage systems**.\n\nHe is best known for his work on:\n\n- **Persistent Memory (PM)** / Non-Volatile Memory (NVM) systems\n- **File systems** and **storage** for byte-addressable non-volatile memory\n- **Memory management** and **caching** in modern hardware\n- **Performance**, **consistency**, and **crash consistency** in persistent memory environments\n\nHis most recognized contributions incl"
+        },
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "**Ivan Beschastnikh's main research subfield is distributed systems**, with a particular focus on **software engineering for distributed systems**.\n\n### Key Details:\n- He is best known for work on **program analysis, verification, and debugging** of complex distributed and concurrent systems.\n- His research combines techniques from **formal methods**, **model checking**, **static and dynamic analysis**, and **empirical software engineering**.\n- Notable contributions include tools and methods for"
+        },
+        {
+          "probe_id": "IKP_T7_1224",
+          "question": "In computer science, what is the research subfield of Fengqing Jiang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Fengqing Jiang's primary research subfield is AI Safety and Alignment**, with a strong focus on **Large Language Models (LLMs)**.\n\n### Specific Areas:\n- **Jailbreak attacks** on LLMs (both prompt-based and multimodal)\n- **LLM safety evaluation** and red-teaming\n- **Defenses** against adversarial attacks on language models\n- **AI alignment**, particularly making LLMs more resistant to harmful or manipulative outputs\n- **Multimodal model safety** (e.g., vision-language models)\n\nHe is currently a"
+        },
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "**Rajesh Bordawekar's main research subfield in computer science is high-performance computing, specifically focusing on optimizing data-intensive applications on modern hardware architectures.**\n\nHis work centers on:\n\n- **High-Performance Data Analytics and Databases** — Developing techniques to accelerate database and data analytics workloads (e.g., graph analytics, machine learning, SQL) on GPUs, FPGAs, and multicore CPUs.\n- **Heterogeneous Computing & Accelerator Architectures** — Performanc"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "**Po-Shun Wang's primary research subfield is Computer Architecture**, with a particular focus on **memory systems** and **processing-in-memory (PIM)** architectures.\n\n### Key Details:\n- He is best known for his work on **near-data processing** and **in-memory computation** techniques to overcome the memory wall in modern processors.\n- His research explores how to integrate computing capabilities directly within or near memory (especially DRAM and emerging non-volatile memories) to reduce data m"
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "**Victory Omole's research subfield is programming languages**, with a focus on **functional programming**, type systems, and compilers.\n\nHe is best known for his work on the **GHC Haskell compiler** (particularly around typed holes, valid hole fits, and improving the type inference and error messages) and for contributions to the theory and practice of **gradual typing** and **dependent types** in practical programming languages.\n\nHis research sits at the intersection of:\n- Programming language"
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "**Marie-Claire Blache's research subfield is natural language processing (NLP), specifically in the areas of syntax, semantics, and formal grammars for French.**\n\nShe is a French computer scientist and researcher known for her work on:\n\n- **Lexical Functional Grammar (LFG)**\n- **Tree-Adjoining Grammars (TAG)**\n- **Semantic representation and parsing**\n- Development of linguistic resources and tools for French (e.g., the FRMG parser)\n\nHer research lies at the intersection of computational linguis"
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Jordan Mohler's primary research subfield in computer science is Human-Computer Interaction (HCI), with a focus on accessibility.**\n\nHe is best known for his work on:\n\n- **Non-visual interfaces** and screen reader improvements\n- **Accessibility** for blind and low-vision users\n- **Mobile and touch-based** interaction techniques for people with visual impairments\n- **HCI research methods** and empirical studies involving users with disabilities\n\nHis most notable contributions include research o"
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "**Juliette Hainline's research subfield is Human-Computer Interaction (HCI),** specifically focusing on **accessibility, inclusive design, and assistive technologies**.\n\nShe is a PhD candidate whose work centers on making computing systems more accessible for people with disabilities. Her research often explores:\n\n- Novel interaction techniques for users with motor impairments\n- Accessible input methods and adaptive interfaces\n- Designing technologies that support neurodiverse users and users wi"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1300",
+          "question": "In what year was the Kachkanar Historical and Local History Museum in Sverdlovsk region, Russia founded?",
+          "gold_answer": "1992",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1301",
+          "question": "In what year was St. Lawrence University in Kampala, Uganda founded?",
+          "gold_answer": "2006",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1303",
+          "question": "In what year was the United Kingdom museum York And Lancaster Regimental Museum founded?",
+          "gold_answer": "1929",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1305",
+          "question": "In what year was Pont 1 (sot de les Mines) in El Brull, Spain opened?",
+          "gold_answer": "1901",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1306",
+          "question": "In what year was the town of Montalvo in Los Ríos Province, Ecuador founded?",
+          "gold_answer": "1906",
+          "model_response": ""
+        }
+      ]
+    }
+  }
+}

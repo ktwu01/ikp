@@ -1,0 +1,16 @@
+{
+  "deepseek-r1-distill-qwen-32b-think": {
+    "overall_score": -0.5202898550724637,
+    "tier_score": {
+      "T3": -0.6,
+      "T4": -0.6764705882352942,
+      "T5": -0.535,
+      "T6": -0.423728813559322,
+      "T7": -0.455
+    },
+    "params_B": 32,
+    "family": "deepseek-distill",
+    "vendor": "deepseek",
+    "thinking": true
+  }
+}

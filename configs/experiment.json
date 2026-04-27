@@ -1,0 +1,46 @@
+{
+  "experiment_name": "ikp_v1",
+  "random_seed": 42,
+  "api": {
+    "base_url": "https://openrouter.ai/api/v1",
+    "temperature": 0,
+    "max_tokens_probe": 150,
+    "max_tokens_generation": 4096,
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "requests_per_minute": 30,
+    "timeout_seconds": 60
+  },
+  "probe_generation": {
+    "candidates_per_tier": 400,
+    "final_per_tier": 200,
+    "phrasings_per_probe": 3,
+    "generator_model": "anthropic/claude-sonnet-4",
+    "verifier_model": "anthropic/claude-sonnet-4"
+  },
+  "calibration": {
+    "filter_below_threshold": 0.20,
+    "filter_within_low": 0.20,
+    "filter_within_high": 0.80,
+    "filter_above_threshold": 0.80
+  },
+  "scoring": {
+    "method": "best_of_three_phrasings",
+    "correct_threshold": "exact_or_close_match",
+    "temperature": 0
+  },
+  "tiers": {
+    "T1": {"name": "Universal Knowledge", "param_range": [0.1, 1.0], "web_freq": ">100K", "target_probes": 200},
+    "T2": {"name": "Common Reference", "param_range": [1.0, 7.0], "web_freq": "10K-100K", "target_probes": 200},
+    "T3": {"name": "Domain-Specific", "param_range": [7.0, 70.0], "web_freq": "1K-10K", "target_probes": 200},
+    "T4": {"name": "Obscure Knowledge", "param_range": [70.0, 300.0], "web_freq": "100-1K", "target_probes": 200},
+    "T5": {"name": "Deep Knowledge", "param_range": [300.0, 1000.0], "web_freq": "10-100", "target_probes": 200},
+    "T6": {"name": "Long-Tail", "param_range": [1000.0, 5000.0], "web_freq": "2-10", "target_probes": 200},
+    "T7": {"name": "Extreme Long-Tail", "param_range": [5000.0, null], "web_freq": "~1", "target_probes": 200}
+  },
+  "balance": {
+    "regions": ["North America", "Europe", "East Asia", "South Asia", "Middle East", "Africa", "Latin America", "Oceania"],
+    "domains": ["people", "places", "publications", "measurements", "events", "organizations"],
+    "max_category_share": 0.25
+  }
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "Yoshua Bengio",
+    "citations": 448923,
+    "h_index": 183,
+    "models": {
+      "gpt-4.1": {
+        "response": "Yoshua Bengio's research subfield in computer science is **artificial intelligence (AI)**, with a particular focus on **machine learning** and **deep ",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Yoshua Bengio is a researcher in the field of machine learning, with a focus on deep learning. His work primarily falls under the subfields of artific",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Yoshua Bengio's primary research subfield is **deep learning** (a subfield of machine learning and artificial intelligence). He is particularly known ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Yoshua Bengio is a leading researcher in **deep learning**, a subfield of machine learning in computer science. His work focuses on artificial neural ",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Deep learning (and machine learning/neural networks).",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Yoshua Bengio's research subfield in computer science is **deep learning**, with a focus on **neural networks**, **representation learning**, and **un",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Yoshua Bengio's research subfield is artificial intelligence, specifically machine learning and deep learning.",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Geoffrey Hinton",
+    "citations": 445916,
+    "h_index": 137,
+    "models": {
+      "gpt-4.1": {
+        "response": "Geoffrey Hinton's research subfield in computer science is **artificial intelligence (AI)**, specifically **machine learning** and **deep learning** (",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Geoffrey Hinton's research subfield is **machine learning**, specifically **artificial neural networks** and **deep learning**. He is widely regarded ",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Geoffrey Hinton's research subfield is artificial intelligence, specifically machine learning, deep learning, and artificial neural networks.",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Geoffrey Hinton is a prominent researcher in the subfield of **deep learning**, a branch of machine learning focused on neural networks with multiple ",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Geoffrey Hinton is known for his work in neural networks and deep learning. Specifically, he has made significant contributions to the fields of artif",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Geoffrey Hinton's research subfield in computer science is **deep learning**, particularly focusing on **neural networks** and **machine learning**. H",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Geoffrey Hinton's research subfield is **machine learning**, specifically **deep learning** and **artificial neural networks**. He is particularly kn",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Yann LeCun",
+    "citations": 247024,
+    "h_index": 118,
+    "models": {
+      "qwen3-32b": {
+        "response": "Yann LeCun's research subfield in computer science is **deep learning**, with a focus on **convolutional neural networks (CNNs)** and their applicatio",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Yann LeCun is a researcher in the subfield of artificial intelligence, with a focus on machine learning, particularly in areas such as deep learning, ",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Yann LeCun's research subfield in computer science is **machine learning**, specifically **deep learning** and **artificial neural networks**. He is p",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Yann LeCun is primarily known for his research in **deep learning**, **computer vision**, and **convolutional neural networks (CNNs)**. More broadly, ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Yann LeCun's research subfield in computer science is **machine learning**, with a specific focus on **deep learning** and **neural networks**. He is ",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Deep learning, specifically convolutional neural networks (CNNs), computer vision, and self-supervised learning.",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Yann LeCun's research subfields are artificial intelligence, machine learning, deep learning, and computer vision.",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Oriol Vinyals",
+    "citations": 173144,
+    "h_index": 94,
+    "models": {
+      "gpt-4.1": {
+        "response": "Oriol Vinyals is a computer scientist whose research subfield is primarily **machine learning**, with a focus on **deep learning**, **reinforcement le",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Oriol Vinyals is a principal research scientist at Google DeepMind whose primary subfield is **machine learning**, specifically **deep learning** and",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Oriol Vinyals' research subfield is artificial intelligence, specifically machine learning and deep learning.",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Oriol Vinyals is known for his research in **deep learning** and **artificial intelligence**, with particular focus on areas such as **sequence-to-seq",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Oriol Vinyals is a researcher in the subfields of **deep learning**, **natural language processing (NLP)**, and **multimodal learning**. His work incl",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Oriol Vinyals is a researcher in the subfield of **deep learning** and **neural networks** within artificial intelligence (AI) and machine learning. H",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Oriol Vinyals is a researcher known for his work in the field of artificial intelligence, particularly in the subfield of deep learning and natural la",
+        "verdict": "WRONG"
+      }
+    },
+    "recognition_rate": 0.8571428571428571
+  },
+  {
+    "name": "Andrew Ng",
+    "citations": 129724,
+    "h_index": 125,
+    "models": {
+      "gpt-4.1": {
+        "response": "Andrew Ng's primary research subfield in computer science is **machine learning**, with significant contributions to **deep learning** and **artificia",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Andrew Ng is known for his research in artificial intelligence, machine learning, and large-scale online education platforms. He has made significant ",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Andrew Ng's research subfields in computer science are artificial intelligence, machine learning, and deep learning.",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Andrew Ng is primarily known for his research in **machine learning** and **artificial intelligence**. More specifically, his work spans several subfi",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Andrew Ng is a prominent researcher in the subfields of **machine learning** and **deep learning** within computer science. His work focuses on develo",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Machine learning (specifically deep learning).",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Andrew Ng's research subfield in computer science is **machine learning**, with a focus on **deep learning**, **large-scale machine learning**, and **",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Ian Goodfellow",
+    "citations": 82961,
+    "h_index": 64,
+    "models": {
+      "gpt-4.1": {
+        "response": "Ian Goodfellow is known for his research in the subfield of **machine learning**, particularly **deep learning** and **generative models**. He is espe",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Ian Goodfellow is a well-known researcher in the field of artificial intelligence, specifically in the subfield of machine learning. He is particularl",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Ian Goodfellow's research subfield is machine learning, specifically deep learning. He is best known for his work on generative adversarial networks (",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Ian Goodfellow's research subfield in computer science is **machine learning**, with a focus on **deep learning**, **generative adversarial networks (",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Ian Goodfellow is primarily known for his work in the subfield of **generative adversarial networks (GANs)**, a framework in machine learning where tw",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Ian Goodfellow is known for his research in **machine learning** (a subfield of artificial intelligence), and more specifically in **deep learning**. ",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Ian Goodfellow is a researcher in **machine learning**, specifically **deep learning**. He is best known for inventing **Generative Adversarial Netwo",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Pieter Abbeel",
+    "citations": 76914,
+    "h_index": 124,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Pieter Abbeel's research subfield in computer science focuses on machine learning, robotics, and deep learning, particularly in the areas of reinforce",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Pieter Abbeel's research subfield in computer science is artificial intelligence (AI), specifically in machine learning and robotics.",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Pieter Abbeel is a professor at UC Berkeley whose research focuses on **robotics** and **machine learning**, particularly **reinforcement learning**, ",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Pieter Abbeel's primary research subfield is **robotics and machine learning**, specifically **reinforcement learning** and **imitation learning** fo",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Pieter Abbeel's research subfield in computer science is **artificial intelligence (AI)**, with a focus on **machine learning** and **robotics**. Spec",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Pieter Abbeel's research subfield in computer science is **reinforcement learning and imitation learning**, with a focus on **robotics and autonomous ",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Pieter Abbeel's research subfield is artificial intelligence, specifically focusing on machine learning, deep reinforcement learning, and robotics.",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Eric Mitchell",
+    "citations": 74659,
+    "h_index": 135,
+    "models": {
+      "gpt-4.1": {
+        "response": "Eric Mitchell is a researcher in the field of computer science, specifically focusing on machine learning, natural language processing, and AI alignme",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "I don't know. Eric Mitchell is not a widely recognized name in a specific subfield of computer science. More context or details about Eric Mitchell wo",
+        "verdict": "REFUSAL"
+      },
+      "claude-opus-4.6": {
+        "response": "Eric Mitchell is a researcher in the subfield of **machine learning**, with a particular focus on **large language models (LLMs)**, including topics s",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Eric Mitchell's research subfield is Artificial Intelligence and Machine Learning, specifically focusing on Large Language Models (LLMs), AI alignment",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Eric Mitchell is a researcher in **machine learning**, with a focus on **large language models (LLMs)**, **model editing**, and **AI safety/alignment",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Eric Mitchell is a computer scientist known for his work in the research subfield of **security and privacy**, particularly focusing on **privacy-pres",
+        "verdict": "WRONG"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      }
+    },
+    "recognition_rate": 0.5714285714285714
+  },
+  {
+    "name": "Simran Arora",
+    "citations": 64986,
+    "h_index": 66,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. The question does not provide specific information about Simran Arora's research subfield in computer science.",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Simran Arora's research subfield in computer science is **machine learning**, with a focus on **robust and trustworthy machine learning**, including t",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Simran Arora is a researcher in the field of **natural language processing (NLP)** and **machine learning**, with a focus on understanding and improvi",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "claude-opus-4.6": {
+        "response": "Simran Arora is a researcher whose work falls in the subfield of **machine learning** and **natural language processing (NLP)**, with a focus on areas",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Simran Arora's research subfield is Artificial Intelligence, specifically focusing on Machine Learning and Natural Language Processing (NLP).",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Simran Arora is a researcher in **machine learning**, specifically focusing on **deep learning**, **natural language processing (NLP)**, and **mechani",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.7142857142857143
+  },
+  {
+    "name": "Sergey Levine",
+    "citations": 63370,
+    "h_index": 110,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Sergey Levine's research subfield in computer science focuses on robotics and machine learning, particularly in the areas of reinforcement learning, i",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Sergey Levine's research subfield in computer science is **robotics and machine learning**, with a particular focus on **reinforcement learning**, **d",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Sergey Levine's research subfield is machine learning, specifically focusing on deep reinforcement learning and robotics.",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Sergey Levine is a professor at UC Berkeley whose research focuses on **reinforcement learning**, **robotics**, and **deep learning** — particularly a",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Sergey Levine's research subfield in computer science is **reinforcement learning and robotics**, with a focus on deep reinforcement learning, model-b",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Sergey Levine's research subfield is **robot learning**, specifically at the intersection of **reinforcement learning**, **machine learning**, and **",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Sergey Levine's research subfield in computer science is **robot learning**, with a focus on **reinforcement learning (RL)** and **deep learning** app",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Andrej Karpathy",
+    "citations": 58593,
+    "h_index": 20,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Andrej Karpathy is known for his work in deep learning and neural networks, particularly in the area of natural language processing and generative mod",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Andrej Karpathy's research subfield in computer science is deep learning, with a focus on computer vision and natural language processing.",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Andrej Karpathy is known for his research in **deep learning**, particularly in the subfields of **computer vision** and **natural language processing",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Andrej Karpathy's research subfield is **deep learning** and **computer vision**, with particular focus on the intersection of vision and natural lang",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Andrej Karpathy's research subfield is artificial intelligence, specifically focusing on deep learning, computer vision, and natural language processi",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Deep learning, computer vision, and neural networks—particularly at the intersection of vision and language (e.g., image captioning, multimodal learn",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Andrej Karpathy's research subfields in computer science primarily focus on **deep learning**, **computer vision**, and **machine learning application",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Percy Liang",
+    "citations": 43296,
+    "h_index": 85,
+    "models": {
+      "gpt-4.1": {
+        "response": "Percy Liang's research subfield in computer science is **natural language processing (NLP)**, with a focus on areas such as machine learning, semantic",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Percy Liang works in **machine learning** and **natural language processing (NLP)**, with specific focus areas including:\n\n- **Semantic parsing** and",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Percy Liang's primary research subfields in computer science are Artificial Intelligence, Machine Learning, and Natural Language Processing (NLP).",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Percy Liang is a professor at Stanford University whose research spans several subfields of computer science, primarily focused on **natural language ",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Percy Liang is a computer scientist known for his contributions to several research subfields in artificial intelligence and computer science. His pri",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Percy Liang's research subfield in computer science is **machine learning**, with a focus on **probabilistic modeling**, **natural language processing",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Percy Liang's research subfield in computer science is **Natural Language Processing (NLP)**, with a focus on **machine learning** and **computational",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Danqi Chen",
+    "citations": 35171,
+    "h_index": 45,
+    "models": {
+      "kimi-k2.5": {
+        "response": "Natural language processing (NLP), specifically deep learning for language understanding, question answering, reading comprehension, and representatio",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Danqi Chen's research subfield in computer science is **natural language processing (NLP)**, with a focus on areas such as information extraction, que",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Danqi Chen's research subfield in computer science focuses on natural language processing, particularly machine reading comprehension and question ans",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Danqi Chen's research subfield in computer science is Natural Language Processing (NLP).",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Danqi Chen is a researcher in **natural language processing (NLP)** and **machine learning**. She is particularly known for her work on reading compre",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "qwen3-32b": {
+        "response": "Danqi Chen's research subfield in computer science is **Natural Language Processing (NLP)**, with a focus on **pre-trained language models**, **machin",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.8571428571428571
+  },
+  {
+    "name": "Ananya Kumar",
+    "citations": 26376,
+    "h_index": 94,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. Ananya Kumar is not a widely recognized name in a specific subfield of computer science. More context or details would be needed to prov",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Ananya Kumar's research subfield in computer science is machine learning, with a focus on deep learning theory and understanding the foundations of ne",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Ananya Kumar is a researcher whose work focuses on **machine learning**, particularly in areas related to **foundation models, transfer learning, fine",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Ananya Kumar's research subfield in computer science is **causal inference in machine learning**, focusing on integrating causal reasoning with machin",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Ananya Kumar is a researcher in the field of **systems and networking**, with a focus on **data center and cloud computing**. Her work includes optimi",
+        "verdict": "WRONG"
+      },
+      "gemini-3.1-pro": {
+        "response": "Ananya Kumar's research subfield in computer science is machine learning and artificial intelligence, with a specific focus on foundation models, robu",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Ananya Kumar is a computer science researcher specializing in **machine learning**, with a specific focus on **robustness to distribution shifts**, *",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.7142857142857143
+  },
+  {
+    "name": "Sham Kakade",
+    "citations": 19902,
+    "h_index": 67,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Sham Kakade's research primarily focuses on machine learning, statistics, and computational complexity. He has made significant contributions to areas",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Sham Kakade is a computer scientist whose research subfields include **machine learning**, **reinforcement learning**, **artificial intelligence**, an",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Sham Kakade is a researcher whose work spans several subfields of computer science, most notably **machine learning**, **statistical learning theory**",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Sham Kakade is a researcher in the field of **machine learning**, with a focus on **reinforcement learning (RL)** and its theoretical foundations. His",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Sham Kakade's research in computer science is primarily in **machine learning**, with a focus on both theoretical and algorithmic aspects. His key sub",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Sham Kakade's research subfield in computer science is **machine learning**, with a specific focus on **reinforcement learning**, **optimization**, an",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Sham Kakade's primary research subfield is **machine learning theory**, with a particular focus on **reinforcement learning theory** (including sample",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Zico Kolter",
+    "citations": 18315,
+    "h_index": 55,
+    "models": {
+      "gpt-4.1": {
+        "response": "Zico Kolter is a computer scientist whose research subfields include **machine learning**, **artificial intelligence**, and **robust and interpretable",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Zico Kolter focuses on machine learning, optimization, and their intersection with healthcare and engineering applications. He is particularly known f",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Zico Kolter (J. Zico Kolter) is a professor at Carnegie Mellon University whose research focuses on **machine learning** and **artificial intelligence",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Zico Kolter's research subfield in computer science is **machine learning** and **artificial intelligence**, with a specific focus on deep learning, o",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Zico Kolter's research subfield in computer science is **adversarial machine learning** and **security in machine learning**, focusing on robustness, ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Zico Kolter's research subfields in computer science include **machine learning**, **robotics**, **reinforcement learning**, **optimization**, and **c",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Machine learning, with specific emphasis on deep learning, optimization, and neural network verification/robustness. He is also known for work in dee",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Xiang Ren",
+    "citations": 16955,
+    "h_index": 64,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. Xiang Ren's specific research subfield in computer science is not provided in the available information.",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Xiang Ren is a computer scientist whose research subfield is **natural language processing (NLP)**, with a focus on **information extraction**, **know",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Xiang Ren's primary research subfields are Natural Language Processing (NLP) and Machine Learning, with a specific focus on information extraction, kn",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Xiang Ren is a computer scientist whose research subfield focuses on **data science, particularly data integration, knowledge graphs, and semantic web",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Xiang Ren is a researcher in the field of **natural language processing (NLP)** and **machine learning**, with a focus on semantic parsing, knowledge ",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Xiang Ren is a computer science researcher whose work primarily falls in the subfields of **Natural Language Processing (NLP)** and **Machine Learning",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Xiang Ren's research subfield is **Natural Language Processing (NLP)**, with specific focus on:\n\n- **Information extraction** and **knowledge graph c",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.8571428571428571
+  },
+  {
+    "name": "Aleksander Madry",
+    "citations": 8697,
+    "h_index": 43,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Aleksander Madry is known for his work in algorithms and machine learning, particularly in the areas of algorithmic game theory, robustness of machine",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Aleksander Madry's research subfield in computer science is primarily **algorithms**, with a particular focus on **optimization, graph algorithms, and",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Aleksander Mądry is a professor at MIT whose research focuses on **machine learning**, particularly on **robustness of machine learning models** (adve",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Aleksander Madry's research subfield is **machine learning and artificial intelligence**, with a specific focus on **trustworthy AI, adversarial robus",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Aleksander Madry is a researcher in **theoretical computer science**, with a focus on **algorithms and optimization**, particularly in the areas of **",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Aleksander Madry's research subfields include **robust machine learning** (particularly adversarial robustness), **optimization**, and **theoretical c",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Aleksander Madry's research subfield in computer science is **theoretical computer science**, with a focus on **algorithm design**, **approximation al",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Sang Michael Xie",
+    "citations": 5305,
+    "h_index": 16,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. Sang Michael Xie is not a widely recognized name in any specific subfield of computer science. It's possible there might be a typo or mi",
+        "verdict": "REFUSAL"
+      },
+      "qwen3-235b": {
+        "response": "Sang Michael Xie is a researcher in the field of **computer vision** and **machine learning**, with a focus on deep learning and neural network archit",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Sang Michael Xie is known for his research in computer science, particularly in the subfield of **programming languages** and **program synthesis**.",
+        "verdict": "WRONG"
+      },
+      "claude-opus-4.6": {
+        "response": "Sang Michael Xie is a researcher in the field of **machine learning**, with a focus on areas such as distribution shift, domain adaptation, and using ",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Sang Michael Xie's research subfield in computer science is **machine learning**, with a specific focus on **foundation models, large language models ",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Machine learning, specifically **distribution shift**, **domain adaptation/generalization**, **robustness**, and **statistical learning theory**. His ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      }
+    },
+    "recognition_rate": 0.5714285714285714
+  },
+  {
+    "name": "Aditi Raghunathan",
+    "citations": 4689,
+    "h_index": 22,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Aditi Raghunathan's research focuses on machine learning, specifically in the areas of fairness in machine learning and privacy-preserving machine lea",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Aditi Raghunathan's research subfield in computer science is **machine learning**, with a focus on **robustness, generalization, and trustworthy AI**.",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Aditi Raghunathan's research subfield is **machine learning**, with specific focus on:\n\n- **Robustness** (adversarial robustness and distribution shi",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Aditi Raghunathan is a researcher whose work focuses on **trustworthy machine learning**, particularly on topics such as **robustness** (including adv",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Aditi Raghunathan's research subfield is **machine learning**, with a specific focus on **robust, reliable, and trustworthy AI** (often referred to as",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Aditi Raghunathan's research subfield in computer science is **adversarial robustness in machine learning**, focusing on understanding and defending a",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Aditi Raghunathan's research subfield in computer science is **machine learning**, with a focus on **robustness, optimization, and security in AI syst",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Karthik Narasimhan",
+    "citations": 4497,
+    "h_index": 31,
+    "models": {
+      "gpt-4.1": {
+        "response": "Karthik Narasimhan's research subfield in computer science is **natural language processing (NLP)** and **reinforcement learning**.",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "I don't know. Karthik Narasimhan's specific research subfield in computer science is not provided in the available information.",
+        "verdict": "REFUSAL"
+      },
+      "claude-opus-4.6": {
+        "response": "Karthik Narasimhan is a researcher whose work focuses on **natural language processing (NLP)**, **reinforcement learning**, and their intersection — p",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "kimi-k2.5": {
+        "response": " Karthik Narasimhan is a computer science researcher specializing in **artificial intelligence**, specifically at the intersection of **natural langua",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Karthik Narasimhan's research subfield is Natural Language Processing (NLP) and Machine Learning, with a specific focus on the intersection of NLP and",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Karthik Narasimhan's research subfield in computer science is **machine learning**, with a focus on **structured prediction** and **learning with comp",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.7142857142857143
+  },
+  {
+    "name": "Karan Goel",
+    "citations": 3142,
+    "h_index": 11,
+    "models": {
+      "gpt-4.1": {
+        "response": "Karan Goel is known for his research in the subfield of **machine learning**, particularly in areas such as **natural language processing (NLP)** and ",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "I don't know. Karan Goel is not a widely recognized name in a specific subfield of computer science. Could you provide more context or verify the name",
+        "verdict": "REFUSAL"
+      },
+      "qwen3-32b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "claude-opus-4.6": {
+        "response": "Karan Goel is a researcher associated with work in **machine learning**, particularly in areas related to **data-centric AI, foundation models, and da",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Karan Goel's research subfield in computer science is machine learning, with a specific focus on natural language processing (NLP), foundation models,",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Machine learning systems, with a focus on efficient inference, model serving, and scalable deployment of large models (particularly LLMs).",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      }
+    },
+    "recognition_rate": 0.5714285714285714
+  },
+  {
+    "name": "Albert Gu",
+    "citations": 3015,
+    "h_index": 22,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. The question does not provide enough information to determine the specific research subfield of Albert Gu.",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Albert Gu is known for his research in theoretical computer science, particularly in algorithms and machine learning, with a focus on sequence modelin",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Albert Gu's research subfield is **machine learning and artificial intelligence**, with a specific focus on **sequence modeling, deep learning archite",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Albert Gu is known for his research in **machine learning**, particularly in the area of **sequence modeling** and **state space models (SSMs)**. He i",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Albert Gu's research subfield in computer science is **machine learning**, with a focus on **sequence modeling** and **state space models**, particula",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": "Albert Gu specializes in **machine learning**, specifically **state space models (SSMs)** and **efficient sequence modeling**. He is best known for de",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Albert Gu is a researcher in the field of **machine learning**, with a focus on **efficient and scalable models**, particularly **transformers** and *",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.8571428571428571
+  },
+  {
+    "name": "Tri Dao",
+    "citations": 2817,
+    "h_index": 18,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "Tri Dao is known for his work in the research subfield of machine learning, particularly focusing on optimization techniques and hardware acceleration",
+        "verdict": "CORRECT"
+      },
+      "gpt-4.1": {
+        "response": "Tri Dao's research subfield in computer science is **machine learning systems**, with a particular focus on efficient algorithms and systems for deep ",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Tri Dao is known for his research in **machine learning systems** and **efficient deep learning**, particularly at the intersection of algorithms and ",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Tri Dao's research subfield is **Machine Learning Systems (ML Systems)** and **efficient deep learning**. He focuses on the intersection of machine le",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "Tri Dao is a researcher in the field of computer science, focusing on **machine learning**, particularly in the development of **efficient and scalabl",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Machine learning systems, particularly efficient transformers and attention mechanisms (e.g., FlashAttention).",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Tri Dao is a researcher in the field of **efficient machine learning algorithms**, particularly focusing on **optimizing transformer models and attent",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 1.0
+  },
+  {
+    "name": "Ruoxi Jia",
+    "citations": 2796,
+    "h_index": 26,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. The specific research subfield of Ruoxi Jia is not provided in the available information. To provide an accurate answer, more context or",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Ruoxi Jia's research subfield in computer science is primarily **machine learning**, with a focus on **security, privacy, and robustness of machine le",
+        "verdict": "CORRECT"
+      },
+      "claude-opus-4.6": {
+        "response": "Ruoxi Jia is a researcher whose work focuses on **trustworthy machine learning**, **data-centric AI**, and related topics such as data valuation, data",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "qwen3-235b": {
+        "response": "Ruoxi Jia's research subfield in computer science focuses on **trustworthy machine learning**, particularly addressing **security, privacy, and fairne",
+        "verdict": "CORRECT"
+      },
+      "kimi-k2.5": {
+        "response": " Ruoxi Jia's research subfield is **machine learning**, with specific focus on:\n\n*   **Data valuation** (e.g., developing methods like Data Shapley to",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Ruoxi Jia's research subfield in computer science is primarily **trustworthy machine learning**, with a specific focus on **data valuation**, **securi",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.7142857142857143
+  },
+  {
+    "name": "Lisa Dunlap",
+    "citations": 303,
+    "h_index": 9,
+    "models": {
+      "qwen2.5-7b": {
+        "response": "I don't know. Lisa Dunlap is not a widely recognized name in a specific subfield of computer science. More context or details about her would be neede",
+        "verdict": "REFUSAL"
+      },
+      "gpt-4.1": {
+        "response": "Lisa Dunlap's research subfield in computer science is **programming languages**.",
+        "verdict": "WRONG"
+      },
+      "kimi-k2.5": {
+        "response": " Lisa Dunlap's research subfield is **machine learning interpretability** (specifically **mechanistic interpretability**), with a focus on **computer ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "qwen3-32b": {
+        "response": "Lisa Dunlap is a researcher in the field of **Human-Computer Interaction (HCI)**, with a focus on **accessible computing and inclusive design**. Her w",
+        "verdict": "WRONG"
+      },
+      "claude-opus-4.6": {
+        "response": "Lisa Dunlap is a researcher in the field of **computer vision** and **machine learning**. More specifically, her research focuses on areas such as dom",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Lisa Dunlap's research subfield in computer science is **Machine Learning**, with a specific focus on the intersection of **Computer Vision** and **Na",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.42857142857142855
+  },
+  {
+    "name": "Sabri Eyuboglu",
+    "citations": 267,
+    "h_index": 8,
+    "models": {
+      "gpt-4.1": {
+        "response": "Sabri Eyuboglu's research subfield in computer science is **natural language processing (NLP)**.",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "Sabri Eyuboglu is a professor in the Department of Computer Engineering at Istanbul Technical University. His research subfield primarily focuses on *",
+        "verdict": "WRONG"
+      },
+      "claude-opus-4.6": {
+        "response": "Sabri Eyuboglu is a computer science researcher whose work focuses on **machine learning**, particularly in areas related to **data-centric AI**, **fo",
+        "verdict": "CORRECT"
+      },
+      "gemini-3.1-pro": {
+        "response": "Sabri Eyuboglu's research subfield is **machine learning** (and artificial intelligence), with a specific focus on foundation models, model robustness",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "Sabri Eyuboglu is a researcher who has made significant contributions to the field of Computer Science, particularly in the area of speech processing ",
+        "verdict": "WRONG"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "kimi-k2.5": {
+        "response": " Machine learning, specifically deep learning for medical imaging and healthcare AI.",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.5714285714285714
+  },
+  {
+    "name": "Mayee Chen",
+    "citations": 215,
+    "h_index": 9,
+    "models": {
+      "gpt-4.1": {
+        "response": "Mayee Chen's research subfield in computer science is machine learning, with a focus on weak supervision and data-centric AI.",
+        "verdict": "CORRECT"
+      },
+      "qwen2.5-7b": {
+        "response": "I don't know the specific research subfield of Mayee Chen in computer science. Without access to up-to-date information or a resume/CV, I cannot provi",
+        "verdict": "REFUSAL"
+      },
+      "claude-opus-4.6": {
+        "response": "Mayee Chen is a researcher in the field of **machine learning**, with a focus on areas such as **data-centric AI**, **foundation models**, and **weak ",
+        "verdict": "CORRECT"
+      },
+      "qwen3-235b": {
+        "response": "I don't know.",
+        "verdict": "REFUSAL"
+      },
+      "gemini-3.1-pro": {
+        "response": "Mayee Chen's research subfield in computer science is **Machine Learning**, with a specific focus on data-centric AI, weak supervision, and foundation",
+        "verdict": "CORRECT"
+      },
+      "qwen3-32b": {
+        "response": "I don't know. There is no widely recognized or prominent researcher named \"Mayee Chen\" in computer science whose specific research subfield is publicl",
+        "verdict": "REFUSAL"
+      },
+      "kimi-k2.5": {
+        "response": "Machine learning interpretability and natural language processing.",
+        "verdict": "CORRECT"
+      }
+    },
+    "recognition_rate": 0.5714285714285714
+  }
+]

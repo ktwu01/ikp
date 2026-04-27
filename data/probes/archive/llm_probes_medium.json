@@ -1,0 +1,926 @@
+[
+  {
+    "question": "In what year was the Treaty of Westphalia signed?",
+    "answer": "1648",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-highest mountain in Africa?",
+    "answer": "Mount Kenya",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the electron in 1897?",
+    "answer": "J.J. Thomson",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Uffizi Gallery in Florence founded?",
+    "answer": "1581",
+    "source_type": "llm",
+    "domain": "Cultural institutions",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest river entirely within France?",
+    "answer": "Loire",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the opera 'The Barber of Seville'?",
+    "answer": "Gioachino Rossini",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Adwa fought?",
+    "answer": "1896",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the deepest lake in Africa?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Suez Canal officially opened?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who designed the Sydney Opera House?",
+    "answer": "Jørn Utzon",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the University of Bologna founded?",
+    "answer": "1088",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-longest river in South America?",
+    "answer": "Amazon",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who invented the Bessemer process for steel production?",
+    "answer": "Henry Bessemer",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Plassey fought?",
+    "answer": "1757",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the highest peak in the Caucasus Mountains?",
+    "answer": "Mount Elbrus",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the novel 'The Master and Margarita'?",
+    "answer": "Mikhail Bulgakov",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did Dmitri Mendeleev publish his periodic table?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the name of the strait separating Sumatra from the Malay Peninsula?",
+    "answer": "Strait of Malacca",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the first transatlantic telegraph cable successfully completed?",
+    "answer": "1866",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the 'Goldberg Variations'?",
+    "answer": "Johann Sebastian Bach",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Treaty of Tordesillas signed?",
+    "answer": "1494",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest desert in Asia?",
+    "answer": "Gobi Desert",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered X-rays in 1895?",
+    "answer": "Wilhelm Röntgen",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Eiffel Tower completed?",
+    "answer": "1889",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who painted 'The Night Watch'?",
+    "answer": "Rembrandt van Rijn",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Mohács fought?",
+    "answer": "1526",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-largest ocean in the world?",
+    "answer": "Atlantic Ocean",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who invented the phonograph in 1877?",
+    "answer": "Thomas Edison",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Panama Canal opened to traffic?",
+    "answer": "1914",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the opera libretto for Mozart's 'Don Giovanni'?",
+    "answer": "Lorenzo Da Ponte",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Meiji Restoration in Japan?",
+    "answer": "1868",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest lake in Central America?",
+    "answer": "Lake Nicaragua",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who first synthesized aspirin in a stable form in 1897?",
+    "answer": "Felix Hoffmann",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Brooklyn Bridge completed?",
+    "answer": "1883",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the ballet 'The Rite of Spring'?",
+    "answer": "Igor Stravinsky",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Siege of Vienna by the Ottomans repelled?",
+    "answer": "1683",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the highest navigable lake in the world?",
+    "answer": "Lake Titicaca",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "answer": "Alexander Fleming",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Hoover Dam completed?",
+    "answer": "1936",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the novel 'The Tin Drum'?",
+    "answer": "Günter Grass",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Zama fought?",
+    "answer": "202 BC",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest mountain range in Europe?",
+    "answer": "Scandinavian Mountains",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who proposed the theory of continental drift?",
+    "answer": "Alfred Wegener",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Transcontinental Railroad in the United States completed?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who designed St. Peter's Basilica's dome in Rome?",
+    "answer": "Michelangelo",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Congress of Vienna convened?",
+    "answer": "1814",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest island in the Mediterranean Sea?",
+    "answer": "Sicily",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who developed the rabies vaccine?",
+    "answer": "Louis Pasteur",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Channel Tunnel between England and France opened?",
+    "answer": "1994",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Hagia Sophia completed under Justinian I?",
+    "answer": "537",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest river entirely within Australia?",
+    "answer": "Murray River",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the first successful oil well drilled in Titusville, Pennsylvania?",
+    "answer": "1859",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who designed the Fallingwater house in Pennsylvania?",
+    "answer": "Frank Lloyd Wright",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Adwa fought, in which Ethiopia defeated Italy?",
+    "answer": "1896",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Congress of Vienna concluded?",
+    "answer": "1815",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the symphony known as the 'Surprise Symphony'?",
+    "answer": "Joseph Haydn",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the germ theory of disease formally established by Robert Koch?",
+    "answer": "1876",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-largest desert in the world?",
+    "answer": "Arctic Desert",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the structure of benzene as a ring?",
+    "answer": "August Kekulé",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the philosophical work 'Critique of Pure Reason'?",
+    "answer": "Immanuel Kant",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest mountain range entirely underwater?",
+    "answer": "Mid-Ocean Ridge",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Hastings fought?",
+    "answer": "1066",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who first synthesized aspirin in a stable form, in 1897?",
+    "answer": "Felix Hoffmann",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who painted 'The Anatomy Lesson of Dr. Nicolaes Tulp'?",
+    "answer": "Rembrandt van Rijn",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest lake in Europe?",
+    "answer": "Lake Ladoga",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Edict of Nantes issued?",
+    "answer": "1598",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the law of electromagnetism known as Faraday's Law?",
+    "answer": "Michael Faraday",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the opera 'Tosca'?",
+    "answer": "Giacomo Puccini",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-highest peak in the Americas?",
+    "answer": "Ojos del Salado",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Peace of Augsburg signed?",
+    "answer": "1555",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who proposed the heliocentric model of the solar system in 1543?",
+    "answer": "Nicolaus Copernicus",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the epic poem 'The Divine Comedy'?",
+    "answer": "Dante Alighieri",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest inland body of water in Central America?",
+    "answer": "Lake Nicaragua",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did the Ottoman Empire capture Constantinople?",
+    "answer": "1453",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the neutron in 1932?",
+    "answer": "James Chadwick",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who designed the geodesic dome concept as an architectural form?",
+    "answer": "Buckminster Fuller",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Magna Carta signed?",
+    "answer": "1215",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who formulated the law of conservation of mass in chemistry?",
+    "answer": "Antoine Lavoisier",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the novel 'One Hundred Years of Solitude'?",
+    "answer": "Gabriel García Márquez",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What composer wrote the opera 'The Magic Flute'?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did the Battle of Hastings take place?",
+    "answer": "1066",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who invented the Bunsen burner?",
+    "answer": "Robert Bunsen",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Hubble Space Telescope launched?",
+    "answer": "1990",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the University of Bologna, the world's oldest university, founded?",
+    "answer": "1088",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What element did Marie Curie discover in 1898 alongside polonium?",
+    "answer": "Radium",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Panama Canal officially opened to traffic?",
+    "answer": "1914",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the symphony known as 'The Surprise Symphony'?",
+    "answer": "Joseph Haydn",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Agincourt fought?",
+    "answer": "1415",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the highest peak in the Caucasus mountain range?",
+    "answer": "Mount Elbrus",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Trans-Siberian Railway completed?",
+    "answer": "1916",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the novel 'Middlemarch'?",
+    "answer": "George Eliot",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did the Siege of Constantinople end, marking the fall of the Byzantine Empire?",
+    "answer": "1453",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the structure of penicillin through X-ray crystallography?",
+    "answer": "Dorothy Hodgkin",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Brooklyn Bridge opened?",
+    "answer": "1883",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the opera 'Norma'?",
+    "answer": "Vincenzo Bellini",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who proposed the germ theory of disease in the 1860s?",
+    "answer": "Louis Pasteur",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Suez Canal first opened?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Battle of Lepanto fought?",
+    "answer": "1571",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered oxygen independently in 1774?",
+    "answer": "Carl Wilhelm Scheele",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the first steam locomotive railway, the Stockton and Darlington, opened?",
+    "answer": "1825",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the poem 'The Waste Land'?",
+    "answer": "T.S. Eliot",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who identified the nucleus of the atom in 1911?",
+    "answer": "Ernest Rutherford",
+    "source_type": "llm",
+    "domain": "Scientific discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the ballet 'Giselle'?",
+    "answer": "Adolphe Adam",
+    "source_type": "llm",
+    "domain": "Cultural works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did the Diet of Worms take place?",
+    "answer": "1521",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest river in Europe?",
+    "answer": "Volga River",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the first successful telegraph line laid across the Atlantic Ocean?",
+    "answer": "1866",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Concordat of Worms signed?",
+    "answer": "1122",
+    "source_type": "llm",
+    "domain": "Historical dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-largest lake in North America?",
+    "answer": "Lake Huron",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Gotthard Base Tunnel, the world's longest railway tunnel, opened?",
+    "answer": "2016",
+    "source_type": "llm",
+    "domain": "Engineering milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the planet Neptune?",
+    "answer": "Johann Galle",
+    "source_type": "llm",
+    "domain": "Scientific Discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the longest river entirely within India?",
+    "answer": "Ganga",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Suez Canal opened?",
+    "answer": "1869",
+    "source_type": "llm",
+    "domain": "Engineering Milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year did the Ottoman Empire officially dissolve?",
+    "answer": "1922",
+    "source_type": "llm",
+    "domain": "Historical Dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the symphony 'Farewell Symphony'?",
+    "answer": "Joseph Haydn",
+    "source_type": "llm",
+    "domain": "Cultural Works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Congress of Vienna held?",
+    "answer": "1815",
+    "source_type": "llm",
+    "domain": "Historical Dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered X-rays?",
+    "answer": "Wilhelm Röntgen",
+    "source_type": "llm",
+    "domain": "Scientific Discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Panama Canal opened?",
+    "answer": "1914",
+    "source_type": "llm",
+    "domain": "Engineering Milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the epic poem 'The Lusíadas'?",
+    "answer": "Luís de Camões",
+    "source_type": "llm",
+    "domain": "Cultural Works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-largest lake in North America by surface area?",
+    "answer": "Lake Huron",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who formulated the law of universal gravitation before Newton's publication?",
+    "answer": "Robert Hooke",
+    "source_type": "llm",
+    "domain": "Scientific Discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Gotthard Base Tunnel opened?",
+    "answer": "2016",
+    "source_type": "llm",
+    "domain": "Engineering Milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who composed the opera 'Turandot'?",
+    "answer": "Giacomo Puccini",
+    "source_type": "llm",
+    "domain": "Cultural Works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who discovered the neutron?",
+    "answer": "James Chadwick",
+    "source_type": "llm",
+    "domain": "Scientific Discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who wrote the play 'The Cherry Orchard'?",
+    "answer": "Anton Chekhov",
+    "source_type": "llm",
+    "domain": "Cultural Works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Scramble for Africa's Berlin Conference held?",
+    "answer": "1884",
+    "source_type": "llm",
+    "domain": "Historical Dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Aswan High Dam completed?",
+    "answer": "1970",
+    "source_type": "llm",
+    "domain": "Engineering Milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Siege of Vienna by the Ottomans that was repelled?",
+    "answer": "1683",
+    "source_type": "llm",
+    "domain": "Historical Dates",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the largest endorheic basin in the world?",
+    "answer": "Central Asian Internal Drainage Basin",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who proposed the existence of the neutrino?",
+    "answer": "Wolfgang Pauli",
+    "source_type": "llm",
+    "domain": "Scientific Discoveries",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "In what year was the Channel Tunnel opened?",
+    "answer": "1994",
+    "source_type": "llm",
+    "domain": "Engineering Milestones",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "Who sculpted 'The Ecstasy of Saint Teresa'?",
+    "answer": "Gian Lorenzo Bernini",
+    "source_type": "llm",
+    "domain": "Cultural Works",
+    "difficulty_target": "medium"
+  },
+  {
+    "question": "What is the second-deepest lake in the world?",
+    "answer": "Lake Tanganyika",
+    "source_type": "llm",
+    "domain": "Geography",
+    "difficulty_target": "medium"
+  }
+]

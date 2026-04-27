@@ -1,0 +1,245 @@
+[
+  {
+    "base": "grok-4.20",
+    "think": "grok-4.20-think",
+    "base_acc": 0.4321428571428571,
+    "think_acc": 0.535,
+    "delta": 0.10285714285714292,
+    "vendor": "xai",
+    "params_B": null
+  },
+  {
+    "base": "claude-opus-4",
+    "think": "claude-opus-4-think",
+    "base_acc": 0.5235714285714286,
+    "think_acc": 0.5971428571428571,
+    "delta": 0.07357142857142851,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-opus-4.1",
+    "think": "claude-opus-4.1-think",
+    "base_acc": 0.5785714285714285,
+    "think_acc": 0.6485714285714286,
+    "delta": 0.07000000000000006,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-sonnet-4.5",
+    "think": "claude-sonnet-4.5-think",
+    "base_acc": 0.5503571428571429,
+    "think_acc": 0.6135714285714285,
+    "delta": 0.06321428571428567,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-opus-4.6",
+    "think": "claude-opus-4.6-think",
+    "base_acc": 0.6307142857142857,
+    "think_acc": 0.680357142857143,
+    "delta": 0.04964285714285732,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-opus-4.5",
+    "think": "claude-opus-4.5-think",
+    "base_acc": 0.6114285714285714,
+    "think_acc": 0.6521428571428572,
+    "delta": 0.040714285714285814,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-sonnet-4",
+    "think": "claude-sonnet-4-think",
+    "base_acc": 0.4821428571428571,
+    "think_acc": 0.5225000000000001,
+    "delta": 0.04035714285714298,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-haiku-4.5",
+    "think": "claude-haiku-4.5-think",
+    "base_acc": 0.3992857142857143,
+    "think_acc": 0.4325,
+    "delta": 0.033214285714285696,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "claude-sonnet-4.6",
+    "think": "claude-sonnet-4.6-think",
+    "base_acc": 0.5817857142857142,
+    "think_acc": 0.6092857142857142,
+    "delta": 0.02749999999999997,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "deepseek-v3.2",
+    "think": "deepseek-v3.2-think",
+    "base_acc": 0.5042857142857143,
+    "think_acc": 0.5314285714285714,
+    "delta": 0.027142857142857024,
+    "vendor": "deepseek",
+    "params_B": 671
+  },
+  {
+    "base": "gemini-2.5-flash",
+    "think": "gemini-2.5-flash-think",
+    "base_acc": 0.4735714285714286,
+    "think_acc": 0.4946428571428572,
+    "delta": 0.02107142857142863,
+    "vendor": "google",
+    "params_B": null
+  },
+  {
+    "base": "gemini-2.5-flash-lite",
+    "think": "gemini-2.5-flash-lite-think",
+    "base_acc": 0.40142857142857136,
+    "think_acc": 0.41535714285714287,
+    "delta": 0.013928571428571512,
+    "vendor": "google",
+    "params_B": null
+  },
+  {
+    "base": "deepseek-v4-pro",
+    "think": "deepseek-v4-pro-think",
+    "base_acc": 0.5989285714285716,
+    "think_acc": 0.6128571428571429,
+    "delta": 0.01392857142857129,
+    "vendor": "deepseek",
+    "params_B": 1600
+  },
+  {
+    "base": "gpt-5-nano",
+    "think": "gpt-5-nano-think",
+    "base_acc": 0.40499999999999997,
+    "think_acc": 0.4167857142857142,
+    "delta": 0.011785714285714233,
+    "vendor": "openai",
+    "params_B": null
+  },
+  {
+    "base": "gemini-3-flash",
+    "think": "gemini-3-flash-think",
+    "base_acc": 0.745,
+    "think_acc": 0.7557142857142857,
+    "delta": 0.010714285714285676,
+    "vendor": "google",
+    "params_B": null
+  },
+  {
+    "base": "claude-opus-4.7",
+    "think": "claude-opus-4.7-think",
+    "base_acc": 0.6567857142857143,
+    "think_acc": 0.6635714285714286,
+    "delta": 0.006785714285714284,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "deepseek-v4-flash",
+    "think": "deepseek-v4-flash-think",
+    "base_acc": 0.5625,
+    "think_acc": 0.5685714285714285,
+    "delta": 0.0060714285714285054,
+    "vendor": "deepseek",
+    "params_B": 284
+  },
+  {
+    "base": "gpt-5.5",
+    "think": "gpt-5.5-think",
+    "base_acc": 0.7135714285714286,
+    "think_acc": 0.7192857142857143,
+    "delta": 0.005714285714285672,
+    "vendor": "openai",
+    "params_B": null
+  },
+  {
+    "base": "gpt-5",
+    "think": "gpt-5-think",
+    "base_acc": 0.6614285714285714,
+    "think_acc": 0.6642857142857144,
+    "delta": 0.0028571428571430024,
+    "vendor": "openai",
+    "params_B": null
+  },
+  {
+    "base": "mimo-v2.5-pro",
+    "think": "mimo-v2.5-pro-think",
+    "base_acc": 0.6128571428571429,
+    "think_acc": 0.6153571428571428,
+    "delta": 0.0024999999999999467,
+    "vendor": "xiaomi",
+    "params_B": null
+  },
+  {
+    "base": "hunyuan-a13b",
+    "think": "hunyuan-a13b-think",
+    "base_acc": 0.23357142857142857,
+    "think_acc": 0.23285714285714285,
+    "delta": -0.0007142857142857229,
+    "vendor": "tencent",
+    "params_B": 80
+  },
+  {
+    "base": "mimo-v2-flash",
+    "think": "mimo-v2-flash-think",
+    "base_acc": 0.45321428571428574,
+    "think_acc": 0.45178571428571423,
+    "delta": -0.0014285714285715012,
+    "vendor": "xiaomi",
+    "params_B": 309
+  },
+  {
+    "base": "mimo-v2.5",
+    "think": "mimo-v2.5-think",
+    "base_acc": 0.5160714285714285,
+    "think_acc": 0.5139285714285714,
+    "delta": -0.002142857142857113,
+    "vendor": "xiaomi",
+    "params_B": null
+  },
+  {
+    "base": "gpt-5-mini",
+    "think": "gpt-5-mini-think",
+    "base_acc": 0.5171428571428571,
+    "think_acc": 0.5146428571428572,
+    "delta": -0.0024999999999999467,
+    "vendor": "openai",
+    "params_B": null
+  },
+  {
+    "base": "claude-3.7-sonnet",
+    "think": "claude-3.7-sonnet-think",
+    "base_acc": 0.5485714285714286,
+    "think_acc": 0.5442857142857143,
+    "delta": -0.004285714285714337,
+    "vendor": "anthropic",
+    "params_B": null
+  },
+  {
+    "base": "gemini-2.5-pro",
+    "think": "gemini-2.5-pro-think",
+    "base_acc": 0.5835714285714285,
+    "think_acc": 0.5789285714285713,
+    "delta": -0.004642857142857171,
+    "vendor": "google",
+    "params_B": null
+  },
+  {
+    "base": "mimo-v2-pro",
+    "think": "mimo-v2-pro-think",
+    "base_acc": 0.5860714285714286,
+    "think_acc": 0.5760714285714286,
+    "delta": -0.010000000000000009,
+    "vendor": "xiaomi",
+    "params_B": null
+  }
+]

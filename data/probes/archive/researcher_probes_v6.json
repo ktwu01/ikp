@@ -1,0 +1,5504 @@
+[
+  {
+    "question": "What is the research field of Shuiyan Wu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Shuiyan Wu",
+    "citation_count": 530,
+    "paper_count": 104,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Joachim Mayer?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Joachim Mayer",
+    "citation_count": 17275,
+    "paper_count": 857,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Meera Sridhar?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Meera Sridhar",
+    "citation_count": 322,
+    "paper_count": 2,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Oncology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chih-Chyau Yang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chih-Chyau Yang",
+    "citation_count": 2450,
+    "paper_count": 108,
+    "top_concepts": [
+      "Materials science",
+      "Composite material",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chuanjun Zeng?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Chuanjun Zeng",
+    "citation_count": 38,
+    "paper_count": 4,
+    "top_concepts": [
+      "Energy harvesting",
+      "Piezoelectricity",
+      "Acoustics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Laure Fournier?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Laure Fournier",
+    "citation_count": 6984,
+    "paper_count": 291,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Radiology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Nathan Earnest?",
+    "answer": "computer systems",
+    "source_type": "researcher",
+    "researcher_name": "Nathan Earnest",
+    "citation_count": 781,
+    "paper_count": 50,
+    "top_concepts": [
+      "Qubit",
+      "Computer science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Laurent Simon?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Laurent Simon",
+    "citation_count": 3787,
+    "paper_count": 216,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Abhishek Pullela?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Abhishek Pullela",
+    "citation_count": 34,
+    "paper_count": 11,
+    "top_concepts": [
+      "Electrical engineering",
+      "Voltage",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Philipp Fent?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Philipp Fent",
+    "citation_count": 79,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Operating system",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hadi Noureddine?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Hadi Noureddine",
+    "citation_count": 129,
+    "paper_count": 23,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Wireless"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jun Nakayama?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Jun Nakayama",
+    "citation_count": 10439,
+    "paper_count": 351,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhitao Gong?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Zhitao Gong",
+    "citation_count": 3106,
+    "paper_count": 33,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jacob Prinz?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Jacob Prinz",
+    "citation_count": 3,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Combinatorics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shuangxi Chen?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Shuangxi Chen",
+    "citation_count": 954,
+    "paper_count": 76,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sung Kyu Lim?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Sung Kyu Lim",
+    "citation_count": 9677,
+    "paper_count": 595,
+    "top_concepts": [
+      "Computer science",
+      "Embedded system",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Juliette Hainline?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Juliette Hainline",
+    "citation_count": 38,
+    "paper_count": 2,
+    "top_concepts": [
+      "Password",
+      "Computer science",
+      "Internet privacy"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Piotr Miłkowski?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Piotr Miłkowski",
+    "citation_count": 1657,
+    "paper_count": 31,
+    "top_concepts": [
+      "Computer science",
+      "Sentiment analysis",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yuriy Fofanov?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yuriy Fofanov",
+    "citation_count": 2758,
+    "paper_count": 119,
+    "top_concepts": [
+      "Biology",
+      "Genome",
+      "Gene"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Steve Rhyner?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Steve Rhyner",
+    "citation_count": 111,
+    "paper_count": 8,
+    "top_concepts": [
+      "Dram",
+      "Computer science",
+      "Memory controller"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zenglin Pu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Zenglin Pu",
+    "citation_count": 9,
+    "paper_count": 2,
+    "top_concepts": [
+      "Stream processing",
+      "Bayesian probability",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dushyanth Narayanan?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Dushyanth Narayanan",
+    "citation_count": 4734,
+    "paper_count": 69,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kevin van Liebergen?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Kevin van Liebergen",
+    "citation_count": 22,
+    "paper_count": 8,
+    "top_concepts": [
+      "Malware",
+      "Computer science",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chung-Ching Liu?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chung-Ching Liu",
+    "citation_count": 1036,
+    "paper_count": 37,
+    "top_concepts": [
+      "Endocrinology",
+      "Internal medicine",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Graham Cormode?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Graham Cormode",
+    "citation_count": 19760,
+    "paper_count": 331,
+    "top_concepts": [
+      "Computer science",
+      "Algorithm",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Celeste Barnaby?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Celeste Barnaby",
+    "citation_count": 32,
+    "paper_count": 10,
+    "top_concepts": [
+      "Computer science",
+      "Usability",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Duhyeong Kim?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Duhyeong Kim",
+    "citation_count": 795,
+    "paper_count": 42,
+    "top_concepts": [
+      "Homomorphic encryption",
+      "Mathematics",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Carmen Lúcia Corrêa Bonifácio?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Carmen Lúcia Corrêa Bonifácio",
+    "citation_count": 4,
+    "paper_count": 7,
+    "top_concepts": [
+      "Medicine",
+      "Data science",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ted Dunning?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Ted Dunning",
+    "citation_count": 3431,
+    "paper_count": 26,
+    "top_concepts": [
+      "Computer science",
+      "Information retrieval",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Decang Sun?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Decang Sun",
+    "citation_count": 71,
+    "paper_count": 6,
+    "top_concepts": [
+      "Computer science",
+      "Overhead (engineering)",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Toon van Waterschoot?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Toon van Waterschoot",
+    "citation_count": 2811,
+    "paper_count": 295,
+    "top_concepts": [
+      "Computer science",
+      "Acoustics",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ardavan Bozorgi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Ardavan Bozorgi",
+    "citation_count": 53,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Machine learning"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jianming Wu?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Jianming Wu",
+    "citation_count": 14630,
+    "paper_count": 149,
+    "top_concepts": [
+      "Biology",
+      "Gene",
+      "Genetics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Limin Jin?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Limin Jin",
+    "citation_count": 3970,
+    "paper_count": 80,
+    "top_concepts": [
+      "Chemistry",
+      "Medicine",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yan‐Zhen Zheng?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Yan‐Zhen Zheng",
+    "citation_count": 12328,
+    "paper_count": 418,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Crystallography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Silu Huang?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Silu Huang",
+    "citation_count": 1257,
+    "paper_count": 56,
+    "top_concepts": [
+      "Computer science",
+      "Data mining",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xinning Zhang?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Xinning Zhang",
+    "citation_count": 3711,
+    "paper_count": 114,
+    "top_concepts": [
+      "Chemistry",
+      "Biology",
+      "Nitrogen fixation"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Saurabh Kadekodi?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Saurabh Kadekodi",
+    "citation_count": 155,
+    "paper_count": 12,
+    "top_concepts": [
+      "Redundancy (engineering)",
+      "Computer science",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hamed Farbeh?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Hamed Farbeh",
+    "citation_count": 726,
+    "paper_count": 74,
+    "top_concepts": [
+      "Cache",
+      "Computer science",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shweta Shinde?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Shweta Shinde",
+    "citation_count": 1783,
+    "paper_count": 77,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Tamer Samir Abdelsalam Abdelaziz?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Tamer Samir Abdelsalam Abdelaziz",
+    "citation_count": 14,
+    "paper_count": 6,
+    "top_concepts": [
+      "Medicine",
+      "Anesthesia",
+      "Randomized controlled trial"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Bipasha Nath?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Bipasha Nath",
+    "citation_count": 35,
+    "paper_count": 13,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Lijun Zhang?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Lijun Zhang",
+    "citation_count": 36053,
+    "paper_count": 761,
+    "top_concepts": [
+      "Chemistry",
+      "Physics",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yanli Zhao?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Yanli Zhao",
+    "citation_count": 68388,
+    "paper_count": 960,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sailesh Krishnamurthy?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Sailesh Krishnamurthy",
+    "citation_count": 3390,
+    "paper_count": 28,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yuyan Shao?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yuyan Shao",
+    "citation_count": 46986,
+    "paper_count": 247,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Electrode"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Adam Hesterberg?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Adam Hesterberg",
+    "citation_count": 137,
+    "paper_count": 59,
+    "top_concepts": [
+      "Mathematics",
+      "Combinatorics",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ming‐Dou Ker?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Ming‐Dou Ker",
+    "citation_count": 6495,
+    "paper_count": 552,
+    "top_concepts": [
+      "CMOS",
+      "Electrical engineering",
+      "Voltage"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Omer Zaki?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Omer Zaki",
+    "citation_count": 227,
+    "paper_count": 1,
+    "top_concepts": [
+      "Profiling (computer programming)",
+      "Java applet",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Cameron Pitsch?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Cameron Pitsch",
+    "citation_count": 15,
+    "paper_count": 9,
+    "top_concepts": [
+      "Computer science",
+      "Process (computing)",
+      "Data mining"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xinming Wang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Xinming Wang",
+    "citation_count": 44518,
+    "paper_count": 1434,
+    "top_concepts": [
+      "Chemistry",
+      "Environmental science",
+      "Environmental chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yunjin Chen?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Yunjin Chen",
+    "citation_count": 13976,
+    "paper_count": 91,
+    "top_concepts": [
+      "Computer science",
+      "Computer vision",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Arinobu Niijima?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Arinobu Niijima",
+    "citation_count": 240,
+    "paper_count": 51,
+    "top_concepts": [
+      "Computer science",
+      "Stimulation",
+      "Psychology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pradeev raj Krishnan?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Pradeev raj Krishnan",
+    "citation_count": 6,
+    "paper_count": 1,
+    "top_concepts": [
+      "Reduction (mathematics)",
+      "Signal processing",
+      "Computer engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Markos Markakis?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Markos Markakis",
+    "citation_count": 95,
+    "paper_count": 17,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Supriyo Ghosh?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Supriyo Ghosh",
+    "citation_count": 1073,
+    "paper_count": 50,
+    "top_concepts": [
+      "Materials science",
+      "Chemistry",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Changlong Wu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Changlong Wu",
+    "citation_count": 464,
+    "paper_count": 12,
+    "top_concepts": [
+      "Chemistry",
+      "Environmental chemistry",
+      "Agronomy"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Aitor Lewkowycz?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Aitor Lewkowycz",
+    "citation_count": 6146,
+    "paper_count": 35,
+    "top_concepts": [
+      "Physics",
+      "Computer science",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yu‐Ching Lee?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yu‐Ching Lee",
+    "citation_count": 1050,
+    "paper_count": 46,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Song Cen?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Song Cen",
+    "citation_count": 2564,
+    "paper_count": 134,
+    "top_concepts": [
+      "Finite element method",
+      "Structural engineering",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Heather Miller?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Heather Miller",
+    "citation_count": 2010,
+    "paper_count": 25,
+    "top_concepts": [
+      "Psychology",
+      "Medicine",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Fabrizio Lombardi?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Fabrizio Lombardi",
+    "citation_count": 16278,
+    "paper_count": 940,
+    "top_concepts": [
+      "Computer science",
+      "Algorithm",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhigang Cai?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Zhigang Cai",
+    "citation_count": 2710,
+    "paper_count": 229,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Surgery"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jinling Yin?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Jinling Yin",
+    "citation_count": 5334,
+    "paper_count": 129,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Electrode"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Marc‐Oliver Pahl?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Marc‐Oliver Pahl",
+    "citation_count": 902,
+    "paper_count": 105,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xueqiang Yan?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Xueqiang Yan",
+    "citation_count": 1992,
+    "paper_count": 38,
+    "top_concepts": [
+      "Computer science",
+      "Distributed computing",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Vrishab Madduri?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Vrishab Madduri",
+    "citation_count": 18,
+    "paper_count": 1,
+    "top_concepts": [
+      "Variety (cybernetics)",
+      "Operating system",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ruopeng Li?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Ruopeng Li",
+    "citation_count": 2821,
+    "paper_count": 112,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Electrode"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sergiu Strătilă?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Sergiu Strătilă",
+    "citation_count": 33,
+    "paper_count": 10,
+    "top_concepts": [
+      "Computational fluid dynamics",
+      "Physics",
+      "Aerospace engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yair Lakretz?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Yair Lakretz",
+    "citation_count": 1302,
+    "paper_count": 45,
+    "top_concepts": [
+      "Psychology",
+      "Computer science",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Marcel Maehren?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Marcel Maehren",
+    "citation_count": 1,
+    "paper_count": 1,
+    "top_concepts": [
+      "Finite-state machine",
+      "Transport Layer Security",
+      "Extended finite-state machine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sang Hoon Kim?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Sang Hoon Kim",
+    "citation_count": 8252,
+    "paper_count": 330,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kamal El‐Sankary?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Kamal El‐Sankary",
+    "citation_count": 884,
+    "paper_count": 138,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mihai Pogonaru?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Mihai Pogonaru",
+    "citation_count": 9,
+    "paper_count": 2,
+    "top_concepts": [
+      "Computer science",
+      "Virtualization",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wynn Kaza?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Wynn Kaza",
+    "citation_count": 14,
+    "paper_count": 2,
+    "top_concepts": [
+      "Computer science",
+      "Workload",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Luming Sun?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Luming Sun",
+    "citation_count": 1705,
+    "paper_count": 105,
+    "top_concepts": [
+      "Medicine",
+      "Fetus",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Danny Yuxing Huang?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Danny Yuxing Huang",
+    "citation_count": 1162,
+    "paper_count": 46,
+    "top_concepts": [
+      "Internet privacy",
+      "Computer science",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shuguang Han?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Shuguang Han",
+    "citation_count": 1228,
+    "paper_count": 86,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Information retrieval"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Philip Schniter?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Philip Schniter",
+    "citation_count": 13930,
+    "paper_count": 262,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhongle Xie?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Zhongle Xie",
+    "citation_count": 503,
+    "paper_count": 55,
+    "top_concepts": [
+      "Computer science",
+      "Data mining",
+      "Database"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zehua Gou?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Zehua Gou",
+    "citation_count": 80,
+    "paper_count": 1,
+    "top_concepts": [
+      "Data mining",
+      "Anomaly (physics)",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jae‐Joong Kim?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Jae‐Joong Kim",
+    "citation_count": 13256,
+    "paper_count": 732,
+    "top_concepts": [
+      "Medicine",
+      "Heart failure",
+      "Cardiology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Carlos Vargas‐Salgado?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Carlos Vargas‐Salgado",
+    "citation_count": 2005,
+    "paper_count": 157,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Muhammad Turki Alshurideh?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Muhammad Turki Alshurideh",
+    "citation_count": 16777,
+    "paper_count": 462,
+    "top_concepts": [
+      "Computer science",
+      "Marketing",
+      "Business"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Asuman Senol?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Asuman Senol",
+    "citation_count": 19,
+    "paper_count": 4,
+    "top_concepts": [
+      "Computer science",
+      "Advertising",
+      "World Wide Web"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Madhulika Mohanty?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Madhulika Mohanty",
+    "citation_count": 29,
+    "paper_count": 20,
+    "top_concepts": [
+      "Computer science",
+      "Graph",
+      "Information retrieval"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xingchen Man?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Xingchen Man",
+    "citation_count": 75,
+    "paper_count": 9,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Computer architecture"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Takeshi Sugawara?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Takeshi Sugawara",
+    "citation_count": 2262,
+    "paper_count": 154,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Ophthalmology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sung-Yi Ou?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Sung-Yi Ou",
+    "citation_count": 23,
+    "paper_count": 3,
+    "top_concepts": [
+      "Avalanche photodiode",
+      "Sensitivity (control systems)",
+      "Optics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pengjie Ren?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Pengjie Ren",
+    "citation_count": 5232,
+    "paper_count": 217,
+    "top_concepts": [
+      "Computer science",
+      "Information retrieval",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shoei Nashimoto?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Shoei Nashimoto",
+    "citation_count": 204,
+    "paper_count": 15,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Telecommunications"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ishtiyaque Ahmad?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Ishtiyaque Ahmad",
+    "citation_count": 253,
+    "paper_count": 41,
+    "top_concepts": [
+      "Chemistry",
+      "Computer science",
+      "Pharmacology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of José Fernando Vera Rebollo?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "José Fernando Vera Rebollo",
+    "citation_count": 1951,
+    "paper_count": 189,
+    "top_concepts": [
+      "Tourism",
+      "Humanities",
+      "Political science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Benjamin Nott?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Benjamin Nott",
+    "citation_count": 7,
+    "paper_count": 1,
+    "top_concepts": [
+      "Usability",
+      "Compiler",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jesper Larsson Träff?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jesper Larsson Träff",
+    "citation_count": 2949,
+    "paper_count": 402,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhong Lin Wang?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Zhong Lin Wang",
+    "citation_count": 469700,
+    "paper_count": 3917,
+    "top_concepts": [
+      "Materials science",
+      "Physics",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kevin Barker?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Kevin Barker",
+    "citation_count": 2102,
+    "paper_count": 159,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hua Liao?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Hua Liao",
+    "citation_count": 8885,
+    "paper_count": 259,
+    "top_concepts": [
+      "China",
+      "Economics",
+      "Natural resource economics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dustin Richmond?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Dustin Richmond",
+    "citation_count": 493,
+    "paper_count": 39,
+    "top_concepts": [
+      "Field-programmable gate array",
+      "Computer science",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mark Oskin?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Mark Oskin",
+    "citation_count": 3465,
+    "paper_count": 108,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Computer architecture"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jose Garcia Sancio?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jose Garcia Sancio",
+    "citation_count": 8,
+    "paper_count": 1,
+    "top_concepts": [
+      "Elasticity (physics)",
+      "Distributed computing",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Young-Ching Chou?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Young-Ching Chou",
+    "citation_count": 2,
+    "paper_count": 6,
+    "top_concepts": [
+      "Computer science",
+      "Computer vision",
+      "Segmentation"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chun‐Quan Ou?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chun‐Quan Ou",
+    "citation_count": 43238,
+    "paper_count": 210,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Bernhard Scheirle?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Bernhard Scheirle",
+    "citation_count": 10,
+    "paper_count": 2,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Behnam Hedayatnia?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Behnam Hedayatnia",
+    "citation_count": 1724,
+    "paper_count": 62,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Guru-Vamsi Policharla?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Guru-Vamsi Policharla",
+    "citation_count": 87,
+    "paper_count": 12,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Walaa Eldin Moustafa?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Walaa Eldin Moustafa",
+    "citation_count": 99,
+    "paper_count": 11,
+    "top_concepts": [
+      "Computer science",
+      "Graph",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yanchun Han?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Yanchun Han",
+    "citation_count": 6552,
+    "paper_count": 257,
+    "top_concepts": [
+      "Materials science",
+      "Composite material",
+      "Polymer"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Joel Kuepper?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Joel Kuepper",
+    "citation_count": 13,
+    "paper_count": 4,
+    "top_concepts": [
+      "Compiler",
+      "Computer science",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhong Lin Wang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Zhong Lin Wang",
+    "citation_count": 469700,
+    "paper_count": 3917,
+    "top_concepts": [
+      "Materials science",
+      "Physics",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xiaogang Wang?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Xiaogang Wang",
+    "citation_count": 252060,
+    "paper_count": 3874,
+    "top_concepts": [
+      "Physics",
+      "Computer science",
+      "Particle physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Rachel Etta Rudolph?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Rachel Etta Rudolph",
+    "citation_count": 599,
+    "paper_count": 15,
+    "top_concepts": [
+      "Epistemology",
+      "Computer science",
+      "Linguistics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jianlin Li?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Jianlin Li",
+    "citation_count": 19523,
+    "paper_count": 654,
+    "top_concepts": [
+      "Materials science",
+      "Chemistry",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Youngsook Son?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Youngsook Son",
+    "citation_count": 2948,
+    "paper_count": 172,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Srimanta Baishya?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Srimanta Baishya",
+    "citation_count": 2379,
+    "paper_count": 242,
+    "top_concepts": [
+      "Materials science",
+      "Optoelectronics",
+      "Voltage"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Maarten Sap?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Maarten Sap",
+    "citation_count": 6278,
+    "paper_count": 186,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Seongsu Bae?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Seongsu Bae",
+    "citation_count": 41,
+    "paper_count": 13,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Health records"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jinzhu Chen?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Jinzhu Chen",
+    "citation_count": 5432,
+    "paper_count": 164,
+    "top_concepts": [
+      "Chemistry",
+      "Catalysis",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of ‪Surya Nepal‬?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "‪Surya Nepal‬",
+    "citation_count": 14805,
+    "paper_count": 653,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yohei Kanemaru?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Yohei Kanemaru",
+    "citation_count": 11,
+    "paper_count": 7,
+    "top_concepts": [
+      "Computer science",
+      "Cloud computing",
+      "Network packet"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sarah Tanveer?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Sarah Tanveer",
+    "citation_count": 280,
+    "paper_count": 35,
+    "top_concepts": [
+      "Medicine",
+      "Intensive care medicine",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sheng‐Nian Luo?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Sheng‐Nian Luo",
+    "citation_count": 10903,
+    "paper_count": 483,
+    "top_concepts": [
+      "Materials science",
+      "Composite material",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Gian Luca Barbruni?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Gian Luca Barbruni",
+    "citation_count": 270,
+    "paper_count": 30,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ruoxi Wang?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Ruoxi Wang",
+    "citation_count": 3852,
+    "paper_count": 195,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Psychology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Georgiana Caltais?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Georgiana Caltais",
+    "citation_count": 144,
+    "paper_count": 40,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pratyush Kumar Das?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Pratyush Kumar Das",
+    "citation_count": 6178,
+    "paper_count": 26,
+    "top_concepts": [
+      "Biology",
+      "Virology",
+      "Virus"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Omprakash Gnawali?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Omprakash Gnawali",
+    "citation_count": 5954,
+    "paper_count": 150,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Wireless"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhiguo Yuan?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Zhiguo Yuan",
+    "citation_count": 53795,
+    "paper_count": 923,
+    "top_concepts": [
+      "Chemistry",
+      "Environmental science",
+      "Environmental engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Suresh Jagannathan?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Suresh Jagannathan",
+    "citation_count": 5933,
+    "paper_count": 268,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Riley Murray?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Riley Murray",
+    "citation_count": 126,
+    "paper_count": 28,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wenjia Cai?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Wenjia Cai",
+    "citation_count": 21877,
+    "paper_count": 251,
+    "top_concepts": [
+      "China",
+      "Economics",
+      "Geography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yong Chen?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yong Chen",
+    "citation_count": 26069,
+    "paper_count": 1154,
+    "top_concepts": [
+      "Materials science",
+      "Physics",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Gil Zussman?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Gil Zussman",
+    "citation_count": 6769,
+    "paper_count": 296,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Wireless"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Brett Hemenway?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Brett Hemenway",
+    "citation_count": 1137,
+    "paper_count": 93,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kubilay Atasu?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Kubilay Atasu",
+    "citation_count": 1408,
+    "paper_count": 55,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shufen Zhang?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Shufen Zhang",
+    "citation_count": 22695,
+    "paper_count": 1144,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shanhui Fan?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Shanhui Fan",
+    "citation_count": 109855,
+    "paper_count": 1448,
+    "top_concepts": [
+      "Physics",
+      "Materials science",
+      "Optics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Peng Xie?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Peng Xie",
+    "citation_count": 17716,
+    "paper_count": 441,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Neuroscience"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Rashid Rashidzadeh?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Rashid Rashidzadeh",
+    "citation_count": 1155,
+    "paper_count": 95,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Rex Fernando?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Rex Fernando",
+    "citation_count": 242,
+    "paper_count": 41,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chih‐Chin Liu?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chih‐Chin Liu",
+    "citation_count": 2523,
+    "paper_count": 67,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Humberto Ribeiro da Rocha?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Humberto Ribeiro da Rocha",
+    "citation_count": 9609,
+    "paper_count": 233,
+    "top_concepts": [
+      "Environmental science",
+      "Geology",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sowmya Dharanipragada?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Sowmya Dharanipragada",
+    "citation_count": 21,
+    "paper_count": 1,
+    "top_concepts": [
+      "Remote direct memory access",
+      "Operating system",
+      "Protocol (science)"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chenji Han?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Chenji Han",
+    "citation_count": 10,
+    "paper_count": 11,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Addisu Negash Ali?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Addisu Negash Ali",
+    "citation_count": 456,
+    "paper_count": 50,
+    "top_concepts": [
+      "Materials science",
+      "Composite number",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jonah Rosenblum?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Jonah Rosenblum",
+    "citation_count": 117,
+    "paper_count": 7,
+    "top_concepts": [
+      "Computer science",
+      "Scale (ratio)",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Abhradeep Thakurta?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Abhradeep Thakurta",
+    "citation_count": 3922,
+    "paper_count": 130,
+    "top_concepts": [
+      "Differential privacy",
+      "Computer science",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ruiyong Tu?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Ruiyong Tu",
+    "citation_count": 43,
+    "paper_count": 8,
+    "top_concepts": [
+      "Voltage",
+      "Electrical engineering",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Cheng Wang?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Cheng Wang",
+    "citation_count": 5808,
+    "paper_count": 326,
+    "top_concepts": [
+      "Medicine",
+      "Chemistry",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sheng‐Qi Zhou?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Sheng‐Qi Zhou",
+    "citation_count": 3284,
+    "paper_count": 198,
+    "top_concepts": [
+      "Materials science",
+      "Physics",
+      "Geology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yiling He?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Yiling He",
+    "citation_count": 503,
+    "paper_count": 18,
+    "top_concepts": [
+      "Medicine",
+      "Chemistry",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Barzan Mozafari?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Barzan Mozafari",
+    "citation_count": 2714,
+    "paper_count": 74,
+    "top_concepts": [
+      "Computer science",
+      "Data mining",
+      "Database"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Aloni Cohen?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Aloni Cohen",
+    "citation_count": 534,
+    "paper_count": 53,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ben Herzberg?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Ben Herzberg",
+    "citation_count": 104,
+    "paper_count": 18,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Nico Lehmann?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Nico Lehmann",
+    "citation_count": 834,
+    "paper_count": 31,
+    "top_concepts": [
+      "Business",
+      "Accounting",
+      "Political science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Fredrik Kjølstad?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Fredrik Kjølstad",
+    "citation_count": 1310,
+    "paper_count": 82,
+    "top_concepts": [
+      "Computer science",
+      "Compiler",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jen-Chun Su Chien-Shen?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Jen-Chun Su Chien-Shen",
+    "citation_count": 58,
+    "paper_count": 1,
+    "top_concepts": [
+      "Liquid crystal",
+      "Columnar phase",
+      "Organic chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yoon Hee Jeong?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Yoon Hee Jeong",
+    "citation_count": 3975,
+    "paper_count": 184,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Maurits Ortmanns?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Maurits Ortmanns",
+    "citation_count": 4797,
+    "paper_count": 441,
+    "top_concepts": [
+      "Computer science",
+      "Physics",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Taehong Kim?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Taehong Kim",
+    "citation_count": 2136,
+    "paper_count": 163,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Azadeh Farzan?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Azadeh Farzan",
+    "citation_count": 1599,
+    "paper_count": 91,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhaodonghui Li?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Zhaodonghui Li",
+    "citation_count": 59,
+    "paper_count": 7,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Qianlin Liang?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Qianlin Liang",
+    "citation_count": 375,
+    "paper_count": 21,
+    "top_concepts": [
+      "Computer science",
+      "Cloud computing",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jihoon Cho?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Jihoon Cho",
+    "citation_count": 2248,
+    "paper_count": 48,
+    "top_concepts": [
+      "Computer science",
+      "Materials science",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jun Yong Park?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Jun Yong Park",
+    "citation_count": 19288,
+    "paper_count": 934,
+    "top_concepts": [
+      "Medicine",
+      "Hepatocellular carcinoma",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohammad Javadian Sarraf?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Mohammad Javadian Sarraf",
+    "citation_count": 128,
+    "paper_count": 17,
+    "top_concepts": [
+      "Materials science",
+      "Computer science",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Khuzaima Daudjee?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Khuzaima Daudjee",
+    "citation_count": 1676,
+    "paper_count": 76,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yen‐Hung Lin?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yen‐Hung Lin",
+    "citation_count": 8698,
+    "paper_count": 437,
+    "top_concepts": [
+      "Primary aldosteronism",
+      "Medicine",
+      "Aldosterone"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shengshuang Chen?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Shengshuang Chen",
+    "citation_count": 267,
+    "paper_count": 12,
+    "top_concepts": [
+      "Chemistry",
+      "Fermentation",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yichun Liu?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yichun Liu",
+    "citation_count": 45944,
+    "paper_count": 1234,
+    "top_concepts": [
+      "Materials science",
+      "Chemistry",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Viktor Valadi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Viktor Valadi",
+    "citation_count": 10,
+    "paper_count": 4,
+    "top_concepts": [
+      "Computer science",
+      "Federated learning",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Alessandro Acquisti?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Alessandro Acquisti",
+    "citation_count": 27825,
+    "paper_count": 275,
+    "top_concepts": [
+      "Computer science",
+      "Internet privacy",
+      "Psychology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sandra Scott-Hayward?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Sandra Scott-Hayward",
+    "citation_count": 2620,
+    "paper_count": 61,
+    "top_concepts": [
+      "Computer science",
+      "Software-defined networking",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yi-Chun Shih?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yi-Chun Shih",
+    "citation_count": 1730,
+    "paper_count": 46,
+    "top_concepts": [
+      "Computer science",
+      "Materials science",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Helper Zhou?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Helper Zhou",
+    "citation_count": 118,
+    "paper_count": 25,
+    "top_concepts": [
+      "Business",
+      "Computer science",
+      "Economics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mosharaf Chowdhury?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Mosharaf Chowdhury",
+    "citation_count": 14812,
+    "paper_count": 134,
+    "top_concepts": [
+      "Computer science",
+      "Distributed computing",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ramakrishna Chilukuri?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Ramakrishna Chilukuri",
+    "citation_count": 30,
+    "paper_count": 3,
+    "top_concepts": [
+      "Pixel",
+      "Dynamic range",
+      "High dynamic range"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hooman Farkhani?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Hooman Farkhani",
+    "citation_count": 510,
+    "paper_count": 52,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hongyun Zhao?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Hongyun Zhao",
+    "citation_count": 10351,
+    "paper_count": 693,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shiyao Sui?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Shiyao Sui",
+    "citation_count": 1205,
+    "paper_count": 28,
+    "top_concepts": [
+      "Biology",
+      "Cancer research",
+      "Cancer"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xiaohong Chen?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Xiaohong Chen",
+    "citation_count": 478480,
+    "paper_count": 18863,
+    "top_concepts": [
+      "Chemistry",
+      "Medicine",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhenhui Li?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Zhenhui Li",
+    "citation_count": 13080,
+    "paper_count": 509,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhengyu He?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Zhengyu He",
+    "citation_count": 3174,
+    "paper_count": 110,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Boyang Zheng?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Boyang Zheng",
+    "citation_count": 871,
+    "paper_count": 43,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Condensed matter physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shengqi Li?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Shengqi Li",
+    "citation_count": 945,
+    "paper_count": 67,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Pathology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Weidong Tian?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Weidong Tian",
+    "citation_count": 15547,
+    "paper_count": 739,
+    "top_concepts": [
+      "Medicine",
+      "Chemistry",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ellen Hohma?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Ellen Hohma",
+    "citation_count": 210,
+    "paper_count": 9,
+    "top_concepts": [
+      "Computer science",
+      "Epistemology",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Susmit Sarkar?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Susmit Sarkar",
+    "citation_count": 3611,
+    "paper_count": 61,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Soteris Demetriou?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Soteris Demetriou",
+    "citation_count": 941,
+    "paper_count": 52,
+    "top_concepts": [
+      "Computer science",
+      "Computer vision",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Elie-Julien El Hachem?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Elie-Julien El Hachem",
+    "citation_count": 58,
+    "paper_count": 9,
+    "top_concepts": [
+      "Biology",
+      "Proteome",
+      "Genetics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Abishek Ramdas?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Abishek Ramdas",
+    "citation_count": 70,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Cache",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pascal Lafourcade?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Pascal Lafourcade",
+    "citation_count": 3224,
+    "paper_count": 344,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pierre Ablin?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Pierre Ablin",
+    "citation_count": 616,
+    "paper_count": 77,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Peidong Yang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Peidong Yang",
+    "citation_count": 158447,
+    "paper_count": 694,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Aravindh Raman?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Aravindh Raman",
+    "citation_count": 821,
+    "paper_count": 58,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "World Wide Web"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sophia Wiechert?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Sophia Wiechert",
+    "citation_count": 5,
+    "paper_count": 5,
+    "top_concepts": [
+      "Mathematics",
+      "Mathematical optimization",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hiren Patel?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Hiren Patel",
+    "citation_count": 4524,
+    "paper_count": 80,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Endocrinology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhong Lin Wang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Zhong Lin Wang",
+    "citation_count": 469700,
+    "paper_count": 3917,
+    "top_concepts": [
+      "Materials science",
+      "Physics",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Thibaut Vidal?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Thibaut Vidal",
+    "citation_count": 6023,
+    "paper_count": 189,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Mathematical optimization"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sanskriti Bhujade?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Sanskriti Bhujade",
+    "citation_count": 6,
+    "paper_count": 1,
+    "top_concepts": [
+      "Computer architecture",
+      "Electrical engineering",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hannah Rashkin?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Hannah Rashkin",
+    "citation_count": 3258,
+    "paper_count": 48,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Fumiyuki Kato?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Fumiyuki Kato",
+    "citation_count": 89,
+    "paper_count": 21,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mian Lu?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Mian Lu",
+    "citation_count": 1871,
+    "paper_count": 64,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Graphics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Eleonora Franchi Scarselli?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Eleonora Franchi Scarselli",
+    "citation_count": 671,
+    "paper_count": 80,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Umut Çalıkyılmaz?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Umut Çalıkyılmaz",
+    "citation_count": 77,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Quantum",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xuhong Lil?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Xuhong Lil",
+    "citation_count": 3,
+    "paper_count": 1,
+    "top_concepts": [
+      "Phase-locked loop",
+      "Phase detector",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Anis Koubâa?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Anis Koubâa",
+    "citation_count": 12140,
+    "paper_count": 472,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yueli Huang?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Yueli Huang",
+    "citation_count": 52,
+    "paper_count": 1,
+    "top_concepts": [
+      "Catalysis",
+      "Nuclear chemistry",
+      "Visible spectrum"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yufeng Huang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yufeng Huang",
+    "citation_count": 3238,
+    "paper_count": 34,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Haicun Shi?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Haicun Shi",
+    "citation_count": 2135,
+    "paper_count": 51,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Neuroscience"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Suraj Jog?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Suraj Jog",
+    "citation_count": 210,
+    "paper_count": 13,
+    "top_concepts": [
+      "Computer science",
+      "Extremely high frequency",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yuvraj Patel?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Yuvraj Patel",
+    "citation_count": 112,
+    "paper_count": 13,
+    "top_concepts": [
+      "Computer science",
+      "Operating system",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Takuma Nozawa?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Takuma Nozawa",
+    "citation_count": 107,
+    "paper_count": 17,
+    "top_concepts": [
+      "Computer science",
+      "Materials science",
+      "Optics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shahid Ahmed?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Shahid Ahmed",
+    "citation_count": 5103,
+    "paper_count": 252,
+    "top_concepts": [
+      "Medicine",
+      "Cancer",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xianpei Han?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Xianpei Han",
+    "citation_count": 4773,
+    "paper_count": 239,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dazheng Deng?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Dazheng Deng",
+    "citation_count": 325,
+    "paper_count": 12,
+    "top_concepts": [
+      "Computer science",
+      "Computation",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhi‐Sheng Ye?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Zhi‐Sheng Ye",
+    "citation_count": 7253,
+    "paper_count": 206,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Statistics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dan Suciu?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Dan Suciu",
+    "citation_count": 24347,
+    "paper_count": 533,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Asiye Rümeysa Ünsal?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Asiye Rümeysa Ünsal",
+    "citation_count": 5,
+    "paper_count": 2,
+    "top_concepts": [
+      "Physics",
+      "Image (mathematics)",
+      "Similarity (geometry)"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wesley Grignani?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Wesley Grignani",
+    "citation_count": 16,
+    "paper_count": 27,
+    "top_concepts": [
+      "Computer science",
+      "Reliability (semiconductor)",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Seongyon Hong?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Seongyon Hong",
+    "citation_count": 133,
+    "paper_count": 21,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Alberto Bernaldo de Quirós?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Alberto Bernaldo de Quirós",
+    "citation_count": 16,
+    "paper_count": 5,
+    "top_concepts": [
+      "Battery (electricity)",
+      "Materials science",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xianran Xing?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Xianran Xing",
+    "citation_count": 17135,
+    "paper_count": 582,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Crystallography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Martin McKee?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Martin McKee",
+    "citation_count": 262999,
+    "paper_count": 2987,
+    "top_concepts": [
+      "Medicine",
+      "Economics",
+      "Political science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Beatrice Meini?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Beatrice Meini",
+    "citation_count": 2733,
+    "paper_count": 143,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wenrui Diao?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Wenrui Diao",
+    "citation_count": 1469,
+    "paper_count": 59,
+    "top_concepts": [
+      "Android (operating system)",
+      "Computer science",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Olivier Petit?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Olivier Petit",
+    "citation_count": 327,
+    "paper_count": 29,
+    "top_concepts": [
+      "Mechanics",
+      "Computer science",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Qianyi Wu?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Qianyi Wu",
+    "citation_count": 1381,
+    "paper_count": 58,
+    "top_concepts": [
+      "Computer science",
+      "Computer vision",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jianliang Zhai?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Jianliang Zhai",
+    "citation_count": 827,
+    "paper_count": 102,
+    "top_concepts": [
+      "Mathematics",
+      "Mathematical analysis",
+      "Applied mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ville Leppänen?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Ville Leppänen",
+    "citation_count": 1701,
+    "paper_count": 255,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhengqiang Li?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Zhengqiang Li",
+    "citation_count": 10444,
+    "paper_count": 543,
+    "top_concepts": [
+      "Remote sensing",
+      "Environmental science",
+      "Geology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dariia Verchyk?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Dariia Verchyk",
+    "citation_count": 14,
+    "paper_count": 2,
+    "top_concepts": [
+      "Encryption",
+      "Cryptographic primitive",
+      "Quantum cryptography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Longbin Lai?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Longbin Lai",
+    "citation_count": 416,
+    "paper_count": 17,
+    "top_concepts": [
+      "Computer science",
+      "Graph",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Tetsuya Hirose?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Tetsuya Hirose",
+    "citation_count": 3133,
+    "paper_count": 298,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Voltage"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of John Sicilia?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "John Sicilia",
+    "citation_count": 39,
+    "paper_count": 1,
+    "top_concepts": [
+      "Interconnection",
+      "Microarchitecture",
+      "Computer architecture"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Tahoura Mosavirik?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Tahoura Mosavirik",
+    "citation_count": 198,
+    "paper_count": 14,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hyeoktae Son?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Hyeoktae Son",
+    "citation_count": 33,
+    "paper_count": 7,
+    "top_concepts": [
+      "Electrical engineering",
+      "Electronic engineering",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yuanyuan Wang?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Yuanyuan Wang",
+    "citation_count": 15159,
+    "paper_count": 628,
+    "top_concepts": [
+      "Medicine",
+      "Osteoarthritis",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Juan Gómez-Luna?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Juan Gómez-Luna",
+    "citation_count": 3671,
+    "paper_count": 241,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Baojun Liu?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Baojun Liu",
+    "citation_count": 3926,
+    "paper_count": 113,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Chemical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chao Chen?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Chao Chen",
+    "citation_count": 28207,
+    "paper_count": 1111,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Genetics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kallepelli Sagar?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Kallepelli Sagar",
+    "citation_count": 64,
+    "paper_count": 13,
+    "top_concepts": [
+      "Materials science",
+      "Optoelectronics",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sannian Song?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Sannian Song",
+    "citation_count": 5943,
+    "paper_count": 344,
+    "top_concepts": [
+      "Materials science",
+      "Chemistry",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wanning He?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Wanning He",
+    "citation_count": 12,
+    "paper_count": 1,
+    "top_concepts": [
+      "Reward system",
+      "Developmental psychology",
+      "Epistemology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jungi Lee?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jungi Lee",
+    "citation_count": 169,
+    "paper_count": 10,
+    "top_concepts": [
+      "Computer science",
+      "Rendering (computer graphics)",
+      "Computer graphics (images)"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohammad Rajiullah?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Mohammad Rajiullah",
+    "citation_count": 365,
+    "paper_count": 63,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Network packet"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhixin Miao?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Zhixin Miao",
+    "citation_count": 7285,
+    "paper_count": 227,
+    "top_concepts": [
+      "Computer science",
+      "Control (management)",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Roman Levenstein?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Roman Levenstein",
+    "citation_count": 240,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Computer architecture",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhixiong Niu?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Zhixiong Niu",
+    "citation_count": 238,
+    "paper_count": 43,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zijun Yan?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Zijun Yan",
+    "citation_count": 2381,
+    "paper_count": 67,
+    "top_concepts": [
+      "Physics",
+      "Materials science",
+      "Thermodynamics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shin Hwei Tan?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Shin Hwei Tan",
+    "citation_count": 1780,
+    "paper_count": 79,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Software engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Adam Stein?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Adam Stein",
+    "citation_count": 3214,
+    "paper_count": 146,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ward Beullens?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Ward Beullens",
+    "citation_count": 880,
+    "paper_count": 43,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhifeng Ren?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Zhifeng Ren",
+    "citation_count": 64525,
+    "paper_count": 756,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Lucca Hirschi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Lucca Hirschi",
+    "citation_count": 739,
+    "paper_count": 37,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ramla Ijaz?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Ramla Ijaz",
+    "citation_count": 20,
+    "paper_count": 4,
+    "top_concepts": [
+      "Correctness",
+      "Computer science",
+      "Model checking"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jens Großklags?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Jens Großklags",
+    "citation_count": 6359,
+    "paper_count": 241,
+    "top_concepts": [
+      "Computer science",
+      "Internet privacy",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jose Povedano Poyato?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jose Povedano Poyato",
+    "citation_count": 15,
+    "paper_count": 1,
+    "top_concepts": [
+      "Distributed computing",
+      "Edge device",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xubin Zheng?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Xubin Zheng",
+    "citation_count": 2040,
+    "paper_count": 119,
+    "top_concepts": [
+      "Chemistry",
+      "Medicine",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Nils Pohl?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Nils Pohl",
+    "citation_count": 4519,
+    "paper_count": 396,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xinyi He?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Xinyi He",
+    "citation_count": 4332,
+    "paper_count": 169,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Stefano Zanero?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Stefano Zanero",
+    "citation_count": 4356,
+    "paper_count": 242,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Vikrant Singhal?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Vikrant Singhal",
+    "citation_count": 135,
+    "paper_count": 23,
+    "top_concepts": [
+      "Mathematics",
+      "Algorithm",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhicheng Zhou?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Zhicheng Zhou",
+    "citation_count": 3191,
+    "paper_count": 83,
+    "top_concepts": [
+      "Biology",
+      "Immunology",
+      "Gene"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Adil Salim?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Adil Salim",
+    "citation_count": 267,
+    "paper_count": 6,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohammad Reza Heidari Iman?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Mohammad Reza Heidari Iman",
+    "citation_count": 109,
+    "paper_count": 29,
+    "top_concepts": [
+      "Assertion",
+      "Computer science",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yi‐Yu Kuo?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Yi‐Yu Kuo",
+    "citation_count": 291,
+    "paper_count": 25,
+    "top_concepts": [
+      "Physics",
+      "Geology",
+      "Oceanography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Alexandre Venelli?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Alexandre Venelli",
+    "citation_count": 632,
+    "paper_count": 22,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Side channel attack"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Fengqing Jiang?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Fengqing Jiang",
+    "citation_count": 1587,
+    "paper_count": 68,
+    "top_concepts": [
+      "Geology",
+      "Environmental science",
+      "Physical geography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Fabian Schaipp?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Fabian Schaipp",
+    "citation_count": 17,
+    "paper_count": 11,
+    "top_concepts": [
+      "Mathematics",
+      "Regular polygon",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kangkook Jee?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Kangkook Jee",
+    "citation_count": 1598,
+    "paper_count": 38,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Data mining"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jishun Kuang?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Jishun Kuang",
+    "citation_count": 230,
+    "paper_count": 77,
+    "top_concepts": [
+      "Computer science",
+      "Algorithm",
+      "Electronic circuit"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sanmitra Bharat Naik?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Sanmitra Bharat Naik",
+    "citation_count": 41,
+    "paper_count": 8,
+    "top_concepts": [
+      "Electrical engineering",
+      "Computer science",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hilal Asi?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Hilal Asi",
+    "citation_count": 173,
+    "paper_count": 36,
+    "top_concepts": [
+      "Computer science",
+      "Mathematical optimization",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Adam Barker?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Adam Barker",
+    "citation_count": 2205,
+    "paper_count": 129,
+    "top_concepts": [
+      "Cloud computing",
+      "Computer science",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mengling Liu?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Mengling Liu",
+    "citation_count": 8188,
+    "paper_count": 450,
+    "top_concepts": [
+      "Medicine",
+      "Chemistry",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Julien Gamba?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Julien Gamba",
+    "citation_count": 331,
+    "paper_count": 21,
+    "top_concepts": [
+      "Computer science",
+      "Android (operating system)",
+      "Internet privacy"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yijian Dong?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Yijian Dong",
+    "citation_count": 18,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Cloud computing",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of M.-C. Chen?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "M.-C. Chen",
+    "citation_count": 68,
+    "paper_count": 13,
+    "top_concepts": [
+      "Materials science",
+      "Computer science",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Joan Puigcerver?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Joan Puigcerver",
+    "citation_count": 1634,
+    "paper_count": 58,
+    "top_concepts": [
+      "Computer science",
+      "Information retrieval",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Luca Perilli?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Luca Perilli",
+    "citation_count": 205,
+    "paper_count": 20,
+    "top_concepts": [
+      "Computer science",
+      "Electronic engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Florian Suri-Payer?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Florian Suri-Payer",
+    "citation_count": 60,
+    "paper_count": 7,
+    "top_concepts": [
+      "Computer science",
+      "Latency (audio)",
+      "Throughput"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Peter Druschel?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Peter Druschel",
+    "citation_count": 31474,
+    "paper_count": 214,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Cheng‐Shang Chang?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Cheng‐Shang Chang",
+    "citation_count": 6252,
+    "paper_count": 240,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Christian Mainka?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Christian Mainka",
+    "citation_count": 632,
+    "paper_count": 53,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Authentication (law)"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chang‐Hwan Lee?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chang‐Hwan Lee",
+    "citation_count": 78148,
+    "paper_count": 594,
+    "top_concepts": [
+      "Physics",
+      "Computer science",
+      "Astrophysics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Giulio Guerrieri?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Giulio Guerrieri",
+    "citation_count": 375,
+    "paper_count": 73,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Discrete mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wei‐Yin Sun?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Wei‐Yin Sun",
+    "citation_count": 19908,
+    "paper_count": 828,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Crystallography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jihyuck Jo?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jihyuck Jo",
+    "citation_count": 280,
+    "paper_count": 15,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hajime Tazaki?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Hajime Tazaki",
+    "citation_count": 316,
+    "paper_count": 49,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Julien Keutchayan?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Julien Keutchayan",
+    "citation_count": 70,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Mathematical optimization",
+      "Stochastic programming"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Gabriele Oliaro?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Gabriele Oliaro",
+    "citation_count": 812,
+    "paper_count": 45,
+    "top_concepts": [
+      "Computer science",
+      "Physics",
+      "Plasma"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Berkin Ilbeyi?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Berkin Ilbeyi",
+    "citation_count": 176,
+    "paper_count": 15,
+    "top_concepts": [
+      "Compiler",
+      "Computer science",
+      "Parallel computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wenhong Li?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Wenhong Li",
+    "citation_count": 9252,
+    "paper_count": 233,
+    "top_concepts": [
+      "Biology",
+      "Environmental science",
+      "Climatology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Reza Tavakkoli‐Moghaddam?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Reza Tavakkoli‐Moghaddam",
+    "citation_count": 23533,
+    "paper_count": 939,
+    "top_concepts": [
+      "Computer science",
+      "Mathematical optimization",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Ananda Theertha Suresh?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Ananda Theertha Suresh",
+    "citation_count": 6690,
+    "paper_count": 135,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics",
+      "Statistics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohd Zamri Ibrahim?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Mohd Zamri Ibrahim",
+    "citation_count": 1160,
+    "paper_count": 110,
+    "top_concepts": [
+      "Environmental science",
+      "Meteorology",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Minlan Yu?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Minlan Yu",
+    "citation_count": 9443,
+    "paper_count": 148,
+    "top_concepts": [
+      "Computer science",
+      "Network packet",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chia–Chi Tsai?",
+    "answer": "computer vision",
+    "source_type": "researcher",
+    "researcher_name": "Chia–Chi Tsai",
+    "citation_count": 296,
+    "paper_count": 50,
+    "top_concepts": [
+      "Medicine",
+      "Computer science",
+      "Computer vision"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Michelle Du?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Michelle Du",
+    "citation_count": 339,
+    "paper_count": 2,
+    "top_concepts": [
+      "Neuroscience",
+      "Excitatory postsynaptic potential",
+      "Synapse"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Matthias Hagen?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Matthias Hagen",
+    "citation_count": 3584,
+    "paper_count": 319,
+    "top_concepts": [
+      "Computer science",
+      "Information retrieval",
+      "World Wide Web"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mario Petruccelli?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Mario Petruccelli",
+    "citation_count": 3,
+    "paper_count": 1,
+    "top_concepts": [
+      "Query optimization",
+      "Web search query",
+      "Web query classification"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhouyu Gong?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Zhouyu Gong",
+    "citation_count": 26,
+    "paper_count": 3,
+    "top_concepts": [
+      "Power (physics)",
+      "Engineering",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yiming Li?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Yiming Li",
+    "citation_count": 11513,
+    "paper_count": 319,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Chemical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Marco Arazzi?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Marco Arazzi",
+    "citation_count": 257,
+    "paper_count": 51,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yarin Perry?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Yarin Perry",
+    "citation_count": 9,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Distributed computing",
+      "Deep learning"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xiangwen Liu?",
+    "answer": "computer systems",
+    "source_type": "researcher",
+    "researcher_name": "Xiangwen Liu",
+    "citation_count": 4821,
+    "paper_count": 74,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Nanotechnology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhifeng Ren?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Zhifeng Ren",
+    "citation_count": 64525,
+    "paper_count": 756,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Samir Taha?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Samir Taha",
+    "citation_count": 2342,
+    "paper_count": 83,
+    "top_concepts": [
+      "Biology",
+      "Chemistry",
+      "Biochemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Simone Bombari?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Simone Bombari",
+    "citation_count": 6,
+    "paper_count": 12,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sasi Kiran Suddarsi?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Sasi Kiran Suddarsi",
+    "citation_count": 13,
+    "paper_count": 6,
+    "top_concepts": [
+      "Silicon on insulator",
+      "Computer science",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yen‐Lung Chen?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Yen‐Lung Chen",
+    "citation_count": 495,
+    "paper_count": 49,
+    "top_concepts": [
+      "Materials science",
+      "Computer science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Per-Åke Larson?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Per-Åke Larson",
+    "citation_count": 6988,
+    "paper_count": 150,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Grzegorz Bazydło?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Grzegorz Bazydło",
+    "citation_count": 418,
+    "paper_count": 57,
+    "top_concepts": [
+      "Computer science",
+      "Field-programmable gate array",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yossi Gilad?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Yossi Gilad",
+    "citation_count": 2719,
+    "paper_count": 49,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Giulio Manzonetto?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Giulio Manzonetto",
+    "citation_count": 518,
+    "paper_count": 65,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Algebra over a field"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chul‐Su Yang?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Chul‐Su Yang",
+    "citation_count": 18002,
+    "paper_count": 267,
+    "top_concepts": [
+      "Medicine",
+      "Chemistry",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Benjamin Reidys?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Benjamin Reidys",
+    "citation_count": 56,
+    "paper_count": 12,
+    "top_concepts": [
+      "Computer science",
+      "Distributed computing",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jungwoo Kim?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Jungwoo Kim",
+    "citation_count": 3143,
+    "paper_count": 86,
+    "top_concepts": [
+      "Computer science",
+      "Mechanics",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yuval Yarom?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Yuval Yarom",
+    "citation_count": 8614,
+    "paper_count": 141,
+    "top_concepts": [
+      "Side channel attack",
+      "Computer science",
+      "Cryptography"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Christos Papavassiliou?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Christos Papavassiliou",
+    "citation_count": 2141,
+    "paper_count": 145,
+    "top_concepts": [
+      "Computer science",
+      "Voltage",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jing Zhou?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Jing Zhou",
+    "citation_count": 1168,
+    "paper_count": 65,
+    "top_concepts": [
+      "Medicine",
+      "Atrial fibrillation",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jae‐Joong Kim?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Jae‐Joong Kim",
+    "citation_count": 13256,
+    "paper_count": 732,
+    "top_concepts": [
+      "Medicine",
+      "Heart failure",
+      "Cardiology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Venmugil Elango?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Venmugil Elango",
+    "citation_count": 260,
+    "paper_count": 21,
+    "top_concepts": [
+      "Computer science",
+      "Parallel computing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhengjie Miao?",
+    "answer": "information retrieval",
+    "source_type": "researcher",
+    "researcher_name": "Zhengjie Miao",
+    "citation_count": 400,
+    "paper_count": 34,
+    "top_concepts": [
+      "Computer science",
+      "Information retrieval",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Arpit Kumar?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Arpit Kumar",
+    "citation_count": 19,
+    "paper_count": 1,
+    "top_concepts": [
+      "Hypergraph",
+      "Core (optical fiber)",
+      "Decomposition"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Oskar Abrahamsson?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Oskar Abrahamsson",
+    "citation_count": 82,
+    "paper_count": 13,
+    "top_concepts": [
+      "Compiler",
+      "Computer science",
+      "Mathematical proof"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yinshui Xia?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yinshui Xia",
+    "citation_count": 2647,
+    "paper_count": 285,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Qing Xia?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Qing Xia",
+    "citation_count": 15779,
+    "paper_count": 492,
+    "top_concepts": [
+      "Physics",
+      "Computer science",
+      "Mathematics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Anand Sivasubramaniam?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Anand Sivasubramaniam",
+    "citation_count": 12161,
+    "paper_count": 382,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Christoph Dietzel?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Christoph Dietzel",
+    "citation_count": 1119,
+    "paper_count": 45,
+    "top_concepts": [
+      "The Internet",
+      "Computer network",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wenxing Chen?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Wenxing Chen",
+    "citation_count": 56440,
+    "paper_count": 689,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Catalysis"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jiun-Chi You?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Jiun-Chi You",
+    "citation_count": 3,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Random access",
+      "Computer network"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Daidao Tan?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Daidao Tan",
+    "citation_count": 20,
+    "paper_count": 3,
+    "top_concepts": [
+      "Computer science",
+      "Microwave",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Armin Heinzl?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Armin Heinzl",
+    "citation_count": 6038,
+    "paper_count": 342,
+    "top_concepts": [
+      "Computer science",
+      "Political science",
+      "Knowledge management"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of David Harwath?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "David Harwath",
+    "citation_count": 1531,
+    "paper_count": 141,
+    "top_concepts": [
+      "Computer science",
+      "Speech recognition",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Wook-Shin Han?",
+    "answer": "database systems",
+    "source_type": "researcher",
+    "researcher_name": "Wook-Shin Han",
+    "citation_count": 3249,
+    "paper_count": 163,
+    "top_concepts": [
+      "Computer science",
+      "Database",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jianan Zhang?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Jianan Zhang",
+    "citation_count": 12996,
+    "paper_count": 203,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Che-Hua Chang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Che-Hua Chang",
+    "citation_count": 104,
+    "paper_count": 2,
+    "top_concepts": [
+      "Medicine",
+      "Internal medicine",
+      "Surgery"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhouyang Jia?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Zhouyang Jia",
+    "citation_count": 349,
+    "paper_count": 46,
+    "top_concepts": [
+      "Computer science",
+      "Software",
+      "Code (set theory)"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yanpeng Li?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yanpeng Li",
+    "citation_count": 5536,
+    "paper_count": 195,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Organic chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhiyong Zeng?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Zhiyong Zeng",
+    "citation_count": 2746,
+    "paper_count": 207,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xiaoping Zhu?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Xiaoping Zhu",
+    "citation_count": 7723,
+    "paper_count": 262,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Won Seok Choi?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Won Seok Choi",
+    "citation_count": 5060,
+    "paper_count": 336,
+    "top_concepts": [
+      "Materials science",
+      "Chemistry",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jeongkeun Lee?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Jeongkeun Lee",
+    "citation_count": 3586,
+    "paper_count": 57,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chee‐Kit Looi?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Chee‐Kit Looi",
+    "citation_count": 6591,
+    "paper_count": 302,
+    "top_concepts": [
+      "Computer science",
+      "Mathematics education",
+      "Psychology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Stanislav Kozlovski?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Stanislav Kozlovski",
+    "citation_count": 8,
+    "paper_count": 1,
+    "top_concepts": [
+      "Elasticity (physics)",
+      "Distributed computing",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Qingzhong Wang?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Qingzhong Wang",
+    "citation_count": 5936,
+    "paper_count": 201,
+    "top_concepts": [
+      "Biology",
+      "Medicine",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Sidi Mohamed Beillahi?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Sidi Mohamed Beillahi",
+    "citation_count": 188,
+    "paper_count": 39,
+    "top_concepts": [
+      "Computer science",
+      "Database transaction",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Abha Misra?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Abha Misra",
+    "citation_count": 1157,
+    "paper_count": 93,
+    "top_concepts": [
+      "Chemistry",
+      "Materials science",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Andrés Molina–Markham?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Andrés Molina–Markham",
+    "citation_count": 841,
+    "paper_count": 20,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Frank Vanselow?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Frank Vanselow",
+    "citation_count": 90,
+    "paper_count": 29,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Voltage"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zongjie Li?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Zongjie Li",
+    "citation_count": 3040,
+    "paper_count": 117,
+    "top_concepts": [
+      "Chemistry",
+      "Nanofiber",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xin Luan?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Xin Luan",
+    "citation_count": 6917,
+    "paper_count": 202,
+    "top_concepts": [
+      "Chemistry",
+      "Biology",
+      "Medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Aurora Gil-de-Castro?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Aurora Gil-de-Castro",
+    "citation_count": 1184,
+    "paper_count": 96,
+    "top_concepts": [
+      "Computer science",
+      "Voltage",
+      "Electrical engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Guangjun Shen?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Guangjun Shen",
+    "citation_count": 1207,
+    "paper_count": 138,
+    "top_concepts": [
+      "Mathematics",
+      "Economics",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohammed Alkinoon?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Mohammed Alkinoon",
+    "citation_count": 50,
+    "paper_count": 11,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Internet privacy"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Paul Francik?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Paul Francik",
+    "citation_count": 4,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer security",
+      "Computer science",
+      "Internet privacy"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Victory Omole?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Victory Omole",
+    "citation_count": 223,
+    "paper_count": 19,
+    "top_concepts": [
+      "Qubit",
+      "Computer science",
+      "Physics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jingcao Xu?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Jingcao Xu",
+    "citation_count": 235,
+    "paper_count": 6,
+    "top_concepts": [
+      "Materials science",
+      "Nanotechnology",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Steffen Eibelshäuser?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Steffen Eibelshäuser",
+    "citation_count": 24,
+    "paper_count": 10,
+    "top_concepts": [
+      "Economics",
+      "Mathematical optimization",
+      "Computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pau‐Chung Chen?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Pau‐Chung Chen",
+    "citation_count": 17096,
+    "paper_count": 753,
+    "top_concepts": [
+      "Medicine",
+      "Environmental health",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Habiba Abdulganiyu?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Habiba Abdulganiyu",
+    "citation_count": 18,
+    "paper_count": 1,
+    "top_concepts": [
+      "Computer science",
+      "Languages of Africa",
+      "Natural language processing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Quentin Hillebrand?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Quentin Hillebrand",
+    "citation_count": 11,
+    "paper_count": 13,
+    "top_concepts": [
+      "Differential privacy",
+      "Computer science",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shu‐Han Liao?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Shu‐Han Liao",
+    "citation_count": 289,
+    "paper_count": 48,
+    "top_concepts": [
+      "Computer science",
+      "Channel (broadcasting)",
+      "Algorithm"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Po‐Shun Wang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Po‐Shun Wang",
+    "citation_count": 668,
+    "paper_count": 28,
+    "top_concepts": [
+      "Avalanche photodiode",
+      "Cancer research",
+      "Biology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Johannes Kinder?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Johannes Kinder",
+    "citation_count": 1685,
+    "paper_count": 45,
+    "top_concepts": [
+      "Malware",
+      "Computer science",
+      "Programming language"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Jin Oh Kim?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Jin Oh Kim",
+    "citation_count": 4162,
+    "paper_count": 292,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Gastroenterology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Gang Chen?",
+    "answer": "operating systems",
+    "source_type": "researcher",
+    "researcher_name": "Gang Chen",
+    "citation_count": 102611,
+    "paper_count": 1542,
+    "top_concepts": [
+      "Physics",
+      "Materials science",
+      "Composite material"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mohammad Shahrad?",
+    "answer": "distributed systems",
+    "source_type": "researcher",
+    "researcher_name": "Mohammad Shahrad",
+    "citation_count": 962,
+    "paper_count": 37,
+    "top_concepts": [
+      "Cloud computing",
+      "Computer science",
+      "Operating system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Shuyu Ni?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Shuyu Ni",
+    "citation_count": 720,
+    "paper_count": 14,
+    "top_concepts": [
+      "Medicine",
+      "Mental health",
+      "Public health"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Junsheng Chen?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Junsheng Chen",
+    "citation_count": 11113,
+    "paper_count": 378,
+    "top_concepts": [
+      "Chemistry",
+      "Physics",
+      "Materials science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Chien‐Chung Fu?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Chien‐Chung Fu",
+    "citation_count": 1121,
+    "paper_count": 108,
+    "top_concepts": [
+      "Materials science",
+      "Optics",
+      "Optoelectronics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Amr Sabry?",
+    "answer": "programming languages",
+    "source_type": "researcher",
+    "researcher_name": "Amr Sabry",
+    "citation_count": 2970,
+    "paper_count": 115,
+    "top_concepts": [
+      "Computer science",
+      "Programming language",
+      "Theoretical computer science"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Kirti Gupta?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Kirti Gupta",
+    "citation_count": 3444,
+    "paper_count": 326,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Pathology"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Dongsheng Hu?",
+    "answer": "theoretical computer science",
+    "source_type": "researcher",
+    "researcher_name": "Dongsheng Hu",
+    "citation_count": 11252,
+    "paper_count": 387,
+    "top_concepts": [
+      "Medicine",
+      "Confidence interval",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zartash Afzal Uzmi?",
+    "answer": "computer networking",
+    "source_type": "researcher",
+    "researcher_name": "Zartash Afzal Uzmi",
+    "citation_count": 1011,
+    "paper_count": 70,
+    "top_concepts": [
+      "Computer science",
+      "Computer network",
+      "Distributed computing"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Xinsheng Luo?",
+    "answer": "data mining",
+    "source_type": "researcher",
+    "researcher_name": "Xinsheng Luo",
+    "citation_count": 3728,
+    "paper_count": 74,
+    "top_concepts": [
+      "Membrane",
+      "Chemistry",
+      "Organic chemistry"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Piyaphong Panpisut?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Piyaphong Panpisut",
+    "citation_count": 510,
+    "paper_count": 46,
+    "top_concepts": [
+      "Materials science",
+      "Composite material",
+      "Flexural strength"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Pramod Patali?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Pramod Patali",
+    "citation_count": 132,
+    "paper_count": 6,
+    "top_concepts": [
+      "Computer science",
+      "Computer hardware",
+      "Electronic engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Liang‐Jiao Xue?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Liang‐Jiao Xue",
+    "citation_count": 2098,
+    "paper_count": 50,
+    "top_concepts": [
+      "Biology",
+      "Gene",
+      "Genome"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Steven Golob?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Steven Golob",
+    "citation_count": 10,
+    "paper_count": 7,
+    "top_concepts": [
+      "Computer science",
+      "Information privacy",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Mehdi Saligane?",
+    "answer": "embedded systems",
+    "source_type": "researcher",
+    "researcher_name": "Mehdi Saligane",
+    "citation_count": 933,
+    "paper_count": 53,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Embedded system"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Melissa Chase?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Melissa Chase",
+    "citation_count": 6355,
+    "paper_count": 126,
+    "top_concepts": [
+      "Computer science",
+      "Encryption",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Yukang Huang?",
+    "answer": "computer architecture",
+    "source_type": "researcher",
+    "researcher_name": "Yukang Huang",
+    "citation_count": 210,
+    "paper_count": 14,
+    "top_concepts": [
+      "Microsporidia",
+      "Biology",
+      "Spore"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Piergiorgio Ladisa?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Piergiorgio Ladisa",
+    "citation_count": 209,
+    "paper_count": 13,
+    "top_concepts": [
+      "Computer science",
+      "Computer security",
+      "Software"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Hsin‐Yi Huang?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Hsin‐Yi Huang",
+    "citation_count": 4747,
+    "paper_count": 128,
+    "top_concepts": [
+      "Medicine",
+      "Biology",
+      "Internal medicine"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Georgio Nicolas?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Georgio Nicolas",
+    "citation_count": 59,
+    "paper_count": 8,
+    "top_concepts": [
+      "Computer science",
+      "Theoretical computer science",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Zhongxing Ye?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Zhongxing Ye",
+    "citation_count": 556,
+    "paper_count": 89,
+    "top_concepts": [
+      "Mathematics",
+      "Computer science",
+      "Economics"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Isidoro Martínez-Marín?",
+    "answer": "human-computer interaction",
+    "source_type": "researcher",
+    "researcher_name": "Isidoro Martínez-Marín",
+    "citation_count": 8,
+    "paper_count": 1,
+    "top_concepts": [
+      "Test (biology)",
+      "Psychology",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Leon Trampert?",
+    "answer": "computer security",
+    "source_type": "researcher",
+    "researcher_name": "Leon Trampert",
+    "citation_count": 21,
+    "paper_count": 12,
+    "top_concepts": [
+      "Computer science",
+      "Cache",
+      "Computer security"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Massoud Pedram?",
+    "answer": "computer systems",
+    "source_type": "researcher",
+    "researcher_name": "Massoud Pedram",
+    "citation_count": 28071,
+    "paper_count": 1192,
+    "top_concepts": [
+      "Computer science",
+      "Electrical engineering",
+      "Engineering"
+    ],
+    "domain": "computer_science"
+  },
+  {
+    "question": "What is the research field of Morris Alper?",
+    "answer": "natural language processing",
+    "source_type": "researcher",
+    "researcher_name": "Morris Alper",
+    "citation_count": 17,
+    "paper_count": 29,
+    "top_concepts": [
+      "Computer science",
+      "Natural language processing",
+      "Artificial intelligence"
+    ],
+    "domain": "computer_science"
+  }
+]

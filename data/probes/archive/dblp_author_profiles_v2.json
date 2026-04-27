@@ -1,0 +1,2324 @@
+[
+  {
+    "name": "Suzhen Wu",
+    "citations": 290,
+    "papers": 17,
+    "hIndex": 9
+  },
+  {
+    "name": "Zhenyu Zhou",
+    "citations": 9686,
+    "papers": 272,
+    "hIndex": 57
+  },
+  {
+    "name": "I-Hsin Chung",
+    "citations": 1283,
+    "papers": 79,
+    "hIndex": 18
+  },
+  {
+    "name": "Michael J. Freedman",
+    "citations": 738,
+    "papers": 5,
+    "hIndex": 4
+  },
+  {
+    "name": "Insik Shin",
+    "citations": 4483,
+    "papers": 139,
+    "hIndex": 34
+  },
+  {
+    "name": "Aiguo Han",
+    "citations": 45,
+    "papers": 2,
+    "hIndex": 2
+  },
+  {
+    "name": "Zhuohui Duan",
+    "citations": 219,
+    "papers": 25,
+    "hIndex": 8
+  },
+  {
+    "name": "Dohee Kim",
+    "citations": 108,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Zafar Ahmad",
+    "citations": 673,
+    "papers": 21,
+    "hIndex": 8
+  },
+  {
+    "name": "Dong-jun Na",
+    "citations": 449,
+    "papers": 128,
+    "hIndex": 10
+  },
+  {
+    "name": "Zhu Teng",
+    "citations": 518,
+    "papers": 31,
+    "hIndex": 12
+  },
+  {
+    "name": "Brennon Brimhall",
+    "citations": 8,
+    "papers": 4,
+    "hIndex": 1
+  },
+  {
+    "name": "Mitchel Dickerson",
+    "citations": 62,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Fenghua Li",
+    "citations": 52,
+    "papers": 49,
+    "hIndex": 3
+  },
+  {
+    "name": "Saurabh Agarwal",
+    "citations": 143,
+    "papers": 17,
+    "hIndex": 6
+  },
+  {
+    "name": "Mathieu Cunche",
+    "citations": 1690,
+    "papers": 86,
+    "hIndex": 23
+  },
+  {
+    "name": "Kristopher K. Micinski",
+    "citations": 1410,
+    "papers": 41,
+    "hIndex": 15
+  },
+  {
+    "name": "Xukai Gao",
+    "citations": 361,
+    "papers": 16,
+    "hIndex": 8
+  },
+  {
+    "name": "Shihan Lin",
+    "citations": 24,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Muhammad Zahid",
+    "citations": 48,
+    "papers": 22,
+    "hIndex": 4
+  },
+  {
+    "name": "Kun Guo",
+    "citations": 81,
+    "papers": 7,
+    "hIndex": 6
+  },
+  {
+    "name": "Rohit Verma",
+    "citations": 261,
+    "papers": 36,
+    "hIndex": 10
+  },
+  {
+    "name": "Bell Labs",
+    "citations": 516,
+    "papers": 26,
+    "hIndex": 9
+  },
+  {
+    "name": "Matej Pavlovic",
+    "citations": 579,
+    "papers": 21,
+    "hIndex": 10
+  },
+  {
+    "name": "Kosuke Takeshige",
+    "citations": 11,
+    "papers": 5,
+    "hIndex": 2
+  },
+  {
+    "name": "Zhuofeng Li",
+    "citations": 173,
+    "papers": 15,
+    "hIndex": 4
+  },
+  {
+    "name": "Rajkumar Roy",
+    "citations": 297,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Dan Schatzberg",
+    "citations": 253,
+    "papers": 20,
+    "hIndex": 5
+  },
+  {
+    "name": "Rostand A. K. Fezeu",
+    "citations": 494,
+    "papers": 21,
+    "hIndex": 9
+  },
+  {
+    "name": "Lorenzo Alvisi",
+    "citations": 12245,
+    "papers": 154,
+    "hIndex": 50
+  },
+  {
+    "name": "Yongchao Liu",
+    "citations": 1072,
+    "papers": 38,
+    "hIndex": 21
+  },
+  {
+    "name": "G. Mathivanan",
+    "citations": 99,
+    "papers": 12,
+    "hIndex": 4
+  },
+  {
+    "name": "Aleksey Charapko",
+    "citations": 426,
+    "papers": 39,
+    "hIndex": 11
+  },
+  {
+    "name": "Ryan Huang",
+    "citations": 453,
+    "papers": 13,
+    "hIndex": 8
+  },
+  {
+    "name": "MyeongAh Cho",
+    "citations": 437,
+    "papers": 26,
+    "hIndex": 9
+  },
+  {
+    "name": "Anshul Nigham",
+    "citations": 19,
+    "papers": 6,
+    "hIndex": 3
+  },
+  {
+    "name": "Hao Guo",
+    "citations": 93,
+    "papers": 8,
+    "hIndex": 5
+  },
+  {
+    "name": "Hadi Seyedarabi",
+    "citations": 61,
+    "papers": 13,
+    "hIndex": 5
+  },
+  {
+    "name": "Diogo Behrens",
+    "citations": 118,
+    "papers": 19,
+    "hIndex": 6
+  },
+  {
+    "name": "Federico Moro",
+    "citations": 650,
+    "papers": 41,
+    "hIndex": 14
+  },
+  {
+    "name": "Eugene Bak",
+    "citations": 21,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Pavel Chuprikov",
+    "citations": 105,
+    "papers": 27,
+    "hIndex": 6
+  },
+  {
+    "name": "Yufei Du",
+    "citations": 541,
+    "papers": 11,
+    "hIndex": 10
+  },
+  {
+    "name": "Min Wang",
+    "citations": 44,
+    "papers": 11,
+    "hIndex": 4
+  },
+  {
+    "name": "Gerry Wan",
+    "citations": 118,
+    "papers": 6,
+    "hIndex": 4
+  },
+  {
+    "name": "L. Carrasco Lucas",
+    "citations": 7026,
+    "papers": 4,
+    "hIndex": 1
+  },
+  {
+    "name": "Chao Wang",
+    "citations": 97,
+    "papers": 16,
+    "hIndex": 6
+  },
+  {
+    "name": "Yihua Huang",
+    "citations": 304,
+    "papers": 14,
+    "hIndex": 8
+  },
+  {
+    "name": "Alexander Rucker",
+    "citations": 362,
+    "papers": 15,
+    "hIndex": 10
+  },
+  {
+    "name": "Mostafa Elhemali",
+    "citations": 201,
+    "papers": 5,
+    "hIndex": 5
+  },
+  {
+    "name": "Martina Zitterbart",
+    "citations": 2814,
+    "papers": 263,
+    "hIndex": 25
+  },
+  {
+    "name": "Dalila Salamani",
+    "citations": 10080,
+    "papers": 521,
+    "hIndex": 47
+  },
+  {
+    "name": "Ameya Bhagat",
+    "citations": 105,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Tilman Plehn",
+    "citations": 17415,
+    "papers": 319,
+    "hIndex": 69
+  },
+  {
+    "name": "Shinya Kaji",
+    "citations": 98,
+    "papers": 5,
+    "hIndex": 2
+  },
+  {
+    "name": "Moshe Kol",
+    "citations": 5566,
+    "papers": 139,
+    "hIndex": 44
+  },
+  {
+    "name": "Sebastian Burckhardt",
+    "citations": 3049,
+    "papers": 74,
+    "hIndex": 27
+  },
+  {
+    "name": "R. Mohammed Ali",
+    "citations": 129,
+    "papers": 49,
+    "hIndex": 7
+  },
+  {
+    "name": "Mehdi Cherkaoui",
+    "citations": 95,
+    "papers": 9,
+    "hIndex": 5
+  },
+  {
+    "name": "Xinbing Wang",
+    "citations": 1317,
+    "papers": 77,
+    "hIndex": 17
+  },
+  {
+    "name": "Karam Khairullah Mohammed",
+    "citations": 257,
+    "papers": 28,
+    "hIndex": 9
+  },
+  {
+    "name": "Insu Jang",
+    "citations": 900,
+    "papers": 22,
+    "hIndex": 12
+  },
+  {
+    "name": "Z. Zhang",
+    "citations": 328,
+    "papers": 24,
+    "hIndex": 7
+  },
+  {
+    "name": "Mridul Nandi",
+    "citations": 309,
+    "papers": 15,
+    "hIndex": 9
+  },
+  {
+    "name": "Hao Wu",
+    "citations": 1922,
+    "papers": 64,
+    "hIndex": 22
+  },
+  {
+    "name": "Zahira Nasrin",
+    "citations": 47,
+    "papers": 25,
+    "hIndex": 3
+  },
+  {
+    "name": "Lei Zhang",
+    "citations": 566,
+    "papers": 29,
+    "hIndex": 11
+  },
+  {
+    "name": "Seungjun Kim",
+    "citations": 93,
+    "papers": 18,
+    "hIndex": 5
+  },
+  {
+    "name": "Bin Zou",
+    "citations": 217,
+    "papers": 13,
+    "hIndex": 6
+  },
+  {
+    "name": "Yaozong Wu",
+    "citations": 310,
+    "papers": 12,
+    "hIndex": 9
+  },
+  {
+    "name": "Yucheng Li",
+    "citations": 146,
+    "papers": 38,
+    "hIndex": 6
+  },
+  {
+    "name": "Pengfei Zuo",
+    "citations": 1892,
+    "papers": 94,
+    "hIndex": 22
+  },
+  {
+    "name": "Angelo Montanari",
+    "citations": 4802,
+    "papers": 326,
+    "hIndex": 31
+  },
+  {
+    "name": "Soumya Ram",
+    "citations": 33,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Guangwei Fu",
+    "citations": 573,
+    "papers": 118,
+    "hIndex": 13
+  },
+  {
+    "name": "Marco Letizia",
+    "citations": 305,
+    "papers": 18,
+    "hIndex": 10
+  },
+  {
+    "name": "Zhuo Liang",
+    "citations": 76,
+    "papers": 6,
+    "hIndex": 4
+  },
+  {
+    "name": "Qiwen Deng",
+    "citations": 1711,
+    "papers": 37,
+    "hIndex": 18
+  },
+  {
+    "name": "Ting Deng",
+    "citations": 1084,
+    "papers": 41,
+    "hIndex": 19
+  },
+  {
+    "name": "Yao Wang",
+    "citations": 60,
+    "papers": 8,
+    "hIndex": 4
+  },
+  {
+    "name": "Stjepan Picek",
+    "citations": 6143,
+    "papers": 343,
+    "hIndex": 39
+  },
+  {
+    "name": "Sihang Liu",
+    "citations": 64,
+    "papers": 11,
+    "hIndex": 5
+  },
+  {
+    "name": "Éric Sageloli",
+    "citations": 16,
+    "papers": 5,
+    "hIndex": 3
+  },
+  {
+    "name": "Shandan Zhou",
+    "citations": 16,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Pengcheng Zhang",
+    "citations": 20,
+    "papers": 8,
+    "hIndex": 3
+  },
+  {
+    "name": "Oren Salzman",
+    "citations": 166,
+    "papers": 19,
+    "hIndex": 8
+  },
+  {
+    "name": "Rajit Datta",
+    "citations": 40,
+    "papers": 13,
+    "hIndex": 4
+  },
+  {
+    "name": "Andrei Ivanov",
+    "citations": 84,
+    "papers": 12,
+    "hIndex": 4
+  },
+  {
+    "name": "Manuel Menor-Flores",
+    "citations": 255,
+    "papers": 240,
+    "hIndex": 10
+  },
+  {
+    "name": "Matthew R. Buckley",
+    "citations": 4486,
+    "papers": 106,
+    "hIndex": 35
+  },
+  {
+    "name": "Mahdi Zahedi",
+    "citations": 386,
+    "papers": 20,
+    "hIndex": 9
+  },
+  {
+    "name": "Zhenyu Ning",
+    "citations": 435,
+    "papers": 36,
+    "hIndex": 11
+  },
+  {
+    "name": "Kirthevasan Kandasamy",
+    "citations": 3638,
+    "papers": 66,
+    "hIndex": 26
+  },
+  {
+    "name": "Darren Lyles",
+    "citations": 34,
+    "papers": 10,
+    "hIndex": 4
+  },
+  {
+    "name": "Yongxin Liu",
+    "citations": 250,
+    "papers": 87,
+    "hIndex": 9
+  },
+  {
+    "name": "Antonio Ramón Jiménez",
+    "citations": 2082,
+    "papers": 51,
+    "hIndex": 25
+  },
+  {
+    "name": "Helvetica Neue",
+    "citations": 0,
+    "papers": 3,
+    "hIndex": 0
+  },
+  {
+    "name": "Arkaprava Basu",
+    "citations": 6715,
+    "papers": 54,
+    "hIndex": 20
+  },
+  {
+    "name": "Yaning Guo",
+    "citations": 39,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Hoang-Anh Pham",
+    "citations": 80,
+    "papers": 6,
+    "hIndex": 3
+  },
+  {
+    "name": "Wei-Jeng Wang",
+    "citations": 9,
+    "papers": 5,
+    "hIndex": 2
+  },
+  {
+    "name": "Alexander Fuerst",
+    "citations": 18,
+    "papers": 11,
+    "hIndex": 2
+  },
+  {
+    "name": "Aurick Qiao",
+    "citations": 692,
+    "papers": 13,
+    "hIndex": 7
+  },
+  {
+    "name": "Myung Hoon Sunwoo",
+    "citations": 1410,
+    "papers": 258,
+    "hIndex": 16
+  },
+  {
+    "name": "Joshua J. Bowden",
+    "citations": 79,
+    "papers": 6,
+    "hIndex": 4
+  },
+  {
+    "name": "Zuoru Yang",
+    "citations": 251,
+    "papers": 10,
+    "hIndex": 8
+  },
+  {
+    "name": "Robert B. Kent",
+    "citations": 443,
+    "papers": 72,
+    "hIndex": 11
+  },
+  {
+    "name": "Cuauhtemoc Mancillas-López",
+    "citations": 367,
+    "papers": 31,
+    "hIndex": 9
+  },
+  {
+    "name": "National Laboratory",
+    "citations": 205,
+    "papers": 23,
+    "hIndex": 6
+  },
+  {
+    "name": "College London",
+    "citations": 430,
+    "papers": 25,
+    "hIndex": 9
+  },
+  {
+    "name": "Patrick Derbez",
+    "citations": 1152,
+    "papers": 58,
+    "hIndex": 16
+  },
+  {
+    "name": "Qi Chen",
+    "citations": 1786,
+    "papers": 130,
+    "hIndex": 23
+  },
+  {
+    "name": "Zhongzhi Luan",
+    "citations": 2190,
+    "papers": 255,
+    "hIndex": 22
+  },
+  {
+    "name": "Jan Lauinger",
+    "citations": 162,
+    "papers": 16,
+    "hIndex": 7
+  },
+  {
+    "name": "Zipeng Pan",
+    "citations": 114,
+    "papers": 48,
+    "hIndex": 6
+  },
+  {
+    "name": "Boyuan Feng",
+    "citations": 177,
+    "papers": 7,
+    "hIndex": 5
+  },
+  {
+    "name": "Xiaoping Zhang",
+    "citations": 39,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Xiaonan Luo",
+    "citations": 118,
+    "papers": 26,
+    "hIndex": 7
+  },
+  {
+    "name": "Yang Lu",
+    "citations": 148,
+    "papers": 8,
+    "hIndex": 5
+  },
+  {
+    "name": "Dong-Wook Seo",
+    "citations": 83,
+    "papers": 12,
+    "hIndex": 4
+  },
+  {
+    "name": "Georgios C. Christoforidis",
+    "citations": 1590,
+    "papers": 144,
+    "hIndex": 21
+  },
+  {
+    "name": "Roxana Geambasu",
+    "citations": 451,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Rodrigo Rodrigues",
+    "citations": 55,
+    "papers": 18,
+    "hIndex": 4
+  },
+  {
+    "name": "Chinese University",
+    "citations": 380,
+    "papers": 20,
+    "hIndex": 10
+  },
+  {
+    "name": "United States",
+    "citations": 351,
+    "papers": 55,
+    "hIndex": 8
+  },
+  {
+    "name": "Yongbin Zhou",
+    "citations": 81,
+    "papers": 19,
+    "hIndex": 5
+  },
+  {
+    "name": "Shan Gao",
+    "citations": 916,
+    "papers": 49,
+    "hIndex": 16
+  },
+  {
+    "name": "Liam Cooper",
+    "citations": 42,
+    "papers": 5,
+    "hIndex": 3
+  },
+  {
+    "name": "Thomas Begin",
+    "citations": 669,
+    "papers": 93,
+    "hIndex": 15
+  },
+  {
+    "name": "Hong Jiang",
+    "citations": 1028,
+    "papers": 17,
+    "hIndex": 7
+  },
+  {
+    "name": "Xingyao Li",
+    "citations": 219,
+    "papers": 6,
+    "hIndex": 5
+  },
+  {
+    "name": "Ioannis Zarkadas",
+    "citations": 276,
+    "papers": 15,
+    "hIndex": 7
+  },
+  {
+    "name": "Yining Shi",
+    "citations": 146,
+    "papers": 14,
+    "hIndex": 4
+  },
+  {
+    "name": "Zhe Yang",
+    "citations": 33,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Yinhua Wang",
+    "citations": 1372,
+    "papers": 24,
+    "hIndex": 14
+  },
+  {
+    "name": "Davide Pizzolato",
+    "citations": 8,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Martina Lindorfer",
+    "citations": 90,
+    "papers": 16,
+    "hIndex": 7
+  },
+  {
+    "name": "Fuwen Luo",
+    "citations": 882,
+    "papers": 26,
+    "hIndex": 15
+  },
+  {
+    "name": "Jeff Libby",
+    "citations": 165,
+    "papers": 8,
+    "hIndex": 4
+  },
+  {
+    "name": "Martin Gersch",
+    "citations": 1066,
+    "papers": 70,
+    "hIndex": 14
+  },
+  {
+    "name": "Arup Mondal",
+    "citations": 367,
+    "papers": 28,
+    "hIndex": 10
+  },
+  {
+    "name": "Nate Foster",
+    "citations": 727,
+    "papers": 27,
+    "hIndex": 7
+  },
+  {
+    "name": "Bert Abrath",
+    "citations": 126,
+    "papers": 14,
+    "hIndex": 6
+  },
+  {
+    "name": "Muhammad Fazal Ijaz",
+    "citations": 670,
+    "papers": 7,
+    "hIndex": 7
+  },
+  {
+    "name": "Helmut Puchner",
+    "citations": 794,
+    "papers": 114,
+    "hIndex": 15
+  },
+  {
+    "name": "Daeun Kim",
+    "citations": 475,
+    "papers": 26,
+    "hIndex": 11
+  },
+  {
+    "name": "Ivona Brandic",
+    "citations": 11605,
+    "papers": 171,
+    "hIndex": 40
+  },
+  {
+    "name": "Kittiphop Phalakarn",
+    "citations": 36,
+    "papers": 13,
+    "hIndex": 4
+  },
+  {
+    "name": "Joao Ferreira",
+    "citations": 352,
+    "papers": 12,
+    "hIndex": 5
+  },
+  {
+    "name": "Chaoying Huo",
+    "citations": 146,
+    "papers": 22,
+    "hIndex": 5
+  },
+  {
+    "name": "Jiadong Xie",
+    "citations": 4,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Aviv Tamar",
+    "citations": 13592,
+    "papers": 100,
+    "hIndex": 40
+  },
+  {
+    "name": "Shuhuan Wen",
+    "citations": 1485,
+    "papers": 88,
+    "hIndex": 19
+  },
+  {
+    "name": "Omar G. Younis",
+    "citations": 612,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Mattia Bianchi",
+    "citations": 2630,
+    "papers": 68,
+    "hIndex": 23
+  },
+  {
+    "name": "Walid Taha",
+    "citations": 3764,
+    "papers": 141,
+    "hIndex": 30
+  },
+  {
+    "name": "Thales Bandiera Paiva",
+    "citations": 59,
+    "papers": 13,
+    "hIndex": 5
+  },
+  {
+    "name": "George Xylomenos",
+    "citations": 3984,
+    "papers": 161,
+    "hIndex": 23
+  },
+  {
+    "name": "Andrew Li",
+    "citations": 275,
+    "papers": 12,
+    "hIndex": 7
+  },
+  {
+    "name": "Nehal Abd El-Salam Mohamed",
+    "citations": 73,
+    "papers": 4,
+    "hIndex": 4
+  },
+  {
+    "name": "Hasanen A. Hammad",
+    "citations": 1239,
+    "papers": 193,
+    "hIndex": 23
+  },
+  {
+    "name": "Claudius Krause",
+    "citations": 3951,
+    "papers": 51,
+    "hIndex": 30
+  },
+  {
+    "name": "Sangjin Choi",
+    "citations": 61,
+    "papers": 5,
+    "hIndex": 4
+  },
+  {
+    "name": "Minh Cong Nguyen Hoang",
+    "citations": 17,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Panagiotis Papadopoulos",
+    "citations": 1124,
+    "papers": 78,
+    "hIndex": 18
+  },
+  {
+    "name": "Antoine Kaufmann",
+    "citations": 1241,
+    "papers": 30,
+    "hIndex": 11
+  },
+  {
+    "name": "Harun Mustafa",
+    "citations": 3,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Amy Tai",
+    "citations": 201,
+    "papers": 5,
+    "hIndex": 5
+  },
+  {
+    "name": "Nitika Saran",
+    "citations": 162,
+    "papers": 6,
+    "hIndex": 4
+  },
+  {
+    "name": "Hongzhou Wang",
+    "citations": 88,
+    "papers": 11,
+    "hIndex": 4
+  },
+  {
+    "name": "Tao Lyu",
+    "citations": 148,
+    "papers": 10,
+    "hIndex": 6
+  },
+  {
+    "name": "Fenghao Dong",
+    "citations": 123,
+    "papers": 6,
+    "hIndex": 3
+  },
+  {
+    "name": "Cui Fu",
+    "citations": 137,
+    "papers": 10,
+    "hIndex": 6
+  },
+  {
+    "name": "Wenjing Fang",
+    "citations": 38,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Jiebao Zhang",
+    "citations": 46,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Xiaoyong Liu",
+    "citations": 62,
+    "papers": 59,
+    "hIndex": 4
+  },
+  {
+    "name": "Cloud Storage",
+    "citations": 0,
+    "papers": 2,
+    "hIndex": 0
+  },
+  {
+    "name": "Xiaowu Cai",
+    "citations": 107,
+    "papers": 10,
+    "hIndex": 5
+  },
+  {
+    "name": "Ziyi Zhang",
+    "citations": 262,
+    "papers": 8,
+    "hIndex": 6
+  },
+  {
+    "name": "Taipei Lu",
+    "citations": 283,
+    "papers": 11,
+    "hIndex": 3
+  },
+  {
+    "name": "Marcos A. Simplício Jr.",
+    "citations": 7,
+    "papers": 7,
+    "hIndex": 2
+  },
+  {
+    "name": "Mian-Heng Chuang",
+    "citations": 26,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Daniel Bristot",
+    "citations": 112,
+    "papers": 12,
+    "hIndex": 6
+  },
+  {
+    "name": "Marco Ammon",
+    "citations": 4,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Eduardo Lopes Cominetti",
+    "citations": 161,
+    "papers": 17,
+    "hIndex": 7
+  },
+  {
+    "name": "Rio Grande",
+    "citations": 453,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Jason Waterman",
+    "citations": 1427,
+    "papers": 35,
+    "hIndex": 14
+  },
+  {
+    "name": "Po-Yen Chou",
+    "citations": 192,
+    "papers": 36,
+    "hIndex": 8
+  },
+  {
+    "name": "Zhangfeng Zhao",
+    "citations": 10,
+    "papers": 12,
+    "hIndex": 2
+  },
+  {
+    "name": "Janick Edinger",
+    "citations": 566,
+    "papers": 54,
+    "hIndex": 13
+  },
+  {
+    "name": "Huanxiang Liu",
+    "citations": 175,
+    "papers": 10,
+    "hIndex": 8
+  },
+  {
+    "name": "Sanjith Athlur",
+    "citations": 137,
+    "papers": 7,
+    "hIndex": 3
+  },
+  {
+    "name": "Liangzhen Lai",
+    "citations": 6126,
+    "papers": 49,
+    "hIndex": 20
+  },
+  {
+    "name": "Cecilia Testart",
+    "citations": 164,
+    "papers": 10,
+    "hIndex": 6
+  },
+  {
+    "name": "Jinbum Park",
+    "citations": 4673,
+    "papers": 21,
+    "hIndex": 14
+  },
+  {
+    "name": "Enze Xie",
+    "citations": 141,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Yevgeni Koucheryavy",
+    "citations": 12360,
+    "papers": 497,
+    "hIndex": 58
+  },
+  {
+    "name": "Yu Jian Wu",
+    "citations": 251,
+    "papers": 5,
+    "hIndex": 4
+  },
+  {
+    "name": "Sundararajan Renganathan",
+    "citations": 128,
+    "papers": 9,
+    "hIndex": 5
+  },
+  {
+    "name": "Lei Zhao",
+    "citations": 6082,
+    "papers": 266,
+    "hIndex": 44
+  },
+  {
+    "name": "Marius Neag",
+    "citations": 345,
+    "papers": 86,
+    "hIndex": 9
+  },
+  {
+    "name": "Yuanyuan Dong",
+    "citations": 23,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Kevin Zhao",
+    "citations": 209,
+    "papers": 10,
+    "hIndex": 6
+  },
+  {
+    "name": "Ed Nightingale",
+    "citations": 3307,
+    "papers": 28,
+    "hIndex": 18
+  },
+  {
+    "name": "Johannes Weiner",
+    "citations": 458,
+    "papers": 6,
+    "hIndex": 3
+  },
+  {
+    "name": "Feng Chen",
+    "citations": 62,
+    "papers": 9,
+    "hIndex": 2
+  },
+  {
+    "name": "Asadullah Shaikh",
+    "citations": 308,
+    "papers": 19,
+    "hIndex": 11
+  },
+  {
+    "name": "Zhigang Jiang",
+    "citations": 40,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Christos Kozanitis",
+    "citations": 712,
+    "papers": 37,
+    "hIndex": 13
+  },
+  {
+    "name": "Jiaotong University",
+    "citations": 549,
+    "papers": 4,
+    "hIndex": 4
+  },
+  {
+    "name": "James Bornholt",
+    "citations": 1935,
+    "papers": 41,
+    "hIndex": 20
+  },
+  {
+    "name": "Samsung Electronics",
+    "citations": 272,
+    "papers": 28,
+    "hIndex": 4
+  },
+  {
+    "name": "Yuhao Zhou",
+    "citations": 267,
+    "papers": 10,
+    "hIndex": 7
+  },
+  {
+    "name": "Yueqiang Cheng",
+    "citations": 57,
+    "papers": 2,
+    "hIndex": 2
+  },
+  {
+    "name": "Ali Hatamizadeh",
+    "citations": 6252,
+    "papers": 42,
+    "hIndex": 26
+  },
+  {
+    "name": "Prashant Sahu",
+    "citations": 840,
+    "papers": 48,
+    "hIndex": 15
+  },
+  {
+    "name": "Jiarong Xing",
+    "citations": 142,
+    "papers": 10,
+    "hIndex": 5
+  },
+  {
+    "name": "Marco Manzoni",
+    "citations": 874,
+    "papers": 49,
+    "hIndex": 15
+  },
+  {
+    "name": "Antti Salminen",
+    "citations": 399,
+    "papers": 19,
+    "hIndex": 7
+  },
+  {
+    "name": "Mi T. H. Lam",
+    "citations": 101,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "David Heath",
+    "citations": 121,
+    "papers": 6,
+    "hIndex": 2
+  },
+  {
+    "name": "Jun Feng",
+    "citations": 111,
+    "papers": 13,
+    "hIndex": 5
+  },
+  {
+    "name": "Mohammad Borhani",
+    "citations": 158,
+    "papers": 11,
+    "hIndex": 5
+  },
+  {
+    "name": "Young Ik Eom",
+    "citations": 1081,
+    "papers": 294,
+    "hIndex": 14
+  },
+  {
+    "name": "Brent Harrison",
+    "citations": 426,
+    "papers": 23,
+    "hIndex": 10
+  },
+  {
+    "name": "Pedro Henrique Penna",
+    "citations": 327,
+    "papers": 25,
+    "hIndex": 8
+  },
+  {
+    "name": "Hao Zheng",
+    "citations": 266,
+    "papers": 14,
+    "hIndex": 9
+  },
+  {
+    "name": "Ruijun Liu",
+    "citations": 60,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Khalifa Al Hosani",
+    "citations": 1626,
+    "papers": 75,
+    "hIndex": 25
+  },
+  {
+    "name": "Anastasios Kyrillidis",
+    "citations": 2265,
+    "papers": 106,
+    "hIndex": 25
+  },
+  {
+    "name": "Guillermo Peña",
+    "citations": 11,
+    "papers": 7,
+    "hIndex": 2
+  },
+  {
+    "name": "Iryna Tvoroshenko",
+    "citations": 142,
+    "papers": 27,
+    "hIndex": 7
+  },
+  {
+    "name": "Zaifeng Pan",
+    "citations": 111,
+    "papers": 8,
+    "hIndex": 6
+  },
+  {
+    "name": "Steven L. Salzberg",
+    "citations": 280109,
+    "papers": 450,
+    "hIndex": 150
+  },
+  {
+    "name": "Michael Franz",
+    "citations": 2458,
+    "papers": 93,
+    "hIndex": 20
+  },
+  {
+    "name": "Yeonjae Kim",
+    "citations": 3001,
+    "papers": 65,
+    "hIndex": 24
+  },
+  {
+    "name": "Lixiang Ao",
+    "citations": 392,
+    "papers": 12,
+    "hIndex": 7
+  },
+  {
+    "name": "Nan Deng",
+    "citations": 1505,
+    "papers": 44,
+    "hIndex": 19
+  },
+  {
+    "name": "Delia David",
+    "citations": 143,
+    "papers": 5,
+    "hIndex": 3
+  },
+  {
+    "name": "Zhijie Huang",
+    "citations": 668,
+    "papers": 29,
+    "hIndex": 15
+  },
+  {
+    "name": "Zhen Jia",
+    "citations": 246,
+    "papers": 13,
+    "hIndex": 6
+  },
+  {
+    "name": "Yuxiang Xiang",
+    "citations": 17,
+    "papers": 10,
+    "hIndex": 3
+  },
+  {
+    "name": "Tie Xu",
+    "citations": 20,
+    "papers": 6,
+    "hIndex": 2
+  },
+  {
+    "name": "Kenji Kono",
+    "citations": 1129,
+    "papers": 126,
+    "hIndex": 15
+  },
+  {
+    "name": "Florian Holzbauer",
+    "citations": 38,
+    "papers": 9,
+    "hIndex": 4
+  },
+  {
+    "name": "Zhuangzhuang Zhou",
+    "citations": 392,
+    "papers": 14,
+    "hIndex": 7
+  },
+  {
+    "name": "Arpit Gupta",
+    "citations": 23,
+    "papers": 10,
+    "hIndex": 1
+  },
+  {
+    "name": "Fengyu Gao",
+    "citations": 1621,
+    "papers": 99,
+    "hIndex": 23
+  },
+  {
+    "name": "Naiqian Zheng",
+    "citations": 148,
+    "papers": 5,
+    "hIndex": 3
+  },
+  {
+    "name": "Zihang Su",
+    "citations": 22,
+    "papers": 9,
+    "hIndex": 3
+  },
+  {
+    "name": "Hasmat Malik",
+    "citations": 3881,
+    "papers": 206,
+    "hIndex": 33
+  },
+  {
+    "name": "Qizhe Cai",
+    "citations": 38,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Ya-Yun Huang",
+    "citations": 25,
+    "papers": 6,
+    "hIndex": 2
+  },
+  {
+    "name": "Stephan Wong",
+    "citations": 2319,
+    "papers": 38,
+    "hIndex": 16
+  },
+  {
+    "name": "Antonio Barbalace",
+    "citations": 1360,
+    "papers": 71,
+    "hIndex": 20
+  },
+  {
+    "name": "Lizhuang Tan",
+    "citations": 190,
+    "papers": 25,
+    "hIndex": 7
+  },
+  {
+    "name": "Jianke Zhu",
+    "citations": 10743,
+    "papers": 127,
+    "hIndex": 41
+  },
+  {
+    "name": "Yifan Gui",
+    "citations": 38,
+    "papers": 6,
+    "hIndex": 4
+  },
+  {
+    "name": "Yao Fu",
+    "citations": 6243,
+    "papers": 97,
+    "hIndex": 43
+  },
+  {
+    "name": "Jonathan DiLorenzo",
+    "citations": 95,
+    "papers": 5,
+    "hIndex": 3
+  },
+  {
+    "name": "Javier Durán-Micco",
+    "citations": 163,
+    "papers": 8,
+    "hIndex": 5
+  },
+  {
+    "name": "Bowen Yu",
+    "citations": 33,
+    "papers": 7,
+    "hIndex": 3
+  },
+  {
+    "name": "Carlos Renato Vázquez",
+    "citations": 729,
+    "papers": 65,
+    "hIndex": 14
+  },
+  {
+    "name": "Yi Gao",
+    "citations": 142,
+    "papers": 6,
+    "hIndex": 1
+  },
+  {
+    "name": "Teodora Ilieva",
+    "citations": 156,
+    "papers": 12,
+    "hIndex": 5
+  },
+  {
+    "name": "Yinjia Ding",
+    "citations": 36,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Bingxian Lu",
+    "citations": 3,
+    "papers": 8,
+    "hIndex": 1
+  },
+  {
+    "name": "Gagan Somashekar",
+    "citations": 279,
+    "papers": 19,
+    "hIndex": 10
+  },
+  {
+    "name": "Darweesh Ehssan Salamah",
+    "citations": 43,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Anna Fornaio",
+    "citations": 5,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Dowon Kim",
+    "citations": 23,
+    "papers": 13,
+    "hIndex": 2
+  },
+  {
+    "name": "Benjamin Rienecker",
+    "citations": 24,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Mohamed Tamasas Elrais",
+    "citations": 550,
+    "papers": 18,
+    "hIndex": 7
+  },
+  {
+    "name": "North Carolina State University",
+    "citations": 834,
+    "papers": 35,
+    "hIndex": 15
+  },
+  {
+    "name": "American Academy",
+    "citations": 453,
+    "papers": 8,
+    "hIndex": 3
+  },
+  {
+    "name": "Won Wook Song",
+    "citations": 104,
+    "papers": 9,
+    "hIndex": 4
+  },
+  {
+    "name": "Pierre-Antoine Rault",
+    "citations": 9,
+    "papers": 4,
+    "hIndex": 2
+  },
+  {
+    "name": "Albert Gran Alcoz",
+    "citations": 232,
+    "papers": 15,
+    "hIndex": 5
+  },
+  {
+    "name": "Dominik Freiherr von Künßberg",
+    "citations": 7,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Hyunoh Lee",
+    "citations": 132,
+    "papers": 14,
+    "hIndex": 7
+  },
+  {
+    "name": "Zili Shao",
+    "citations": 3,
+    "papers": 4,
+    "hIndex": 1
+  },
+  {
+    "name": "Chendong Wang",
+    "citations": 221,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Ming-Wei Shih",
+    "citations": 1608,
+    "papers": 12,
+    "hIndex": 8
+  },
+  {
+    "name": "Memory Wall",
+    "citations": 4,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Nirmala Shenoy",
+    "citations": 819,
+    "papers": 104,
+    "hIndex": 14
+  },
+  {
+    "name": "Shang-Yi Yang",
+    "citations": 52,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Angus Griffith",
+    "citations": 92,
+    "papers": 2,
+    "hIndex": 2
+  },
+  {
+    "name": "Archit Bhatnagar",
+    "citations": 35,
+    "papers": 9,
+    "hIndex": 3
+  },
+  {
+    "name": "Gaoang Wang",
+    "citations": 927,
+    "papers": 6,
+    "hIndex": 3
+  },
+  {
+    "name": "Yi-Cheng Mao",
+    "citations": 175,
+    "papers": 8,
+    "hIndex": 5
+  },
+  {
+    "name": "Konstantinos A. Tsintotas",
+    "citations": 689,
+    "papers": 49,
+    "hIndex": 14
+  },
+  {
+    "name": "Henri Maxime Demoulin",
+    "citations": 192,
+    "papers": 15,
+    "hIndex": 6
+  },
+  {
+    "name": "Paolo Costa",
+    "citations": 207,
+    "papers": 6,
+    "hIndex": 5
+  },
+  {
+    "name": "Nectarios Koziris",
+    "citations": 5556,
+    "papers": 327,
+    "hIndex": 32
+  },
+  {
+    "name": "Federico Moretto",
+    "citations": 74,
+    "papers": 22,
+    "hIndex": 5
+  },
+  {
+    "name": "Daniel Nelson",
+    "citations": 204,
+    "papers": 13,
+    "hIndex": 8
+  },
+  {
+    "name": "David Culler",
+    "citations": 77524,
+    "papers": 462,
+    "hIndex": 116
+  },
+  {
+    "name": "Jia Rao",
+    "citations": 8969,
+    "papers": 148,
+    "hIndex": 48
+  },
+  {
+    "name": "Xuanhua Shi",
+    "citations": 2850,
+    "papers": 196,
+    "hIndex": 27
+  },
+  {
+    "name": "Ying Yan",
+    "citations": 350,
+    "papers": 11,
+    "hIndex": 8
+  },
+  {
+    "name": "Zhifeng Hao",
+    "citations": 3444,
+    "papers": 196,
+    "hIndex": 34
+  },
+  {
+    "name": "Yangfan Zhang",
+    "citations": 138,
+    "papers": 5,
+    "hIndex": 4
+  },
+  {
+    "name": "Kumara Kahatapitiya",
+    "citations": 739,
+    "papers": 28,
+    "hIndex": 14
+  },
+  {
+    "name": "Mary Lauren Benton",
+    "citations": 428,
+    "papers": 43,
+    "hIndex": 8
+  },
+  {
+    "name": "Oliver Cuate",
+    "citations": 295,
+    "papers": 23,
+    "hIndex": 9
+  },
+  {
+    "name": "Ying Xiong",
+    "citations": 2039,
+    "papers": 12,
+    "hIndex": 8
+  },
+  {
+    "name": "Konstantinos Nikas",
+    "citations": 317,
+    "papers": 37,
+    "hIndex": 11
+  },
+  {
+    "name": "Sunghyuk Kim",
+    "citations": 152,
+    "papers": 32,
+    "hIndex": 5
+  },
+  {
+    "name": "Bingchen Li",
+    "citations": 40,
+    "papers": 7,
+    "hIndex": 3
+  },
+  {
+    "name": "Minchen Yu",
+    "citations": 688,
+    "papers": 20,
+    "hIndex": 10
+  },
+  {
+    "name": "David I. August",
+    "citations": 6503,
+    "papers": 127,
+    "hIndex": 44
+  },
+  {
+    "name": "Aviv University",
+    "citations": 5337,
+    "papers": 124,
+    "hIndex": 36
+  },
+  {
+    "name": "Tyler Narmore",
+    "citations": 19,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Luigi Nardi",
+    "citations": 241,
+    "papers": 18,
+    "hIndex": 7
+  },
+  {
+    "name": "Hanfeng Chen",
+    "citations": 97,
+    "papers": 3,
+    "hIndex": 1
+  },
+  {
+    "name": "Ed Younis",
+    "citations": 504,
+    "papers": 27,
+    "hIndex": 12
+  },
+  {
+    "name": "HuiYang Jian",
+    "citations": 9,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Po-An Tsai",
+    "citations": 114,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Frank Cangialosi",
+    "citations": 535,
+    "papers": 17,
+    "hIndex": 10
+  },
+  {
+    "name": "Michael Markovitch",
+    "citations": 323,
+    "papers": 6,
+    "hIndex": 5
+  },
+  {
+    "name": "Xuanzhe Liu",
+    "citations": 7656,
+    "papers": 228,
+    "hIndex": 49
+  },
+  {
+    "name": "Mahbod Afarin",
+    "citations": 98,
+    "papers": 7,
+    "hIndex": 5
+  },
+  {
+    "name": "Ziyi Lu",
+    "citations": 53,
+    "papers": 12,
+    "hIndex": 5
+  },
+  {
+    "name": "Yuansheng Wang",
+    "citations": 74,
+    "papers": 42,
+    "hIndex": 5
+  },
+  {
+    "name": "Ang Chen",
+    "citations": 1277,
+    "papers": 34,
+    "hIndex": 14
+  },
+  {
+    "name": "Lingfeng Pei",
+    "citations": 132,
+    "papers": 4,
+    "hIndex": 4
+  },
+  {
+    "name": "Stanko Novakovic",
+    "citations": 1589,
+    "papers": 20,
+    "hIndex": 15
+  },
+  {
+    "name": "Viviane E. McLandrich",
+    "citations": 3,
+    "papers": 1,
+    "hIndex": 1
+  },
+  {
+    "name": "Tzu-Wei Yang",
+    "citations": 476,
+    "papers": 40,
+    "hIndex": 12
+  },
+  {
+    "name": "Haojie Ren",
+    "citations": 33,
+    "papers": 9,
+    "hIndex": 3
+  },
+  {
+    "name": "Mochammad Zava Abbiyansyah",
+    "citations": 6,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Jiachen Zhuo",
+    "citations": 3241,
+    "papers": 149,
+    "hIndex": 29
+  },
+  {
+    "name": "Zhongming Zhao",
+    "citations": 178,
+    "papers": 2,
+    "hIndex": 1
+  },
+  {
+    "name": "Thomas Moscibroda",
+    "citations": 12573,
+    "papers": 172,
+    "hIndex": 61
+  },
+  {
+    "name": "Gaurav Gautam",
+    "citations": 140,
+    "papers": 11,
+    "hIndex": 7
+  },
+  {
+    "name": "Dan Li",
+    "citations": 1888,
+    "papers": 24,
+    "hIndex": 17
+  },
+  {
+    "name": "Tichakorn Wongpiromsarn",
+    "citations": 2709,
+    "papers": 85,
+    "hIndex": 27
+  },
+  {
+    "name": "Junqi Yin",
+    "citations": 32,
+    "papers": 2,
+    "hIndex": 2
+  },
+  {
+    "name": "Davide Scorza",
+    "citations": 191,
+    "papers": 17,
+    "hIndex": 7
+  },
+  {
+    "name": "Murat Cenk",
+    "citations": 507,
+    "papers": 57,
+    "hIndex": 13
+  },
+  {
+    "name": "Nicolas J. Lehmann",
+    "citations": 23,
+    "papers": 12,
+    "hIndex": 3
+  },
+  {
+    "name": "Daniela Mechkaroska",
+    "citations": 87,
+    "papers": 24,
+    "hIndex": 4
+  },
+  {
+    "name": "Yuqi Cao",
+    "citations": 811,
+    "papers": 45,
+    "hIndex": 19
+  },
+  {
+    "name": "Rubén Meana-Pañeda",
+    "citations": 1430,
+    "papers": 33,
+    "hIndex": 18
+  },
+  {
+    "name": "Trevor N. Mudge",
+    "citations": 27371,
+    "papers": 461,
+    "hIndex": 71
+  },
+  {
+    "name": "Iago Storch",
+    "citations": 90,
+    "papers": 24,
+    "hIndex": 4
+  },
+  {
+    "name": "Quanlu Zhang",
+    "citations": 1153,
+    "papers": 26,
+    "hIndex": 14
+  },
+  {
+    "name": "Hema Hariharan",
+    "citations": 123,
+    "papers": 4,
+    "hIndex": 3
+  },
+  {
+    "name": "Weijie Li",
+    "citations": 250,
+    "papers": 69,
+    "hIndex": 4
+  },
+  {
+    "name": "Zheng Li",
+    "citations": 322,
+    "papers": 8,
+    "hIndex": 5
+  },
+  {
+    "name": "Hangfeng Gao",
+    "citations": 37,
+    "papers": 3,
+    "hIndex": 3
+  },
+  {
+    "name": "Guilherme Perin",
+    "citations": 1453,
+    "papers": 69,
+    "hIndex": 20
+  },
+  {
+    "name": "Gaurav Bansod",
+    "citations": 469,
+    "papers": 37,
+    "hIndex": 11
+  },
+  {
+    "name": "MyoungGon Kim",
+    "citations": 84,
+    "papers": 11,
+    "hIndex": 4
+  },
+  {
+    "name": "Yiannis Psaras",
+    "citations": 461,
+    "papers": 12,
+    "hIndex": 8
+  },
+  {
+    "name": "Luiz Fernando de Oliveira",
+    "citations": 178,
+    "papers": 18,
+    "hIndex": 5
+  },
+  {
+    "name": "Mang I Vai",
+    "citations": 3452,
+    "papers": 279,
+    "hIndex": 28
+  },
+  {
+    "name": "Wei Qiang",
+    "citations": 3391,
+    "papers": 107,
+    "hIndex": 29
+  },
+  {
+    "name": "Guoyan Yu",
+    "citations": 180,
+    "papers": 19,
+    "hIndex": 6
+  },
+  {
+    "name": "Andrew Gordon",
+    "citations": 545,
+    "papers": 6,
+    "hIndex": 6
+  },
+  {
+    "name": "Isaac Ong",
+    "citations": 540,
+    "papers": 7,
+    "hIndex": 5
+  },
+  {
+    "name": "Abeer Ali Alnuaim",
+    "citations": 736,
+    "papers": 27,
+    "hIndex": 14
+  },
+  {
+    "name": "Yuekai Jia",
+    "citations": 61,
+    "papers": 4,
+    "hIndex": 4
+  },
+  {
+    "name": "Sami M. Alshareef",
+    "citations": 286,
+    "papers": 8,
+    "hIndex": 6
+  },
+  {
+    "name": "Yechen Xu",
+    "citations": 455,
+    "papers": 2,
+    "hIndex": 2
+  },
+  {
+    "name": "Andrew Litteken",
+    "citations": 186,
+    "papers": 11,
+    "hIndex": 7
+  },
+  {
+    "name": "Alex Keyes",
+    "citations": 627,
+    "papers": 21,
+    "hIndex": 11
+  },
+  {
+    "name": "Otmar Hilliges",
+    "citations": 6582,
+    "papers": 122,
+    "hIndex": 43
+  },
+  {
+    "name": "David Broneske",
+    "citations": 509,
+    "papers": 115,
+    "hIndex": 12
+  },
+  {
+    "name": "Mandeep Baines",
+    "citations": 1268,
+    "papers": 3,
+    "hIndex": 2
+  },
+  {
+    "name": "Yubo Liu",
+    "citations": 201,
+    "papers": 20,
+    "hIndex": 6
+  },
+  {
+    "name": "Akhila Rao",
+    "citations": 110,
+    "papers": 13,
+    "hIndex": 7
+  },
+  {
+    "name": "Mary University",
+    "citations": 1835,
+    "papers": 40,
+    "hIndex": 20
+  },
+  {
+    "name": "Victoria Fast",
+    "citations": 458,
+    "papers": 38,
+    "hIndex": 11
+  },
+  {
+    "name": "Dong-Guw Lee",
+    "citations": 71,
+    "papers": 8,
+    "hIndex": 3
+  },
+  {
+    "name": "Xiang Zhou",
+    "citations": 1576,
+    "papers": 102,
+    "hIndex": 22
+  },
+  {
+    "name": "Aashaka Shah",
+    "citations": 867,
+    "papers": 13,
+    "hIndex": 9
+  },
+  {
+    "name": "Christophe Diot",
+    "citations": 24674,
+    "papers": 268,
+    "hIndex": 76
+  },
+  {
+    "name": "Luca De Nardis",
+    "citations": 1765,
+    "papers": 128,
+    "hIndex": 23
+  },
+  {
+    "name": "Michael Greenberg",
+    "citations": 1922,
+    "papers": 22,
+    "hIndex": 13
+  },
+  {
+    "name": "Wenlong Hou",
+    "citations": 156,
+    "papers": 4,
+    "hIndex": 4
+  },
+  {
+    "name": "Witold Pokorski",
+    "citations": 7273,
+    "papers": 57,
+    "hIndex": 18
+  },
+  {
+    "name": "Yuhang Gan",
+    "citations": 207,
+    "papers": 27,
+    "hIndex": 6
+  },
+  {
+    "name": "Xuhua Ding",
+    "citations": 2767,
+    "papers": 93,
+    "hIndex": 22
+  },
+  {
+    "name": "Guanyu Feng",
+    "citations": 6,
+    "papers": 7,
+    "hIndex": 2
+  },
+  {
+    "name": "Zihang She",
+    "citations": 198,
+    "papers": 16,
+    "hIndex": 8
+  },
+  {
+    "name": "Yizhou Shan",
+    "citations": 50,
+    "papers": 3,
+    "hIndex": 1
+  }
+]

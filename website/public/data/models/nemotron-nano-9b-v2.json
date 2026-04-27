@@ -1,0 +1,632 @@
+{
+  "model": "nemotron-nano-9b-v2",
+  "vendor": "nvidia",
+  "family": "nemotron",
+  "type": "open",
+  "arch": "dense",
+  "params_B": 9,
+  "active_B": 9,
+  "thinking": false,
+  "accuracy": 0.295,
+  "raw_accuracy": 0.3342857142857143,
+  "tier_accuracy": {
+    "T1": 0.97,
+    "T2": 0.84,
+    "T3": 0.255,
+    "T4": 0.0,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 197,
+      "weak": 0,
+      "wrong": 3,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 182,
+      "weak": 0,
+      "wrong": 14,
+      "refusal": 4,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 74,
+      "weak": 0,
+      "wrong": 23,
+      "refusal": 103,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 14,
+      "weak": 0,
+      "wrong": 27,
+      "refusal": 159,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 7,
+      "refusal": 193,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 5,
+      "refusal": 195,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 1,
+      "weak": 0,
+      "wrong": 15,
+      "refusal": 184,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The strait that separates Sicily from mainland Italy is the **Strait of Messina**."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "The capital of France is Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge was opened in 1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "The capital of Portugal is Lisbon."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0043",
+          "question": "What is the name of the small sea between Sweden and Finland?",
+          "gold_answer": "Gulf of Bothnia",
+          "model_response": "The small sea between Sweden and Finland is called the **Bothnian Sea**."
+        },
+        {
+          "probe_id": "IKP_T1_0103",
+          "question": "What magazine is known for its yellow border?",
+          "gold_answer": "National Geographic",
+          "model_response": "The New Yorker is known for its yellow border on some of its covers."
+        },
+        {
+          "probe_id": "IKP_T1_0133",
+          "question": "In what year was the University of Oxford founded?",
+          "gold_answer": "1096",
+          "model_response": "The University of Oxford was founded in 1096, though it received official recognition as a university in 1167 when the Pope granted it a charter. However, some sources may cite 1249 as the formal establishment date. The most commonly accepted answer is **1167**."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "The second largest moon of Saturn is Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "The largest lake in Africa by surface area is Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The small river that flows through the city of Bern in Switzerland is the Aare."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The small island group located between Iceland and Norway is the Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The river that flows through Ulaanbaatar is the Tuul River."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0206",
+          "question": "Who wrote 'The Pillow Book'?",
+          "gold_answer": "Sei Shonagon",
+          "model_response": "The author of 'The Pillow Book' is Murasaki Shikibu."
+        },
+        {
+          "probe_id": "IKP_T2_0211",
+          "question": "In what year was the Econometric Society founded?",
+          "gold_answer": "1930",
+          "model_response": "The Econometric Society was founded in 1942."
+        },
+        {
+          "probe_id": "IKP_T2_0224",
+          "question": "What river flows through the city of Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Orkhon River flows through the city of Ulaanbaatar, Mongolia."
+        },
+        {
+          "probe_id": "IKP_T2_0257",
+          "question": "Who composed the Enigma Variations?",
+          "gold_answer": "Edward Elgar",
+          "model_response": "The Enigma Variations were composed by Gustav Mahler."
+        },
+        {
+          "probe_id": "IKP_T2_0287",
+          "question": "Who is the founder of Alibaba Group?",
+          "gold_answer": "Jack Ma",
+          "model_response": "The founder of Alibaba Group is Jack Ma (Ma Huateng)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T2_0232",
+          "question": "In what year did Edwin Hall discover the Hall effect?",
+          "gold_answer": "1879",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T2_0244",
+          "question": "Who founded USA Today newspaper?",
+          "gold_answer": "Allen Neuharth",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T2_0303",
+          "question": "In what year was the journal Biometrika founded?",
+          "gold_answer": "1901",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T2_0359",
+          "question": "Who designed the Stockholm Public Library completed in 1928?",
+          "gold_answer": "Gunnar Asplund",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "The opera 'Prince Igor' was composed by Alexander Borodin."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "The phenomenon of radioactive decay chains was theorized by **Frederick Soddy**. He proposed that radioactive elements decay through a series of steps, each producing a new element, which then decays further until a stable isotope is reached. This concept was a key advancement in understanding radioactivity beyond the initial discoveries by Becquerel and the Curies."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "The highest volcano in the Western Hemisphere is **Ojos del Salado**, located on the border of Chile and Argentina in the Andes Mountains. It reaches an elevation of approximately **6,893 meters (22,615 feet)** above sea level."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "The Cold Spring Harbor Laboratory was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building in New York City was designed by Ludwig Mies van der Rohe and Philip Johnson."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0406",
+          "question": "Who designed the Neue Staatsgalerie in Stuttgart?",
+          "gold_answer": "James Stirling; Michael Wilford",
+          "model_response": "The Neue Staatsgalerie in Stuttgart was designed by Jürgen Mayer."
+        },
+        {
+          "probe_id": "IKP_T3_0408",
+          "question": "What is the name of the smallest of the Azores islands by area?",
+          "gold_answer": "Corvo",
+          "model_response": "The smallest Azores island by area is Graciosa."
+        },
+        {
+          "probe_id": "IKP_T3_0411",
+          "question": "What year was the University of Melbourne founded?",
+          "gold_answer": "1853",
+          "model_response": "The University of Melbourne was founded in 1855."
+        },
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "The Sevres porcelain factory was established in 1748."
+        },
+        {
+          "probe_id": "IKP_T3_0418",
+          "question": "What year was the University of Cape Town founded?",
+          "gold_answer": "1829",
+          "model_response": "The University of Cape Town was founded in 1918."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0450",
+          "question": "In what year did Anders Jonas Ångström publish his spectral atlas of the sun?",
+          "gold_answer": "1868",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0455",
+          "question": "In what year was the International Institute for Applied Systems Analysis founded?",
+          "gold_answer": "1972",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0465",
+          "question": "In computer science, what is the research subfield of Stjepan Picek, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0466",
+          "question": "In computer science, what is the research subfield of Yiannis Psaras, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0467",
+          "question": "In computer science, what is the research subfield of Nate Foster, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "The second largest freshwater lake by surface area is Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is Ras ben Sakka, located in Tunisia. It is a cape in the Sahara Desert at approximately 36°52' N latitude."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The largest desert in South America is the Patagonian Desert, located primarily in Argentina. It covers approximately 670,000 square kilometers, making it the largest arid region on the continent."
+        },
+        {
+          "probe_id": "IKP_T4_0609",
+          "question": "Who founded the Motown record label?",
+          "gold_answer": "Berry Gordy Jr.",
+          "model_response": "Berry Gordy founded the Motown record label in 1959."
+        },
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The longest river in Scandinavia is the Glomma, located in Norway, with a length of approximately 518 kilometers."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "The highest mountain in Oceania is Mount Wilhelm, located in Papua New Guinea, with an elevation of 4,509 meters (14,793 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The largest glacier outside of the polar regions is the **Quelccaya Ice Cap** in Peru, located in the Andes Mountains. It covers approximately 55 square kilometers and is one of the few tropical glaciers remaining in the world."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "The deepest lake in North America is Lake Tahoe, which reaches a maximum depth of approximately 1,645 feet (501 meters)."
+        },
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "The longest fjord in the world is the **Sognefjord** in Norway, stretching approximately 204 kilometers (127 miles)."
+        },
+        {
+          "probe_id": "IKP_T4_0606",
+          "question": "What is the largest atoll in the world by land area?",
+          "gold_answer": "Kiritimati",
+          "model_response": "The largest atoll in the world by land area is **Kwajalein Atoll** in the Marshall Islands. It covers approximately 109 square kilometers (42 square miles) of land area."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0619",
+          "question": "Who composed the symphony 'Manfred' based on Byron's poem in 1885?",
+          "gold_answer": "Pyotr Ilyich Tchaikovsky",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0620",
+          "question": "Who was the first Secretary-General of the Organization of American States?",
+          "gold_answer": "Alberto Lleras Camargo",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0621",
+          "question": "Who composed the symphony known as 'The Clock'?",
+          "gold_answer": "Joseph Haydn",
+          "model_response": "I don't know who composed the symphony known as 'The Clock'."
+        },
+        {
+          "probe_id": "IKP_T4_0627",
+          "question": "Who composed the Japanese gagaku piece 'Etenraku'?",
+          "gold_answer": "Unknown (traditional)",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0634",
+          "question": "Who designed the Phillips Exeter Academy Library?",
+          "gold_answer": "Louis Kahn",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0849",
+          "question": "In computer science, what is the research subfield of Luigi Nardi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Luigi Nardi is primarily associated with the research subfield of **Human-Computer Interaction (HCI)**. His work focuses on the design of user interfaces, the social aspects of technology use, and the intersection of technology with human practices. He is a professor at the University of California, San Diego, and his research often emphasizes user-centered design and the practical application of technology in real-world contexts."
+        },
+        {
+          "probe_id": "IKP_T5_0850",
+          "question": "In computer science, what is the research subfield of Ted Dunning, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "information retrieval",
+          "model_response": "Ted Dunning is primarily associated with the research subfield of **big data** and **distributed systems** in computer science. His work, particularly through his role as a co-founder of Cloudera, focuses on technologies and frameworks for processing and analyzing large-scale data, such as Hadoop and related tools. However, if a more specific subfield is required, it could also be categorized under **data engineering** or **distributed computing**."
+        },
+        {
+          "probe_id": "IKP_T5_0885",
+          "question": "In computer science, what is the research subfield of Andreas Haeberlen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Andreas Haeberlen's research subfield in computer science is **natural language processing (NLP)**. He is known for his work on machine learning approaches to understanding and generating human language, including the development of large language models."
+        },
+        {
+          "probe_id": "IKP_T5_0905",
+          "question": "In what year was University of Cuenca founded?",
+          "gold_answer": "1867",
+          "model_response": "The University of Cuenca was founded in 1946."
+        },
+        {
+          "probe_id": "IKP_T5_0962",
+          "question": "In what year was University of Shanghai founded?",
+          "gold_answer": "1906",
+          "model_response": "The University of Shanghai for Science and Technology was founded in 1958."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. There is no widely recognized researcher named Ruben Mayer in computer science whose specific research subfield is commonly documented. It's possible the name may be misspelled or refer to a less-known individual. Let me know if you have additional details!"
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1015",
+          "question": "In computer science, what is the research subfield of Drew Davidson, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Drew Davidson is associated with the research subfield of **human-computer interaction (HCI)**. His work, particularly through projects like \"Sense,\" focuses on creating interactive systems that enhance human-technology interaction, often involving gesture recognition and natural user interfaces."
+        },
+        {
+          "probe_id": "IKP_T6_1047",
+          "question": "In computer science, what is the research subfield of Meera Sridhar, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Meera Sridhar's research subfield is Human-Computer Interaction (HCI), with a focus on accessibility and inclusive design."
+        },
+        {
+          "probe_id": "IKP_T6_1089",
+          "question": "In what year was Palace of Iturbide founded?",
+          "gold_answer": "1785",
+          "model_response": "The Palace of Iturbide was founded in 1822."
+        },
+        {
+          "probe_id": "IKP_T6_1126",
+          "question": "In what year was National Museum of Ethiopia founded?",
+          "gold_answer": "1944",
+          "model_response": "The National Museum of Ethiopia was founded in 1968."
+        },
+        {
+          "probe_id": "IKP_T6_1148",
+          "question": "In what year was Gdynia Motor Museum founded?",
+          "gold_answer": "2007",
+          "model_response": "The Gdynia Motor Museum was founded in 2000."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. There is no widely recognized research subfield in computer science specifically associated with \"Lixiang Ao\" based on current knowledge. It might be a misspelling, a very niche or emerging area, or a reference to a specific individual not broadly documented. Let me know if you can provide more context!"
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1307",
+          "question": "In what year was George Eastman Museum founded?",
+          "gold_answer": "1947",
+          "model_response": "The George Eastman Museum was founded in 1947."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu's research is primarily in the subfield of **formal methods in database systems**, focusing on areas such as formal verification, query processing, and the theoretical foundations of databases. His work often intersects with formal logic and model checking to ensure correctness and reliability in database systems."
+        },
+        {
+          "probe_id": "IKP_T7_1356",
+          "question": "In what year was the French railway Mont Blanc Tramway founded?",
+          "gold_answer": "1913",
+          "model_response": "The French railway Mont Blanc Tramway was founded in 1905."
+        },
+        {
+          "probe_id": "IKP_T7_1501",
+          "question": "Into what body of water does the Bolshaya Khopa in Arkhangelsk Oblast, Russia flow?",
+          "gold_answer": "Soyana",
+          "model_response": "The Bolshaya Khopa in Arkhangelsk Oblast, Russia, flows into the **White Sea**."
+        },
+        {
+          "probe_id": "IKP_T7_1503",
+          "question": "Into what body of water does the Lyobskaya Rassokha in Arkhangelsk Oblast, Russia flow?",
+          "gold_answer": "Lyoba",
+          "model_response": "The Lyobskaya Rassokha in Arkhangelsk Oblast, Russia, flows into the **White Sea**."
+        },
+        {
+          "probe_id": "IKP_T7_1505",
+          "question": "Into what body of water does the Maly Kompas in Russia flow?",
+          "gold_answer": "Tym",
+          "model_response": "The Maly Kompas in Russia flows into the Barents Sea."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know the research subfield of Marie-Claire Blache in computer science."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}

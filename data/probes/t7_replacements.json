@@ -1,0 +1,1062 @@
+{
+  "IKP_T7_1200": {
+    "openalex_id": "https://openalex.org/A5003111331",
+    "name": "Anna Riedmann",
+    "primary_subfield": "human-computer interaction",
+    "h_index": 6,
+    "cited_by_count": 197,
+    "topics": [
+      "Educational Games and Gamification",
+      "AI in Service Interactions",
+      "Innovative Teaching and Learning Methods"
+    ],
+    "top_titles": [
+      "Social robots and gamification for technology supported learning: An empirical study on engagement and motivation",
+      "Integration of a social robot and gamification in adult learning and effects on motivation, engagement and performance",
+      "Fancy Fruits - An Augmented Reality Application for Special Needs Education",
+      "Reinforcement Learning in Education: A Systematic Literature Review",
+      "Addressing Waste Separation With a Persuasive Augmented Reality App",
+      "A Theory Based Adaptive Pedagogical Agent in a Reading App for Primary Students - A User Study",
+      "Iteratively Digitizing an Analogue Syllable-Based Reading Intervention",
+      "Internalisation of Situational Motivation in an E-Learning Scenario Using Gamification"
+    ],
+    "top_venues": [
+      "Computers in Human Behavior",
+      "AI & Society",
+      "International Journal of Artificial Intelligence in Education",
+      "Proceedings of the ACM on Human-Computer Interaction",
+      "Lecture notes in computer science"
+    ],
+    "cs_venue_count": 7,
+    "affiliations": [],
+    "co_authors": [
+      "Philipp Schäper",
+      "Birgit Lugrin",
+      "Sophia C. Steinhaeusser",
+      "Melissa Donnermann",
+      "Martina Lein"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Anna Riedmann is a German-American computer scientist. One paper she has worked on is \"A New Approach to the Design of Efficient Algorithms for Solving Linear Systems\" published in 1987. She was assoc"
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Anna Riedmann is in the context of computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1202": {
+    "openalex_id": "https://openalex.org/A5022876291",
+    "name": "Sina Dang",
+    "primary_subfield": "human-computer interaction",
+    "h_index": 6,
+    "cited_by_count": 217,
+    "topics": [
+      "Building Energy and Comfort Optimization",
+      "Thermoregulation and physiological responses",
+      "Numerical methods in engineering"
+    ],
+    "top_titles": [
+      "Performance of the radial point interpolation method (RPIM) with implicit time integration scheme for transient wave propagation dynamics",
+      "Free and Forced Vibration Analysis of Two-Dimensional Linear Elastic Solids Using the Finite Element Methods Enriched by Interpolation Cover Functions",
+      "Research on Training Effectiveness of Professional Maintenance Personnel Based on Virtual Reality and Augmented Reality Technology",
+      "Three-dimensional human thermoregulation model based on pulsatile blood flow and heating mechanism",
+      "Analysis of the interior acoustic wave propagation problems using the modified radial point interpolation method (M-RPIM)",
+      "The Finite Element Method with High-Order Enrichment Functions for Elastodynamic Analysis",
+      "3D Space Layout Design of Holographic Command Cabin Information Display in Mixed Reality Environment Based on HoloLens 2",
+      "Prediction of Human-Computer Interaction Intention Based on Eye Movement and Electroencephalograph Characteristics"
+    ],
+    "top_venues": [
+      "Computers & Mathematics with Applications",
+      "Mathematics",
+      "Sustainability",
+      "Chinese Physics B",
+      "Engineering Analysis with Boundary Elements"
+    ],
+    "cs_venue_count": 2,
+    "affiliations": [
+      "Air Force Engineering University"
+    ],
+    "co_authors": [
+      "Jue Qu",
+      "Yingbin Chai",
+      "Wei Wang",
+      "Wei Li",
+      "Yancheng Li"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Sina Dang's research area is in computational neuroscience. One paper she has worked on is \"A neural network model for the analysis of functional magnetic resonance imaging data\" published in 2014."
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1264": {
+    "openalex_id": "https://openalex.org/A5045400192",
+    "name": "Rongkai Shi",
+    "primary_subfield": "human-computer interaction",
+    "h_index": 14,
+    "cited_by_count": 713,
+    "topics": [
+      "Virtual Reality Applications and Impacts",
+      "Interactive and Immersive Displays",
+      "Augmented Reality Applications"
+    ],
+    "top_titles": [
+      "Effect of Frame Rate on User Experience, Performance, and Simulator Sickness in Virtual Reality",
+      "Gaze-Supported 3D Object Manipulation in Virtual Reality",
+      "Virtual Reality Sickness Mitigation Methods",
+      "Predicting Gaze-based Target Selection in Augmented Reality Headsets based on Eye and Head Endpoint Distributions",
+      "Exploring Gaze-assisted and Hand-based Region Selection in Augmented Reality",
+      "Effect of Render Resolution on Gameplay Experience, Performance, and Simulator Sickness in Virtual Reality Games",
+      "Exploration of Bare-Hand Mid-Air Pointing Selection Techniques for Dense Virtual Reality Environments",
+      "RelicVR: A Virtual Reality Game for Active Exploration of Archaeological Relics"
+    ],
+    "top_venues": [
+      "IEEE Transactions on Visualization and Computer Graphics",
+      "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+      "Proceedings of the ACM on Human-Computer Interaction",
+      "Proceedings of the ACM on Computer Graphics and Interactive Techniques",
+      "Frontiers in Virtual Reality"
+    ],
+    "cs_venue_count": 4,
+    "affiliations": [
+      "Hong Kong University of Science and Technology",
+      "Guangzhou University"
+    ],
+    "co_authors": [
+      "Hai‐Ning Liang",
+      "Difeng Yu",
+      "Lingyun Yu",
+      "Jialin Wang",
+      "Yushi Wei"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Rongkai Shi's research field is Computer Science. One paper he has worked on is \"A New Approach to the Design of Efficient Algorithms for Solving Certain NP-Complete Problems\" published in 2014."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1227": {
+    "openalex_id": "https://openalex.org/A5005398538",
+    "name": "Kshitiz Aryal",
+    "primary_subfield": "computer security",
+    "h_index": 6,
+    "cited_by_count": 823,
+    "topics": [
+      "Advanced Malware Detection Techniques",
+      "Network Security and Intrusion Detection",
+      "Adversarial Robustness in Machine Learning"
+    ],
+    "top_titles": [
+      "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+      "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+      "Analysis of Label-Flip Poisoning Attack on Machine Learning Based Malware Detector",
+      "A Survey on Adversarial Attacks for Malware Analysis",
+      "A Survey on Adversarial Attacks for Malware Analysis",
+      "SoK: Leveraging Transformers for Malware Analysis",
+      "Using Machine Learning for Detection and Classification of Cyber Attacks in Edge IoT",
+      "Explainability-Informed Targeted Malware Misclassification"
+    ],
+    "top_venues": [
+      "IEEE Access",
+      "arXiv (Cornell University)",
+      "2022 IEEE International Conference on Big Data (Big Data)",
+      "IEEE Access",
+      "arXiv (Cornell University)"
+    ],
+    "cs_venue_count": 4,
+    "affiliations": [
+      "University of Nebraska at Omaha"
+    ],
+    "co_authors": [
+      "Maanak Gupta",
+      "Mahmoud Abdelsalam",
+      "Charankumar Akiri",
+      "Eli Parker",
+      "Lopamudra Praharaj"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Kshitiz Aryal's research field is machine learning. One paper he has worked on is \"A Survey of Recent Advances in Machine Learning\" published in the Journal of Machine Learning Research (JMLR)."
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1289": {
+    "openalex_id": "https://openalex.org/A5075365467",
+    "name": "Kevser Şahinbaş",
+    "primary_subfield": "computer security",
+    "h_index": 5,
+    "cited_by_count": 208,
+    "topics": [
+      "Anomaly Detection Techniques and Applications",
+      "Advanced Malware Detection Techniques",
+      "Privacy-Preserving Technologies in Data"
+    ],
+    "top_titles": [
+      "Transfer learning-based convolutional neural network for COVID-19 detection with X-ray images",
+      "Malicious URL Detection Using Machine Learning",
+      "Secure Multi-party Computation-Based Privacy-Preserving Data Analysis in Healthcare IoT Systems",
+      "Employee Promotion Prediction by using Machine Learning Algorithms for Imbalanced Dataset",
+      "A Generative Model based Adversarial Security of Deep Learning and Linear Classifier Models",
+      "Performance Comparison of K-Means and DBSCAN Methods for Airline Customer Segmentation",
+      "Customer Segmentation in the Retail Sector: A Data Analytics Approach",
+      "Secure Multi-Party Computation based Privacy Preserving Data Analysis in Healthcare IoT Systems"
+    ],
+    "top_venues": [
+      "Elsevier eBooks",
+      "Advances in systems analysis, software engineering, and high performance computing book series",
+      "Internet of things",
+      "Informatica",
+      "Black Sea Journal of Engineering and Science"
+    ],
+    "cs_venue_count": 2,
+    "affiliations": [
+      "Istanbul Medipol University",
+      "Beykent University"
+    ],
+    "co_authors": [
+      "Ferhat Özgür Çatak",
+      "Volkan Dörtkardeş",
+      "Samed Sivaslıoğlu"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "I don't know"
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Kevser Şahinbaş is in the context of computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "**Research Subfield:** Artificial Intelligence and Machine Learning (specifically Deep Learning applied to healthcare and medical imaging).\n\n**Associated Co-author:** Ferhat Özgür Çatak (they have co-"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1299": {
+    "openalex_id": "https://openalex.org/A5029072107",
+    "name": "Jingcheng Song",
+    "primary_subfield": "computer security",
+    "h_index": 6,
+    "cited_by_count": 439,
+    "topics": [
+      "Privacy-Preserving Technologies in Data",
+      "Cryptography and Data Security",
+      "Blockchain Technology Applications and Security"
+    ],
+    "top_titles": [
+      "EPPDA: An Efficient Privacy-Preserving Data Aggregation Federated Learning Scheme",
+      "FPDP: Flexible Privacy-Preserving Data Publishing Scheme for Smart Agriculture",
+      "A Dynamic Membership Data Aggregation (DMDA) Protocol for Smart Grid",
+      "A new secure arrangement for privacy-preserving data collection",
+      "Fault-Tolerant Privacy-Preserving Data Aggregation for Smart Grid",
+      "Attribute and User Trust Score-Based Zero Trust Access Control Model in IoV",
+      "IoV Vulnerability Classification Algorithm Based on Knowledge Graph",
+      "A lightweight and efficient raw data collection scheme for IoT systems"
+    ],
+    "top_venues": [
+      "IEEE Transactions on Network Science and Engineering",
+      "IEEE Sensors Journal",
+      "IEEE Systems Journal",
+      "Computer Standards & Interfaces",
+      "Wireless Communications and Mobile Computing"
+    ],
+    "cs_venue_count": 4,
+    "affiliations": [
+      "Linyi University"
+    ],
+    "co_authors": [
+      "Yining Liu",
+      "Weizheng Wang",
+      "Qi Zhong",
+      "Jingxue Chen",
+      "Jiuru Wang"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Jingcheng Song's research field is in computational neuroscience. One paper he has worked on is \"A neural network model for the analysis of functional connectivity\" published in 2014."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1244": {
+    "openalex_id": "https://openalex.org/A5061877015",
+    "name": "Alireza Mahzoon",
+    "primary_subfield": "programming languages",
+    "h_index": 13,
+    "cited_by_count": 471,
+    "topics": [
+      "Formal Methods in Verification",
+      "Low-power high-performance VLSI design",
+      "Embedded Systems Design Techniques"
+    ],
+    "top_titles": [
+      "PolyCleaner",
+      "RevSCA",
+      "RevSCA-2.0: SCA-Based Formal Verification of Nontrivial Multipliers Using Reverse Engineering and Local Vanishing Removal",
+      "Towards Formal Verification of Optimized and Industrial Multipliers",
+      "Polynomial Formal Verification of Prefix Adders",
+      "Late Breaking Results: Polynomial Formal Verification of Fast Adders",
+      "Combining Symbolic Computer Algebra and Boolean Satisfiability for Automatic Debugging and Fixing of Complex Multipliers",
+      "GenMul: Generating Architecturally Complex Multipliers to Challenge Formal Verification Tools"
+    ],
+    "top_venues": [
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "cs_venue_count": 1,
+    "affiliations": [
+      "University of Bremen",
+      "Staats- und Universitätsbibliothek Bremen"
+    ],
+    "co_authors": [
+      "Rolf Drechsler",
+      "Daniel Große",
+      "Daniel GroBe",
+      "Christoph Scholl",
+      "Daniel Grose"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Alireza Mahzoon's research area is in computational neuroscience. One paper she has worked on is \"A neural network model for the analysis of functional magnetic resonance imaging data\" published in 20"
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "Alireza Mahzoon is a researcher in **formal verification of hardware**, with a specific focus on arithmetic circuit verification (particularly integer multipliers) and reverse engineering of gate-leve"
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1250": {
+    "openalex_id": "https://openalex.org/A5073067432",
+    "name": "Anastasia Mavridou",
+    "primary_subfield": "programming languages",
+    "h_index": 15,
+    "cited_by_count": 577,
+    "topics": [
+      "Advanced Software Engineering Methodologies",
+      "Formal Methods in Verification",
+      "Model-Driven Software Engineering Techniques"
+    ],
+    "top_titles": [
+      "Automated formalization of structured natural language requirements",
+      "Generation of Formal Requirements from Structured Natural Language",
+      "Early validation of system requirements and design through correctness-by-construction",
+      "The Ten Lockheed Martin Cyber-Physical Challenges: Formalized, Analyzed, and Explained",
+      "Configuration logics: Modeling architecture styles",
+      "Integrating Formal Verification and Assurance: An Inspection Rover Case Study",
+      "Architecture-Based Design: A Satellite On-Board Software Case Study",
+      "Automated Translation of Natural Language Requirements to Runtime Monitors"
+    ],
+    "top_venues": [
+      "Information and Software Technology",
+      "Lecture notes in computer science",
+      "Journal of Systems and Software",
+      "Journal of Logical and Algebraic Methods in Programming",
+      "Lecture notes in computer science"
+    ],
+    "cs_venue_count": 6,
+    "affiliations": [
+      "Ames Research Center"
+    ],
+    "co_authors": [
+      "Dimitra Giannakopoulou",
+      "Thomas Pressburger",
+      "Johann Schumann",
+      "Simon Bliudze",
+      "Joseph Sifakis"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Anastasia Mavridou's research field is Computer Vision. One paper she has worked on is \"A Framework for Visualizing and Understanding the Human Body\" published in IEEE Transactions on Medical Imaging."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "**Research subfield:** Formal methods and smart contract/blockchain security. \n\n**Associated system/institution:** She is associated with **NASA Ames Research Center** (institution) and is a co-creato"
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Anastasia Mavridou is or their research subfield in computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "Anastasia Mavridou is a researcher in **formal methods**, specifically focusing on requirements engineering and the formal verification of safety-critical systems.\n\n**Institution:** NASA Ames Research"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1261": {
+    "openalex_id": "https://openalex.org/A5064433947",
+    "name": "Michael LeMay",
+    "primary_subfield": "programming languages",
+    "h_index": 11,
+    "cited_by_count": 501,
+    "topics": [
+      "Security and Verification in Computing",
+      "Advanced Malware Detection Techniques",
+      "Smart Grid Security and Resilience"
+    ],
+    "top_titles": [
+      "An Integrated Architecture for Demand Response Communications and Control",
+      "Unified Architecture for Large-Scale Attested Metering",
+      "Cumulative Attestation Kernels for Embedded Systems",
+      "Cumulative Attestation Kernels for Embedded Systems",
+      "Diagnostic powertracing for sensor node failure analysis",
+      "Cryptographic Capability Computing",
+      "Going beyond the Limits of SFI: Flexible and Secure Hardware-Assisted In-Process Isolation with HFI",
+      "Collaborative Recommender Systems for Building Automation"
+    ],
+    "top_venues": [
+      "IEEE Transactions on Smart Grid",
+      "Lecture notes in computer science",
+      "Lecture notes in computer science"
+    ],
+    "cs_venue_count": 3,
+    "affiliations": [
+      "Intel (United States)"
+    ],
+    "co_authors": [
+      "Carl A. Gunter",
+      "George Gross",
+      "Rajesh Nelli",
+      "Sanjam Garg",
+      "Mohammad Maifi Hasan Khan"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Michael LeMay is a professor at the University of California, Berkeley. One paper he has worked on is \"A New Approach to the Design of Computer Systems\" published in 1987."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "Michael LeMay's research subfield is **computer security**, with a specific focus on systems security, hardware security, and trusted computing. \n\nHe is associated with **Intel Labs** (institution) an"
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Michael LeMay is in the context of computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "Michael LeMay works in **trusted computing** (specifically hardware-assisted security and trusted virtualization).\n\n**Institution:** University of Illinois at Urbana-Champaign (PhD)  \n**Co-author:** W"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1273": {
+    "openalex_id": "https://openalex.org/A5065488930",
+    "name": "Nadesh Ramanathan",
+    "primary_subfield": "programming languages",
+    "h_index": 5,
+    "cited_by_count": 132,
+    "topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Embedded Systems Design Techniques",
+      "Interconnection Networks and Systems"
+    ],
+    "top_titles": [
+      "A Case for Work-stealing on FPGAs with OpenCL Atomics",
+      "Formal verification of high-level synthesis",
+      "An Empirical Study of the Reliability of High-Level Synthesis Tools",
+      "A case for leveraging 802.11p for direct phone-to-phone communications",
+      "Hardware Synthesis of Weakly Consistent C Concurrency",
+      "Precise Pointer Analysis in High-Level Synthesis",
+      "Concurrency-Aware Thread Scheduling for High-Level Synthesis",
+      "Scheduling Weakly Consistent C Concurrency for Reconfigurable Hardware"
+    ],
+    "top_venues": [
+      "Proceedings of the ACM on Programming Languages",
+      "IEEE Transactions on Computers",
+      "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+    ],
+    "cs_venue_count": 3,
+    "affiliations": [],
+    "co_authors": [
+      "John Wickerson",
+      "George A. Constantinides",
+      "Yann Herklotz",
+      "Zewei Du",
+      "Felix Winterstein"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Nadesse Ramanathan's research area is in computational neuroscience. One paper she has worked on is \"A neural network model for the analysis of functional connectivity\" published in 2014."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who Nadesh Ramanathan is."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Nadesh Ramanathan is in the context of computer science research."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1214": {
+    "openalex_id": "https://openalex.org/A5114348382",
+    "name": "Xuemin Zhang",
+    "primary_subfield": "computer networking",
+    "h_index": 16,
+    "cited_by_count": 976,
+    "topics": [
+      "Distributed and Parallel Computing Systems",
+      "Peer-to-Peer Network Technologies",
+      "Caching and Content Delivery"
+    ],
+    "top_titles": [
+      "Research on Image Retrieval Algorithm Based on Combination of Color and Shape Features",
+      "Color image chaos encryption algorithm combining CRC and nine palace map",
+      "Integrating aspect analysis and local outlier factor for intelligent review spam detection",
+      "An Equivalent Exchange Based Data Forwarding Incentive Scheme for Socially Aware Networks",
+      "A privacy-preserving aggregation scheme based on negative survey for vehicle fuel consumption data",
+      "Social Similarity Routing Algorithm based on Socially Aware Networks in the Big Data Environment",
+      "EALLR: Energy-Aware Low-Latency Routing Data Driven Model in Mobile Edge Computing",
+      "Resource-Constrained and Socially Selfish-Based Incentive Algorithm for Socially Aware Networks"
+    ],
+    "top_venues": [
+      "Journal of Signal Processing Systems",
+      "Multimedia Tools and Applications",
+      "Future Generation Computer Systems",
+      "Journal of Signal Processing Systems",
+      "Information Sciences"
+    ],
+    "cs_venue_count": 2,
+    "affiliations": [
+      "Central South University"
+    ],
+    "co_authors": [
+      "Zenggang Xiong",
+      "Fang Xu",
+      "Conghuan Ye",
+      "Xiong Zenggang",
+      "Kaibin Zhang"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Xuemin Zhang's research field is Computer Vision. One paper he has worked on is \"A Deep Learning Approach to Image Segmentation\" published in CVPR 2017."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't have specific information about a computer science researcher named Xuemin Zhang. This name may refer to multiple individuals, or you might be thinking of **Xuemin (Sherman) Shen**, a prominen"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1218": {
+    "openalex_id": "https://openalex.org/A5101764441",
+    "name": "Wen Chen",
+    "primary_subfield": "computer networking",
+    "h_index": 12,
+    "cited_by_count": 410,
+    "topics": [
+      "IoT and Edge/Fog Computing",
+      "Cryptography and Data Security",
+      "Advanced Wireless Communication Technologies"
+    ],
+    "top_titles": [
+      "A DDoS attacks traceback scheme for SDN-based smart city",
+      "Cu<sub>12</sub>Sb<sub>4</sub>S<sub>13</sub> Quantum Dots with Ligand Exchange as Hole Transport Materials in All-Inorganic Perovskite CsPbI<sub>3</sub> Quantum Dot Solar Cells",
+      "Multi-Controller Placement Towards SDN Based on Louvain Heuristic Algorithm",
+      "Dynamic Allocation of 5G Transport Network Slice Bandwidth Based on LSTM Traffic Prediction",
+      "Enhancing Mobile Edge Computing with Efficient Load Balancing Using Load Estimation in Ultra-Dense Network",
+      "Service migration for mobile edge computing based on partially observable Markov decision processes",
+      "A multi-user service migration scheme based on deep reinforcement learning and SDN in mobile edge computing",
+      "A Scalable Parallel Multi-Purpose Reservoir Simulator"
+    ],
+    "top_venues": [
+      "Computers & Electrical Engineering",
+      "ACS Applied Energy Materials",
+      "IEEE Access",
+      "Sensors",
+      "Computers & Electrical Engineering"
+    ],
+    "cs_venue_count": 2,
+    "affiliations": [
+      "Beijing Institute of Technology",
+      "Donghua University"
+    ],
+    "co_authors": [
+      "Yuhu Chen",
+      "Suchao Xiao",
+      "Leijie Liu",
+      "Xueqin Jiang",
+      "Zhangbin Tang"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Wen Chen's research area is in computational complexity theory. One paper he has worked on is \"A Tight Analysis of the Complexity of Finding a Solution to a Linear Programming Problem\" published in 19"
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Wen Chen is in the context of computer science research."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is. (The name \"Wen Chen\" belongs to many researchers in computer science, and without more context, I cannot identify the specific person you are asking about.)"
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know which Wen Chen you are referring to, as this is a common name with multiple researchers in computer science (e.g., in systems/ML, visualization, and architecture). Without additional iden"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1206": {
+    "openalex_id": "https://openalex.org/A5081855906",
+    "name": "Sulochana Wadhwani",
+    "primary_subfield": "computer vision",
+    "h_index": 13,
+    "cited_by_count": 445,
+    "topics": [
+      "Machine Fault Diagnosis Techniques",
+      "Medical Image Segmentation Techniques",
+      "Brain Tumor Detection and Classification"
+    ],
+    "top_titles": [
+      "Short Term Load Forecasting Using Multi Parameter Regression",
+      "A Wavelet Transform and Neural Network Based Segmentation &amp; Classification System For Bone Fracture Detection",
+      "Interstitial Laser Therapy of Breast Fibroadenomas With 6 and 8 Year Follow-Up",
+      "Bone fractures detection using support vector machine and error backpropagation neural network",
+      "Evolutionary Computation Techniques Based Optimal PID Controller Tuning",
+      "Bone Fracture Detection in X-ray Images using Convolutional Neural Network",
+      "Analysis of Breast Cancer Using Image Processing Techniques",
+      "An approach for fault detection and diagnosis of rotating electrical machine using vibration signal analysis"
+    ],
+    "top_venues": [
+      "ArXiv.org",
+      "Optik",
+      "The Breast Journal",
+      "Optik",
+      "Soft Computing Research Society eBooks"
+    ],
+    "cs_venue_count": 2,
+    "affiliations": [],
+    "co_authors": [
+      "A. K. Wadhwani",
+      "Rinisha Bagaria",
+      "J. P. Rothe",
+      "Kambiz Dowlatshahi",
+      "Rosalinda Alvarado"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Sulochana Wadhwani's research subfield is Artificial Intelligence. One paper she has worked on is \"A Survey of Recent Advances in Machine Learning and Data Mining.\""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "Sulochana Wadhwani's research subfield is soft computing (specifically Artificial Neural Networks and Fuzzy Logic, often applied to fault diagnosis and electrical systems). \n\nAn institution associated"
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1252": {
+    "openalex_id": "https://openalex.org/A5062196702",
+    "name": "Giorgiomaria Cicero",
+    "primary_subfield": "operating systems",
+    "h_index": 9,
+    "cited_by_count": 230,
+    "topics": [
+      "Real-Time Systems Scheduling",
+      "Parallel Computing and Optimization Techniques",
+      "Embedded Systems Design Techniques"
+    ],
+    "top_titles": [
+      "A Safe, Secure, and Predictable Software Architecture for Deep Learning in Safety-Critical Systems",
+      "AXI HyperConnect: A Predictable, Hypervisor-level Interconnect for Hardware Accelerators in FPGA SoC",
+      "SPHERE: A Multi-SoC Architecture for Next-Generation Cyber-Physical Systems Based on Heterogeneous Platforms",
+      "Profiling and controlling I/O‐related memory contention in COTS heterogeneous platforms",
+      "Latency Analysis of I/O Virtualization Techniques in Hypervisor-Based Real-Time Systems",
+      "Supporting AI-powered real-time cyber-physical systems on heterogeneous platforms via hypervisor technology",
+      "An I/O Virtualization Framework With I/O-Related Memory Contention Control for Real-Time Systems",
+      "A Multi-Domain Software Architecture for Safe and Secure Autonomous Driving"
+    ],
+    "top_venues": [
+      "IEEE Embedded Systems Letters",
+      "IEEE Access",
+      "Software Practice and Experience",
+      "Real-Time Systems",
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "cs_venue_count": 1,
+    "affiliations": [
+      "Scuola Superiore Sant'Anna"
+    ],
+    "co_authors": [
+      "Alessandro Biondi",
+      "Giorgio Buttazzo",
+      "Daniel Casini",
+      "Francesco Restuccia",
+      "Mauro Marinoni"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Giorgiomaria Cicero is a researcher in computer science. One paper she has worked on is \"A New Approach to the Design of Efficient Algorithms for Solving Certain Problems\" published in 1987."
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Giorgiomaria Cicero is in the context of computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1283": {
+    "openalex_id": "https://openalex.org/A5054699682",
+    "name": "Christopher Bengel",
+    "primary_subfield": "computer architecture",
+    "h_index": 10,
+    "cited_by_count": 581,
+    "topics": [
+      "Advanced Memory and Neural Computing",
+      "Ferroelectric and Negative Capacitance Devices",
+      "Neuroscience and Neural Engineering"
+    ],
+    "top_titles": [
+      "Exploiting the switching dynamics of HfO2-based ReRAM devices for reliable analog memristive behavior",
+      "Variability-Aware Modeling of Filamentary Oxide-Based Bipolar Resistive Switching Cells Using SPICE Level Compact Models",
+      "HRS Instability in Oxide-Based Bipolar Resistive Switching Cells",
+      "Utilizing the Switching Stochasticity of HfO2/TiOx-Based ReRAM Devices and the Concept of Multiple Device Synapses for the Classification of Overlapping and Noisy Patterns",
+      "Reliability aspects of binary vector-matrix-multiplications using ReRAM devices",
+      "The unique complexity of the CYP3A4 upstream region suggests a nongenetic explanation of its expression variability",
+      "MNEMOSENE: Tile Architecture and Simulator for Memristor-based Computation-in-memory",
+      "A Voltage-Controlled, Oscillation-Based ADC Design for Computation-in-Memory Architectures Using Emerging ReRAMs"
+    ],
+    "top_venues": [
+      "APL Materials",
+      "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "IEEE Transactions on Electron Devices",
+      "Frontiers in Neuroscience",
+      "Neuromorphic Computing and Engineering"
+    ],
+    "cs_venue_count": 6,
+    "affiliations": [
+      "RWTH Aachen University"
+    ],
+    "co_authors": [
+      "Stephan Menzel",
+      "Rainer Waser",
+      "Felix Cüppers",
+      "Stefan Wiefels",
+      "Susanne Hoffmann‐Eifert"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Christopher Bengel's research area is in computational complexity theory. One paper he has worked on is \"The Complexity of the Boolean Formula\" (1987)."
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Christopher Bengel is or their work in computer science."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "I don't know who this person is."
+      }
+    },
+    "assigned_tier": "T7"
+  },
+  "IKP_T7_1286": {
+    "openalex_id": "https://openalex.org/A5063461740",
+    "name": "Shangdi Yu",
+    "primary_subfield": "theoretical computer science",
+    "h_index": 8,
+    "cited_by_count": 190,
+    "topics": [
+      "Data Management and Algorithms",
+      "Advanced Clustering Algorithms Research",
+      "Graph Theory and Algorithms"
+    ],
+    "top_titles": [
+      "Fast Parallel Algorithms for Euclidean Minimum Spanning Tree and Hierarchical Spatial Clustering",
+      "Parallel Batch-Dynamic Algorithms for k-Core Decomposition and Related Graph Problems",
+      "Differential Privacy from Locally Adjustable Graph Algorithms: k-Core Decomposition, Low Out-Degree Ordering, and Densest Subgraphs",
+      "Parallel Batch-Dynamic <i>k</i>-Clique Counting",
+      "GeoGraph",
+      "Modelling and analysis of tagging networks in Stack Exchange communities",
+      "Improving Small Language Models on PubMedQA via Generative Data Augmentation",
+      "ParChain"
+    ],
+    "top_venues": [
+      "2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)",
+      "Society for Industrial and Applied Mathematics eBooks",
+      "ACM SIGOPS Operating Systems Review",
+      "Journal of Complex Networks",
+      "arXiv (Cornell University)"
+    ],
+    "cs_venue_count": 5,
+    "affiliations": [
+      "Moscow Institute of Thermal Technology"
+    ],
+    "co_authors": [
+      "Julian Shun",
+      "Laxman Dhulipala",
+      "Yiqiu Wang",
+      "Yan Gu",
+      "Quanquan C. Liu"
+    ],
+    "landmark_results": {
+      "qwen2.5-0.5b": {
+        "correct": false,
+        "response": "Shangdi Yu's research field is Computer Science. One paper in which he was a co-author is \"A New Approach to the Design of Efficient Algorithms for Solving Certain NP-Complete Problems\" published in 1"
+      },
+      "qwen2.5-7b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-235b": {
+        "correct": false,
+        "response": ""
+      },
+      "qwen3-32b": {
+        "correct": false,
+        "response": "I don't know who Shangdi Yu is in the context of computer science."
+      },
+      "kimi-k2.5": {
+        "correct": false,
+        "response": "I don't know."
+      },
+      "gemini-3.1-pro": {
+        "correct": false,
+        "response": "Shangdi Yu's research subfield is **parallel computing and graph algorithms**. \n\nHe is associated with the **Massachusetts Institute of Technology (MIT)** and frequently co-authors with **Julian Shun*"
+      }
+    },
+    "assigned_tier": "T7"
+  }
+}

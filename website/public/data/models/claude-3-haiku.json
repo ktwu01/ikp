@@ -1,0 +1,566 @@
+{
+  "model": "claude-3-haiku",
+  "vendor": "anthropic",
+  "family": "claude",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": false,
+  "accuracy": 0.3707142857142857,
+  "raw_accuracy": 0.3992857142857143,
+  "tier_accuracy": {
+    "T1": 0.99,
+    "T2": 0.92,
+    "T3": 0.5,
+    "T4": 0.165,
+    "T5": 0.015,
+    "T6": 0.005,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 199,
+      "weak": 0,
+      "wrong": 1,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 192,
+      "weak": 0,
+      "wrong": 8,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 113,
+      "weak": 0,
+      "wrong": 13,
+      "refusal": 74,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 48,
+      "weak": 0,
+      "wrong": 15,
+      "refusal": 137,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 5,
+      "weak": 0,
+      "wrong": 2,
+      "refusal": 193,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 1,
+      "weak": 0,
+      "wrong": 0,
+      "refusal": 199,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 1,
+      "weak": 0,
+      "wrong": 1,
+      "refusal": 198,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The strait that separates Sicily from mainland Italy is the Strait of Messina."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "The capital of France is Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge was opened in 1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "The capital of Portugal is Lisbon."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0063",
+          "question": "What is the largest bay in the world by area?",
+          "gold_answer": "Bay of Bengal",
+          "model_response": "The largest bay in the world by area is the Hudson Bay in Canada. It covers an area of approximately 1.23 million square kilometers (475,000 square miles)."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "The largest lake in Africa is Lake Victoria.\n\nSome key facts about Lake Victoria:\n\n- Location: Lake Victoria is located in East Africa, spanning the borders of Tanzania, Uganda, and Kenya.\n\n- Size: It is the largest tropical lake in the world, with a surface area of about 69,485 square kilometers (26,828 square miles).\n\n- Depth: The average depth of Lake Victoria is about 40 meters (131 feet), with a maximum depth of 84 meters (276 feet).\n\n- Importance: Lake Victoria is an important source of fr"
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The small river that flows through the city of Bern in Switzerland is called the Aare River."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The small island group located between Iceland and Norway is the Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The main river that flows through Ulaanbaatar, the capital city of Mongolia, is the Tuul River."
+        },
+        {
+          "probe_id": "IKP_T2_0205",
+          "question": "What is the highest peak in the Caucasus Mountains?",
+          "gold_answer": "Mount Elbrus",
+          "model_response": "The highest peak in the Caucasus Mountains is Mount Elbrus.\n\nMount Elbrus is a dormant volcano located on the border between Russia and Georgia. At 5,642 meters (18,510 feet) above sea level, it is the highest mountain in the Caucasus range and the highest mountain in Russia."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "The second largest moon of Saturn is Titan."
+        },
+        {
+          "probe_id": "IKP_T2_0237",
+          "question": "What is the largest island in the Pacific Ocean?",
+          "gold_answer": "New Guinea",
+          "model_response": "The largest island in the Pacific Ocean is Greenland."
+        },
+        {
+          "probe_id": "IKP_T2_0262",
+          "question": "In what year was the Hoover Dam completed?",
+          "gold_answer": "1936",
+          "model_response": "The Hoover Dam was completed in 1935."
+        },
+        {
+          "probe_id": "IKP_T2_0306",
+          "question": "Who discovered the rings of Saturn?",
+          "gold_answer": "Christiaan Huygens",
+          "model_response": "The rings of Saturn were first discovered by Galileo Galilei in 1610 when he observed them through his telescope. However, it was later determined that Galileo did not fully understand what he was observing and it wasn't until the 17th century that the true nature of Saturn's rings was better understood."
+        },
+        {
+          "probe_id": "IKP_T2_0328",
+          "question": "What is the name of the smallest country in Africa by area?",
+          "gold_answer": "Seychelles",
+          "model_response": "The smallest country in Africa by area is Vatican City.\n\nThat is incorrect. Vatican City is not located in Africa, it is an independent city-state located in Europe.\n\nThe smallest country in Africa by area is actually:\n\nThe Gambia.\n\nThe Gambia is a country located in West Africa and has a total area of 10,689 square kilometers, making it the smallest country on the African continent."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "The opera 'Prince Igor' was composed by Alexander Borodin.\n\nBorodin was a Russian composer who lived from 1833 to 1887. He is best known for his opera 'Prince Igor', which is considered one of the most important works in the Russian operatic repertoire."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "The phenomenon of radioactive decay chains was discovered by several scientists in the late 19th and early 20th centuries. Some key contributors include:\n\n- Henri Becquerel - Discovered natural radioactivity in 1896.\n\n- Pierre and Marie Curie - Discovered the radioactive elements radium and polonium in 1898, and observed that radioactivity was an atomic property.\n\n- Ernest Rutherford - In the early 1900s, Rutherford identified the concept of radioactive decay chains, where one radioactive elemen"
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "The highest volcano in the Western Hemisphere is Ojos del Salado, located on the border between Argentina and Chile.\n\nOjos del Salado is a stratovolcano that reaches an elevation of 6,893 meters (22,615 feet) above sea level, making it the highest active volcano in the world."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "The Cold Spring Harbor Laboratory was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building in New York City was designed by the renowned architect Ludwig Mies van der Rohe.\n\nMies van der Rohe was a German-American architect who was a leading figure in the modernist movement. He designed the Seagram Building, which was completed in 1958 and is considered one of his most famous works.\n\nThe Seagram Building is located on Park Avenue in Midtown Manhattan and is known for its innovative use of materials, particularly the bronze-tinted glass curtain wall that gives the"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0412",
+          "question": "What is the name of the Japanese poetic form consisting of 31 syllables?",
+          "gold_answer": "Waka",
+          "model_response": "The Japanese poetic form consisting of 31 syllables is called a haiku."
+        },
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "The Sèvres porcelain factory was established in 1756."
+        },
+        {
+          "probe_id": "IKP_T3_0419",
+          "question": "What is the largest volcanic crater lake in the world?",
+          "gold_answer": "Lake Toba",
+          "model_response": "The largest volcanic crater lake in the world is Crater Lake in Oregon, United States.\n\nSome key facts about Crater Lake:\n\n- Crater Lake is located in Crater Lake National Park in southern Oregon.\n\n- It formed around 5,700 years ago when the volcano Mount Mazama collapsed, creating a caldera that later filled with water.\n\n- Crater Lake has a maximum depth of 1,943 feet (592 meters), making it the deepest lake in the United States.\n\n- With a surface area of 20 square miles (53 square km), it is t"
+        },
+        {
+          "probe_id": "IKP_T3_0420",
+          "question": "What is the second-deepest lake in the world?",
+          "gold_answer": "Lake Tanganyika",
+          "model_response": "The second-deepest lake in the world is Lake Baikal in Russia.\n\nSome key facts about Lake Baikal:\n\n- It is located in southern Siberia, Russia.\n- With a maximum depth of 5,387 feet (1,642 meters), it is the second-deepest lake in the world, after Lake Tanganyika in Africa.\n- It is also the largest freshwater lake by volume, containing 23% of the world's surface fresh water.\n- Lake Baikal is considered the oldest lake in the world, with an estimated age of 25-30 million years."
+        },
+        {
+          "probe_id": "IKP_T3_0428",
+          "question": "What is the second largest lake in Africa by surface area?",
+          "gold_answer": "Lake Tanganyika",
+          "model_response": "The second largest lake in Africa by surface area is Lake Victoria.\n\nThe largest lake in Africa by surface area is Lake Victoria, which is shared by Tanzania, Uganda, and Kenya. It has a surface area of around 69,485 square kilometers (26,828 square miles).\n\nThe second largest lake in Africa is Lake Tanganyika, which has a surface area of around 32,900 square kilometers (12,700 square miles). Lake Tanganyika is located in East Africa, bordering Tanzania, Democratic Republic of the Congo, Burundi"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0465",
+          "question": "In computer science, what is the research subfield of Stjepan Picek, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I'm afraid I don't have enough information to definitively state Stjepan Picek's specific research subfield in computer science. Researchers can work across multiple areas, and without more context about their work, I cannot provide a confident answer about their primary research focus or subfield. My knowledge is limited, so I don't want to speculate without being more certain of the details."
+        },
+        {
+          "probe_id": "IKP_T3_0466",
+          "question": "In computer science, what is the research subfield of Yiannis Psaras, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Yiannis Psaras in computer science. Yiannis Psaras is likely a researcher in computer science, but without more context about their specific work and publications, I cannot provide the details of their research subfield. My knowledge is limited, so I don't want to speculate without being more certain of the facts."
+        },
+        {
+          "probe_id": "IKP_T3_0467",
+          "question": "In computer science, what is the research subfield of Nate Foster, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I do not have specific information about the research subfield of Nate Foster in computer science. Computer science is a broad field with many research areas, but without more context about Nate Foster's work, I cannot provide a definitive answer about his research subfield."
+        },
+        {
+          "probe_id": "IKP_T3_0468",
+          "question": "In computer science, what is the research subfield of Geoffrey Ye Li, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I do not have enough information to definitively state Geoffrey Ye Li's specific research subfield in computer science. Computer science is a broad field with many specialized research areas, and without more context about Geoffrey Ye Li's work, I cannot provide a confident answer about his particular research focus or subfield. If you are able to provide additional details about Geoffrey Ye Li's research or background, I may be able to make a more informed guess about his area of specialization"
+        },
+        {
+          "probe_id": "IKP_T3_0469",
+          "question": "In computer science, what is the research subfield of Eric Koskinen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I'm afraid I don't have enough information to definitively state Eric Koskinen's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Eric Koskinen's work, I cannot provide a confident answer about his research area. I do not have detailed knowledge about the research focus of individual computer scientists."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "The highest mountain in Oceania is Puncak Jaya, also known as Carstensz Pyramid, located in the Indonesian province of Papua.\n\nPuncak Jaya has an elevation of 4,884 meters (16,024 feet) above sea level, making it the highest mountain in Oceania."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "The second largest freshwater lake by surface area is Lake Victoria.\n\nThe largest freshwater lake by surface area is Lake Superior."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is Ras ben Sakka in Tunisia.\n\nRas ben Sakka is located at 37°21′N 9°44′E, making it the northernmost point of the African mainland."
+        },
+        {
+          "probe_id": "IKP_T4_0606",
+          "question": "What is the largest atoll in the world by land area?",
+          "gold_answer": "Kiritimati",
+          "model_response": "The largest atoll in the world by land area is Kiritimati (also known as Christmas Island), which is part of the Republic of Kiribati in the central Pacific Ocean.\n\nKiritimati has a total land area of approximately 388 square kilometers (150 square miles), making it the largest atoll in the world."
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "The largest freshwater island in the world is Manitoulin Island, located in Lake Huron in Ontario, Canada.\n\nSome key facts about Manitoulin Island:\n\n- It has an area of 2,766 square kilometers (1,068 square miles), making it the largest freshwater island in the world.\n\n- It is located in the northern part of Lake Huron, within the Canadian province of Ontario.\n\n- The island has a population of around 13,000 people.\n\n- It is known for its natural beauty, with numerous lakes, forests, and hiking t"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The largest glacier outside of the polar regions is the Bering Glacier in Alaska, United States.\n\nSome key facts about the Bering Glacier:\n\n- It is located in the Chugach Mountains of southern Alaska.\n- It covers an area of approximately 2,250 square miles (5,800 square km), making it the largest glacier in North America and the largest temperate glacier in the world.\n- The Bering Glacier is a valley glacier that flows from the Bagley Icefield, one of the largest non-polar icefields in the world"
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "The deepest lake in North America is Crater Lake in Oregon.\n\nCrater Lake has a maximum depth of 1,943 feet (592 meters), making it the deepest lake in the United States and the second deepest in North America after Great Slave Lake in Canada, which reaches a maximum depth of 2,015 feet (614 meters)."
+        },
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "The longest fjord in the world is Sognefjorden in Norway.\n\nSome key facts about Sognefjorden:\n\n- It is located in western Norway, in the county of Sogn og Fjordane.\n\n- Sognefjorden is approximately 205 km (127 miles) long.\n\n- It is the second deepest fjord in the world, with a maximum depth of around 1,308 meters (4,290 feet).\n\n- Sognefjorden is considered one of the most scenic fjords in Norway, with steep, snow-capped mountains lining its shores.\n\nSo in summary, Sognefjorden is the longest fjo"
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The largest desert in South America is the Atacama Desert.\n\nThe Atacama Desert is located in northern Chile, along the Pacific coast of South America. It is considered the driest desert in the world, with some areas receiving less than 1 millimeter of rainfall per year.\n\nThe Atacama Desert covers an area of about 105,000 square kilometers (40,500 square miles), making it the largest desert in South America."
+        },
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The longest river in Scandinavia is the Klarälven/Göta älv river system, which flows through Sweden and Norway. It has a total length of approximately 720 kilometers (447 miles)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0625",
+          "question": "What is the name of the smallest of the Faroe Islands by area?",
+          "gold_answer": "Lítla Dímun",
+          "model_response": "I don't know the name of the smallest of the Faroe Islands by area."
+        },
+        {
+          "probe_id": "IKP_T4_0627",
+          "question": "Who composed the Japanese gagaku piece 'Etenraku'?",
+          "gold_answer": "Unknown (traditional)",
+          "model_response": "I'm afraid I don't know who composed the Japanese gagaku piece 'Etenraku'. Gagaku is a traditional form of Japanese classical music, but I don't have specific information about the composer of that particular piece."
+        },
+        {
+          "probe_id": "IKP_T4_0638",
+          "question": "In computer science, what is the research subfield of Peter Alvaro, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I'm afraid I don't have enough information to definitively state Peter Alvaro's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Peter Alvaro's work, I can't provide a confident answer about his particular area of research. My knowledge is limited, so I don't want to speculate without being more certain of the details."
+        },
+        {
+          "probe_id": "IKP_T4_0639",
+          "question": "In computer science, what is the research subfield of Natacha Crooks, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Natacha Crooks in computer science. Computer science is a broad field with many specialized subfields, and without more context about Natacha Crooks' work and affiliations, I cannot provide a specific answer. My knowledge is limited, so I don't want to speculate or make claims I'm not confident are accurate."
+        },
+        {
+          "probe_id": "IKP_T4_0640",
+          "question": "In computer science, what is the research subfield of Rich Wolski, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "I do not have enough information to definitively state the specific research subfield of Rich Wolski in computer science. Rich Wolski is a professor of computer science, but without more context about his work, I cannot provide a confident answer about his research area or subfield. I do not want to speculate without being more certain of the details."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0911",
+          "question": "In what year was the journal Journal of Biomolecular NMR first published?",
+          "gold_answer": "1991",
+          "model_response": "The Journal of Biomolecular NMR was first published in 1991."
+        },
+        {
+          "probe_id": "IKP_T5_0912",
+          "question": "In what year was Sharlot Hall Museum founded?",
+          "gold_answer": "1928",
+          "model_response": "The Sharlot Hall Museum was founded in 1928 in Prescott, Arizona."
+        },
+        {
+          "probe_id": "IKP_T5_0924",
+          "question": "In what year was Rheinisches Landesmuseum Trier founded?",
+          "gold_answer": "1877",
+          "model_response": "The Rheinisches Landesmuseum Trier was founded in 1877."
+        },
+        {
+          "probe_id": "IKP_T5_0932",
+          "question": "In what year was the journal Environmental Biology of Fishes first published?",
+          "gold_answer": "1976",
+          "model_response": "The journal Environmental Biology of Fishes was first published in 1976."
+        },
+        {
+          "probe_id": "IKP_T5_0991",
+          "question": "In what year was New York University Tandon School of Engineering founded?",
+          "gold_answer": "1854",
+          "model_response": "New York University Tandon School of Engineering was founded in 1854. It was originally known as the Brooklyn Collegiate and Polytechnic Institute."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0946",
+          "question": "In what year was University of Puerto Rico at Bayamón founded?",
+          "gold_answer": "1971",
+          "model_response": "The University of Puerto Rico at Bayamón was founded in 1967."
+        },
+        {
+          "probe_id": "IKP_T5_0987",
+          "question": "In what year was Bethel University founded?",
+          "gold_answer": "1947",
+          "model_response": "Bethel University was founded in 1871."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Martina Zitterbart in computer science. Computer science is a broad field with many specialized research areas, and without more context about Martina Zitterbart's work, I cannot provide a specific answer. If you are able to share more details about their research focus or background, I may be able to provide a more informed response."
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I'm afraid I don't have enough information to definitively state Christoph Dietzel's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Christoph Dietzel's work, I cannot provide a confident answer about his particular area of research. My knowledge is limited, so I don't want to speculate without being more certain of the details."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I'm afraid I don't have enough information to definitively state Pranav Gokhale's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Pranav Gokhale's work and affiliations, I cannot provide a confident answer about their research area. My knowledge is limited, so I don't want to speculate without being more certain of the details."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I'm afraid I don't have enough information to definitively state Ruben Mayer's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Ruben Mayer's work, I cannot provide a confident answer about his research area. I do not have detailed knowledge about the research focus of individual computer scientists."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "I'm afraid I don't have enough information to definitively state Andrés Muñoz Medina's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Andrés Muñoz Medina's work and affiliations, I cannot provide a confident answer about his research area. My knowledge is limited, so I don't want to speculate. I simply don't have enough information to answer this question."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1126",
+          "question": "In what year was National Museum of Ethiopia founded?",
+          "gold_answer": "1944",
+          "model_response": "The National Museum of Ethiopia was founded in 1944."
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Myung Hoon Sunwoo in computer science. Computer science is a broad field with many specialized research areas, and without more context about Myung Hoon Sunwoo's work, I cannot provide a specific answer. My knowledge is limited, so I don't want to speculate. I apologize that I cannot give you a more detailed response."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I'm afraid I don't have enough information to definitively state Gaurav Bansod's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Gaurav Bansod's work and affiliations, I cannot provide a confident answer about their research area. My knowledge is limited, so I don't want to speculate without being more certain of the details."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Lixiang Ao in computer science. Computer science is a broad field with many specialized subfields, and without more context about Lixiang Ao's work and affiliations, I cannot provide a specific answer. My knowledge is limited, so I don't want to speculate. I apologize that I cannot give you a more detailed response."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I'm afraid I don't have enough information to definitively state Dan Schatzberg's specific research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Dan Schatzberg's work, I cannot provide a confident answer about his research area. I do not have detailed knowledge about the research focus of individual computer scientists."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Janick Edinger in computer science. Computer science is a broad field with many specialized subfields, and without more context about Janick Edinger's work, I cannot provide a specific answer. My knowledge is limited, so I don't want to speculate or make any claims I'm not confident are accurate."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1397",
+          "question": "In what year was Technical University of Civil Engineering of Bucharest founded?",
+          "gold_answer": "1864",
+          "model_response": "The Technical University of Civil Engineering of Bucharest was founded in 1864."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu is a professor of computer science at the University of Washington. His research focuses on database systems and data management, particularly in the areas of data integration, data exchange, and probabilistic databases."
+        },
+        {
+          "probe_id": "IKP_T7_1386",
+          "question": "In what year was University of Texas at Austin School of Nursing founded?",
+          "gold_answer": "1890",
+          "model_response": "The University of Texas at Austin School of Nursing was founded in 1969."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Po-Shun Wang in computer science. Computer science is a broad field with many specialized subfields, and without more context about Po-Shun Wang's specific work and publications, I cannot provide a confident answer. My knowledge is limited, so I don't want to speculate. I apologize that I cannot give you a more detailed response."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Victory Omole in computer science. Computer science is a broad field with many specialized subfields, and without more context about Victory Omole's work, I cannot provide a specific answer. If you are able to share more details about their research focus or background, I may be able to provide a more informed response."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I'm afraid I don't have enough information to definitively state the research subfield of Marie-Claire Blache in computer science. Computer science is a broad field with many specialized subfields, and without more context about Marie-Claire Blache's work, I cannot provide a specific answer. My knowledge is limited, so I don't want to speculate. I simply don't have enough information to answer this question confidently."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I'm afraid I don't have enough information to definitively state what the research subfield of Jordan Mohler is in computer science. Computer science is a broad field with many specialized subfields, and without more context about Jordan Mohler's work, I cannot provide a specific answer. If you are able to share more details about their research or area of focus, I may be able to provide a more informed response."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I'm afraid I don't have enough information to definitively state Juliette Hainline's research subfield in computer science. Computer science is a broad field with many specialized subfields, and without more context about Juliette Hainline's work, I cannot provide a specific answer. If you are able to share more details about their research or background, I may be able to provide a more informed response."
+        }
+      ]
+    }
+  }
+}

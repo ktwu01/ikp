@@ -1,0 +1,3280 @@
+{
+  "n_models": 165,
+  "n_known": 66,
+  "n_unknown": 99,
+  "fits": {
+    "T1": {
+      "k": 0.7565231510740774,
+      "x0": -3.317689018562291,
+      "r_squared": 0.05817243981684672
+    },
+    "T2": {
+      "k": 1.3172942832001209,
+      "x0": -0.6898042701156685,
+      "r_squared": 0.44053820289027046
+    },
+    "T3": {
+      "k": 2.4499282571180374,
+      "x0": 1.5431016311255379,
+      "r_squared": 0.7291187634413642
+    },
+    "T4": {
+      "k": 2.5635235859436496,
+      "x0": 2.2743159129139414,
+      "r_squared": 0.7364162541300523
+    },
+    "T5": {
+      "k": 1.8859355717489201,
+      "x0": 3.3157212583706435,
+      "r_squared": 0.6450441043989544
+    },
+    "T6": {
+      "k": 0.480513599036981,
+      "x0": 10.649947788518139,
+      "r_squared": 0.21453400734736217
+    },
+    "T7": {
+      "k": -2.4562840440722605e-16,
+      "x0": -1.8707607783488936e+16,
+      "r_squared": 0
+    }
+  },
+  "estimations": [
+    {
+      "model": "claude-3-haiku",
+      "estimated_B": 37.35941755856232,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-3.5-haiku",
+      "estimated_B": 229.08726341241703,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-3.7-sonnet-think",
+      "estimated_B": 605.4566108155462,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-3.7-sonnet",
+      "estimated_B": 1424.8031450999783,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-haiku-4.5-think",
+      "estimated_B": 122.91345342596448,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-haiku-4.5",
+      "estimated_B": 62.99823533917847,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4-think",
+      "estimated_B": 655.7890366754353,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.1-think",
+      "estimated_B": 1913.4551587162705,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.1",
+      "estimated_B": 293.79704655529855,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.5-think",
+      "estimated_B": 2138.6355669306286,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.5",
+      "estimated_B": 1553.2342837504261,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.6-think",
+      "estimated_B": 3595.941466850097,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.6",
+      "estimated_B": 2609.020207259566,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.7-think",
+      "estimated_B": 1715.3164511522436,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.7",
+      "estimated_B": 1202.5041595819198,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4",
+      "estimated_B": 165.59199471268636,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4-think",
+      "estimated_B": 399.76264919327673,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4.5-think",
+      "estimated_B": 1369.8417943736772,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "estimated_B": 351.66366953072156,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4.6-think",
+      "estimated_B": 1391.4665629425285,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4.6",
+      "estimated_B": 1338.2495588123452,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4",
+      "estimated_B": 201.82002024050377,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "command-a",
+      "estimated_B": 345.3025724222847,
+      "family": "command",
+      "vendor": "cohere"
+    },
+    {
+      "model": "deepseek-v3.1",
+      "estimated_B": 386.90065954752106,
+      "family": "deepseek",
+      "vendor": "deepseek"
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "estimated_B": 364.2508874090634,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-flash-lite-think",
+      "estimated_B": 162.29146608149844,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-flash-lite",
+      "estimated_B": 143.10884236955204,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-flash-think",
+      "estimated_B": 722.4733463227914,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "estimated_B": 371.44946047789745,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-pro-think",
+      "estimated_B": 2544.1736748735398,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "estimated_B": 2595.7894078669565,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-3-flash-think",
+      "estimated_B": 1992.5195917156848,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-3-flash",
+      "estimated_B": 1550.8041690455887,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "estimated_B": 963.0308027938013,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "estimated_B": 5565.785662021956,
+      "family": "gemini",
+      "vendor": "google"
+    },
+    {
+      "model": "glm-4.5-air-think",
+      "estimated_B": 269.7125145352444,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-4.5-think",
+      "estimated_B": 845.5308893405085,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-4.6-think",
+      "estimated_B": 1103.027949876184,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-4.7-flash-think",
+      "estimated_B": 120.07603622834692,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-4.7-think",
+      "estimated_B": 1249.8891174144437,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-5-think",
+      "estimated_B": 1561.2119923335981,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-5-turbo-think",
+      "estimated_B": 1298.4438802662996,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-5.1-think",
+      "estimated_B": 2121.2913747857406,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "estimated_B": 410.457691496937,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4-turbo",
+      "estimated_B": 1709.5151785219039,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4.1-mini",
+      "estimated_B": 434.98820807514505,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4.1-nano",
+      "estimated_B": 90.66202203893157,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4.1",
+      "estimated_B": 2264.5871039708486,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4o-mini",
+      "estimated_B": 161.04064020207414,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-4o",
+      "estimated_B": 624.4261229065532,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-mini-think",
+      "estimated_B": 311.5938690608507,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-mini",
+      "estimated_B": 287.10651141807614,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-nano-think",
+      "estimated_B": 64.00479193050697,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-nano",
+      "estimated_B": 91.96607833263813,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-pro",
+      "estimated_B": 2719.5951486314652,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5-think",
+      "estimated_B": 2242.7551381094404,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.1",
+      "estimated_B": 1050.6737347782623,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.2-pro",
+      "estimated_B": 1110.4003444787306,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.2",
+      "estimated_B": 1197.442010848915,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.3",
+      "estimated_B": 1736.7175741501167,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "estimated_B": 535.2163712788238,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "estimated_B": 34.59120342194591,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.4-pro",
+      "estimated_B": 2543.28656835069,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5.4",
+      "estimated_B": 1236.6267829153364,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "gpt-5",
+      "estimated_B": 2214.5977900582006,
+      "family": "gpt5",
+      "vendor": "openai"
+    },
+    {
+      "model": "grok-3-mini-think",
+      "estimated_B": 516.4115531190582,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "grok-3",
+      "estimated_B": 1046.3022667508174,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "grok-4.1-fast-think",
+      "estimated_B": 571.20652642377,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "grok-4.20-think",
+      "estimated_B": 951.8728322894425,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "grok-4.20",
+      "estimated_B": 534.4944454179476,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "grok-4",
+      "estimated_B": 949.7001667934803,
+      "family": "grok",
+      "vendor": "xai"
+    },
+    {
+      "model": "hunyuan-a13b-think",
+      "estimated_B": 6.7146203909392606,
+      "family": "hunyuan",
+      "vendor": "tencent"
+    },
+    {
+      "model": "hunyuan-a13b",
+      "estimated_B": 3.9694760864674863,
+      "family": "hunyuan",
+      "vendor": "tencent"
+    },
+    {
+      "model": "kimi-k2.5-think",
+      "estimated_B": 1880.575569954057,
+      "family": "kimi",
+      "vendor": "moonshot"
+    },
+    {
+      "model": "mimo-v2-flash-think",
+      "estimated_B": 471.93497064129406,
+      "family": "mimo",
+      "vendor": "xiaomi"
+    },
+    {
+      "model": "mimo-v2-flash",
+      "estimated_B": 468.30262155262017,
+      "family": "mimo",
+      "vendor": "xiaomi"
+    },
+    {
+      "model": "mimo-v2-pro-think",
+      "estimated_B": 739.5771163402127,
+      "family": "mimo",
+      "vendor": "xiaomi"
+    },
+    {
+      "model": "minimax-m1-think",
+      "estimated_B": 95.63980758300252,
+      "family": "minimax",
+      "vendor": "minimax"
+    },
+    {
+      "model": "minimax-m2.7-think",
+      "estimated_B": 221.3037925406532,
+      "family": "minimax",
+      "vendor": "minimax"
+    },
+    {
+      "model": "mistral-medium-3.1",
+      "estimated_B": 464.3187824562164,
+      "family": "mistral-prop",
+      "vendor": "mistral"
+    },
+    {
+      "model": "nova-micro",
+      "estimated_B": 16.644581357766956,
+      "family": "nova",
+      "vendor": "amazon"
+    },
+    {
+      "model": "nova-premier",
+      "estimated_B": 410.4783568767421,
+      "family": "nova",
+      "vendor": "amazon"
+    },
+    {
+      "model": "nova-pro",
+      "estimated_B": 119.92047223261463,
+      "family": "nova",
+      "vendor": "amazon"
+    },
+    {
+      "model": "o1",
+      "estimated_B": 1977.863974693855,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "o3-mini",
+      "estimated_B": 162.30144096492754,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "o3",
+      "estimated_B": 2248.833393386879,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "o4-mini-think",
+      "estimated_B": 511.5057105331196,
+      "family": "gpt",
+      "vendor": "openai"
+    },
+    {
+      "model": "qwen-max",
+      "estimated_B": 161.05332344148079,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen-plus",
+      "estimated_B": 534.4339962524275,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen-turbo",
+      "estimated_B": 36.88894314404508,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3-max",
+      "estimated_B": 935.5982193857541,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3.5-flash-think",
+      "estimated_B": 139.3639861151112,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3.5-plus-think",
+      "estimated_B": 647.1350209680971,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3.6-plus-think",
+      "estimated_B": 842.1848344658747,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "seed-1.6-flash-think",
+      "estimated_B": 42.17066367814723,
+      "family": "seed",
+      "vendor": "bytedance"
+    },
+    {
+      "model": "seed-1.6-think",
+      "estimated_B": 295.1607442909652,
+      "family": "seed",
+      "vendor": "bytedance"
+    },
+    {
+      "model": "seed-2.0-lite-think",
+      "estimated_B": 852.6886158205217,
+      "family": "seed",
+      "vendor": "bytedance"
+    },
+    {
+      "model": "seed-2.0-mini-think",
+      "estimated_B": 288.7814702062199,
+      "family": "seed",
+      "vendor": "bytedance"
+    },
+    {
+      "model": "step-3.5-flash-think",
+      "estimated_B": 594.4733229582382,
+      "family": "step",
+      "vendor": "stepfun"
+    }
+  ],
+  "model_accuracies": [
+    {
+      "model": "gemma-3-1b",
+      "params_B": 1,
+      "family": "gemma3",
+      "vendor": "google",
+      "accuracy": 0.13714285714285715,
+      "tier_accuracy": {
+        "T1": 0.7275,
+        "T2": 0.2325,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3.2-1b",
+      "params_B": 1.24,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.19035714285714286,
+      "tier_accuracy": {
+        "T1": 0.83,
+        "T2": 0.5025,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "smollm2-1.7b",
+      "params_B": 1.7,
+      "family": "smollm2",
+      "vendor": "huggingface",
+      "accuracy": 0.23214285714285715,
+      "tier_accuracy": {
+        "T1": 0.9325,
+        "T2": 0.6925,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "granite-3.3-2b",
+      "params_B": 2,
+      "family": "granite",
+      "vendor": "ibm",
+      "accuracy": 0.21214285714285713,
+      "tier_accuracy": {
+        "T1": 0.865,
+        "T2": 0.62,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-2-2b",
+      "params_B": 2.6,
+      "family": "gemma2",
+      "vendor": "google",
+      "accuracy": 0.21321428571428575,
+      "tier_accuracy": {
+        "T1": 0.91,
+        "T2": 0.5825,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "ministral-3b",
+      "params_B": 3,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.26749999999999996,
+      "tier_accuracy": {
+        "T1": 0.9475,
+        "T2": 0.8275,
+        "T3": 0.0975,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3.2-3b",
+      "params_B": 3.21,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.2842857142857143,
+      "tier_accuracy": {
+        "T1": 0.945,
+        "T2": 0.8425,
+        "T3": 0.2025,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "phi-3-mini",
+      "params_B": 3.8,
+      "family": "phi",
+      "vendor": "microsoft",
+      "accuracy": 0.21321428571428575,
+      "tier_accuracy": {
+        "T1": 0.885,
+        "T2": 0.6075,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-3-4b",
+      "params_B": 4,
+      "family": "gemma3",
+      "vendor": "google",
+      "accuracy": 0.23642857142857143,
+      "tier_accuracy": {
+        "T1": 0.97,
+        "T2": 0.685,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-3n-e4b",
+      "params_B": 4,
+      "family": "gemma3n",
+      "vendor": "google",
+      "accuracy": 0.2589285714285714,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.8125,
+        "T3": 0.015,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "command-r7b",
+      "params_B": 7,
+      "family": "command",
+      "vendor": "cohere",
+      "accuracy": 0.26964285714285713,
+      "tier_accuracy": {
+        "T1": 0.9475,
+        "T2": 0.77,
+        "T3": 0.17,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mistral-7b",
+      "params_B": 7.2,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.27464285714285713,
+      "tier_accuracy": {
+        "T1": 0.9,
+        "T2": 0.8275,
+        "T3": 0.195,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen-2.5-7b",
+      "params_B": 7.62,
+      "family": "qwen2.5",
+      "vendor": "alibaba",
+      "accuracy": 0.27571428571428575,
+      "tier_accuracy": {
+        "T1": 0.9725,
+        "T2": 0.9575,
+        "T3": 0.0,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "ministral-8b",
+      "params_B": 8,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.34035714285714286,
+      "tier_accuracy": {
+        "T1": 0.955,
+        "T2": 0.955,
+        "T3": 0.4725,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-8b-think",
+      "params_B": 8,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.3175,
+      "tier_accuracy": {
+        "T1": 0.9675,
+        "T2": 0.9175,
+        "T3": 0.3375,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3-8b",
+      "params_B": 8.03,
+      "family": "llama3",
+      "vendor": "meta",
+      "accuracy": 0.3703571428571429,
+      "tier_accuracy": {
+        "T1": 0.9725,
+        "T2": 0.94,
+        "T3": 0.4775,
+        "T4": 0.2025,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3.1-8b",
+      "params_B": 8.03,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.3653571428571428,
+      "tier_accuracy": {
+        "T1": 0.97,
+        "T2": 0.945,
+        "T3": 0.4375,
+        "T4": 0.195,
+        "T5": 0.01,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-9b-think",
+      "params_B": 9,
+      "family": "qwen3.5",
+      "vendor": "alibaba",
+      "accuracy": 0.3485714285714286,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.935,
+        "T3": 0.52,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-3-12b",
+      "params_B": 12,
+      "family": "gemma3",
+      "vendor": "google",
+      "accuracy": 0.2982142857142857,
+      "tier_accuracy": {
+        "T1": 0.9675,
+        "T2": 0.9025,
+        "T3": 0.2175,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mistral-nemo-12b",
+      "params_B": 12,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.3385714285714286,
+      "tier_accuracy": {
+        "T1": 0.95,
+        "T2": 0.9175,
+        "T3": 0.38,
+        "T4": 0.1225,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-14b-think",
+      "params_B": 14,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.35714285714285715,
+      "tier_accuracy": {
+        "T1": 0.9625,
+        "T2": 0.955,
+        "T3": 0.5825,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "phi-4",
+      "params_B": 14.7,
+      "family": "phi",
+      "vendor": "microsoft",
+      "accuracy": 0.3335714285714286,
+      "tier_accuracy": {
+        "T1": 0.965,
+        "T2": 0.9475,
+        "T3": 0.4225,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-oss-20b-think",
+      "params_B": 20,
+      "family": "gpt-oss",
+      "vendor": "openai",
+      "accuracy": 0.33964285714285714,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9325,
+        "T3": 0.4525,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mistral-small-24b",
+      "params_B": 24,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.44142857142857145,
+      "tier_accuracy": {
+        "T1": 0.9825,
+        "T2": 0.9875,
+        "T3": 0.7375,
+        "T4": 0.3825,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-4-26b-a4b",
+      "params_B": 26,
+      "family": "gemma4",
+      "vendor": "google",
+      "accuracy": 0.35607142857142854,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9725,
+        "T3": 0.4375,
+        "T4": 0.09,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-2-27b",
+      "params_B": 27,
+      "family": "gemma2",
+      "vendor": "google",
+      "accuracy": 0.3567857142857143,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.9325,
+        "T3": 0.4975,
+        "T4": 0.0825,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-3-27b",
+      "params_B": 27,
+      "family": "gemma3",
+      "vendor": "google",
+      "accuracy": 0.34785714285714286,
+      "tier_accuracy": {
+        "T1": 0.9825,
+        "T2": 0.97,
+        "T3": 0.4575,
+        "T4": 0.025,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-27b-think",
+      "params_B": 27,
+      "family": "qwen3.5",
+      "vendor": "alibaba",
+      "accuracy": 0.42464285714285716,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9625,
+        "T3": 0.7675,
+        "T4": 0.25,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-30b-a3b-think",
+      "params_B": 30,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.38642857142857145,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9725,
+        "T3": 0.66,
+        "T4": 0.085,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemma-4-31b",
+      "params_B": 31,
+      "family": "gemma4",
+      "vendor": "google",
+      "accuracy": 0.36607142857142855,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.985,
+        "T3": 0.5225,
+        "T4": 0.06,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-r1-distill-qwen-32b-think",
+      "params_B": 32,
+      "family": "deepseek-distill",
+      "vendor": "deepseek",
+      "accuracy": 0.3510714285714286,
+      "tier_accuracy": {
+        "T1": 0.97,
+        "T2": 0.9325,
+        "T3": 0.555,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4-32b",
+      "params_B": 32,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.42357142857142854,
+      "tier_accuracy": {
+        "T1": 0.9675,
+        "T2": 0.97,
+        "T3": 0.6975,
+        "T4": 0.33,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "olmo-3.1-32b",
+      "params_B": 32,
+      "family": "olmo",
+      "vendor": "allenai",
+      "accuracy": 0.34714285714285714,
+      "tier_accuracy": {
+        "T1": 0.98,
+        "T2": 0.9625,
+        "T3": 0.455,
+        "T4": 0.0325,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-32b-think",
+      "params_B": 32,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.3925,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.955,
+        "T3": 0.8075,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwq-32b-think",
+      "params_B": 32,
+      "family": "qwen2.5",
+      "vendor": "alibaba",
+      "accuracy": 0.39392857142857146,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.955,
+        "T3": 0.645,
+        "T4": 0.165,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-35b-a3b-think",
+      "params_B": 35,
+      "family": "qwen3.5",
+      "vendor": "alibaba",
+      "accuracy": 0.45,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9625,
+        "T3": 0.8425,
+        "T4": 0.35,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mixtral-8x7b",
+      "params_B": 46.7,
+      "family": "mixtral",
+      "vendor": "mistral",
+      "accuracy": 0.4492857142857143,
+      "tier_accuracy": {
+        "T1": 0.955,
+        "T2": 0.97,
+        "T3": 0.7425,
+        "T4": 0.45,
+        "T5": 0.0275,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "nemotron-super-49b-think",
+      "params_B": 49,
+      "family": "nemotron",
+      "vendor": "nvidia",
+      "accuracy": 0.3803571428571429,
+      "tier_accuracy": {
+        "T1": 0.9725,
+        "T2": 0.9875,
+        "T3": 0.5575,
+        "T4": 0.1325,
+        "T5": 0.0125,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-r1-distill-llama-70b-think",
+      "params_B": 70,
+      "family": "deepseek-distill",
+      "vendor": "deepseek",
+      "accuracy": 0.48892857142857143,
+      "tier_accuracy": {
+        "T1": 0.9775,
+        "T2": 0.9475,
+        "T3": 0.7825,
+        "T4": 0.5275,
+        "T5": 0.1875,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "nemotron-70b",
+      "params_B": 70,
+      "family": "nemotron",
+      "vendor": "nvidia",
+      "accuracy": 0.5217857142857143,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 0.995,
+        "T3": 0.83,
+        "T4": 0.635,
+        "T5": 0.1975,
+        "T6": 0.005,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3-70b",
+      "params_B": 70.6,
+      "family": "llama3",
+      "vendor": "meta",
+      "accuracy": 0.5310714285714285,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9775,
+        "T3": 0.8275,
+        "T4": 0.655,
+        "T5": 0.2625,
+        "T6": 0.0075,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3.1-70b",
+      "params_B": 70.6,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.49178571428571427,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.78,
+        "T4": 0.5075,
+        "T5": 0.1775,
+        "T6": 0.005,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-3.3-70b",
+      "params_B": 70.6,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.5196428571428572,
+      "tier_accuracy": {
+        "T1": 0.97,
+        "T2": 0.9925,
+        "T3": 0.795,
+        "T4": 0.64,
+        "T5": 0.2275,
+        "T6": 0.0125,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen-2.5-72b",
+      "params_B": 72.7,
+      "family": "qwen2.5",
+      "vendor": "alibaba",
+      "accuracy": 0.4378571428571428,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.73,
+        "T4": 0.3225,
+        "T5": 0.0275,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-next-80b-a3b",
+      "params_B": 80,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.49678571428571433,
+      "tier_accuracy": {
+        "T1": 0.9775,
+        "T2": 0.9925,
+        "T3": 0.885,
+        "T4": 0.59,
+        "T5": 0.0325,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "command-r-plus",
+      "params_B": 104,
+      "family": "command",
+      "vendor": "cohere",
+      "accuracy": 0.42428571428571427,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.94,
+        "T3": 0.605,
+        "T4": 0.355,
+        "T5": 0.085,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "ling-2.6-flash",
+      "params_B": 104,
+      "family": "ling",
+      "vendor": "inclusionai",
+      "accuracy": 0.18464285714285716,
+      "tier_accuracy": {
+        "T1": 0.3925,
+        "T2": 0.3925,
+        "T3": 0.295,
+        "T4": 0.1525,
+        "T5": 0.06,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-4-scout",
+      "params_B": 109,
+      "family": "llama4",
+      "vendor": "meta",
+      "accuracy": 0.39107142857142857,
+      "tier_accuracy": {
+        "T1": 0.97,
+        "T2": 0.8975,
+        "T3": 0.62,
+        "T4": 0.25,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-oss-120b-think",
+      "params_B": 120,
+      "family": "gpt-oss",
+      "vendor": "openai",
+      "accuracy": 0.45357142857142857,
+      "tier_accuracy": {
+        "T1": 0.9625,
+        "T2": 0.9775,
+        "T3": 0.76,
+        "T4": 0.425,
+        "T5": 0.05,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-122b-a10b-think",
+      "params_B": 122,
+      "family": "qwen3.5",
+      "vendor": "alibaba",
+      "accuracy": 0.5310714285714285,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.9175,
+        "T4": 0.7125,
+        "T5": 0.11,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mistral-large",
+      "params_B": 123,
+      "family": "mistral",
+      "vendor": "mistral",
+      "accuracy": 0.5053571428571428,
+      "tier_accuracy": {
+        "T1": 0.9725,
+        "T2": 0.9725,
+        "T3": 0.86,
+        "T4": 0.6025,
+        "T5": 0.13,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mixtral-8x22b",
+      "params_B": 141,
+      "family": "mixtral",
+      "vendor": "mistral",
+      "accuracy": 0.5578571428571429,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 1.0,
+        "T3": 0.8725,
+        "T4": 0.71,
+        "T5": 0.33,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-235b-a22b-think",
+      "params_B": 235,
+      "family": "qwen3",
+      "vendor": "alibaba",
+      "accuracy": 0.4867857142857143,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.8325,
+        "T4": 0.6025,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "ernie-4.5-300b-a47b",
+      "params_B": 300,
+      "family": "ernie",
+      "vendor": "baidu",
+      "accuracy": 0.4946428571428571,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9775,
+        "T3": 0.7975,
+        "T4": 0.505,
+        "T5": 0.195,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-397b-a17b-think",
+      "params_B": 397,
+      "family": "qwen3.5",
+      "vendor": "alibaba",
+      "accuracy": 0.5599999999999999,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.885,
+        "T4": 0.7325,
+        "T5": 0.325,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "jamba-large",
+      "params_B": 398,
+      "family": "jamba",
+      "vendor": "ai21",
+      "accuracy": 0.5399999999999999,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.9,
+        "T4": 0.645,
+        "T5": 0.2125,
+        "T6": 0.045,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "llama-4-maverick",
+      "params_B": 402,
+      "family": "llama4",
+      "vendor": "meta",
+      "accuracy": 0.5839285714285715,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9925,
+        "T3": 0.8675,
+        "T4": 0.745,
+        "T5": 0.41,
+        "T6": 0.085,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "hermes-3-405b",
+      "params_B": 405,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.4382142857142857,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.97,
+        "T3": 0.6725,
+        "T4": 0.37,
+        "T5": 0.0525,
+        "T6": 0.01,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "hermes-4-405b",
+      "params_B": 405,
+      "family": "llama",
+      "vendor": "meta",
+      "accuracy": 0.4957142857142857,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.97,
+        "T3": 0.7825,
+        "T4": 0.5675,
+        "T5": 0.125,
+        "T6": 0.0325,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-r1-think",
+      "params_B": 671,
+      "family": "deepseek",
+      "vendor": "deepseek",
+      "accuracy": 0.6307142857142857,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9625,
+        "T3": 0.93,
+        "T4": 0.8375,
+        "T5": 0.6075,
+        "T6": 0.0775,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-v3.2-think",
+      "params_B": 671,
+      "family": "deepseek",
+      "vendor": "deepseek",
+      "accuracy": 0.6210714285714285,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.945,
+        "T4": 0.8225,
+        "T5": 0.55,
+        "T6": 0.0375,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-v3.2",
+      "params_B": 671,
+      "family": "deepseek",
+      "vendor": "deepseek",
+      "accuracy": 0.6075,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 1.0,
+        "T3": 0.9425,
+        "T4": 0.77,
+        "T5": 0.53,
+        "T6": 0.025,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-v3",
+      "params_B": 671,
+      "family": "deepseek",
+      "vendor": "deepseek",
+      "accuracy": 0.6228571428571429,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.945,
+        "T4": 0.8525,
+        "T5": 0.5275,
+        "T6": 0.0475,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "kimi-k2",
+      "params_B": 1000,
+      "family": "kimi",
+      "vendor": "moonshot",
+      "accuracy": 0.6307142857142856,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9925,
+        "T3": 0.955,
+        "T4": 0.7775,
+        "T5": 0.625,
+        "T6": 0.0725,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "kimi-k2.6-think",
+      "params_B": 1040,
+      "family": "kimi",
+      "vendor": "moonshot",
+      "accuracy": 0.6732142857142858,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 1.0,
+        "T3": 0.9925,
+        "T4": 0.9275,
+        "T5": 0.795,
+        "T6": 0.005,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4",
+      "params_B": 1800,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6378571428571428,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.95,
+        "T4": 0.7825,
+        "T5": 0.61,
+        "T6": 0.145,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-3-haiku",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.3867857142857143,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.94,
+        "T3": 0.5375,
+        "T4": 0.2025,
+        "T5": 0.025,
+        "T6": 0.01,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-3.5-haiku",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5114285714285713,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9925,
+        "T3": 0.755,
+        "T4": 0.5675,
+        "T5": 0.2375,
+        "T6": 0.04,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-3.7-sonnet-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.597857142857143,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.8925,
+        "T4": 0.745,
+        "T5": 0.4675,
+        "T6": 0.1025,
+        "T7": 0.005
+      }
+    },
+    {
+      "model": "claude-3.7-sonnet",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6728571428571428,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 1.0,
+        "T3": 0.95,
+        "T4": 0.8325,
+        "T5": 0.72,
+        "T6": 0.22,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-haiku-4.5-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.47250000000000003,
+      "tier_accuracy": {
+        "T1": 0.9775,
+        "T2": 0.9925,
+        "T3": 0.8,
+        "T4": 0.4625,
+        "T5": 0.07,
+        "T6": 0.005,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-haiku-4.5",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.44,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9775,
+        "T3": 0.6875,
+        "T4": 0.395,
+        "T5": 0.0275,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5875,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.995,
+        "T3": 0.96,
+        "T4": 0.7125,
+        "T5": 0.3475,
+        "T6": 0.1025,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.1-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6699999999999999,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 1.0,
+        "T3": 0.9775,
+        "T4": 0.905,
+        "T5": 0.635,
+        "T6": 0.185,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.1",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5314285714285715,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 1.0,
+        "T3": 0.875,
+        "T4": 0.6325,
+        "T5": 0.2,
+        "T6": 0.0225,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.5-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6721428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.9825,
+        "T4": 0.9075,
+        "T5": 0.6475,
+        "T6": 0.1675,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.5",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6682142857142856,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 0.985,
+        "T3": 0.9625,
+        "T4": 0.8625,
+        "T5": 0.68,
+        "T6": 0.1975,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.6-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.7078571428571429,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.985,
+        "T4": 0.9575,
+        "T5": 0.76,
+        "T6": 0.2525,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.6",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.687857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.995,
+        "T3": 0.98,
+        "T4": 0.935,
+        "T5": 0.715,
+        "T6": 0.19,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.7-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6567857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.9725,
+        "T4": 0.915,
+        "T5": 0.5875,
+        "T6": 0.1375,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4.7",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6449999999999999,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.9475,
+        "T4": 0.895,
+        "T5": 0.5425,
+        "T6": 0.145,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-opus-4",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.48928571428571427,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9925,
+        "T3": 0.82,
+        "T4": 0.5175,
+        "T5": 0.1075,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-sonnet-4-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5592857142857143,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 1.0,
+        "T3": 0.87,
+        "T4": 0.6675,
+        "T5": 0.33,
+        "T6": 0.0475,
+        "T7": 0.005
+      }
+    },
+    {
+      "model": "claude-sonnet-4.5-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6332142857142857,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 1.0,
+        "T3": 0.97,
+        "T4": 0.89,
+        "T5": 0.52,
+        "T6": 0.0575,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-sonnet-4.5",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5453571428571429,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 1.0,
+        "T3": 0.885,
+        "T4": 0.67,
+        "T5": 0.2425,
+        "T6": 0.03,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-sonnet-4.6-think",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6442857142857142,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9475,
+        "T4": 0.9025,
+        "T5": 0.615,
+        "T6": 0.0575,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-sonnet-4.6",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6375000000000001,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.95,
+        "T4": 0.9,
+        "T5": 0.5875,
+        "T6": 0.025,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "claude-sonnet-4",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.49964285714285717,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.84,
+        "T4": 0.5225,
+        "T5": 0.1475,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "command-a",
+      "params_B": null,
+      "family": "command",
+      "vendor": "cohere",
+      "accuracy": 0.5403571428571429,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.8925,
+        "T4": 0.69,
+        "T5": 0.2125,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "deepseek-v3.1",
+      "params_B": null,
+      "family": "deepseek",
+      "vendor": "deepseek",
+      "accuracy": 0.5560714285714285,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.985,
+        "T3": 0.865,
+        "T4": 0.6775,
+        "T5": 0.3125,
+        "T6": 0.0575,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.5425000000000001,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9775,
+        "T3": 0.91,
+        "T4": 0.7325,
+        "T5": 0.185,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite-think",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.5039285714285714,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.85,
+        "T4": 0.6275,
+        "T5": 0.065,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-lite",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.48035714285714287,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9775,
+        "T3": 0.82,
+        "T4": 0.495,
+        "T5": 0.0825,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-flash-think",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.5946428571428573,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.925,
+        "T4": 0.7525,
+        "T5": 0.4925,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.555,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.8575,
+        "T4": 0.725,
+        "T5": 0.2675,
+        "T6": 0.0625,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-pro-think",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.6892857142857143,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 1.0,
+        "T3": 0.985,
+        "T4": 0.9025,
+        "T5": 0.7225,
+        "T6": 0.23,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.6982142857142856,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 1.0,
+        "T3": 0.985,
+        "T4": 0.9175,
+        "T5": 0.705,
+        "T6": 0.2875,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-3-flash-think",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.8028571428571428,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.985,
+        "T4": 0.94,
+        "T5": 0.97,
+        "T6": 0.7325,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-3-flash",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.7882142857142858,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.9775,
+        "T4": 0.9325,
+        "T5": 0.955,
+        "T6": 0.6525,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.6910714285714287,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 0.985,
+        "T3": 0.965,
+        "T4": 0.885,
+        "T5": 0.79,
+        "T6": 0.2225,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gemini-3.1-pro",
+      "params_B": null,
+      "family": "gemini",
+      "vendor": "google",
+      "accuracy": 0.8325000000000001,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9925,
+        "T4": 0.9775,
+        "T5": 0.9625,
+        "T6": 0.9025,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4.5-air-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.5189285714285715,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.8525,
+        "T4": 0.5925,
+        "T5": 0.21,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4.5-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6153571428571428,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.945,
+        "T4": 0.7425,
+        "T5": 0.535,
+        "T6": 0.0975,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4.6-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6221428571428572,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.98,
+        "T3": 0.9275,
+        "T4": 0.89,
+        "T5": 0.565,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4.7-flash-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.445,
+      "tier_accuracy": {
+        "T1": 0.9775,
+        "T2": 0.9925,
+        "T3": 0.8275,
+        "T4": 0.3175,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-4.7-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6339285714285713,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9875,
+        "T3": 0.955,
+        "T4": 0.88,
+        "T5": 0.5625,
+        "T6": 0.06,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-5-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6446428571428573,
+      "tier_accuracy": {
+        "T1": 0.98,
+        "T2": 0.9875,
+        "T3": 0.9625,
+        "T4": 0.875,
+        "T5": 0.665,
+        "T6": 0.0425,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-5-turbo-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6364285714285715,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9625,
+        "T4": 0.8275,
+        "T5": 0.625,
+        "T6": 0.0525,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-5.1-think",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6585714285714286,
+      "tier_accuracy": {
+        "T1": 0.9525,
+        "T2": 0.97,
+        "T3": 0.975,
+        "T4": 0.9125,
+        "T5": 0.695,
+        "T6": 0.105,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.5453571428571429,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.915,
+        "T4": 0.64,
+        "T5": 0.285,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4-turbo",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6442857142857142,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 1.0,
+        "T3": 0.97,
+        "T4": 0.875,
+        "T5": 0.675,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4.1-mini",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.5549999999999999,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.9025,
+        "T4": 0.73,
+        "T5": 0.275,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4.1-nano",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.42750000000000005,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9475,
+        "T3": 0.7075,
+        "T4": 0.3375,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4.1",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6717857142857142,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9775,
+        "T3": 0.985,
+        "T4": 0.8875,
+        "T5": 0.6875,
+        "T6": 0.165,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4o-mini",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.4660714285714285,
+      "tier_accuracy": {
+        "T1": 0.9825,
+        "T2": 0.97,
+        "T3": 0.8175,
+        "T4": 0.49,
+        "T5": 0.0025,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6035714285714285,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9775,
+        "T3": 0.8775,
+        "T4": 0.7575,
+        "T5": 0.5025,
+        "T6": 0.1225,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-mini-think",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.5339285714285714,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.8925,
+        "T4": 0.6075,
+        "T5": 0.215,
+        "T6": 0.035,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-mini",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.5314285714285715,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.995,
+        "T3": 0.8825,
+        "T4": 0.6175,
+        "T5": 0.19,
+        "T6": 0.04,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-nano-think",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.4442857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.715,
+        "T4": 0.375,
+        "T5": 0.0275,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-nano",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.4325,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9725,
+        "T3": 0.705,
+        "T4": 0.3475,
+        "T5": 0.01,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-pro",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6989285714285715,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.985,
+        "T4": 0.9125,
+        "T5": 0.7375,
+        "T6": 0.2725,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5-think",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.7032142857142858,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9725,
+        "T4": 0.89,
+        "T5": 0.7725,
+        "T6": 0.3,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.1",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6389285714285714,
+      "tier_accuracy": {
+        "T1": 0.99,
+        "T2": 0.98,
+        "T3": 0.945,
+        "T4": 0.8125,
+        "T5": 0.5925,
+        "T6": 0.1525,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.2-pro",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6342857142857142,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9575,
+        "T4": 0.8575,
+        "T5": 0.515,
+        "T6": 0.1225,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.2",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6289285714285714,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.985,
+        "T3": 0.97,
+        "T4": 0.845,
+        "T5": 0.51,
+        "T6": 0.0975,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.3",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6592857142857144,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.87,
+        "T5": 0.64,
+        "T6": 0.135,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.4-mini",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.5760714285714286,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.8725,
+        "T4": 0.765,
+        "T5": 0.41,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.4-nano",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.3567857142857143,
+      "tier_accuracy": {
+        "T1": 0.9475,
+        "T2": 0.91,
+        "T3": 0.5175,
+        "T4": 0.1225,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.4-pro",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6917857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.9175,
+        "T5": 0.7575,
+        "T6": 0.1975,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5.4",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6460714285714285,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9775,
+        "T3": 0.935,
+        "T4": 0.8725,
+        "T5": 0.64,
+        "T6": 0.0975,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "gpt-5",
+      "params_B": null,
+      "family": "gpt5",
+      "vendor": "openai",
+      "accuracy": 0.6921428571428573,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.89,
+        "T5": 0.7375,
+        "T6": 0.2525,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-3-mini-think",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.5621428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.955,
+        "T3": 0.9175,
+        "T4": 0.72,
+        "T5": 0.3425,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-3",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.6971428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.965,
+        "T4": 0.9025,
+        "T5": 0.795,
+        "T6": 0.2175,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-4.1-fast-think",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.5707142857142857,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9925,
+        "T3": 0.935,
+        "T4": 0.7275,
+        "T5": 0.3475,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-4.20-think",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.6207142857142857,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9875,
+        "T3": 0.9525,
+        "T4": 0.78,
+        "T5": 0.54,
+        "T6": 0.085,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-4.20",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.5717857142857142,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9625,
+        "T3": 0.865,
+        "T4": 0.655,
+        "T5": 0.52,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "grok-4",
+      "params_B": null,
+      "family": "grok",
+      "vendor": "xai",
+      "accuracy": 0.7071428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.955,
+        "T4": 0.9075,
+        "T5": 0.835,
+        "T6": 0.2675,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "hunyuan-a13b-think",
+      "params_B": null,
+      "family": "hunyuan",
+      "vendor": "tencent",
+      "accuracy": 0.2671428571428571,
+      "tier_accuracy": {
+        "T1": 0.94,
+        "T2": 0.7825,
+        "T3": 0.1475,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "hunyuan-a13b",
+      "params_B": null,
+      "family": "hunyuan",
+      "vendor": "tencent",
+      "accuracy": 0.25892857142857145,
+      "tier_accuracy": {
+        "T1": 0.9325,
+        "T2": 0.79,
+        "T3": 0.09,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "kimi-k2.5-think",
+      "params_B": null,
+      "family": "kimi",
+      "vendor": "moonshot",
+      "accuracy": 0.6896428571428571,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.955,
+        "T5": 0.9075,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mimo-v2-flash-think",
+      "params_B": null,
+      "family": "mimo",
+      "vendor": "xiaomi",
+      "accuracy": 0.5617857142857142,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.9,
+        "T4": 0.71,
+        "T5": 0.3375,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mimo-v2-flash",
+      "params_B": null,
+      "family": "mimo",
+      "vendor": "xiaomi",
+      "accuracy": 0.5575,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.9475,
+        "T3": 0.8675,
+        "T4": 0.73,
+        "T5": 0.3725,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mimo-v2-pro-think",
+      "params_B": null,
+      "family": "mimo",
+      "vendor": "xiaomi",
+      "accuracy": 0.6003571428571428,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.9925,
+        "T3": 0.94,
+        "T4": 0.7875,
+        "T5": 0.425,
+        "T6": 0.0725,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "minimax-m1-think",
+      "params_B": null,
+      "family": "minimax",
+      "vendor": "minimax",
+      "accuracy": 0.2689285714285714,
+      "tier_accuracy": {
+        "T1": 0.465,
+        "T2": 0.42,
+        "T3": 0.5,
+        "T4": 0.3575,
+        "T5": 0.14,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "minimax-m2.7-think",
+      "params_B": null,
+      "family": "minimax",
+      "vendor": "minimax",
+      "accuracy": 0.5017857142857143,
+      "tier_accuracy": {
+        "T1": 0.98,
+        "T2": 0.9875,
+        "T3": 0.8175,
+        "T4": 0.5375,
+        "T5": 0.19,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "mistral-medium-3.1",
+      "params_B": null,
+      "family": "mistral-prop",
+      "vendor": "mistral",
+      "accuracy": 0.5592857142857143,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9775,
+        "T3": 0.905,
+        "T4": 0.7925,
+        "T5": 0.2525,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "nova-micro",
+      "params_B": null,
+      "family": "nova",
+      "vendor": "amazon",
+      "accuracy": 0.31607142857142856,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9125,
+        "T3": 0.3125,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "nova-premier",
+      "params_B": null,
+      "family": "nova",
+      "vendor": "amazon",
+      "accuracy": 0.5514285714285714,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9775,
+        "T3": 0.9125,
+        "T4": 0.7575,
+        "T5": 0.2125,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "nova-pro",
+      "params_B": null,
+      "family": "nova",
+      "vendor": "amazon",
+      "accuracy": 0.4832142857142857,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.845,
+        "T4": 0.52,
+        "T5": 0.045,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "o1",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6853571428571429,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 1.0,
+        "T3": 0.965,
+        "T4": 0.9175,
+        "T5": 0.705,
+        "T6": 0.2225,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "o3-mini",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.4682142857142857,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.9925,
+        "T3": 0.835,
+        "T4": 0.4625,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "o3",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.6950000000000001,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.8825,
+        "T5": 0.755,
+        "T6": 0.2575,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "o4-mini-think",
+      "params_B": null,
+      "family": "gpt",
+      "vendor": "openai",
+      "accuracy": 0.5625,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.945,
+        "T4": 0.7675,
+        "T5": 0.2325,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen-max",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.48535714285714293,
+      "tier_accuracy": {
+        "T1": 0.9875,
+        "T2": 0.985,
+        "T3": 0.7875,
+        "T4": 0.5225,
+        "T5": 0.115,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen-plus",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.5696428571428572,
+      "tier_accuracy": {
+        "T1": 0.98,
+        "T2": 0.9925,
+        "T3": 0.91,
+        "T4": 0.78,
+        "T5": 0.325,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen-turbo",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.3628571428571429,
+      "tier_accuracy": {
+        "T1": 0.94,
+        "T2": 0.945,
+        "T3": 0.515,
+        "T4": 0.14,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3-max",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.6121428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.94,
+        "T4": 0.8125,
+        "T5": 0.54,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-flash-think",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.45714285714285713,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.985,
+        "T3": 0.835,
+        "T4": 0.38,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.5-plus-think",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.5803571428571429,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.985,
+        "T3": 0.935,
+        "T4": 0.775,
+        "T5": 0.375,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.6-plus-think",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.6050000000000001,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 1.0,
+        "T3": 0.9525,
+        "T4": 0.8175,
+        "T5": 0.4225,
+        "T6": 0.0475,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "seed-1.6-flash-think",
+      "params_B": null,
+      "family": "seed",
+      "vendor": "bytedance",
+      "accuracy": 0.3567857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9475,
+        "T3": 0.55,
+        "T4": 0.0,
+        "T5": 0.0,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "seed-1.6-think",
+      "params_B": null,
+      "family": "seed",
+      "vendor": "bytedance",
+      "accuracy": 0.5292857142857142,
+      "tier_accuracy": {
+        "T1": 0.995,
+        "T2": 0.9925,
+        "T3": 0.9075,
+        "T4": 0.6575,
+        "T5": 0.1525,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "seed-2.0-lite-think",
+      "params_B": null,
+      "family": "seed",
+      "vendor": "bytedance",
+      "accuracy": 0.6107142857142858,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.915,
+        "T4": 0.84,
+        "T5": 0.52,
+        "T6": 0.0075,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "seed-2.0-mini-think",
+      "params_B": null,
+      "family": "seed",
+      "vendor": "bytedance",
+      "accuracy": 0.5217857142857143,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9625,
+        "T3": 0.8125,
+        "T4": 0.62,
+        "T5": 0.265,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "step-3.5-flash-think",
+      "params_B": null,
+      "family": "step",
+      "vendor": "stepfun",
+      "accuracy": 0.5753571428571428,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9775,
+        "T3": 0.925,
+        "T4": 0.7225,
+        "T5": 0.4025,
+        "T6": 0.0,
+        "T7": 0.0
+      }
+    }
+  ]
+}

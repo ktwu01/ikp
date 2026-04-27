@@ -1,0 +1,620 @@
+{
+  "model": "claude-opus-4.7-think",
+  "vendor": "anthropic",
+  "family": "claude",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": true,
+  "accuracy": 0.6635714285714286,
+  "raw_accuracy": 0.7135714285714285,
+  "tier_accuracy": {
+    "T1": 1.0,
+    "T2": 0.98,
+    "T3": 0.9575,
+    "T4": 0.8975,
+    "T5": 0.6825,
+    "T6": 0.1275,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 200,
+      "weak": 0,
+      "wrong": 0,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 198,
+      "weak": 0,
+      "wrong": 2,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 193,
+      "weak": 3,
+      "wrong": 3,
+      "refusal": 1,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 183,
+      "weak": 7,
+      "wrong": 7,
+      "refusal": 3,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 148,
+      "weak": 7,
+      "wrong": 15,
+      "refusal": 30,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 58,
+      "weak": 3,
+      "wrong": 34,
+      "refusal": 105,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 19,
+      "weak": 9,
+      "wrong": 30,
+      "refusal": 142,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The Strait of Messina."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris"
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "1883"
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon"
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The Aare."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The Faroe Islands."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Tuul River."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0262",
+          "question": "In what year was the Hoover Dam completed?",
+          "gold_answer": "1936",
+          "model_response": "1935"
+        },
+        {
+          "probe_id": "IKP_T2_0347",
+          "question": "In what year was the first transatlantic cable successfully operated?",
+          "gold_answer": "1866",
+          "model_response": "1858"
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin composed \"Prince Igor.\" He left it unfinished at his death in 1887; it was completed by Nikolai Rimsky-Korsakov and Alexander Glazunov."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "Ernest Rutherford and Frederick Soddy, around 1902, through their work on thorium at McGill University."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado, on the Argentina-Chile border, at 6,893 meters (22,615 feet)."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "1890"
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building was designed by Ludwig Mies van der Rohe, in collaboration with Philip Johnson."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "1756"
+        },
+        {
+          "probe_id": "IKP_T3_0446",
+          "question": "What is the longest river entirely within Australia?",
+          "gold_answer": "Murray River",
+          "model_response": "The Murrumbidgee River."
+        },
+        {
+          "probe_id": "IKP_T3_0587",
+          "question": "What is the highest peak in Bangladesh?",
+          "gold_answer": "Keokradong",
+          "model_response": "The highest peak in Bangladesh is Saka Haphong (also known as Mowdok Taung), located in the Chittagong Hill Tracts, with an elevation of approximately 1,052 meters (3,451 feet)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0477",
+          "question": "In computer science, what is the research subfield of Zhiguo Ding, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. There may be multiple researchers named Zhiguo Ding, and I can't reliably identify which one you're asking about or their specific subfield without more context."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "Puncak Jaya (also known as Carstensz Pyramid) in Indonesia, at 4,884 meters (16,024 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The Fedchenko Glacier in Tajikistan's Pamir Mountains is generally considered the largest glacier outside the polar regions, at about 77 km (48 miles) long."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "Great Slave Lake in Canada's Northwest Territories, with a maximum depth of about 614 meters (2,014 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "Ras ben Sakka (also called Ras Angela) in Tunisia."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The Klarälven–Göta älv river system is the longest in Scandinavia, at about 1,160 km (720 miles)."
+        },
+        {
+          "probe_id": "IKP_T4_0710",
+          "question": "In what year was Khangarid founded?",
+          "gold_answer": "1996",
+          "model_response": "Khangarid FC, the Mongolian football club based in Erdenet, was founded in 1987."
+        },
+        {
+          "probe_id": "IKP_T4_0744",
+          "question": "In what year was Mississippi Brilla founded?",
+          "gold_answer": "2006",
+          "model_response": "Mississippi Brilla was founded in 2003."
+        },
+        {
+          "probe_id": "IKP_T4_0748",
+          "question": "In what year was Pontifical Catholic University of Rio de Janeiro founded?",
+          "gold_answer": "1940",
+          "model_response": "1941"
+        },
+        {
+          "probe_id": "IKP_T4_0751",
+          "question": "In what year was Österreichischer Skulpturenpark founded?",
+          "gold_answer": "2003",
+          "model_response": "The Österreichischer Skulpturenpark (Austrian Sculpture Park) in Premstätten, near Graz, was founded in 1981."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0614",
+          "question": "What is the largest island in the Sea of Japan?",
+          "gold_answer": "Sado Island",
+          "model_response": "Sakhalin is sometimes cited, but it primarily borders the Sea of Okhotsk. The largest island located within the Sea of Japan is **Ulleungdo**... actually, the correct answer is **Sado Island** (Japan).\n\nI don't know with full certainty — but Sado Island is generally considered the largest island in the Sea of Japan."
+        },
+        {
+          "probe_id": "IKP_T4_0645",
+          "question": "In computer science, what is the research subfield of Cuauhtemoc Mancillas-López, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0658",
+          "question": "In computer science, what is the research subfield of Elmar Tischhauser, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0661",
+          "question": "In computer science, what is the research subfield of Suman Banerjee, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know which Suman Banerjee you're referring to, as there are multiple computer science researchers by that name. The two most prominent are:\n\n1. **Suman Banerjee (University of Wisconsin–Madison)** — works in computer networks, wireless networking, and mobile systems.\n\n2. **Suman Banerjee (IIT Delhi)** — works in data mining, machine learning, and social network analysis.\n\nCould you clarify which one you mean?"
+        },
+        {
+          "probe_id": "IKP_T4_0676",
+          "question": "In computer science, what is the research subfield of Felix Xiaozhu Lin, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Martina Zitterbart's research is in the field of computer networks and telematics (telecommunications), with focus areas including network architectures, network security, and the Internet of Things."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Ruben Mayer is a computer science researcher whose work focuses on distributed systems, particularly stream processing, large-scale data processing, and machine learning systems (including distributed/scalable machine learning and graph processing)."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Andrés Muñoz Medina is a research scientist whose work focuses on machine learning, particularly learning theory, online learning, and algorithmic mechanism design / auction theory (applying machine learning to ad auctions and pricing)."
+        },
+        {
+          "probe_id": "IKP_T5_0807",
+          "question": "In computer science, what is the research subfield of Yossi Gilad, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Yossi Gilad's research is primarily in the area of computer systems security and networking, with particular focus on network security, internet infrastructure security (such as DNS, BGP, and RPKI), privacy-enhancing technologies (including anonymous communication systems), and applied cryptography."
+        },
+        {
+          "probe_id": "IKP_T5_0810",
+          "question": "In computer science, what is the research subfield of Aleksey Charapko, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Aleksey Charapko's research is in distributed systems, with a focus on consensus protocols, replication, and cloud/distributed storage systems."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0900",
+          "question": "In what year was Stone Dominoes F.C. founded?",
+          "gold_answer": "1987",
+          "model_response": "Stone Dominoes F.C. was founded in 1947."
+        },
+        {
+          "probe_id": "IKP_T5_0914",
+          "question": "In what year was Fukuyama Heisei University founded?",
+          "gold_answer": "1994",
+          "model_response": "Fukuyama Heisei University was founded in 2000."
+        },
+        {
+          "probe_id": "IKP_T5_0918",
+          "question": "In what year was Soviet submarine D-2 Narodovolets founded?",
+          "gold_answer": "1927",
+          "model_response": "Soviet submarine D-2 *Narodovolets* was laid down in 1929 and launched in 1929, then commissioned in 1931."
+        },
+        {
+          "probe_id": "IKP_T5_0925",
+          "question": "In what year was Lydney Town A.F.C. founded?",
+          "gold_answer": "1911",
+          "model_response": "Lydney Town A.F.C. was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T5_0927",
+          "question": "In what year was Silver Jubilee Degree  College (autonomous), Kurnool founded?",
+          "gold_answer": "1972",
+          "model_response": "Silver Jubilee Degree College in Kurnool was founded in 1956."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know. Pranav Gokhale has worked on quantum computing, particularly quantum software and compiler optimization, but I'm not fully certain this refers to the person you're asking about."
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Myung Hoon Sunwoo's research subfield is VLSI (Very Large Scale Integration) design, particularly focused on digital signal processing (DSP) architectures and SoC (System-on-Chip) design."
+        },
+        {
+          "probe_id": "IKP_T6_1010",
+          "question": "In computer science, what is the research subfield of Ryan Beckett, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Ryan Beckett is a computer scientist whose research focuses on computer networking, particularly network verification and programmable networks. His work involves applying programming languages and formal methods techniques to analyze and verify the correctness of network configurations and routing protocols."
+        },
+        {
+          "probe_id": "IKP_T6_1012",
+          "question": "In computer science, what is the research subfield of Zhifeng Bao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "information retrieval",
+          "model_response": "Zhifeng Bao is a computer science researcher whose work focuses on **data management**, particularly in areas such as **spatial and spatio-temporal data**, **data exploration**, **databases**, **information retrieval**, and **data mining**. He is known for research on keyword search over structured data, trajectory data analytics, and urban computing."
+        },
+        {
+          "probe_id": "IKP_T6_1017",
+          "question": "In computer science, what is the research subfield of Jayashree Mohan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Jayashree Mohan is a researcher at Microsoft Research India whose work focuses on systems for machine learning — particularly data storage, data loading, and I/O efficiency for ML training pipelines, as well as file system reliability and crash consistency."
+        },
+        {
+          "probe_id": "IKP_T6_1025",
+          "question": "In computer science, what is the research subfield of Kasım Sinan Yıldırım, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "Kasım Sinan Yıldırım's research is primarily in the area of energy-harvesting and intermittent computing, particularly focused on batteryless embedded systems, Internet of Things (IoT), and wireless sensor networks."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1061",
+          "question": "In what year was G.S. Bagnolese founded?",
+          "gold_answer": "1914",
+          "model_response": "G.S. Bagnolese was founded in 1921."
+        },
+        {
+          "probe_id": "IKP_T6_1070",
+          "question": "In what year was SG Dynamo Fürstenwalde founded?",
+          "gold_answer": "1971",
+          "model_response": "SG Dynamo Fürstenwalde was founded in 1953."
+        },
+        {
+          "probe_id": "IKP_T6_1072",
+          "question": "In what year was Politeknik Negeri Cilacap founded?",
+          "gold_answer": "2014",
+          "model_response": "Politeknik Negeri Cilacap was founded in 2008."
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": "Enfield, Connecticut was founded in 1683."
+        },
+        {
+          "probe_id": "IKP_T6_1082",
+          "question": "In what year was the Stone Bridge in Riga, Latvia opened?",
+          "gold_answer": "1957",
+          "model_response": "1981"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Ivan Beschastnikh is a professor at the University of British Columbia whose research is primarily in distributed systems, with work spanning software engineering, formal methods (particularly model inference and verification of distributed protocols), and machine learning systems (including federated learning)."
+        },
+        {
+          "probe_id": "IKP_T7_1233",
+          "question": "In computer science, what is the research subfield of David Broneske, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "David Broneske is a German computer scientist whose research focuses on database systems, particularly hardware-sensitive database systems, query processing, and database optimization for modern hardware (such as GPUs and multi-core CPUs). He has also worked on educational data and learning analytics."
+        },
+        {
+          "probe_id": "IKP_T7_1240",
+          "question": "In computer science, what is the research subfield of Insik Shin, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Insik Shin is a professor at KAIST whose research is primarily in **real-time systems** and **cyber-physical systems**, with related work in embedded systems, operating systems, and mobile/IoT systems."
+        },
+        {
+          "probe_id": "IKP_T7_1275",
+          "question": "In computer science, what is the research subfield of Chenren Xu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Chenren Xu is a researcher at Peking University whose work focuses on mobile computing and wireless networking, particularly in areas such as Internet of Things (IoT), RFID systems, and low-power wireless communication."
+        },
+        {
+          "probe_id": "IKP_T7_1307",
+          "question": "In what year was George Eastman Museum founded?",
+          "gold_answer": "1947",
+          "model_response": "1947"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Rajesh Bordawekar is a researcher at IBM known for his work in high-performance computing, database systems, and more recently, the integration of artificial intelligence/deep learning with database management systems (often called \"AI-powered databases\" or cognitive databases)."
+        },
+        {
+          "probe_id": "IKP_T7_1238",
+          "question": "In computer science, what is the research subfield of Héléna Galhardas, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Héléna Galhardas' research is in the area of data cleaning (data quality), within databases and information systems."
+        },
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu's research is primarily in databases, particularly in areas such as probabilistic databases, query processing, data management, XML data, and the theoretical foundations of databases (including query optimization and data privacy)."
+        },
+        {
+          "probe_id": "IKP_T7_1256",
+          "question": "In computer science, what is the research subfield of Fabrizio Lombardi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Fabrizio Lombardi's research is primarily in the area of fault-tolerant computing and VLSI design/testing. His subfields include emerging nanotechnologies (such as quantum-dot cellular automata and nanoscale computing), approximate computing, fault tolerance, testing of integrated circuits, and computer arithmetic."
+        },
+        {
+          "probe_id": "IKP_T7_1302",
+          "question": "In what year was Al-Fotuwa SC founded?",
+          "gold_answer": "1950",
+          "model_response": "Al-Fotuwa SC, the Syrian football club based in Deir ez-Zor, was founded in 1958."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}

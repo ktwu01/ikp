@@ -1,0 +1,19 @@
+{
+  "total_probes": 0,
+  "by_source": {
+    "researcher": 0,
+    "wikipedia_en": 0,
+    "wikipedia_zh": 0
+  },
+  "by_tier": {
+    "T4": 0,
+    "T5": 0,
+    "T6": 0,
+    "T7": 0
+  },
+  "methodology": {
+    "researchers": "DBLP proceedings \u2192 Semantic Scholar citations \u2192 tier assignment",
+    "wikipedia_en": "Random English Wikipedia articles \u2192 page view frequency \u2192 tier assignment",
+    "wikipedia_zh": "Random Chinese Wikipedia articles \u2192 page view frequency \u2192 tier assignment"
+  }
+}

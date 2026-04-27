@@ -1,0 +1,796 @@
+[
+  {
+    "probe_id": "IKP_T3_0472",
+    "name": "Philippa Gardner",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Explore Bristol Research",
+      "Theoretical Computer Science"
+    ]
+  },
+  {
+    "probe_id": "IKP_T3_0488",
+    "name": "Stefano Zanero",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "IEEE Transactions on Dependable and Secure Computing",
+      "IEEE Transactions on Network and Service Management"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0656",
+    "name": "Aarti Gupta",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Current Opinion in Environmental Sustainability",
+      "Global Environmental Politics",
+      "Wiley Interdisciplinary Reviews Climate Change"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0658",
+    "name": "Elmar Tischhauser",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "IEEE Access",
+      "Designs Codes and Cryptography"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0665",
+    "name": "Karen Devine",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Cell",
+      "Journal of Infection",
+      "PLoS ONE"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0669",
+    "name": "Xavier Rival",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "ACM SIGPLAN Notices",
+      "ACM Transactions on Programming Languages and Systems"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0678",
+    "name": "Matthias Hagen",
+    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Surgical Endoscopy",
+      "Data Archiving and Networked Services (DANS)"
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0686",
+    "name": "Nicholas Smallbone",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Journal of Functional Programming",
+      "Logical Methods in Computer Science"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0814",
+    "name": "Kenji Kono",
+    "reason": "non-CS venue majority (5 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Bioconjugate Chemistry",
+      "Biomaterials",
+      "Journal of Controlled Release"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0817",
+    "name": "Greg Alpár",
+    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Designs Codes and Cryptography",
+      "IACR Transactions on Cryptographic Hardware and Embedded Systems"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0824",
+    "name": "Leonidas Lampropoulos",
+    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Proceedings of the ACM on Programming Languages",
+      "arXiv (Cornell University)"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0825",
+    "name": "Haibo Li",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of Energy Chemistry",
+      "Chemistry of Materials",
+      "Angewandte Chemie International Edition"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0838",
+    "name": "Matthew Parkinson",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "ACM Computing Surveys",
+      "CL Technical Reports"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0851",
+    "name": "Baojun Liu",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Applied Catalysis B: Environmental",
+      "RSC Advances",
+      "Nano Energy"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0855",
+    "name": "Jean Luprano",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "IEEE Transactions on Information Technology in Biomedicine",
+      "Heart and Vessels",
+      "Journal of Telemedicine and Telecare"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0859",
+    "name": "Antonio Barbalace",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "IEEE Transactions on Nuclear Science",
+      "Fusion Engineering and Design"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0860",
+    "name": "Esha Ghosh",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "2022 IEEE Symposium on Security and Privacy (SP)",
+      "Algorithmica"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0861",
+    "name": "Xiaosong Ma",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Nature",
+      "Cell Metabolism",
+      "Pflügers Archiv - European Journal of Physiology"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0869",
+    "name": "Koki Hamada",
+    "reason": "non-CS venue majority (4 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Algorithmica",
+      "IEEE Transactions on Network and Service Management"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0872",
+    "name": "Amy Tai",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Cancer",
+      "Human Pathology",
+      "Cancer Research"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0875",
+    "name": "Daehyeok Kim",
+    "reason": "top OpenAlex field is 'Physics and Astronomy', not CS",
+    "venues_sample": [
+      "Sensors"
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0884",
+    "name": "Daming Zhu",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "PLoS ONE",
+      "Journal of Lipid Research",
+      "Journal of Neurochemistry"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1011",
+    "name": "Changlin Wan",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of Clinical Investigation",
+      "Cell",
+      "Genome Research"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1015",
+    "name": "Drew Davidson",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": [
+      "Research Showcase @ Carnegie Mellon University (Carnegie Mellon University)",
+      "Cambridge University Press eBooks",
+      "Proceedings of SPE Improved Oil Recovery Symposium"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1023",
+    "name": "Lea Theresa Gröber",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": [
+      "CISPA Helmholtz Center",
+      "Universität des Saarlandes"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1027",
+    "name": "Daisuke Fujimoto",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "International Journal of Oncology",
+      "PubMed"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1032",
+    "name": "Antonios Makris",
+    "reason": "non-CS venue majority (6 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Journal of Biological Chemistry",
+      "ACS Synthetic Biology",
+      "The Plant Cell"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1033",
+    "name": "Hiroaki Kikuchi",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "IEEE Transactions on Magnetics",
+      "Journal of Applied Physics",
+      "ACS Applied Materials & Interfaces"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1036",
+    "name": "Ninja Marnau",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": [
+      "Figshare",
+      "Lecture notes in computer science",
+      "Datenschutz und Datensicherheit - DuD"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1039",
+    "name": "Lalithkumar Seenivasan",
+    "reason": "non-CS venue majority (6 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "Medical Image Analysis",
+      "IEEE Robotics and Automation Letters"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1045",
+    "name": "Samson Wang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "arXiv (Cornell University)",
+      "Nature Communications",
+      "Nature Reviews Physics"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1047",
+    "name": "Meera Sridhar",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "JNCI Journal of the National Cancer Institute",
+      "Blood"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1048",
+    "name": "Yair Lakretz",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Trends in Cognitive Sciences",
+      "Nature Human Behaviour",
+      "Cognition"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1049",
+    "name": "Asuman Senol",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": [
+      "arXiv (Cornell University)"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1052",
+    "name": "Azadeh Farzan",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Lecture notes in computer science"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1053",
+    "name": "Zhengyu He",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "Laboratory Investigation",
+      "Cell Research",
+      "Nano Letters"
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1058",
+    "name": "Rong Chen",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Nature Energy",
+      "JBIC Journal of Biological Inorganic Chemistry",
+      "Journal of Proteome Research"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1200",
+    "name": "Po‐Shun Wang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of Medical Virology",
+      "Oncogene",
+      "Journal of Biomedical Science"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1202",
+    "name": "Marie‐Claire Blache",
+    "reason": "top OpenAlex field is 'Agricultural and Biological Sciences', not CS",
+    "venues_sample": [
+      "International Journal of Obesity",
+      "Theriogenology",
+      "Reproduction"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1204",
+    "name": "Juliette Hainline",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": []
+  },
+  {
+    "probe_id": "IKP_T7_1205",
+    "name": "Yufeng Huang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Nature Communications",
+      "Journal of the American Chemical Society",
+      "ACS Energy Letters"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1206",
+    "name": "Nicole M Wink",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Medical Physics",
+      "Physics in Medicine and Biology",
+      "Journal of Applied Clinical Medical Physics"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1211",
+    "name": "Boyang Zheng",
+    "reason": "non-CS venue majority (5 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Environmental Pollution",
+      "Advanced Science",
+      "Nature Communications"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1213",
+    "name": "Aashaka Shah",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "Figshare",
+      "JMIR Pediatrics and Parenting",
+      "Frontiers in Microbiology"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1214",
+    "name": "Rama Devi Mittal",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Molecular Biology Reports",
+      "European Urology",
+      "Advances in clinical chemistry"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1218",
+    "name": "Yan Jiao",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Angewandte Chemie International Edition",
+      "Chemical Society Reviews"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1223",
+    "name": "Sylvie Dujardin",
+    "reason": "no CS venues in top 9",
+    "venues_sample": [
+      "Sleep Medicine Clinics",
+      "Scientific Reports",
+      "Neurophysiologie Clinique"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1227",
+    "name": "Xianran Xing",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Chemical Communications",
+      "Chemical Society Reviews"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1228",
+    "name": "Joseph Chan",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Nature Genetics",
+      "Science",
+      "Cell"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1230",
+    "name": "Zhigang Cai",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Materials Science and Engineering C",
+      "Nature Communications",
+      "International Journal of Oral and Maxillofacial Surgery"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1231",
+    "name": "Brennon Brimhall",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": []
+  },
+  {
+    "probe_id": "IKP_T7_1232",
+    "name": "Kuo-Feng Hsu",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "World Journal of Surgery",
+      "European Journal of Radiology",
+      "Chemical Communications"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1234",
+    "name": "James Lovejoy",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 9)",
+    "venues_sample": [
+      "Journal of Applied Physics",
+      "Applied Physics Letters",
+      "Physical Review Applied"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1237",
+    "name": "Zuming Jiang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Metrologia"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1242",
+    "name": "Xinming Wang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Chemosphere",
+      "Chinese Medical Journal",
+      "Nature"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1245",
+    "name": "Yaning Guo",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Applied Surface Science",
+      "Industrial Crops and Products",
+      "ACS Sustainable Chemistry & Engineering"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1247",
+    "name": "Shuangxi Chen",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Drug Delivery",
+      "CHEST Journal",
+      "AAPS PharmSciTech"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1249",
+    "name": "Jihoon Cho",
+    "reason": "non-CS venue majority (7 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Journal of The Electrochemical Society",
+      "Lecture notes in computer science",
+      "Electrochimica Acta"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1250",
+    "name": "Anna Forlenza-Bailey",
+    "reason": "top OpenAlex field is 'Social Sciences', not CS",
+    "venues_sample": [
+      "The Professional Educator",
+      "Journal of Teacher Education"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1251",
+    "name": "Yen‐Hung Lin",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "Clinica Chimica Acta",
+      "Journal of Hypertension",
+      "Journal of the American Society of Nephrology"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1252",
+    "name": "Shan‐Lu Liu",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "Journal of Virology",
+      "The Lancet",
+      "PLoS Pathogens"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1255",
+    "name": "Christian Faerber",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Journal of Physics Conference Series",
+      "Data Management on New Hardware",
+      "IEEE Transactions on Nuclear Science"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1259",
+    "name": "Dongbo Liu",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Proceedings of the National Academy of Sciences",
+      "PLoS ONE",
+      "NeuroImage"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1261",
+    "name": "Jean-Marc Gaudin",
+    "reason": "top OpenAlex field is 'Chemistry', not CS",
+    "venues_sample": [
+      "Tetrahedron Letters",
+      "Tetrahedron",
+      "Helvetica Chimica Acta"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1262",
+    "name": "Alok Mishra",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Nucleic Acids Research",
+      "Biology",
+      "Bioinformatics"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1263",
+    "name": "Thales Bandiera Paiva",
+    "reason": "non-CS venue majority (5 non-CS vs 3 CS in top 10)",
+    "venues_sample": [
+      "Lecture notes in computer science",
+      "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1264",
+    "name": "Helper Zhou",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Science Progress",
+      "Carbon Research",
+      "African Journal of Development Studies (formerly AFFRIKA Journal of Politics Economics and Society)"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1267",
+    "name": "Wenhong Li",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Science",
+      "Proceedings of the National Academy of Sciences",
+      "Bulletin of the American Meteorological Society"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1270",
+    "name": "Jinling Yin",
+    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "Journal of Power Sources",
+      "Journal of Materials Chemistry A",
+      "Electrochimica Acta"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1271",
+    "name": "Arup Mondal",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Journal of the American Chemical Society",
+      "Angewandte Chemie International Edition",
+      "ACS Catalysis"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1273",
+    "name": "Graciela Sala",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Circulation Research",
+      "Circulation",
+      "PLoS ONE"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1274",
+    "name": "Yuhang Gan",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "BMC Public Health",
+      "IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium",
+      "ISPRS International Journal of Geo-Information"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1279",
+    "name": "Eleonora Franchi Scarselli",
+    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
+    "venues_sample": [
+      "IEEE Transactions on Biomedical Circuits and Systems",
+      "Sensors",
+      "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1283",
+    "name": "Laure Fournier",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "Gastroenterology",
+      "European Respiratory Journal",
+      "JAMA Network Open"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1286",
+    "name": "Gianluca Passaro",
+    "reason": "top OpenAlex field is 'Physics and Astronomy', not CS",
+    "venues_sample": []
+  },
+  {
+    "probe_id": "IKP_T7_1287",
+    "name": "Christina Solomonidou",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "International Journal of Science Education",
+      "Computers & Education",
+      "Science Education"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1289",
+    "name": "Yeonghyeon Kim",
+    "reason": "top OpenAlex field is 'Biochemistry, Genetics and Molecular Biology', not CS",
+    "venues_sample": [
+      "Frontiers in Microbiology"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1292",
+    "name": "Shiyin Zhu",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "PLoS ONE",
+      "Scientific Reports",
+      "CHEST Journal"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1293",
+    "name": "Andrea Galeazzi",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Industrial & Engineering Chemistry Research",
+      "Computers & Chemical Engineering",
+      "Waste and Biomass Valorization"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1294",
+    "name": "Jinbin Wang",
+    "reason": "no CS venues in top 10",
+    "venues_sample": [
+      "Applied Physics Letters",
+      "Journal of Physics Condensed Matter",
+      "Chemical Communications"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1297",
+    "name": "Tarannum Khan",
+    "reason": "top OpenAlex field is 'Medicine', not CS",
+    "venues_sample": [
+      "2017 International Conference on Information, Communication, Instrumentation and Control (ICICIC)",
+      "Current Neurology and Neuroscience Reports",
+      "Movement Disorders"
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1299",
+    "name": "Mengqi Yang",
+    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
+    "venues_sample": [
+      "Redox Biology",
+      "Journal of Neuroinflammation",
+      "International Immunopharmacology"
+    ]
+  }
+]

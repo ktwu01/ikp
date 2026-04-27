@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# API cache (large, regenerable)
+data/api_cache/
+
+# Raw model responses (large, regenerable from cache)
+data/raw_responses/
+
+# Chinese/researcher response dirs (regenerable)
+data/chinese_responses/
+data/researcher_responses/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+data/results/transcripts/*.jsonl
+data/evaluation_v8.log
+
+# Local backups (large, not for distribution)
+data/backups/
+
+# Editor/agent state
+.claude/
+
+# Probe-set audit backup (one-off, not for upstream)
+data/probes/*.backup_*

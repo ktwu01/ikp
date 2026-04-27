@@ -1,0 +1,657 @@
+{
+  "model": "jamba-large",
+  "vendor": "ai21",
+  "family": "jamba",
+  "type": "open",
+  "arch": "moe",
+  "params_B": 398,
+  "active_B": 94,
+  "thinking": false,
+  "accuracy": 0.5107142857142858,
+  "raw_accuracy": 0.5485714285714286,
+  "tier_accuracy": {
+    "T1": 0.99,
+    "T2": 0.98,
+    "T3": 0.8575,
+    "T4": 0.5375,
+    "T5": 0.1675,
+    "T6": 0.015,
+    "T7": 0.0275
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 199,
+      "weak": 0,
+      "wrong": 1,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 198,
+      "weak": 0,
+      "wrong": 2,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 178,
+      "weak": 7,
+      "wrong": 10,
+      "refusal": 5,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 125,
+      "weak": 7,
+      "wrong": 21,
+      "refusal": 47,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 47,
+      "weak": 5,
+      "wrong": 16,
+      "refusal": 132,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 15,
+      "weak": 0,
+      "wrong": 12,
+      "refusal": 173,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 6,
+      "weak": 3,
+      "wrong": 2,
+      "refusal": 189,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The **Strait of Messina** separates Sicily from mainland Italy."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is **Ottawa**."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "The capital of France is **Paris**."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge was opened in **1883**."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "The capital of Portugal is **Lisbon**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0043",
+          "question": "What is the name of the small sea between Sweden and Finland?",
+          "gold_answer": "Gulf of Bothnia",
+          "model_response": "The small sea between Sweden and Finland is called the **Bothnian Sea**."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "The second largest moon of Saturn is **Rhea**."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "The largest lake in Africa is **Lake Victoria**."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The small river that flows through the city of Bern in Switzerland is called the **Aare**."
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The small island group located between Iceland and Norway is called the **Faroe Islands**."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The river that flows through Ulaanbaatar is the **Tuul River**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0262",
+          "question": "In what year was the Hoover Dam completed?",
+          "gold_answer": "1936",
+          "model_response": "The Hoover Dam was completed in **1935**."
+        },
+        {
+          "probe_id": "IKP_T2_0347",
+          "question": "In what year was the first transatlantic cable successfully operated?",
+          "gold_answer": "1866",
+          "model_response": "The first transatlantic cable was successfully operated in **1858**."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "The opera **Prince Igor** was composed by **Alexander Borodin**."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "The phenomenon of **radioactive decay chains** was discovered by **Ernest Rutherford** and **Frederick Soddy** in 1902."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "The highest volcano in the Western Hemisphere is **Ojos del Salado**, located on the border of Chile and Argentina, with an elevation of 6,893 meters (22,615 feet)."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "The Cold Spring Harbor Laboratory was founded in **1890**."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building in New York City was designed by **Ludwig Mies van der Rohe** in collaboration with **Philip Johnson**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0407",
+          "question": "What is the second-largest lake in North America by surface area?",
+          "gold_answer": "Lake Huron",
+          "model_response": "The second-largest lake in North America by surface area is **Lake Superior**."
+        },
+        {
+          "probe_id": "IKP_T3_0513",
+          "question": "In what year was International College for Postgraduate Buddhist Studies founded?",
+          "gold_answer": "1996",
+          "model_response": "The **International College for Postgraduate Buddhist Studies** was founded in **2001**."
+        },
+        {
+          "probe_id": "IKP_T3_0519",
+          "question": "In what year was the journal Constellations first published?",
+          "gold_answer": "1994",
+          "model_response": "The journal **Constellations** was first published in **1991**."
+        },
+        {
+          "probe_id": "IKP_T3_0561",
+          "question": "In what year was the journal Transportation Journal first published?",
+          "gold_answer": "1961",
+          "model_response": "The journal **Transportation Journal** was first published in **1960**."
+        },
+        {
+          "probe_id": "IKP_T3_0575",
+          "question": "Who founded the African National Congress?",
+          "gold_answer": "John Langalibalele Dube",
+          "model_response": "The **African National Congress (ANC)** was founded by **Pixley ka Isaka Seme** and other African leaders in **1912**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0466",
+          "question": "In computer science, what is the research subfield of Yiannis Psaras, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0469",
+          "question": "In computer science, what is the research subfield of Eric Koskinen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0474",
+          "question": "In computer science, what is the research subfield of Kristopher Micinski, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0477",
+          "question": "In computer science, what is the research subfield of Zhiguo Ding, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0478",
+          "question": "In computer science, what is the research subfield of Melike Erol‐Kantarci, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "The highest mountain in Oceania is **Puncak Jaya** (also known as Carstensz Pyramid), located in **Papua, Indonesia**, with an elevation of **4,884 meters (16,024 feet)**."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "The second largest freshwater lake by surface area is **Lake Victoria**."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The largest glacier outside of the polar regions is the **Fedchenko Glacier** in **Tajikistan**."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is **Ras ben Sakka** in Tunisia."
+        },
+        {
+          "probe_id": "IKP_T4_0605",
+          "question": "What is the longest fjord in the world?",
+          "gold_answer": "Scoresby Sund",
+          "model_response": "The longest fjord in the world is **Scoresby Sund** in **Greenland**, with a length of about **350 kilometers (217 miles)**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "The deepest lake in North America is **Crater Lake** in Oregon, with a maximum depth of **1,949 feet (594 meters)**."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The largest desert in South America is the **Atacama Desert**."
+        },
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The longest river in Scandinavia is the **Klarälven-Göta älv** system in Sweden, with a total length of about **720 kilometers** (447 miles)."
+        },
+        {
+          "probe_id": "IKP_T4_0617",
+          "question": "In what year was the Hanseatic League formally established?",
+          "gold_answer": "1356",
+          "model_response": "The Hanseatic League was formally established in **1358**."
+        },
+        {
+          "probe_id": "IKP_T4_0632",
+          "question": "What is the name of the cape at the northernmost point of continental Europe?",
+          "gold_answer": "Nordkinn",
+          "model_response": "The cape at the northernmost point of continental Europe is called **Nordkapp** (North Cape)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0639",
+          "question": "In computer science, what is the research subfield of Natacha Crooks, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0645",
+          "question": "In computer science, what is the research subfield of Cuauhtemoc Mancillas-López, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0646",
+          "question": "In computer science, what is the research subfield of Martina Lindorfer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0647",
+          "question": "In computer science, what is the research subfield of Krishna Chintalapudi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0648",
+          "question": "In computer science, what is the research subfield of Allen Clement, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0814",
+          "question": "In computer science, what is the research subfield of Kenji Kono, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Kenji Kono's research subfield in computer science is **operating systems, computer security, and distributed systems**."
+        },
+        {
+          "probe_id": "IKP_T5_0834",
+          "question": "In computer science, what is the research subfield of Anurag Khandelwal, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Anurag Khandelwal is a researcher in the subfield of **distributed systems** and **data management**, with a focus on **efficient storage and retrieval systems**, **memory-efficient algorithms**, and **scalable systems for machine learning and big data**."
+        },
+        {
+          "probe_id": "IKP_T5_0842",
+          "question": "In computer science, what is the research subfield of Fredrik Kjølstad, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Fredrik Kjølstad is a researcher in the subfield of **programming languages and compilers**, with a focus on **sparse computation** and **tensor algebra compilers**."
+        },
+        {
+          "probe_id": "IKP_T5_0845",
+          "question": "In computer science, what is the research subfield of Sandra Scott-Hayward, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Sandra Scott-Hayward's research subfield in computer science is **network security** and **cybersecurity**, with a focus on **software-defined networking (SDN)** and **network function virtualization (NFV)** security."
+        },
+        {
+          "probe_id": "IKP_T5_0850",
+          "question": "In computer science, what is the research subfield of Ted Dunning, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "information retrieval",
+          "model_response": "Ted Dunning is known for his work in **machine learning**, **data mining**, and **distributed systems**, particularly in the areas of **probabilistic models**, **clustering**, and **streaming data analytics**. His research subfield is closely tied to **applied machine learning** and **big data systems**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0901",
+          "question": "In what year was Hanoi University Of Public Health founded?",
+          "gold_answer": "2001",
+          "model_response": "Hanoi University of Public Health was founded in **1946**."
+        },
+        {
+          "probe_id": "IKP_T5_0903",
+          "question": "In what year was Atomic Energy Education Society founded?",
+          "gold_answer": "1969",
+          "model_response": "The **Atomic Energy Education Society (AEES)** was founded in **1973**."
+        },
+        {
+          "probe_id": "IKP_T5_0910",
+          "question": "In what year was Sumatra Institute of Technology founded?",
+          "gold_answer": "2014",
+          "model_response": "The **Sumatra Institute of Technology (Institut Teknologi Sumatera or ITERA)** was founded in **2012**."
+        },
+        {
+          "probe_id": "IKP_T5_0918",
+          "question": "In what year was Soviet submarine D-2 Narodovolets founded?",
+          "gold_answer": "1927",
+          "model_response": "Soviet submarine D-2 **Narodovolets** was founded in **1931**."
+        },
+        {
+          "probe_id": "IKP_T5_0922",
+          "question": "In what year was Kassuende Bridge opened?",
+          "gold_answer": "2014",
+          "model_response": "The **Kassuende Bridge** was opened in **2011**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1010",
+          "question": "In computer science, what is the research subfield of Ryan Beckett, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Ryan Beckett's research subfield in computer science is **networking and systems**, with a focus on **network verification**, **automation**, and **design of scalable network systems**."
+        },
+        {
+          "probe_id": "IKP_T6_1012",
+          "question": "In computer science, what is the research subfield of Zhifeng Bao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "information retrieval",
+          "model_response": "Zhifeng Bao is a researcher in the subfield of **database systems and data management**, with a focus on areas like spatial and temporal data, query processing, and data-driven applications."
+        },
+        {
+          "probe_id": "IKP_T6_1050",
+          "question": "In computer science, what is the research subfield of Abhradeep Thakurta, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Abhradeep Thakurta's research subfield in computer science is **privacy-preserving machine learning** and **algorithmic privacy**, focusing on topics like differential privacy and its applications in data analysis and machine learning."
+        },
+        {
+          "probe_id": "IKP_T6_1076",
+          "question": "In what year was Sardar Vallabhbhai Patel Police Museum founded?",
+          "gold_answer": "2000",
+          "model_response": "The **Sardar Vallabhbhai Patel Police Museum** was founded in **2000**."
+        },
+        {
+          "probe_id": "IKP_T6_1083",
+          "question": "In what year was Market Drayton Town F.C. founded?",
+          "gold_answer": "1969",
+          "model_response": "Market Drayton Town F.C. was founded in **1969**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1061",
+          "question": "In what year was G.S. Bagnolese founded?",
+          "gold_answer": "1914",
+          "model_response": "G.S. Bagnolese was founded in **1919**."
+        },
+        {
+          "probe_id": "IKP_T6_1068",
+          "question": "In what year was Museu da Misericórdia founded?",
+          "gold_answer": "2006",
+          "model_response": "The **Museu da Misericórdia** was founded in **1498**."
+        },
+        {
+          "probe_id": "IKP_T6_1085",
+          "question": "In what year was Smedby AIS founded?",
+          "gold_answer": "1929",
+          "model_response": "Smedby AIS was founded in **1924**."
+        },
+        {
+          "probe_id": "IKP_T6_1126",
+          "question": "In what year was National Museum of Ethiopia founded?",
+          "gold_answer": "1944",
+          "model_response": "The **National Museum of Ethiopia** was founded in **1958**."
+        },
+        {
+          "probe_id": "IKP_T6_1134",
+          "question": "In what year was the journal Bulletin du Jardin Botanique de Buitenzorg first published?",
+          "gold_answer": "1911",
+          "model_response": "The journal **Bulletin du Jardin Botanique de Buitenzorg** was first published in **1898**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Ivan Beschastnikh's research subfield in computer science focuses on **software engineering**, particularly in areas like **distributed systems**, **program analysis**, and **debugging tools**. He also works on topics related to **model inference** and **collaborative software development**."
+        },
+        {
+          "probe_id": "IKP_T7_1334",
+          "question": "In what year was Camp Babbitt founded?",
+          "gold_answer": "1862",
+          "model_response": "Camp Babbitt was founded in **1862**."
+        },
+        {
+          "probe_id": "IKP_T7_1359",
+          "question": "In what year was Museo de la Siderurgia y la Minería de Castilla y León founded?",
+          "gold_answer": "2008",
+          "model_response": "The **Museo de la Siderurgia y la Minería de Castilla y León** was founded in **2008**."
+        },
+        {
+          "probe_id": "IKP_T7_1390",
+          "question": "In what year was the journal Computational and Theoretical Chemistry first published?",
+          "gold_answer": "1985",
+          "model_response": "The journal **Computational and Theoretical Chemistry** was first published in **1985** under its original title, **Journal of Molecular Structure: THEOCHEM**."
+        },
+        {
+          "probe_id": "IKP_T7_1393",
+          "question": "In what year was Wollo University founded?",
+          "gold_answer": "2007",
+          "model_response": "Wollo University was founded in **2007**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu is a researcher in the field of **databases**, with a focus on **data management**, **query languages**, and **probabilistic databases**."
+        },
+        {
+          "probe_id": "IKP_T7_1256",
+          "question": "In computer science, what is the research subfield of Fabrizio Lombardi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Fabrizio Lombardi is a researcher in the subfield of **quantum computing** and **nanotechnology**, particularly focusing on **quantum-dot cellular automata (QCA)** and **nanoelectronics**."
+        },
+        {
+          "probe_id": "IKP_T7_1371",
+          "question": "In what year was CUNY School of Public Health founded?",
+          "gold_answer": "2007",
+          "model_response": "The CUNY School of Public Health was founded in **2008**."
+        },
+        {
+          "probe_id": "IKP_T7_1386",
+          "question": "In what year was University of Texas at Austin School of Nursing founded?",
+          "gold_answer": "1890",
+          "model_response": "The **University of Texas at Austin School of Nursing** was founded in **1960**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}

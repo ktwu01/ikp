@@ -1,0 +1,637 @@
+{
+  "model": "qwen3.5-0.8b",
+  "vendor": "alibaba",
+  "family": "qwen",
+  "type": "open",
+  "arch": "dense",
+  "params_B": 0.8,
+  "active_B": 0.8,
+  "thinking": false,
+  "accuracy": 0.04642857142857143,
+  "raw_accuracy": 0.07285714285714286,
+  "tier_accuracy": {
+    "T1": 0.25,
+    "T2": 0.075,
+    "T3": 0.0,
+    "T4": 0.0,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 63,
+      "weak": 0,
+      "wrong": 13,
+      "refusal": 124,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 35,
+      "weak": 0,
+      "wrong": 20,
+      "refusal": 145,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 4,
+      "weak": 0,
+      "wrong": 14,
+      "refusal": 182,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 9,
+      "refusal": 191,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 19,
+      "refusal": 181,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 33,
+      "refusal": 167,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 0,
+      "weak": 0,
+      "wrong": 76,
+      "refusal": 124,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon."
+        },
+        {
+          "probe_id": "IKP_T1_0005",
+          "question": "What is the chemical symbol for silver?",
+          "gold_answer": "Ag",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:** The user is asking for the chemical symbol for the element silver. The response should be factual and concise.\n\n2.  **Identify the Element:** Silver is a chemical element.\n3.  **Retrieve Knowledge:** The chemical symbol for silver is \"Ag\".\n4.  **Verify:** Is there any ambiguity? No. Silver is the 11th element in the periodic table. Its symbol is Ag.\n5.  **Formulate Output:** State the symbol clearly.\n\n6.  **Final Check:** \"Ag\" is the correct chemic"
+        },
+        {
+          "probe_id": "IKP_T1_0007",
+          "question": "What is the capital of Austria?",
+          "gold_answer": "Vienna",
+          "model_response": "Vienna."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0016",
+          "question": "What is the largest ocean on Earth?",
+          "gold_answer": "Pacific Ocean",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the largest ocean on Earth?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Fact: The Atlantic Ocean is the largest ocean by area.\n    *   Fact: The Pacific Ocean is the second largest.\n    *   Fact: The Indian Ocean is the third largest.\n    *   Fact: The Arctic Ocean is the fourth largest.\n    *   Fact: The Southern Ocean is"
+        },
+        {
+          "probe_id": "IKP_T1_0025",
+          "question": "Who founded the Ming Dynasty?",
+          "gold_answer": "Zhu Yuanzhang",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who founded the Ming Dynasty?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who founded the Ming Dynasty?\n    *   Fact: The Ming Dynasty (1368–1644) was the last of the Ming dynasty.\n    *   Key Figure: Emperor Yongzheng (Yongzheng Emperor) is the founder of the Ming Dynasty.\n    *   Wait, let me double-check. The Ming Dynasty"
+        },
+        {
+          "probe_id": "IKP_T1_0033",
+          "question": "What is the largest island in the Baltic Sea?",
+          "gold_answer": "Gotland",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the largest island in the Baltic Sea?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Largest island in the Baltic Sea.\n    *   Fact Check: The Baltic Sea is a sea in Northern Europe. It contains several islands.\n    *   Candidates:\n        *   Riga (Riga Island) - No, that's a city.\n        *   Riga (Riga Island) - No."
+        },
+        {
+          "probe_id": "IKP_T1_0059",
+          "question": "In what year was the Battle of Actium?",
+          "gold_answer": "31 BC",
+          "model_response": "37 BC"
+        },
+        {
+          "probe_id": "IKP_T1_0060",
+          "question": "What gas do plants produce during photosynthesis?",
+          "gold_answer": "Oxygen",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What gas do plants produce during photosynthesis?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Core Fact:**\n    *   Process: Photosynthesis.\n    *   Organism: Plants.\n    *   Reaction: Carbon dioxide + Water + Light Energy -> Glucose + Oxygen.\n    *   Product: Oxygen.\n\n3.  **Verify the Fact:**\n    *   Does plants produce oxygen? Yes.\n    *   Is it a"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What strait separates Sicily from mainland Italy?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Geography of Italy: Sicily is an island in the Mediterranean Sea.\n    *   Geography of Italy: The mainland is the rest of Italy.\n    *   Separation: The strait between Sicily and the mainland is the Strait of Messina.\n    *   Context: Sici"
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the Brooklyn Bridge opened?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was the Brooklyn Bridge opened?\n    *   Fact: The Brooklyn Bridge was completed in 1883.\n    *   Wait, let me double-check. The original construction started in 1883, but the actual opening ceremony was in 1883.\n    *   Wait, is the"
+        },
+        {
+          "probe_id": "IKP_T1_0006",
+          "question": "What is the name of the first satellite launched into space?",
+          "gold_answer": "Sputnik 1",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T1_0008",
+          "question": "In what year did the Siege of Constantinople end, marking the fall of the Byzantine Empire?",
+          "gold_answer": "1453",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T1_0010",
+          "question": "What is the largest island in Greece?",
+          "gold_answer": "Crete",
+          "model_response": ""
+        }
+      ]
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0207",
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "gold_answer": "Harper Lee",
+          "model_response": "Harper Lee."
+        },
+        {
+          "probe_id": "IKP_T2_0210",
+          "question": "In what year was the Rosetta Stone discovered?",
+          "gold_answer": "1799",
+          "model_response": "1799."
+        },
+        {
+          "probe_id": "IKP_T2_0212",
+          "question": "Who wrote the novel 'Beloved'?",
+          "gold_answer": "Toni Morrison",
+          "model_response": "Toni Morrison."
+        },
+        {
+          "probe_id": "IKP_T2_0213",
+          "question": "What is the currency of Colombia?",
+          "gold_answer": "Colombian peso",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the currency of Colombia?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: What is the currency of Colombia?\n    *   Fact: Colombia is a country in South America. Its official currency is the Colombian Peso (COP).\n    *   Symbol: ₡ (or sometimes written as COP).\n    *   Context: It's the official currency.\n\n3.  **Formulat"
+        },
+        {
+          "probe_id": "IKP_T2_0214",
+          "question": "What year was the Berlin Wall built?",
+          "gold_answer": "1961",
+          "model_response": "1961."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0206",
+          "question": "Who wrote 'The Pillow Book'?",
+          "gold_answer": "Sei Shonagon",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"Who wrote 'The Pillow Book'?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who wrote \"The Pillow Book\"?\n    *   Result: \"The Pillow Book\" is a well-known book by the American author **John Steinbeck**.\n    *   Wait, let me double-check. Is there another \"The Pillow Book\"?\n    *   There is a book called \"The Pillow Book\" by **J"
+        },
+        {
+          "probe_id": "IKP_T2_0215",
+          "question": "In what year was the Peace of Nicias signed?",
+          "gold_answer": "421 BC",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was the Peace of Nicias signed?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: \"Peace of Nicias\"\n    *   Context: Ancient history, specifically the Thirty Years' War (1618-1648) or the Thirty Years' War (1618-1648) - wait, that's not right.\n    *   Correction: The Peace of Nicias is a historical event.\n    *   Fact"
+        },
+        {
+          "probe_id": "IKP_T2_0240",
+          "question": "In what year was the International Bureau of Weights and Measures established?",
+          "gold_answer": "1875",
+          "model_response": "1949."
+        },
+        {
+          "probe_id": "IKP_T2_0242",
+          "question": "Who discovered the Mossbauer effect in nuclear physics?",
+          "gold_answer": "Rudolf Mössbauer",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: Who discovered the Mossbauer effect in nuclear physics?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Topic: Physics history, specifically the Mossbauer effect.\n    *   Key Concept: The Mossbauer effect is the phenomenon where the energy of gamma rays is transferred to the recoil of the nucleus, resulting in a measurable shift in the e"
+        },
+        {
+          "probe_id": "IKP_T2_0243",
+          "question": "What is the capital of Alaska?",
+          "gold_answer": "Juneau",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the capital of Alaska?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Capital of Alaska.\n    *   Fact: The state of Alaska is in the United States. Its capital is Anchorage.\n    *   Wait, let me double-check.\n    *   Alaska is a state in the Pacific Northwest.\n    *   The capital city is Anchorage.\n    *   Wait, is ther"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: What is the name of the small river that flows through the city of Bern in Switzerland?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Location: Bern, Switzerland.\n    *   Feature: Small river.\n    *   Goal: Name the river.\n\n3.  **Retrieve Knowledge:**\n    *   Bern is a city in the canton of Bern, Switzerland.\n    *   There are severa"
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": ""
+        }
+      ]
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0413",
+          "question": "In what year was the Battle of Hastings fought?",
+          "gold_answer": "1066",
+          "model_response": "1066"
+        },
+        {
+          "probe_id": "IKP_T3_0440",
+          "question": "What year was the Association of Southeast Asian Nations founded?",
+          "gold_answer": "1967",
+          "model_response": "1967"
+        },
+        {
+          "probe_id": "IKP_T3_0529",
+          "question": "What is the currency of Switzerland?",
+          "gold_answer": "Swiss franc",
+          "model_response": "The currency of Switzerland is the Swiss Franc (CHF)."
+        },
+        {
+          "probe_id": "IKP_T3_0600",
+          "question": "In what year was the Suez Canal opened?",
+          "gold_answer": "1869",
+          "model_response": "1869."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0406",
+          "question": "Who designed the Neue Staatsgalerie in Stuttgart?",
+          "gold_answer": "James Stirling; Michael Wilford",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: Who designed the Neue Staatsgalerie in Stuttgart?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Subject: Neue Staatsgalerie (New State Gallery).\n    *   Location: Stuttgart, Germany.\n    *   Key Entity: The architect/designer.\n    *   Fact Check: The Neue Staatsgalerie is a famous art gallery in Stuttgart.\n    *"
+        },
+        {
+          "probe_id": "IKP_T3_0418",
+          "question": "What year was the University of Cape Town founded?",
+          "gold_answer": "1829",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What year was the University of Cape Town founded?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: When was the University of Cape Town (UCT) founded?\n    *   Fact Check: The University of Cape Town is a public research university in South Africa.\n    *   Key Information: It was founded in 1960.\n    *   Context: It was establish"
+        },
+        {
+          "probe_id": "IKP_T3_0429",
+          "question": "In what year was the first telegraph message sent?",
+          "gold_answer": "1844",
+          "model_response": "1839."
+        },
+        {
+          "probe_id": "IKP_T3_0434",
+          "question": "Who painted 'The Garden of Earthly Delights'?",
+          "gold_answer": "Hieronymus Bosch",
+          "model_response": "Michelangelo."
+        },
+        {
+          "probe_id": "IKP_T3_0435",
+          "question": "In what city is the International Bureau of Weights and Measures (BIPM) headquartered?",
+          "gold_answer": "Sèvres",
+          "model_response": "Geneva, Switzerland."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": ""
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0619",
+          "question": "Who composed the symphony 'Manfred' based on Byron's poem in 1885?",
+          "gold_answer": "Pyotr Ilyich Tchaikovsky",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: Who composed the symphony 'Manfred' based on Byron's poem in 1885?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Who composed the symphony 'Manfred'?\n    *   Query: Who composed the symphony 'Manfred' based on Byron's poem in 1885?\n    *   Key Fact: The symphony 'Manfred' is a famous work by Richard Wagner.\n    *   Specifics: It"
+        },
+        {
+          "probe_id": "IKP_T4_0644",
+          "question": "In computer science, what is the research subfield of Claire Vishik, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Claire Vishik.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Claire Vishik computer science research subfield\".\n    *   Knowledge Access: I need to recall or verify information about Claire Vishik.\n    *   Potential Candidates:\n        *   Claire Vishik is a well-known figur"
+        },
+        {
+          "probe_id": "IKP_T4_0673",
+          "question": "In computer science, what is the research subfield of Rodrigo Rodrigues, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Rodrigo Rodrigues.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Rodrigo Rodrigues computer science research subfield\".\n    *   Potential candidates: Rodrigo Rodrigues is a well-known figure in the field of computer science, specifically in the area of **Computer Vision** or"
+        },
+        {
+          "probe_id": "IKP_T4_0698",
+          "question": "In what year was Vicenza Calcio founded?",
+          "gold_answer": "1902",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"In what year was Vicenza Calcio founded?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: Vicenza Calcio founding year.\n    *   Knowledge Access: Vicenza Calcio is a professional football club based in Vicenza, Italy.\n    *   Fact Check: I need to recall or verify the founding year.\n    *   Common knowledge: Vicenza Calcio was fo"
+        },
+        {
+          "probe_id": "IKP_T4_0738",
+          "question": "In what year was Estonian Maritime Museum founded?",
+          "gold_answer": "1935",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was Estonian Maritime Museum founded?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Estonian Maritime Museum founded year\".\n    *   Knowledge Access: I need to recall or verify the establishment date of this specific museum.\n    *   Context: The Estonian Maritime Museum is a well-known insti"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: \"What is the second largest freshwater lake by surface area?\"\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: \"largest freshwater lake by surface area\"\n    *   Fact: The largest freshwater lake by surface area is Lake Superior (USA).\n    *   Fact: The second largest freshwater lake by surface area is Lake Huron (Canada).\n    *   W"
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": ""
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0810",
+          "question": "In computer science, what is the research subfield of Aleksey Charapko, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Aleksey Charapko.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Aleksey Charapko computer science research subfield\".\n    *   Knowledge Access: I need to recall or verify who Aleksey Charapko is and what his primary research area is.\n    *   Fact Check: Aleksey Charapko is a"
+        },
+        {
+          "probe_id": "IKP_T5_0853",
+          "question": "In computer science, what is the research subfield of Joon Ong, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Joon Ong.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Joon Ong (John Ong) is a well-known figure in computer science.\n    *   He is a professor at the University of California, Irvine (UCI).\n    *   He is known for his work in computer science, specifically in the field of artificial intelligence and m"
+        },
+        {
+          "probe_id": "IKP_T5_0878",
+          "question": "In computer science, what is the research subfield of Jiwu Shu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Jiwu Shu.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Jiwu Shu research subfield computer science\".\n    *   Knowledge Access: I need to recall or verify who Jiwu Shu is and what his primary research area is.\n    *   Search Query Simulation: \"Jiwu Shu computer science\", \"Ji"
+        },
+        {
+          "probe_id": "IKP_T5_0882",
+          "question": "In computer science, what is the research subfield of Sudarsun Kannan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Sudarsun Kannan.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Sudarsun Kannan computer science research subfield\".\n    *   Knowledge Access: I need to recall or verify who Sudarsun Kannan is.\n    *   Search Query Simulation: \"Sudarsun Kannan computer science\".\n    *   Resul"
+        },
+        {
+          "probe_id": "IKP_T5_0896",
+          "question": "In computer science, what is the research subfield of Antoine Kaufmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Antoine Kaufmann.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Antoine Kaufmann is a well-known figure in computer science.\n    *   He is a professor at the University of California, Berkeley.\n    *   He is known for his work on the \"Kaufmann's Theorem\" (related to the \"Kaufmann's Theorem\" in the contex"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": ""
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Janick Edinger.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Name: Janick Edinger.\n    *   Field: Computer Science.\n    *   Query: What is his research subfield?\n\n3.  **Retrieve Knowledge:**\n    *   Search query mental simulation: \"Janick Edinger computer science research\".\n    *   Result: Janick Edinge"
+        },
+        {
+          "probe_id": "IKP_T6_1008",
+          "question": "In computer science, what is the research subfield of Stanko Novakovic, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Stanko Novakovic.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Stanko Novakovic.\n    *   Search query mental check: \"Stanko Novakovic computer science research\".\n    *   Knowledge retrieval: Stanko Novakovic is a well-known figure in the field of computer science, specifically in the area of **computer"
+        },
+        {
+          "probe_id": "IKP_T6_1040",
+          "question": "In computer science, what is the research subfield of Carlos Alberto López Barrio, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Carlos Alberto López Barrio.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Carlos Alberto López Barrio computer science research subfield\".\n    *   Knowledge Access: I need to access my internal knowledge base regarding this specific individual.\n    *   Search Strategy: I re"
+        },
+        {
+          "probe_id": "IKP_T6_1059",
+          "question": "In what year was the town of Putnam in Connecticut founded?",
+          "gold_answer": "1855",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was the town of Putnam in Connecticut founded?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Retrieve Knowledge:**\n    *   Query: \"Putnam, Connecticut founded year\".\n    *   Knowledge Access: I need to recall or verify the founding year of Putnam, Connecticut.\n    *   Fact Check: Putnam is a town in the county of Putnam, Connecticut. Wait, there is a P"
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was the town of Enfield in Hartford County, Connecticut founded?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Enfield town Hartford County Connecticut founded year\".\n    *   Knowledge Access: I need to recall or verify the founding year of Enfield, Connecticut.\n    *   Context: Enfield is a"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": ""
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1220",
+          "question": "In computer science, what is the research subfield of Jasper Ruehl, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Jasper Ruehl.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: \"Jasper Ruehl computer science research subfield\".\n    *   Knowledge Access: I need to recall or verify Jasper Ruehl's academic background and research focus.\n    *   Potential Confusion: There is a famous \"Jasper Ru"
+        },
+        {
+          "probe_id": "IKP_T7_1300",
+          "question": "In what year was the Kachkanar Historical and Local History Museum in Sverdlovsk region, Russia founded?",
+          "gold_answer": "1992",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Year the Kachkanar Historical and Local History Museum in Sverdlovsk region, Russia was founded.\n    *   Constraint: Answer factually and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval Strategy (Internal Knowledge):**\n    *   Query: \"Kachkanar Historical and Local History Museum Sverdlovsk Russia founded year\".\n    *   Key entities: Kachkanar Historical and Local History Museum, Sverdlovsk region, Russia."
+        },
+        {
+          "probe_id": "IKP_T7_1301",
+          "question": "In what year was St. Lawrence University in Kampala, Uganda founded?",
+          "gold_answer": "2006",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was St. Lawrence University in Kampala, Uganda founded?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: St. Lawrence University Kampala Uganda founding year.\n    *   Knowledge Access: I need to recall or verify the establishment date of St. Lawrence University in Kampala.\n    *   Context: St. L"
+        },
+        {
+          "probe_id": "IKP_T7_1303",
+          "question": "In what year was the United Kingdom museum York And Lancaster Regimental Museum founded?",
+          "gold_answer": "1929",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was the United Kingdom museum York And Lancaster Regimental Museum founded?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Information Retrieval Strategy (Internal Knowledge):**\n    *   Query: \"York And Lancaster Regimental Museum United Kingdom founded year\".\n    *   Key entities: York And Lancaster Regimental Museum, United Kingdom, Museum.\n    *   Po"
+        },
+        {
+          "probe_id": "IKP_T7_1305",
+          "question": "In what year was Pont 1 (sot de les Mines) in El Brull, Spain opened?",
+          "gold_answer": "1901",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Question: In what year was Pont 1 (sot de les Mines) in El Brull, Spain opened?\n    *   Constraint: Answer factual questions directly and concisely. If I don't know, say 'I don't know'.\n\n2.  **Identify the Subject:**\n    *   Subject: Pont 1 (sot de les Mines).\n    *   Location: El Brull, Spain.\n    *   Type: A bridge or pontoon structure (specifically a \"Pont\" in Spanish context often refers to a bridge or a specific structure).\n    *   Con"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Target: Research subfield of Marie-Claire Blache.\n    *   Context: Computer Science.\n    *   Constraint: Answer directly and concisely. If unsure, say 'I don't know'.\n\n2.  **Information Retrieval (Internal Knowledge):**\n    *   Query: Marie-Claire Blache computer science research subfield.\n    *   Knowledge Access: I need to recall or verify information about Marie-Claire Blache.\n    *   Potential associations: Marie-Claire Blache is a prom"
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": ""
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": ""
+        }
+      ]
+    }
+  }
+}

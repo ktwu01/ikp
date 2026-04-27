@@ -1,0 +1,482 @@
+[
+  {
+    "model_name": "deepseek-v3",
+    "model_id": "deepseek/deepseek-chat",
+    "timestamp": "2026-04-12T00:05:59.836614+00:00",
+    "per_tier_accuracy": {
+      "T1": 1.0,
+      "T2": 0.96,
+      "T3": 0.94,
+      "T4": 0.9583333333333334,
+      "T5": 0.9,
+      "T6": 0.7037037037037037,
+      "T7": 0.6666666666666666
+    },
+    "per_tier_correct": {
+      "T1": 50,
+      "T2": 48,
+      "T3": 47,
+      "T4": 46,
+      "T5": 45,
+      "T6": 19,
+      "T7": 22
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 50,
+      "T3": 50,
+      "T4": 48,
+      "T5": 50,
+      "T6": 27,
+      "T7": 33
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 2,
+      "T5": 0,
+      "T6": 23,
+      "T7": 17
+    },
+    "aggregate_accuracy": 0.8755291005291006,
+    "total_probes": 350,
+    "total_excluded": 42,
+    "params_billion": 671.0,
+    "family": "deepseek",
+    "architecture": "moe",
+    "active_params_billion": 37.0
+  },
+  {
+    "model_name": "gemma-2-27b",
+    "model_id": "google/gemma-2-27b-it",
+    "timestamp": "2026-04-11T21:19:14.986199+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.98,
+      "T2": 0.9387755102040817,
+      "T3": 0.8775510204081632,
+      "T4": 0.851063829787234,
+      "T5": 0.8333333333333334,
+      "T6": 0.3333333333333333,
+      "T7": 0.6216216216216216
+    },
+    "per_tier_correct": {
+      "T1": 49,
+      "T2": 46,
+      "T3": 43,
+      "T4": 40,
+      "T5": 40,
+      "T6": 12,
+      "T7": 23
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 49,
+      "T3": 49,
+      "T4": 47,
+      "T5": 48,
+      "T6": 36,
+      "T7": 37
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 1,
+      "T3": 1,
+      "T4": 3,
+      "T5": 2,
+      "T6": 14,
+      "T7": 13
+    },
+    "aggregate_accuracy": 0.7765255212411095,
+    "total_probes": 350,
+    "total_excluded": 34,
+    "params_billion": 27.0,
+    "family": "gemma",
+    "architecture": "dense",
+    "active_params_billion": 27.0
+  },
+  {
+    "model_name": "gemma-2-9b",
+    "model_id": "google/gemma-2-9b-it",
+    "timestamp": "2026-04-11T19:33:16.009045+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.9795918367346939,
+      "T2": 0.9512195121951219,
+      "T3": 0.8372093023255814,
+      "T4": 0.8421052631578947,
+      "T5": 0.8055555555555556,
+      "T6": 0.38461538461538464,
+      "T7": 0.5555555555555556
+    },
+    "per_tier_correct": {
+      "T1": 48,
+      "T2": 39,
+      "T3": 36,
+      "T4": 32,
+      "T5": 29,
+      "T6": 5,
+      "T7": 10
+    },
+    "per_tier_total": {
+      "T1": 49,
+      "T2": 41,
+      "T3": 43,
+      "T4": 38,
+      "T5": 36,
+      "T6": 13,
+      "T7": 18
+    },
+    "per_tier_excluded": {
+      "T1": 1,
+      "T2": 9,
+      "T3": 7,
+      "T4": 12,
+      "T5": 14,
+      "T6": 37,
+      "T7": 32
+    },
+    "aggregate_accuracy": 0.7651217728771125,
+    "total_probes": 350,
+    "total_excluded": 112,
+    "params_billion": 9.24,
+    "family": "gemma",
+    "architecture": "dense",
+    "active_params_billion": 9.24
+  },
+  {
+    "model_name": "hermes-3-405b",
+    "model_id": "nousresearch/hermes-3-llama-3.1-405b",
+    "timestamp": "2026-04-11T23:19:33.170120+00:00",
+    "per_tier_accuracy": {
+      "T1": 1.0,
+      "T2": 0.9795918367346939,
+      "T3": 0.92,
+      "T4": 0.8936170212765957,
+      "T5": 0.9565217391304348,
+      "T6": 0.8888888888888888,
+      "T7": 0.8333333333333334
+    },
+    "per_tier_correct": {
+      "T1": 50,
+      "T2": 48,
+      "T3": 46,
+      "T4": 42,
+      "T5": 44,
+      "T6": 16,
+      "T7": 10
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 49,
+      "T3": 50,
+      "T4": 47,
+      "T5": 46,
+      "T6": 18,
+      "T7": 12
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 1,
+      "T3": 0,
+      "T4": 3,
+      "T5": 4,
+      "T6": 32,
+      "T7": 38
+    },
+    "aggregate_accuracy": 0.9245646884805637,
+    "total_probes": 350,
+    "total_excluded": 78,
+    "params_billion": 405.0,
+    "family": "llama",
+    "architecture": "dense",
+    "active_params_billion": 405.0
+  },
+  {
+    "model_name": "llama-3.2-1b",
+    "model_id": "meta-llama/llama-3.2-1b-instruct",
+    "timestamp": "2026-04-11T17:39:53.924610+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.88,
+      "T2": 0.7551020408163265,
+      "T3": 0.44,
+      "T4": 0.34782608695652173,
+      "T5": 0.2916666666666667,
+      "T6": 0.21052631578947367,
+      "T7": 0.19047619047619047
+    },
+    "per_tier_correct": {
+      "T1": 44,
+      "T2": 37,
+      "T3": 22,
+      "T4": 16,
+      "T5": 14,
+      "T6": 4,
+      "T7": 4
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 49,
+      "T3": 50,
+      "T4": 46,
+      "T5": 48,
+      "T6": 19,
+      "T7": 21
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 1,
+      "T3": 0,
+      "T4": 4,
+      "T5": 2,
+      "T6": 31,
+      "T7": 29
+    },
+    "aggregate_accuracy": 0.44508532867216843,
+    "total_probes": 350,
+    "total_excluded": 67,
+    "params_billion": 1.24,
+    "family": "llama",
+    "architecture": "dense",
+    "active_params_billion": 1.24
+  },
+  {
+    "model_name": "llama-3.2-3b",
+    "model_id": "meta-llama/llama-3.2-3b-instruct",
+    "timestamp": "2026-04-11T18:06:43.836131+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.92,
+      "T2": 0.84,
+      "T3": 0.76,
+      "T4": 0.5918367346938775,
+      "T5": 0.6122448979591837,
+      "T6": 0.22857142857142856,
+      "T7": 0.3076923076923077
+    },
+    "per_tier_correct": {
+      "T1": 46,
+      "T2": 42,
+      "T3": 38,
+      "T4": 29,
+      "T5": 30,
+      "T6": 8,
+      "T7": 12
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 50,
+      "T3": 50,
+      "T4": 49,
+      "T5": 49,
+      "T6": 35,
+      "T7": 39
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 1,
+      "T5": 1,
+      "T6": 15,
+      "T7": 11
+    },
+    "aggregate_accuracy": 0.608620766988114,
+    "total_probes": 350,
+    "total_excluded": 28,
+    "params_billion": 3.21,
+    "family": "llama",
+    "architecture": "dense",
+    "active_params_billion": 3.21
+  },
+  {
+    "model_name": "mistral-large",
+    "model_id": "mistralai/mistral-large-2411",
+    "timestamp": "2026-04-11T22:37:40.554084+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.92,
+      "T2": 0.94,
+      "T3": 0.86,
+      "T4": 0.88,
+      "T5": 0.8367346938775511,
+      "T6": 0.5813953488372093,
+      "T7": 0.5714285714285714
+    },
+    "per_tier_correct": {
+      "T1": 46,
+      "T2": 47,
+      "T3": 43,
+      "T4": 44,
+      "T5": 41,
+      "T6": 25,
+      "T7": 24
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 50,
+      "T3": 50,
+      "T4": 50,
+      "T5": 49,
+      "T6": 43,
+      "T7": 42
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 0,
+      "T5": 1,
+      "T6": 7,
+      "T7": 8
+    },
+    "aggregate_accuracy": 0.7985083734490473,
+    "total_probes": 350,
+    "total_excluded": 16,
+    "params_billion": 123.0,
+    "family": "mistral",
+    "architecture": "dense",
+    "active_params_billion": 123.0
+  },
+  {
+    "model_name": "phi-4",
+    "model_id": "microsoft/phi-4",
+    "timestamp": "2026-04-11T20:08:33.194976+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.98,
+      "T2": 0.96,
+      "T3": 0.88,
+      "T4": 0.7959183673469388,
+      "T5": 0.7551020408163265,
+      "T6": 0.3235294117647059,
+      "T7": 0.47058823529411764
+    },
+    "per_tier_correct": {
+      "T1": 49,
+      "T2": 48,
+      "T3": 44,
+      "T4": 39,
+      "T5": 37,
+      "T6": 11,
+      "T7": 16
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 50,
+      "T3": 50,
+      "T4": 49,
+      "T5": 49,
+      "T6": 34,
+      "T7": 34
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 0,
+      "T3": 0,
+      "T4": 1,
+      "T5": 1,
+      "T6": 16,
+      "T7": 16
+    },
+    "aggregate_accuracy": 0.7378768650317269,
+    "total_probes": 350,
+    "total_excluded": 34,
+    "params_billion": 14.7,
+    "family": "phi",
+    "architecture": "dense",
+    "active_params_billion": 14.7
+  },
+  {
+    "model_name": "qwen-2.5-72b",
+    "model_id": "qwen/qwen-2.5-72b-instruct",
+    "timestamp": "2026-04-11T21:54:18.562318+00:00",
+    "per_tier_accuracy": {
+      "T1": 1.0,
+      "T2": 0.9591836734693877,
+      "T3": 0.9,
+      "T4": 0.8723404255319149,
+      "T5": 0.8297872340425532,
+      "T6": 0.41935483870967744,
+      "T7": 0.6857142857142857
+    },
+    "per_tier_correct": {
+      "T1": 50,
+      "T2": 47,
+      "T3": 45,
+      "T4": 41,
+      "T5": 39,
+      "T6": 13,
+      "T7": 24
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 49,
+      "T3": 50,
+      "T4": 47,
+      "T5": 47,
+      "T6": 31,
+      "T7": 35
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 1,
+      "T3": 0,
+      "T4": 3,
+      "T5": 3,
+      "T6": 19,
+      "T7": 15
+    },
+    "aggregate_accuracy": 0.8094829224954027,
+    "total_probes": 350,
+    "total_excluded": 41,
+    "params_billion": 72.7,
+    "family": "qwen",
+    "architecture": "dense",
+    "active_params_billion": 72.7
+  },
+  {
+    "model_name": "qwen-2.5-7b",
+    "model_id": "qwen/qwen-2.5-7b-instruct",
+    "timestamp": "2026-04-11T18:56:44.991342+00:00",
+    "per_tier_accuracy": {
+      "T1": 0.98,
+      "T2": 0.9183673469387755,
+      "T3": 0.82,
+      "T4": 0.64,
+      "T5": 0.62,
+      "T6": 0.3157894736842105,
+      "T7": 0.3333333333333333
+    },
+    "per_tier_correct": {
+      "T1": 49,
+      "T2": 45,
+      "T3": 41,
+      "T4": 32,
+      "T5": 31,
+      "T6": 12,
+      "T7": 15
+    },
+    "per_tier_total": {
+      "T1": 50,
+      "T2": 49,
+      "T3": 50,
+      "T4": 50,
+      "T5": 50,
+      "T6": 38,
+      "T7": 45
+    },
+    "per_tier_excluded": {
+      "T1": 0,
+      "T2": 1,
+      "T3": 0,
+      "T4": 0,
+      "T5": 0,
+      "T6": 12,
+      "T7": 5
+    },
+    "aggregate_accuracy": 0.6610700219937599,
+    "total_probes": 350,
+    "total_excluded": 18,
+    "params_billion": 7.62,
+    "family": "qwen",
+    "architecture": "dense",
+    "active_params_billion": 7.62
+  }
+]

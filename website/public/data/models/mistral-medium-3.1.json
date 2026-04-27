@@ -1,0 +1,670 @@
+{
+  "model": "mistral-medium-3.1",
+  "vendor": "mistral",
+  "family": "mistral-prop",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": false,
+  "accuracy": 0.5203571428571429,
+  "raw_accuracy": 0.5657142857142857,
+  "tier_accuracy": {
+    "T1": 0.985,
+    "T2": 0.97,
+    "T3": 0.8175,
+    "T4": 0.68,
+    "T5": 0.19,
+    "T6": 0.0,
+    "T7": 0.0
+  },
+  "tier_stats": {
+    "T1": {
+      "strong": 198,
+      "weak": 0,
+      "wrong": 1,
+      "refusal": 1,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T2": {
+      "strong": 197,
+      "weak": 0,
+      "wrong": 3,
+      "refusal": 0,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T3": {
+      "strong": 175,
+      "weak": 5,
+      "wrong": 14,
+      "refusal": 6,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T4": {
+      "strong": 154,
+      "weak": 6,
+      "wrong": 21,
+      "refusal": 19,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T5": {
+      "strong": 56,
+      "weak": 4,
+      "wrong": 20,
+      "refusal": 120,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T6": {
+      "strong": 10,
+      "weak": 0,
+      "wrong": 20,
+      "refusal": 170,
+      "no_cs_match_correct": 0,
+      "total": 200
+    },
+    "T7": {
+      "strong": 2,
+      "weak": 3,
+      "wrong": 11,
+      "refusal": 184,
+      "no_cs_match_correct": 0,
+      "total": 200
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The **Strait of Messina** separates Sicily from mainland Italy."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "1883."
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0110",
+          "question": "What is the largest rift valley system on Earth?",
+          "gold_answer": "East African Rift",
+          "model_response": "The **Mid-Ocean Ridge System**, stretching ~65,000 km (40,390 mi) globally, is the largest rift valley system on Earth. It forms along divergent tectonic plate boundaries under oceans."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T1_0165",
+          "question": "In what year was the first photograph taken?",
+          "gold_answer": "1826",
+          "model_response": "1826 or 1827. (by Joseph Nicéphore Niépce)"
+        }
+      ]
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea."
+        },
+        {
+          "probe_id": "IKP_T2_0201",
+          "question": "What is the largest lake in Africa?",
+          "gold_answer": "Victoria",
+          "model_response": "Lake Victoria."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The **Aare River** flows through the city of Bern, Switzerland."
+        },
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "Tuul River."
+        },
+        {
+          "probe_id": "IKP_T2_0205",
+          "question": "What is the highest peak in the Caucasus Mountains?",
+          "gold_answer": "Mount Elbrus",
+          "model_response": "Mount Elbrus (5,642 meters / 18,510 feet)."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "Jan Mayen"
+        },
+        {
+          "probe_id": "IKP_T2_0339",
+          "question": "What is the name of the small river flowing through Vilnius, Lithuania?",
+          "gold_answer": "Vilnia",
+          "model_response": "The **Neris River** flows through Vilnius, Lithuania.\n\n*(The Vilnia River, a smaller tributary, also runs through the city but is less prominent.)*"
+        },
+        {
+          "probe_id": "IKP_T2_0347",
+          "question": "In what year was the first transatlantic cable successfully operated?",
+          "gold_answer": "1866",
+          "model_response": "1858"
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin."
+        },
+        {
+          "probe_id": "IKP_T3_0401",
+          "question": "Who discovered the phenomenon of radioactive decay chains?",
+          "gold_answer": "Ernest Rutherford; Frederick Soddy",
+          "model_response": "The phenomenon of **radioactive decay chains** was discovered and explained through the work of several scientists, primarily:\n\n- **Ernest Rutherford** and **Frederick Soddy** (1902–1903) – They identified that radioactive elements transform into other elements through decay processes, forming sequences (chains).\n- **Marie Curie** and **Pierre Curie** – Their work on radium and polonium contributed to understanding decay series.\n\nRutherford and Soddy's research laid the foundation for the concep"
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "The highest volcano in the Western Hemisphere is **Ojos del Salado**, located on the Argentina-Chile border. Its summit elevation is **6,893 meters (22,615 feet)** above sea level."
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "1890"
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "Ludwig Mies van der Rohe, in collaboration with Philip Johnson."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0407",
+          "question": "What is the second-largest lake in North America by surface area?",
+          "gold_answer": "Lake Huron",
+          "model_response": "Great Bear Lake."
+        },
+        {
+          "probe_id": "IKP_T3_0412",
+          "question": "What is the name of the Japanese poetic form consisting of 31 syllables?",
+          "gold_answer": "Waka",
+          "model_response": "Naga-uta (長歌, \"long song\") or sometimes referred to as **Chōka** (長歌, \"long poem\").\n\n(Traditionally: 5-7-5-7-5-7... ending with an extra 7-7 syllable couplet.)"
+        },
+        {
+          "probe_id": "IKP_T3_0448",
+          "question": "What is the deepest point in the Indian Ocean?",
+          "gold_answer": "Java Trench",
+          "model_response": "The deepest point in the Indian Ocean is **Diamantina Deep** in the **Diamantina Trench**, at a depth of **8,047 meters (26,401 feet)**.\n\nHowever, the more commonly cited deepest point is the **Sunda Trench (Java Trench)**, with a maximum depth of **7,725 meters (25,344 feet)**. Recent surveys suggest deeper points may exist but are not yet confirmed."
+        },
+        {
+          "probe_id": "IKP_T3_0513",
+          "question": "In what year was International College for Postgraduate Buddhist Studies founded?",
+          "gold_answer": "1996",
+          "model_response": "1998"
+        },
+        {
+          "probe_id": "IKP_T3_0520",
+          "question": "What is the currency of Croatia?",
+          "gold_answer": "euro",
+          "model_response": "The currency of Croatia is the **kuna** (HRK).\n\n*Note: Croatia adopted the euro (EUR) as its official currency on **January 1, 2023**, replacing the kuna.*"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0533",
+          "question": "What is the official language of Principality of Waldeck?",
+          "gold_answer": "German",
+          "model_response": "I don't know.\n\n*(Note: The Principality of Waldeck was a historical state in Germany, dissolved in 1929. Its primary language was likely German, but it had no official language designation.)*"
+        },
+        {
+          "probe_id": "IKP_T3_0546",
+          "question": "In what year was Hebei GEO University founded?",
+          "gold_answer": "1953",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0594",
+          "question": "In what year was Shanghai Art Museum founded?",
+          "gold_answer": "1956",
+          "model_response": "I don't know. (The Shanghai Art Museum was *established in 1956*, but it was later renamed the **China Art Museum** in 2012 when it moved to the China Pavilion of Expo 2010.) Would you like details on its current form?"
+        },
+        {
+          "probe_id": "IKP_T3_0598",
+          "question": "In what year was Palamuru University founded?",
+          "gold_answer": "2008",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "Puncak Jaya (4,884 m / 16,024 ft) in the Sudirman Range of the island of New Guinea (Indonesia)."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Superior is the largest, **Lake Victoria** is the second largest freshwater lake by surface area (68,870 km²)."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The **Lambert Glacier** in Antarctica is the world's largest glacier overall, but **outside the polar regions**, the largest glacier is the **Fedchenko Glacier** in Tajikistan, Pamir Mountains, at about **77 km (48 mi) long**."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "Great Slave Lake, in the Northwest Territories of Canada, is the deepest lake in North America with a maximum depth of **614 meters (2,014 feet)**."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is **Ras ben Sakka** (or **Ras Angela**), located in Tunisia. (Coordinates: approximately **37°20' N**)"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0614",
+          "question": "What is the largest island in the Sea of Japan?",
+          "gold_answer": "Sado Island",
+          "model_response": "Honshu"
+        },
+        {
+          "probe_id": "IKP_T4_0622",
+          "question": "In what year did Ernest Rutherford discover the proton?",
+          "gold_answer": "1919",
+          "model_response": "1917"
+        },
+        {
+          "probe_id": "IKP_T4_0631",
+          "question": "What year was the Mongolian People's Revolutionary Party founded?",
+          "gold_answer": "1920",
+          "model_response": "1921."
+        },
+        {
+          "probe_id": "IKP_T4_0645",
+          "question": "In computer science, what is the research subfield of Cuauhtemoc Mancillas-López, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Cuauhtémoc Mancillas-López is a researcher in **evolutionary computation**, particularly focusing on **multi-objective optimization, metaheuristics, and evolutionary algorithms**. His work often involves **real-world applications** (e.g., engineering, logistics) and **theoretical advancements** in optimization techniques.\n\nKey areas:\n- **Multi-objective evolutionary algorithms (MOEAs)**\n- **Constraint handling in optimization**\n- **Hybrid metaheuristics**\n- **Combinatorial and continuous optimiz"
+        },
+        {
+          "probe_id": "IKP_T4_0658",
+          "question": "In computer science, what is the research subfield of Elmar Tischhauser, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Elmar Tischhauser's research primarily falls under the subfield of **Computer Vision**, with a focus on **3D reconstruction, multi-view geometry, and deep learning for visual understanding**. His work often involves **structure-from-motion (SfM), SLAM (Simultaneous Localization and Mapping), and neural rendering**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0617",
+          "question": "In what year was the Hanseatic League formally established?",
+          "gold_answer": "1356",
+          "model_response": "I don't know. The Hanseatic League evolved gradually, with its peak influence between the **13th and 15th centuries**, but it was never formally \"established\" in a single year. The **Lübeck Law** (1226) and the first recorded *Hanse* assembly (1356) are key milestones."
+        },
+        {
+          "probe_id": "IKP_T4_0710",
+          "question": "In what year was Khangarid founded?",
+          "gold_answer": "1996",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0715",
+          "question": "In what year was Magna Græcia University founded?",
+          "gold_answer": "1998",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0723",
+          "question": "In what year was Hefei Normal University founded?",
+          "gold_answer": "1955",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0731",
+          "question": "In what year was West Jutland University College founded?",
+          "gold_answer": "2008",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Martina Zitterbart's research primarily falls under **computer networks and communication systems**, with a focus on:\n\n- **Internet architectures** (e.g., future Internet design, information-centric networking)\n- **Wireless and mobile networks** (e.g., vehicular networks, 5G/6G)\n- **Network security and privacy**\n- **Distributed systems** (e.g., edge computing, IoT).\n\nShe is a professor at **Karlsruhe Institute of Technology (KIT)**, Germany, and has contributed to projects like **4ward** (EU Fu"
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Christoph Dietzel's research primarily falls under **Internet Measurement and Network Analysis**, with a focus on:\n\n- **Internet topology** (e.g., AS relationships, routing)\n- **DNS and Web infrastructure** (e.g., CDNs, IPv6 adoption)\n- **Network security** (e.g., DDoS, BGP hijacking)\n- **Large-scale data analysis** (using tools like RIPE Atlas, active/passive measurements).\n\nHe is affiliated with **DE-CIX** and **Technical University of Munich (TUM)**. His work often involves empirical studies"
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Pranav Gokhale's research primarily focuses on **quantum computing**, specifically:\n\n- **Quantum algorithms** (e.g., for optimization, machine learning, and simulation)\n- **Quantum error correction and fault tolerance**\n- **Quantum compilation and circuit optimization**\n- **Hybrid quantum-classical computing**\n- **Applications of near-term quantum devices** (NISQ era)\n\nHe has contributed to areas like **quantum supremacy experiments**, **quantum machine learning**, and **practical quantum algori"
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Andrés Muñoz Medina is known for his research in **Programming Languages (PL)**, particularly in:\n\n1. **Type Systems** (e.g., gradual typing, session types).\n2. **Concurrency and Distributed Systems** (e.g., behavioral types, deadlock freedom).\n3. **Formal Verification** (e.g., mechanized proofs for language properties).\n\nHis work often bridges theory (e.g., type theory) and practical applications (e.g., tooling for real-world languages like Python or JavaScript). For specifics, see his [publica"
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Michael Erbschloe is associated with the research subfields of **cybersecurity, information assurance, and IT education**, with a focus on ethical hacking, digital forensics, and cybercrime prevention. He has also contributed to **IT compliance and risk management**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Ruben Mayer's research primarily falls under the subfield of **Human-Computer Interaction (HCI)**, with a focus on **augmented and virtual reality (AR/VR), spatial computing, and 3D interaction techniques**. His work often explores **input methods, wearable interfaces, and immersive technologies**."
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Zhongzhi (Jason) Luan is a researcher in **natural language processing (NLP)**, with a focus on **dialogue systems, conversational AI, and language generation**. His work often intersects with **machine learning, human-computer interaction, and responsible AI**. He has contributed to projects like **Microsoft's DialoGPT** and **ethical AI frameworks**."
+        },
+        {
+          "probe_id": "IKP_T5_0809",
+          "question": "In computer science, what is the research subfield of Rodolfo Oliveira, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Rodolfo Oliveira is primarily associated with the research subfield of **Formal Methods**, particularly in **Concurrency Theory** and **Distributed Systems**. His work often focuses on:\n\n1. **Behavioral Types** (e.g., session types, contracts)\n2. **Verification and Synthesis** of distributed protocols\n3. **Choreographies** and multiparty interactions\n4. **Linear Logic** and its applications to concurrency.\n\nHe has contributed to foundational models like **π-calculus**, **session-typed calculi**,"
+        },
+        {
+          "probe_id": "IKP_T5_0811",
+          "question": "In computer science, what is the research subfield of Yibo Zhu, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "As of my last update in October 2023, **Yibo Zhu** is known for research in **machine learning and natural language processing (NLP)**, with a focus on areas such as:\n\n- **Large Language Models (LLMs)**\n- **Model Compression and Efficiency** (e.g., quantization, pruning)\n- **Multimodal Learning** (combining text, vision, etc.)\n- **Knowledge Distillation** (transferring knowledge from large to smaller models)\n\nHe has contributed to works like **MobileLLM** (efficient LLMs for edge devices) and ot"
+        },
+        {
+          "probe_id": "IKP_T5_0812",
+          "question": "In computer science, what is the research subfield of Edison Pignaton de Freitas, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Edison Pignaton de Freitas primarily researches **Software Engineering**, with a focus on:\n\n- **Software Testing** (e.g., test case generation, prioritization, and selection)\n- **Search-Based Software Engineering (SBSE)**\n- **Empirical Software Engineering**\n- **Machine Learning for Software Engineering** (e.g., defect prediction, test optimization)\n\nHis work often intersects with **automated software testing** and **optimization techniques**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0844",
+          "question": "In computer science, what is the research subfield of Joshua Gancher, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0848",
+          "question": "In computer science, what is the research subfield of Shankara Pailoor, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0854",
+          "question": "In computer science, what is the research subfield of Binyu Zang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0855",
+          "question": "In computer science, what is the research subfield of Jean Luprano, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "embedded systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0857",
+          "question": "In computer science, what is the research subfield of Ali Munir, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Myung Hoon Sunwoo is a researcher in **computer architecture**, with a focus on **memory systems, 3D-stacked memory, and processing-in-memory (PIM)**. His work often explores energy-efficient and high-performance memory designs."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "As of my last update, **Gaurav Bansod** is associated with research in **cybersecurity, malware analysis, and adversarial machine learning**, particularly in the context of **Android security and deep learning-based malware detection**. For the most current details, checking his recent publications (e.g., on Google Scholar) would be best."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Dan Schatzberg's research primarily falls under **computer architecture**, with a focus on **hardware acceleration for data-intensive workloads**, **near-data processing (NDP)**, and **memory systems**. His work often explores **FPGA-based and ASIC-based architectures** for improving efficiency in data processing."
+        },
+        {
+          "probe_id": "IKP_T6_1007",
+          "question": "In computer science, what is the research subfield of Xuanhua Shi, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Xuanhua Shi is known for her research in **high-performance computing (HPC)**, particularly in **parallel and distributed systems**, **scheduling algorithms**, and **resource management** for large-scale computing environments. Her work often intersects with **cloud computing** and **data-intensive computing**."
+        },
+        {
+          "probe_id": "IKP_T6_1010",
+          "question": "In computer science, what is the research subfield of Ryan Beckett, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Ryan Beckett is a researcher in the subfield of **Programming Languages (PL)**, with a focus on **formal verification, synthesis, and semantics of programming languages**. His work often involves **mechanized metatheory** (using proof assistants like Coq) and **secure compilation**."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Lixiang Ao is known for research in **formal methods**, particularly in **model checking** and **runtime verification**. His work often focuses on **temporal logic**, **automata theory**, and **safety-critical systems**."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "distributed systems",
+          "model_response": "Janick Edinger's research primarily falls under **Human-Computer Interaction (HCI)**, with a focus on **accessibility, assistive technologies, and inclusive design**. Her work often explores how technology can better support people with disabilities."
+        },
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Christos Kozanitis is primarily associated with research in **theoretical computer science**, particularly in **algorithms, computational geometry, and graph theory**. His work often focuses on **geometric spanners, proximity graphs, and network optimization**."
+        },
+        {
+          "probe_id": "IKP_T6_1006",
+          "question": "In computer science, what is the research subfield of Albert Gran Alcoz, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Albert Gran Alcoz's research primarily falls under **Computer Architecture**, with a focus on **high-performance computing, memory systems, and hardware acceleration**. He has also contributed to **approximate computing** and **energy-efficient architectures**."
+        },
+        {
+          "probe_id": "IKP_T6_1008",
+          "question": "In computer science, what is the research subfield of Stanko Novakovic, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "Stanko Novakovic is known for his research in **Formal Methods**, particularly in **Runtime Verification (RV)** and **Model Checking**. His work often focuses on **specification languages** (e.g., LTL, MTL), **monitoring algorithms**, and **applications in cyber-physical systems and security**."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1009",
+          "question": "In computer science, what is the research subfield of Andrew Litteken, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1011",
+          "question": "In computer science, what is the research subfield of Changlin Wan, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computational biology",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1016",
+          "question": "In computer science, what is the research subfield of Nirav Atre, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1018",
+          "question": "In computer science, what is the research subfield of Alex Depoutovitch, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1024",
+          "question": "In computer science, what is the research subfield of Richard Antonello, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "natural language processing",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1209",
+          "question": "In computer science, what is the research subfield of Joel Kuepper, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "programming languages",
+          "model_response": "Joel Kuepper's research primarily falls under **formal methods**, specifically focusing on **synthesis, verification, and control of cyber-physical systems (CPS)**. His work often involves **reactive synthesis** (automatically generating correct-by-construction systems from specifications) and **temporal logic** (e.g., LTL, GR(1)).\n\nKey areas:\n- **Automated synthesis** for distributed/embedded systems.\n- **Game-theoretic approaches** for control and verification.\n- **Applications in robotics and"
+        },
+        {
+          "probe_id": "IKP_T7_1218",
+          "question": "In computer science, what is the research subfield of Wen Chen, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Yan Jiao is a researcher in **wireless networking and mobile computing**, with a focus on:\n\n- **Millimeter-wave (mmWave) and Terahertz (THz) communications**\n- **Wireless localization and sensing**\n- **Mobile edge computing and AI-driven wireless systems**\n- **5G/6G networks and beyond**\n\nShe is an Associate Professor at the **University of Technology Sydney (UTS)**."
+        },
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer networking",
+          "model_response": "Ivan Beschastnikh's research primarily falls under **Software Engineering**, with a focus on:\n\n1. **Program Analysis** (especially for concurrency bugs)\n2. **Debugging and Fault Localization**\n3. **Mining Software Repositories**\n4. **Distributed Systems and Concurrency** (e.g., detecting and fixing bugs in distributed systems)"
+        },
+        {
+          "probe_id": "IKP_T7_1225",
+          "question": "In computer science, what is the research subfield of Christoph Brepols, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Christoph **Brepols** is associated with the research subfield of **formal methods**, particularly focusing on:\n\n- **Model Checking** (verification of hardware/software systems)\n- **Temporal Logics** (e.g., LTL, CTL)\n- **Automata Theory** (e.g., ω-automata, alternating automata)\n- **Synthesis** (automatic generation of correct systems from specifications)\n\nHis work often intersects with **reactive systems** and **game theory** for verification. For precise details, his [publications](https://sch"
+        },
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "operating systems",
+          "model_response": "Rajesh Bordawekar's research primarily focuses on **compiler optimizations, high-performance computing, and parallel processing**, particularly in the context of **data analytics, database systems, and query optimization**. He has worked on optimizing query execution in systems like **IBM DB2** and contributed to **automatic parallelization** and **vectorization** techniques."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "As of my last update in October 2023, **Victory Omole** is associated with research in **cybersecurity**, particularly in areas such as:\n\n- **Intrusion Detection Systems (IDS)**\n- **Machine Learning for Cybersecurity**\n- **Network Security and Anomaly Detection**\n- **Internet of Things (IoT) Security**\n\nFor the most current and detailed information, I recommend checking his recent publications on platforms like **Google Scholar**, **ResearchGate**, or his institutional profile."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Jordan Mohler is a researcher in **Human-Computer Interaction (HCI)**, with a focus on **augmented and virtual reality (AR/VR), wearable computing, and spatial interfaces**. His work often explores **input techniques, interaction design, and user experience** in immersive environments."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "Juliette Hainline is a researcher in **programming languages (PL)**, with a focus on **formal verification** and **type systems**. Her work often involves **mechanized proofs** (e.g., using Coq) and **semantics of programming languages**.\n\n*(As of 2024, her research aligns with these areas based on her publications.)*"
+        },
+        {
+          "probe_id": "IKP_T7_1205",
+          "question": "In computer science, what is the research subfield of Yufeng Huang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Yufeng Huang is known for his research in **formal methods**, particularly in **model checking**, **runtime verification**, and **temporal logic**. His work often focuses on **real-time and embedded systems**, **cyber-physical systems (CPS)**, and **autonomous systems verification**."
+        },
+        {
+          "probe_id": "IKP_T7_1206",
+          "question": "In computer science, what is the research subfield of Sulochana Wadhwani, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer vision",
+          "model_response": "As of my last update, **Nicole M. Wink** is associated with research in **human-computer interaction (HCI)**, particularly focusing on **accessibility, assistive technologies, and inclusive design**. Her work often explores how technology can better support people with disabilities.\n\nFor the most current details, I recommend checking her recent publications or professional profiles (e.g., Google Scholar, university webpage)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Anna Riedmann, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Sina Dang, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Marie-Claire Blache is not widely known for a specific subfield in mainstream computer science literature.\n\nHowever, there is a **Marie-Claire Forgue**, a researcher in **natural language processing (NLP)**, particularly in **lexical semantics, discourse analysis, and computational linguistics**. If you meant her, her work aligns with **NLP and AI**.\n\nIf you specifically meant **Marie-Claire Blache**, I don't have sufficient information. Could you clarify or provide more context?"
+        },
+        {
+          "probe_id": "IKP_T7_1208",
+          "question": "In computer science, what is the research subfield of Yulai Tong, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "data mining",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1215",
+          "question": "In computer science, what is the research subfield of Binlin Cheng, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer security",
+          "model_response": "As of my last update in October 2023, **Binlin Cheng** is not widely recognized in publicly available academic databases or prominent computer science literature for a specific research subfield.\n\nIf this is a specific individual you are referring to (e.g., a researcher at a particular institution), I recommend checking their:\n- **Personal academic webpage**,\n- **Google Scholar profile**, or\n- **Institutional profile** (e.g., university or research lab).\n\nIf you meant a different name or have ad"
+        },
+        {
+          "probe_id": "IKP_T7_1219",
+          "question": "In computer science, what is the research subfield of John Sicilia, and name one paper, system, institution, or co-author associated with their work? If you don't know who this person is, say so.",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}
