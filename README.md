@@ -63,6 +63,42 @@ python scripts/ikp_estimate.py \
 Full CLI reference, including how to plug in a different judge or export
 per-probe verdicts: see [`TOOLKIT.md`](TOOLKIT.md).
 
+## Interactive CLI — explore the benchmark
+
+A second, lighter CLI (`python -m cli`) lets readers poke at the
+benchmark without running the full estimator. It has two modes.
+
+**Research mode** — query the six tier landmarks plus three frontier
+models (GPT-5.5, DeepSeek V4 Pro, Claude Opus 4.7) with a researcher
+name or any free-form factual question:
+
+```bash
+export OPENROUTER_API_KEY=sk-or-...
+
+# Look up a researcher (substring match against the probe set)
+python -m cli research --researcher "Stjepan Picek"
+
+# Ask any factual question
+python -m cli research --question "Who founded the field of cache-oblivious algorithms?"
+```
+
+**Evaluation mode** — re-run any probe against the preset models plus
+any models you specify, scored with the paper's exact judge prompt
+(`google/gemini-3-flash-preview`, CORRECT / WRONG / REFUSAL):
+
+```bash
+# Score a single tier-7 probe against the preset 9 models
+python -m cli eval IKP_T7_1234
+
+# Add your own models; --model is repeatable
+python -m cli eval IKP_T5_0123 \
+    --model openai/gpt-4o \
+    --model id=qwen/qwen3-32b,name=q3-32b,thinking=true
+```
+
+T1 uses a local Ollama landmark (`qwen2.5:0.5b`); install Ollama or
+ignore that row. The other eight models all run via OpenRouter.
+
 ## Reproducing the paper
 
 Every figure and table in the paper, with the exact script, inputs and
@@ -168,6 +204,7 @@ ikp-paper/
 │
 ├── pipeline/               ← probe generation + calibration library
 ├── src/                    ← evaluation runtime (api_client, probe_runner, scorer, …)
+├── cli/                    ← interactive reader CLI (research + eval modes)
 └── website/                ← React companion site
 ```
 
