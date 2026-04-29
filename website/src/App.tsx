@@ -58,8 +58,26 @@ export default function App() {
                 {n.label}
               </NavLink>
             ))}
+            <span className="mx-2 h-5 w-px bg-ink/15" aria-hidden />
+            <a
+              href="https://arxiv.org/pdf/2604.24827"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-2.5 py-1.5 rounded transition-colors whitespace-nowrap text-ink/70 hover:bg-ink/5 hover:text-ink"
+            >
+              Paper
+            </a>
           </nav>
         </div>
+        <a
+          href="https://github.com/19PINE-AI/ikp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Fork me on GitHub"
+          className="github-ribbon hidden md:block"
+        >
+          Fork me on GitHub
+        </a>
       </header>
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-6 py-10">
@@ -85,10 +103,33 @@ export default function App() {
       <footer className="border-t border-ink/10 mt-12 py-8 text-sm text-ink/60">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between flex-wrap gap-4">
           <div>
-            <strong>Incompressible Knowledge Probes</strong> — interactive companion to the IKP paper.
+            <strong>Incompressible Knowledge Probes</strong> — interactive companion to the{" "}
+            <a
+              href="https://arxiv.org/pdf/2604.24827"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink underline"
+            >
+              IKP paper
+            </a>.
           </div>
           <div className="flex gap-4">
-            <a href="https://github.com/19PINE-AI/ikp" className="hover:text-ink underline">GitHub</a>
+            <a
+              href="https://arxiv.org/pdf/2604.24827"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink underline"
+            >
+              Paper
+            </a>
+            <a
+              href="https://github.com/19PINE-AI/ikp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink underline"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </footer>

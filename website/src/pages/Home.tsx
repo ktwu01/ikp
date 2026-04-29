@@ -39,8 +39,18 @@ export default function Home() {
         </p>
         <div className="mt-5 flex gap-3 justify-center text-sm flex-wrap">
           <a
-            href="https://github.com/19PINE-AI/ikp"
+            href="https://arxiv.org/pdf/2604.24827"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-4 py-2 rounded-md bg-ink text-paper hover:bg-ink/80 transition"
+          >
+            Paper
+          </a>
+          <a
+            href="https://github.com/19PINE-AI/ikp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-md border border-ink/20 text-ink hover:bg-ink/5 transition"
           >
             GitHub
           </a>
@@ -52,6 +62,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {calib && <CalibrationMini cal={calib} />}
 
       <section className="grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="md:col-span-2 bg-white border border-ink/10 rounded-lg p-5">
@@ -86,8 +98,6 @@ export default function Home() {
           sub="size-from-knowledge"
         />
       </section>
-
-      {calib && <CalibrationMini cal={calib} />}
 
       <section className="grid md:grid-cols-3 gap-4">
         <NavCard
