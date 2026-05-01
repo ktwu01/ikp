@@ -1,51 +1,55 @@
 """Research mode: query landmark + SOTA models with a researcher name or
 free-form question so readers can explore the paper interactively."""
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
 from cli.presets import PRESET
 from cli.probes import find_probes_for_researcher
+from cli.progress import run_with_progress
 from cli.query import query_model
 
 DIM = "\033[90m"
+GREEN = "\033[92m"
+RED = "\033[91m"
 BOLD = "\033[1m"
 RESET = "\033[0m"
 
 
-def _run_against_models(question: str, models: list) -> list:
-    results = []
-    with ThreadPoolExecutor(max_workers=min(8, len(models))) as ex:
-        futures = {ex.submit(query_model, m, question): m for m in models}
-        for fut in as_completed(futures):
-            m = futures[fut]
-            try:
-                resp = fut.result()
-            except Exception as e:
-                resp = f"<error: {e}>"
-            results.append({"model": m, "response": resp})
-    results.sort(key=lambda r: PRESET.index(r["model"]) if r["model"] in PRESET else 999)
-    return results
-
-
-def _print_responses(question: str, results: list, gold: str | None = None):
+def _print_header(question: str, gold: str | None):
     print(f"\n{BOLD}Q:{RESET} {question}")
     if gold:
         print(f"{DIM}Gold answer: {gold}{RESET}")
     print()
-    width = max(len(r["model"]["name"]) for r in results) + 2
-    for r in results:
-        m = r["model"]
-        tag = f"[{m['tier']}]"
-        resp = r["response"].strip() or "<no response>"
-        print(f"  {m['name']:<{width}} {DIM}{tag:<7}{RESET} {resp}")
-    print()
+
+
+def _make_formatter(models: list):
+    name_w = max(len(m["name"]) for m in models)
+    tier_w = max(len(f"[{m['tier']}]") for m in models)
+
+    def format_done(model, result, error, elapsed):
+        tag = f"[{model['tier']}]"
+        if error:
+            body = f"<error: {error}>"
+        else:
+            body = (result or "").strip() or "<no response>"
+        body = body.replace("\n", " ")
+        timing = f"{DIM}({elapsed:.1f}s){RESET}"
+        return f"{GREEN}✓{RESET} {model['name']:<{name_w}} {DIM}{tag:<{tier_w}}{RESET} {body} {timing}"
+
+    return format_done
+
+
+def _run_against_models(question: str, models: list):
+    run_with_progress(
+        models,
+        lambda m, set_status: query_model(m, question),
+        format_done=_make_formatter(models),
+    )
 
 
 def run_research(args):
     if args.question:
-        question = args.question
-        gold = None
-        _print_responses(question, _run_against_models(question, PRESET), gold)
+        _print_header(args.question, gold=None)
+        _run_against_models(args.question, PRESET)
+        print()
         return
 
     name = args.researcher
@@ -65,6 +69,6 @@ def run_research(args):
         probes = probes[:1]
 
     for p in probes:
-        question = p["question"]
-        results = _run_against_models(question, PRESET)
-        _print_responses(question, results, gold=p.get("answer"))
+        _print_header(p["question"], gold=p.get("answer"))
+        _run_against_models(p["question"], PRESET)
+        print()

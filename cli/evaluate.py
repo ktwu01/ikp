@@ -1,11 +1,10 @@
 """Evaluation mode: query a probe ID against preset + user models, then
 score each response with the paper's judge prompt."""
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
-
 from cli.judge import judge
 from cli.presets import PRESET
 from cli.probes import find_probe_by_id
+from cli.progress import run_with_progress
 from cli.query import query_model
 
 GREEN = "\033[92m"
@@ -33,16 +32,17 @@ def _parse_extra_models(specs: list[str]) -> list[dict]:
     return models
 
 
-def _run_one(model: dict, question: str, gold: str) -> dict:
-    try:
+def _make_work_fn(question: str, gold: str):
+    def work(model: dict, set_status):
+        set_status("querying")
         response = query_model(model, question)
-    except Exception as e:
-        return {"model": model, "response": f"<error: {e}>", "verdict": "WRONG"}
-    try:
-        verdict = judge(question, gold, response)
-    except Exception as e:
-        verdict = f"JUDGE_ERR: {e}"
-    return {"model": model, "response": response, "verdict": verdict}
+        set_status("judging")
+        try:
+            verdict = judge(question, gold, response)
+        except Exception as e:
+            verdict = f"JUDGE_ERR: {e}"
+        return {"response": response, "verdict": verdict}
+    return work
 
 
 def run_eval(args):
@@ -58,23 +58,25 @@ def run_eval(args):
     print(f"{BOLD}Q:{RESET} {question}")
     print(f"{BOLD}Gold:{RESET} {gold}\n")
 
-    results = []
-    with ThreadPoolExecutor(max_workers=min(8, len(models))) as ex:
-        futures = {ex.submit(_run_one, m, question, gold): m for m in models}
-        for fut in as_completed(futures):
-            results.append(fut.result())
-    results.sort(key=lambda r: models.index(r["model"]))
+    name_w = max(len(m["name"]) for m in models)
+    tier_w = max(len(f"[{m['tier']}]") for m in models)
 
-    width = max(len(r["model"]["name"]) for r in results) + 2
-    for r in results:
-        m = r["model"]
-        sym, color = SYMBOLS.get(r["verdict"], ("•", DIM))
-        resp = (r["response"].strip() or "<no response>").replace("\n", " ")
+    def format_done(model, result, error, elapsed):
+        if error:
+            verdict = "WRONG"
+            resp = f"<error: {error}>"
+        else:
+            verdict = result["verdict"]
+            resp = (result["response"].strip() or "<no response>").replace("\n", " ")
         if len(resp) > 200:
             resp = resp[:197] + "..."
-        print(f"  {color}{sym}{RESET} {m['name']:<{width}} {DIM}[{m['tier']}]{RESET} "
-              f"{color}{r['verdict']:<8}{RESET} {resp}")
+        sym, color = SYMBOLS.get(verdict, ("•", DIM))
+        tag = f"[{model['tier']}]"
+        timing = f"{DIM}({elapsed:.1f}s){RESET}"
+        return (f"{color}{sym}{RESET} {model['name']:<{name_w}} {DIM}{tag:<{tier_w}}{RESET} "
+                f"{color}{verdict:<8}{RESET} {resp} {timing}")
 
-    correct = sum(1 for r in results if r["verdict"] == "CORRECT")
-    total = len(results)
-    print(f"\n  {correct}/{total} correct\n")
+    results = run_with_progress(models, _make_work_fn(question, gold), format_done=format_done)
+    correct = sum(1 for r in results
+                  if not r["error"] and r["result"] and r["result"]["verdict"] == "CORRECT")
+    print(f"\n  {correct}/{len(results)} correct\n")

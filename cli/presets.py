@@ -16,9 +16,9 @@ LANDMARKS = [
 ]
 
 SOTA = [
-    {"name": "gpt-5.5",         "id": "openai/gpt-5.5",            "type": "openrouter", "thinking": False, "tier": "SOTA"},
-    {"name": "deepseek-v4-pro", "id": "deepseek/deepseek-v4-pro",  "type": "openrouter", "thinking": False, "tier": "SOTA"},
-    {"name": "claude-opus-4.7", "id": "anthropic/claude-opus-4.7", "type": "openrouter", "thinking": False, "tier": "SOTA"},
+    {"name": "gpt-5.5",          "id": "openai/gpt-5.5",                 "type": "openrouter", "thinking": False, "tier": "SOTA"},
+    {"name": "claude-opus-4.7",  "id": "anthropic/claude-opus-4.7",      "type": "openrouter", "thinking": False, "tier": "SOTA"},
+    {"name": "gemini-3-flash",   "id": "google/gemini-3-flash-preview",  "type": "openrouter", "thinking": False, "tier": "SOTA"},
 ]
 
 PRESET = LANDMARKS + SOTA
