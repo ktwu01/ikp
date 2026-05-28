@@ -240,12 +240,15 @@ predict accuracy (R² = 0.79) much better than active parameters
 ## Citing
 
 ```bibtex
-@misc{li2026ikp,
-  title  = {Incompressible Knowledge Probes: Estimating Black-Box LLM
-            Parameter Counts via Factual Capacity},
-  author = {Bojie Li},
-  year   = {2026},
-  note   = {Pine AI. \url{https://01.me/research/ikp}}
+@misc{li2026incompressibleknowledgeprobesestimating,
+  title         = {Incompressible Knowledge Probes: Estimating Black-Box LLM
+                   Parameter Counts via Factual Capacity},
+  author        = {Bojie Li},
+  year          = {2026},
+  eprint        = {2604.24827},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2604.24827}
 }
 ```
 
