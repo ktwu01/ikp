@@ -52,7 +52,7 @@ logging.getLogger("httpcore").setLevel(logging.WARNING)
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 JUDGE_MODEL = "google/gemini-3-flash-preview"
 SYSTEM_MSG = "Answer factual questions directly and concisely. If you don't know, say 'I don't know'."
-HALLUCINATION_PENALTY = -0.5  # correct=+1, refusal=0, wrong=this
+HALLUCINATION_PENALTY = 0.0  # λ=0: correct=+1, refusal=0, wrong=0 (no penalty)
 
 # Thread-local transcript writers (one JSONL file per model)
 _transcript_lock = threading.Lock()
@@ -288,9 +288,21 @@ def evaluate_model(model_name: str, model_info: dict, probes: list, results_dir:
         model_result = query_model(model_id, q, is_thinking)
         response = model_result["response"]
 
-        # 2. Judge the response
-        judge_result = judge_response(q, gold, response)
-        verdict = judge_result["verdict"]
+        # 2. Judge the response.
+        #    A query that failed (empty response due to a network/API error or an
+        #    HTTP error) is recorded as ERROR, NOT silently scored as a refusal —
+        #    a refusal is a model choice; an empty error response is missing data.
+        #    ERROR records are excluded from scoring (see the scoring loop below).
+        query_failed = (not (response or "").strip()) and (
+            model_result.get("error") or (model_result.get("status_code") not in (200, None))
+        )
+        if query_failed:
+            verdict = "ERROR"
+            judge_result = {"verdict": "ERROR", "judge_prompt": "", "judge_raw_output": "",
+                            "error": model_result.get("error")}
+        else:
+            judge_result = judge_response(q, gold, response)
+            verdict = judge_result["verdict"]
 
         # 3. Build result record
         record = {
@@ -303,6 +315,8 @@ def evaluate_model(model_name: str, model_info: dict, probes: list, results_dir:
             "model_response": (response or "")[:500],
             "correct": verdict == "CORRECT",
             "refusal": verdict == "REFUSAL",
+            "error": verdict == "ERROR",
+            "query_error": model_result.get("error"),
             "verdict": verdict,
         }
 
@@ -359,6 +373,8 @@ def evaluate_model(model_name: str, model_info: dict, probes: list, results_dir:
     from collections import defaultdict
     tier_stats = defaultdict(lambda: {"correct": 0, "total": 0, "refusal": 0, "wrong": 0})
     for r in results:
+        if r.get("verdict") == "ERROR" or r.get("error"):
+            continue  # missing data (query failure) — excluded, not scored as refusal
         t = r["tier"]
         tier_stats[t]["total"] += 1
         if r.get("refusal"):
@@ -372,8 +388,11 @@ def evaluate_model(model_name: str, model_info: dict, probes: list, results_dir:
     for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
         s = tier_stats[t]
         if s["total"] > 0:
-            score = (s["correct"] + HALLUCINATION_PENALTY * s["wrong"]) / s["total"]
-            tier_accs[t] = max(score, 0.0)  # Floor at 0
+            # Per-tier score is NOT floored at zero (matches the paper): at the
+            # default lambda=0 scores are always >=0, and under any negative
+            # penalty a strongly-bluffing model is allowed to score negative so
+            # the bluff signal survives into the calibration.
+            tier_accs[t] = (s["correct"] + HALLUCINATION_PENALTY * s["wrong"]) / s["total"]
         else:
             tier_accs[t] = 0.0
 

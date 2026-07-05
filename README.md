@@ -7,8 +7,8 @@ Evaluation toolkit and reproduction bundle for the paper:
 
 IKP is a 1,400-question factual benchmark — 200 items × 7 obscurity tiers
 (T1: universal knowledge … T7: extreme long-tail). Accuracy on IKP
-scales log-linearly with parameter count across 89 open-weight models
-from 135M to 1.6T (R² = 0.917), so a single black-box API call budget is
+scales log-linearly with parameter count across 93 open-weight models
+from 135M to 1.6T (R² = 0.910, no-penalty λ=0 scoring), so a single black-box API call budget is
 enough to estimate the effective knowledge capacity of any deployed
 model — including closed-source frontier models whose sizes are
 undisclosed.
@@ -35,12 +35,12 @@ Output:
   ║  IKP Estimation Results                                 ║
   ║  Model:     openai/gpt-4.1                              ║
   ║  Probes:    1400                                         ║
-  ║  Accuracy:  58.2% (penalized)  63.9% (raw)              ║
+  ║  Accuracy:  63.9% (λ=0, no penalty)                    ║
   ║  Estimated:  400B parameters                             ║
   ╚══════════════════════════════════════════════════════════╝
   T1   99%  …  T7    4%
   Effective tier: T6
-  Estimated size: 400B (calibrated on 89 open models, R²=0.917)
+  Estimated size: 400B (calibrated on 93 open models, R²=0.910)
 ```
 
 Faster stratified sample (200 probes, ~1 min):
@@ -223,8 +223,8 @@ a 3-way judge (CORRECT / REFUSAL / WRONG). Penalized accuracy scores
 each probe in `{+1.0, +0.5, 0, λ}` for the four classes with `λ = -1`
 (WRONG); hallucinations are penalized to discourage guessing. The
 calibration curve is `log10(params_B) = 6.790 · accuracy − 0.899`
-(R² = 0.917 on 89 open models; LOO median fold error 1.59×, 68.5%
-within 2× and 87.6% within 3×). For MoE models, *total* parameters
+(R² = 0.910 on 93 open models, no-penalty λ=0; LOO median fold error 1.48×, 72%
+within 2× and 86% within 3×). For MoE models, *total* parameters
 predict accuracy (R² = 0.79) much better than active parameters
 (R² = 0.51) — so the curve is fit against total parameter count.
 

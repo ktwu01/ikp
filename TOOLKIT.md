@@ -83,13 +83,13 @@ With `--output out.json`:
   "model": "openai/gpt-4.1",
   "api_base": "https://openrouter.ai/api/v1",
   "probes_used": 1400,
-  "accuracy":      0.582,      // penalized: (correct − wrong) / total, averaged per tier
-  "raw_accuracy":  0.639,      // unpenalized
+  "accuracy":      0.639,      // λ=0: correct / total, averaged per tier (no penalty)
+  "raw_accuracy":  0.639,      // overall correct / total
   "estimated_params_B": 402.1,
   "tier_accuracy": {"T1": 0.99, …, "T7": 0.04},
   "tier_stats":    {"T1": {"correct":…, "total":…, "refusal":…, "wrong":…}, …},
   "calibration": {"slope": 6.790, "intercept": -0.899,
-                   "n_models": 89, "r_squared": 0.917},
+                   "n_models": 93, "r_squared": 0.910},
   "results":       [ /* 1400 per-probe records */ ]
 }
 ```
@@ -111,17 +111,20 @@ Per-probe record:
 1. Each probe is posted as a single user turn with the system message
    `Answer factual questions directly and concisely. If you don't know,
    say 'I don't know'.`
-2. The judge returns one of `CORRECT | WRONG | REFUSAL`. Wrong answers
-   are penalized at **−1.0** (`HALLUCINATION_PENALTY`) to discourage
-   guessing; refusals count as 0.
-3. For each tier, `tier_score = max(0, (correct − wrong) / total)`.
+2. The judge returns one of `CORRECT | WRONG | REFUSAL`. By default
+   `HALLUCINATION_PENALTY = 0` (λ=0): a wrong answer scores the same as a
+   refusal (0), so accuracy is simply the fraction answered correctly. A
+   nonzero penalty is available but is not the default (see paper Appendix
+   on λ sensitivity).
+3. For each tier, `tier_score = correct / total` (λ=0; not floored, since
+   scores are ≥ 0 by construction).
 4. `accuracy = mean(tier_score)` across all seven tiers.
 5. `log10(params_B) = 6.790 · accuracy − 0.899` (constants fixed;
    see `CALIB_SLOPE`, `CALIB_INTERCEPT`).
 
 These constants are the OLS fit on the full 89-model open-weight
-calibration set (135M–1.6T, R² = 0.917, LOO median fold error 1.59×,
-68.5% within 2× and 87.6% within 3×). The fit is updated whenever new open-weight models
+calibration set (135M–1.6T, R² = 0.910, no-penalty λ=0, LOO median fold error 1.48×,
+72% within 2× and 86% within 3×). The fit is updated whenever new open-weight models
 are added to `data/results/` and `scripts/loo_cv_analysis.py` is
 rerun.
 

@@ -43,15 +43,15 @@ PROJECT_ROOT = Path(__file__).parent.parent
 PROBE_FILE = PROJECT_ROOT / "data" / "probes" / "final_probe_set_v8.json"
 SYSTEM_MSG = "Answer factual questions directly and concisely. If you don't know, say 'I don't know'."
 JUDGE_MODEL = "google/gemini-3-flash-preview"
-HALLUCINATION_PENALTY = -1.0
+HALLUCINATION_PENALTY = 0.0  # no penalty: wrong answers score the same as refusals (λ=0)
 
-# Calibration curve: log10(params_B) = SLOPE * penalized_accuracy + INTERCEPT
-# Fitted on 89 open-weight models (135M to 1.6T), R² = 0.917
-# (LOO median fold 1.59×, 68.5% within 2×, 87.6% within 3×, 90% PI factor 3.00×)
-CALIB_SLOPE = 6.790
-CALIB_INTERCEPT = -0.899  # in log10(params_B) space
-CALIB_N = 89
-CALIB_R2 = 0.917
+# Calibration curve: log10(params_B) = SLOPE * accuracy + INTERCEPT
+# Fitted on 93 open-weight models (135M to 1.6T), R² = 0.900, no-penalty scoring (λ=0)
+# (LOO median fold 1.53×, 73.1% within 2×, 87.1% within 3×, 90% PI factor 3.45×)
+CALIB_SLOPE = 5.700
+CALIB_INTERCEPT = -1.198  # in log10(params_B) space
+CALIB_N = 93
+CALIB_R2 = 0.900
 
 # Tier boundary descriptions
 TIER_INFO = {
@@ -480,8 +480,8 @@ def main():
     for t in ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]:
         s = tier_stats[t]
         if s["total"] > 0:
-            score = (s["correct"] + HALLUCINATION_PENALTY * s["wrong"]) / s["total"]
-            tier_accs[t] = max(score, 0.0)
+            # Not floored at zero (matches the paper); moot at the default lambda=0.
+            tier_accs[t] = (s["correct"] + HALLUCINATION_PENALTY * s["wrong"]) / s["total"]
         else:
             tier_accs[t] = 0.0
 

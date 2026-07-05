@@ -1,714 +1,762 @@
 {
-  "n_models": 189,
-  "n_known": 77,
-  "n_unknown": 112,
+  "n_models": 201,
+  "n_known": 81,
+  "n_unknown": 120,
   "fits": {
     "T1": {
-      "k": 1.1546728131759756,
-      "x0": -1.5670293214661701,
-      "r_squared": 0.4398409198853649
+      "k": 1.1111363389163498,
+      "x0": -1.6606851555991302,
+      "r_squared": 0.4243967172657295
     },
     "T2": {
-      "k": 1.9240563206705334,
-      "x0": 0.11267783861747356,
-      "r_squared": 0.8848727241136869
+      "k": 1.8744382266496382,
+      "x0": 0.09374125298047546,
+      "r_squared": 0.8804420705596314
     },
     "T3": {
-      "k": 2.4124632664652905,
-      "x0": 1.50847337871341,
-      "r_squared": 0.8513274245591137
+      "k": 2.392744514223218,
+      "x0": 1.5137462344878896,
+      "r_squared": 0.8592299336634901
     },
     "T4": {
-      "k": 2.2454954469198216,
-      "x0": 2.297682796590262,
-      "r_squared": 0.7988868836615808
+      "k": 2.282981310544828,
+      "x0": 2.2730071184762246,
+      "r_squared": 0.8298899489469983
     },
     "T5": {
-      "k": 1.5497455714163137,
-      "x0": 3.5195348488651463,
-      "r_squared": 0.5277649327758247
+      "k": 1.671349094405435,
+      "x0": 3.3226892926425613,
+      "r_squared": 0.6000573546776399
     },
     "T6": {
-      "k": 0.6151112063060599,
-      "x0": 8.220689946071415,
-      "r_squared": 0.1931698808245964
+      "k": 0.5662459555180277,
+      "x0": 8.855623870233156,
+      "r_squared": 0.15383053997971063
     },
     "T7": {
-      "k": 0.011037482223722703,
-      "x0": 416.970415567891,
-      "r_squared": 0.015159254287832047
+      "k": 0.009377425587414332,
+      "x0": 490.64083445542093,
+      "r_squared": 0.011871622270954951
     }
   },
   "estimations": [
     {
       "model": "claude-3-haiku",
-      "estimated_B": 28.330683611858493,
+      "estimated_B": 28.264234996561612,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-3.5-haiku",
-      "estimated_B": 235.35075086974425,
+      "estimated_B": 208.74052005169085,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-3.7-sonnet-think",
-      "estimated_B": 529.963998657017,
+      "estimated_B": 479.7145585112764,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-3.7-sonnet",
-      "estimated_B": 741.9434242795818,
+      "estimated_B": 1603.1111145942525,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-fable-5",
+      "estimated_B": 1674.6941497098592,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-haiku-4.5-think",
-      "estimated_B": 117.69689742768621,
+      "estimated_B": 109.63345739681081,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-haiku-4.5",
-      "estimated_B": 68.62005657426789,
+      "estimated_B": 67.90610385897284,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4-think",
-      "estimated_B": 783.9916839601823,
+      "estimated_B": 679.9388956394137,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.1-think",
-      "estimated_B": 2740.865121729612,
+      "estimated_B": 2261.513401192833,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.1",
-      "estimated_B": 344.74496868587505,
+      "estimated_B": 305.33621075749625,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.5-think",
-      "estimated_B": 3054.128277113981,
+      "estimated_B": 2518.2278960777235,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.5",
-      "estimated_B": 565.2072536498939,
+      "estimated_B": 1048.297477422176,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.6-think",
-      "estimated_B": 2910.283279396245,
+      "estimated_B": 2818.3373823480383,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.6",
-      "estimated_B": 2010.729377946621,
+      "estimated_B": 3141.297439394663,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.7-think",
-      "estimated_B": 1286.8789700664024,
+      "estimated_B": 1144.4194690559934,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4.7",
-      "estimated_B": 952.6913617799205,
+      "estimated_B": 851.9038681009323,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-opus-4.8",
+      "estimated_B": 624.6644964759543,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-opus-4",
-      "estimated_B": 180.98758843281925,
+      "estimated_B": 164.6370802494277,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4-think",
-      "estimated_B": 457.6456452202484,
+      "estimated_B": 397.7796708477027,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4.5-think",
-      "estimated_B": 1795.0722160086516,
+      "estimated_B": 1511.1063000792903,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4.5",
-      "estimated_B": 399.2123123049909,
+      "estimated_B": 351.79639529774437,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4.6-think",
-      "estimated_B": 1975.700145153063,
+      "estimated_B": 1631.1890898089866,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4.6",
-      "estimated_B": 1847.5812692303946,
+      "estimated_B": 1534.0727292637705,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "claude-sonnet-4",
-      "estimated_B": 202.78942641528897,
+      "estimated_B": 183.69004060869244,
+      "family": "claude",
+      "vendor": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-5",
+      "estimated_B": 1717.7874303716392,
       "family": "claude",
       "vendor": "anthropic"
     },
     {
       "model": "command-a",
-      "estimated_B": 350.51838880811493,
+      "estimated_B": 312.9872596582818,
       "family": "command",
       "vendor": "cohere"
     },
     {
       "model": "deepseek-v3.1-nex-n1",
-      "estimated_B": 27.36773649043131,
+      "estimated_B": 27.62252355599142,
       "family": "deepseek",
       "vendor": "nex-agi"
     },
     {
       "model": "deepseek-v3.1",
-      "estimated_B": 371.22780197460463,
+      "estimated_B": 341.49348147883245,
       "family": "deepseek",
       "vendor": "deepseek"
     },
     {
       "model": "gemini-2.0-flash",
-      "estimated_B": 316.01888767863846,
+      "estimated_B": 294.2442161953002,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-flash-lite-think",
-      "estimated_B": 172.12765308450884,
+      "estimated_B": 166.51839532198048,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-flash-lite",
-      "estimated_B": 144.16693244325387,
+      "estimated_B": 137.8871258212253,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-flash-think",
-      "estimated_B": 873.3458728540581,
+      "estimated_B": 741.639814822341,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-flash",
-      "estimated_B": 353.86797777486555,
+      "estimated_B": 327.33615678119133,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-pro-think",
-      "estimated_B": 1844.4669715206662,
+      "estimated_B": 2941.2147425914923,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-2.5-pro",
-      "estimated_B": 2026.4641174956419,
+      "estimated_B": 2991.2064728145347,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-3-flash-think",
-      "estimated_B": 2415.700114763113,
+      "estimated_B": 2346.545410748537,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-3-flash",
-      "estimated_B": 1859.5725947535611,
+      "estimated_B": 1805.3167166522562,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-3.1-flash-lite",
-      "estimated_B": 620.0800920206215,
+      "estimated_B": 627.5684979276479,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "gemini-3.1-pro",
-      "estimated_B": 9489.864441055273,
+      "estimated_B": 8414.071148925983,
       "family": "gemini",
       "vendor": "google"
     },
     {
       "model": "glm-4.5-air-think",
-      "estimated_B": 264.6138349206886,
+      "estimated_B": 247.67274022644762,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-4.5-think",
-      "estimated_B": 981.8382705133474,
+      "estimated_B": 832.9408327666641,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-4.6-think",
-      "estimated_B": 817.703478246683,
+      "estimated_B": 727.5655218578544,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-4.7-flash-think",
-      "estimated_B": 114.19712416589219,
+      "estimated_B": 113.09149295718177,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-4.7-think",
-      "estimated_B": 1037.9137895502722,
+      "estimated_B": 928.3084446663462,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-5-think",
-      "estimated_B": 1227.6448876916868,
+      "estimated_B": 1087.9354984171946,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-5-turbo-think",
-      "estimated_B": 1573.6243260569724,
+      "estimated_B": 1316.1901245766055,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-5-turbo",
+      "estimated_B": 877.53711407019,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "glm-5.1-think",
-      "estimated_B": 579.0709664807023,
+      "estimated_B": 1060.1535297503005,
+      "family": "glm",
+      "vendor": "zhipu"
+    },
+    {
+      "model": "glm-5.2",
+      "estimated_B": 2284.236624464717,
       "family": "glm",
       "vendor": "zhipu"
     },
     {
       "model": "gpt-3.5-turbo",
-      "estimated_B": 392.5300654561866,
+      "estimated_B": 362.37604665310636,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4-turbo",
-      "estimated_B": 1139.7666816850551,
+      "estimated_B": 2039.636297306912,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4.1-mini",
-      "estimated_B": 392.9083496403522,
+      "estimated_B": 363.8396380447632,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4.1-nano",
-      "estimated_B": 67.51523580352703,
+      "estimated_B": 68.00469860117407,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4.1",
-      "estimated_B": 698.9834068433534,
+      "estimated_B": 1241.497945640573,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4o-mini",
-      "estimated_B": 74.33580659914145,
+      "estimated_B": 73.91129888235247,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-4o",
-      "estimated_B": 495.46917742348273,
+      "estimated_B": 444.3595805636385,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-mini-think",
-      "estimated_B": 355.8410966975764,
+      "estimated_B": 315.17908187630314,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-mini",
-      "estimated_B": 335.41199037866835,
+      "estimated_B": 297.8371734548153,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-nano-think",
-      "estimated_B": 55.6526171258837,
+      "estimated_B": 53.71481227399451,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-nano",
-      "estimated_B": 49.34750798153496,
+      "estimated_B": 49.64830857020475,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-pro",
-      "estimated_B": 906.7051559380733,
+      "estimated_B": 1612.0763828780468,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5-think",
-      "estimated_B": 1281.2455709144078,
+      "estimated_B": 1248.4673026173623,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.1",
-      "estimated_B": 785.9367973595722,
+      "estimated_B": 698.9967482864174,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.2-pro",
-      "estimated_B": 1417.7417607667735,
+      "estimated_B": 1196.0448739508495,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.2",
-      "estimated_B": 916.2831332046994,
+      "estimated_B": 825.638916933911,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.3",
-      "estimated_B": 2415.950553146099,
+      "estimated_B": 1998.1754903987219,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.4-mini",
-      "estimated_B": 490.00300268816676,
+      "estimated_B": 445.1112248013037,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.4-nano",
-      "estimated_B": 26.57639417970107,
+      "estimated_B": 26.74271121668664,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.4-pro",
-      "estimated_B": 1663.8695782748443,
+      "estimated_B": 1618.2757201677937,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.4",
-      "estimated_B": 849.911793100423,
+      "estimated_B": 751.2966914408909,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.5-pro",
-      "estimated_B": 1987.3204870725478,
+      "estimated_B": 1915.333748291546,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.5-think",
-      "estimated_B": 1542.9295824300293,
+      "estimated_B": 1493.23286541072,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5.5",
-      "estimated_B": 1722.6732438246893,
+      "estimated_B": 1668.70179610938,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "gpt-5",
-      "estimated_B": 1413.4669259164452,
+      "estimated_B": 1378.4212337270842,
       "family": "gpt5",
       "vendor": "openai"
     },
     {
       "model": "grok-3-mini-think",
-      "estimated_B": 303.5641039308462,
+      "estimated_B": 277.7688799155378,
       "family": "grok",
       "vendor": "xai"
     },
     {
       "model": "grok-3",
-      "estimated_B": 1219.0200791607188,
-      "family": "grok",
-      "vendor": "xai"
-    },
-    {
-      "model": "grok-4.1-fast-think",
-      "estimated_B": 661.5115344033248,
+      "estimated_B": 1185.3278708935243,
       "family": "grok",
       "vendor": "xai"
     },
     {
       "model": "grok-4.20-think",
-      "estimated_B": 765.2415102237027,
+      "estimated_B": 691.7124824526958,
       "family": "grok",
       "vendor": "xai"
     },
     {
       "model": "grok-4.20",
-      "estimated_B": 357.42143347217166,
+      "estimated_B": 320.16469191582513,
       "family": "grok",
       "vendor": "xai"
     },
     {
       "model": "grok-4",
-      "estimated_B": 619.9132614395021,
+      "estimated_B": 626.1153729480687,
       "family": "grok",
       "vendor": "xai"
     },
     {
       "model": "hermes-3-405b",
-      "estimated_B": 77.57278235329852,
+      "estimated_B": 75.20400171873459,
       "family": "llama",
       "vendor": "meta"
     },
     {
       "model": "hunyuan-a13b-think",
-      "estimated_B": 6.02119263968661,
+      "estimated_B": 6.007050326086971,
       "family": "hunyuan",
       "vendor": "tencent"
     },
     {
       "model": "hunyuan-a13b",
-      "estimated_B": 4.735477039456574,
+      "estimated_B": 4.717307812661463,
       "family": "hunyuan",
       "vendor": "tencent"
     },
     {
       "model": "hy3-preview",
-      "estimated_B": 1065.935733458727,
+      "estimated_B": 2007.0567628517601,
       "family": "hunyuan",
       "vendor": "tencent"
     },
     {
       "model": "intellect-3-think",
-      "estimated_B": 72.76062452558706,
+      "estimated_B": 73.2191086202834,
       "family": "intellect",
       "vendor": "prime-intellect"
     },
     {
       "model": "kimi-k2.5-think",
-      "estimated_B": 2317.4274036549778,
+      "estimated_B": 2241.6964104970566,
       "family": "kimi",
       "vendor": "moonshot"
     },
     {
       "model": "ling-2.6-flash",
-      "estimated_B": 26.424207518326867,
+      "estimated_B": 25.12060728936209,
       "family": "ling",
       "vendor": "inclusionai"
     },
     {
       "model": "mimo-v2-flash-think",
-      "estimated_B": 430.8900921856446,
+      "estimated_B": 395.5589583463562,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2-flash",
-      "estimated_B": 292.006072719768,
+      "estimated_B": 264.1374136569554,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2-pro-think",
-      "estimated_B": 894.3650098488316,
+      "estimated_B": 765.7778373533675,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2-pro",
-      "estimated_B": 917.2276221501251,
+      "estimated_B": 783.9123824151577,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2.5-pro-think",
-      "estimated_B": 2026.4641174956419,
+      "estimated_B": 1974.1391062645437,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2.5-pro",
-      "estimated_B": 2098.3134127325584,
+      "estimated_B": 2042.9641072733173,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2.5-think",
-      "estimated_B": 1846.643088948502,
+      "estimated_B": 1555.437098615401,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "mimo-v2.5",
-      "estimated_B": 849.3642935578787,
+      "estimated_B": 758.2252299790371,
       "family": "mimo",
       "vendor": "xiaomi"
     },
     {
       "model": "minimax-m1-think",
-      "estimated_B": 94.02137045854768,
+      "estimated_B": 85.18055161344071,
       "family": "minimax",
       "vendor": "minimax"
     },
     {
       "model": "minimax-m2.7-think",
-      "estimated_B": 227.8028713561477,
+      "estimated_B": 214.9795186947098,
+      "family": "minimax",
+      "vendor": "minimax"
+    },
+    {
+      "model": "minimax-m3",
+      "estimated_B": 799.2243835276062,
       "family": "minimax",
       "vendor": "minimax"
     },
     {
       "model": "mistral-medium-3.1",
-      "estimated_B": 344.74153313093683,
+      "estimated_B": 320.1301041550476,
       "family": "mistral-prop",
       "vendor": "mistral"
     },
     {
       "model": "nova-micro",
-      "estimated_B": 18.048237201317146,
+      "estimated_B": 18.381638750812506,
       "family": "nova",
       "vendor": "amazon"
     },
     {
       "model": "nova-premier",
-      "estimated_B": 313.16765037872904,
+      "estimated_B": 292.5119351977484,
       "family": "nova",
       "vendor": "amazon"
     },
     {
       "model": "nova-pro",
-      "estimated_B": 124.49094353456258,
+      "estimated_B": 122.43159671093369,
       "family": "nova",
       "vendor": "amazon"
     },
     {
       "model": "o1",
-      "estimated_B": 1339.3031629562108,
+      "estimated_B": 2409.650015415071,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "o3-mini",
-      "estimated_B": 160.57557742103117,
+      "estimated_B": 158.2329998174264,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "o3",
-      "estimated_B": 1360.550150389172,
+      "estimated_B": 1327.6480160317965,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "o4-mini-think",
-      "estimated_B": 596.7837187129527,
+      "estimated_B": 526.325148295175,
       "family": "gpt",
       "vendor": "openai"
     },
     {
       "model": "qwen-max",
-      "estimated_B": 165.91750885089667,
+      "estimated_B": 158.6331854416824,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen-plus",
-      "estimated_B": 609.3306070117875,
+      "estimated_B": 530.0245102660076,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen-turbo",
-      "estimated_B": 34.49711883406332,
+      "estimated_B": 34.87689235937004,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen3-max",
-      "estimated_B": 1186.4221403012434,
+      "estimated_B": 998.1738988195249,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen3.5-flash-think",
-      "estimated_B": 152.26840029623543,
+      "estimated_B": 155.61803453497942,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen3.5-plus-think",
-      "estimated_B": 528.1132771873815,
+      "estimated_B": 484.4179935126089,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "qwen3.6-plus-think",
-      "estimated_B": 985.837937216015,
+      "estimated_B": 846.5729976862656,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3.7-max",
+      "estimated_B": 1490.9718689284125,
+      "family": "qwen-prop",
+      "vendor": "alibaba"
+    },
+    {
+      "model": "qwen3.7-plus",
+      "estimated_B": 800.8729873954418,
       "family": "qwen-prop",
       "vendor": "alibaba"
     },
     {
       "model": "seed-1.6-flash-think",
-      "estimated_B": 40.17600234876341,
+      "estimated_B": 41.43606034962607,
       "family": "seed",
       "vendor": "bytedance"
     },
     {
       "model": "seed-1.6-think",
-      "estimated_B": 314.4521376834847,
+      "estimated_B": 283.42133665170576,
       "family": "seed",
       "vendor": "bytedance"
     },
     {
       "model": "seed-2.0-lite-think",
-      "estimated_B": 1008.0379165091849,
+      "estimated_B": 853.0948499336475,
       "family": "seed",
       "vendor": "bytedance"
     },
     {
       "model": "seed-2.0-mini-think",
-      "estimated_B": 218.4399954361073,
+      "estimated_B": 200.84019802095776,
       "family": "seed",
       "vendor": "bytedance"
     },
     {
       "model": "step-3.5-flash-think",
-      "estimated_B": 444.36600239792153,
+      "estimated_B": 404.8710590950896,
+      "family": "step",
+      "vendor": "stepfun"
+    },
+    {
+      "model": "step-3.7-flash",
+      "estimated_B": 649.293357248316,
       "family": "step",
       "vendor": "stepfun"
     }
@@ -1851,6 +1899,22 @@
       }
     },
     {
+      "model": "nemotron-3-ultra",
+      "params_B": 550,
+      "family": "nemotron",
+      "vendor": "nvidia",
+      "accuracy": 0.6450000000000001,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.955,
+        "T4": 0.87,
+        "T5": 0.6375,
+        "T6": 0.0525,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "deepseek-r1-think",
       "params_B": 671,
       "family": "deepseek",
@@ -1931,6 +1995,38 @@
       }
     },
     {
+      "model": "glm-5",
+      "params_B": 744,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6449999999999999,
+      "tier_accuracy": {
+        "T1": 0.985,
+        "T2": 0.9925,
+        "T3": 0.9575,
+        "T4": 0.835,
+        "T5": 0.73,
+        "T6": 0.015,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "glm-5.1",
+      "params_B": 754,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6446428571428572,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.955,
+        "T4": 0.8825,
+        "T5": 0.6675,
+        "T6": 0.015,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "kimi-k2",
       "params_B": 1000,
       "family": "kimi",
@@ -1960,6 +2056,22 @@
         "T5": 0.805,
         "T6": 0.0325,
         "T7": 0
+      }
+    },
+    {
+      "model": "kimi-k2.7-code",
+      "params_B": 1040,
+      "family": "kimi",
+      "vendor": "moonshot",
+      "accuracy": 0.6489285714285715,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 1.0,
+        "T3": 0.9475,
+        "T4": 0.875,
+        "T5": 0.7275,
+        "T6": 0.0,
+        "T7": 0.0
       }
     },
     {
@@ -2072,6 +2184,22 @@
         "T5": 0.7225,
         "T6": 0.2775,
         "T7": 0
+      }
+    },
+    {
+      "model": "claude-fable-5",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.7682142857142857,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.9225,
+        "T5": 0.885,
+        "T6": 0.5375,
+        "T7": 0.07
       }
     },
     {
@@ -2251,6 +2379,22 @@
       }
     },
     {
+      "model": "claude-opus-4.8",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.5932142857142857,
+      "tier_accuracy": {
+        "T1": 0.9925,
+        "T2": 1.0,
+        "T3": 0.9225,
+        "T4": 0.78,
+        "T5": 0.3725,
+        "T6": 0.085,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "claude-opus-4",
       "params_B": null,
       "family": "claude",
@@ -2360,6 +2504,22 @@
         "T5": 0.1475,
         "T6": 0,
         "T7": 0
+      }
+    },
+    {
+      "model": "claude-sonnet-5",
+      "params_B": null,
+      "family": "claude",
+      "vendor": "anthropic",
+      "accuracy": 0.6417857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9775,
+        "T4": 0.84,
+        "T5": 0.62,
+        "T6": 0.0625,
+        "T7": 0.0
       }
     },
     {
@@ -2683,6 +2843,22 @@
       }
     },
     {
+      "model": "glm-5-turbo",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6385714285714286,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9775,
+        "T3": 0.97,
+        "T4": 0.8775,
+        "T5": 0.6,
+        "T6": 0.045,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "glm-5.1-think",
       "params_B": null,
       "family": "glm",
@@ -2696,6 +2872,22 @@
         "T5": 0.6925,
         "T6": 0.1325,
         "T7": 0
+      }
+    },
+    {
+      "model": "glm-5.2",
+      "params_B": null,
+      "family": "glm",
+      "vendor": "zhipu",
+      "accuracy": 0.6467857142857143,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.9925,
+        "T4": 0.8375,
+        "T5": 0.6625,
+        "T6": 0.035,
+        "T7": 0.0
       }
     },
     {
@@ -3131,22 +3323,6 @@
       }
     },
     {
-      "model": "grok-4.1-fast-think",
-      "params_B": null,
-      "family": "grok",
-      "vendor": "xai",
-      "accuracy": 0.5707142857142857,
-      "tier_accuracy": {
-        "T1": 0.9925,
-        "T2": 0.9925,
-        "T3": 0.935,
-        "T4": 0.7275,
-        "T5": 0.3475,
-        "T6": 0.0,
-        "T7": 0.0
-      }
-    },
-    {
       "model": "grok-4.20-think",
       "params_B": null,
       "family": "grok",
@@ -3419,6 +3595,22 @@
       }
     },
     {
+      "model": "minimax-m3",
+      "params_B": null,
+      "family": "minimax",
+      "vendor": "minimax",
+      "accuracy": 0.5925,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.95,
+        "T4": 0.785,
+        "T5": 0.4175,
+        "T6": 0.0025,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "mistral-medium-3.1",
       "params_B": null,
       "family": "mistral-prop",
@@ -3659,6 +3851,38 @@
       }
     },
     {
+      "model": "qwen3.7-max",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.6639285714285714,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.9525,
+        "T4": 0.865,
+        "T5": 0.64,
+        "T6": 0.19,
+        "T7": 0.0
+      }
+    },
+    {
+      "model": "qwen3.7-plus",
+      "params_B": null,
+      "family": "qwen-prop",
+      "vendor": "alibaba",
+      "accuracy": 0.6032142857142856,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 1.0,
+        "T3": 0.92,
+        "T4": 0.83,
+        "T5": 0.4525,
+        "T6": 0.02,
+        "T7": 0.0
+      }
+    },
+    {
       "model": "seed-1.6-flash-think",
       "params_B": null,
       "family": "seed",
@@ -3736,6 +3960,22 @@
         "T5": 0.395,
         "T6": 0,
         "T7": 0
+      }
+    },
+    {
+      "model": "step-3.7-flash",
+      "params_B": null,
+      "family": "step",
+      "vendor": "stepfun",
+      "accuracy": 0.5875,
+      "tier_accuracy": {
+        "T1": 1.0,
+        "T2": 0.9925,
+        "T3": 0.9175,
+        "T4": 0.6725,
+        "T5": 0.5025,
+        "T6": 0.0275,
+        "T7": 0.0
       }
     }
   ]
