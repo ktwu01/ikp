@@ -30,7 +30,7 @@ from pathlib import Path
 
 import httpx
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from src.evidence_judge import judge_evidence, score_4way, JUDGE_MODEL_DEFAULT
 

@@ -16,7 +16,7 @@ Writes (in place):
 import json
 from pathlib import Path
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 REPL = ROOT / "data" / "probes" / "t7_replacements.json"
 PROBES = ROOT / "data" / "probes" / "final_probe_set_v9.json"
 ENRICHED = ROOT / "data" / "probes" / "researcher_gold_enriched.json"

@@ -15,7 +15,7 @@ Writes: data/probes/final_probe_set_v9.json (replacement; same probe IDs)
 import json
 from pathlib import Path
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "probes" / "final_probe_set_v8.json"
 DST = ROOT / "data" / "probes" / "final_probe_set_v9.json"
 

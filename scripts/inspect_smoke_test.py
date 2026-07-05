@@ -12,7 +12,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "data" / "results_v2"
 
 MODELS = ["deepseek-v4-pro", "deepseek-v4-flash",

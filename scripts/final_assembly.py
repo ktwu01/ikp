@@ -25,7 +25,7 @@ import os
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 RESULTS_V1 = ROOT / "data" / "results"
 RESULTS_V2 = ROOT / "data" / "results_v2"
 CONFIG = ROOT / "configs" / "all_models.json"

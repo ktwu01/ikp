@@ -45,10 +45,11 @@ def rescore(results, penalty):
 
 
 def main():
+    results_dir = Path(__file__).resolve().parent.parent / "data" / "results"
     ap = argparse.ArgumentParser()
-    ap.add_argument("--results-dir", default="/Users/boj/ikp-paper/data/results")
+    ap.add_argument("--results-dir", default=str(results_dir))
     ap.add_argument("--penalties", default="-0.5,-1.0", help="Comma-separated penalties")
-    ap.add_argument("--out", default="/Users/boj/ikp-paper/data/results/rescore_penalty_sweep.csv")
+    ap.add_argument("--out", default=str(results_dir / "rescore_penalty_sweep.csv"))
     args = ap.parse_args()
 
     penalties = [float(x) for x in args.penalties.split(",")]

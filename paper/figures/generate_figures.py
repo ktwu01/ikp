@@ -20,7 +20,7 @@ from adjustText import adjust_text
 warnings.filterwarnings('ignore')
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent.parent
 RESULTS_DIR = ROOT / "data" / "results"
 CONFIGS = ROOT / "configs" / "all_models.json"
 PROBES = ROOT / "data" / "probes" / "final_probe_set_v9.json"

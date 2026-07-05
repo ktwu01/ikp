@@ -21,7 +21,7 @@ from pathlib import Path
 import numpy as np
 from scipy import stats
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 SUMMARY = ROOT / "data" / "results" / "evaluation_summary.json"
 CONFIGS = ROOT / "configs" / "all_models.json"
 OUT_CSV = ROOT / "data" / "results" / "penalty_sensitivity.csv"

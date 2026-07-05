@@ -19,7 +19,7 @@ Writes: data/probes/researcher_gold_enriched.json with manual overrides
 import json
 from pathlib import Path
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 ENRICHED = ROOT / "data" / "probes" / "researcher_gold_enriched.json"
 
 # Manually verified via web search (Google Scholar, dblp, faculty pages, etc.)

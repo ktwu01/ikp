@@ -23,7 +23,7 @@ from pathlib import Path
 
 import httpx
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "researcher_citations.json"
 PROBES = ROOT / "data" / "probes" / "final_probe_set_v8.json"
 OUT_ENRICHED = ROOT / "data" / "probes" / "researcher_gold_enriched.json"

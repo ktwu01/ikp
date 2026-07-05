@@ -26,7 +26,7 @@ from pathlib import Path
 
 import httpx
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from pipeline.landmarks import LANDMARKS, query_landmark
 from pipeline.judge import judge

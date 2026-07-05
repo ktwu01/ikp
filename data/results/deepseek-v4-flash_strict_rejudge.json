@@ -1,5 +1,5 @@
 {
-  "source_file": "/Users/boj/ikp-paper/data/results/deepseek-v4-flash.json",
+  "source_file": "data/results/deepseek-v4-flash.json",
   "judge_model": "google/gemini-3-flash-preview",
   "rubric": "strict",
   "n_rejudged": 235,

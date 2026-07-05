@@ -16,7 +16,7 @@ import json
 from pathlib import Path
 from collections import Counter
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "probes" / "researcher_gold_enriched.json"
 OUT_COLLISIONS = ROOT / "data" / "probes" / "researcher_collisions_v2.json"
 

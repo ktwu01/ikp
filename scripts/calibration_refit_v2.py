@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 from scipy import stats
 
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 ASSEMBLED = ROOT / "data" / "results" / "final_assembly.json"
 RESULTS_V1 = ROOT / "data" / "results"
 RESULTS_V2 = ROOT / "data" / "results_v2"

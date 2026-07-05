@@ -30,7 +30,7 @@ def tex_escape(s):
     return s
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-ROOT = Path("/Users/boj/ikp-paper")
+ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "data" / "results"
 CONFIGS = ROOT / "configs" / "all_models.json"
 OUTDIR = ROOT / "paper" / "figures"

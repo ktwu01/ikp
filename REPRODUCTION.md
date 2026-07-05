@@ -9,6 +9,21 @@ against every model) takes hours to days depending on API rate limits.
 
 ## 0. One-shot rebuild
 
+The figure scripts render text with LaTeX (matplotlib `usetex`), and the
+paper builds with `pdflatex`. On a fresh Debian/Ubuntu box install the
+system dependencies first:
+
+```bash
+# LaTeX toolchain + fonts used by matplotlib usetex and the paper build
+sudo apt-get install -y \
+    texlive-latex-base texlive-latex-recommended texlive-latex-extra \
+    texlive-fonts-recommended texlive-science cm-super dvipng
+# (cm-super provides type1ec.sty; dvipng is required by matplotlib usetex)
+```
+
+All Python paths are derived from each script's location, so the repo runs
+unchanged from any checkout directory.
+
 ```bash
 pip install -r requirements.txt
 

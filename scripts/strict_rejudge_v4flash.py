@@ -9,8 +9,8 @@ a co-author, paper, system, or institutional affiliation. Generic
 This re-judges only V4 Flash's CORRECT verdicts on researcher probes (T3-T7)
 to quantify how many flip CORRECT -> WRONG under the stricter rubric.
 
-Reads /Users/boj/ikp-paper/data/results/deepseek-v4-flash.json and writes
-/Users/boj/ikp-paper/data/results/deepseek-v4-flash_strict_rejudge.json.
+Reads data/results/deepseek-v4-flash.json and writes
+data/results/deepseek-v4-flash_strict_rejudge.json.
 """
 
 import json
@@ -79,8 +79,9 @@ def call_judge(probe_id, question, gold, response, http):
 
 
 def main():
-    src = Path("/Users/boj/ikp-paper/data/results/deepseek-v4-flash.json")
-    out = Path("/Users/boj/ikp-paper/data/results/deepseek-v4-flash_strict_rejudge.json")
+    results_dir = Path(__file__).resolve().parent.parent / "data" / "results"
+    src = results_dir / "deepseek-v4-flash.json"
+    out = results_dir / "deepseek-v4-flash_strict_rejudge.json"
     with open(src) as f:
         data = json.load(f)
 
@@ -135,7 +136,7 @@ def main():
     # Save
     with open(out, "w") as f:
         json.dump({
-            "source_file": str(src),
+            "source_file": "data/results/deepseek-v4-flash.json",
             "judge_model": JUDGE_MODEL,
             "rubric": "strict",
             "n_rejudged": len(targets),
