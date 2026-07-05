@@ -183,7 +183,7 @@ def fig_a1_tier_boxplots():
                               ec='#CCCCCC', alpha=0.85))
 
     ax.set_xlabel('Tier')
-    ax.set_ylabel('Penalized Accuracy')
+    ax.set_ylabel('IKP Accuracy')
     ax.set_xticks(positions)
     ax.set_xticklabels(tiers)
     ax.set_ylim(-0.08, 1.15)
@@ -305,12 +305,15 @@ def fig_a3_generation_trajectories():
             ('4', 'claude-opus-4'),
             ('4.5', 'claude-opus-4.5'),
             ('4.6', 'claude-opus-4.6'),
+            ('4.7', 'claude-opus-4.7'),
+            ('4.8', 'claude-opus-4.8'),
         ],
         'Claude Sonnet': [
             ('3.7', 'claude-3.7-sonnet'),
             ('4', 'claude-sonnet-4'),
             ('4.5', 'claude-sonnet-4.5'),
             ('4.6', 'claude-sonnet-4.6'),
+            ('5', 'claude-sonnet-5'),
         ],
         'Claude Haiku': [
             ('3', 'claude-3-haiku'),
@@ -330,6 +333,7 @@ def fig_a3_generation_trajectories():
             ('4.7', 'glm-4.7-think'),
             ('5', 'glm-5-think'),
             ('5.1', 'glm-5.1-think'),
+            ('5.2', 'glm-5.2'),
         ],
         r'Qwen ($\sim$8B)': [
             ('2.5-7B', 'qwen-2.5-7b'),
@@ -469,7 +473,7 @@ def fig_a3_generation_trajectories():
     ax.set_xticks(range(max_gens))
     ax.set_xticklabels([f'Gen {i+1}' for i in range(max_gens)])
     ax.set_xlabel('Model Generation (family-specific)')
-    ax.set_ylabel('Penalized Accuracy')
+    ax.set_ylabel('IKP Accuracy')
     ax.yaxis.set_major_formatter(ticker.PercentFormatter(xmax=1.0))
     ax.set_title('Knowledge Evolution Across Model Generations', fontweight='bold')
 
@@ -496,6 +500,7 @@ def fig_a4_gpt5_family():
         'gpt-5.1', 'gpt-5.2', 'gpt-5.2-pro',
         'gpt-5.3', 'gpt-5.4', 'gpt-5.4-mini',
         'gpt-5.4-nano', 'gpt-5.4-pro',
+        'gpt-5.5', 'gpt-5.5-think', 'gpt-5.5-pro',
     ]
 
     # Filter to those present in data
@@ -543,7 +548,7 @@ def fig_a4_gpt5_family():
     display_names = [n.replace('gpt-5', 'GPT-5') for n in names]
     ax.set_yticks(y_pos)
     ax.set_yticklabels(display_names, fontsize=9)
-    ax.set_xlabel('Penalized Accuracy')
+    ax.set_xlabel('IKP Accuracy')
     ax.xaxis.set_major_formatter(ticker.PercentFormatter(xmax=1.0))
     ax.set_xlim(0, 0.82)
     ax.set_title('GPT-5 Family: Size Stratification Revealed by IKP',

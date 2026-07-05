@@ -365,7 +365,7 @@ def fig1_calibration():
 
     # --- Axes ---
     ax.set_xlabel(r'$\log_{10}$(Total Parameters, Billions)', fontsize=13)
-    ax.set_ylabel('Penalized Accuracy (IKP Score)', fontsize=13)
+    ax.set_ylabel('IKP Accuracy', fontsize=13)
     ax.set_title('IKP Calibration: Knowledge Scales Log-Linearly with Model Size',
                  fontsize=15, fontweight='bold', pad=14)
 
@@ -543,7 +543,7 @@ def fig3_thinking_effect():
 
     ax.set_yticks(y_pos)
     ax.set_yticklabels([tex_escape(n) for n in names], fontsize=9)
-    ax.set_xlabel('Penalized Accuracy (IKP Score)', fontsize=12)
+    ax.set_xlabel('IKP Accuracy', fontsize=12)
     ax.set_title('Thinking Mode Effect on IKP Score',
                  fontsize=14, fontweight='bold', pad=12)
     ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.12),
@@ -586,7 +586,7 @@ def fig4_moe_params():
     ax1.plot(x1, sl1 * x1 + int1, color=PAL_ORANGE, linewidth=1.8, alpha=0.7,
              linestyle='--')
     ax1.set_xlabel(r'$\log_{10}$(Total Parameters, B)', fontsize=12)
-    ax1.set_ylabel('Penalized Accuracy', fontsize=12)
+    ax1.set_ylabel('IKP Accuracy', fontsize=12)
     ax1.set_title(f'Total Params ($R^2 = {r1**2:.3f}$)', fontsize=13,
                   fontweight='bold')
 
@@ -787,12 +787,13 @@ def fig6_fingerprint_heatmap():
 
     # Pick models from diverse vendors (top 15)
     target_vendors = {
-        'anthropic': ['claude-opus-4.6', 'claude-opus-4.5', 'claude-sonnet-4.6'],
-        'google': ['gemini-3.1-pro', 'gemini-3-flash-think', 'gemini-2.5-pro-think'],
-        'openai': ['gpt-5-think', 'gpt-4.1', 'gpt-4'],
+        'anthropic': ['claude-fable-5', 'claude-opus-4.7', 'claude-sonnet-5'],
+        'google': ['gemini-3.1-pro', 'gemini-2.5-pro'],
+        'openai': ['gpt-5.5', 'gpt-5.5-pro', 'gpt-4.1'],
         'xai': ['grok-4', 'grok-3'],
-        'deepseek': ['deepseek-v3', 'deepseek-r1-think'],
-        'zhipu': ['glm-5.1-think', 'glm-5-think'],
+        'deepseek': ['deepseek-v3.2', 'deepseek-v3'],
+        'zhipu': ['glm-5.2', 'glm-5.1'],
+        'moonshot': ['kimi-k2.7-code'],
     }
 
     selected_names = []
@@ -1010,7 +1011,7 @@ def fig8_densing_law():
     ax0.plot(xs, beta0[0] + beta0[1] * xs, '-', color='#222222', lw=1.6,
              label=f'OLS: slope $= {beta0[1]:.3f}$, $R^2 = {r2_0:.3f}$')
     ax0.set_xlabel(r'$\log_{10}$(Total Parameters, Billions)', fontsize=12)
-    ax0.set_ylabel('Penalized Accuracy (IKP Score)', fontsize=12)
+    ax0.set_ylabel('IKP Accuracy', fontsize=12)
     ax0.set_title(f'IKP scales with parameters ($n = {n}$ open models)',
                   fontsize=13, fontweight='bold', pad=10)
     ax0.legend(loc='upper left', framealpha=0.95, edgecolor='#CCCCCC',
