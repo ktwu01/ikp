@@ -247,7 +247,7 @@ The all-open fit achieves $R^2 = 0.910$ under no-penalty scoring ($\lambda = 0$)
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{figures/fig4_moe_params.pdf}
-    \caption{MoE models: accuracy vs total parameters (left, $R^2 = 0.79$) and vs active parameters (right, $R^2 = 0.51$). Total parameters are clearly the better predictor of factual knowledge capacity.}
+    \caption{MoE models: accuracy vs total parameters (left, $R^2 = 0.67$) and vs active parameters (right, $R^2 = 0.41$). Total parameters are clearly the better predictor of factual knowledge capacity.}
     \label{fig:moe}
 \end{figure}
 
@@ -333,7 +333,7 @@ where \texttt{months} is release date measured relative to 2024-01-01. The basel
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{figures/fig8_densing_law.pdf}
-    \caption{Densing Law falsification on IKP across 96 open-weight models (2023-09 to 2026-04). \textbf{Left:} penalized IKP accuracy vs $\log_{10}$(params); points colored by release month. \textbf{Right:} residuals after partialling out $\log_{10}$(params), vs release date. The observed trend (solid blue, $-0.0010$/month) is indistinguishable from zero, while the Densing-Law prediction (dashed red, $+0.0117$/month) would imply ${\sim}14$ pp/year of per-parameter improvement. The gap exceeds $11\times$ the bootstrap confidence half-width.}
+    \caption{Densing Law falsification on IKP across 96 open-weight models (2023-09 to 2026-04). \textbf{Left:} IKP accuracy vs $\log_{10}$(params); points colored by release month. \textbf{Right:} residuals after partialling out $\log_{10}$(params), vs release date. The observed trend (solid blue, $-0.0010$/month) is indistinguishable from zero, while the Densing-Law prediction (dashed red, $+0.0117$/month) would imply ${\sim}14$ pp/year of per-parameter improvement. The gap exceeds $11\times$ the bootstrap confidence half-width.}
     \label{fig:densing}
 \end{figure}
 
@@ -576,7 +576,7 @@ The 188-model evaluation yields a handful of empirical regularities that we stat
 
 \begin{itemize}[leftmargin=*]
     \item \textbf{Knowledge scales log-linearly.} Aggregate accuracy grows by ${\sim}15.9$ percentage points per $10\times$ increase in parameters, across four orders of magnitude (135M--1{,}600B).
-    \item \textbf{Total parameters, not active, predict MoE knowledge.} $R^2 = 0.79$ versus $0.51$. Factual storage is distributed across experts, not localized to those activated per token.
+    \item \textbf{Total parameters, not active, predict MoE knowledge.} $R^2 = 0.67$ versus $0.41$. Factual storage is distributed across experts, not localized to those activated per token.
     \item \textbf{Thinking mode is a flat ${\sim}2$ pp bonus.} The benefit peaks at T3--T4 and vanishes at T7: chain-of-thought aids retrieval, not storage.
     \item \textbf{T7 is a ceiling.} Only two models in the evaluation score above $1\%$ accuracy on T7 (Jamba-large at $2.8\%$, Grok-4 at $1.0\%$); every frontier proprietary model lands at $0\%$. A knowledge frontier exists beyond the current state of the art.
     \item \textbf{Safety tuning hides measurable knowledge.} Within the Claude Sonnet line, Sonnet 4 reads $-6.7$ pp lower than Claude 3.7 Sonnet on IKP, while its T5 refusal rate jumps from $54\%$ to $88\%$. The implied capacity gap is largely an artifact of refusal policy rather than parameter count.
@@ -619,13 +619,13 @@ A common pattern in LLM evaluation is that any benchmark, once influential, even
 
 \textbf{Training-data and post-training variance.} The calibration assumes approximately similar training signals across models. Vendor-specific choices in pretraining-data curation, RLHF refusal calibration, and post-training fine-tuning produce within-family scatter that the calibration absorbs as residual rather than slope. Heavily safety-tuned proprietary models (e.g., Anthropic's Haiku line, the GPT-5 nano/mini variants) systematically read smaller than their underlying weights because the metric credits committed CORRECT verdicts and discounts confidently-WRONG ones; a model that refuses on rare facts therefore loses scoring opportunities on probes it could in principle answer. IKP estimates for such models should be read as lower bounds on raw parameter count.
 
-\textbf{Prediction interval width.} The 90\% prediction interval factor is ${\sim}3.00\times$ in either direction, with $68.5\%$ of LOO folds within $2\times$ and $87.6\%$ within $3\times$ (Section~\ref{sec:loo}). This width is inherent to the single-variable approach and comparable to inference-economics estimates~\citep{epochai2024}. Combining IKP with inference-economics constraints could narrow the interval.
+\textbf{Prediction interval width.} The 90\% prediction interval factor is ${\sim}3.20\times$ in either direction, with $72\%$ of LOO folds within $2\times$ and $86\%$ within $3\times$ (Section~\ref{sec:loo}). This width is inherent to the single-variable approach and comparable to inference-economics estimates~\citep{epochai2024}. Combining IKP with inference-economics constraints could narrow the interval.
 
-\textbf{Calibration sparsity above 1T parameters.} The largest open-weight calibration anchors are DeepSeek V4 Pro (1{,}600B) and Kimi K2.5/K2.6 ($\sim$1{,}000B). With only two calibration points above 1T, the calibration curve is effectively extrapolated beyond this range, and the slope at the high end is determined by very few data points. Consequently, parameter estimates for proprietary frontier models whose effective capacity falls above ${\sim}1$T should be read with wider uncertainty than the global $3.00\times$ prediction interval factor suggests. We expect this limitation to be substantially mitigated as additional open-weight models above 1T parameters are released.
+\textbf{Calibration sparsity above 1T parameters.} The largest open-weight calibration anchors are DeepSeek V4 Pro (1{,}600B) and Kimi K2.5/K2.6 ($\sim$1{,}000B). With only two calibration points above 1T, the calibration curve is effectively extrapolated beyond this range, and the slope at the high end is determined by very few data points. Consequently, parameter estimates for proprietary frontier models whose effective capacity falls above ${\sim}1$T should be read with wider uncertainty than the global $3.20\times$ prediction interval factor suggests. We expect this limitation to be substantially mitigated as additional open-weight models above 1T parameters are released.
 
 \textbf{Retrieval augmentation confound.} A model using retrieval augmentation~\citep{lewis2020retrieval} could achieve high scores without parametric storage. T7's near-zero scores across all models suggest RAG is not currently deployed for factual queries of this type.
 
-\textbf{Landmark circularity.} All six landmark models have scores inflated at their defining tier boundary by construction, since probe assignment is conditioned on landmark correctness. The effect is strongest for L6 (Gemini 3.1 Pro), whose 90\% T6 accuracy is an artifact. The five open-weight landmarks (L1--L5) also participate in the calibration set, potentially biasing the regression. The LOO-CV analysis (Section~\ref{sec:loo}) partially addresses this: when each landmark is held out, its prediction uses a regression fit without it, and the resulting $R^2 = 0.922$ confirms the fit is not driven by landmarks alone. Nevertheless, \emph{landmark models should be excluded from estimation targets}.
+\textbf{Landmark circularity.} All six landmark models have scores inflated at their defining tier boundary by construction, since probe assignment is conditioned on landmark correctness. The effect is strongest for L6 (Gemini 3.1 Pro), whose 90\% T6 accuracy is an artifact. The five open-weight landmarks (L1--L5) also participate in the calibration set, potentially biasing the regression. The LOO-CV analysis (Section~\ref{sec:loo}) partially addresses this: when each landmark is held out, its prediction uses a regression fit without it, and the resulting LOO-CV $R^2 = 0.907$ confirms the fit is not driven by landmarks alone. Nevertheless, \emph{landmark models should be excluded from estimation targets}.
 
 \textbf{Non-deterministic API responses.} We query all models at temperature${}=0$, but many API providers do not guarantee deterministic outputs at this setting (due to batching, quantization, or speculative decoding). We did not perform repeated evaluations to quantify this noise source, though the large probe count (1{,}400) mitigates its effect on aggregate scores.
 
@@ -690,7 +690,11 @@ We release the IKP evaluation toolkit, probe set, raw per-model responses, finge
 % ══════════════════════════════════════════════════════════════
 \section*{Acknowledgements}
 
-The author thanks Jiyan He and Zihan Zheng for early discussions and observations that seeded this work, including the inspiration drawn from three years of factual probes against newly released models---most notably the USTC Hackergame stress test that opens this paper, where the same prompt asked at each new release traced a single fact arriving in parameters over time. The framing of factual capacity as the incompressible component of model knowledge owes much to those conversations.
+The author thanks Jiyan He and Zihan Zheng for early discussions and observations that seeded this work, including the inspiration drawn from three years of factual probes against newly released models---most notably the USTC Hackergame stress test that opens this paper, where the same prompt asked at each new release traced a single fact arriving in parameters over time. The framing of factual capacity as the incompressible component of model knowledge owes much to those conversations. 
+
+We thank Sturb and LawrenceC, whose independent sanity-check of an earlier version of this work~\citep{sturb2026sanity} identified a discrepancy between the described and implemented per-tier scoring and the sensitivity of frontier estimates to the hallucination penalty. This revision responds directly to those points: it adopts no-penalty scoring ($\lambda = 0$), which removes both the penalty and the flooring degree of freedom, reports the full $\lambda \times$ flooring ablation and prediction bands, and cleans the probe set of name-collision and label-ambiguity defects (Appendix~\ref{app:lambda}).
+
+This paper was produced using Pine Copilot's voice-directed \emph{whisper coding} workflow~\citep{pineai2026whispercoding}, in which the author specifies, discusses, and reviews the work by voice while a coding agent---Claude Code with Claude Opus 4.8---carries out the planning, coding, experiments, and paper writing.
 
 % ══════════════════════════════════════════════════════════════
 \bibliographystyle{plainnat}
