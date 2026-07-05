@@ -1,796 +1,4191 @@
 [
   {
+    "probe_id": "IKP_T3_0465",
+    "name": "Stjepan Picek",
+    "tier": "T3",
+    "intended_cites": 4727,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0466",
+    "name": "Yiannis Psaras",
+    "tier": "T3",
+    "intended_cites": 318,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0467",
+    "name": "Nate Foster",
+    "tier": "T3",
+    "intended_cites": 6859,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0468",
+    "name": "Geoffrey Ye Li",
+    "tier": "T3",
+    "intended_cites": 45333,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0469",
+    "name": "Eric Koskinen",
+    "tier": "T3",
+    "intended_cites": 1481,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0470",
+    "name": "Nickolai Zeldovich",
+    "tier": "T3",
+    "intended_cites": 10251,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0471",
+    "name": "Zhendong Su",
+    "tier": "T3",
+    "intended_cites": 14513,
+    "n_exact_ge100": 3,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
     "probe_id": "IKP_T3_0472",
     "name": "Philippa Gardner",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Explore Bristol Research",
-      "Theoretical Computer Science"
+    "tier": "T3",
+    "intended_cites": 2619,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0473",
+    "name": "Richard Mortier",
+    "tier": "T3",
+    "intended_cites": 6606,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0474",
+    "name": "Kristopher Micinski",
+    "tier": "T3",
+    "intended_cites": 850,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0475",
+    "name": "Thorsten Joachims",
+    "tier": "T3",
+    "intended_cites": 52645,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0476",
+    "name": "Mário Gerla",
+    "tier": "T3",
+    "intended_cites": 54351,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0477",
+    "name": "Zhiguo Ding",
+    "tier": "T3",
+    "intended_cites": 63328,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "lancaster university",
+      "nanyang technological university"
+    ],
+    "collision_cites": [
+      223,
+      154
     ]
+  },
+  {
+    "probe_id": "IKP_T3_0478",
+    "name": "Melike Erol‐Kantarci",
+    "tier": "T3",
+    "intended_cites": 7949,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0479",
+    "name": "David Padua",
+    "tier": "T3",
+    "intended_cites": 16058,
+    "n_exact_ge100": 3,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "university of illinois urbana-champaign"
+    ],
+    "collision_cites": [
+      483
+    ]
+  },
+  {
+    "probe_id": "IKP_T3_0480",
+    "name": "Christoph Csallner",
+    "tier": "T3",
+    "intended_cites": 2008,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0481",
+    "name": "Sonia Chiasson",
+    "tier": "T3",
+    "intended_cites": 4591,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0482",
+    "name": "Haibin Ling",
+    "tier": "T3",
+    "intended_cites": 36526,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0483",
+    "name": "Shiwen Mao",
+    "tier": "T3",
+    "intended_cites": 25327,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0484",
+    "name": "Jan Kautz",
+    "tier": "T3",
+    "intended_cites": 41533,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0485",
+    "name": "Viorel Preoteasa",
+    "tier": "T3",
+    "intended_cites": 289,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0486",
+    "name": "Susan Lysecky",
+    "tier": "T3",
+    "intended_cites": 382,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0487",
+    "name": "Mosharaf Chowdhury",
+    "tier": "T3",
+    "intended_cites": 14812,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T3_0488",
     "name": "Stefano Zanero",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "IEEE Transactions on Dependable and Secure Computing",
-      "IEEE Transactions on Network and Service Management"
+    "tier": "T3",
+    "intended_cites": 4356,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0489",
+    "name": "Cheng‐Shang Chang",
+    "tier": "T3",
+    "intended_cites": 6252,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0490",
+    "name": "Srđjan Čapkun",
+    "tier": "T3",
+    "intended_cites": 18546,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0491",
+    "name": "Yongdae Kim",
+    "tier": "T3",
+    "intended_cites": 8665,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "kyungil university"
+    ],
+    "collision_cites": [
+      303
+    ]
+  },
+  {
+    "probe_id": "IKP_T3_0492",
+    "name": "Swarat Chaudhuri",
+    "tier": "T3",
+    "intended_cites": 4936,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0493",
+    "name": "Zachary Tatlock",
+    "tier": "T3",
+    "intended_cites": 2501,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0494",
+    "name": "Thomas Neumann",
+    "tier": "T3",
+    "intended_cites": 10570,
+    "n_exact_ge100": 9,
+    "n_collisions": 8,
+    "collision": true,
+    "collision_insts": [
+      "technical university of munich",
+      "university of st.gallen",
+      "german centre for cardiovascular research",
+      "kantonsspital st. gallen"
+    ],
+    "collision_cites": [
+      10489,
+      6987,
+      6166,
+      2000
+    ]
+  },
+  {
+    "probe_id": "IKP_T3_0495",
+    "name": "Gennady Pekhimenko",
+    "tier": "T3",
+    "intended_cites": 4395,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0496",
+    "name": "Wyatt Lloyd",
+    "tier": "T3",
+    "intended_cites": 1713,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0497",
+    "name": "Marcos K. Aguilera",
+    "tier": "T3",
+    "intended_cites": 5490,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "nvidia (united kingdom)"
+    ],
+    "collision_cites": [
+      1058
+    ]
+  },
+  {
+    "probe_id": "IKP_T3_0498",
+    "name": "Amy J. Ko",
+    "tier": "T3",
+    "intended_cites": 8637,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T3_0499",
+    "name": "Prabal Dutta",
+    "tier": "T3",
+    "intended_cites": 9582,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0638",
+    "name": "Peter Alvaro",
+    "tier": "T4",
+    "intended_cites": 2202,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0639",
+    "name": "Natacha Crooks",
+    "tier": "T4",
+    "intended_cites": 547,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0640",
+    "name": "Rich Wolski",
+    "tier": "T4",
+    "intended_cites": 10166,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0641",
+    "name": "Mani Srivastava",
+    "tier": "T4",
+    "intended_cites": 45729,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0642",
+    "name": "Benjamin Lucien Kaminski",
+    "tier": "T4",
+    "intended_cites": 1187,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0643",
+    "name": "Sameh Elnikety",
+    "tier": "T4",
+    "intended_cites": 3598,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0644",
+    "name": "Claire Vishik",
+    "tier": "T4",
+    "intended_cites": 292,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0645",
+    "name": "Cuauhtemoc Mancillas-López",
+    "tier": "T4",
+    "intended_cites": 434,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0646",
+    "name": "Martina Lindorfer",
+    "tier": "T4",
+    "intended_cites": 2593,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0647",
+    "name": "Krishna Chintalapudi",
+    "tier": "T4",
+    "intended_cites": 6166,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0648",
+    "name": "Allen Clement",
+    "tier": "T4",
+    "intended_cites": 3512,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0649",
+    "name": "Indranil Gupta",
+    "tier": "T4",
+    "intended_cites": 6681,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0650",
+    "name": "Peter Druschel",
+    "tier": "T4",
+    "intended_cites": 31474,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0651",
+    "name": "‪Surya Nepal‬",
+    "tier": "T4",
+    "intended_cites": 14808,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0652",
+    "name": "Arpit Gupta",
+    "tier": "T4",
+    "intended_cites": 2222,
+    "n_exact_ge100": 6,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "indian institute of foreign trade",
+      "post graduate institute of medical education and research",
+      "new york city health and hospitals corporation"
+    ],
+    "collision_cites": [
+      1623,
+      1178,
+      190
+    ]
+  },
+  {
+    "probe_id": "IKP_T4_0653",
+    "name": "Cristiano Giuffrida",
+    "tier": "T4",
+    "intended_cites": 5966,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0654",
+    "name": "Deian Stefan",
+    "tier": "T4",
+    "intended_cites": 1872,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0655",
+    "name": "Torben Bach Pedersen",
+    "tier": "T4",
+    "intended_cites": 17387,
+    "n_exact_ge100": 1,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "aalborg university"
+    ],
+    "collision_cites": [
+      6828
     ]
   },
   {
     "probe_id": "IKP_T4_0656",
     "name": "Aarti Gupta",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Current Opinion in Environmental Sustainability",
-      "Global Environmental Politics",
-      "Wiley Interdisciplinary Reviews Climate Change"
+    "tier": "T4",
+    "intended_cites": 5541,
+    "n_exact_ge100": 5,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "american college of cardiology",
+      "texas tech university",
+      "fortis memorial research institute"
+    ],
+    "collision_cites": [
+      5969,
+      1413,
+      619
     ]
+  },
+  {
+    "probe_id": "IKP_T4_0657",
+    "name": "Bernd–Holger Schlingloff",
+    "tier": "T4",
+    "intended_cites": 5439,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T4_0658",
     "name": "Elmar Tischhauser",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "IEEE Access",
-      "Designs Codes and Cryptography"
+    "tier": "T4",
+    "intended_cites": 1363,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0659",
+    "name": "Shilad Sen",
+    "tier": "T4",
+    "intended_cites": 4410,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0660",
+    "name": "Diana Göhringer",
+    "tier": "T4",
+    "intended_cites": 1555,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0661",
+    "name": "Suman Banerjee",
+    "tier": "T4",
+    "intended_cites": 7202,
+    "n_exact_ge100": 4,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "indian institute of technology jammu",
+      "jawaharlal nehru centre for advanced scientific research"
+    ],
+    "collision_cites": [
+      5765,
+      227
     ]
+  },
+  {
+    "probe_id": "IKP_T4_0662",
+    "name": "Natalie Enright Jerger",
+    "tier": "T4",
+    "intended_cites": 5344,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0663",
+    "name": "Vijay Chidambaram",
+    "tier": "T4",
+    "intended_cites": 1571,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0664",
+    "name": "Wen-Tsuen Chen",
+    "tier": "T4",
+    "intended_cites": 3349,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T4_0665",
     "name": "Karen Devine",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Cell",
-      "Journal of Infection",
-      "PLoS ONE"
+    "tier": "T4",
+    "intended_cites": 46381,
+    "n_exact_ge100": 3,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "northern gulf institute"
+    ],
+    "collision_cites": [
+      3489
     ]
+  },
+  {
+    "probe_id": "IKP_T4_0666",
+    "name": "Arkaprava Basu",
+    "tier": "T4",
+    "intended_cites": 6259,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0667",
+    "name": "Prashant Shenoy",
+    "tier": "T4",
+    "intended_cites": 18582,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0668",
+    "name": "Renata Teixeira",
+    "tier": "T4",
+    "intended_cites": 5382,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T4_0669",
     "name": "Xavier Rival",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "ACM SIGPLAN Notices",
-      "ACM Transactions on Programming Languages and Systems"
+    "tier": "T4",
+    "intended_cites": 3461,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0670",
+    "name": "Eytan Adar",
+    "tier": "T4",
+    "intended_cites": 12519,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0671",
+    "name": "Boris Koldehofe",
+    "tier": "T4",
+    "intended_cites": 2886,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0672",
+    "name": "Per-Åke Larson",
+    "tier": "T4",
+    "intended_cites": 6988,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0673",
+    "name": "Rodrigo Rodrigues",
+    "tier": "T4",
+    "intended_cites": 5427,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "universidade federal do rio grande"
+    ],
+    "collision_cites": [
+      1101
     ]
+  },
+  {
+    "probe_id": "IKP_T4_0674",
+    "name": "Pengjie Ren",
+    "tier": "T4",
+    "intended_cites": 5234,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0675",
+    "name": "Tushar Khot",
+    "tier": "T4",
+    "intended_cites": 4797,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0676",
+    "name": "Felix Xiaozhu Lin",
+    "tier": "T4",
+    "intended_cites": 1754,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0677",
+    "name": "Christian Mainka",
+    "tier": "T4",
+    "intended_cites": 632,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T4_0678",
     "name": "Matthias Hagen",
-    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Surgical Endoscopy",
-      "Data Archiving and Networked Services (DANS)"
+    "tier": "T4",
+    "intended_cites": 3585,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0679",
+    "name": "Weihua Zhuang",
+    "tier": "T4",
+    "intended_cites": 20250,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "sichuan university",
+      "sichuan university"
+    ],
+    "collision_cites": [
+      2665,
+      520
     ]
+  },
+  {
+    "probe_id": "IKP_T4_0680",
+    "name": "Tal Schuster",
+    "tier": "T4",
+    "intended_cites": 2475,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0681",
+    "name": "Arthur Gervais",
+    "tier": "T4",
+    "intended_cites": 7281,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0682",
+    "name": "Aditya Akella",
+    "tier": "T4",
+    "intended_cites": 15153,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0683",
+    "name": "Georg Carle",
+    "tier": "T4",
+    "intended_cites": 5994,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0684",
+    "name": "Hakim Weatherspoon",
+    "tier": "T4",
+    "intended_cites": 7542,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0685",
+    "name": "Tushar Krishna",
+    "tier": "T4",
+    "intended_cites": 14212,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T4_0686",
     "name": "Nicholas Smallbone",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Journal of Functional Programming",
-      "Logical Methods in Computer Science"
+    "tier": "T4",
+    "intended_cites": 554,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0687",
+    "name": "Florian Suri-Payer",
+    "tier": "T4",
+    "intended_cites": 60,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T4_0688",
+    "name": "Paulo Esteves Veríssimo",
+    "tier": "T4",
+    "intended_cites": 5054,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0800",
+    "name": "Martina Zitterbart",
+    "tier": "T5",
+    "intended_cites": 2360,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0801",
+    "name": "Christoph Dietzel",
+    "tier": "T5",
+    "intended_cites": 1119,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0802",
+    "name": "Pranav Gokhale",
+    "tier": "T5",
+    "intended_cites": 1166,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0803",
+    "name": "Ruben Mayer",
+    "tier": "T5",
+    "intended_cites": 1091,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0804",
+    "name": "Andrés Muñoz Medina",
+    "tier": "T5",
+    "intended_cites": 489,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0805",
+    "name": "Zhongzhi Luan",
+    "tier": "T5",
+    "intended_cites": 1731,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "institute of software"
+    ],
+    "collision_cites": [
+      292
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0806",
+    "name": "Michael Erbschloe",
+    "tier": "T5",
+    "intended_cites": 111,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0807",
+    "name": "Yossi Gilad",
+    "tier": "T5",
+    "intended_cites": 2719,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0808",
+    "name": "Jonathan DiLorenzo",
+    "tier": "T5",
+    "intended_cites": 184,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0809",
+    "name": "Rodolfo Oliveira",
+    "tier": "T5",
+    "intended_cites": 1423,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0810",
+    "name": "Aleksey Charapko",
+    "tier": "T5",
+    "intended_cites": 206,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0811",
+    "name": "Yibo Zhu",
+    "tier": "T5",
+    "intended_cites": 4318,
+    "n_exact_ge100": 7,
+    "n_collisions": 6,
+    "collision": true,
+    "collision_insts": [
+      "university of glasgow",
+      "boston university",
+      "sichuan university",
+      "army medical university"
+    ],
+    "collision_cites": [
+      1362,
+      560,
+      469,
+      443
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0812",
+    "name": "Edison Pignaton de Freitas",
+    "tier": "T5",
+    "intended_cites": 4428,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0813",
+    "name": "Danny Yuxing Huang",
+    "tier": "T5",
+    "intended_cites": 1163,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0814",
     "name": "Kenji Kono",
-    "reason": "non-CS venue majority (5 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Bioconjugate Chemistry",
-      "Biomaterials",
-      "Journal of Controlled Release"
+    "tier": "T5",
+    "intended_cites": 5836,
+    "n_exact_ge100": 5,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "keio university",
+      "taisei (japan)",
+      "kyoto university"
+    ],
+    "collision_cites": [
+      4389,
+      292,
+      114
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0815",
+    "name": "Gert Jervan",
+    "tier": "T5",
+    "intended_cites": 732,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0816",
+    "name": "Yizhou Shan",
+    "tier": "T5",
+    "intended_cites": 542,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0817",
     "name": "Greg Alpár",
-    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Designs Codes and Cryptography",
-      "IACR Transactions on Cryptographic Hardware and Embedded Systems"
-    ]
+    "tier": "T5",
+    "intended_cites": 74,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0818",
+    "name": "Po-An Tsai",
+    "tier": "T5",
+    "intended_cites": 643,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0819",
+    "name": "Olivier Tardieu",
+    "tier": "T5",
+    "intended_cites": 1499,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0820",
+    "name": "Taieb Znati",
+    "tier": "T5",
+    "intended_cites": 5590,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0821",
+    "name": "Nirmala Shenoy",
+    "tier": "T5",
+    "intended_cites": 711,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0822",
+    "name": "Enes Göktaş",
+    "tier": "T5",
+    "intended_cites": 1057,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0823",
+    "name": "Wissam Aoudi",
+    "tier": "T5",
+    "intended_cites": 193,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0824",
     "name": "Leonidas Lampropoulos",
-    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Proceedings of the ACM on Programming Languages",
-      "arXiv (Cornell University)"
-    ]
+    "tier": "T5",
+    "intended_cites": 477,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0825",
     "name": "Haibo Li",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of Energy Chemistry",
-      "Chemistry of Materials",
-      "Angewandte Chemie International Edition"
+    "tier": "T5",
+    "intended_cites": 9995,
+    "n_exact_ge100": 14,
+    "n_collisions": 13,
+    "collision": true,
+    "collision_insts": [
+      "ningxia university",
+      "henan institute of science and technology",
+      "fanjingshan national nature reserve",
+      "sichuan university"
+    ],
+    "collision_cites": [
+      8988,
+      6962,
+      5448,
+      3785
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0826",
+    "name": "Howard Huang",
+    "tier": "T5",
+    "intended_cites": 5761,
+    "n_exact_ge100": 3,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0827",
+    "name": "George Amvrosiadis",
+    "tier": "T5",
+    "intended_cites": 800,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0828",
+    "name": "Arif Merchant",
+    "tier": "T5",
+    "intended_cites": 4844,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0829",
+    "name": "Petros Efstathopoulos",
+    "tier": "T5",
+    "intended_cites": 1130,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0830",
+    "name": "Loïc Besnard",
+    "tier": "T5",
+    "intended_cites": 682,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0831",
+    "name": "Rainer Buchty",
+    "tier": "T5",
+    "intended_cites": 530,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0832",
+    "name": "Sailesh Krishnamurthy",
+    "tier": "T5",
+    "intended_cites": 3390,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0833",
+    "name": "Kyuseok Shim",
+    "tier": "T5",
+    "intended_cites": 9333,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0834",
+    "name": "Anurag Khandelwal",
+    "tier": "T5",
+    "intended_cites": 923,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "karlsruhe institute of technology"
+    ],
+    "collision_cites": [
+      100
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0835",
+    "name": "Jiarong Xing",
+    "tier": "T5",
+    "intended_cites": 299,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0836",
+    "name": "Ennan Zhai",
+    "tier": "T5",
+    "intended_cites": 643,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0837",
+    "name": "Pascal Lafourcade",
+    "tier": "T5",
+    "intended_cites": 3224,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0838",
     "name": "Matthew Parkinson",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "ACM Computing Surveys",
-      "CL Technical Reports"
+    "tier": "T5",
+    "intended_cites": 3702,
+    "n_exact_ge100": 3,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "exxonmobil (united states)"
+    ],
+    "collision_cites": [
+      710
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0839",
+    "name": "Omid Mashayekhi",
+    "tier": "T5",
+    "intended_cites": 262,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0840",
+    "name": "Phillip Rieger",
+    "tier": "T5",
+    "intended_cites": 552,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0841",
+    "name": "Animesh Trivedi",
+    "tier": "T5",
+    "intended_cites": 943,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0842",
+    "name": "Fredrik Kjølstad",
+    "tier": "T5",
+    "intended_cites": 1310,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0843",
+    "name": "Thomas Begin",
+    "tier": "T5",
+    "intended_cites": 630,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0844",
+    "name": "Joshua Gancher",
+    "tier": "T5",
+    "intended_cites": 71,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0845",
+    "name": "Sandra Scott-Hayward",
+    "tier": "T5",
+    "intended_cites": 2620,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0846",
+    "name": "Lucca Hirschi",
+    "tier": "T5",
+    "intended_cites": 739,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0847",
+    "name": "Djob Mvondo",
+    "tier": "T5",
+    "intended_cites": 119,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0848",
+    "name": "Shankara Pailoor",
+    "tier": "T5",
+    "intended_cites": 263,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0849",
+    "name": "Luigi Nardi",
+    "tier": "T5",
+    "intended_cites": 956,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "national agency for new technologies, energy and sustainable economic development"
+    ],
+    "collision_cites": [
+      163
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0850",
+    "name": "Ted Dunning",
+    "tier": "T5",
+    "intended_cites": 3431,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0851",
     "name": "Baojun Liu",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Applied Catalysis B: Environmental",
-      "RSC Advances",
-      "Nano Energy"
+    "tier": "T5",
+    "intended_cites": 3927,
+    "n_exact_ge100": 4,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "fudan university",
+      "air force engineering university",
+      "tsinghua university"
+    ],
+    "collision_cites": [
+      2313,
+      941,
+      798
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0852",
+    "name": "Piergiorgio Ladisa",
+    "tier": "T5",
+    "intended_cites": 209,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0853",
+    "name": "Joon Ong",
+    "tier": "T5",
+    "intended_cites": 4192,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0854",
+    "name": "Binyu Zang",
+    "tier": "T5",
+    "intended_cites": 4603,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0855",
     "name": "Jean Luprano",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "IEEE Transactions on Information Technology in Biomedicine",
-      "Heart and Vessels",
-      "Journal of Telemedicine and Telecare"
-    ]
+    "tier": "T5",
+    "intended_cites": 840,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0856",
+    "name": "Kangkook Jee",
+    "tier": "T5",
+    "intended_cites": 1598,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0857",
+    "name": "Ali Munir",
+    "tier": "T5",
+    "intended_cites": 609,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0858",
+    "name": "Hani Jamjoom",
+    "tier": "T5",
+    "intended_cites": 2332,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0859",
     "name": "Antonio Barbalace",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "IEEE Transactions on Nuclear Science",
-      "Fusion Engineering and Design"
-    ]
+    "tier": "T5",
+    "intended_cites": 1143,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0860",
     "name": "Esha Ghosh",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "2022 IEEE Symposium on Security and Privacy (SP)",
-      "Algorithmica"
-    ]
+    "tier": "T5",
+    "intended_cites": 508,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0861",
     "name": "Xiaosong Ma",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Nature",
-      "Cell Metabolism",
-      "Pflügers Archiv - European Journal of Physiology"
+    "tier": "T5",
+    "intended_cites": 5089,
+    "n_exact_ge100": 6,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "ministry of agriculture",
+      "hong kong polytechnic university",
+      "chengdu surveying geotechnical research institute",
+      "shenzhen university"
+    ],
+    "collision_cites": [
+      1957,
+      245,
+      280,
+      135
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0862",
+    "name": "Srinivas Narayana",
+    "tier": "T5",
+    "intended_cites": 1425,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0863",
+    "name": "Silvija Seres",
+    "tier": "T5",
+    "intended_cites": 149,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0864",
+    "name": "Jeremy Gummeson",
+    "tier": "T5",
+    "intended_cites": 1308,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0865",
+    "name": "Guido Salvaneschi",
+    "tier": "T5",
+    "intended_cites": 1521,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0866",
+    "name": "Dongsu Han",
+    "tier": "T5",
+    "intended_cites": 4895,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0867",
+    "name": "Kejiang Ye",
+    "tier": "T5",
+    "intended_cites": 3630,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0868",
+    "name": "Vijay Kumar Chaurasiya",
+    "tier": "T5",
+    "intended_cites": 914,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0869",
     "name": "Koki Hamada",
-    "reason": "non-CS venue majority (4 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Algorithmica",
-      "IEEE Transactions on Network and Service Management"
-    ]
+    "tier": "T5",
+    "intended_cites": 677,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0870",
+    "name": "Jorge Piazentin Ono",
+    "tier": "T5",
+    "intended_cites": 310,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0871",
+    "name": "Ana Klimovic",
+    "tier": "T5",
+    "intended_cites": 1302,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0872",
     "name": "Amy Tai",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Cancer",
-      "Human Pathology",
-      "Cancer Research"
-    ]
+    "tier": "T5",
+    "intended_cites": 204,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0873",
+    "name": "Pierre-Louis Aublin",
+    "tier": "T5",
+    "intended_cites": 732,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0874",
+    "name": "Yubin Xia",
+    "tier": "T5",
+    "intended_cites": 9031,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0875",
     "name": "Daehyeok Kim",
-    "reason": "top OpenAlex field is 'Physics and Astronomy', not CS",
-    "venues_sample": [
-      "Sensors"
+    "tier": "T5",
+    "intended_cites": 854,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "korea institute of oriental medicine"
+    ],
+    "collision_cites": [
+      450
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0876",
+    "name": "Frank Cangialosi",
+    "tier": "T5",
+    "intended_cites": 404,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0877",
+    "name": "Shiwei Tang",
+    "tier": "T5",
+    "intended_cites": 5743,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "north sichuan medical university"
+    ],
+    "collision_cites": [
+      105
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0878",
+    "name": "Jiwu Shu",
+    "tier": "T5",
+    "intended_cites": 3077,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0879",
+    "name": "Nico Lehmann",
+    "tier": "T5",
+    "intended_cites": 834,
+    "n_exact_ge100": 4,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "max planck institute for human cognitive and brain sciences",
+      "karlsruhe institute of technology",
+      "humboldt-universität zu berlin"
+    ],
+    "collision_cites": [
+      518,
+      193,
+      134
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0880",
+    "name": "Ziming Zhao",
+    "tier": "T5",
+    "intended_cites": 4267,
+    "n_exact_ge100": 7,
+    "n_collisions": 6,
+    "collision": true,
+    "collision_insts": [
+      "huazhong university of science and technology",
+      "ningbo university",
+      "macau university of science and technology",
+      "northwestern university"
+    ],
+    "collision_cites": [
+      1567,
+      1445,
+      561,
+      428
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0881",
+    "name": "Kaustubh Beedkar",
+    "tier": "T5",
+    "intended_cites": 108,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0882",
+    "name": "Sudarsun Kannan",
+    "tier": "T5",
+    "intended_cites": 768,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0883",
+    "name": "Sukyoung Ryu",
+    "tier": "T5",
+    "intended_cites": 1397,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T5_0884",
     "name": "Daming Zhu",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "PLoS ONE",
-      "Journal of Lipid Research",
-      "Journal of Neurochemistry"
+    "tier": "T5",
+    "intended_cites": 3027,
+    "n_exact_ge100": 5,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "qingdao university",
+      "shandong university of science and technology",
+      "chinese academy of sciences",
+      "chinese academy of sciences"
+    ],
+    "collision_cites": [
+      1738,
+      1117,
+      1278,
+      467
     ]
+  },
+  {
+    "probe_id": "IKP_T5_0885",
+    "name": "Andreas Haeberlen",
+    "tier": "T5",
+    "intended_cites": 4911,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0886",
+    "name": "Heather Miller",
+    "tier": "T5",
+    "intended_cites": 2010,
+    "n_exact_ge100": 5,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "national institutes of health",
+      "carnegie mellon university",
+      "university of southern california"
+    ],
+    "collision_cites": [
+      1608,
+      1002,
+      461
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0887",
+    "name": "Behnaz Hassanshahi",
+    "tier": "T5",
+    "intended_cites": 207,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0888",
+    "name": "Theophilus Benson",
+    "tier": "T5",
+    "intended_cites": 7670,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0889",
+    "name": "Chunbin Lin",
+    "tier": "T5",
+    "intended_cites": 668,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0890",
+    "name": "Jorge Bernal Bernabé",
+    "tier": "T5",
+    "intended_cites": 3063,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0891",
+    "name": "Shanchieh Jay Yang",
+    "tier": "T5",
+    "intended_cites": 1498,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0892",
+    "name": "Wenrui Diao",
+    "tier": "T5",
+    "intended_cites": 1470,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0893",
+    "name": "Jianliang Xu",
+    "tier": "T5",
+    "intended_cites": 9651,
+    "n_exact_ge100": 4,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "sun yat-sen university",
+      "sun yat-sen university"
+    ],
+    "collision_cites": [
+      2856,
+      1045
+    ]
+  },
+  {
+    "probe_id": "IKP_T5_0894",
+    "name": "Conrad Watt",
+    "tier": "T5",
+    "intended_cites": 327,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0895",
+    "name": "Jeongseob Ahn",
+    "tier": "T5",
+    "intended_cites": 620,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0896",
+    "name": "Antoine Kaufmann",
+    "tier": "T5",
+    "intended_cites": 582,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0897",
+    "name": "Dipti Misra Sharma",
+    "tier": "T5",
+    "intended_cites": 1560,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0898",
+    "name": "Oana Balmau",
+    "tier": "T5",
+    "intended_cites": 437,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T5_0899",
+    "name": "Zhuotao Liu",
+    "tier": "T5",
+    "intended_cites": 1250,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1000",
+    "name": "Myung Hoon Sunwoo",
+    "tier": "T6",
+    "intended_cites": 1407,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1001",
+    "name": "Gaurav Bansod",
+    "tier": "T6",
+    "intended_cites": 493,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1002",
+    "name": "Lixiang Ao",
+    "tier": "T6",
+    "intended_cites": 293,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1003",
+    "name": "Dan Schatzberg",
+    "tier": "T6",
+    "intended_cites": 170,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1004",
+    "name": "Janick Edinger",
+    "tier": "T6",
+    "intended_cites": 566,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1005",
+    "name": "Christos Kozanitis",
+    "tier": "T6",
+    "intended_cites": 566,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1006",
+    "name": "Albert Gran Alcoz",
+    "tier": "T6",
+    "intended_cites": 130,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1007",
+    "name": "Xuanhua Shi",
+    "tier": "T6",
+    "intended_cites": 2417,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1008",
+    "name": "Stanko Novakovic",
+    "tier": "T6",
+    "intended_cites": 1068,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1009",
+    "name": "Andrew Litteken",
+    "tier": "T6",
+    "intended_cites": 105,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1010",
+    "name": "Ryan Beckett",
+    "tier": "T6",
+    "intended_cites": 982,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1011",
     "name": "Changlin Wan",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of Clinical Investigation",
-      "Cell",
-      "Genome Research"
-    ]
+    "tier": "T6",
+    "intended_cites": 1253,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1012",
+    "name": "Zhifeng Bao",
+    "tier": "T6",
+    "intended_cites": 3936,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1013",
+    "name": "Theo Jepsen",
+    "tier": "T6",
+    "intended_cites": 260,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1014",
+    "name": "Jeffrey Helt",
+    "tier": "T6",
+    "intended_cites": 38,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1015",
     "name": "Drew Davidson",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": [
-      "Research Showcase @ Carnegie Mellon University (Carnegie Mellon University)",
-      "Cambridge University Press eBooks",
-      "Proceedings of SPE Improved Oil Recovery Symposium"
+    "tier": "T6",
+    "intended_cites": 967,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1016",
+    "name": "Nirav Atre",
+    "tier": "T6",
+    "intended_cites": 109,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1017",
+    "name": "Jayashree Mohan",
+    "tier": "T6",
+    "intended_cites": 271,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "vinayaka missions university",
+      "vinayaka missions university"
+    ],
+    "collision_cites": [
+      106,
+      104
     ]
+  },
+  {
+    "probe_id": "IKP_T6_1018",
+    "name": "Alex Depoutovitch",
+    "tier": "T6",
+    "intended_cites": 134,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1019",
+    "name": "Weifeng He",
+    "tier": "T6",
+    "intended_cites": 4619,
+    "n_exact_ge100": 11,
+    "n_collisions": 8,
+    "collision": true,
+    "collision_insts": [
+      "guangzhou university of chinese medicine",
+      "aero engine corporation of china (china)",
+      "southwest general health center",
+      "shanghai jiao tong university"
+    ],
+    "collision_cites": [
+      1815,
+      1330,
+      857,
+      633
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1020",
+    "name": "Chong Mou",
+    "tier": "T6",
+    "intended_cites": 1506,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1021",
+    "name": "Olga Poppe",
+    "tier": "T6",
+    "intended_cites": 272,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1022",
+    "name": "Sayed Masoud Sayedi",
+    "tier": "T6",
+    "intended_cites": 431,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1023",
     "name": "Lea Theresa Gröber",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": [
-      "CISPA Helmholtz Center",
-      "Universität des Saarlandes"
-    ]
+    "tier": "T6",
+    "intended_cites": 74,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1024",
+    "name": "Richard Antonello",
+    "tier": "T6",
+    "intended_cites": 126,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1025",
+    "name": "Kasım Sinan Yıldırım",
+    "tier": "T6",
+    "intended_cites": 1400,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1026",
+    "name": "Zuoning Chen",
+    "tier": "T6",
+    "intended_cites": 1179,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1027",
     "name": "Daisuke Fujimoto",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of the American Chemical Society",
-      "International Journal of Oncology",
-      "PubMed"
+    "tier": "T6",
+    "intended_cites": 1007,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "teikyo university"
+    ],
+    "collision_cites": [
+      633
     ]
+  },
+  {
+    "probe_id": "IKP_T6_1028",
+    "name": "Fridtjof Stein",
+    "tier": "T6",
+    "intended_cites": 2517,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1029",
+    "name": "Ikram Ali",
+    "tier": "T6",
+    "intended_cites": 2068,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1030",
+    "name": "Muhammad Adnan Tariq",
+    "tier": "T6",
+    "intended_cites": 1290,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1031",
+    "name": "Chung Hee Hwang",
+    "tier": "T6",
+    "intended_cites": 704,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1032",
     "name": "Antonios Makris",
-    "reason": "non-CS venue majority (6 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Journal of Biological Chemistry",
-      "ACS Synthetic Biology",
-      "The Plant Cell"
-    ]
+    "tier": "T6",
+    "intended_cites": 3852,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1033",
     "name": "Hiroaki Kikuchi",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "IEEE Transactions on Magnetics",
-      "Journal of Applied Physics",
-      "ACS Applied Materials & Interfaces"
+    "tier": "T6",
+    "intended_cites": 4169,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "tokyo institute of technology",
+      "tokyo institute of technology"
+    ],
+    "collision_cites": [
+      1695,
+      119
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1034",
+    "name": "Alexey Rolich",
+    "tier": "T6",
+    "intended_cites": 207,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1035",
+    "name": "Felix Wu",
+    "tier": "T6",
+    "intended_cites": 9583,
+    "n_exact_ge100": 3,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "columbia university",
+      "university of california, davis",
+      "northeastern university"
+    ],
+    "collision_cites": [
+      6255,
+      285,
+      207
     ]
   },
   {
     "probe_id": "IKP_T6_1036",
     "name": "Ninja Marnau",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": [
-      "Figshare",
-      "Lecture notes in computer science",
-      "Datenschutz und Datensicherheit - DuD"
-    ]
+    "tier": "T6",
+    "intended_cites": 264,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1037",
+    "name": "Manar Ahmed Hamza",
+    "tier": "T6",
+    "intended_cites": 1693,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1038",
+    "name": "Meni Orenbach",
+    "tier": "T6",
+    "intended_cites": 242,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1039",
     "name": "Lalithkumar Seenivasan",
-    "reason": "non-CS venue majority (6 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "Medical Image Analysis",
-      "IEEE Robotics and Automation Letters"
+    "tier": "T6",
+    "intended_cites": 346,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1040",
+    "name": "Carlos Alberto López Barrio",
+    "tier": "T6",
+    "intended_cites": 166,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1041",
+    "name": "Nana Ramadijanti",
+    "tier": "T6",
+    "intended_cites": 139,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1042",
+    "name": "Carles Díaz-Vilor",
+    "tier": "T6",
+    "intended_cites": 171,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1043",
+    "name": "Francisco Rico-Novella",
+    "tier": "T6",
+    "intended_cites": 235,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1044",
+    "name": "Luisa Franchina",
+    "tier": "T6",
+    "intended_cites": 172,
+    "n_exact_ge100": 1,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "bayer (italy)"
+    ],
+    "collision_cites": [
+      198
     ]
   },
   {
     "probe_id": "IKP_T6_1045",
     "name": "Samson Wang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "arXiv (Cornell University)",
-      "Nature Communications",
-      "Nature Reviews Physics"
-    ]
+    "tier": "T6",
+    "intended_cites": 626,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1046",
+    "name": "Tudor Mihai Stoenescu",
+    "tier": "T6",
+    "intended_cites": 129,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1047",
     "name": "Meera Sridhar",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "JNCI Journal of the National Cancer Institute",
-      "Blood"
+    "tier": "T6",
+    "intended_cites": 322,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "university of north carolina at charlotte"
+    ],
+    "collision_cites": [
+      250
     ]
   },
   {
     "probe_id": "IKP_T6_1048",
     "name": "Yair Lakretz",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Trends in Cognitive Sciences",
-      "Nature Human Behaviour",
-      "Cognition"
-    ]
+    "tier": "T6",
+    "intended_cites": 1302,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1049",
     "name": "Asuman Senol",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": [
-      "arXiv (Cornell University)"
-    ]
+    "tier": "T6",
+    "intended_cites": 19,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1050",
+    "name": "Abhradeep Thakurta",
+    "tier": "T6",
+    "intended_cites": 3922,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1051",
+    "name": "Ben Herzberg",
+    "tier": "T6",
+    "intended_cites": 104,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1052",
     "name": "Azadeh Farzan",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Lecture notes in computer science"
-    ]
+    "tier": "T6",
+    "intended_cites": 1599,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1053",
     "name": "Zhengyu He",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "Laboratory Investigation",
-      "Cell Research",
-      "Nano Letters"
+    "tier": "T6",
+    "intended_cites": 3174,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "ministry of agriculture and rural affairs"
+    ],
+    "collision_cites": [
+      122
     ]
+  },
+  {
+    "probe_id": "IKP_T6_1054",
+    "name": "Aravindh Raman",
+    "tier": "T6",
+    "intended_cites": 822,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1055",
+    "name": "Suraj Jog",
+    "tier": "T6",
+    "intended_cites": 210,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T6_1056",
+    "name": "Jeongkeun Lee",
+    "tier": "T6",
+    "intended_cites": 3586,
+    "n_exact_ge100": 3,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "hewlett-packard (united states)"
+    ],
+    "collision_cites": [
+      613
+    ]
+  },
+  {
+    "probe_id": "IKP_T6_1057",
+    "name": "Ryan Stutsman",
+    "tier": "T6",
+    "intended_cites": 2249,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T6_1058",
     "name": "Rong Chen",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Nature Energy",
-      "JBIC Journal of Biological Inorganic Chemistry",
-      "Journal of Proteome Research"
+    "tier": "T6",
+    "intended_cites": 31876,
+    "n_exact_ge100": 11,
+    "n_collisions": 10,
+    "collision": true,
+    "collision_insts": [
+      "hunan university of science and technology",
+      "huazhong university of science and technology",
+      "guizhou university",
+      "hefei university of technology"
+    ],
+    "collision_cites": [
+      24871,
+      11569,
+      8041,
+      6043
     ]
   },
   {
     "probe_id": "IKP_T7_1200",
     "name": "Po‐Shun Wang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of Medical Virology",
-      "Oncogene",
-      "Journal of Biomedical Science"
-    ]
+    "tier": "T7",
+    "intended_cites": 668,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1201",
+    "name": "Victory Omole",
+    "tier": "T7",
+    "intended_cites": 223,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1202",
     "name": "Marie‐Claire Blache",
-    "reason": "top OpenAlex field is 'Agricultural and Biological Sciences', not CS",
-    "venues_sample": [
-      "International Journal of Obesity",
-      "Theriogenology",
-      "Reproduction"
-    ]
+    "tier": "T7",
+    "intended_cites": 653,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1203",
+    "name": "Jordan Mohler",
+    "tier": "T7",
+    "intended_cites": 942,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1204",
     "name": "Juliette Hainline",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": []
+    "tier": "T7",
+    "intended_cites": 38,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1205",
     "name": "Yufeng Huang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Nature Communications",
-      "Journal of the American Chemical Society",
-      "ACS Energy Letters"
+    "tier": "T7",
+    "intended_cites": 3238,
+    "n_exact_ge100": 14,
+    "n_collisions": 12,
+    "collision": true,
+    "collision_insts": [
+      "primary children's hospital",
+      "national chung hsing university",
+      "university of science and technology liaoning",
+      "bowen university"
+    ],
+    "collision_cites": [
+      2469,
+      927,
+      1114,
+      976
     ]
   },
   {
     "probe_id": "IKP_T7_1206",
     "name": "Nicole M Wink",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Medical Physics",
-      "Physics in Medicine and Biology",
-      "Journal of Applied Clinical Medical Physics"
-    ]
+    "tier": "T7",
+    "intended_cites": 335,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1207",
+    "name": "Yuchao Tao",
+    "tier": "T7",
+    "intended_cites": 235,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1208",
+    "name": "Yulai Tong",
+    "tier": "T7",
+    "intended_cites": 14,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1209",
+    "name": "Joel Kuepper",
+    "tier": "T7",
+    "intended_cites": 13,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1210",
+    "name": "Emili Lupon",
+    "tier": "T7",
+    "intended_cites": 196,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1211",
     "name": "Boyang Zheng",
-    "reason": "non-CS venue majority (5 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Environmental Pollution",
-      "Advanced Science",
-      "Nature Communications"
+    "tier": "T7",
+    "intended_cites": 872,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "hebei medical university",
+      "nanjing university of information science and technology"
+    ],
+    "collision_cites": [
+      642,
+      327
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1212",
+    "name": "Jinghai Yin",
+    "tier": "T7",
+    "intended_cites": 191,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1213",
     "name": "Aashaka Shah",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "Figshare",
-      "JMIR Pediatrics and Parenting",
-      "Frontiers in Microbiology"
-    ]
+    "tier": "T7",
+    "intended_cites": 326,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1214",
     "name": "Rama Devi Mittal",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Molecular Biology Reports",
-      "European Urology",
-      "Advances in clinical chemistry"
-    ]
+    "tier": "T7",
+    "intended_cites": 4812,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1215",
+    "name": "Binlin Cheng",
+    "tier": "T7",
+    "intended_cites": 82,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1216",
+    "name": "Susheel Sekhar",
+    "tier": "T7",
+    "intended_cites": 211,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1217",
+    "name": "Erci Xu",
+    "tier": "T7",
+    "intended_cites": 258,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1218",
     "name": "Yan Jiao",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of the American Chemical Society",
-      "Angewandte Chemie International Edition",
-      "Chemical Society Reviews"
+    "tier": "T7",
+    "intended_cites": 46331,
+    "n_exact_ge100": 7,
+    "n_collisions": 5,
+    "collision": true,
+    "collision_insts": [
+      "army medical university",
+      "shandong university of technology",
+      "virginia tech",
+      "qiqihar university"
+    ],
+    "collision_cites": [
+      3006,
+      1604,
+      1555,
+      760
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1219",
+    "name": "John Sicilia",
+    "tier": "T7",
+    "intended_cites": 39,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1220",
+    "name": "Jasper Ruehl",
+    "tier": "T7",
+    "intended_cites": 4,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1221",
+    "name": "Ivan Beschastnikh",
+    "tier": "T7",
+    "intended_cites": 3563,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1222",
+    "name": "Hesam Shahrokhi",
+    "tier": "T7",
+    "intended_cites": 19,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1223",
     "name": "Sylvie Dujardin",
-    "reason": "no CS venues in top 9",
-    "venues_sample": [
-      "Sleep Medicine Clinics",
-      "Scientific Reports",
-      "Neurophysiologie Clinique"
+    "tier": "T7",
+    "intended_cites": 149,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1224",
+    "name": "Fengqing Jiang",
+    "tier": "T7",
+    "intended_cites": 1587,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "king abdulaziz city for science and technology"
+    ],
+    "collision_cites": [
+      153
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1225",
+    "name": "Christoph Brepols",
+    "tier": "T7",
+    "intended_cites": 385,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1226",
+    "name": "Rajesh Bordawekar",
+    "tier": "T7",
+    "intended_cites": 2019,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1227",
     "name": "Xianran Xing",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of the American Chemical Society",
-      "Chemical Communications",
-      "Chemical Society Reviews"
-    ]
+    "tier": "T7",
+    "intended_cites": 17140,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1228",
     "name": "Joseph Chan",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Nature Genetics",
-      "Science",
-      "Cell"
+    "tier": "T7",
+    "intended_cites": 7328,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "academia sinica",
+      "the university of sydney"
+    ],
+    "collision_cites": [
+      1662,
+      1208
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1229",
+    "name": "Habiba Abdulganiyu",
+    "tier": "T7",
+    "intended_cites": 19,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1230",
     "name": "Zhigang Cai",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Materials Science and Engineering C",
-      "Nature Communications",
-      "International Journal of Oral and Maxillofacial Surgery"
+    "tier": "T7",
+    "intended_cites": 2710,
+    "n_exact_ge100": 8,
+    "n_collisions": 6,
+    "collision": true,
+    "collision_insts": [
+      "hebei medical university",
+      "hebei medical university",
+      "university of science and technology of china",
+      "southwest university"
+    ],
+    "collision_cites": [
+      1293,
+      541,
+      517,
+      103
     ]
   },
   {
     "probe_id": "IKP_T7_1231",
     "name": "Brennon Brimhall",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": []
+    "tier": "T7",
+    "intended_cites": 6,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1232",
     "name": "Kuo-Feng Hsu",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "World Journal of Surgery",
-      "European Journal of Radiology",
-      "Chemical Communications"
-    ]
+    "tier": "T7",
+    "intended_cites": 1040,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1233",
+    "name": "David Broneske",
+    "tier": "T7",
+    "intended_cites": 498,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1234",
     "name": "James Lovejoy",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 9)",
-    "venues_sample": [
-      "Journal of Applied Physics",
-      "Applied Physics Letters",
-      "Physical Review Applied"
-    ]
+    "tier": "T7",
+    "intended_cites": 211,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1235",
+    "name": "Anna Karanika",
+    "tier": "T7",
+    "intended_cites": 94,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1236",
+    "name": "Surendra Ghentiyala",
+    "tier": "T7",
+    "intended_cites": 9,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1237",
     "name": "Zuming Jiang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Metrologia"
+    "tier": "T7",
+    "intended_cites": 1120,
+    "n_exact_ge100": 1,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "sinopec (china)"
+    ],
+    "collision_cites": [
+      244
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1238",
+    "name": "Héléna Galhardas",
+    "tier": "T7",
+    "intended_cites": 1005,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1239",
+    "name": "Hadi Noureddine",
+    "tier": "T7",
+    "intended_cites": 129,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1240",
+    "name": "Insik Shin",
+    "tier": "T7",
+    "intended_cites": 3877,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1241",
+    "name": "Dan Suciu",
+    "tier": "T7",
+    "intended_cites": 24347,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1242",
     "name": "Xinming Wang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Chemosphere",
-      "Chinese Medical Journal",
-      "Nature"
+    "tier": "T7",
+    "intended_cites": 44522,
+    "n_exact_ge100": 8,
+    "n_collisions": 7,
+    "collision": true,
+    "collision_insts": [
+      "harbin university of science and technology",
+      "chinese academy of sciences",
+      "anyang normal university",
+      "case western reserve university"
+    ],
+    "collision_cites": [
+      4927,
+      1118,
+      429,
+      388
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1243",
+    "name": "Waqar Amin",
+    "tier": "T7",
+    "intended_cites": 171,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1244",
+    "name": "Yumi Horiuchi",
+    "tier": "T7",
+    "intended_cites": 317,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1245",
     "name": "Yaning Guo",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Applied Surface Science",
-      "Industrial Crops and Products",
-      "ACS Sustainable Chemistry & Engineering"
+    "tier": "T7",
+    "intended_cites": 971,
+    "n_exact_ge100": 5,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "ningbo university",
+      "yulin university",
+      "tianjin academy of agricultural sciences",
+      "handan college"
+    ],
+    "collision_cites": [
+      335,
+      354,
+      272,
+      102
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1246",
+    "name": "Fangming Lu",
+    "tier": "T7",
+    "intended_cites": 36,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1247",
     "name": "Shuangxi Chen",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Drug Delivery",
-      "CHEST Journal",
-      "AAPS PharmSciTech"
-    ]
+    "tier": "T7",
+    "intended_cites": 955,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1248",
+    "name": "Hidetsugu Irie",
+    "tier": "T7",
+    "intended_cites": 325,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1249",
     "name": "Jihoon Cho",
-    "reason": "non-CS venue majority (7 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Journal of The Electrochemical Society",
-      "Lecture notes in computer science",
-      "Electrochimica Acta"
-    ]
+    "tier": "T7",
+    "intended_cites": 2249,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1250",
     "name": "Anna Forlenza-Bailey",
-    "reason": "top OpenAlex field is 'Social Sciences', not CS",
-    "venues_sample": [
-      "The Professional Educator",
-      "Journal of Teacher Education"
-    ]
+    "tier": "T7",
+    "intended_cites": 441,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1251",
     "name": "Yen‐Hung Lin",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "Clinica Chimica Acta",
-      "Journal of Hypertension",
-      "Journal of the American Society of Nephrology"
+    "tier": "T7",
+    "intended_cites": 8699,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "hong kong university of science and technology"
+    ],
+    "collision_cites": [
+      7478
     ]
   },
   {
     "probe_id": "IKP_T7_1252",
     "name": "Shan‐Lu Liu",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "Journal of Virology",
-      "The Lancet",
-      "PLoS Pathogens"
-    ]
+    "tier": "T7",
+    "intended_cites": 8130,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1253",
+    "name": "Shandan Zhou",
+    "tier": "T7",
+    "intended_cites": 43,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1254",
+    "name": "Christophe Gyurgyik",
+    "tier": "T7",
+    "intended_cites": 2,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1255",
     "name": "Christian Faerber",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Journal of Physics Conference Series",
-      "Data Management on New Hardware",
-      "IEEE Transactions on Nuclear Science"
+    "tier": "T7",
+    "intended_cites": 52,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1256",
+    "name": "Fabrizio Lombardi",
+    "tier": "T7",
+    "intended_cites": 16278,
+    "n_exact_ge100": 3,
+    "n_collisions": 2,
+    "collision": true,
+    "collision_insts": [
+      "irccs policlinico san donato",
+      "university of padua"
+    ],
+    "collision_cites": [
+      2202,
+      839
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1257",
+    "name": "Ali Zülfükar Coban",
+    "tier": "T7",
+    "intended_cites": 2,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1258",
+    "name": "Pankaj Kansal",
+    "tier": "T7",
+    "intended_cites": 61,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1259",
     "name": "Dongbo Liu",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Proceedings of the National Academy of Sciences",
-      "PLoS ONE",
-      "NeuroImage"
+    "tier": "T7",
+    "intended_cites": 3761,
+    "n_exact_ge100": 6,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "zhejiang sci-tech university",
+      "zhengzhou university",
+      "xihua university",
+      "xihua university"
+    ],
+    "collision_cites": [
+      1077,
+      618,
+      219,
+      141
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1260",
+    "name": "Julien Gamba",
+    "tier": "T7",
+    "intended_cites": 331,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1261",
     "name": "Jean-Marc Gaudin",
-    "reason": "top OpenAlex field is 'Chemistry', not CS",
-    "venues_sample": [
-      "Tetrahedron Letters",
-      "Tetrahedron",
-      "Helvetica Chimica Acta"
+    "tier": "T7",
+    "intended_cites": 539,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "centre national d'études spatiales"
+    ],
+    "collision_cites": [
+      238
     ]
   },
   {
     "probe_id": "IKP_T7_1262",
     "name": "Alok Mishra",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Nucleic Acids Research",
-      "Biology",
-      "Bioinformatics"
+    "tier": "T7",
+    "intended_cites": 16394,
+    "n_exact_ge100": 5,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "bml munjal university",
+      "johns hopkins university",
+      "defence institute of high altitude research",
+      "chaudhary charan singh university"
+    ],
+    "collision_cites": [
+      5103,
+      711,
+      100,
+      112
     ]
   },
   {
     "probe_id": "IKP_T7_1263",
     "name": "Thales Bandiera Paiva",
-    "reason": "non-CS venue majority (5 non-CS vs 3 CS in top 10)",
-    "venues_sample": [
-      "Lecture notes in computer science",
-      "IACR Transactions on Cryptographic Hardware and Embedded Systems",
-      "IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences"
-    ]
+    "tier": "T7",
+    "intended_cites": 67,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1264",
     "name": "Helper Zhou",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Science Progress",
-      "Carbon Research",
-      "African Journal of Development Studies (formerly AFFRIKA Journal of Politics Economics and Society)"
-    ]
+    "tier": "T7",
+    "intended_cites": 119,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1265",
+    "name": "Sowmya Dharanipragada",
+    "tier": "T7",
+    "intended_cites": 21,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1266",
+    "name": "Qiansheng Rao",
+    "tier": "T7",
+    "intended_cites": 15,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1267",
     "name": "Wenhong Li",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Science",
-      "Proceedings of the National Academy of Sciences",
-      "Bulletin of the American Meteorological Society"
+    "tier": "T7",
+    "intended_cites": 9253,
+    "n_exact_ge100": 8,
+    "n_collisions": 7,
+    "collision": true,
+    "collision_insts": [
+      "jiangxi university of traditional chinese medicine",
+      "fudan university",
+      "sichuan university",
+      "fudan university"
+    ],
+    "collision_cites": [
+      3807,
+      1491,
+      1476,
+      534
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1268",
+    "name": "Eyee Hyun Nam",
+    "tier": "T7",
+    "intended_cites": 301,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1269",
+    "name": "Shilong Gou",
+    "tier": "T7",
+    "intended_cites": 58,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1270",
     "name": "Jinling Yin",
-    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "Journal of Power Sources",
-      "Journal of Materials Chemistry A",
-      "Electrochimica Acta"
-    ]
+    "tier": "T7",
+    "intended_cites": 5334,
+    "n_exact_ge100": 2,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1271",
     "name": "Arup Mondal",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Journal of the American Chemical Society",
-      "Angewandte Chemie International Edition",
-      "ACS Catalysis"
+    "tier": "T7",
+    "intended_cites": 662,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "university of florida"
+    ],
+    "collision_cites": [
+      524
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1272",
+    "name": "Xueqiang Yan",
+    "tier": "T7",
+    "intended_cites": 1992,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "huawei technologies (china)"
+    ],
+    "collision_cites": [
+      111
     ]
   },
   {
     "probe_id": "IKP_T7_1273",
     "name": "Graciela Sala",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Circulation Research",
-      "Circulation",
-      "PLoS ONE"
-    ]
+    "tier": "T7",
+    "intended_cites": 3252,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1274",
     "name": "Yuhang Gan",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "BMC Public Health",
-      "IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium",
-      "ISPRS International Journal of Geo-Information"
+    "tier": "T7",
+    "intended_cites": 179,
+    "n_exact_ge100": 2,
+    "n_collisions": 1,
+    "collision": true,
+    "collision_insts": [
+      "wuhan university"
+    ],
+    "collision_cites": [
+      123
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1275",
+    "name": "Chenren Xu",
+    "tier": "T7",
+    "intended_cites": 3834,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1276",
+    "name": "Nariyoshi Chida",
+    "tier": "T7",
+    "intended_cites": 37,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1277",
+    "name": "Stefan Schemmer",
+    "tier": "T7",
+    "intended_cites": 197,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1278",
+    "name": "Heydar Shariatzadeh",
+    "tier": "T7",
+    "intended_cites": 9,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1279",
     "name": "Eleonora Franchi Scarselli",
-    "reason": "non-CS venue majority (3 non-CS vs 2 CS in top 10)",
-    "venues_sample": [
-      "IEEE Transactions on Biomedical Circuits and Systems",
-      "Sensors",
-      "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
-    ]
+    "tier": "T7",
+    "intended_cites": 671,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1280",
+    "name": "Seemanta Saha",
+    "tier": "T7",
+    "intended_cites": 128,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1281",
+    "name": "Zhouyang Jia",
+    "tier": "T7",
+    "intended_cites": 349,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1282",
+    "name": "Jaroslaw Cwiklik",
+    "tier": "T7",
+    "intended_cites": 4,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1283",
     "name": "Laure Fournier",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "Gastroenterology",
-      "European Respiratory Journal",
-      "JAMA Network Open"
-    ]
+    "tier": "T7",
+    "intended_cites": 6987,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1284",
+    "name": "Jihyuck Jo",
+    "tier": "T7",
+    "intended_cites": 280,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1285",
+    "name": "Zicang Xu",
+    "tier": "T7",
+    "intended_cites": 23,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1286",
     "name": "Gianluca Passaro",
-    "reason": "top OpenAlex field is 'Physics and Astronomy', not CS",
-    "venues_sample": []
+    "tier": "T7",
+    "intended_cites": 120,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1287",
     "name": "Christina Solomonidou",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "International Journal of Science Education",
-      "Computers & Education",
-      "Science Education"
-    ]
+    "tier": "T7",
+    "intended_cites": 516,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1288",
+    "name": "Alexander Eulitz",
+    "tier": "T7",
+    "intended_cites": 360,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1289",
     "name": "Yeonghyeon Kim",
-    "reason": "top OpenAlex field is 'Biochemistry, Genetics and Molecular Biology', not CS",
-    "venues_sample": [
-      "Frontiers in Microbiology"
-    ]
+    "tier": "T7",
+    "intended_cites": 28,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1290",
+    "name": "Zheming Zhou",
+    "tier": "T7",
+    "intended_cites": 223,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1291",
+    "name": "Sasi Kiran Suddarsi",
+    "tier": "T7",
+    "intended_cites": 13,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1292",
     "name": "Shiyin Zhu",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "PLoS ONE",
-      "Scientific Reports",
-      "CHEST Journal"
-    ]
+    "tier": "T7",
+    "intended_cites": 47,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1293",
     "name": "Andrea Galeazzi",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Industrial & Engineering Chemistry Research",
-      "Computers & Chemical Engineering",
-      "Waste and Biomass Valorization"
-    ]
+    "tier": "T7",
+    "intended_cites": 1001,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1294",
     "name": "Jinbin Wang",
-    "reason": "no CS venues in top 10",
-    "venues_sample": [
-      "Applied Physics Letters",
-      "Journal of Physics Condensed Matter",
-      "Chemical Communications"
+    "tier": "T7",
+    "intended_cites": 4971,
+    "n_exact_ge100": 5,
+    "n_collisions": 4,
+    "collision": true,
+    "collision_insts": [
+      "qingdao university",
+      "xinjiang production and construction corps",
+      "fujian normal university",
+      "shanghai academy of agricultural sciences"
+    ],
+    "collision_cites": [
+      1721,
+      373,
+      296,
+      145
     ]
+  },
+  {
+    "probe_id": "IKP_T7_1295",
+    "name": "Wenjia Cai",
+    "tier": "T7",
+    "intended_cites": 21882,
+    "n_exact_ge100": 4,
+    "n_collisions": 3,
+    "collision": true,
+    "collision_insts": [
+      "sun yat-sen university",
+      "china-japan friendship hospital",
+      "imperial college london"
+    ],
+    "collision_cites": [
+      7269,
+      263,
+      126
+    ]
+  },
+  {
+    "probe_id": "IKP_T7_1296",
+    "name": "Chuanjun Zeng",
+    "tier": "T7",
+    "intended_cites": 38,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1297",
     "name": "Tarannum Khan",
-    "reason": "top OpenAlex field is 'Medicine', not CS",
-    "venues_sample": [
-      "2017 International Conference on Information, Communication, Instrumentation and Control (ICICIC)",
-      "Current Neurology and Neuroscience Reports",
-      "Movement Disorders"
-    ]
+    "tier": "T7",
+    "intended_cites": 178,
+    "n_exact_ge100": 1,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
+  },
+  {
+    "probe_id": "IKP_T7_1298",
+    "name": "Zaifeng Pan",
+    "tier": "T7",
+    "intended_cites": 90,
+    "n_exact_ge100": 0,
+    "n_collisions": 0,
+    "collision": false,
+    "collision_insts": [],
+    "collision_cites": []
   },
   {
     "probe_id": "IKP_T7_1299",
     "name": "Mengqi Yang",
-    "reason": "non-CS venue majority (4 non-CS vs 1 CS in top 10)",
-    "venues_sample": [
-      "Redox Biology",
-      "Journal of Neuroinflammation",
-      "International Immunopharmacology"
+    "tier": "T7",
+    "intended_cites": 2450,
+    "n_exact_ge100": 6,
+    "n_collisions": 5,
+    "collision": true,
+    "collision_insts": [
+      "institute of semiconductors",
+      "china university of political science and law",
+      "university of massachusetts chan medical school",
+      "hong kong university of science and technology"
+    ],
+    "collision_cites": [
+      445,
+      344,
+      270,
+      182
     ]
   }
 ]
