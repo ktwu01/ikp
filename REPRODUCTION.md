@@ -27,12 +27,20 @@ unchanged from any checkout directory.
 ```bash
 pip install -r requirements.txt
 
-# Re-draw every figure and re-emit every .tex table that the paper uses
+# Re-draw every figure and re-emit every .tex table that the paper uses.
+# Scoring is no-penalty (lambda=0) on the cleaned probe subset
+# (clean_flag_researchers.py + clean_flag_wikidata.py -> clean_build_mask.py).
 python paper/figures/generate_figures.py             # Figs 1–6, 8
 python paper/figures/generate_appendix_figures.py    # Figs A1–A4
 python scripts/loo_cv_analysis.py                    # Fig 7
+python paper/figures/generate_lambda_figure.py       # lambda-sensitivity figure
 python scripts/14_comprehensive_fingerprinting.py    # Fig 9 + fingerprint tables
 python scripts/15_densing_law_analysis.py            # Densing CSV + appendix stats
+python scripts/frontier_table.py                     # frontier estimate table
+python scripts/lambda_sensitivity.py                 # lambda sweep table
+python scripts/lambda_floor_ablation.py              # lambda x flooring table
+python scripts/moe_dense_analysis.py                 # dense-vs-MoE tables
+python scripts/full_results_tables.py                # full per-model result tables
 
 # Rebuild the PDF
 cd paper && latexmk -pdf main.tex
@@ -45,7 +53,7 @@ All figure scripts are idempotent and only read `data/` + `configs/`.
 | Artifact | Produced by | Read by |
 |---|---|---|
 | `data/probes/final_probe_set_v8.json` | `scripts/01_generate_probes.py`, `scripts/01b_generate_t6_t7.py`, `scripts/assemble_final_dataset.py` | every evaluator + `ikp_estimate.py` |
-| `data/results/<model>.json` (×188) | `scripts/run_all_models.py` → `scripts/run_evaluation.py` → `src/probe_runner.py` | `evaluation_summary.json` builder + fingerprint scripts |
+| `data/results/<model>.json` (×201) | `scripts/run_all_models.py` → `scripts/run_evaluation.py` → `src/probe_runner.py` | `evaluation_summary.json` builder + fingerprint scripts |
 | `data/results/evaluation_summary.json` | `scripts/run_evaluation.py` (rewritten after each model finishes) | every figure script |
 | `configs/all_models.json` | manual / `scripts/add_release_dates.py` | every figure script that needs metadata |
 | `data/researcher_citations.json` | `scripts/09_researcher_probes.py` (pulls DBLP + OpenAlex) | Fig 5, Tables 3–4 |
@@ -62,14 +70,14 @@ kept for audit only. `scripts/README.md` is the full script index.
 
 | Label | PDF | Producer | Function | Inputs | What it shows |
 |---|---|---|---|---|---|
-| `fig:calibration` (Fig 1) | `paper/figures/fig1_calibration.pdf` | `paper/figures/generate_figures.py` | `fig1_calibration()` | `data/results/evaluation_summary.json`, `configs/all_models.json` | Log-linear IKP curve across 89 open-weight models (R² = 0.917), dashed projections for proprietary models |
+| `fig:calibration` (Fig 1) | `paper/figures/fig1_calibration.pdf` | `paper/figures/generate_figures.py` | `fig1_calibration()` | `data/results/evaluation_summary.json`, `configs/all_models.json` | Log-linear IKP curve across 93 open-weight models (R² = 0.910, lambda=0), dashed projections for proprietary models |
 | `fig:heatmap` (Fig 2) | `paper/figures/fig2_tier_heatmap.pdf` | `paper/figures/generate_figures.py` | `fig2_tier_heatmap()` | `data/results/evaluation_summary.json` | Per-tier accuracy heatmap, top 25 models |
 | `fig:thinking` (Fig 3) | `paper/figures/fig3_thinking_effect.pdf` | `paper/figures/generate_figures.py` | `fig3_thinking_effect()` | `data/results/evaluation_summary.json` | Per-pair Δaccuracy for `-think` vs base |
-| `fig:moe` (Fig 4) | `paper/figures/fig4_moe_params.pdf` | `paper/figures/generate_figures.py` | `fig4_moe_params()` | `data/results/evaluation_summary.json`, `configs/all_models.json` | MoE total-vs-active parameter fits (R² 0.79 vs 0.51) |
+| `fig:moe` (Fig 4) | `paper/figures/fig4_moe_params.pdf` | `paper/figures/generate_figures.py` | `fig4_moe_params()` | `data/results/evaluation_summary.json`, `configs/all_models.json` | MoE total-vs-active parameter fits (R² 0.67 vs 0.41) |
 | `fig:researcher` (Fig 5) | `paper/figures/fig5_researcher_citations.pdf` | `paper/figures/generate_figures.py` | `fig5_researcher_scatter()` | `data/researcher_citations.json`, `data/researcher_recognition_rates.json` | Recognition rate vs log citation count (Spearman ρ = 0.575) |
 | `fig:fingerprint` (Fig 6) | `paper/figures/fig6_fingerprint_heatmap.pdf` | `paper/figures/generate_figures.py` | `fig6_fingerprint_heatmap()` | `data/results/*.json`, `configs/all_models.json` | T5–T6 hallucination-similarity Jaccard heatmap, 15 frontier models |
 | `fig:loo` (Fig 7) | `paper/figures/fig7_loo_validation.pdf` | `scripts/loo_cv_analysis.py` | `__main__` | `data/results/evaluation_summary.json`, `configs/all_models.json` | Predicted vs actual log-parameters under leave-one-out CV |
-| `fig:densing` (Fig 8) | `paper/figures/fig8_densing_law.pdf` | `paper/figures/generate_figures.py` | `fig8_densing_law()` | `data/densing_analysis_data.csv` | Residuals of IKP vs time — refutes the Densing prediction of +0.0132/month |
+| `fig:densing` (Fig 8) | `paper/figures/fig8_densing_law.pdf` | `paper/figures/generate_figures.py` | `fig8_densing_law()` | `data/densing_analysis_data.csv` | Residuals of IKP vs time — refutes the Densing prediction of +0.0117/month |
 | `fig:lineage` (Fig 9) | `paper/figures/fig9_family_lineage.pdf` | `scripts/14_comprehensive_fingerprinting.py` | `plot_family_lineage()` | `data/results/*.json`, `configs/all_models.json` | Per-family trajectory of HSS vs Jaccard with retrain / lineage / shared-base labels |
 
 **Note:** `paper/figures/generate_figures.py` writes figures straight
@@ -100,6 +108,11 @@ These are emitted by scripts and pulled in via `\input{...}`:
 | Fingerprint control pairs (App. D, `fp_controls`) | `results/tables/fp_controls.tex` | same |
 | Cross-vendor outliers (App. D, `fp_cross_vendor`) | `results/tables/fp_cross_vendor.tex` | `scripts/14_comprehensive_fingerprinting.py` → `cross_family_outliers()` |
 | Calibration summary (`table1_calibration`) | `results/tables/table1_calibration.tex` | `scripts/loo_cv_analysis.py` (tex block) |
+| Frontier estimates (`tab:frontier`) | `paper/tables/frontier_estimates.tex` | `scripts/frontier_table.py` |
+| lambda sensitivity sweep (`tab:lambda-sweep`) | `paper/tables/lambda_sensitivity.tex` | `scripts/lambda_sensitivity.py` |
+| lambda x flooring ablation (`tab:floor-ablation`) | `paper/tables/lambda_floor_ablation.tex` | `scripts/lambda_floor_ablation.py` |
+| Dense-vs-MoE fits (`tab:moe-fits`) + sensitivity (`tab:moe-sens`) | `paper/tables/moe_dense_*.tex` | `scripts/moe_dense_analysis.py` |
+| Full per-model results (`tab:full-accuracy`, `tab:full-hallucination`) | `paper/tables/full_accuracy.tex`, `full_hallucination.tex` | `scripts/full_results_tables.py` |
 
 ### Hand-authored tables (numbers drawn from scripts)
 
@@ -110,12 +123,9 @@ values in is how you refresh them.
 | Label | Paper location | Source numbers from |
 |---|---|---|
 | `tab:scaling` | §"What determines LLM knowledge" | `scripts/loo_cv_analysis.py` (R² printouts) + `scripts/analyze_results.py` |
-| `tab:frontier` | §"Frontier estimates" | `scripts/loo_cv_analysis.py` prediction-interval block |
 | `tab:citation-hindex-buckets` | §"Researcher recognition" | `scripts/09_researcher_probes.py` + `data/researcher_citations.json` |
 | `tab:recog-by-field` | §"Researcher recognition" | same |
 | `tab:8cell` | §"Researcher recognition" (qualitative) | curated; cases are in `data/analysis_8cell_websearch.md` |
-| `tab:full-accuracy` | Appendix §Full results | `data/results/evaluation_summary.json`; build via `scripts/analyze_results.py` |
-| `tab:full-hallucination` | Appendix §Full results | same |
 | `tab:densing-full` | Appendix §Densing | `scripts/15_densing_law_analysis.py` (prints a LaTeX-ready block) |
 | `tab:densing-tests` | Appendix §Densing | same |
 
