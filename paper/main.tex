@@ -41,7 +41,7 @@
 \begin{abstract}
 Closed-source frontier labs do not disclose parameter counts, and the standard alternative---inference economics---carries $2\times$+ uncertainty from hardware, batching, and serving-stack assumptions external to the model. We exploit a tighter intrinsic bound: storing $F$ facts requires at least $F/$(bits per parameter) weights, so measuring how much a model \emph{knows} lower-bounds how many parameters it \emph{has}. We introduce \textbf{Incompressible Knowledge Probes (IKPs)}, a benchmark of 1{,}400 factual questions spanning 7 tiers of obscurity, designed to isolate knowledge that cannot be derived by reasoning or compressed by architectural improvements.
 
-We calibrate a log-linear mapping from IKP accuracy to parameter count on 89 open-weight models (135M--1{,}600B) spanning 19 vendors, achieving $R^2 = 0.917$; leave-one-out cross-validation confirms generalization (median fold error $1.59\times$, $68.5\%$ within $2\times$ and $87.6\%$ within $3\times$). For Mixture-of-Experts models, total parameters predict knowledge ($R^2 = 0.79$) far better than active parameters ($R^2 = 0.51$). We evaluate 188 models from 27 vendors and estimate effective knowledge capacity for all major proprietary frontier models; for heavily safety-tuned models the estimates are lower bounds, since refusal policy can hide tens of percentage points of ``refused but known'' capacity. A black-box hallucination-similarity test---rare-fact agreement on \emph{wrong} answers---separates weight-sharing siblings, post-training lineages, and full retrains without model weights.
+We score with no hallucination penalty ($\lambda = 0$: IKP accuracy is simply the fraction of probed facts answered correctly), which removes both the penalty hyperparameter and the per-tier flooring choice; a full $\lambda \times$ flooring ablation (Appendix~\ref{app:lambda}) shows the calibration is robust across scoring choices while individual estimates are not, motivating the no-penalty default. We calibrate a log-linear mapping from IKP accuracy to parameter count on 93 open-weight models (135M--1{,}600B) spanning 19 vendors, achieving $R^2 = 0.910$; leave-one-out cross-validation confirms generalization (median fold error $1.48\times$, $72\%$ within $2\times$ and $86\%$ within $3\times$). For Mixture-of-Experts models, total parameters predict knowledge ($R^2 = 0.67$) better than active parameters ($R^2 = 0.41$). We evaluate 201 models from 27 vendors on a curated probe set (1{,}311 of 1{,}400 probes surviving name-collision and label-ambiguity filters) and report effective knowledge capacity for all major proprietary frontier models as prediction bands rather than point estimates; for heavily safety-tuned models these are lower bounds, since refusal policy can hide tens of percentage points of ``refused but known'' capacity. A black-box hallucination-similarity test---rare-fact agreement on \emph{wrong} answers---separates weight-sharing siblings, post-training lineages, and full retrains without model weights.
 
 The widely-reported saturation of reasoning benchmarks does not imply the end of scaling. Procedural capability compresses under the ``Densing Law,'' but across 96 dated open-weight models the IKP time coefficient is $-0.0010$/month (95\% CI $[-0.0031, +0.0008]$)---indistinguishable from zero, and rejecting the Densing prediction of $+0.0117$/month at $p < 10^{-15}$. Factual capacity continues to scale log-linearly with parameters across generations and across vendors.
 \end{abstract}
@@ -69,16 +69,16 @@ Figure~\ref{fig:calibration} summarises the picture: IKP accuracy grows log-line
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{figures/fig1_calibration.pdf}
-    \caption{IKP calibration curve. Each point is an open-weight model with known parameter count. Blue circles: dense models; orange diamonds: MoE models (plotted at total parameter count). The regression line ($R^2 = 0.917$, 89 models from 19 vendors) enables parameter estimation for proprietary models (shown as horizontal dashed lines on the right). Gemini 3.1 Pro is excluded from estimation (landmark, T6 score inflated by construction).}
+    \caption{IKP calibration curve. Each point is an open-weight model with known parameter count. Blue circles: dense models; orange diamonds: MoE models (plotted at total parameter count). The regression line ($R^2 = 0.910$, 93 models from 19 vendors, no-penalty scoring) enables parameter estimation for proprietary models (shown as horizontal dashed lines on the right). Gemini 3.1 Pro is excluded from estimation (landmark, T6 score inflated by construction).}
     \label{fig:calibration}
 \end{figure}
 
 \paragraph{Contributions.}
 \begin{enumerate}[leftmargin=*]
     \item \textbf{Incompressibility framework.} We distinguish \emph{compressible} procedural capability (subject to the Densing Law) from \emph{incompressible} factual capacity (bounded by Shannon entropy), and introduce Incompressible Knowledge Probes (IKPs), a tiered benchmark designed to measure only the latter from black-box API access.
-    \item \textbf{Calibration and validation.} We calibrate IKP on 89 open-weight models across 19 vendors ($R^2 = 0.917$), with leave-one-out cross-validation placing 68.5\% of models within $2\times$ and 87.6\% within $3\times$ of their known size.
+    \item \textbf{Calibration and validation.} We calibrate IKP on 93 open-weight models across 19 vendors ($R^2 = 0.910$, no-penalty scoring), with leave-one-out cross-validation placing 72\% of models within $2\times$ and 86\% within $3\times$ of their known size.
     \item \textbf{Densing Law falsification.} Across 96 dated open-weight models, the time coefficient on IKP is $-0.0010$/month (95\% CI $[-0.0031, +0.0008]$)---indistinguishable from zero and rejecting the Densing prediction of $+0.0117$/month at $p < 10^{-15}$. Factual capacity does not compress.
-    \item \textbf{Frontier estimates and the MoE total-params rule.} We estimate parameter counts for 92 proprietary frontier models and show that total (not active) parameters predict MoE knowledge capacity ($R^2 = 0.79$ vs.\ $0.51$).
+    \item \textbf{Frontier estimates and the MoE total-params rule.} We estimate parameter counts for 97 proprietary frontier models and show that total (not active) parameters predict MoE knowledge capacity ($R^2 = 0.67$ vs.\ $0.41$).
     \item \textbf{Knowledge fingerprinting.} Combining rare-fact Jaccard overlap with \emph{hallucination similarity} (the rate at which two models produce the same wrong answer on rare facts) yields a training-free test that distinguishes weight-sharing siblings, post-training lineages, and full retrains---including across closed-vendor version families---without requiring model weights.
     \item \textbf{Open-source release.} We release the IKP evaluation toolkit, the full probe set, and the results so that any researcher can estimate a model's effective knowledge capacity from OpenRouter's standard API endpoint. Code: \url{https://github.com/19PINE-AI/ikp}. Companion website: \url{https://01.me/research/ikp}.
 \end{enumerate}
@@ -153,6 +153,8 @@ The remaining 97 probes are manual or supplementary additions used to balance T1
 
 \textbf{Probe quality filters.} We exclude: (1)~\emph{computable} probes whose answers can be derived by rule (e.g., IUPAC element naming, arithmetic on years, alphabetical ordering), since these test reasoning rather than memorization; (2)~\emph{ambiguous} probes that larger models legitimately disagree on, identified by the monotonicity filter (Appendix~\ref{app:probes}): if a more-capable landmark gets a probe wrong while a less-capable one gets it right, the probe is dropped; (3)~\emph{collision-prone} researcher probes with common names (two-character Chinese names, single-initial given names) where multiple distinct researchers share an identifier; (4)~\emph{contamination-prone} probes drawn from machine-learning or AI subfields, where researchers' own work tends to dominate frontier-model training corpora and inflates accuracy beyond what generic factual recall would predict; (5)~\emph{grounding embedded in the question template} for Wikidata-sourced probes, following the researcher-probe pattern: every entity-naming question carries a discriminating attribute (year, country, admin region, genre, or publisher) extracted from a Wikidata field other than the answer field. This prevents title-collision failures (``Madonna and Child''---which one?, ``Putnam''---in which state?) without leaking the answer. We arrived at this template after a 10-round audit (Section~\ref{sec:wikidata-audit}) revealed that ${\sim}12\%$ of T5--T7 Wikidata probes carried a bare-name ambiguity defect and ${\sim}33$--$46\%$ of diverse-fact-type Wikidata candidates failed independent web cross-check at the obscure tier.
 
+\textbf{Automated collision/ambiguity audit and robustness.} Beyond the template filters, we run an automated post-hoc audit of the released set. For every researcher probe we query OpenAlex for same-name authors and flag a probe when a distinct researcher (different institution, ${\geq}100$ citations) shares the exact name, so the model cannot know which person is meant; for every Wikidata probe we fetch the entity's label and flag it when ${\geq}2$ items of the same type share that label and the question carries no disambiguating qualifier. This flags $89/1400$ probes ($6.4\%$: $59$ researcher name-collisions, $29$ Wikidata label-ambiguities, one known-wrong manual answer), concentrated in the hard tiers (T3--T7) as expected. Re-scoring every model on the cleaned $1{,}311$-probe subset \emph{improves} the calibration---$R^2$ rises from $0.900$ to $0.910$ and the 90\% prediction-interval factor tightens from $3.45\times$ to $3.20\times$---and individual frontier estimates move by ${<}5\%$. The ambiguous probes were adding noise, not signal, and the parameter estimates are robust to their removal. All flags are reproducible via \texttt{scripts/clean\_flag\_researchers.py} and \texttt{scripts/clean\_flag\_wikidata.py}; results in the paper are on the cleaned set.
+
 The complete generation pipeline, per-tier composition table, sample probes, verification procedure for each source type, and the audit log are detailed in Appendix~\ref{app:probes}.
 
 \subsection{Landmark-Based Tier Assignment}
@@ -197,13 +199,13 @@ WRONG                & $\lambda$ & $\lambda$ \\
 \bottomrule
 \end{tabular}
 \end{center}
-We use $\lambda = -1.0$ throughout, which is the value that maximizes calibration $R^2$ on the open-weight set (sensitivity sweep in Appendix~\ref{app:lambda}: $R^2$ peaks between $\lambda \in [-0.5, -1.0]$, with LOO 3$\times$-retention rising to $94.4\%$ at $\lambda = -1.0$ vs.\ $93.3\%$ at $-0.5$). The strict ordering STRONG $>$ WEAK $>$ REFUSAL $>$ WRONG makes confident bluffing strictly worse than refusing, so a calibrated honest model beats an aggressive bluffer at the same knowledge level.
+We use $\lambda = 0$ (no penalty) throughout: IKP accuracy is then simply the fraction of probed facts a model answers correctly, with \emph{no} scoring hyperparameter to tune and \emph{no} per-tier flooring decision to make (per-tier scores are $\text{correct}/\text{total} \geq 0$ by construction, so flooring at zero is a no-op). This choice is deliberate. A nonzero penalty must be justified, and its exact value materially moves individual estimates; moreover, under a negative penalty the per-tier score can go negative and must either be floored---which flattens the calibration slope and inflates frontier estimates---or left unfloored, which destabilizes the fit at hard tiers. Setting $\lambda = 0$ removes both degrees of freedom at once. Appendix~\ref{app:lambda} reports the full $\lambda \times$ flooring ablation: $\lambda = 0$ sits within ${\sim}0.02$--$0.03$ $R^2$ of the shallow mild-penalty optimum near $\lambda = -0.5$ and is the only point at which the flooring choice does not arise. For readers who prefer a hallucination-aware score, the calibration and per-model estimates under any $\lambda$ are read directly from Table~\ref{tab:lambda-sweep}. At $\lambda = 0$ the researcher judge's four verdicts collapse to the ordering STRONG ($1.0$) $>$ WEAK ($0.5$) $>$ REFUSAL $=$ WRONG ($0$); the evidence-aware STRONG/WEAK distinction is retained, and a wrong subfield guess is scored the same as an honest ``I don't know.''
 
 \textbf{Aggregate accuracy.} Per-tier score is the mean per-probe score in that tier. Overall accuracy is the unweighted mean of the seven per-tier scores. Per-tier scores are not floored at zero in the released results---a strongly-bluffing model can score negative on T6/T7---to preserve the bluff signal in the calibration; this is a change from earlier versions of IKP that floored at zero. The mean-of-tier-means construction prevents hard-tier behavior from erasing easy-tier knowledge.
 
 \subsection{Calibration Curve}
 
-We fit $A = \alpha \cdot \log_{10}(N) + \beta$ where $A$ is aggregate penalized accuracy and $N$ is parameter count in billions, using ordinary least squares on open-weight models with known parameter counts. To estimate the parameter count of a target model, we invert the regression: $\hat{N} = 10^{(A - \beta)/\alpha}$. We report the forward-direction $R^2$ (predicting accuracy from size), which equals the squared Pearson correlation and is invariant to inversion.
+We fit $A = \alpha \cdot \log_{10}(N) + \beta$ where $A$ is aggregate accuracy (no-penalty, $\lambda=0$) and $N$ is parameter count in billions, using ordinary least squares on open-weight models with known parameter counts. To estimate the parameter count of a target model, we invert the regression: $\hat{N} = 10^{(A - \beta)/\alpha}$. We report the forward-direction $R^2$ (predicting accuracy from size), which equals the squared Pearson correlation and is invariant to inversion.
 
 % ══════════════════════════════════════════════════════════════
 \section{Experimental Setup}
@@ -211,7 +213,7 @@ We fit $A = \alpha \cdot \log_{10}(N) + \beta$ where $A$ is aggregate penalized 
 
 \textbf{Probe set.} 1{,}400 probes (200 per tier, T1--T7) across 16 domains: researcher subfields (345 probes), founding years (532), geography, history, science, culture, and others.
 
-\textbf{Models.} 188 models from 27 vendors, accessed via OpenRouter API and local Ollama server. Open-weight models with known parameter counts (89 models after excluding pathological-refuser and post-training-degraded outliers, 135M to 1{,}600B including DeepSeek V4 Pro) serve as calibration data, including models from the Llama~\citep{touvron2023llama, touvron2023llama2}, Qwen~\citep{yang2024qwen2}, Gemma~\citep{gemma2024}, DeepSeek~\citep{deepseek2024v2, deepseek2025r1}, and OLMo~\citep{groeneveld2024olmo} families. Proprietary models (92 models), including GPT-4~\citep{openai2023gpt4}, are estimation targets.
+\textbf{Models.} 201 models from 27 vendors, accessed via OpenRouter API and local Ollama server. Open-weight models with known parameter counts (93 models after excluding pathological-refuser and post-training-degraded outliers, 135M to 1{,}600B including DeepSeek V4 Pro) serve as calibration data, including models from the Llama~\citep{touvron2023llama, touvron2023llama2}, Qwen~\citep{yang2024qwen2}, Gemma~\citep{gemma2024}, DeepSeek~\citep{deepseek2024v2, deepseek2025r1}, and OLMo~\citep{groeneveld2024olmo} families. Proprietary models (97 models), including GPT-4~\citep{openai2023gpt4}, are estimation targets.
 
 \textbf{Judge.} Gemini 3 Flash Preview with temperature${}=0$ and low reasoning effort. Estimated judge error rate: $0.1$--$0.2\%$ (verified by manual audit).
 
@@ -229,18 +231,18 @@ We fit $A = \alpha \cdot \log_{10}(N) + \beta$ where $A$ is aggregate penalized 
 \label{tab:scaling}
 \begin{tabular}{lrrrr}
 \toprule
-Subset & $n$ & Slope & $R^2$ (pen.) & $R^2$ (raw) \\
+Subset & $n$ & Slope & $R^2$ (tier-mean) & $R^2$ (overall) \\
 \midrule
-All open models & 89 & 0.147 & \textbf{0.917} & 0.909 \\
-Dense only & 52 & 0.151 & 0.880 & 0.881 \\
-Dense non-thinking & 42 & 0.158 & 0.894 & 0.884 \\
-MoE (total params) & 37 & 0.155 & 0.792 & 0.683 \\
-MoE (active params) & 37 & 0.157 & 0.513 & 0.419 \\
+All open models & 93 & 0.159 & \textbf{0.910} & 0.910 \\
+Dense only & 52 & 0.151 & 0.875 & 0.855 \\
+Dense non-thinking & 42 & 0.150 & 0.877 & 0.866 \\
+MoE (total params) & 41 & 0.145 & 0.667 & 0.712 \\
+MoE (active params) & 41 & 0.144 & 0.412 & 0.483 \\
 \bottomrule
 \end{tabular}
 \end{table}
 
-The all-open fit achieves $R^2 = 0.917$, with each $10\times$ increase in parameters adding ${\sim}14.7$ percentage points (Figure~\ref{fig:calibration}). Penalized accuracy fits comparably to raw accuracy ($R^2 = 0.909$), with the penalty mainly improving fit on aggressive bluffers and refusal-trained variants. For Mixture-of-Experts models~\citep{shazeer2017outrageously, fedus2022switch}, total parameters ($R^2 = 0.79$) clearly outperform active parameters ($R^2 = 0.51$), confirming that factual knowledge is stored across all expert weights, not just those activated per token (Figure~\ref{fig:moe}). This is consistent with unified MoE scaling laws~\citep{clark2022unified}, joint MoE scaling laws showing that total capacity matters for knowledge storage~\citep{ludziejewski2025moe, zhao2025moescaling}, and practical MoE architectures such as Mixtral~\citep{jiang2024mixtral}.
+The all-open fit achieves $R^2 = 0.910$ under no-penalty scoring ($\lambda = 0$), with each $10\times$ increase in parameters adding ${\sim}15.9$ percentage points (Figure~\ref{fig:calibration}). The tier-mean and overall-accuracy fits agree ($R^2 = 0.910$ both). For Mixture-of-Experts models~\citep{shazeer2017outrageously, fedus2022switch}, total parameters ($R^2 = 0.67$) clearly outperform active parameters ($R^2 = 0.41$), confirming that factual knowledge is stored across all expert weights, not just those activated per token (Figure~\ref{fig:moe}). Dense and MoE share nearly the same slope; we calibrate on the combined set because fitting MoE anchors alone does not improve recovery of known MoE sizes in leave-one-out (Appendix~\ref{app:moe}), though it would raise the highest frontier estimates by ${\sim}18\%$. This is consistent with unified MoE scaling laws~\citep{clark2022unified}, joint MoE scaling laws showing that total capacity matters for knowledge storage~\citep{ludziejewski2025moe, zhao2025moescaling}, and practical MoE architectures such as Mixtral~\citep{jiang2024mixtral}.
 
 \begin{figure}[H]
     \centering
@@ -252,73 +254,38 @@ The all-open fit achieves $R^2 = 0.917$, with each $10\times$ increase in parame
 \subsection{Leave-One-Out Cross-Validation}
 \label{sec:loo}
 
-To validate that the calibration generalizes rather than overfitting to the 89-model training set, we perform leave-one-out cross-validation (LOO-CV): for each open model, we refit the regression on the remaining 88 models and predict the held-out model's parameter count from its accuracy.
+To validate that the calibration generalizes rather than overfitting to the 93-model training set, we perform leave-one-out cross-validation (LOO-CV): for each open model, we refit the regression on the remaining 92 models and predict the held-out model's parameter count from its accuracy.
 
-Figure~\ref{fig:loo} shows predicted versus actual parameter counts. The LOO median multiplicative fold error is $1.59\times$: $68.5\%$ of models are predicted within $2\times$ of their true size and $87.6\%$ within $3\times$, with a 90\% prediction interval factor of $3.00\times$. The worst outliers in either direction are Nemotron-70B (predicted ${\sim}$490B, ECR $7.0\times$, NVIDIA's heavy RLHF post-training pass), Llama~3.1-70B and 3.3-70B (ECRs $\sim 3.5\text{--}4.2\times$), Llama~4~Scout (109B predicted as ${\sim}$18B, ECR $0.17\times$, suggesting heavy refusal calibration), and a cluster of small Qwen variants under-predicted around the $0.3\text{--}0.4\times$ band.
+Figure~\ref{fig:loo} shows predicted versus actual parameter counts. The LOO median multiplicative fold error is $1.48\times$: $72\%$ of models are predicted within $2\times$ of their true size and $86\%$ within $3\times$, with a 90\% prediction interval factor of $3.20\times$. The worst outliers in either direction are Nemotron-70B (predicted ${\sim}$490B, ECR $7.0\times$, NVIDIA's heavy RLHF post-training pass), Llama~3.1-70B and 3.3-70B (ECRs $\sim 3.5\text{--}4.2\times$), Llama~4~Scout (109B predicted as ${\sim}$18B, ECR $0.17\times$, suggesting heavy refusal calibration), and a cluster of small Qwen variants under-predicted around the $0.3\text{--}0.4\times$ band.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{figures/fig7_loo_validation.pdf}
-    \caption{Leave-one-out cross-validation: predicted vs actual parameter count for 89 open models. Green band: within $2\times$; blue band: within $3\times$. Median fold error is $1.59\times$; $68.5\%$ within $2\times$, $87.6\%$ within $3\times$. The 90\% prediction interval factor is $3.00\times$.}
+    \caption{Leave-one-out cross-validation: predicted vs actual parameter count for 93 open models. Green band: within $2\times$; blue band: within $3\times$. Median fold error is $1.48\times$; $72\%$ within $2\times$, $86\%$ within $3\times$. The 90\% prediction interval factor is $3.20\times$.}
     \label{fig:loo}
 \end{figure}
 
 \subsection{Frontier Model Estimates}
 \label{sec:frontier}
 
-Table~\ref{tab:frontier} shows parameter estimates for the major proprietary models, all derived by inverting the calibration curve fit on 89 open-weight models. None of the entries below were used to fit the curve; the full ranking is therefore an out-of-sample readout of where each closed-source frontier model sits along the same log-linear scaling axis that produced the open-weight regression.
+Table~\ref{tab:frontier} shows parameter estimates for the major proprietary models, all derived by inverting the calibration curve fit on 93 open-weight models. None of the entries below were used to fit the curve; the full ranking is therefore an out-of-sample readout of where each closed-source frontier model sits along the same log-linear scaling axis that produced the open-weight regression.
 
 \begin{table}[H]
 \centering
-\caption{Parameter estimates for proprietary frontier models. Calibration: 89 open models, $R^2 = 0.917$. Estimates represent \emph{effective knowledge capacity in open-model-equivalent parameters}---proprietary models with denser training data, more aggressive RLHF, or family-specific post-training will appear larger or smaller than their actual parameter count. The 90\% prediction interval (PI) factor is ${\sim}3.00\times$ in either direction (${\pm}0.478$ in $\log_{10}$ space), derived from the calibration residual standard error of 0.042. For models with both a thinking and non-thinking variant, we report the higher-scoring variant. We exclude Gemini 3.1 Pro and the Gemini 3 Flash/Flash-Lite family from this table: Gemini 3.1 Pro is the T6 calibration landmark (its T6 score is inflated by construction) and the Gemini 3.x Flash family inherits this inflation through within-family score saturation, making single-curve estimates for that family systematically over-stated.}
+\caption{Effective knowledge capacity of proprietary frontier models, in open-model-equivalent parameters, as 90\% prediction bands (calibration: 93 open models, $R^2 = 0.910$, $\lambda = 0$; PI factor ${\sim}3.2\times$). Higher-scoring variant shown per model. The Gemini 3.x family is excluded (Gemini 3.1 Pro is the T6 landmark; the Flash line inherits its inflation). Generated by \texttt{scripts/frontier\_table.py}.}
 \label{tab:frontier}
-\begin{tabular}{llrrr}
-\toprule
-Model & Vendor & Accuracy & Est.\ Size & 90\% PI \\
-\midrule
-GPT-5.5 & OpenAI & 71.9\% & ${\sim}9.7$T & [3.2--28.7T] \\
-Claude Opus 4.6 & Anthropic & 68.0\% & ${\sim}5.3$T & [1.8--15.6T] \\
-GPT-5 Pro & OpenAI & 66.5\% & ${\sim}4.1$T & [1.4--12.2T] \\
-GPT-5 & OpenAI & 66.4\% & ${\sim}4.1$T & [1.4--12.1T] \\
-Claude Opus 4.7 & Anthropic & 66.4\% & ${\sim}4.0$T & [1.4--12.0T] \\
-o1 & OpenAI & 65.4\% & ${\sim}3.5$T & [1.2--10.3T] \\
-Claude Opus 4.5 & Anthropic & 65.2\% & ${\sim}3.4$T & [1.1--10.0T] \\
-Claude Opus 4.1 & Anthropic & 64.9\% & ${\sim}3.2$T & [1.1--9.5T] \\
-Grok-4 & xAI & 64.8\% & ${\sim}3.2$T & [1.1--9.4T] \\
-o3 & OpenAI & 64.4\% & ${\sim}3.0$T & [1.0--8.9T] \\
-GPT-5.4 Pro & OpenAI & 62.5\% & ${\sim}2.2$T & [736B--6.5T] \\
-GPT-4.1 & OpenAI & 62.3\% & ${\sim}2.2$T & [719B--6.4T] \\
-Grok-3 & xAI & 62.3\% & ${\sim}2.1$T & [715B--6.3T] \\
-Claude Sonnet 4.6 & Anthropic & 60.9\% & ${\sim}1.7$T & [579B--5.1T] \\
-GPT-5.3 & OpenAI & 60.0\% & ${\sim}1.5$T & [503B--4.5T] \\
-GPT-5.2 Pro & OpenAI & 59.7\% & ${\sim}1.4$T & [478B--4.2T] \\
-Claude Opus 4 & Anthropic & 59.7\% & ${\sim}1.4$T & [478B--4.2T] \\
-GPT-5.1 & OpenAI & 59.3\% & ${\sim}1.3$T & [450B--4.0T] \\
-GPT-5.2 & OpenAI & 58.9\% & ${\sim}1.3$T & [417B--3.8T] \\
-Gemini 2.5 Pro & Google & 58.4\% & ${\sim}1.2$T & [387B--3.4T] \\
-GPT-5.4 & OpenAI & 57.7\% & ${\sim}1.0$T & [348B--3.1T] \\
-GPT-4o & OpenAI & 55.3\% & ${\sim}720$B & [241B--2.1T] \\
-Qwen3-Max & Alibaba & 55.0\% & ${\sim}685$B & [229B--2.0T] \\
-GPT-4 & OpenAI & 54.8\% & ${\sim}666$B & [223B--2.0T] \\
-GPT-4-Turbo & OpenAI & 54.5\% & ${\sim}630$B & [211B--1.9T] \\
-GPT-5 Mini & OpenAI & 51.7\% & ${\sim}410$B & [137B--1.2T] \\
-Gemini 2.5 Flash & Google & 47.4\% & ${\sim}207$B & [69B--617B] \\
-Claude 3.5 Haiku & Anthropic & 45.6\% & ${\sim}158$B & [53B--470B] \\
-GPT-5 Nano & OpenAI & 40.5\% & ${\sim}71$B & [24B--212B] \\
-Claude Haiku 4.5 & Anthropic & 39.9\% & ${\sim}65$B & [22B--194B] \\
-\bottomrule
-\end{tabular}
+{\small\input{tables/frontier_estimates}}
 \end{table}
 
-\textbf{The shape of the frontier.} The estimates resolve into four bands. At the top, GPT-5.5 sits a full $1.4\times$ above the next model (Claude Opus 4.6 at $5.3$T) and roughly $2.4\times$ above the broad GPT-5 / Opus 4.7 / o1 / Grok-4 / o3 cluster between $3.0$ and $4.1$T. The cluster itself is a striking finding: a half-decade of competitive frontier development at OpenAI, Anthropic, xAI, and the OpenAI o-series has converged to within $1.4\times$ effective capacity. Below the frontier, GPT-4.1, Grok-3, GPT-5.4 Pro, and the older Claude Opus generations occupy a $2$--$3$T band. The third band, around $1.0$--$1.7$T, gathers the late-2024 ``second-tier flagship'' releases (Claude Sonnet 4.6, Gemini 2.5 Pro, GPT-5.3, GPT-5.1/5.2). At the bottom, the small/efficient line---GPT-5 Mini at $410$B, Gemini 2.5 Flash at $207$B, GPT-5 Nano at $71$B, and Claude Haiku 4.5 at $65$B---spans an order of magnitude in capacity. Crucially, the ratio between the top and bottom of this proprietary fleet is $\sim$$150\times$, almost exactly the ratio between the largest and smallest \emph{open-weight} model in our calibration set.
+\textbf{The shape of the frontier.} Estimates are reported as 90\% prediction intervals, not point values. At the top, GPT-5.5 Pro and GPT-5.5 lead at ${\sim}5.3$T and ${\sim}4.7$T, followed by Claude Fable 5 (${\sim}3.5$T) and Gemini 2.5 Pro (${\sim}3.0$T). A broad ${\sim}2$T cluster gathers GPT-4.1, GPT-5.4 Pro, GPT-5 Pro, o3, Grok-3, and Grok-4 (all within $[0.6, 2.2]$T), indicating that competitive frontier development has converged to within ${\sim}1.5\times$ effective capacity. The ratio between the top of the proprietary fleet and the smallest estimated model (${\sim}9$B) is ${\sim}580\times$, spanning the same dynamic range as the open-weight calibration set. Because we score with no hallucination penalty, refusal-heavy models are systematically under-placed (Section~\ref{sec:silent-tax}); their bands should be read as lower bounds.
 
-\textbf{Pro tiers add little factual capacity.} OpenAI's ``Pro'' variants (GPT-5 Pro, GPT-5.2 Pro, GPT-5.4 Pro, GPT-5.5 Pro) sit only $+0.3$, $+0.9$, $+4.8$, and $+1.0$ pp above their non-Pro siblings on IKP. Inverting the calibration, the GPT-5 Pro premium is $1.05\times$ and the GPT-5.5 Pro premium is $1.13\times$ in effective capacity. This is consistent with vendor messaging: the Pro tier targets reasoning, agentic, and long-context capabilities through stronger post-training and longer inference-time budgets, none of which add new \emph{stored facts} to the underlying weights. IKP measures factual capacity specifically, so a near-flat Pro-vs-base gap is the expected outcome and does not contradict the Pro tier's purpose---it simply shows that what the Pro tier delivers is orthogonal to incompressible factual storage (Section~\ref{sec:theory}).
+\textbf{Pro tiers add little factual capacity.} OpenAI's ``Pro'' variants sit only $+1.2$ (GPT-5), $+0.8$ (GPT-5.2), and $+0.9$ (GPT-5.5) pp above their non-Pro siblings---effective-capacity premiums of $1.1$--$1.2\times$---consistent with the Pro tier targeting reasoning, agentic, and long-context capability through stronger post-training and longer inference-time budgets rather than added \emph{stored facts}. The lone exception is GPT-5.4 Pro ($+5.5$ pp, $2.2\times$), which we do not over-interpret given the ${\sim}3.2\times$ prediction-interval width. IKP measures factual capacity specifically, so a near-flat Pro-vs-base gap is the expected outcome and does not contradict the Pro tier's purpose (Section~\ref{sec:theory}).
 
-\textbf{Point releases reshuffle; major versions scale up.} Within OpenAI's GPT-5.x series, the non-thinking IKP scores cluster tightly around the GPT-5 baseline: GPT-5 (66.1\%), 5.1 (59.3\%), 5.2 (58.9\%), 5.3 (60.0\%), 5.4 (57.7\%), spanning a $\sim$$8$ pp range. Then the GPT-5.5 release jumps to $71.4\%$, well clear of the entire 5.x cluster. Read literally, the IKP estimates are consistent with the 5 through 5.4 releases sharing a similar parameter budget but training on different data mixtures (each release optimizing different downstream goals), with GPT-5.5 representing a genuine scale-up. The fingerprint analysis (Section~\ref{sec:fingerprint}) is consistent with this reading: every consecutive GPT-5 $\to$ 5.\texttt{x} transition lands in the \emph{retrained} regime (HSS $<0.10$, Jaccard collapse) rather than the lineage regime, indicating the point releases are full retrains on different data rather than continued pretraining of a single base. The Claude Opus line, by contrast, shows a monotonic cross-generation increase ($4 \to 4.1 \to 4.5 \to 4.6 \to 4.7$ at $52.4 \to 57.9 \to 61.1 \to 63.1 \to 65.7$ pp on the non-thinking base), suggesting Anthropic's release cadence in this period has been driven by genuine scale-ups along a single axis.
+\textbf{Point releases reshuffle; major versions scale up.} Within OpenAI's GPT-5.x series the non-thinking scores span $68$--$83\%$: GPT-5 at $75.8\%$, the 5.1--5.4 point releases clustered at $68$--$72\%$, and GPT-5.5 stepping clear to $82.6\%$. Read literally, the point releases share a similar parameter budget while GPT-5.5 is a genuine scale-up; the fingerprint analysis (Section~\ref{sec:fingerprint}) agrees, placing every consecutive GPT-5$\to$5.\texttt{x} transition in the \emph{retrained} regime (HSS $<0.10$) rather than the lineage regime. The Claude Opus non-thinking line, by contrast, is \emph{non-monotonic} under no-penalty scoring (4.5 at ${\sim}892$B, 4.6 at ${\sim}1.3$T, 4.7 at ${\sim}538$B, 4.8 at ${\sim}236$B). This is not evidence of shrinking models: the later Opus releases refuse far more often (Section~\ref{sec:silent-tax}), which depresses raw accuracy and hence the no-penalty estimate. Under a mild penalty (Table~\ref{tab:lambda-sweep}) the ordering largely reverts, and the Opus estimates should be read as lower bounds---a caution that applies to every heavily refusal-trained model under $\lambda=0$.
 
 \subsection{Per-Tier Discrimination}
 
-Each obscurity tier acts as a different rung of the parameter ladder. Fitting a log-linear regression of per-tier accuracy against $\log_{10}(N)$ on the 89-model calibration set reveals a striking stratification: T1's slope is only $0.124$ per decade and saturates at $\sim$$70$B; T2 saturates at $\sim$$120$B; T3 has the steepest slope ($0.324$ per decade) and saturates at $\sim$$1.2$T; T4 has slope $0.258$ but does not saturate within the calibration range; T5's slope drops to $0.097$; T6's slope is $0.002$ (essentially flat in log-parameters within the calibration set); and T7 has slope $\approx 0$. Each tier is a step function whose midpoint sits at a different parameter scale, and the seven midpoints together span the ladder. Figure~\ref{fig:heatmap} shows the resulting step-function pattern.
+Each obscurity tier acts as a different rung of the parameter ladder. Fitting a log-linear regression of per-tier accuracy against $\log_{10}(N)$ on the 93-model calibration set reveals a striking stratification (no-penalty scoring): T1's slope is only $0.072$ per decade; T2 $0.144$; T3 $0.275$; T4 has the steepest slope ($0.297$ per decade) and does not saturate within the calibration range; T5 $0.224$; T6 drops to $0.077$ (nearly flat in log-parameters within the open-weight set); and T7 $\approx 0.022$. Each tier is a step function whose midpoint sits at a different parameter scale, and the seven midpoints together span the ladder. Figure~\ref{fig:heatmap} shows the resulting step-function pattern.
 
 \textbf{T3 is the most informative single tier.} It combines the steepest slope ($0.324$ per decade), the highest Spearman correlation with overall accuracy ($\rho = 0.983$), and the widest within-set spread (from near-zero on sub-1B models up to $97\%$ on the largest open-weights). A model's T3 score alone is therefore a strong proxy for its overall ranking---useful when limited compute precludes a full 1{,}400-probe evaluation. T2 is nearly as informative ($\rho = 0.874$) but saturates earlier; T1 is approximately a binary check (is this even a real LM?) and contributes essentially nothing to the discrimination of frontier models. Practically, a 200-probe sub-evaluation drawing primarily from T3 (with a thin T1/T2 sanity check and a thin T5/T6 ceiling check) recovers most of the signal of the full benchmark.
 
@@ -337,12 +304,12 @@ Each obscurity tier acts as a different rung of the parameter ladder. Fitting a 
 
 \subsection{Thinking Mode Analysis}
 
-Across 27 base/think pairs, thinking mode~\citep{wei2022chain} improves penalized accuracy in 20 cases (mean $+2.2$ pp, range $-1.0$ to $+10.3$ pp; Figure~\ref{fig:thinking}). Regressions are small ($\leq 1$ pp) and concentrated in MiMo and select Gemini variants, plausibly reflecting increased refusal conservatism in thinking mode. The largest gain is Grok-4 base$\to$4.20-think ($+10.3$ pp), and the Claude 4.x thinking variants all improve on their base counterparts ($+0.7$ to $+7.4$ pp). The benefit peaks at T3--T4 (medium-hard tiers) and vanishes at T7, supporting the interpretation that chain-of-thought helps with knowledge \emph{retrieval} but does not create new \emph{stored} knowledge.
+Across 27 base/think pairs, thinking mode~\citep{wei2022chain} improves accuracy in 20 cases (mean $+2.2$ pp, range $-1.0$ to $+10.3$ pp; Figure~\ref{fig:thinking}). Regressions are small ($\leq 1$ pp) and concentrated in MiMo and select Gemini variants, plausibly reflecting increased refusal conservatism in thinking mode. The largest gain is Grok-4 base$\to$4.20-think ($+10.3$ pp), and the Claude 4.x thinking variants all improve on their base counterparts ($+0.7$ to $+7.4$ pp). The benefit peaks at T3--T4 (medium-hard tiers) and vanishes at T7, supporting the interpretation that chain-of-thought helps with knowledge \emph{retrieval} but does not create new \emph{stored} knowledge.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{figures/fig3_thinking_effect.pdf}
-    \caption{Thinking mode effect across 27 base/think model pairs. Light bars: base model accuracy; dark bars: thinking variant. Thinking improves penalized accuracy in 20 of 27 cases (mean $+2.2$ pp). Small regressions ($\leq 1$ pp) on the remaining pairs are likely due to increased refusal conservatism in thinking mode.}
+    \caption{Thinking mode effect across 27 base/think model pairs. Light bars: base model accuracy; dark bars: thinking variant. Thinking improves accuracy in 20 of 27 cases (mean $+2.2$ pp). Small regressions ($\leq 1$ pp) on the remaining pairs are likely due to increased refusal conservatism in thinking mode.}
     \label{fig:thinking}
 \end{figure}
 
@@ -355,7 +322,7 @@ Within model families, newer generations generally know more: Claude Opus base $
 
 A central empirical implication of our framework (Section~\ref{sec:theory}) is that the Densing Law~\citep{densing2025} should \emph{not} hold on IKP. If factual capacity is incompressible, then at fixed $\log_{10}(N)$ there should be no per-month improvement in IKP accuracy---in contrast with reasoning benchmarks, on which capability-per-parameter doubles every ${\sim}3.5$ months.
 
-\textbf{Design.} We assembled release dates (YYYY-MM-DD, verified against vendor announcements and HuggingFace model cards) for all 188 models in our evaluation. For the 96 open-weight models with published parameter counts and IKP results, spanning 2023-09-27 to 2026-04-24, we fit
+\textbf{Design.} We assembled release dates (YYYY-MM-DD, verified against vendor announcements and HuggingFace model cards) for all 201 models in our evaluation. For the 96 open-weight models with published parameter counts and IKP results, spanning 2023-09-27 to 2026-04-24, we fit
 \[
   \text{pen\_acc} = \beta_0 + \beta_1 \log_{10}(N_B) + \beta_2 \cdot \text{months},
 \]
@@ -385,7 +352,7 @@ A natural question is whether existing knowledge benchmarks could substitute for
 \toprule
 Metric & $N$ & $R^2$ vs $\log_{10} N$ & IKP $R^2$ (same subset) & Time slope (pp/month) \\
 \midrule
-\textbf{IKP (full set)}      & \textbf{89} & \textbf{0.917} & ---   & \textbf{$-0.06$} \\
+\textbf{IKP (full set)}      & \textbf{93} & \textbf{0.910} & ---   & \textbf{$-0.06$} \\
 SimpleQA                     & 10          & 0.904          & 0.991 & $+0.03$ \\
 MMLU                         & 30          & 0.705          & 0.886 & $+0.58$ \\
 MMLU-Pro                     & 25          & 0.689          & 0.900 & $+0.82$ \\
@@ -399,7 +366,7 @@ GPQA Diamond                 & 30          & 0.520          & 0.903 & $+1.99$ \\
 \begin{figure}[H]
     \centering
     \includegraphics[width=\textwidth]{figures/benchmark_comparison.pdf}
-    \caption{Vendor-reported benchmark scores vs $\log_{10}$(total params, B). Top-left: IKP across all 89 calibration models ($R^2 = 0.917$). Other panels: each standard benchmark (red) plotted against the same models with IKP (blue $\times$, dashed line) overlaid for direct comparison. On every matched subset, IKP yields a tighter fit; the gap is largest for GPQA Diamond (reasoning-heavy) and smallest for SimpleQA (factual).}
+    \caption{Vendor-reported benchmark scores vs $\log_{10}$(total params, B). Top-left: IKP across all 93 calibration models ($R^2 = 0.910$). Other panels: each standard benchmark (red) plotted against the same models with IKP (blue $\times$, dashed line) overlaid for direct comparison. On every matched subset, IKP yields a tighter fit; the gap is largest for GPQA Diamond (reasoning-heavy) and smallest for SimpleQA (factual).}
     \label{fig:benchmark-comparison}
 \end{figure}
 
@@ -426,7 +393,7 @@ The specific set of rare facts (T5--T6) a model knows constitutes a \emph{knowle
     \label{fig:fingerprint}
 \end{figure}
 
-\paragraph{Three regimes.} Applied pairwise across 188 models, the three metrics cleanly separate into three regimes (Figure~\ref{fig:lineage}a).\footnote{The regime boundaries are empirical: weight-sharing siblings (e.g., GPT-5 / GPT-5-pro, GPT-5.2 / GPT-5.2-pro, Claude Opus 4.5 / 4.5-think) concentrate at $\mathrm{HSS} \geq 0.30$; cross-vendor pairs with $\geq 10$ joint-wrong probes have median $\mathrm{HSS} = 0.05$.}
+\paragraph{Three regimes.} Applied pairwise across 201 models, the three metrics cleanly separate into three regimes (Figure~\ref{fig:lineage}a).\footnote{The regime boundaries are empirical: weight-sharing siblings (e.g., GPT-5 / GPT-5-pro, GPT-5.2 / GPT-5.2-pro, Claude Opus 4.5 / 4.5-think) concentrate at $\mathrm{HSS} \geq 0.30$; cross-vendor pairs with $\geq 10$ joint-wrong probes have median $\mathrm{HSS} = 0.05$.}
 \emph{Shared base} pairs ($\mathrm{HSS} \geq 0.30$, $J \geq 0.60$) represent the same weights served with different inference or light alignment; \emph{lineage} pairs ($0.10 \leq \mathrm{HSS} < 0.30$) are consistent with post-training, continued pretraining, or distillation on top of a shared ancestor; \emph{retrained} pairs ($\mathrm{HSS} < 0.10$ on $\geq 15$ joint-wrong probes) fall in the same statistical regime as cross-vendor independent pairs even when the models share a version-family label.
 
 \begin{figure}[H]
@@ -608,10 +575,10 @@ This has two practical corollaries. For \emph{researchers}, the fraction of one'
 The 188-model evaluation yields a handful of empirical regularities that we state crisply for future reference:
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Knowledge scales log-linearly.} Aggregate penalized accuracy grows by ${\sim}14.7$ percentage points per $10\times$ increase in parameters, across four orders of magnitude (135M--1{,}600B).
+    \item \textbf{Knowledge scales log-linearly.} Aggregate accuracy grows by ${\sim}15.9$ percentage points per $10\times$ increase in parameters, across four orders of magnitude (135M--1{,}600B).
     \item \textbf{Total parameters, not active, predict MoE knowledge.} $R^2 = 0.79$ versus $0.51$. Factual storage is distributed across experts, not localized to those activated per token.
     \item \textbf{Thinking mode is a flat ${\sim}2$ pp bonus.} The benefit peaks at T3--T4 and vanishes at T7: chain-of-thought aids retrieval, not storage.
-    \item \textbf{T7 is a ceiling.} Only two models in the evaluation score above $1\%$ penalized accuracy on T7 (Jamba-large at $2.8\%$, Grok-4 at $1.0\%$); every frontier proprietary model lands at $0\%$. A knowledge frontier exists beyond the current state of the art.
+    \item \textbf{T7 is a ceiling.} Only two models in the evaluation score above $1\%$ accuracy on T7 (Jamba-large at $2.8\%$, Grok-4 at $1.0\%$); every frontier proprietary model lands at $0\%$. A knowledge frontier exists beyond the current state of the art.
     \item \textbf{Safety tuning hides measurable knowledge.} Within the Claude Sonnet line, Sonnet 4 reads $-6.7$ pp lower than Claude 3.7 Sonnet on IKP, while its T5 refusal rate jumps from $54\%$ to $88\%$. The implied capacity gap is largely an artifact of refusal policy rather than parameter count.
     \item \textbf{Hallucination rate is a vendor fingerprint.} Google's smaller Gemma models hallucinate on 89--97\% of unknown probes at T5--T7; Anthropic Claude on 3--28\%. The hallucination penalty by construction rewards conservative vendors.
     \item \textbf{Hallucination similarity exposes lineage.} Comparing models on \emph{which wrong answer they give} on rare facts cleanly separates shared-base pairs ($\mathrm{HSS} \geq 0.30$) from independent retrains ($\mathrm{HSS} < 0.10$), even when raw Jaccard overlap is high. Several nominally ``\texttt{.x}'' point releases (GPT-5 $\to$ 5.1, Opus 4.6 $\to$ 4.7, every cross-generation Gemini pair) fall in the retrained regime, while others (Opus 4 $\to$ 4.1, DeepSeek V3 $\to$ V3.1) are clear lineages.
@@ -626,7 +593,7 @@ The 188-model evaluation yields a handful of empirical regularities that we stat
 
 Heavily safety-tuned models~\citep{ouyang2022training, christiano2017deep, bai2022constitutional} refuse probes they demonstrably know, producing systematic capacity underestimates that compound across generations. Within the Claude Sonnet line, Sonnet 4 scores 48.2\% while Claude 3.7 Sonnet---almost certainly a smaller or comparably-sized model---scores 54.9\%. On T5, Sonnet 4 issues explicit ``I don't know'' refusals on 175/200 probes (88\%); Sonnet 3.7 refuses only 108/200 (54\%). If Sonnet 4's underlying knowledge matches or exceeds Sonnet 3.7's, the $-6.7$ pp score gap is largely an artifact of refusal policy rather than capacity.
 
-This has two implications beyond IKP methodology. First, ``the model knows but will not say'' is empirically measurable, not just philosophically uncomfortable: the same prompts that elicit correct answers in earlier generations produce refusals in later ones, and the magnitude is tens of percentage points of ``refused but known'' capacity. Second, the hallucination penalty in our scoring ($0$ per refusal, $\lambda=-1.0$ per confidently wrong answer) rewards conservative vendors and penalizes aggressive ones by construction, producing a vendor-dependent gap between models with equivalent parametric knowledge. IKP estimates for heavily safety-tuned proprietary models should therefore be read as lower bounds; the true capacity is somewhere between the penalized and raw-accuracy predictions.
+This has two implications beyond IKP methodology. First, ``the model knows but will not say'' is empirically measurable, not just philosophically uncomfortable: the same prompts that elicit correct answers in earlier generations produce refusals in later ones, and the magnitude is tens of percentage points of ``refused but known'' capacity. Second, under our no-penalty scoring ($\lambda=0$: a refusal and a confidently wrong answer both score $0$), raw accuracy \emph{under-counts} the latent knowledge of refusal-heavy models, since a ``refused but known'' fact is scored identically to genuine ignorance. IKP estimates for heavily safety-tuned proprietary models should therefore be read as lower bounds; a mild penalty (Appendix~\ref{app:lambda}) raises them, so the true capacity lies at or above the no-penalty prediction.
 
 \subsection{Hallucination Rate as a Vendor Signature}
 
@@ -644,7 +611,7 @@ A common pattern in LLM evaluation is that any benchmark, once influential, even
 \subsection{The T7 Cliff: A Hard Ceiling on Parametric Storage}
 \label{sec:retrieval-imperative}
 
-\textbf{The T7 cliff is universal across 188 models.} Every frontier model we evaluated---GPT-5 Pro, Claude Opus 4.7, Gemini 3.1 Pro, DeepSeek V4 Pro (1.6T actual parameters)---scores $0.0\%$ penalized accuracy on T7, and $0$--$24\%$ on T6. This is not a threshold scaling is gradually approaching; it is a cliff at which all models land simultaneously, regardless of size or training budget. The probes at this tier are not exotic edge cases: they are specific historical facts with unambiguous answers, the researcher/artifact layer of the scientific record, and long-tail entities drawn from Wikidata.
+\textbf{The T7 cliff is universal across 201 models.} Every frontier model we evaluated---GPT-5 Pro, Claude Opus 4.7, Gemini 3.1 Pro, DeepSeek V4 Pro (1.6T actual parameters)---scores $0.0\%$ accuracy on T7, and $0$--$24\%$ on T6. This is not a threshold scaling is gradually approaching; it is a cliff at which all models land simultaneously, regardless of size or training budget. The probes at this tier are not exotic edge cases: they are specific historical facts with unambiguous answers, the researcher/artifact layer of the scientific record, and long-tail entities drawn from Wikidata.
 
 \textbf{Shannon entropy explains why the cliff is structural.} Storing a fact requires bits proportional to its information content, and transformer feed-forward layers store ${\sim}2$--$4$ bits of factual knowledge per parameter~\citep{allenzhu2025, morris2025memorize}. The long-tail entropy of globally-useful knowledge already exceeds what frontier models absorb, and grows faster than any foreseeable scaling trajectory can match. Post-training---vendor-specific RLHF, distillation across model sizes, training-data curation---accounts for at most a ${\sim}3\times$ per-parameter capacity multiplier and only transfers facts the larger teacher already holds; it cannot manufacture knowledge of long-tail facts no model has absorbed.
 
@@ -666,7 +633,7 @@ A common pattern in LLM evaluation is that any benchmark, once influential, even
 
 \textbf{Probe allocation.} The uniform allocation of 200 probes per tier is suboptimal: T1--T2 saturate early and T7 provides near-zero signal, while T3--T5 carry most of the discriminative power. Future versions could allocate more probes to the informative tiers.
 
-\textbf{T7 probe quality.} Nine T7 probes have $>25\%$ correct rate across 188 models, indicating they are miscategorized and should be reassigned to T5 or T6 in future versions. The most extreme case (Ivan Beschastnikh, 64.0\% correct) is clearly not T7-difficulty knowledge.
+\textbf{T7 probe quality.} Nine T7 probes have $>25\%$ correct rate across 201 models, indicating they are miscategorized and should be reassigned to T5 or T6 in future versions. The most extreme case (Ivan Beschastnikh, 64.0\% correct) is clearly not T7-difficulty knowledge.
 
 \subsection{Wikidata Long-Tail Data Quality}
 \label{sec:wikidata-audit}
@@ -714,7 +681,7 @@ Our results suggest a set of falsifiable questions that incompressibility-ground
 \section{Conclusion}
 \label{sec:conclusion}
 
-We began from the observation that frontier language models have quietly absorbed a large fraction of the open expert discourse of the past two decades---individual researchers, their named artifacts, founding years of institutions, and thousands of facts whose ``incompressible'' nature makes them impossible to reconstruct from language alone. Incompressible Knowledge Probes turn this observation into a measurement instrument: a principled method for estimating LLM effective knowledge capacity from black-box API access, and for characterizing what kinds of people, artifacts, and facts a model has actually internalized. The approach achieves $R^2 = 0.917$ across 89 open models from 19 vendors spanning four orders of magnitude (135M to 1{,}600B), validated by leave-one-out cross-validation (median fold $1.59\times$; $68.5\%$ of models predicted within $2\times$, $87.6\%$ within $3\times$). We demonstrate that total parameters---not active parameters---predict MoE knowledge capacity ($R^2 = 0.79$ vs $0.51$), provide effective-capacity estimates for 92 proprietary models, and show that within-family scatter (vendor-specific RLHF, training-data curation, post-training format) is sufficient to explain the distance between same-vendor variants without invoking a separate scaling regime.
+We began from the observation that frontier language models have quietly absorbed a large fraction of the open expert discourse of the past two decades---individual researchers, their named artifacts, founding years of institutions, and thousands of facts whose ``incompressible'' nature makes them impossible to reconstruct from language alone. Incompressible Knowledge Probes turn this observation into a measurement instrument: a principled method for estimating LLM effective knowledge capacity from black-box API access, and for characterizing what kinds of people, artifacts, and facts a model has actually internalized. The approach achieves $R^2 = 0.910$ across 93 open models from 19 vendors spanning four orders of magnitude (135M to 1{,}600B), under no-penalty scoring and validated by leave-one-out cross-validation (median fold $1.48\times$; $72\%$ of models predicted within $2\times$, $86\%$ within $3\times$). We demonstrate that total parameters---not active parameters---predict MoE knowledge capacity ($R^2 = 0.67$ vs $0.41$), provide effective-capacity estimates for 97 proprietary models, and show that within-family scatter (vendor-specific RLHF, training-data curation, post-training format) is sufficient to explain the distance between same-vendor variants without invoking a separate scaling regime.
 
 The broader claim is conceptual. The widely-reported saturation of reasoning benchmarks has been read as evidence that scaling is winding down. Our results suggest this reading confuses two distinct resources: procedural capability, which compresses under the Densing Law, and factual storage, which does not compress under pretraining. Measuring only the incompressible component, we find that parameter scaling continues across three orders of magnitude with no detectable time effect at fixed parameter count. How much of any given researcher's contributions will have flowed into the next generation of frontier models is now an empirical question with a measurement instrument.
 
