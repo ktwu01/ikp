@@ -365,7 +365,7 @@ Figure~\ref{fig:tier-boxplots} shows the distribution of per-tier accuracy acros
 
 This appendix provides the full regression tables supporting the Densing-Law falsification in Section~\ref{sec:densing-falsification}.
 
-\paragraph{Dataset.} We restrict to open-weight models with published parameter counts and completed IKP evaluations: $n = 96$ models from 23 vendors, with release dates spanning 2023-09-27 (Mistral-7B) to 2026-04-24 (DeepSeek V4). Release dates were manually collected and verified against authoritative sources (vendor blog posts, HuggingFace model cards, and archived press releases). For `-think' variants that share weights with a non-thinking base, the release date equals that of the base model. The full dated configuration, the analysis script, and the tidy data CSV are released with the paper.
+\paragraph{Dataset.} We restrict to open-weight models with published parameter counts and completed IKP evaluations: $n = 100$ models from 23 vendors, with release dates spanning 2023-09-27 (Mistral-7B) to 2026-06-12. Release dates were manually collected and verified against authoritative sources (vendor blog posts, HuggingFace model cards, and archived press releases). For `-think' variants that share weights with a non-thinking base, the release date equals that of the base model. The full dated configuration, the analysis script, and the tidy data CSV are released with the paper.
 
 \paragraph{Specifications.} All fits are OLS with IKP accuracy ($\lambda=0$) as the dependent variable. \texttt{months} is the release date minus 2024-01-01, in months. \texttt{thinking} is a 0/1 indicator; \texttt{MoE} is a 0/1 indicator for mixture-of-experts architecture. The baseline M0 contains only $\log_{10}(N_B)$.
 
@@ -376,18 +376,18 @@ This appendix provides the full regression tables supporting the Densing-Law fal
     \toprule
     Specification & $\log_{10}(N_B)$ & months & thinking & MoE & $R^2$ \\
     \midrule
-    M0: log10(params) only        & $+0.1362^{***}$ & --- & --- & --- & $0.7612$ \\
-    M1: + months                  & $+0.1397^{***}$ & $-0.0010$ & --- & --- & $0.7635$ \\
-    M2: + thinking                & $+0.1390^{***}$ & $-0.0012$ & $+0.0066$ & --- & $0.7639$ \\
-    M3: + MoE                     & $+0.1507^{***}$ & $-0.0004$ & $+0.0079$ & $-0.0396$ & $0.7718$ \\
+    M0: log10(params) only        & $+0.1494^{***}$ & --- & --- & --- & $0.8148$ \\
+    M1: + months                  & $+0.1445^{***}$ & $+0.0013$ & --- & --- & $0.8181$ \\
+    M2: + thinking                & $+0.1421^{***}$ & $+0.0008$ & $+0.0277$ & --- & $0.8237$ \\
+    M3: + MoE                     & $+0.1415^{***}$ & $+0.0007$ & $+0.0276$ & $+0.0022$ & $0.8237$ \\
     M$_t$: time only              & ---             & $+0.0062^{**}$ & --- & --- & $0.1033$ \\
     \bottomrule
     \end{tabular}
-    \caption{Full regression results for the Densing-Law analysis ($n = 96$). Entries are point estimates; $^{***}p < 0.001$, $^{**}p < 0.01$. The time coefficient is statistically indistinguishable from zero in every specification that controls for parameter count (M1--M3). The time-only model (M$_t$) produces a nominally significant but much smaller slope than the Densing prediction, and its explanatory power ($R^2 = 0.12$) collapses once log-params is included---indicating the residual time correlation is a selection effect (newer models skew larger), not a real per-parameter trend.}
+    \caption{Full regression results for the Densing-Law analysis ($n = 100$). Entries are point estimates; $^{***}p < 0.001$, $^{**}p < 0.01$. The time coefficient is statistically indistinguishable from zero in every specification that controls for parameter count (M1--M3). The time-only model (M$_t$) produces a nominally significant but much smaller slope than the Densing prediction, and its explanatory power ($R^2 = 0.22$) collapses once log-params is included---indicating the residual time correlation is a selection effect (newer models skew larger), not a real per-parameter trend.}
     \label{tab:densing-full}
 \end{table}
 
-\paragraph{Tests against the Densing prediction.} Under the observed $\log_{10}(N)$ slope of $\beta_1 = 0.136$, the Densing Law predicts a monthly accuracy gain of $\beta_2^{\mathrm{Densing}} = \beta_1 \cdot \log_{10}(2)/3.5 \approx +0.01171$/month. Table~\ref{tab:densing-tests} reports two-sided $t$-tests of the fitted time coefficient against both $0$ and this Densing target.
+\paragraph{Tests against the Densing prediction.} Under the observed $\log_{10}(N)$ slope of $\beta_1 = 0.149$, the Densing Law predicts a monthly accuracy gain of $\beta_2^{\mathrm{Densing}} = \beta_1 \cdot \log_{10}(2)/3.5 \approx +0.01285$/month. Table~\ref{tab:densing-tests} reports two-sided $t$-tests of the fitted time coefficient against both $0$ and this Densing target.
 
 \begin{table}[ht]
     \centering
@@ -396,16 +396,16 @@ This appendix provides the full regression tables supporting the Densing-Law fal
     \toprule
     Spec & $\hat\beta_2$ (months) & SE & $p$ (vs 0) & $t$ (vs Densing) & $p$ (vs Densing) \\
     \midrule
-    M1 & $-0.00104$ & $0.00109$ & $0.34$ & $-11.85$ & ${<}10^{-15}$ \\
-    M2 & $-0.00120$ & $0.00118$ & $0.31$ & $-11.04$ & ${<}10^{-15}$ \\
-    M3 & $-0.00043$ & $0.00121$ & $0.72$ & $-9.87$  & ${<}10^{-15}$ \\
+    M1 & $+0.00131$ & $0.00099$ & $0.19$ & $-11.64$ & ${<}10^{-15}$ \\
+    M2 & $+0.00075$ & $0.00103$ & $0.47$ & $-11.72$ & ${<}10^{-15}$ \\
+    M3 & $+0.00069$ & $0.00107$ & $0.52$ & $-10.93$ & ${<}10^{-15}$ \\
     \bottomrule
     \end{tabular}
     \caption{Hypothesis tests on the time coefficient. In every specification, the null of zero time trend is not rejected (all $p > 0.3$), while the Densing-Law prediction is rejected with effectively certainty ($|t| > 10$).}
     \label{tab:densing-tests}
 \end{table}
 
-\paragraph{Bootstrap inference.} A 4000-replicate nonparametric bootstrap on M1 gives a 95\% CI for the time coefficient of $[-0.00308, +0.00079]$, tightly centered on zero and well below the Densing target of $+0.01171$. The gap between the upper bound and the Densing prediction is roughly $11\times$ the bootstrap standard error.
+\paragraph{Bootstrap inference.} A 4000-replicate nonparametric bootstrap on M1 gives a 95\% CI for the time coefficient of $[-0.00037, +0.00326]$, spanning zero and well below the Densing target of $+0.01285$. The gap between the upper bound and the Densing prediction is roughly $11\times$ the bootstrap standard error.
 
 \paragraph{Robustness.} Three additional checks confirm the main finding: (i) excluding the two DeepSeek-R1 distilled models ($n = 79$) leaves $\hat\beta_2 = -0.00051$/month; (ii) excluding the five landmark models ($n = 76$) leaves $\hat\beta_2 = -0.00018$/month. In both cases the Densing prediction is rejected at $p < 10^{-15}$. Check (iii) uses $\log_{10}(\text{active\_B})$ in place of total parameters and yields $\hat\beta_2 = +0.0063$/month---nominally significant but still only half the Densing target, and also rejecting the Densing prediction ($p \approx 10^{-4}$). The apparent time effect on the active-params regression is a known artifact: MoE models store knowledge across all experts, not just the ones activated per token (Section~\ref{sec:results}), so active-params overstates $N_\mathrm{fact}$ for dense models and understates it for MoEs in a way that correlates with release date (newer models are more often MoE). This is why our preferred specification uses total parameters.
 
@@ -416,7 +416,7 @@ This appendix provides the full regression tables supporting the Densing-Law fal
 
 Figure~\ref{fig:gen-trajectories} traces knowledge evolution across model generations for 7 major families. Most families show steady improvement, but several notable regressions occur when vendors optimize for efficiency or safety at the expense of factual recall. Figure~\ref{fig:gpt5-family} reveals the internal size stratification of the GPT-5 family.
 
-\paragraph{GPT-5 family internal structure.} The 15 GPT-5 variants in our evaluation reveal OpenAI's model lineup structure through both coarse (overall-accuracy) and fine (knowledge-fingerprint) analysis. Clear size stratification appears at T5: nano (4\%), mini (20\%), base (76\%)---a ${\sim}20\times$ knowledge gap---with a ``pro'' shelf above the base (GPT-5.4-pro at 69.2\% is the strongest OpenAI model in the evaluation). Each \texttt{.x} iteration generally improves overall accuracy, but GPT-5.4-nano regresses from GPT-5-nano on T3 (57.5\% vs 72.0\%), suggesting a different distillation approach between generations. The fingerprint evidence (Section~\ref{sec:fingerprint}, Appendix~\ref{app:fingerprint}) is consistent with three distinct training runs: a GPT-5 / 5-pro / 5-think cluster (shared base), a GPT-5.1 / 5.2 / 5.2-pro cluster, and a GPT-5.3 / 5.4 / 5.4-pro cluster, with retrain-regime HSS at every transition between them.
+\paragraph{GPT-5 family internal structure.} The 15 GPT-5 variants in our evaluation reveal OpenAI's model lineup structure through both coarse (overall-accuracy) and fine (knowledge-fingerprint) analysis. Clear size stratification appears at T5: nano (4\%), mini (20\%), base (76\%)---a ${\sim}20\times$ knowledge gap---with a ``pro'' shelf above the base (GPT-5.4-pro at 69.2\% is the strongest OpenAI model in the evaluation). Each \texttt{.x} iteration generally improves overall accuracy, but GPT-5.4-nano regresses from GPT-5-nano on T3 (57.5\% vs 72.0\%), suggesting a different distillation approach between generations. The fingerprint evidence (Section~\ref{sec:fingerprint}, Appendix~\ref{app:fingerprint}) is consistent with a shared-base GPT-5 / 5-pro / 5-think cluster followed by a sequence of retrains: each \texttt{.x} release (5.1, 5.2, 5.3, 5.4) sits in the retrained regime relative to its predecessor, with only the ``pro'' variants (5.2-pro, 5.4-pro) tied to their base by lineage-level HSS.
 
 \begin{figure}[H]
     \centering
@@ -439,27 +439,27 @@ This appendix expands Section~\ref{sec:fingerprint} with the complete consecutiv
 
 \paragraph{Why HSS?} Raw Jaccard on correct-answer sets is dominated by probes that nearly all frontier models get right, producing high $J$ even for truly independent models (for example, GPT-5 vs.\ Claude Opus 4.5 scores $J = 0.56$ despite being independent trainings by different vendors). Lift partially corrects for this but is noisy when either model's correct set is small. Hallucination similarity---the rate at which two models produce the same normalized wrong answer on a probe that both got wrong---is a much cleaner signal: independent models almost never converge on the same wrong rare fact, while weight-sharing siblings do so on 30--55\% of joint-wrong probes. A bright threshold around $\mathrm{HSS} = 0.30$ separates the two regimes empirically.
 
-\paragraph{When the three metrics disagree.} The three metrics are complementary, not redundant. Heavy post-training can preserve rare-fact knowledge (high $J$ and high lift) while rewriting the generation style enough that a model gives \emph{differently worded} wrong answers on hard probes---driving $\mathrm{HSS}$ down. Nemotron-70B vs.\ Llama-3.1-70B is the textbook example: $J = 0.79$ and lift = 7.5 (clear shared base) but $\mathrm{HSS} = 0.08$ (SFT has scrambled the surface form of wrong answers). Conversely, a high-$\mathrm{HSS}$ pair with low $J$ and low lift is a weaker signal than it sounds, because it may reflect a single over-represented hallucination (e.g., a common name collision) rather than broad knowledge overlap. We classify a pair as \emph{shared base} only when all three metrics point the same way; one-sided signals are reported as ``possible lineage'' and should be investigated case-by-case.
+\paragraph{When the three metrics disagree.} The three metrics are complementary, not redundant. Heavy post-training can preserve rare-fact knowledge (high $J$ and high lift) while rewriting the generation style enough that a model gives \emph{differently worded} wrong answers on hard probes---driving $\mathrm{HSS}$ down. Nemotron-70B vs.\ Llama-3.1-70B is the textbook example: $J = 0.81$ and lift = 6.8 (clear shared base) but $\mathrm{HSS} = 0.08$ (SFT has scrambled the surface form of wrong answers). Conversely, a high-$\mathrm{HSS}$ pair with low $J$ and low lift is a weaker signal than it sounds, because it may reflect a single over-represented hallucination (e.g., a common name collision) rather than broad knowledge overlap. We classify a pair as \emph{shared base} only when all three metrics point the same way; one-sided signals are reported as ``possible lineage'' and should be investigated case-by-case.
 
 \paragraph{Release-practice summary.} Applied to consecutive-generation pairs across all tracked families (see Table~\ref{tab:fp-all-families}), three release patterns recur:
 \begin{itemize}[leftmargin=*]
     \item \emph{Fine-tune-on-same-base releases} (lineage): Claude Opus 4 $\to$ 4.1, Sonnet 4 $\to$ 4.5, DeepSeek V3 $\to$ V3.1 $\to$ V3.2, GLM 4.6 $\to$ 4.7, Kimi K2 $\to$ K2.5 $\to$ K2.6. These preserve a large fraction of the base's rare-fact mistakes.
-    \item \emph{Inference/alignment variants of a shared base} (shared-base): GPT-5 / GPT-5-pro / GPT-5-think; GPT-5.2 / 5.2-pro; Claude Opus 4.5 / 4.5-think. These show the highest $\mathrm{HSS}$ in the dataset.
+    \item \emph{Inference/alignment variants of a shared base} (shared-base): GPT-5 / GPT-5-pro / GPT-5-think; Claude Opus 4.5 / 4.5-think; DeepSeek V3.2 / V3.2-think. These show the highest $\mathrm{HSS}$ in the dataset.
     \item \emph{Full retrains} (retrained): every GPT-5.$x$ $\to$ 5.$(x{+}1)$ transition for $x = 0,1,2,3$; Claude Opus 4.6 $\to$ 4.7; every cross-generation Gemini pair; GLM 4.7 $\to$ 5 and 5 $\to$ 5.1. For these, the same-wrong-answer count is statistically indistinguishable from what we see between models built by different vendors, despite the shared version-family label.
 \end{itemize}
 
-\paragraph{Cross-vendor outliers: how to read the table.} Applying the same test to the ${\sim}13\,000$ cross-vendor pairs flags a small fraction at $\mathrm{HSS} \geq 0.20$ with $\geq 10$ joint-wrong probes (the full list is Table~\ref{tab:fp-cross-full}). Interpretation requires care: a single high-$\mathrm{HSS}$ pair between two independent frontier models is not strong evidence of cross-family distillation given the number of pairs tested. More suggestive is the \emph{pattern} across pairs involving the same model on one side:
+\paragraph{Cross-vendor outliers: how to read the table.} Applying the same test to the ${\sim}14\,000$ cross-vendor pairs flags a small fraction at $\mathrm{HSS} \geq 0.20$ with $\geq 10$ joint-wrong probes (the full list is Table~\ref{tab:fp-cross-full}). Interpretation requires care: a single high-$\mathrm{HSS}$ pair between two independent frontier models is not strong evidence of cross-family distillation given the number of pairs tested. More suggestive is the \emph{pattern} across pairs involving the same model on one side:
 
 \begin{itemize}[leftmargin=*]
-    \item \textbf{Baidu ERNIE 4.5-300B-A47B} is above the cross-vendor threshold against five independent models simultaneously (GPT-4o $\mathrm{HSS}=0.44$, Llama-3-70B $0.43$, Mistral-Large $0.40$, Qwen-Max $0.33$, Mistral-Small-24B $0.33$). This is the pattern expected when a model is trained on a large mixture of distilled outputs from Western frontier models rather than on a single teacher.
-    \item \textbf{Llama 3.1 70B} appears as an apparent ``teacher'' against many other models ($\mathrm{HSS} \geq 0.30$ vs.\ grok-3, gemini-2.0-flash, qwen3-max, nova-pro, and several older OpenAI models). This is consistent with Llama 3.1 being the most widely-used open base for synthetic-data generation in 2024--2025, so its characteristic hallucinations leak into many downstream datasets. It is \emph{not} evidence that any single downstream vendor distilled from it directly.
-    \item \textbf{deepseek-r1-distill-llama-70b vs.\ Llama-3.1-70B} ($\mathrm{HSS} = 0.33$) is a known distillation-into-base pairing and serves as a positive control for the method.
-    \item Individual high-$\mathrm{HSS}$ frontier-vs-frontier pairs (GPT-5 vs.\ Grok-4 at $0.31$; GPT-5-pro vs.\ Kimi-K2.6 at $0.27$) are individually above threshold but have too few joint-wrong probes, at our probe count, to reject an innocent-explanation null (e.g., training on similar recent web snapshots or on overlapping synthetic-data mixtures).
+    \item \textbf{Baidu ERNIE 4.5-300B-A47B} is above the cross-vendor threshold against four independent models simultaneously (Llama-3-70B $\mathrm{HSS}=0.50$, GPT-4o $0.46$, Mistral-Small-24B $0.40$, Qwen-Max $0.36$). This is the pattern expected when a model is trained on a large mixture of distilled outputs from Western frontier models rather than on a single teacher.
+    \item \textbf{Llama 3.1 70B} appears as an apparent ``teacher'' against many other models ($\mathrm{HSS} \geq 0.30$ vs.\ grok-3, gemini-2.0-flash, qwen3-max, GPT-4.1-nano, and several other models). This is consistent with Llama 3.1 being the most widely-used open base for synthetic-data generation in 2024--2025, so its characteristic hallucinations leak into many downstream datasets. It is \emph{not} evidence that any single downstream vendor distilled from it directly.
+    \item \textbf{deepseek-r1-distill-llama-70b vs.\ Llama-3.1-70B} ($\mathrm{HSS} = 0.31$) is a known distillation-into-base pairing and serves as a positive control for the method.
+    \item Individual high-$\mathrm{HSS}$ frontier-vs-frontier pairs (GPT-5 vs.\ Grok-4 at $0.38$; GPT-5-pro vs.\ Kimi-K2.6 at $0.32$) are individually above threshold but have too few joint-wrong probes, at our probe count, to reject an innocent-explanation null (e.g., training on similar recent web snapshots or on overlapping synthetic-data mixtures).
 \end{itemize}
 
 \paragraph{Limitations.} The method identifies \emph{statistical} overlap in knowledge and hallucination patterns; it does not distinguish between direct distillation and shared training data (e.g., two vendors independently scraping the same recent Wikipedia dump or licensing the same curated corpus). It also has limited resolution when the number of joint-wrong rare-fact probes is small: frontier models that each score 70--80\% on T5--T6 jointly get only 20--50 probes wrong, and $\mathrm{HSS}$ estimated from small samples is noisy. Probe-pool expansion into T6--T7 would tighten these estimates and is a natural next step.
 
-\paragraph{Known-provenance positive controls.} As a sanity check, Table~\ref{tab:fp-controls} reports metrics for six pairs whose parent-child relationship is publicly disclosed. Every pair with $\geq 10$ joint-wrong probes shows elevated lift (2.4--7.5) and $J$ (0.32--0.79) consistent with shared training signal; $\mathrm{HSS}$ on heavily post-trained derivatives (Nemotron, R1-distill) is suppressed for the reason discussed above, which is why we recommend using all three metrics jointly rather than thresholding $\mathrm{HSS}$ alone.
+\paragraph{Known-provenance positive controls.} As a sanity check, Table~\ref{tab:fp-controls} reports metrics for six pairs whose parent-child relationship is publicly disclosed. Every pair with $\geq 10$ joint-wrong probes shows elevated lift (2.1--7.9) and $J$ (0.15--0.81) consistent with shared training signal; $\mathrm{HSS}$ on heavily post-trained derivatives (Nemotron, R1-distill) is suppressed for the reason discussed above, which is why we recommend using all three metrics jointly rather than thresholding $\mathrm{HSS}$ alone.
 
 \input{../results/tables/fp_controls.tex}
 
@@ -467,7 +467,7 @@ This appendix expands Section~\ref{sec:fingerprint} with the complete consecutiv
 \begin{itemize}[leftmargin=*]
     \item \emph{Frequent retrains}: Gemini Flash/Pro, Gemma 2/3/4, Qwen 2.5/3/3.5, most GPT-5 \texttt{.x} transitions, and the Opus 4.6/4.7 step all sit in the retrained regime. These vendors appear to prefer full retrains over incremental post-training when bumping version numbers.
     \item \emph{Incremental lineages}: DeepSeek V3 $\to$ V3.1 $\to$ V3.2, GLM 4.6 $\to$ 4.7, Kimi K2 $\to$ K2.5 $\to$ K2.6, and the Nova / Command families show consistent lineage-regime HSS, consistent with continued pretraining or large-scale post-training on a stable base.
-    \item \emph{Shared-base variants}: Thinking / reasoning variants (Opus 4.5 / 4.5-think, GPT-5.2 / 5.2-pro, DeepSeek V3.2 / V3.2-think) and ``pro'' variants of the same base generation concentrate at $\mathrm{HSS} \geq 0.30$.
+    \item \emph{Shared-base variants}: Thinking / reasoning variants (Opus 4.5 / 4.5-think, GPT-5 / GPT-5-pro, DeepSeek V3.2 / V3.2-think) and ``pro'' variants of the same base generation concentrate at $\mathrm{HSS} \geq 0.30$.
 \end{itemize}
 
 \input{../results/tables/fp_all_families.tex}

@@ -91,25 +91,18 @@ def months_since(date_str: str, ref: datetime = REF_DATE) -> float:
 
 def load_data() -> pd.DataFrame:
     cfg = json.loads(CFG_PATH.read_text())["models"]
-    # Prefer final_assembly.json (lambda=-1, researcher v2 + non-researcher v1).
-    fa_path = RESULTS_DIR / "final_assembly.json"
-    fa = {}
-    if fa_path.exists():
-        for r in json.loads(fa_path.read_text()):
-            fa[r["model"]] = r
+    # Use the current per-model results (no-penalty lambda=0 scoring), consistent
+    # with the rest of the paper.
     rows = []
     for name, m in cfg.items():
         if m.get("type") != "open":
             continue
         if not m.get("params_B"):
             continue
-        if name in fa:
-            r = fa[name]
-        else:
-            rp = RESULTS_DIR / f"{name}.json"
-            if not rp.exists():
-                continue
-            r = json.loads(rp.read_text())
+        rp = RESULTS_DIR / f"{name}.json"
+        if not rp.exists():
+            continue
+        r = json.loads(rp.read_text())
         acc = r.get("accuracy")
         raw = r.get("raw_accuracy")
         if acc is None or raw is None:
@@ -248,7 +241,7 @@ def run_analysis():
     xs = np.linspace(df["log10_params"].min() - 0.1, df["log10_params"].max() + 0.1, 100)
     ax0.plot(xs, m0.params[0] + m0.params[1] * xs, "k-", lw=1.5, alpha=0.7, label=f"fit: slope={beta_params:.3f}, R^2={m0.rsquared:.3f}")
     ax0.set_xlabel("log10(total params, B)")
-    ax0.set_ylabel("Penalized IKP accuracy")
+    ax0.set_ylabel("IKP accuracy")
     ax0.set_title(f"IKP scaling (n={len(df)} open-weight models)")
     ax0.legend(loc="upper left")
     cbar = plt.colorbar(sc, ax=ax0)
@@ -281,7 +274,7 @@ def run_analysis():
     P = lines.append
     P("# Densing Law Falsification Analysis")
     P("")
-    P(f"**Dataset.** {len(df)} open-weight models with published parameter counts and completed IKP evaluations, release dates spanning {df['date'].min().date()} to {df['date'].max().date()}. Penalized accuracy uses the canonical $\\lambda = -1.0$ hallucination penalty (researcher v2 + non-researcher v1 verdicts).")
+    P(f"**Dataset.** {len(df)} open-weight models with published parameter counts and completed IKP evaluations, release dates spanning {df['date'].min().date()} to {df['date'].max().date()}. Accuracy uses no-penalty scoring ($\\lambda = 0$).")
     P("")
     P("**Thesis under test.** The Densing Law (Xiao et al., 2025) states that capability-per-parameter doubles every ~3.5 months. If IKP measures incompressible factual storage, this trend should be *absent* from IKP; if IKP still rides the Densing Law, it would weaken the paper's incompressibility claim.")
     P("")

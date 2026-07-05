@@ -1,214 +1,214 @@
 ### OpenAI GPT base
   pair                                                    J   lift     HSS  both_w  class
-  gpt-3.5-turbo          -> gpt-4                   0.436   1.80   0.118      51  independent
-  gpt-4                  -> gpt-4-turbo             0.634   1.62   0.111      45  lineage
-  gpt-4-turbo            -> gpt-4o                  0.448   1.47   0.212      33  independent
-  gpt-4o                 -> gpt-4.1                 0.527   1.51   0.333      27  lineage
-  gpt-4.1                -> gpt-5                   0.735   1.42   0.000      42  retrained
-  gpt-5                  -> gpt-5.1                 0.638   1.61   0.000      23  retrained
-  gpt-5.1                -> gpt-5.2                 0.538   1.75   0.083      12  retrained
-  gpt-5.2                -> gpt-5.3                 0.596   1.74   0.040      25  retrained
-  gpt-5.3                -> gpt-5.4                 0.714   1.68   0.082      49  retrained
+  gpt-3.5-turbo          -> gpt-4                   0.448   1.72   0.078      51  retrained
+  gpt-4                  -> gpt-4-turbo             0.647   1.59   0.089      45  retrained
+  gpt-4-turbo            -> gpt-4o                  0.482   1.47   0.200      30  independent
+  gpt-4o                 -> gpt-4.1                 0.538   1.46   0.318      22  lineage
+  gpt-4.1                -> gpt-5                   0.758   1.38   0.000      38  retrained
+  gpt-5                  -> gpt-5.1                 0.656   1.53   0.000      22  retrained
+  gpt-5.1                -> gpt-5.2                 0.555   1.69   0.091      11  retrained
+  gpt-5.2                -> gpt-5.3                 0.596   1.67   0.000      23  retrained
+  gpt-5.3                -> gpt-5.4                 0.715   1.63   0.083      48  retrained
 ### OpenAI GPT-5 base/pro/think cluster
   pair                                                    J   lift     HSS  both_w  class
-  gpt-5                  -> gpt-5-pro               0.822   1.54   0.511      47  shared-base
-  gpt-5-pro              -> gpt-5-think             0.837   1.51   0.532      47  shared-base
+  gpt-5                  -> gpt-5-pro               0.836   1.48   0.561      41  shared-base
+  gpt-5-pro              -> gpt-5-think             0.846   1.46   0.523      44  shared-base
 ### OpenAI GPT-5 .x transitions
   pair                                                    J   lift     HSS  both_w  class
-  gpt-5                  -> gpt-5.1                 0.638   1.61   0.000      23  retrained
-  gpt-5.1                -> gpt-5.2                 0.538   1.75   0.083      12  retrained
-  gpt-5.2                -> gpt-5.2-pro             0.777   2.25   0.325      40  shared-base
-  gpt-5.2-pro            -> gpt-5.3                 0.590   1.70   0.042      24  retrained
-  gpt-5.3                -> gpt-5.4                 0.714   1.68   0.082      49  retrained
-  gpt-5.4                -> gpt-5.4-pro             0.713   1.49   0.113      71  lineage
+  gpt-5                  -> gpt-5.1                 0.656   1.53   0.000      22  retrained
+  gpt-5.1                -> gpt-5.2                 0.555   1.69   0.091      11  retrained
+  gpt-5.2                -> gpt-5.2-pro             0.776   2.15   0.286      42  lineage
+  gpt-5.2-pro            -> gpt-5.3                 0.597   1.64   0.038      26  retrained
+  gpt-5.3                -> gpt-5.4                 0.715   1.63   0.083      48  retrained
+  gpt-5.4                -> gpt-5.4-pro             0.715   1.44   0.101      69  lineage
 ### OpenAI GPT-mini
   pair                                                    J   lift     HSS  both_w  class
-  gpt-4o-mini            -> gpt-4.1-mini            0.293   2.19   0.079     152  retrained
-  gpt-4.1-mini           -> gpt-5-mini              0.336   2.70   0.333       6  independent
-  gpt-5-mini             -> gpt-5.4-mini            0.292   2.52   0.000       4  independent
+  gpt-4o-mini            -> gpt-4.1-mini            0.304   2.06   0.070     143  retrained
+  gpt-4.1-mini           -> gpt-5-mini              0.361   2.45   0.286       7  independent
+  gpt-5-mini             -> gpt-5.4-mini            0.311   2.27   0.000       5  independent
 ### OpenAI GPT-nano
   pair                                                    J   lift     HSS  both_w  class
-  gpt-4.1-nano           -> gpt-5-nano              0.100   5.07   0.000       9  independent
-  gpt-5-nano             -> gpt-5.4-nano            0.118   9.09   0.000       3  independent
+  gpt-4.1-nano           -> gpt-5-nano              0.107   4.38   0.000       8  independent
+  gpt-5-nano             -> gpt-5.4-nano            0.100   6.67   0.000       4  independent
 ### OpenAI o-series
   pair                                                    J   lift     HSS  both_w  class
-  o1                     -> o3-mini                 0.115   1.73   0.000      15  retrained
-  o3-mini                -> o3                      0.099   1.48   0.000      26  retrained
-  o3                     -> o4-mini-think           0.381   1.40   0.000      52  retrained
+  o1                     -> o3-mini                 0.131   1.62   0.000      17  retrained
+  o3-mini                -> o3                      0.120   1.47   0.000      29  retrained
+  o3                     -> o4-mini-think           0.404   1.38   0.000      46  retrained
 ### Anthropic Claude Opus
   pair                                                    J   lift     HSS  both_w  class
-  claude-opus-4          -> claude-opus-4.1         0.500   8.00   1.000       7  lineage
-  claude-opus-4.1        -> claude-opus-4.5         0.239   1.93   0.167       6  independent
-  claude-opus-4.5        -> claude-opus-4.6         0.731   1.64   0.100      30  lineage
-  claude-opus-4.6        -> claude-opus-4.7         0.601   1.69   0.000      17  retrained
+  claude-opus-4          -> claude-opus-4.1         0.525   6.56   0.889       9  lineage
+  claude-opus-4.1        -> claude-opus-4.5         0.282   1.87   0.111       9  independent
+  claude-opus-4.5        -> claude-opus-4.6         0.757   1.62   0.091      33  retrained
+  claude-opus-4.6        -> claude-opus-4.7         0.604   1.64   0.000      15  retrained
 ### Anthropic Claude Sonnet
   pair                                                    J   lift     HSS  both_w  class
-  claude-3.7-sonnet      -> claude-sonnet-4         0.147   1.79   0.000       4  independent
-  claude-sonnet-4        -> claude-sonnet-4.5       0.484   6.06   0.429       7  independent
-  claude-sonnet-4.5      -> claude-sonnet-4.6       0.315   2.09   0.091      11  retrained
+  claude-3.7-sonnet      -> claude-sonnet-4         0.141   1.72   0.250       4  independent
+  claude-sonnet-4        -> claude-sonnet-4.5       0.449   5.61   0.429       7  independent
+  claude-sonnet-4.5      -> claude-sonnet-4.6       0.324   2.00   0.133      15  independent
 ### Anthropic Claude Haiku
   pair                                                    J   lift     HSS  both_w  class
-  claude-3-haiku         -> claude-3.5-haiku        0.064   3.33   0.000       1  independent
-  claude-3.5-haiku       -> claude-haiku-4.5        0.175   3.93   0.158      19  independent
+  claude-3-haiku         -> claude-3.5-haiku        0.041   2.82   0.000       1  independent
+  claude-3.5-haiku       -> claude-haiku-4.5        0.136   2.95   0.167      18  independent
 ### Google Gemini Flash
   pair                                                    J   lift     HSS  both_w  class
-  gemini-2.0-flash       -> gemini-2.5-flash        0.490   2.29   0.000      55  retrained
-  gemini-2.5-flash       -> gemini-3-flash          0.283   1.12   0.056      18  retrained
+  gemini-2.0-flash       -> gemini-2.5-flash        0.497   2.14   0.021      48  retrained
+  gemini-2.5-flash       -> gemini-3-flash          0.297   1.09   0.067      15  retrained
 ### Google Gemini Pro
   pair                                                    J   lift     HSS  both_w  class
-  gemini-2.5-pro         -> gemini-3.1-pro          0.665   1.03   0.000       5  independent
+  gemini-2.5-pro         -> gemini-3.1-pro          0.692   1.03   0.000       5  independent
 ### Google Gemini Flash-Lite
   pair                                                    J   lift     HSS  both_w  class
-  gemini-2.5-flash-lite  -> gemini-3.1-flash-lite   0.211   1.30   0.050      80  retrained
+  gemini-2.5-flash-lite  -> gemini-3.1-flash-lite   0.237   1.29   0.029      70  retrained
 ### Google Gemma
   pair                                                    J   lift     HSS  both_w  class
-  gemma-2-2b             -> gemma-3-1b              0.048   4.10   0.007     284  retrained
-  gemma-3-1b             -> gemma-3-4b              0.000   0.00   0.006     351  retrained
-  gemma-3-4b             -> gemma-3-12b             0.206   6.76   0.039     336  retrained
-  gemma-3-12b            -> gemma-2-27b             0.000   0.00   0.041      98  retrained
-  gemma-2-27b            -> gemma-3-27b             0.118   3.66   0.043      93  retrained
-  gemma-3-27b            -> gemma-4-31b             0.078   1.39   0.000     232  retrained
+  gemma-2-2b             -> gemma-3-1b              0.048   4.10   0.014     284  retrained
+  gemma-3-1b             -> gemma-3-4b              0.000   0.00   0.006     349  retrained
+  gemma-3-4b             -> gemma-3-12b             0.200   6.48   0.042     334  retrained
+  gemma-3-12b            -> gemma-2-27b             0.000   0.00   0.044      90  retrained
+  gemma-2-27b            -> gemma-3-27b             0.118   3.81   0.047      85  retrained
+  gemma-3-27b            -> gemma-4-31b             0.076   1.33   0.000     238  retrained
 ### Meta Llama 3 (70B)
   pair                                                    J   lift     HSS  both_w  class
-  llama-3-70b            -> llama-3.1-70b           0.500   4.74   0.636      11  lineage
-  llama-3.1-70b          -> llama-3.3-70b           0.534   5.17   0.375      16  lineage
+  llama-3-70b            -> llama-3.1-70b           0.424   4.06   0.625       8  independent
+  llama-3.1-70b          -> llama-3.3-70b           0.500   4.42   0.400      15  lineage
 ### Meta Llama 3 (8B)
   pair                                                    J   lift     HSS  both_w  class
-  llama-3-8b             -> llama-3.1-8b            0.231  13.71   0.222       9  independent
+  llama-3-8b             -> llama-3.1-8b            0.214  12.70   0.125       8  independent
 ### Meta Llama 4
   pair                                                    J   lift     HSS  both_w  class
-  llama-4-scout          -> llama-4-maverick        0.250   2.14   0.083      48  retrained
+  llama-4-scout          -> llama-4-maverick        0.255   2.01   0.065      46  retrained
 ### Alibaba Qwen dense (7B)
   pair                                                    J   lift     HSS  both_w  class
-  qwen-2.5-7b            -> qwen3-8b-think          0.143  10.26   0.042     118  retrained
+  qwen-2.5-7b            -> qwen3-8b-think          0.143  10.26   0.040     100  retrained
 ### Alibaba Qwen dense (70B)
   pair                                                    J   lift     HSS  both_w  class
-  qwen-2.5-72b           -> qwq-32b-think           0.250   4.92   0.036      56  retrained
+  qwen-2.5-72b           -> qwq-32b-think           0.218   4.28   0.032      62  retrained
 ### Alibaba Qwen Max
   pair                                                    J   lift     HSS  both_w  class
-  qwen-max               -> qwen3-max               0.216   2.16   0.176      17  independent
+  qwen-max               -> qwen3-max               0.224   2.34   0.231      13  independent
 ### Alibaba Qwen Plus
   pair                                                    J   lift     HSS  both_w  class
-  qwen-plus              -> qwen3.5-plus-think      0.455   1.95   0.000     116  retrained
-  qwen3.5-plus-think     -> qwen3.6-plus-think      0.533   2.20   0.095      21  retrained
+  qwen-plus              -> qwen3.5-plus-think      0.464   2.10   0.000      94  retrained
+  qwen3.5-plus-think     -> qwen3.6-plus-think      0.545   2.36   0.105      19  lineage
 ### Alibaba Qwen large MoE
   pair                                                    J   lift     HSS  both_w  class
-  qwen3-235b-a22b-think  -> qwen3.5-397b-a17b-think  0.221   2.14   0.009     106  retrained
+  qwen3-235b-a22b-think  -> qwen3.5-397b-a17b-think  0.243   2.40   0.011      87  retrained
 ### DeepSeek V3
   pair                                                    J   lift     HSS  both_w  class
-  deepseek-v3            -> deepseek-v3.1           0.411   2.04   0.227      22  independent
-  deepseek-v3.1          -> deepseek-v3.2           0.471   2.36   0.278      18  independent
+  deepseek-v3            -> deepseek-v3.1           0.380   1.82   0.227      22  independent
+  deepseek-v3.1          -> deepseek-v3.2           0.503   2.25   0.333      21  lineage
 ### Zhipu GLM
   pair                                                    J   lift     HSS  both_w  class
-  glm-4.5-think          -> glm-4.6-think           0.621   1.71   0.038      52  retrained
-  glm-4.6-think          -> glm-4.7-think           0.686   1.60   0.198     131  lineage
-  glm-4.7-think          -> glm-5-think             0.543   1.32   0.022      91  retrained
-  glm-5-think            -> glm-5.1-think           0.690   1.50   0.012      83  retrained
+  glm-4.5-think          -> glm-4.6-think           0.572   1.66   0.041      49  retrained
+  glm-4.6-think          -> glm-4.7-think           0.707   1.58   0.209     129  lineage
+  glm-4.7-think          -> glm-5-think             0.561   1.33   0.011      92  retrained
+  glm-5-think            -> glm-5.1-think           0.687   1.46   0.012      84  retrained
 ### xAI Grok
   pair                                                    J   lift     HSS  both_w  class
-  grok-3                 -> grok-4                  0.772   1.36   0.043      46  retrained
-  grok-4                 -> grok-4.20               0.540   1.27   0.000      52  retrained
+  grok-3                 -> grok-4                  0.779   1.45   0.027      37  retrained
+  grok-4                 -> grok-4.20               0.557   1.38   0.000      44  retrained
 ### Moonshot Kimi K2
   pair                                                    J   lift     HSS  both_w  class
-  kimi-k2                -> kimi-k2.5-think         0.595   1.46   0.020      50  retrained
-  kimi-k2.5-think        -> kimi-k2.6-think         0.772   1.68   0.451      51  shared-base
+  kimi-k2                -> kimi-k2.5-think         0.574   1.48   0.023      44  retrained
+  kimi-k2.5-think        -> kimi-k2.6-think         0.765   1.63   0.510      49  shared-base
 ### Mistral large/medium
   pair                                                    J   lift     HSS  both_w  class
-  mistral-medium-3.1     -> mistral-large           0.421   2.97   0.000      36  retrained
+  mistral-medium-3.1     -> mistral-large           0.420   3.19   0.000      33  retrained
 ### Mistral small/open
   pair                                                    J   lift     HSS  both_w  class
-  mistral-7b             -> mistral-nemo-12b        0.216   6.32   0.017     177  retrained
-  mistral-nemo-12b       -> mistral-small-24b       0.333   8.35   0.070      57  retrained
+  mistral-7b             -> mistral-nemo-12b        0.189   5.80   0.018     164  retrained
+  mistral-nemo-12b       -> mistral-small-24b       0.324   8.03   0.066      61  retrained
 ### Mistral MoE (Mixtral)
   pair                                                    J   lift     HSS  both_w  class
-  mixtral-8x7b           -> mixtral-8x22b           0.215   1.87   0.000      62  retrained
+  mixtral-8x7b           -> mixtral-8x22b           0.209   1.78   0.000      51  retrained
 ### Mistral ministral
   pair                                                    J   lift     HSS  both_w  class
-  ministral-3b           -> ministral-8b            0.080   2.19   0.021     290  retrained
+  ministral-3b           -> ministral-8b            0.085   2.46   0.023     264  retrained
 ### Amazon Nova
   pair                                                    J   lift     HSS  both_w  class
-  nova-micro             -> nova-pro                0.136   3.17   0.067     134  retrained
-  nova-pro               -> nova-premier            0.321   2.02   0.014     146  retrained
+  nova-micro             -> nova-pro                0.135   3.51   0.070     114  retrained
+  nova-pro               -> nova-premier            0.327   2.24   0.008     122  retrained
 ### Cohere Command
   pair                                                    J   lift     HSS  both_w  class
-  command-r7b            -> command-r-plus          0.024   1.14   0.000      30  retrained
-  command-r-plus         -> command-a               0.231   3.09   0.048      21  retrained
+  command-r7b            -> command-r-plus          0.026   1.30   0.000      27  retrained
+  command-r-plus         -> command-a               0.232   3.50   0.053      19  retrained
 ### NousResearch Hermes
   pair                                                    J   lift     HSS  both_w  class
-  hermes-3-405b          -> hermes-4-405b           0.275   8.49   1.000       3  independent
+  hermes-3-405b          -> hermes-4-405b           0.356   8.02   0.750       4  independent
 ### Microsoft Phi
   pair                                                    J   lift     HSS  both_w  class
-  phi-3-mini             -> phi-4                   0.000   0.00   0.000     174  retrained
+  phi-3-mini             -> phi-4                   0.000   0.00   0.000     181  retrained
 
 
 ### Cross-vendor outliers (HSS >= 0.20, both_wrong >= 10)
   pair                                                         J   lift     HSS  both_w  vendors
-  gemini-3-flash-think       <-> gpt-4o                      0.376   1.06   0.500      10      Google/OpenAI    
-  gpt-4o-mini                <-> hermes-4-405b               0.234   3.36   0.500      10      OpenAI/NousResearch
-  ernie-4.5-300b-a47b        <-> gpt-4o                      0.338   2.35   0.438      16       Other/OpenAI    
-  ernie-4.5-300b-a47b        <-> llama-3-70b                 0.447   3.67   0.429      14       Other/Meta      
-  ernie-4.5-300b-a47b        <-> mistral-large               0.393   3.64   0.400      10       Other/Mistral   
-  gemini-2.0-flash           <-> llama-3.1-70b               0.283   2.63   0.400      15      Google/Meta      
-  gpt-4.1                    <-> llama-3.1-70b               0.169   1.52   0.400      10      OpenAI/Meta      
-  gpt-4.1-nano               <-> llama-3.1-70b               0.163   2.06   0.400      15      OpenAI/Meta      
-  gpt-4                      <-> llama-3.1-70b               0.226   2.04   0.385      13      OpenAI/Meta      
-  llama-3.1-70b              <-> qwen3-max                   0.211   1.97   0.385      13        Meta/Alibaba   
-  claude-sonnet-4.6          <-> deepseek-v3.1               0.349   1.78   0.333      12   Anthropic/DeepSeek  
-  deepseek-r1-distill-llama-70b-think <-> llama-3.1-70b               0.208   2.22   0.333      15    DeepSeek/Meta      
-  ernie-4.5-300b-a47b        <-> mistral-small-24b           0.265   4.72   0.333      18       Other/Mistral   
-  ernie-4.5-300b-a47b        <-> qwen-max                    0.291   3.68   0.333      15       Other/Alibaba   
-  gemini-3.1-flash-lite      <-> llama-3.1-70b               0.152   1.37   0.333      12      Google/Meta      
-  grok-3                     <-> llama-3.1-70b               0.155   1.40   0.333      12         xAI/Meta      
-  llama-3-70b                <-> mistral-large               0.533   4.06   0.333      15        Meta/Mistral   
-  gemini-3.1-flash-lite      <-> gpt-4o                      0.408   1.23   0.321      28      Google/OpenAI    
-  gpt-5                      <-> grok-4                      0.632   1.28   0.310      29      OpenAI/xAI       
-  claude-sonnet-4.5-think    <-> gpt-4o                      0.417   1.67   0.308      13   Anthropic/OpenAI    
-  gpt-3.5-turbo              <-> llama-3.1-70b               0.333   3.16   0.308      13      OpenAI/Meta      
-  grok-3                     <-> qwen-max                    0.140   1.39   0.308      13         xAI/Alibaba   
-  claude-haiku-4.5           <-> mistral-large               0.224   5.01   0.300      10   Anthropic/Mistral   
-  claude-opus-4.7            <-> ernie-4.5-300b-a47b         0.323   2.24   0.300      10   Anthropic/Other     
-  command-r-plus             <-> gpt-5                       0.124   1.57   0.300      10      Cohere/OpenAI    
-  gemini-2.0-flash           <-> qwen-max                    0.218   2.29   0.300      20      Google/Alibaba   
-  gemma-4-31b                <-> hermes-4-405b               0.082   1.54   0.300      10   Google-OS/NousResearch
-  gpt-4-turbo                <-> llama-3.1-70b               0.194   1.77   0.300      10      OpenAI/Meta      
-  gpt-4o                     <-> llama-3.3-70b               0.350   2.26   0.286      14      OpenAI/Meta      
-  gpt-4o                     <-> qwen-2.5-72b                0.119   1.59   0.286      14      OpenAI/Alibaba   
-  llama-3.1-70b              <-> nova-pro                    0.283   3.17   0.286      14        Meta/Other     
-  llama-4-maverick           <-> qwen-max                    0.234   2.42   0.286      14        Meta/Alibaba   
-  claude-sonnet-4.5          <-> gpt-3.5-turbo               0.385   2.83   0.273      11   Anthropic/OpenAI    
-  command-r-plus             <-> grok-4                      0.109   1.39   0.273      11      Cohere/xAI       
-  deepseek-r1-distill-qwen-32b-think <-> hermes-4-405b               0.093   2.46   0.273      11    DeepSeek/NousResearch
-  glm-4.5-air-think          <-> gpt-5-mini-think            0.358   3.05   0.273      11     ZhipuAI/OpenAI    
-  gpt-4o                     <-> llama-3-70b                 0.358   2.13   0.273      11      OpenAI/Meta      
-  gpt-5-pro                  <-> kimi-k2.6-think             0.571   1.37   0.273      22      OpenAI/Moonshot  
-  claude-opus-4.7-think      <-> llama-3-70b                 0.379   2.11   0.267      15   Anthropic/Meta      
-  llama-3-70b                <-> qwen-max                    0.365   4.03   0.267      15        Meta/Alibaba   
-  gemini-2.5-pro             <-> grok-4                      0.613   1.18   0.265      34      Google/xAI       
-  gemini-2.5-flash           <-> gpt-5-think                 0.357   1.46   0.263      19      Google/OpenAI    
-  gpt-4o                     <-> llama-4-maverick            0.426   1.72   0.263      19      OpenAI/Meta      
-  kimi-k2                    <-> mistral-large               0.281   1.87   0.261      23    Moonshot/Mistral   
-  gpt-5-think                <-> grok-4                      0.676   1.30   0.259      27      OpenAI/xAI       
-  claude-sonnet-4.5          <-> kimi-k2                     0.289   1.94   0.250      12   Anthropic/Moonshot  
-  gemini-2.5-flash           <-> gpt-5                       0.348   1.46   0.250      20      Google/OpenAI    
-  gemini-3-flash             <-> grok-3-mini-think           0.300   1.12   0.250      16      Google/xAI       
-  gemini-3-flash-think       <-> grok-3-mini-think           0.289   1.08   0.250      12      Google/xAI       
-  gpt-4.1                    <-> grok-3-mini-think           0.394   1.51   0.250      24      OpenAI/xAI       
-  gpt-4o                     <-> kimi-k2                     0.414   1.45   0.250      16      OpenAI/Moonshot  
-  gpt-4o                     <-> mistral-small-24b           0.118   1.99   0.250      12      OpenAI/Mistral   
-  gpt-4o                     <-> o1                          0.542   1.66   0.250      12      OpenAI/Other     
-  grok-4                     <-> o3                          0.644   1.25   0.250      32         xAI/OpenAI    
-  kimi-k2                    <-> llama-3.1-70b               0.219   1.99   0.250      12    Moonshot/Meta      
-  mistral-large              <-> qwen-max                    0.425   4.80   0.250      12     Mistral/Alibaba   
-  gpt-4o                     <-> qwen3-max                   0.451   1.60   0.242      33      OpenAI/Alibaba   
-  kimi-k2.6-think            <-> o3                          0.558   1.33   0.240      25    Moonshot/OpenAI    
-  nova-pro                   <-> qwen-max                    0.188   2.41   0.240      25       Other/Alibaba   
-  gpt-4-turbo                <-> qwen-max                    0.204   1.99   0.235      17      OpenAI/Alibaba   
+  ernie-4.5-300b-a47b        <-> llama-3-70b                 0.433   3.79   0.500      12       Other/Meta      
+  gpt-4.1-nano               <-> llama-3.1-70b               0.160   1.86   0.467      15      OpenAI/Meta      
+  ernie-4.5-300b-a47b        <-> gpt-4o                      0.302   2.21   0.462      13       Other/OpenAI    
+  gemini-2.0-flash           <-> llama-3.1-70b               0.278   2.35   0.462      13      Google/Meta      
+  claude-opus-4.7            <-> gpt-5                       0.534   1.46   0.417      12   Anthropic/OpenAI    
+  claude-opus-4.7            <-> kimi-k2.6-think             0.546   1.62   0.400      10   Anthropic/Moonshot  
+  ernie-4.5-300b-a47b        <-> mistral-small-24b           0.254   4.51   0.400      15       Other/Mistral   
+  gpt-3.5-turbo              <-> hermes-4-405b               0.252   2.60   0.400      10      OpenAI/NousResearch
+  grok-3                     <-> llama-3.1-70b               0.147   1.24   0.400      10         xAI/Meta      
+  llama-3-70b                <-> mistral-large               0.512   4.20   0.385      13        Meta/Mistral   
+  gpt-5                      <-> grok-4                      0.587   1.23   0.381      21      OpenAI/xAI       
+  claude-opus-4.7            <-> gpt-5-think                 0.524   1.42   0.364      11   Anthropic/OpenAI    
+  gpt-4o-mini                <-> hermes-4-405b               0.262   3.27   0.364      11      OpenAI/NousResearch
+  grok-3                     <-> qwen-max                    0.145   1.50   0.364      11         xAI/Alibaba   
+  llama-3.1-70b              <-> qwen3-max                   0.202   1.77   0.364      11        Meta/Alibaba   
+  llama-4-maverick           <-> qwen-max                    0.209   2.25   0.364      11        Meta/Alibaba   
+  ernie-4.5-300b-a47b        <-> qwen-max                    0.293   3.89   0.357      14       Other/Alibaba   
+  gpt-5.5-pro                <-> kimi-k2.6-think             0.556   1.16   0.357      14      OpenAI/Moonshot  
+  claude-opus-4.8            <-> deepseek-v4-flash           0.314   1.33   0.353      17   Anthropic/DeepSeek  
+  gemini-2.5-flash           <-> gpt-5-pro                   0.365   1.40   0.353      17      Google/OpenAI    
+  claude-opus-4.7-think      <-> llama-3-70b                 0.350   2.05   0.333      12   Anthropic/Meta      
+  gpt-5                      <-> kimi-k2.6-think             0.573   1.33   0.333      21      OpenAI/Moonshot  
+  gpt-5-pro                  <-> kimi-k2.6-think             0.582   1.34   0.318      22      OpenAI/Moonshot  
+  deepseek-r1-distill-llama-70b-think <-> llama-3.1-70b               0.220   2.16   0.312      16    DeepSeek/Meta      
+  claude-opus-4.7-think      <-> deepseek-v4-flash           0.525   1.35   0.308      26   Anthropic/DeepSeek  
+  claude-opus-4.8            <-> hy3-preview                 0.310   1.33   0.308      13   Anthropic/Other     
+  gpt-4                      <-> llama-3.1-70b               0.241   1.97   0.308      13      OpenAI/Meta      
+  gpt-4o                     <-> kimi-k2                     0.379   1.36   0.308      13      OpenAI/Moonshot  
+  claude-opus-4.7            <-> ernie-4.5-300b-a47b         0.295   2.15   0.300      10   Anthropic/Other     
+  claude-opus-4.8            <-> gemini-3.1-flash-lite       0.319   1.30   0.300      10   Anthropic/Google    
+  claude-sonnet-4.5          <-> gemini-3.1-flash-lite       0.227   1.37   0.300      10   Anthropic/Google    
+  claude-sonnet-4.5          <-> gpt-4.1                     0.247   1.49   0.300      10   Anthropic/OpenAI    
+  claude-sonnet-4.5          <-> gpt-4o                      0.310   2.03   0.300      10   Anthropic/OpenAI    
+  claude-sonnet-4.5          <-> kimi-k2                     0.280   1.82   0.300      10   Anthropic/Moonshot  
+  deepseek-v4-pro            <-> gemini-3.1-flash-lite       0.262   1.26   0.300      10    DeepSeek/Google    
+  gemini-3.1-flash-lite      <-> llama-3.1-70b               0.161   1.31   0.300      10      Google/Meta      
+  hermes-4-405b              <-> qwen3-next-80b-a3b          0.293   3.81   0.300      10  NousResearch/Alibaba   
+  kimi-k2                    <-> llama-3.1-70b               0.208   1.78   0.300      10    Moonshot/Meta      
+  mistral-large              <-> qwen-max                    0.420   5.04   0.300      10     Mistral/Alibaba   
+  gpt-4o                     <-> llama-4-maverick            0.459   1.68   0.294      17      OpenAI/Meta      
+  claude-sonnet-4.5-think    <-> gpt-4o                      0.417   1.62   0.286      14   Anthropic/OpenAI    
+  deepseek-v4-flash          <-> mistral-large               0.211   1.47   0.286      14    DeepSeek/Mistral   
+  deepseek-v4-pro            <-> gpt-4o-mini                 0.238   2.08   0.286      14    DeepSeek/OpenAI    
+  gpt-4.1                    <-> grok-3-mini-think           0.350   1.45   0.286      14      OpenAI/xAI       
+  kimi-k2                    <-> mistral-large               0.285   2.02   0.286      21    Moonshot/Mistral   
+  gemini-2.5-flash           <-> gpt-5-think                 0.370   1.41   0.278      18      Google/OpenAI    
+  claude-haiku-4.5           <-> gpt-4.1                     0.069   1.34   0.273      11   Anthropic/OpenAI    
+  claude-opus-4.8            <-> kimi-k2                     0.319   1.51   0.273      11   Anthropic/Moonshot  
+  command-r-plus             <-> grok-4                      0.105   1.51   0.273      11      Cohere/xAI       
+  deepseek-v4-pro            <-> gpt-4.1                     0.294   1.40   0.273      11    DeepSeek/OpenAI    
+  deepseek-v4-pro            <-> o4-mini-think               0.329   1.94   0.273      11    DeepSeek/OpenAI    
+  gemini-3-flash             <-> grok-3-mini-think           0.277   1.12   0.273      11      Google/xAI       
+  glm-4.5-air-think          <-> gpt-5-mini-think            0.339   2.69   0.273      11     ZhipuAI/OpenAI    
+  gpt-4.1-nano               <-> hermes-4-405b               0.150   1.96   0.273      11      OpenAI/NousResearch
+  gpt-5-think                <-> mistral-small-24b           0.090   1.40   0.273      11      OpenAI/Mistral   
+  grok-3                     <-> mistral-large               0.210   1.46   0.273      11         xAI/Mistral   
+  llama-3.1-70b              <-> nova-pro                    0.258   2.87   0.273      11        Meta/Other     
+  claude-opus-4.8            <-> gemini-2.0-flash            0.441   2.06   0.267      15   Anthropic/Google    
+  gpt-4o                     <-> qwen3-max                   0.420   1.52   0.261      23      OpenAI/Alibaba   
+  kimi-k2.6-think            <-> o3                          0.573   1.31   0.261      23    Moonshot/OpenAI    
 
 ### Known-provenance controls
   student                              parent                            J   lift     HSS  both_w  note
-  deepseek-r1-distill-llama-70b-think  llama-3.3-70b                 0.315   2.39   0.125      32  R1 distilled into Llama-3.3-70B base
-  deepseek-r1-distill-qwen-32b-think   qwq-32b-think                 0.317   7.39   0.038     182  R1 distilled into Qwen-2.5-32B family
-  nemotron-70b                         llama-3.1-70b                 0.792   7.47   0.077      13  NVIDIA fine-tune of Llama-3.1-70B
-  nemotron-super-49b-think             llama-3.3-70b                 0.167   2.36   0.069      29  NVIDIA pruned/distilled from Llama-3.3-70B
-  hermes-3-405b                        llama-3.1-70b                 0.255   7.62   1.000       2  Hermes-3 is Llama-3.1-405B fine-tune (no 405B base eval here; compare to 70B sibling)
-  hermes-4-405b                        hermes-3-405b                 0.275   8.49   1.000       3  Hermes successive fine-tunes of Llama-3.1-405B
+  deepseek-r1-distill-llama-70b-think  llama-3.3-70b                 0.323   2.26   0.114      35  R1 distilled into Llama-3.3-70B base
+  deepseek-r1-distill-qwen-32b-think   qwq-32b-think                 0.325   7.88   0.037     164  R1 distilled into Qwen-2.5-32B family
+  nemotron-70b                         llama-3.1-70b                 0.810   6.84   0.083      12  NVIDIA fine-tune of Llama-3.1-70B
+  nemotron-super-49b-think             llama-3.3-70b                 0.153   2.13   0.034      29  NVIDIA pruned/distilled from Llama-3.3-70B
+  hermes-3-405b                        llama-3.1-70b                 0.278   6.32   1.000       2  Hermes-3 is Llama-3.1-405B fine-tune (no 405B base eval here; compare to 70B sibling)
+  hermes-4-405b                        hermes-3-405b                 0.356   8.02   0.750       4  Hermes successive fine-tunes of Llama-3.1-405B

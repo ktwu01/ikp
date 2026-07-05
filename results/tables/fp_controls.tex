@@ -2,11 +2,11 @@
 \begin{table}[ht]\centering\small
 \begin{tabular}{p{0.30\textwidth} p{0.22\textwidth} r r r r}
 \toprule Student (derived) & Parent (base/teacher) & $J$ & lift & HSS & both\_w \\ \midrule
-deepseek-r1-distill-llama-70b-think & llama-3.3-70b & 0.315 & 2.39 & 0.125 & 32 \\
-deepseek-r1-distill-qwen-32b-think & qwq-32b-think & 0.317 & 7.39 & 0.038 & 182 \\
-nemotron-70b & llama-3.1-70b & 0.792 & 7.47 & 0.077 & 13 \\
-nemotron-super-49b-think & llama-3.3-70b & 0.167 & 2.36 & 0.069 & 29 \\
-hermes-3-405b & llama-3.1-70b & 0.255 & 7.62 & 1.000 & 2 \\
-hermes-4-405b & hermes-3-405b & 0.275 & 8.49 & 1.000 & 3 \\
+deepseek-r1-distill-llama-70b-think & llama-3.3-70b & 0.323 & 2.26 & 0.114 & 35 \\
+deepseek-r1-distill-qwen-32b-think & qwq-32b-think & 0.325 & 7.88 & 0.037 & 164 \\
+nemotron-70b & llama-3.1-70b & 0.810 & 6.84 & 0.083 & 12 \\
+nemotron-super-49b-think & llama-3.3-70b & 0.153 & 2.13 & 0.034 & 29 \\
+hermes-3-405b & llama-3.1-70b & 0.278 & 6.32 & 1.000 & 2 \\
+hermes-4-405b & hermes-3-405b & 0.356 & 8.02 & 0.750 & 4 \\
 \bottomrule \end{tabular}
 \caption{Known-provenance positive controls. Each pair is a publicly-disclosed distillation or fine-tune. All show either lineage or cross-vendor-suspect HSS ($\geq 0.10$) when both\_w permits statistical resolution, confirming that the HSS metric detects shared training signal.}\label{tab:fp-controls}\end{table}

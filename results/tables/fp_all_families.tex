@@ -5,109 +5,109 @@
 \toprule From & To & $J$ & lift & HSS & both\_w & class \\ \midrule \endfirsthead
 \toprule From & To & $J$ & lift & HSS & both\_w & class \\ \midrule \endhead
 \multicolumn{7}{l}{\emph{OpenAI GPT base}} \\
-\quad gpt-3.5-turbo & gpt-4 & 0.436 & 1.80 & 0.118 & 51 & independent \\
-\quad gpt-4 & gpt-4-turbo & 0.634 & 1.62 & 0.111 & 45 & lineage \\
-\quad gpt-4-turbo & gpt-4o & 0.448 & 1.47 & 0.212 & 33 & independent \\
-\quad gpt-4o & gpt-4.1 & 0.527 & 1.51 & 0.333 & 27 & lineage \\
-\quad gpt-4.1 & gpt-5 & 0.735 & 1.42 & 0.000 & 42 & retrained \\
-\quad gpt-5 & gpt-5.1 & 0.638 & 1.61 & 0.000 & 23 & retrained \\
-\quad gpt-5.1 & gpt-5.2 & 0.538 & 1.75 & 0.083 & 12 & retrained \\
-\quad gpt-5.2 & gpt-5.3 & 0.596 & 1.74 & 0.040 & 25 & retrained \\
-\quad gpt-5.3 & gpt-5.4 & 0.714 & 1.68 & 0.082 & 49 & retrained \\
+\quad gpt-3.5-turbo & gpt-4 & 0.448 & 1.72 & 0.078 & 51 & retrained \\
+\quad gpt-4 & gpt-4-turbo & 0.647 & 1.59 & 0.089 & 45 & retrained \\
+\quad gpt-4-turbo & gpt-4o & 0.482 & 1.47 & 0.200 & 30 & independent \\
+\quad gpt-4o & gpt-4.1 & 0.538 & 1.46 & 0.318 & 22 & lineage \\
+\quad gpt-4.1 & gpt-5 & 0.758 & 1.38 & 0.000 & 38 & retrained \\
+\quad gpt-5 & gpt-5.1 & 0.656 & 1.53 & 0.000 & 22 & retrained \\
+\quad gpt-5.1 & gpt-5.2 & 0.555 & 1.69 & 0.091 & 11 & retrained \\
+\quad gpt-5.2 & gpt-5.3 & 0.596 & 1.67 & 0.000 & 23 & retrained \\
+\quad gpt-5.3 & gpt-5.4 & 0.715 & 1.63 & 0.083 & 48 & retrained \\
 \multicolumn{7}{l}{\emph{OpenAI GPT-5 base/pro/think cluster}} \\
-\quad gpt-5 & gpt-5-pro & 0.822 & 1.54 & 0.511 & 47 & shared-base \\
-\quad gpt-5-pro & gpt-5-think & 0.837 & 1.51 & 0.532 & 47 & shared-base \\
+\quad gpt-5 & gpt-5-pro & 0.836 & 1.48 & 0.561 & 41 & shared-base \\
+\quad gpt-5-pro & gpt-5-think & 0.846 & 1.46 & 0.523 & 44 & shared-base \\
 \multicolumn{7}{l}{\emph{OpenAI GPT-5 .x transitions}} \\
-\quad gpt-5 & gpt-5.1 & 0.638 & 1.61 & 0.000 & 23 & retrained \\
-\quad gpt-5.1 & gpt-5.2 & 0.538 & 1.75 & 0.083 & 12 & retrained \\
-\quad gpt-5.2 & gpt-5.2-pro & 0.777 & 2.25 & 0.325 & 40 & shared-base \\
-\quad gpt-5.2-pro & gpt-5.3 & 0.590 & 1.70 & 0.042 & 24 & retrained \\
-\quad gpt-5.3 & gpt-5.4 & 0.714 & 1.68 & 0.082 & 49 & retrained \\
-\quad gpt-5.4 & gpt-5.4-pro & 0.713 & 1.49 & 0.113 & 71 & lineage \\
+\quad gpt-5 & gpt-5.1 & 0.656 & 1.53 & 0.000 & 22 & retrained \\
+\quad gpt-5.1 & gpt-5.2 & 0.555 & 1.69 & 0.091 & 11 & retrained \\
+\quad gpt-5.2 & gpt-5.2-pro & 0.776 & 2.15 & 0.286 & 42 & lineage \\
+\quad gpt-5.2-pro & gpt-5.3 & 0.597 & 1.64 & 0.038 & 26 & retrained \\
+\quad gpt-5.3 & gpt-5.4 & 0.715 & 1.63 & 0.083 & 48 & retrained \\
+\quad gpt-5.4 & gpt-5.4-pro & 0.715 & 1.44 & 0.101 & 69 & lineage \\
 \multicolumn{7}{l}{\emph{OpenAI GPT-mini}} \\
-\quad gpt-4o-mini & gpt-4.1-mini & 0.293 & 2.19 & 0.079 & 152 & retrained \\
-\quad gpt-4.1-mini & gpt-5-mini & 0.336 & 2.70 & 0.333 & 6 & independent \\
-\quad gpt-5-mini & gpt-5.4-mini & 0.292 & 2.52 & 0.000 & 4 & independent (small $n$) \\
+\quad gpt-4o-mini & gpt-4.1-mini & 0.304 & 2.06 & 0.070 & 143 & retrained \\
+\quad gpt-4.1-mini & gpt-5-mini & 0.361 & 2.45 & 0.286 & 7 & independent \\
+\quad gpt-5-mini & gpt-5.4-mini & 0.311 & 2.27 & 0.000 & 5 & independent \\
 \multicolumn{7}{l}{\emph{OpenAI GPT-nano}} \\
-\quad gpt-4.1-nano & gpt-5-nano & 0.100 & 5.07 & 0.000 & 9 & independent \\
-\quad gpt-5-nano & gpt-5.4-nano & 0.118 & 9.09 & 0.000 & 3 & independent (small $n$) \\
+\quad gpt-4.1-nano & gpt-5-nano & 0.107 & 4.38 & 0.000 & 8 & independent \\
+\quad gpt-5-nano & gpt-5.4-nano & 0.100 & 6.67 & 0.000 & 4 & independent (small $n$) \\
 \multicolumn{7}{l}{\emph{OpenAI o-series}} \\
-\quad o1 & o3-mini & 0.115 & 1.73 & 0.000 & 15 & retrained \\
-\quad o3-mini & o3 & 0.099 & 1.48 & 0.000 & 26 & retrained \\
-\quad o3 & o4-mini-think & 0.381 & 1.40 & 0.000 & 52 & retrained \\
+\quad o1 & o3-mini & 0.131 & 1.62 & 0.000 & 17 & retrained \\
+\quad o3-mini & o3 & 0.120 & 1.47 & 0.000 & 29 & retrained \\
+\quad o3 & o4-mini-think & 0.404 & 1.38 & 0.000 & 46 & retrained \\
 \multicolumn{7}{l}{\emph{Anthropic Claude Opus}} \\
-\quad claude-opus-4 & claude-opus-4.1 & 0.500 & 8.00 & 1.000 & 7 & lineage \\
-\quad claude-opus-4.1 & claude-opus-4.5 & 0.239 & 1.93 & 0.167 & 6 & independent \\
-\quad claude-opus-4.5 & claude-opus-4.6 & 0.731 & 1.64 & 0.100 & 30 & lineage \\
-\quad claude-opus-4.6 & claude-opus-4.7 & 0.601 & 1.69 & 0.000 & 17 & retrained \\
+\quad claude-opus-4 & claude-opus-4.1 & 0.525 & 6.56 & 0.889 & 9 & lineage \\
+\quad claude-opus-4.1 & claude-opus-4.5 & 0.282 & 1.87 & 0.111 & 9 & independent \\
+\quad claude-opus-4.5 & claude-opus-4.6 & 0.757 & 1.62 & 0.091 & 33 & retrained \\
+\quad claude-opus-4.6 & claude-opus-4.7 & 0.604 & 1.64 & 0.000 & 15 & retrained \\
 \multicolumn{7}{l}{\emph{Anthropic Claude Sonnet}} \\
-\quad claude-3.7-sonnet & claude-sonnet-4 & 0.147 & 1.79 & 0.000 & 4 & independent (small $n$) \\
-\quad claude-sonnet-4 & claude-sonnet-4.5 & 0.484 & 6.06 & 0.429 & 7 & independent \\
-\quad claude-sonnet-4.5 & claude-sonnet-4.6 & 0.315 & 2.09 & 0.091 & 11 & retrained \\
+\quad claude-3.7-sonnet & claude-sonnet-4 & 0.141 & 1.72 & 0.250 & 4 & independent (small $n$) \\
+\quad claude-sonnet-4 & claude-sonnet-4.5 & 0.449 & 5.61 & 0.429 & 7 & independent \\
+\quad claude-sonnet-4.5 & claude-sonnet-4.6 & 0.324 & 2.00 & 0.133 & 15 & independent \\
 \multicolumn{7}{l}{\emph{Anthropic Claude Haiku}} \\
-\quad claude-3-haiku & claude-3.5-haiku & 0.064 & 3.33 & 0.000 & 1 & independent (small $n$) \\
-\quad claude-3.5-haiku & claude-haiku-4.5 & 0.175 & 3.93 & 0.158 & 19 & independent \\
+\quad claude-3-haiku & claude-3.5-haiku & 0.041 & 2.82 & 0.000 & 1 & independent (small $n$) \\
+\quad claude-3.5-haiku & claude-haiku-4.5 & 0.136 & 2.95 & 0.167 & 18 & independent \\
 \multicolumn{7}{l}{\emph{Google Gemini Flash}} \\
-\quad gemini-2.0-flash & gemini-2.5-flash & 0.490 & 2.29 & 0.000 & 55 & retrained \\
-\quad gemini-2.5-flash & gemini-3-flash & 0.283 & 1.12 & 0.056 & 18 & retrained \\
+\quad gemini-2.0-flash & gemini-2.5-flash & 0.497 & 2.14 & 0.021 & 48 & retrained \\
+\quad gemini-2.5-flash & gemini-3-flash & 0.297 & 1.09 & 0.067 & 15 & retrained \\
 \multicolumn{7}{l}{\emph{Google Gemini Flash-Lite}} \\
-\quad gemini-2.5-flash-lite & gemini-3.1-flash-lite & 0.211 & 1.30 & 0.050 & 80 & retrained \\
+\quad gemini-2.5-flash-lite & gemini-3.1-flash-lite & 0.237 & 1.29 & 0.029 & 70 & retrained \\
 \multicolumn{7}{l}{\emph{Google Gemma}} \\
-\quad gemma-2-2b & gemma-3-1b & 0.048 & 4.10 & 0.007 & 284 & retrained \\
-\quad gemma-3-1b & gemma-3-4b & 0.000 & 0.00 & 0.006 & 351 & retrained \\
-\quad gemma-3-4b & gemma-3-12b & 0.206 & 6.76 & 0.039 & 336 & retrained \\
-\quad gemma-3-12b & gemma-2-27b & 0.000 & 0.00 & 0.041 & 98 & retrained \\
-\quad gemma-2-27b & gemma-3-27b & 0.118 & 3.66 & 0.043 & 93 & retrained \\
-\quad gemma-3-27b & gemma-4-31b & 0.078 & 1.39 & 0.000 & 232 & retrained \\
+\quad gemma-2-2b & gemma-3-1b & 0.048 & 4.10 & 0.014 & 284 & retrained \\
+\quad gemma-3-1b & gemma-3-4b & 0.000 & 0.00 & 0.006 & 349 & retrained \\
+\quad gemma-3-4b & gemma-3-12b & 0.200 & 6.48 & 0.042 & 334 & retrained \\
+\quad gemma-3-12b & gemma-2-27b & 0.000 & 0.00 & 0.044 & 90 & retrained \\
+\quad gemma-2-27b & gemma-3-27b & 0.118 & 3.81 & 0.047 & 85 & retrained \\
+\quad gemma-3-27b & gemma-4-31b & 0.076 & 1.33 & 0.000 & 238 & retrained \\
 \multicolumn{7}{l}{\emph{Meta Llama 3 (70B)}} \\
-\quad llama-3-70b & llama-3.1-70b & 0.500 & 4.74 & 0.636 & 11 & lineage \\
-\quad llama-3.1-70b & llama-3.3-70b & 0.534 & 5.17 & 0.375 & 16 & lineage \\
+\quad llama-3-70b & llama-3.1-70b & 0.424 & 4.06 & 0.625 & 8 & independent \\
+\quad llama-3.1-70b & llama-3.3-70b & 0.500 & 4.42 & 0.400 & 15 & lineage \\
 \multicolumn{7}{l}{\emph{Meta Llama 3 (8B)}} \\
-\quad llama-3-8b & llama-3.1-8b & 0.231 & 13.71 & 0.222 & 9 & independent \\
+\quad llama-3-8b & llama-3.1-8b & 0.214 & 12.70 & 0.125 & 8 & independent \\
 \multicolumn{7}{l}{\emph{Meta Llama 4}} \\
-\quad llama-4-scout & llama-4-maverick & 0.250 & 2.14 & 0.083 & 48 & retrained \\
+\quad llama-4-scout & llama-4-maverick & 0.255 & 2.01 & 0.065 & 46 & retrained \\
 \multicolumn{7}{l}{\emph{Alibaba Qwen dense (7B)}} \\
-\quad qwen-2.5-7b & qwen3-8b-think & 0.143 & 10.26 & 0.042 & 118 & retrained \\
+\quad qwen-2.5-7b & qwen3-8b-think & 0.143 & 10.26 & 0.040 & 100 & retrained \\
 \multicolumn{7}{l}{\emph{Alibaba Qwen dense (70B)}} \\
-\quad qwen-2.5-72b & qwq-32b-think & 0.250 & 4.92 & 0.036 & 56 & retrained \\
+\quad qwen-2.5-72b & qwq-32b-think & 0.218 & 4.28 & 0.032 & 62 & retrained \\
 \multicolumn{7}{l}{\emph{Alibaba Qwen Max}} \\
-\quad qwen-max & qwen3-max & 0.216 & 2.16 & 0.176 & 17 & independent \\
+\quad qwen-max & qwen3-max & 0.224 & 2.34 & 0.231 & 13 & independent \\
 \multicolumn{7}{l}{\emph{Alibaba Qwen Plus}} \\
-\quad qwen-plus & qwen3.5-plus-think & 0.455 & 1.95 & 0.000 & 116 & retrained \\
-\quad qwen3.5-plus-think & qwen3.6-plus-think & 0.533 & 2.20 & 0.095 & 21 & retrained \\
+\quad qwen-plus & qwen3.5-plus-think & 0.464 & 2.10 & 0.000 & 94 & retrained \\
+\quad qwen3.5-plus-think & qwen3.6-plus-think & 0.545 & 2.36 & 0.105 & 19 & lineage \\
 \multicolumn{7}{l}{\emph{Alibaba Qwen large MoE}} \\
-\quad qwen3-235b-a22b-think & qwen3.5-397b-a17b-think & 0.221 & 2.14 & 0.009 & 106 & retrained \\
+\quad qwen3-235b-a22b-think & qwen3.5-397b-a17b-think & 0.243 & 2.40 & 0.011 & 87 & retrained \\
 \multicolumn{7}{l}{\emph{DeepSeek V3}} \\
-\quad deepseek-v3 & deepseek-v3.1 & 0.411 & 2.04 & 0.227 & 22 & independent \\
-\quad deepseek-v3.1 & deepseek-v3.2 & 0.471 & 2.36 & 0.278 & 18 & independent \\
+\quad deepseek-v3 & deepseek-v3.1 & 0.380 & 1.82 & 0.227 & 22 & independent \\
+\quad deepseek-v3.1 & deepseek-v3.2 & 0.503 & 2.25 & 0.333 & 21 & lineage \\
 \multicolumn{7}{l}{\emph{Zhipu GLM}} \\
-\quad glm-4.5-think & glm-4.6-think & 0.621 & 1.71 & 0.038 & 52 & retrained \\
-\quad glm-4.6-think & glm-4.7-think & 0.686 & 1.60 & 0.198 & 131 & lineage \\
-\quad glm-4.7-think & glm-5-think & 0.543 & 1.32 & 0.022 & 91 & retrained \\
-\quad glm-5-think & glm-5.1-think & 0.690 & 1.50 & 0.012 & 83 & retrained \\
+\quad glm-4.5-think & glm-4.6-think & 0.572 & 1.66 & 0.041 & 49 & retrained \\
+\quad glm-4.6-think & glm-4.7-think & 0.707 & 1.58 & 0.209 & 129 & lineage \\
+\quad glm-4.7-think & glm-5-think & 0.561 & 1.33 & 0.011 & 92 & retrained \\
+\quad glm-5-think & glm-5.1-think & 0.687 & 1.46 & 0.012 & 84 & retrained \\
 \multicolumn{7}{l}{\emph{xAI Grok}} \\
-\quad grok-3 & grok-4 & 0.772 & 1.36 & 0.043 & 46 & retrained \\
-\quad grok-4 & grok-4.20 & 0.540 & 1.27 & 0.000 & 52 & retrained \\
+\quad grok-3 & grok-4 & 0.779 & 1.45 & 0.027 & 37 & retrained \\
+\quad grok-4 & grok-4.20 & 0.557 & 1.38 & 0.000 & 44 & retrained \\
 \multicolumn{7}{l}{\emph{Moonshot Kimi K2}} \\
-\quad kimi-k2 & kimi-k2.5-think & 0.595 & 1.46 & 0.020 & 50 & retrained \\
-\quad kimi-k2.5-think & kimi-k2.6-think & 0.772 & 1.68 & 0.451 & 51 & shared-base \\
+\quad kimi-k2 & kimi-k2.5-think & 0.574 & 1.48 & 0.023 & 44 & retrained \\
+\quad kimi-k2.5-think & kimi-k2.6-think & 0.765 & 1.63 & 0.510 & 49 & shared-base \\
 \multicolumn{7}{l}{\emph{Mistral large/medium}} \\
-\quad mistral-medium-3.1 & mistral-large & 0.421 & 2.97 & 0.000 & 36 & retrained \\
+\quad mistral-medium-3.1 & mistral-large & 0.420 & 3.19 & 0.000 & 33 & retrained \\
 \multicolumn{7}{l}{\emph{Mistral small/open}} \\
-\quad mistral-7b & mistral-nemo-12b & 0.216 & 6.32 & 0.017 & 177 & retrained \\
-\quad mistral-nemo-12b & mistral-small-24b & 0.333 & 8.35 & 0.070 & 57 & retrained \\
+\quad mistral-7b & mistral-nemo-12b & 0.189 & 5.80 & 0.018 & 164 & retrained \\
+\quad mistral-nemo-12b & mistral-small-24b & 0.324 & 8.03 & 0.066 & 61 & retrained \\
 \multicolumn{7}{l}{\emph{Mistral MoE (Mixtral)}} \\
-\quad mixtral-8x7b & mixtral-8x22b & 0.215 & 1.87 & 0.000 & 62 & retrained \\
+\quad mixtral-8x7b & mixtral-8x22b & 0.209 & 1.78 & 0.000 & 51 & retrained \\
 \multicolumn{7}{l}{\emph{Mistral ministral}} \\
-\quad ministral-3b & ministral-8b & 0.080 & 2.19 & 0.021 & 290 & retrained \\
+\quad ministral-3b & ministral-8b & 0.085 & 2.46 & 0.023 & 264 & retrained \\
 \multicolumn{7}{l}{\emph{Amazon Nova}} \\
-\quad nova-micro & nova-pro & 0.136 & 3.17 & 0.067 & 134 & retrained \\
-\quad nova-pro & nova-premier & 0.321 & 2.02 & 0.014 & 146 & retrained \\
+\quad nova-micro & nova-pro & 0.135 & 3.51 & 0.070 & 114 & retrained \\
+\quad nova-pro & nova-premier & 0.327 & 2.24 & 0.008 & 122 & retrained \\
 \multicolumn{7}{l}{\emph{Cohere Command}} \\
-\quad command-r7b & command-r-plus & 0.024 & 1.14 & 0.000 & 30 & retrained \\
-\quad command-r-plus & command-a & 0.231 & 3.09 & 0.048 & 21 & retrained \\
+\quad command-r7b & command-r-plus & 0.026 & 1.30 & 0.000 & 27 & retrained \\
+\quad command-r-plus & command-a & 0.232 & 3.50 & 0.053 & 19 & retrained \\
 \multicolumn{7}{l}{\emph{Microsoft Phi}} \\
-\quad phi-3-mini & phi-4 & 0.000 & 0.00 & 0.000 & 174 & retrained \\
+\quad phi-3-mini & phi-4 & 0.000 & 0.00 & 0.000 & 181 & retrained \\
 \bottomrule
 \end{longtable}
 }
