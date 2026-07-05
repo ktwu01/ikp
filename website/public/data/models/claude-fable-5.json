@@ -1,0 +1,589 @@
+{
+  "model": "claude-fable-5",
+  "vendor": "anthropic",
+  "family": "claude",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": false,
+  "accuracy": 0.8049315831815077,
+  "raw_accuracy": 0.8146453089244852,
+  "tier_accuracy": {
+    "T1": 0.995,
+    "T2": 0.995,
+    "T3": 0.994535519125683,
+    "T4": 0.9414893617021277,
+    "T5": 0.9060773480662984,
+    "T6": 0.5989304812834224,
+    "T7": 0.20348837209302326
+  },
+  "tier_stats": {
+    "T1": {
+      "total": 200,
+      "correct": 199,
+      "wrong": 1,
+      "refusal": 0,
+      "score": 0.995
+    },
+    "T2": {
+      "total": 200,
+      "correct": 199,
+      "wrong": 1,
+      "refusal": 0,
+      "score": 0.995
+    },
+    "T3": {
+      "total": 183,
+      "correct": 182,
+      "wrong": 1,
+      "refusal": 0,
+      "score": 0.994535519125683
+    },
+    "T4": {
+      "total": 188,
+      "correct": 177,
+      "wrong": 9,
+      "refusal": 2,
+      "score": 0.9414893617021277
+    },
+    "T5": {
+      "total": 181,
+      "correct": 164,
+      "wrong": 9,
+      "refusal": 8,
+      "score": 0.9060773480662984
+    },
+    "T6": {
+      "total": 187,
+      "correct": 112,
+      "wrong": 28,
+      "refusal": 47,
+      "score": 0.5989304812834224
+    },
+    "T7": {
+      "total": 172,
+      "correct": 35,
+      "wrong": 35,
+      "refusal": 102,
+      "score": 0.20348837209302326
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon."
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is **Ottawa**, located in the province of Ontario."
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "The Brooklyn Bridge opened in 1883."
+        },
+        {
+          "probe_id": "IKP_T1_0009",
+          "question": "In what year was the Bolshevik Revolution?",
+          "gold_answer": "1917",
+          "model_response": "1917"
+        },
+        {
+          "probe_id": "IKP_T1_0005",
+          "question": "What is the chemical symbol for silver?",
+          "gold_answer": "Ag",
+          "model_response": "Ag"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0110",
+          "question": "What is the largest rift valley system on Earth?",
+          "gold_answer": "East African Rift",
+          "model_response": "The largest rift valley system on Earth is the mid-ocean ridge system, which runs about 65,000 km through the world's oceans. On land, the largest is the Great Rift Valley (East African Rift System), stretching roughly 6,000–7,000 km from the Middle East down through eastern Africa to Mozambique."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Tuul River."
+        },
+        {
+          "probe_id": "IKP_T2_0207",
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "gold_answer": "Harper Lee",
+          "model_response": "Harper Lee."
+        },
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea is the second largest moon of Saturn, with a diameter of about 1,527 km (949 miles). It's much smaller than Titan, Saturn's largest moon, which has a diameter of about 5,150 km."
+        },
+        {
+          "probe_id": "IKP_T2_0210",
+          "question": "In what year was the Rosetta Stone discovered?",
+          "gold_answer": "1799",
+          "model_response": "The Rosetta Stone was discovered in 1799."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The river that flows through Bern is the **Aare**. (It's actually a fairly substantial river rather than a small one — it loops around Bern's old town and is popular for swimming in summer.)"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0272",
+          "question": "In what year was the Bohr effect described?",
+          "gold_answer": "1904",
+          "model_response": "I'm thinking through the Bohr effect, which describes how oxygen binding affinity in hemoglobin decreases when carbon dioxide levels rise or pH drops."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin composed the opera *Prince Igor*. He left it unfinished at his death in 1887, and it was completed by Nikolai Rimsky-Korsakov and Alexander Glazunov."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado, on the Chile–Argentina border in the Andes, is the highest volcano in the Western Hemisphere at approximately 6,893 meters (22,615 feet). It is also the highest active volcano in the world."
+        },
+        {
+          "probe_id": "IKP_T3_0413",
+          "question": "In what year was the Battle of Hastings fought?",
+          "gold_answer": "1066",
+          "model_response": "The Battle of Hastings was fought in 1066."
+        },
+        {
+          "probe_id": "IKP_T3_0405",
+          "question": "Who composed the opera 'The Magic Flute'?",
+          "gold_answer": "Wolfgang Amadeus Mozart",
+          "model_response": "Wolfgang Amadeus Mozart composed *The Magic Flute* (Die Zauberflöte), which premiered in 1791."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building was designed by Ludwig Mies van der Rohe, in collaboration with Philip Johnson. Completed in 1958, it's a landmark of modernist architecture located on Park Avenue in Manhattan."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "The Sèvres porcelain factory was established in 1756, when the manufactory moved from Vincennes (where it had been founded in 1740) to Sèvres, France."
+        },
+        {
+          "probe_id": "IKP_T3_0588",
+          "question": "In what year was the journal Organometallics first published?",
+          "gold_answer": "1982",
+          "model_response": "1981"
+        },
+        {
+          "probe_id": "IKP_T3_0587",
+          "question": "What is the highest peak in Bangladesh?",
+          "gold_answer": "Keokradong",
+          "model_response": "The highest peak in Bangladesh is generally considered to be **Saka Haphong** (also called Mowdok Mual), at approximately 1,052 meters (3,451 ft), located in the Chittagong Hill Tracts near the Myanmar border. However, officially Bangladesh has often cited **Tazing Dong** or **Keokradong** (~986 m) as its highest point, though modern surveys support Saka Haphong being taller."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0609",
+          "question": "Who founded the Motown record label?",
+          "gold_answer": "Berry Gordy Jr.",
+          "model_response": "Berry Gordy Jr. founded Motown in Detroit in 1959."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The Fedchenko Glacier in the Pamir Mountains of Tajikistan is generally considered the largest glacier outside the polar regions. It is about 77 km (48 miles) long, making it the longest glacier in the world outside the Arctic and Antarctic."
+        },
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Victoria, located in East Africa, is the second largest freshwater lake by surface area at approximately 68,800 km² (26,600 sq mi). It's surpassed only by Lake Superior in North America."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "The deepest lake in North America is **Great Slave Lake** in Canada's Northwest Territories, with a maximum depth of about 614 meters (2,014 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The Patagonian Desert, covering approximately 673,000 square kilometers across Argentina and parts of Chile. It's a cold desert and the largest in South America (the Atacama Desert is more famous but smaller)."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The Klarälven–Göta älv river system is the longest in Scandinavia, at about 720 km (450 miles). It rises in Norway (where it's called Trysilelva), flows through Sweden as the Klarälven into Lake Vänern, and continues as the Göta älv to the sea at Gothenburg."
+        },
+        {
+          "probe_id": "IKP_T4_0604",
+          "question": "What is the northernmost point of the African continent?",
+          "gold_answer": "Ras ben Sakka",
+          "model_response": "The northernmost point of the African continent is **Cape Angela (Ras Angela)** in Tunisia, located near the city of Bizerte, at approximately 37°21′ N latitude. (It was long thought to be nearby Ras ben Sakka, but Cape Angela is now recognized as the actual northernmost point.)"
+        },
+        {
+          "probe_id": "IKP_T4_0622",
+          "question": "In what year did Ernest Rutherford discover the proton?",
+          "gold_answer": "1919",
+          "model_response": "Ernest Rutherford discovered the proton in 1917, though his findings were published in 1919. He observed that nitrogen nuclei, when bombarded with alpha particles, ejected hydrogen nuclei, which he identified as fundamental particles later named protons."
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "**Bananal Island** in Brazil is the largest freshwater island in the world, covering roughly 19,000 km². It's a river island formed by a split in the Araguaia River.\n\n(If you meant the largest island in a *lake*, that would be **Manitoulin Island** in Lake Huron, Canada, at about 2,766 km².)"
+        },
+        {
+          "probe_id": "IKP_T4_0710",
+          "question": "In what year was Khangarid founded?",
+          "gold_answer": "1996",
+          "model_response": "Khangarid, the Mongolian football club based in Erdenet, is generally reported to have been founded in 1978. However, I'm not fully certain of this date, so I'd recommend verifying it with an authoritative source."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0731",
+          "question": "In what year was West Jutland University College founded?",
+          "gold_answer": "2008",
+          "model_response": "I don't know the exact founding year of West Jutland University College. It may refer to University College West (UC Vest) in Denmark, which was one of the Danish professional university colleges established around 2007–2008 before merging into University College South Denmark, but I can't confirm the specific date with certainty."
+        },
+        {
+          "probe_id": "IKP_T4_0737",
+          "question": "In what year was Lawrence Heritage State Park founded?",
+          "gold_answer": "1980",
+          "model_response": "Lawrence Heritage State Park in Lawrence, Massachusetts was established in the 1970s–80s as part of Massachusetts' heritage state parks program, but I don't know the exact founding year with confidence, so I won't guess."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart?",
+          "gold_answer": "computer networking",
+          "model_response": "Martina Zitterbart's research subfield is computer networking (telematics). She is a professor at the Karlsruhe Institute of Technology, where her work focuses on communication systems and networks, including topics such as network architectures, quality of service, sensor networks, and future internet technologies."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale?",
+          "gold_answer": "computer architecture",
+          "model_response": "Pranav Gokhale works in **quantum computing**, specifically focusing on quantum computer architecture and software—bridging the gap between quantum algorithms and hardware. He earned his PhD at the University of Chicago under Fred Chong and co-founded Super.tech (later acquired by ColdQuanta/Infleqtion), a quantum software company."
+        },
+        {
+          "probe_id": "IKP_T5_0814",
+          "question": "In computer science, what is the research subfield of Kenji Kono?",
+          "gold_answer": "operating systems",
+          "model_response": "Kenji Kono is a professor at Keio University whose research is in **systems software** — particularly operating systems, virtualization, and system security/dependability."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina?",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Andrés Muñoz Medina works in machine learning. He completed his PhD at the Courant Institute (NYU) under Mehryar Mohri, focusing on learning theory and domain adaptation, and as a research scientist at Google his work has centered on areas such as machine learning for auctions/revenue optimization and data privacy."
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe?",
+          "gold_answer": "computer security",
+          "model_response": "Michael Erbschloe works in the field of information security (cybersecurity), with a focus on areas such as information warfare, cyber threats, and the protection of information systems. He is an author and educator who has written numerous books on topics like information warfare, malicious code, and security management."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0900",
+          "question": "In what year was Stone Dominoes F.C. founded?",
+          "gold_answer": "1987",
+          "model_response": "Stone Dominoes F.C., a football club based in Stone, Staffordshire, England, was founded in 1996."
+        },
+        {
+          "probe_id": "IKP_T5_0914",
+          "question": "In what year was Fukuyama Heisei University founded?",
+          "gold_answer": "1994",
+          "model_response": "Fukuyama Heisei University was founded in 1993."
+        },
+        {
+          "probe_id": "IKP_T5_0925",
+          "question": "In what year was Lydney Town A.F.C. founded?",
+          "gold_answer": "1911",
+          "model_response": "Lydney Town A.F.C. was founded in 1894."
+        },
+        {
+          "probe_id": "IKP_T5_0902",
+          "question": "What is the official language of Emirate of Lengeh?",
+          "gold_answer": "Arabic",
+          "model_response": "The Emirate of Lengeh (based at Bandar Lengeh on the Persian Gulf coast, ruled by the Arab Qawasim in the 18th–19th centuries) was under Persian suzerainty, and **Persian** served as the official language, though **Arabic** was widely spoken, particularly by the ruling Qasimi family and much of the local population."
+        },
+        {
+          "probe_id": "IKP_T5_0927",
+          "question": "In what year was Silver Jubilee Degree  College (autonomous), Kurnool founded?",
+          "gold_answer": "1972",
+          "model_response": "Silver Jubilee Government Degree College (Autonomous), Kurnool was founded in 1938. It was named to commemorate the silver jubilee of King George V's reign."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0822",
+          "question": "In computer science, what is the research subfield of Enes Göktaş?",
+          "gold_answer": "operating systems",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Enes Göktaş or their research subfield."
+        },
+        {
+          "probe_id": "IKP_T5_0809",
+          "question": "In computer science, what is the research subfield of Rodolfo Oliveira?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. There may be multiple researchers named Rodolfo Oliveira, and I don't have reliable information to identify a specific one or their research subfield with confidence."
+        },
+        {
+          "probe_id": "IKP_T5_0826",
+          "question": "In computer science, what is the research subfield of Howard Huang?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. There are multiple researchers named Howard Huang (for example, one at Nokia Bell Labs known for work on wireless communications and MIMO systems, which is more electrical engineering than computer science), but I can't reliably identify a specific computer science research subfield for a particular Howard Huang without more context."
+        },
+        {
+          "probe_id": "IKP_T5_0855",
+          "question": "In computer science, what is the research subfield of Jean Luprano?",
+          "gold_answer": "embedded systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0853",
+          "question": "In computer science, what is the research subfield of Joon Ong?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. I'm not familiar with a computer scientist named Joon Ong, and I don't want to guess at their research area."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod?",
+          "gold_answer": "computer security",
+          "model_response": "Gaurav Bansod is known for research in **lightweight cryptography**, particularly the design of lightweight block ciphers (such as PICO and BORON) intended for resource-constrained environments like IoT and embedded devices. However, I'm not fully certain this is the person you mean, as the name is not widely documented—if you're referring to a different Gaurav Bansod, I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1010",
+          "question": "In computer science, what is the research subfield of Ryan Beckett?",
+          "gold_answer": "programming languages",
+          "model_response": "Ryan Beckett is a researcher at Microsoft Research whose work focuses on **network verification** — applying programming languages and formal methods techniques to computer networks. He is known for work on tools like Minesweeper and Propane for verifying and synthesizing network configurations (e.g., routing policies)."
+        },
+        {
+          "probe_id": "IKP_T6_1006",
+          "question": "In computer science, what is the research subfield of Albert Gran Alcoz?",
+          "gold_answer": "computer networking",
+          "model_response": "Albert Gran Alcoz works in computer networking. His research focuses on programmable networks and packet scheduling — he is known for work on approximating packet schedulers in programmable data planes (e.g., SP-PIFO), conducted at ETH Zurich."
+        },
+        {
+          "probe_id": "IKP_T6_1009",
+          "question": "In computer science, what is the research subfield of Andrew Litteken?",
+          "gold_answer": "computer architecture",
+          "model_response": "Andrew Litteken's research subfield is quantum computing — specifically, quantum computer architecture and compilation. He has worked on topics such as compiler and architecture support for quantum devices (including trapped-ion and superconducting systems) as a researcher at the University of Chicago."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger?",
+          "gold_answer": "distributed systems",
+          "model_response": "Janick Edinger works in the field of **distributed systems**, with a focus on areas such as edge computing, distributed and mobile computing, and computation offloading. He is a professor at the University of Hamburg heading a group on distributed operating systems."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1060",
+          "question": "In what year was Igreja de Santo António founded?",
+          "gold_answer": "1707",
+          "model_response": "There are many churches named Igreja de Santo António (in Lisbon, Lagos, Macau, and elsewhere), so I'd need to know which one you mean. If you're asking about the well-known Igreja de Santo António in Lisbon (built on the traditional birthplace of St. Anthony), the current church was built starting in 1767, after the 1755 earthquake destroyed the earlier one. Let me know if you meant a different church."
+        },
+        {
+          "probe_id": "IKP_T6_1062",
+          "question": "In what year was Nurtanio University founded?",
+          "gold_answer": "1999",
+          "model_response": "Nurtanio University (Universitas Nurtanio) in Bandung, Indonesia, traces its origins to 1962, when it was established as an aviation-related educational institution associated with the Indonesian Air Force. However, I'm not fully certain of the exact founding details, so I'd recommend verifying this date."
+        },
+        {
+          "probe_id": "IKP_T6_1072",
+          "question": "In what year was Politeknik Negeri Cilacap founded?",
+          "gold_answer": "2014",
+          "model_response": "Politeknik Negeri Cilacap was founded in 2008 (initially as Politeknik Cilacap, before later becoming a state polytechnic)."
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": "Enfield, Connecticut was founded in 1683 (it was originally settled around 1679 and incorporated in 1683 as part of Massachusetts, later transferring to Connecticut in 1749)."
+        },
+        {
+          "probe_id": "IKP_T6_1086",
+          "question": "In what year was Virginia Cavalry FC founded?",
+          "gold_answer": "2012",
+          "model_response": "Virginia Cavalry FC was founded in 2013 as a planned North American Soccer League (NASL) expansion team based in Northern Virginia, though the club never began play and the project was eventually abandoned."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Lixiang Ao or their specific research subfield."
+        },
+        {
+          "probe_id": "IKP_T6_1011",
+          "question": "In computer science, what is the research subfield of Changlin Wan?",
+          "gold_answer": "computational biology",
+          "model_response": "I don't know. I'm not familiar with a computer scientist named Changlin Wan with enough certainty to state their research subfield accurately."
+        },
+        {
+          "probe_id": "IKP_T6_1029",
+          "question": "In computer science, what is the research subfield of Ikram Ali?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. There isn't a widely known computer scientist named Ikram Ali whose research subfield I can identify with confidence."
+        },
+        {
+          "probe_id": "IKP_T6_1034",
+          "question": "In computer science, what is the research subfield of Alexey Rolich?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know. I don't have reliable information about a computer scientist named Alexey Rolich or their specific research subfield."
+        },
+        {
+          "probe_id": "IKP_T6_1019",
+          "question": "In computer science, what is the research subfield of Weifeng He?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. There may be multiple researchers named Weifeng He, and I don't have reliable information about a specific computer scientist by that name or their research subfield."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole?",
+          "gold_answer": "computer architecture",
+          "model_response": "Victory Omole works in quantum computing — he has been involved in research on quantum software and algorithms, including work at Super.tech (later part of Infleqtion)."
+        },
+        {
+          "probe_id": "IKP_T7_1217",
+          "question": "In computer science, what is the research subfield of Erci Xu?",
+          "gold_answer": "distributed systems",
+          "model_response": "Erci Xu works in **computer systems research, specifically storage systems**. His work focuses on areas such as file systems, SSDs/flash storage reliability, and large-scale distributed storage (including research related to Alibaba's Pangu storage system), with publications at venues like FAST and other systems conferences."
+        },
+        {
+          "probe_id": "IKP_T7_1213",
+          "question": "In computer science, what is the research subfield of Aashaka Shah?",
+          "gold_answer": "computer networking",
+          "model_response": "Aashaka Shah works in computer systems, with a focus on systems for machine learning — particularly optimizing collective communication for distributed deep learning (e.g., her work on TACCL for synthesizing communication algorithms for GPU clusters). She completed her PhD at UT Austin and has been affiliated with Microsoft Research."
+        },
+        {
+          "probe_id": "IKP_T7_1215",
+          "question": "In computer science, what is the research subfield of Binlin Cheng?",
+          "gold_answer": "computer security",
+          "model_response": "Binlin Cheng is a researcher in cybersecurity, specifically focusing on malware analysis and binary/software security. He has published work on topics such as obfuscation-resilient malware analysis, packed malware unpacking, and executable payload extraction (e.g., papers at venues like ACM CCS and USENIX Security)."
+        },
+        {
+          "probe_id": "IKP_T7_1209",
+          "question": "In computer science, what is the research subfield of Joel Kuepper?",
+          "gold_answer": "programming languages",
+          "model_response": "Joel Kuepper is a researcher (associated with the University of Adelaide) working in cryptographic engineering — specifically the optimization and verification of cryptographic code. He is known for work on CryptOpt, a tool that uses randomized program search to generate fast, formally verified assembly code for cryptographic primitives."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1207",
+          "question": "In computer science, what is the research subfield of Yuchao Tao?",
+          "gold_answer": "information retrieval",
+          "model_response": "Yuchao Tao's research is in data privacy, specifically differential privacy — including its application to database systems and query answering. He completed his PhD at Duke University working with Ashwin Machanavajjhala on these topics."
+        },
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar?",
+          "gold_answer": "operating systems",
+          "model_response": "Rajesh Bordawekar is a researcher at IBM's T.J. Watson Research Center whose work falls in the area of **data management and analytics**. His research focuses on topics such as hardware acceleration of database and analytics workloads (including GPU acceleration), parallel I/O and compilers, and more recently the intersection of AI/machine learning with database systems (e.g., \"cognitive databases\" using word embeddings for relational data)."
+        },
+        {
+          "probe_id": "IKP_T7_1248",
+          "question": "In computer science, what is the research subfield of Hidetsugu Irie?",
+          "gold_answer": "distributed systems",
+          "model_response": "Hidetsugu Irie, a professor at the University of Tokyo, works in the field of **computer architecture** — his research focuses on processor microarchitecture, including topics such as branch prediction, cache/memory systems, and parallel processing."
+        },
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu?",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu is a researcher in **databases (data management)**. He is a professor at the University of Washington, known for his work on probabilistic databases, semistructured data and XML, query processing, and the theoretical foundations of data management."
+        },
+        {
+          "probe_id": "IKP_T7_1238",
+          "question": "In computer science, what is the research subfield of Héléna Galhardas?",
+          "gold_answer": "programming languages",
+          "model_response": "Héléna Galhardas is a researcher in the area of **data management**, with a particular focus on **data cleaning and data integration** (including data quality). She is known for her work on declarative data cleaning frameworks, such as the AJAX system. She is a professor at Instituto Superior Técnico, University of Lisbon."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Po‐Shun Wang?",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know. I'm not familiar with a computer scientist named Po-Shun Wang, and I cannot reliably identify their research subfield without risking providing inaccurate information."
+        },
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Marie‐Claire Blache?",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know. I'm not familiar with a computer scientist named Marie‐Claire Blache, and I don't want to guess at her research subfield."
+        },
+        {
+          "probe_id": "IKP_T7_1206",
+          "question": "In computer science, what is the research subfield of Nicole M Wink?",
+          "gold_answer": "computer vision",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Nicole M Wink."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Juliette Hainline."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Jordan Mohler, so I can't accurately identify their research subfield."
+        }
+      ]
+    }
+  }
+}

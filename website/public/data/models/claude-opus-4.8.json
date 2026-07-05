@@ -1,0 +1,619 @@
+{
+  "model": "claude-opus-4.8",
+  "vendor": "anthropic",
+  "family": "claude",
+  "type": "proprietary",
+  "arch": "unknown",
+  "params_B": null,
+  "active_B": null,
+  "thinking": false,
+  "accuracy": 0.6189163072169089,
+  "raw_accuracy": 0.6331045003813882,
+  "tier_accuracy": {
+    "T1": 0.995,
+    "T2": 1.0,
+    "T3": 0.9398907103825137,
+    "T4": 0.8138297872340425,
+    "T5": 0.4088397790055249,
+    "T6": 0.12834224598930483,
+    "T7": 0.046511627906976744
+  },
+  "tier_stats": {
+    "T1": {
+      "total": 200,
+      "correct": 199,
+      "wrong": 1,
+      "refusal": 0,
+      "score": 0.995
+    },
+    "T2": {
+      "total": 200,
+      "correct": 200,
+      "wrong": 0,
+      "refusal": 0,
+      "score": 1.0
+    },
+    "T3": {
+      "total": 183,
+      "correct": 172,
+      "wrong": 0,
+      "refusal": 11,
+      "score": 0.9398907103825137
+    },
+    "T4": {
+      "total": 188,
+      "correct": 153,
+      "wrong": 5,
+      "refusal": 30,
+      "score": 0.8138297872340425
+    },
+    "T5": {
+      "total": 181,
+      "correct": 74,
+      "wrong": 7,
+      "refusal": 100,
+      "score": 0.4088397790055249
+    },
+    "T6": {
+      "total": 187,
+      "correct": 24,
+      "wrong": 14,
+      "refusal": 149,
+      "score": 0.12834224598930483
+    },
+    "T7": {
+      "total": 172,
+      "correct": 8,
+      "wrong": 18,
+      "refusal": 146,
+      "score": 0.046511627906976744
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0018",
+          "question": "In what year was NATO established?",
+          "gold_answer": "1949",
+          "model_response": "NATO was established in 1949."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris."
+        },
+        {
+          "probe_id": "IKP_T1_0005",
+          "question": "What is the chemical symbol for silver?",
+          "gold_answer": "Ag",
+          "model_response": "Ag"
+        },
+        {
+          "probe_id": "IKP_T1_0008",
+          "question": "In what year did the Siege of Constantinople end, marking the fall of the Byzantine Empire?",
+          "gold_answer": "1453",
+          "model_response": "1453"
+        },
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "The capital of Canada is Ottawa."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T1_0033",
+          "question": "What is the largest island in the Baltic Sea?",
+          "gold_answer": "Gotland",
+          "model_response": "The largest island in the Baltic Sea is Zealand (Sjælland), which belongs to Denmark."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Tuul River flows through Ulaanbaatar, the capital of Mongolia."
+        },
+        {
+          "probe_id": "IKP_T2_0202",
+          "question": "What is the name of the small river that flows through the city of Bern in Switzerland?",
+          "gold_answer": "Aare",
+          "model_response": "The Aare (also spelled Aar) is the river that flows through Bern."
+        },
+        {
+          "probe_id": "IKP_T2_0211",
+          "question": "In what year was the Econometric Society founded?",
+          "gold_answer": "1930",
+          "model_response": "The Econometric Society was founded in 1930."
+        },
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea is the second largest moon of Saturn. (Titan is the largest.)"
+        },
+        {
+          "probe_id": "IKP_T2_0203",
+          "question": "What is the name of the small island group located between Iceland and Norway?",
+          "gold_answer": "Faroe Islands",
+          "model_response": "The Faroe Islands are located between Iceland and Norway."
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "The Cold Spring Harbor Laboratory was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado, located on the border between Chile and Argentina, is the highest volcano in the Western Hemisphere (and the highest active volcano in the world), with an elevation of about 6,893 meters (22,615 feet)."
+        },
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin composed the opera 'Prince Igor'. He left it unfinished at his death in 1887, and it was completed by Nikolai Rimsky-Korsakov and Alexander Glazunov."
+        },
+        {
+          "probe_id": "IKP_T3_0407",
+          "question": "What is the second-largest lake in North America by surface area?",
+          "gold_answer": "Lake Huron",
+          "model_response": "Lake Huron is the second-largest lake in North America by surface area."
+        },
+        {
+          "probe_id": "IKP_T3_0404",
+          "question": "Who designed the Seagram Building in New York City?",
+          "gold_answer": "Ludwig Mies van der Rohe; Philip Johnson",
+          "model_response": "The Seagram Building was designed by Ludwig Mies van der Rohe, with Philip Johnson collaborating on the project. It was completed in 1958."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0587",
+          "question": "What is the highest peak in Bangladesh?",
+          "gold_answer": "Keokradong",
+          "model_response": "The highest peak in Bangladesh is Saka Haphong (also known as Mowdok Mual), located in the Chittagong Hill Tracts near the border with Myanmar. It stands at approximately 1,064 meters (3,491 feet)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T3_0469",
+          "question": "In computer science, what is the research subfield of Eric Koskinen?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know the specific research subfield of Eric Koskinen with certainty. There may be multiple researchers with this name, and I don't have reliable information to attribute a particular subfield to them."
+        },
+        {
+          "probe_id": "IKP_T3_0485",
+          "question": "In computer science, what is the research subfield of Viorel Preoteasa?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0474",
+          "question": "In computer science, what is the research subfield of Kristopher Micinski?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know the specific research subfield of Kristopher Micinski with certainty. He appears to be a computer science researcher, but I don't have reliable information about his particular area of specialization to provide an accurate answer."
+        },
+        {
+          "probe_id": "IKP_T3_0486",
+          "question": "In computer science, what is the research subfield of Susan Lysecky?",
+          "gold_answer": "embedded systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T3_0489",
+          "question": "In computer science, what is the research subfield of Cheng‐Shang Chang?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0601",
+          "question": "What is the second largest freshwater lake by surface area?",
+          "gold_answer": "Lake Victoria",
+          "model_response": "Lake Victoria in Africa is the second largest freshwater lake by surface area, after Lake Superior."
+        },
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "The highest mountain in Oceania is Puncak Jaya (also known as Carstensz Pyramid), located in Papua, Indonesia, on the island of New Guinea. It stands at approximately 4,884 meters (16,024 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0603",
+          "question": "What is the deepest lake in North America?",
+          "gold_answer": "Great Slave Lake",
+          "model_response": "Great Slave Lake in Canada's Northwest Territories is the deepest lake in North America, with a maximum depth of about 614 meters (2,014 feet)."
+        },
+        {
+          "probe_id": "IKP_T4_0611",
+          "question": "What is the largest lake in Scandinavia?",
+          "gold_answer": "Lake Vanern",
+          "model_response": "Lake Vänern, located in Sweden, is the largest lake in Scandinavia."
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "Manitoulin Island, located in Lake Huron, Ontario, Canada, is the largest freshwater island in the world."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The longest river in Scandinavia is the Klarälven–Göta älv river system, which flows through Norway and Sweden. It has a total length of approximately 720 kilometers (about 450 miles)."
+        },
+        {
+          "probe_id": "IKP_T4_0602",
+          "question": "What is the largest glacier outside of the polar regions?",
+          "gold_answer": "Fedchenko Glacier",
+          "model_response": "The largest glacier outside of the polar regions is the Siachen Glacier, located in the Karakoram Range of the Himalayas. It is approximately 76 kilometers (47 miles) long.\n\nHowever, if measured differently, the Fedchenko Glacier in Tajikistan's Pamir Mountains is sometimes cited as one of the longest non-polar glaciers as well, at about 77 kilometers."
+        },
+        {
+          "probe_id": "IKP_T4_0622",
+          "question": "In what year did Ernest Rutherford discover the proton?",
+          "gold_answer": "1919",
+          "model_response": "Ernest Rutherford discovered the proton in 1917 (with his findings published in 1919)."
+        },
+        {
+          "probe_id": "IKP_T4_0614",
+          "question": "What is the largest island in the Sea of Japan?",
+          "gold_answer": "Sado Island",
+          "model_response": "The largest island in the Sea of Japan is Ulleungdo, a South Korean island. However, if considering the broader area, the largest landmasses bordering or within the sea are parts of the Japanese archipelago (like Honshu), but as a distinct island situated in the Sea of Japan itself, Sakhalin lies to the north but is more associated with the Sea of Okhotsk.\n\nI don't have a fully confident answer to this question."
+        },
+        {
+          "probe_id": "IKP_T4_0744",
+          "question": "In what year was Mississippi Brilla founded?",
+          "gold_answer": "2006",
+          "model_response": "Mississippi Brilla was founded in 2003."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0642",
+          "question": "In computer science, what is the research subfield of Benjamin Lucien Kaminski?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0625",
+          "question": "What is the name of the smallest of the Faroe Islands by area?",
+          "gold_answer": "Lítla Dímun",
+          "model_response": "I don't know the definitive answer to this. The Faroe Islands consist of 18 main islands plus numerous smaller islets and skerries. Among the 18 main inhabited/named islands, Lítla Dímun is often cited as the smallest, but if counting all islets and skerries, the smallest would be one of the tiny unnamed or lesser-known formations."
+        },
+        {
+          "probe_id": "IKP_T4_0645",
+          "question": "In computer science, what is the research subfield of Cuauhtemoc Mancillas-López?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0644",
+          "question": "In computer science, what is the research subfield of Claire Vishik?",
+          "gold_answer": "computer security",
+          "model_response": "I don't have reliable information about a computer scientist named Claire Vishik or her specific research subfield. I don't know."
+        },
+        {
+          "probe_id": "IKP_T4_0651",
+          "question": "In computer science, what is the research subfield of ‪Surya Nepal‬?",
+          "gold_answer": "computer security",
+          "model_response": "I don't have reliable information about a specific researcher named Surya Nepal or their research subfield in computer science."
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart?",
+          "gold_answer": "computer networking",
+          "model_response": "Martina Zitterbart is a computer science researcher specializing in computer networks (Telematik/networking), particularly in areas such as network architectures, communication protocols, and internet technologies. She has been a professor at the Karlsruhe Institute of Technology (KIT) in Germany."
+        },
+        {
+          "probe_id": "IKP_T5_0824",
+          "question": "In computer science, what is the research subfield of Leonidas Lampropoulos?",
+          "gold_answer": "programming languages",
+          "model_response": "Leonidas Lampropoulos works in the area of programming languages, with research focusing on property-based testing, formal verification, and random testing. His work notably includes tools and techniques related to QuickChick, a property-based testing framework for the Coq proof assistant."
+        },
+        {
+          "probe_id": "IKP_T5_0833",
+          "question": "In computer science, what is the research subfield of Kyuseok Shim?",
+          "gold_answer": "data mining",
+          "model_response": "Kyuseok Shim is a computer scientist whose research subfield is data mining and databases. His work focuses on areas such as data warehousing, data mining, and large-scale data management systems."
+        },
+        {
+          "probe_id": "IKP_T5_0838",
+          "question": "In computer science, what is the research subfield of Matthew Parkinson?",
+          "gold_answer": "programming languages",
+          "model_response": "Matthew Parkinson is a computer scientist known for his research in **programming languages and formal verification**, with particular focus on **separation logic** and **concurrency**. His work includes verification of concurrent and object-oriented programs, and he has contributed to memory management research (such as the Snmalloc allocator and reference counting techniques). He is affiliated with Microsoft Research."
+        },
+        {
+          "probe_id": "IKP_T5_0845",
+          "question": "In computer science, what is the research subfield of Sandra Scott-Hayward?",
+          "gold_answer": "computer networking",
+          "model_response": "Sandra Scott-Hayward's research subfield is network security, with a particular focus on software-defined networking (SDN) security."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0925",
+          "question": "In what year was Lydney Town A.F.C. founded?",
+          "gold_answer": "1911",
+          "model_response": "Lydney Town A.F.C. was founded in 1890."
+        },
+        {
+          "probe_id": "IKP_T5_0902",
+          "question": "What is the official language of Emirate of Lengeh?",
+          "gold_answer": "Arabic",
+          "model_response": "The Emirate of Lengeh (also known as Bandar Lengeh) was historically a small emirate located on the Persian Gulf coast in what is now Iran. Given its location and history, the official/primary language would have been Persian (Farsi), though Arabic was also significant in the region due to its coastal Gulf position and Arab tribal connections.\n\nHowever, I don't have detailed information confirming an official designated language for this specific historical entity. If you're referring to a speci"
+        },
+        {
+          "probe_id": "IKP_T5_0933",
+          "question": "In what year was Ivanovo State Polytechnic University founded?",
+          "gold_answer": "2012",
+          "model_response": "Ivanovo State Polytechnic University was founded in 1918."
+        },
+        {
+          "probe_id": "IKP_T5_0947",
+          "question": "In what year was Philippine College of Health Sciences founded?",
+          "gold_answer": "1993",
+          "model_response": "The Philippine College of Health Sciences was founded in 1976."
+        },
+        {
+          "probe_id": "IKP_T5_0956",
+          "question": "In what year was Rakvere JK Tarvas founded?",
+          "gold_answer": "2004",
+          "model_response": "Rakvere JK Tarvas was founded in 2001."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0804",
+          "question": "In computer science, what is the research subfield of Andrés Muñoz Medina?",
+          "gold_answer": "theoretical computer science",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1050",
+          "question": "In computer science, what is the research subfield of Abhradeep Thakurta?",
+          "gold_answer": "theoretical computer science",
+          "model_response": "Abhradeep Thakurta's research subfield is differential privacy, particularly its intersection with machine learning and privacy-preserving algorithms."
+        },
+        {
+          "probe_id": "IKP_T6_1059",
+          "question": "In what year was the town of Putnam in Connecticut founded?",
+          "gold_answer": "1855",
+          "model_response": "Putnam, Connecticut was incorporated as a town in 1855."
+        },
+        {
+          "probe_id": "IKP_T6_1066",
+          "question": "In what year was Antenor Orrego Private University founded?",
+          "gold_answer": "1988",
+          "model_response": "Antenor Orrego Private University (Universidad Privada Antenor Orrego) was founded in 1988. It is located in Trujillo, Peru."
+        },
+        {
+          "probe_id": "IKP_T6_1052",
+          "question": "In computer science, what is the research subfield of Azadeh Farzan?",
+          "gold_answer": "programming languages",
+          "model_response": "Azadeh Farzan is a computer scientist whose research is in the area of formal methods, specifically program verification and concurrency. Her work focuses on the analysis and verification of concurrent programs."
+        },
+        {
+          "probe_id": "IKP_T6_1082",
+          "question": "In what year was the Stone Bridge in Riga, Latvia opened?",
+          "gold_answer": "1957",
+          "model_response": "The Stone Bridge (Akmens tilts) in Riga, Latvia was opened in 1957."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1072",
+          "question": "In what year was Politeknik Negeri Cilacap founded?",
+          "gold_answer": "2014",
+          "model_response": "Politeknik Negeri Cilacap was founded in 2008."
+        },
+        {
+          "probe_id": "IKP_T6_1083",
+          "question": "In what year was Market Drayton Town F.C. founded?",
+          "gold_answer": "1969",
+          "model_response": "Market Drayton Town F.C. was founded in 1968."
+        },
+        {
+          "probe_id": "IKP_T6_1077",
+          "question": "In what year was the town of Enfield in Hartford County, Connecticut founded?",
+          "gold_answer": "1679",
+          "model_response": "Enfield, Connecticut was founded in 1683."
+        },
+        {
+          "probe_id": "IKP_T6_1095",
+          "question": "In what year was Colegio de San Lorenzo founded?",
+          "gold_answer": "1987",
+          "model_response": "Colegio de San Lorenzo was founded in 1997."
+        },
+        {
+          "probe_id": "IKP_T6_1094",
+          "question": "In what year was Namangan State University founded?",
+          "gold_answer": "1942",
+          "model_response": "Namangan State University was founded in 1949."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1003",
+          "question": "In computer science, what is the research subfield of Dan Schatzberg?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1008",
+          "question": "In computer science, what is the research subfield of Stanko Novakovic?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1004",
+          "question": "In computer science, what is the research subfield of Janick Edinger?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know. I don't have reliable information about a computer scientist named Janick Edinger or their specific research subfield."
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh?",
+          "gold_answer": "computer networking",
+          "model_response": "Ivan Beschastnikh is a computer science researcher whose work focuses on distributed systems, software engineering, and systems research more broadly. His research includes topics such as distributed system verification, log analysis, model inference, and machine learning systems."
+        },
+        {
+          "probe_id": "IKP_T7_1240",
+          "question": "In computer science, what is the research subfield of Insik Shin?",
+          "gold_answer": "computer architecture",
+          "model_response": "Insik Shin is a computer scientist known for his research in real-time systems, cyber-physical systems, and embedded systems. His work particularly focuses on areas such as real-time scheduling, resource management, and mobile/embedded computing systems."
+        },
+        {
+          "probe_id": "IKP_T7_1301",
+          "question": "In what year was St. Lawrence University in Kampala, Uganda founded?",
+          "gold_answer": "2006",
+          "model_response": "St. Lawrence University in Kampala, Uganda was founded in 2006."
+        },
+        {
+          "probe_id": "IKP_T7_1307",
+          "question": "In what year was George Eastman Museum founded?",
+          "gold_answer": "1947",
+          "model_response": "The George Eastman Museum was founded in 1947."
+        },
+        {
+          "probe_id": "IKP_T7_1387",
+          "question": "In what year was the town of Wells in York County, Maine founded?",
+          "gold_answer": "1643",
+          "model_response": "Wells, Maine was founded in 1643."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1241",
+          "question": "In computer science, what is the research subfield of Dan Suciu?",
+          "gold_answer": "programming languages",
+          "model_response": "Dan Suciu is a computer scientist whose research is primarily in the field of databases. His work spans several areas within database systems, including:\n\n- Data management and database theory\n- Probabilistic and uncertain databases\n- Data integration\n- Query processing and optimization\n- XML and semistructured data\n- Foundations of data management\n\nHe is a professor at the University of Washington and is well known for his contributions to probabilistic databases and the theoretical foundations"
+        },
+        {
+          "probe_id": "IKP_T7_1308",
+          "question": "In what year was Nakamura Gakuen University founded?",
+          "gold_answer": "1954",
+          "model_response": "Nakamura Gakuen University was founded in 1965."
+        },
+        {
+          "probe_id": "IKP_T7_1302",
+          "question": "In what year was Al-Fotuwa SC founded?",
+          "gold_answer": "1950",
+          "model_response": "Al-Fotuwa SC, the Syrian football club based in Deir ez-Zor, was founded in 1952."
+        },
+        {
+          "probe_id": "IKP_T7_1320",
+          "question": "In what year was Instituto Tecnológico de Pachuca founded?",
+          "gold_answer": "1938",
+          "model_response": "The Instituto Tecnológico de Pachuca was founded in 1975."
+        },
+        {
+          "probe_id": "IKP_T7_1353",
+          "question": "In what year was the People's Republic of China museum China National Film Museum founded?",
+          "gold_answer": "2007",
+          "model_response": "The China National Film Museum was founded in 2005."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Po‐Shun Wang?",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1206",
+          "question": "In computer science, what is the research subfield of Nicole M Wink?",
+          "gold_answer": "computer vision",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know. I don't have reliable information about a computer science researcher named Jordan Mohler or their specific research subfield."
+        }
+      ]
+    }
+  }
+}

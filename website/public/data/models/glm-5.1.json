@@ -1,0 +1,588 @@
+{
+  "model": "glm-5.1",
+  "vendor": "zhipu",
+  "family": "glm",
+  "type": "open",
+  "arch": "moe",
+  "params_B": 754,
+  "active_B": 40,
+  "thinking": false,
+  "accuracy": 0.7207552755333735,
+  "raw_accuracy": 0.7322654462242563,
+  "tier_accuracy": {
+    "T1": 1.0,
+    "T2": 0.995,
+    "T3": 0.9781420765027322,
+    "T4": 0.9148936170212766,
+    "T5": 0.7624309392265194,
+    "T6": 0.2727272727272727,
+    "T7": 0.12209302325581395
+  },
+  "tier_stats": {
+    "T1": {
+      "total": 200,
+      "correct": 200,
+      "wrong": 0,
+      "refusal": 0,
+      "score": 1.0
+    },
+    "T2": {
+      "total": 200,
+      "correct": 199,
+      "wrong": 1,
+      "refusal": 0,
+      "score": 0.995
+    },
+    "T3": {
+      "total": 183,
+      "correct": 179,
+      "wrong": 4,
+      "refusal": 0,
+      "score": 0.9781420765027322
+    },
+    "T4": {
+      "total": 188,
+      "correct": 172,
+      "wrong": 15,
+      "refusal": 1,
+      "score": 0.9148936170212766
+    },
+    "T5": {
+      "total": 181,
+      "correct": 138,
+      "wrong": 32,
+      "refusal": 11,
+      "score": 0.7624309392265194
+    },
+    "T6": {
+      "total": 187,
+      "correct": 51,
+      "wrong": 101,
+      "refusal": 35,
+      "score": 0.2727272727272727
+    },
+    "T7": {
+      "total": 172,
+      "correct": 21,
+      "wrong": 75,
+      "refusal": 76,
+      "score": 0.12209302325581395
+    }
+  },
+  "samples": {
+    "T1": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T1_0001",
+          "question": "What is the capital of Canada?",
+          "gold_answer": "Ottawa",
+          "model_response": "Ottawa."
+        },
+        {
+          "probe_id": "IKP_T1_0000",
+          "question": "What strait separates Sicily from mainland Italy?",
+          "gold_answer": "Strait of Messina",
+          "model_response": "The Strait of Messina."
+        },
+        {
+          "probe_id": "IKP_T1_0002",
+          "question": "What is the capital of France?",
+          "gold_answer": "Paris",
+          "model_response": "Paris"
+        },
+        {
+          "probe_id": "IKP_T1_0003",
+          "question": "In what year was the Brooklyn Bridge opened?",
+          "gold_answer": "1883",
+          "model_response": "1883"
+        },
+        {
+          "probe_id": "IKP_T1_0004",
+          "question": "What is the capital of Portugal?",
+          "gold_answer": "Lisbon",
+          "model_response": "Lisbon"
+        }
+      ],
+      "WRONG": [],
+      "REFUSAL": []
+    },
+    "T2": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T2_0204",
+          "question": "What is the name of the river that flows through Ulaanbaatar?",
+          "gold_answer": "Tuul",
+          "model_response": "The Tuul River."
+        },
+        {
+          "probe_id": "IKP_T2_0205",
+          "question": "What is the highest peak in the Caucasus Mountains?",
+          "gold_answer": "Mount Elbrus",
+          "model_response": "Mount Elbrus"
+        },
+        {
+          "probe_id": "IKP_T2_0206",
+          "question": "Who wrote 'The Pillow Book'?",
+          "gold_answer": "Sei Shonagon",
+          "model_response": "Sei Shōnagon"
+        },
+        {
+          "probe_id": "IKP_T2_0200",
+          "question": "What is the second largest moon of Saturn?",
+          "gold_answer": "Rhea",
+          "model_response": "Rhea"
+        },
+        {
+          "probe_id": "IKP_T2_0207",
+          "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+          "gold_answer": "Harper Lee",
+          "model_response": "Harper Lee"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T2_0231",
+          "question": "What is the headquarters location of Airbus?",
+          "gold_answer": "Toulouse, France",
+          "model_response": "Leiden, Netherlands (registered) and Blagnac, France (operational)."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T3": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T3_0400",
+          "question": "Who composed the opera 'Prince Igor'?",
+          "gold_answer": "Alexander Borodin",
+          "model_response": "Alexander Borodin"
+        },
+        {
+          "probe_id": "IKP_T3_0405",
+          "question": "Who composed the opera 'The Magic Flute'?",
+          "gold_answer": "Wolfgang Amadeus Mozart",
+          "model_response": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "probe_id": "IKP_T3_0402",
+          "question": "What is the highest volcano in the Western Hemisphere?",
+          "gold_answer": "Ojos del Salado",
+          "model_response": "Ojos del Salado"
+        },
+        {
+          "probe_id": "IKP_T3_0403",
+          "question": "In what year was the Cold Spring Harbor Laboratory founded?",
+          "gold_answer": "1890",
+          "model_response": "1890"
+        },
+        {
+          "probe_id": "IKP_T3_0411",
+          "question": "What year was the University of Melbourne founded?",
+          "gold_answer": "1853",
+          "model_response": "1853"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T3_0415",
+          "question": "In what year was the Sevres porcelain factory established?",
+          "gold_answer": "1740",
+          "model_response": "1756 (originally established in Vincennes in 1740)."
+        },
+        {
+          "probe_id": "IKP_T3_0424",
+          "question": "In what year was the Peace of Basel signed?",
+          "gold_answer": "1795",
+          "model_response": "The Peace of Basel refers to a series of treaties signed in 1795 and 1796."
+        },
+        {
+          "probe_id": "IKP_T3_0518",
+          "question": "In what year was Florida Gulf Coast University founded?",
+          "gold_answer": "1991",
+          "model_response": "1997"
+        },
+        {
+          "probe_id": "IKP_T3_0524",
+          "question": "In what year was Accademia di Belle Arti di Perugia founded?",
+          "gold_answer": "1573",
+          "model_response": "1822"
+        },
+        {
+          "probe_id": "IKP_T3_0587",
+          "question": "What is the highest peak in Bangladesh?",
+          "gold_answer": "Keokradong",
+          "model_response": "Saka Haphong (also known as Mowdok Taung)."
+        }
+      ],
+      "REFUSAL": []
+    },
+    "T4": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T4_0609",
+          "question": "Who founded the Motown record label?",
+          "gold_answer": "Berry Gordy Jr.",
+          "model_response": "Berry Gordy Jr."
+        },
+        {
+          "probe_id": "IKP_T4_0607",
+          "question": "What is the largest desert in South America?",
+          "gold_answer": "Patagonian Desert",
+          "model_response": "The Patagonian Desert."
+        },
+        {
+          "probe_id": "IKP_T4_0600",
+          "question": "What is the highest mountain in Oceania?",
+          "gold_answer": "Puncak Jaya",
+          "model_response": "Puncak Jaya (also known as Carstensz Pyramid), located in Indonesia."
+        },
+        {
+          "probe_id": "IKP_T4_0606",
+          "question": "What is the largest atoll in the world by land area?",
+          "gold_answer": "Kiritimati",
+          "model_response": "Kiritimati (Christmas Island)"
+        },
+        {
+          "probe_id": "IKP_T4_0608",
+          "question": "What is the largest freshwater island in the world?",
+          "gold_answer": "Manitoulin Island",
+          "model_response": "Manitoulin Island"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T4_0610",
+          "question": "What is the longest river in Scandinavia?",
+          "gold_answer": "Glomma",
+          "model_response": "The Klarälven (or Klarälven-Göta älv river system) in Sweden, which is approximately 720 kilometers (447 miles) long."
+        },
+        {
+          "probe_id": "IKP_T4_0631",
+          "question": "What year was the Mongolian People's Revolutionary Party founded?",
+          "gold_answer": "1920",
+          "model_response": "1921"
+        },
+        {
+          "probe_id": "IKP_T4_0622",
+          "question": "In what year did Ernest Rutherford discover the proton?",
+          "gold_answer": "1919",
+          "model_response": "1917"
+        },
+        {
+          "probe_id": "IKP_T4_0707",
+          "question": "In what year was Hyogo University of Teacher Education founded?",
+          "gold_answer": "1978",
+          "model_response": "1980"
+        },
+        {
+          "probe_id": "IKP_T4_0708",
+          "question": "In what year was Perm State Humanitarian Pedagogical University founded?",
+          "gold_answer": "1921",
+          "model_response": "1916"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T4_0734",
+          "question": "In what year was Rjukan Line founded?",
+          "gold_answer": "1909",
+          "model_response": "作为一个人工智能语言模型，我还没学习如何回答这个问题，您可以向我问一些其它的问题，我会尽力帮您解决的。"
+        }
+      ]
+    },
+    "T5": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T5_0800",
+          "question": "In computer science, what is the research subfield of Martina Zitterbart?",
+          "gold_answer": "computer networking",
+          "model_response": "Martina Zitterbart's research focuses on computer networks, distributed systems, network security, and multimedia communication."
+        },
+        {
+          "probe_id": "IKP_T5_0806",
+          "question": "In computer science, what is the research subfield of Michael Erbschloe?",
+          "gold_answer": "computer security",
+          "model_response": "Information security and information warfare."
+        },
+        {
+          "probe_id": "IKP_T5_0801",
+          "question": "In computer science, what is the research subfield of Christoph Dietzel?",
+          "gold_answer": "computer networking",
+          "model_response": "Inter-domain routing and Internet architecture."
+        },
+        {
+          "probe_id": "IKP_T5_0803",
+          "question": "In computer science, what is the research subfield of Ruben Mayer?",
+          "gold_answer": "distributed systems",
+          "model_response": "Ruben Mayer's research subfield in computer science is primarily **distributed stream processing**, with a focus on edge computing and approximate computing."
+        },
+        {
+          "probe_id": "IKP_T5_0802",
+          "question": "In computer science, what is the research subfield of Pranav Gokhale?",
+          "gold_answer": "computer architecture",
+          "model_response": "Quantum computing (specifically quantum software and compilation)."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T5_0807",
+          "question": "In computer science, what is the research subfield of Yossi Gilad?",
+          "gold_answer": "computer networking",
+          "model_response": "Cryptography"
+        },
+        {
+          "probe_id": "IKP_T5_0809",
+          "question": "In computer science, what is the research subfield of Rodolfo Oliveira?",
+          "gold_answer": "computer networking",
+          "model_response": "Rodolfo Oliveira's research in computer science primarily focuses on **Network Science** and **Complex Networks**, with additional work in **Machine Learning** and **Data Science**."
+        },
+        {
+          "probe_id": "IKP_T5_0836",
+          "question": "In computer science, what is the research subfield of Ennan Zhai?",
+          "gold_answer": "distributed systems",
+          "model_response": "Software Engineering."
+        },
+        {
+          "probe_id": "IKP_T5_0842",
+          "question": "In computer science, what is the research subfield of Fredrik Kjølstad?",
+          "gold_answer": "programming languages",
+          "model_response": "Database systems, specifically array data management and sparse arrays."
+        },
+        {
+          "probe_id": "IKP_T5_0852",
+          "question": "In computer science, what is the research subfield of Piergiorgio Ladisa?",
+          "gold_answer": "computer security",
+          "model_response": "Software engineering, specifically software testing (including mutation testing and REST API testing)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T5_0808",
+          "question": "In computer science, what is the research subfield of Jonathan DiLorenzo?",
+          "gold_answer": "programming languages",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0805",
+          "question": "In computer science, what is the research subfield of Zhongzhi Luan?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0847",
+          "question": "In computer science, what is the research subfield of Djob Mvondo?",
+          "gold_answer": "operating systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0826",
+          "question": "In computer science, what is the research subfield of Howard Huang?",
+          "gold_answer": "computer networking",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T5_0855",
+          "question": "In computer science, what is the research subfield of Jean Luprano?",
+          "gold_answer": "embedded systems",
+          "model_response": "I don't know."
+        }
+      ]
+    },
+    "T6": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T6_1007",
+          "question": "In computer science, what is the research subfield of Xuanhua Shi?",
+          "gold_answer": "computer architecture",
+          "model_response": "High-performance computing, parallel and distributed systems, and big data."
+        },
+        {
+          "probe_id": "IKP_T6_1001",
+          "question": "In computer science, what is the research subfield of Gaurav Bansod?",
+          "gold_answer": "computer security",
+          "model_response": "Lightweight cryptography"
+        },
+        {
+          "probe_id": "IKP_T6_1010",
+          "question": "In computer science, what is the research subfield of Ryan Beckett?",
+          "gold_answer": "programming languages",
+          "model_response": "Programming languages and formal methods, with a focus on network verification."
+        },
+        {
+          "probe_id": "IKP_T6_1009",
+          "question": "In computer science, what is the research subfield of Andrew Litteken?",
+          "gold_answer": "computer architecture",
+          "model_response": "Quantum computing (specifically quantum circuit optimization and formal verification)."
+        },
+        {
+          "probe_id": "IKP_T6_1000",
+          "question": "In computer science, what is the research subfield of Myung Hoon Sunwoo?",
+          "gold_answer": "computer architecture",
+          "model_response": "VLSI (Very Large Scale Integration) design, computer architecture, and digital signal processing (DSP)."
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T6_1005",
+          "question": "In computer science, what is the research subfield of Christos Kozanitis?",
+          "gold_answer": "computer architecture",
+          "model_response": "Christos Kozanitis's research subfield is computational biology (bioinformatics), specifically focusing on algorithms for high-throughput DNA sequence analysis."
+        },
+        {
+          "probe_id": "IKP_T6_1008",
+          "question": "In computer science, what is the research subfield of Stanko Novakovic?",
+          "gold_answer": "computer architecture",
+          "model_response": "Formal verification and distributed systems."
+        },
+        {
+          "probe_id": "IKP_T6_1022",
+          "question": "In computer science, what is the research subfield of Sayed Masoud Sayedi?",
+          "gold_answer": "computer architecture",
+          "model_response": "Software Engineering"
+        },
+        {
+          "probe_id": "IKP_T6_1006",
+          "question": "In computer science, what is the research subfield of Albert Gran Alcoz?",
+          "gold_answer": "computer networking",
+          "model_response": "Cryptography, specifically applied cryptography, secure multi-party computation (MPC), and homomorphic encryption."
+        },
+        {
+          "probe_id": "IKP_T6_1025",
+          "question": "In computer science, what is the research subfield of Kasım Sinan Yıldırım?",
+          "gold_answer": "embedded systems",
+          "model_response": "Computer Vision and Machine Learning (specifically Deep Learning and Medical Image Analysis)."
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T6_1019",
+          "question": "In computer science, what is the research subfield of Weifeng He?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know"
+        },
+        {
+          "probe_id": "IKP_T6_1020",
+          "question": "In computer science, what is the research subfield of Chong Mou?",
+          "gold_answer": "computer vision",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1018",
+          "question": "In computer science, what is the research subfield of Alex Depoutovitch?",
+          "gold_answer": "operating systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1002",
+          "question": "In computer science, what is the research subfield of Lixiang Ao?",
+          "gold_answer": "distributed systems",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T6_1021",
+          "question": "In computer science, what is the research subfield of Olga Poppe?",
+          "gold_answer": "database systems",
+          "model_response": "I don't know"
+        }
+      ]
+    },
+    "T7": {
+      "CORRECT": [
+        {
+          "probe_id": "IKP_T7_1210",
+          "question": "In computer science, what is the research subfield of Emili Lupon?",
+          "gold_answer": "embedded systems",
+          "model_response": "Hardware security (specifically physically unclonable functions, true random number generators, and cryptographic hardware)."
+        },
+        {
+          "probe_id": "IKP_T7_1221",
+          "question": "In computer science, what is the research subfield of Ivan Beschastnikh?",
+          "gold_answer": "computer networking",
+          "model_response": "Software engineering and distributed systems."
+        },
+        {
+          "probe_id": "IKP_T7_1226",
+          "question": "In computer science, what is the research subfield of Rajesh Bordawekar?",
+          "gold_answer": "operating systems",
+          "model_response": "Rajesh Bordawekar's research subfield is primarily high-performance computing, compiler optimization, and computer systems (including systems for AI and quantum computing)."
+        },
+        {
+          "probe_id": "IKP_T7_1233",
+          "question": "In computer science, what is the research subfield of David Broneske?",
+          "gold_answer": "distributed systems",
+          "model_response": "Database systems and data engineering (specifically hardware-aware database systems and vectorized query processing)."
+        },
+        {
+          "probe_id": "IKP_T7_1240",
+          "question": "In computer science, what is the research subfield of Insik Shin?",
+          "gold_answer": "computer architecture",
+          "model_response": "Real-time and embedded systems"
+        }
+      ],
+      "WRONG": [
+        {
+          "probe_id": "IKP_T7_1202",
+          "question": "In computer science, what is the research subfield of Marie‐Claire Blache?",
+          "gold_answer": "human-computer interaction",
+          "model_response": "Natural Language Processing (NLP) and Computational Linguistics, with a specific focus on syntax, parsing, and constraint-based grammars (such as Property Grammars)."
+        },
+        {
+          "probe_id": "IKP_T7_1213",
+          "question": "In computer science, what is the research subfield of Aashaka Shah?",
+          "gold_answer": "computer networking",
+          "model_response": "Aashaka Shah's research subfield in computer science is Natural Language Processing (NLP) and Computational Social Science."
+        },
+        {
+          "probe_id": "IKP_T7_1227",
+          "question": "In computer science, what is the research subfield of Xianran Xing?",
+          "gold_answer": "computer security",
+          "model_response": "Human-Computer Interaction (HCI) and Computer-Supported Cooperative Work (CSCW)."
+        },
+        {
+          "probe_id": "IKP_T7_1211",
+          "question": "In computer science, what is the research subfield of Boyang Zheng?",
+          "gold_answer": "computer networking",
+          "model_response": "Cryptography (specifically Attribute-Based Encryption and information security)."
+        },
+        {
+          "probe_id": "IKP_T7_1232",
+          "question": "In computer science, what is the research subfield of Kuo-Feng Hsu?",
+          "gold_answer": "distributed systems",
+          "model_response": "Data visualization"
+        }
+      ],
+      "REFUSAL": [
+        {
+          "probe_id": "IKP_T7_1201",
+          "question": "In computer science, what is the research subfield of Victory Omole?",
+          "gold_answer": "computer architecture",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1203",
+          "question": "In computer science, what is the research subfield of Jordan Mohler?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1206",
+          "question": "In computer science, what is the research subfield of Nicole M Wink?",
+          "gold_answer": "computer vision",
+          "model_response": "I don't know."
+        },
+        {
+          "probe_id": "IKP_T7_1200",
+          "question": "In computer science, what is the research subfield of Po‐Shun Wang?",
+          "gold_answer": "human-computer interaction",
+          "model_response": "I don't know"
+        },
+        {
+          "probe_id": "IKP_T7_1204",
+          "question": "In computer science, what is the research subfield of Juliette Hainline?",
+          "gold_answer": "computer security",
+          "model_response": "I don't know."
+        }
+      ]
+    }
+  }
+}

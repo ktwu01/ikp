@@ -7,73 +7,66 @@
   "params_B": 405,
   "active_B": 405,
   "thinking": false,
-  "accuracy": 0.49464285714285705,
-  "raw_accuracy": 0.5178571428571429,
+  "accuracy": 0.5220898311567072,
+  "raw_accuracy": 0.5377574370709383,
   "tier_accuracy": {
-    "T1": 0.99,
-    "T2": 0.96,
-    "T3": 0.77,
-    "T4": 0.5725,
-    "T5": 0.14,
-    "T6": 0.03,
-    "T7": 0.0
+    "T1": 0.995,
+    "T2": 0.98,
+    "T3": 0.819672131147541,
+    "T4": 0.6063829787234043,
+    "T5": 0.14917127071823205,
+    "T6": 0.06951871657754011,
+    "T7": 0.03488372093023256
   },
   "tier_stats": {
     "T1": {
-      "strong": 199,
-      "weak": 0,
+      "total": 200,
+      "correct": 199,
       "wrong": 1,
       "refusal": 0,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "score": 0.995
     },
     "T2": {
-      "strong": 196,
-      "weak": 0,
+      "total": 200,
+      "correct": 196,
       "wrong": 4,
       "refusal": 0,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "score": 0.98
     },
     "T3": {
-      "strong": 162,
-      "weak": 2,
-      "wrong": 9,
+      "total": 183,
+      "correct": 150,
+      "wrong": 6,
       "refusal": 27,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "score": 0.819672131147541
     },
     "T4": {
-      "strong": 119,
-      "weak": 5,
+      "total": 188,
+      "correct": 114,
       "wrong": 7,
-      "refusal": 69,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "refusal": 67,
+      "score": 0.6063829787234043
     },
     "T5": {
-      "strong": 30,
-      "weak": 4,
-      "wrong": 4,
-      "refusal": 162,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 181,
+      "correct": 27,
+      "wrong": 3,
+      "refusal": 151,
+      "score": 0.14917127071823205
     },
     "T6": {
-      "strong": 14,
-      "weak": 0,
+      "total": 187,
+      "correct": 13,
       "wrong": 8,
-      "refusal": 178,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "refusal": 166,
+      "score": 0.06951871657754011
     },
     "T7": {
-      "strong": 5,
-      "weak": 2,
-      "wrong": 20,
-      "refusal": 173,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 172,
+      "correct": 6,
+      "wrong": 16,
+      "refusal": 150,
+      "score": 0.03488372093023256
     }
   },
   "samples": {

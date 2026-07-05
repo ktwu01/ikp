@@ -11,6 +11,7 @@ import type {
   PipelineStage,
   ProbeMeta,
   RecognitionData,
+  SensitivityData,
   ThinkingPair,
   Tier,
   TierFile,
@@ -57,6 +58,7 @@ export function useFetch<T>(path: string): { data: T | null; error: Error | null
 export const useModels = () => useFetch<ModelSummary[]>(`${DATA}/models.json`);
 export const useProbes = () => useFetch<ProbeMeta[]>(`${DATA}/probes.json`);
 export const useCalibration = () => useFetch<CalibrationData>(`${DATA}/calibration.json`);
+export const useSensitivity = () => useFetch<SensitivityData>(`${DATA}/sensitivity.json`);
 export const usePipeline = () => useFetch<{ stages: PipelineStage[] }>(`${DATA}/pipeline.json`);
 export const useThinkingPairs = () => useFetch<ThinkingPair[]>(`${DATA}/thinking_pairs.json`);
 export const useModelDetail = (model: string) => useFetch<ModelDetail>(`${DATA}/models/${model}.json`);

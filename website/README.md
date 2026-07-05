@@ -26,7 +26,7 @@ website/
 ├── postcss.config.js
 ├── public/
 │   └── data/               # ← generated JSON, consumed at runtime
-│       ├── calibration.json     # n=89, R²=0.917 fit + LOO + scatter
+│       ├── calibration.json     # n=93, R²=0.910 fit (λ=0) + LOO + scatter
 │       ├── densing.json         # 96-model time-trend bundle
 │       ├── fingerprint.json     # within-family + cross-vendor outliers
 │       ├── hallucination.json   # vendor-level hallucination rates
@@ -160,12 +160,12 @@ cd website && \
 ## Sanity checks before deploy
 
 1. `make website-build` exits 0
-2. `website/public/data/calibration.json` reports `n=89`, `R²≈0.917`
+2. `website/public/data/calibration.json` reports `n=93`, `R²≈0.910` (no-penalty λ=0)
    (paper-canonical numbers)
 3. `make website-preview` and click through `/calibration`,
    `/densing`, `/fingerprint`, `/models/<model>`, `/probes` — each
    should load without console errors.
-4. The header in the top right shows `188 models · 1,400 probes ·
+4. The header in the top right shows `201 models · 1,400 probes ·
    27 vendors`.
 
 If any of those drift, re-run `make website` (data refresh) before

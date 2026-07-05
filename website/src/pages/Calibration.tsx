@@ -11,7 +11,7 @@ import {
   YAxis,
   ZAxis,
 } from "recharts";
-import { useCalibration } from "../data";
+import { useCalibration, useSensitivity } from "../data";
 import { formatPercent, vendorColor } from "../util";
 import Loading from "../components/Loading";
 
@@ -19,6 +19,7 @@ const X_TICKS = [1, 3, 10, 30, 100, 300, 1000];
 
 export default function Calibration() {
   const { data: cal, loading } = useCalibration();
+  const { data: sens } = useSensitivity();
   const [showExcluded, setShowExcluded] = useState(false);
   const [highlightVendor, setHighlightVendor] = useState<string | null>(null);
 
@@ -55,7 +56,7 @@ export default function Calibration() {
       </header>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <KV label="R² (penalized)" value={cal.fit.r_squared.toFixed(4)} />
+        <KV label="R² (λ=0, no penalty)" value={cal.fit.r_squared.toFixed(4)} />
         <KV label="Slope" value={cal.fit.slope.toFixed(3)} sub="≈16pp per 10×" />
         <KV label="Residual SE" value={cal.fit.residual_se.toFixed(4)} sub="±2.6× 90% PI" />
         <KV label="LOO-CV R²" value={cal.loo_cv.r_squared.toFixed(4)} sub={`median ${cal.loo_cv.median_fold_err.toFixed(2)}× err`} />
@@ -107,7 +108,7 @@ export default function Calibration() {
                 tickFormatter={(v) => `${(v * 100).toFixed(0)}%`}
                 stroke="#6b7280"
                 fontSize={12}
-                label={{ value: "IKP accuracy (penalized)", angle: -90, position: "insideLeft", offset: 14, fill: "#6b7280", fontSize: 13 }}
+                label={{ value: "IKP accuracy (λ=0, no penalty)", angle: -90, position: "insideLeft", offset: 14, fill: "#6b7280", fontSize: 13 }}
               />
               <ZAxis range={[60, 60]} />
               <Tooltip content={<PointTooltip />} />
@@ -204,13 +205,15 @@ export default function Calibration() {
 
       <MoeChart cal={cal} />
 
+      {sens && <SensitivityTable sens={sens} />}
+
       <div id="proprietary" className="bg-white border border-ink/10 rounded-lg overflow-hidden">
         <div className="px-6 py-4 border-b border-ink/10">
           <h2 className="text-lg font-semibold">Proprietary parameter estimates ({cal.proprietary_estimates.length})</h2>
           <p className="text-xs text-ink/50 mt-1">
-            Inverting the calibration on closed-source IKP scores. <strong>Pen.</strong> = penalized
-            accuracy (correct − 0.5·wrong) / total used to fit the curve; <strong>Raw</strong> =
-            unpenalized correct / total. Distilled rows (<span className="text-amber-700">‡</span>)
+            Inverting the calibration on closed-source IKP scores. <strong>Accuracy</strong> is
+            scored at λ=0 (no penalty): correct / total, with wrong answers treated the same as
+            refusals. Distilled rows (<span className="text-amber-700">‡</span>)
             show <em>actual</em> param estimate (= effective ÷ {cal.distillation?.boost.toFixed(2)}×
             distillation boost from the V4 Flash/Pro anchor pair); the effective single-regime
             value is in parentheses. 90% PI ≈ ±{cal.fit.pi_factor?.toFixed(2)}× in either direction.
@@ -222,8 +225,7 @@ export default function Calibration() {
               <tr>
                 <th className="px-4 py-2">Model</th>
                 <th className="px-4 py-2">Vendor</th>
-                <th className="px-4 py-2 text-right">Pen. acc</th>
-                <th className="px-4 py-2 text-right">Raw acc</th>
+                <th className="px-4 py-2 text-right">Accuracy</th>
                 <th className="px-4 py-2 text-right">Est. params</th>
                 <th className="px-4 py-2 text-right text-ink/40">90% PI</th>
               </tr>
@@ -249,7 +251,6 @@ export default function Calibration() {
                     </td>
                     <td className="px-4 py-2 text-ink/60">{m.vendor}</td>
                     <td className="px-4 py-2 text-right">{formatPercent(m.accuracy)}</td>
-                    <td className="px-4 py-2 text-right text-ink/60">{formatPercent(m.raw_accuracy)}</td>
                     <td className="px-4 py-2 text-right font-medium">
                       {formatBigParams(m.estimated_B)}
                       {distilled && (
@@ -277,6 +278,63 @@ function formatBigParams(b: number | null | undefined): string {
   if (b >= 1000) return `~${(b / 1000).toFixed(1)}T`;
   if (b >= 100) return `~${Math.round(b / 10) * 10}B`;
   return `~${b.toFixed(0)}B`;
+}
+
+function SensitivityTable({ sens }: { sens: import("../types").SensitivityData }) {
+  return (
+    <div className="bg-white border border-ink/10 rounded-lg overflow-hidden">
+      <div className="px-6 py-4 border-b border-ink/10">
+        <h2 className="text-lg font-semibold">Hallucination-penalty (λ) sensitivity</h2>
+        <p className="text-xs text-ink/50 mt-1">
+          The paper scores at <strong>λ = 0</strong> (no penalty: a wrong answer counts the same as
+          a refusal). Each row refits the calibration on the same {sens.n_calibration} open-weight
+          models with a different penalty λ (a wrong answer scores λ instead of 0), and re-inverts
+          for a few flagship models. Fit quality is near-flat across the band; individual estimates
+          move because vendors differ in how often they bluff vs. refuse — e.g. GPT-4.1 shrinks with
+          a heavier penalty while Claude Opus grows.
+        </p>
+      </div>
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm tabular-nums">
+          <thead className="bg-ink/5 text-left text-ink/60 uppercase text-xs tracking-wide">
+            <tr>
+              <th className="px-4 py-2">λ</th>
+              <th className="px-4 py-2 text-right">Slope</th>
+              <th className="px-4 py-2 text-right">R²</th>
+              <th className="px-4 py-2 text-right">LOO×</th>
+              <th className="px-4 py-2 text-right">90% PI×</th>
+              {sens.spotlight.map((s) => (
+                <th key={s} className="px-4 py-2 text-right">{s}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {sens.rows.map((r) => {
+              const primary = r.lambda === sens.operating_point;
+              return (
+                <tr
+                  key={r.lambda}
+                  className={`border-t border-ink/5 ${primary ? "bg-accent/5 font-medium" : "hover:bg-ink/5"}`}
+                >
+                  <td className="px-4 py-2">
+                    {r.lambda.toFixed(2)}
+                    {primary && <span className="ml-1.5 text-xs text-accent">★ used</span>}
+                  </td>
+                  <td className="px-4 py-2 text-right">{r.slope_pp.toFixed(1)}</td>
+                  <td className="px-4 py-2 text-right">{r.r_squared.toFixed(3)}</td>
+                  <td className="px-4 py-2 text-right">{r.loo_median_fold.toFixed(2)}×</td>
+                  <td className="px-4 py-2 text-right text-ink/50">{r.pi_factor.toFixed(2)}×</td>
+                  {sens.spotlight.map((s) => (
+                    <td key={s} className="px-4 py-2 text-right">{formatBigParams(r.estimates[s])}</td>
+                  ))}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
 }
 
 function PointTooltip({ active, payload }: any) {

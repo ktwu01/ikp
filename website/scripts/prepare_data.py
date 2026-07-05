@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Prepare static JSON files for the IKP visualization website.
 
-Reads from /Users/boj/ikp-paper/data/ and writes compact, web-friendly
-JSON to /Users/boj/ikp-paper/website/public/data/.
+Reads from the repo's data/ directory and writes compact, web-friendly
+JSON to website/public/data/ (paths derived from this file's location).
 
 Outputs:
   models.json              — all models with summary stats (~50KB)
@@ -530,15 +530,15 @@ def write_pipeline():
             "name": "6. Model evaluation",
             "description": "Each target model answers all 1,400 probes via OpenRouter or local Ollama. Strict factual grading by Gemini 3 Flash judge with REFUSAL/CORRECT/WRONG verdicts.",
             "output": "Per-model probe-level responses",
-            "count": "188 models × 1,400 probes = 263K responses",
+            "count": "201 models × 1,400 probes = 281K responses",
             "script": "scripts/run_evaluation.py",
         },
         {
             "id": "7_calibrate_curve",
             "name": "7. Scaling curve fit",
-            "description": "Fit log-linear regression: accuracy = α·log10(N_B) + β on 89 open-weight models. Invert to estimate proprietary model parameter counts. Validate with leave-one-out cross-validation.",
+            "description": "Fit log-linear regression: accuracy = α·log10(N_B) + β on 93 open-weight models. Invert to estimate proprietary model parameter counts. Validate with leave-one-out cross-validation.",
             "output": "Calibration curve + parameter estimates",
-            "count": "89 calibration → 92 proprietary estimates",
+            "count": "93 calibration → 97 proprietary estimates",
             "script": "scripts/analyze_results.py",
         },
     ]
@@ -1242,7 +1242,7 @@ def write_index():
     """Top-level index summarizing what data is available."""
     out = {
         "schema_version": 1,
-        "generated_from": str(DATA),
+        "generated_from": "data/",
         "files": {
             "models": "models.json",
             "probes": "probes.json",

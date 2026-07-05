@@ -7,73 +7,66 @@
   "params_B": null,
   "active_B": null,
   "thinking": true,
-  "accuracy": 0.4325,
-  "raw_accuracy": 0.4828571428571429,
+  "accuracy": 0.508316168202429,
+  "raw_accuracy": 0.5240274599542334,
   "tier_accuracy": {
-    "T1": 0.97,
-    "T2": 0.99,
-    "T3": 0.73,
-    "T4": 0.3375,
-    "T5": 0.0,
-    "T6": 0.0,
-    "T7": 0.0
+    "T1": 0.985,
+    "T2": 0.995,
+    "T3": 0.8360655737704918,
+    "T4": 0.5372340425531915,
+    "T5": 0.13259668508287292,
+    "T6": 0.0374331550802139,
+    "T7": 0.03488372093023256
   },
   "tier_stats": {
     "T1": {
-      "strong": 197,
-      "weak": 0,
+      "total": 200,
+      "correct": 197,
       "wrong": 3,
       "refusal": 0,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "score": 0.985
     },
     "T2": {
-      "strong": 199,
-      "weak": 0,
+      "total": 200,
+      "correct": 199,
       "wrong": 1,
       "refusal": 0,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "score": 0.995
     },
     "T3": {
-      "strong": 159,
-      "weak": 2,
+      "total": 183,
+      "correct": 153,
       "wrong": 14,
-      "refusal": 25,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "refusal": 16,
+      "score": 0.8360655737704918
     },
     "T4": {
-      "strong": 95,
-      "weak": 7,
-      "wrong": 31,
-      "refusal": 67,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 188,
+      "correct": 101,
+      "wrong": 28,
+      "refusal": 59,
+      "score": 0.5372340425531915
     },
     "T5": {
-      "strong": 16,
-      "weak": 1,
-      "wrong": 26,
-      "refusal": 157,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 181,
+      "correct": 24,
+      "wrong": 23,
+      "refusal": 134,
+      "score": 0.13259668508287292
     },
     "T6": {
-      "strong": 5,
-      "weak": 3,
-      "wrong": 15,
-      "refusal": 177,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 187,
+      "correct": 7,
+      "wrong": 14,
+      "refusal": 166,
+      "score": 0.0374331550802139
     },
     "T7": {
-      "strong": 5,
-      "weak": 1,
-      "wrong": 17,
-      "refusal": 177,
-      "no_cs_match_correct": 0,
-      "total": 200
+      "total": 172,
+      "correct": 6,
+      "wrong": 16,
+      "refusal": 150,
+      "score": 0.03488372093023256
     }
   },
   "samples": {

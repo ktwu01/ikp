@@ -77,7 +77,7 @@ export default function Probes() {
         <h1 className="text-4xl font-bold tracking-tight">The 1,400 probes</h1>
         <p className="mt-3 text-ink/70 max-w-3xl">
           Every question in the IKP benchmark, organized by tier (T1 = easiest, T7 = hardest).
-          Click any probe to see how all 188 models answered it.
+          Click any probe to see how all 201 models answered it.
         </p>
       </header>
 

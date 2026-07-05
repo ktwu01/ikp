@@ -87,7 +87,7 @@ export default function Hallucination() {
         <h2 className="text-lg font-semibold">Accuracy vs hallucination rate</h2>
         <p className="text-xs text-ink/50 mt-1">
           Every model positioned: high-accuracy / low-hallucination corner is the safety-conscious frontier cluster.
-          The penalized IKP score docks 0.5pp per hallucination to incentivize calibration.
+          The headline IKP score uses no penalty (λ=0); this page shows the raw hallucination rate as a vendor fingerprint.
         </p>
         <div className="h-[500px] -ml-5 mt-4">
           <ResponsiveContainer>
@@ -100,7 +100,7 @@ export default function Hallucination() {
                 stroke="#6b7280"
                 fontSize={12}
                 tickFormatter={(v) => `${Math.round(v * 100)}%`}
-                label={{ value: "IKP accuracy (penalized)", position: "insideBottom", offset: -16, fill: "#6b7280", fontSize: 13 }}
+                label={{ value: "IKP accuracy (λ=0)", position: "insideBottom", offset: -16, fill: "#6b7280", fontSize: 13 }}
               />
               <YAxis
                 type="number"

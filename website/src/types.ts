@@ -409,3 +409,20 @@ export interface FingerprintPairDetail {
   joint_wrong: PairJointWrong[];
   disagreement: PairDisagreement[];
 }
+
+export interface SensitivityRow {
+  lambda: number;
+  slope_pp: number;
+  r_squared: number;
+  loo_median_fold: number;
+  within_2x: number;
+  pi_factor: number;
+  estimates: Record<string, number | null>;
+}
+
+export interface SensitivityData {
+  n_calibration: number;
+  operating_point: number;
+  spotlight: string[];
+  rows: SensitivityRow[];
+}

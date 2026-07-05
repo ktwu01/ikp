@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_from": "/Users/boj/ikp-paper/data",
+  "generated_from": "data/",
   "files": {
     "models": "models.json",
     "probes": "probes.json",

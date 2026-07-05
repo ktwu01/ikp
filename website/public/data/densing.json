@@ -1,20 +1,20 @@
 {
   "n": 96,
   "fit": {
-    "b0": 0.14696239381429416,
-    "b1_logN": 0.1397054777191552,
-    "b2_time": -0.0010376782257271522,
-    "r_squared": 0.7635447775802464,
+    "b0": 0.14696239381429355,
+    "b1_logN": 0.13970547771915523,
+    "b2_time": -0.0010376782257271733,
+    "r_squared": 0.7635447775802463,
     "ci95_b2": [
-      -0.003134258966712372,
-      0.000874958278502029
+      -0.0031342589667123695,
+      0.0008749582785020135
     ],
-    "baseline_b1": 0.13620365330022427,
+    "baseline_b1": 0.1362036533002243,
     "baseline_r_squared": 0.76118247965121,
-    "r2_gain_from_time": 0.0023622979290364166
+    "r2_gain_from_time": 0.0023622979290363055
   },
   "densing_prediction": {
-    "b2": 0.011714681474967117,
+    "b2": 0.01171468147496712,
     "doubling_time_months": 3.5,
     "comment": "Densing-Law prediction: capability density doubles every 3.5 months."
   },
@@ -1368,7 +1368,7 @@
     {
       "model": "mistral-7b",
       "months": -3.1333333333333333,
-      "resid": -0.0175974891243931,
+      "resid": -0.017597489124393156,
       "log10_params": 0.8573324964312685,
       "vendor": "mistral",
       "thinking": false
@@ -1376,7 +1376,7 @@
     {
       "model": "mixtral-8x7b",
       "months": -0.6666666666666667,
-      "resid": 0.005378699905137008,
+      "resid": 0.005378699905136897,
       "log10_params": 1.6693168805661123,
       "vendor": "mistral",
       "thinking": false
@@ -1384,7 +1384,7 @@
     {
       "model": "command-r-plus",
       "months": 3.1,
-      "resid": -0.025552980658297586,
+      "resid": -0.02555298065829764,
       "log10_params": 2.0170333392987803,
       "vendor": "cohere",
       "thinking": false
@@ -1392,7 +1392,7 @@
     {
       "model": "mixtral-8x22b",
       "months": 3.533333333333333,
-      "resid": 0.0346571198105039,
+      "resid": 0.034657119810503845,
       "log10_params": 2.1492191126553797,
       "vendor": "mistral",
       "thinking": false
@@ -1400,7 +1400,7 @@
     {
       "model": "llama-3-70b",
       "months": 3.5666666666666664,
-      "resid": 0.060574660174948225,
+      "resid": 0.060574660174948114,
       "log10_params": 1.8488047010518038,
       "vendor": "meta",
       "thinking": false
@@ -1408,7 +1408,7 @@
     {
       "model": "llama-3-8b",
       "months": 3.5666666666666664,
-      "resid": 0.04237733794665777,
+      "resid": 0.04237733794665771,
       "log10_params": 0.9047155452786809,
       "vendor": "meta",
       "thinking": false
@@ -1416,7 +1416,7 @@
     {
       "model": "phi-3-mini",
       "months": 3.7333333333333334,
-      "resid": -0.024794315000205958,
+      "resid": -0.024794315000205985,
       "log10_params": 0.5797835966168101,
       "vendor": "microsoft",
       "thinking": false
@@ -1424,7 +1424,7 @@
     {
       "model": "gemma-2-27b",
       "months": 5.866666666666667,
-      "resid": -0.031139787754610404,
+      "resid": -0.03113978775461046,
       "log10_params": 1.4313637641589874,
       "vendor": "google",
       "thinking": false
@@ -1432,7 +1432,7 @@
     {
       "model": "mistral-nemo-12b",
       "months": 6.566666666666666,
-      "resid": -0.001385527873656145,
+      "resid": -0.001385527873656256,
       "log10_params": 1.0791812460476249,
       "vendor": "mistral",
       "thinking": false
@@ -1440,7 +1440,7 @@
     {
       "model": "llama-3.1-8b",
       "months": 6.733333333333333,
-      "resid": 0.07880590937522924,
+      "resid": 0.07880590937522919,
       "log10_params": 0.9047155452786809,
       "vendor": "meta",
       "thinking": false
@@ -1448,7 +1448,7 @@
     {
       "model": "llama-3.1-70b",
       "months": 6.733333333333333,
-      "resid": 0.10807466017494821,
+      "resid": 0.1080746601749481,
       "log10_params": 1.8488047010518038,
       "vendor": "meta",
       "thinking": false
@@ -1456,7 +1456,7 @@
     {
       "model": "gemma-2-2b",
       "months": 7.0,
-      "resid": -0.003060842747589193,
+      "resid": -0.003060842747589221,
       "log10_params": 0.414973347970818,
       "vendor": "google",
       "thinking": false
@@ -1464,7 +1464,7 @@
     {
       "model": "hermes-3-405b",
       "months": 7.5,
-      "resid": -0.052756285281026105,
+      "resid": -0.052756285281026216,
       "log10_params": 2.6074550232146687,
       "vendor": "meta",
       "thinking": false
@@ -1472,7 +1472,7 @@
     {
       "model": "jamba-large",
       "months": 7.7,
-      "resid": 0.020775042126986387,
+      "resid": 0.02077504212698633,
       "log10_params": 2.5998830720736876,
       "vendor": "ai21",
       "thinking": false
@@ -1480,7 +1480,7 @@
     {
       "model": "qwen-2.5-72b",
       "months": 8.6,
-      "resid": -0.007230601377677337,
+      "resid": -0.007230601377677448,
       "log10_params": 1.861534410859038,
       "vendor": "alibaba",
       "thinking": false
@@ -1488,7 +1488,7 @@
     {
       "model": "qwen-2.5-0.5b",
       "months": 8.6,
-      "resid": 0.03160412316083834,
+      "resid": 0.03160412316083833,
       "log10_params": -0.30627305107635305,
       "vendor": "alibaba",
       "thinking": false
@@ -1496,7 +1496,7 @@
     {
       "model": "qwen-2.5-7b",
       "months": 8.6,
-      "resid": 0.016905982696941824,
+      "resid": 0.016905982696941768,
       "log10_params": 0.8819549713396005,
       "vendor": "alibaba",
       "thinking": false
@@ -1504,7 +1504,7 @@
     {
       "model": "llama-3.2-3b",
       "months": 8.8,
-      "resid": 0.05518649315405516,
+      "resid": 0.055186493154055105,
       "log10_params": 0.5065050324048721,
       "vendor": "meta",
       "thinking": false
@@ -1512,7 +1512,7 @@
     {
       "model": "llama-3.2-1b",
       "months": 8.8,
-      "resid": 0.022164239880273107,
+      "resid": 0.02216423988027308,
       "log10_params": 0.09342168516223506,
       "vendor": "meta",
       "thinking": false
@@ -1528,7 +1528,7 @@
     {
       "model": "ministral-3b",
       "months": 9.5,
-      "resid": 0.042045813879685145,
+      "resid": 0.04204581387968509,
       "log10_params": 0.47712125471966244,
       "vendor": "mistral",
       "thinking": false
@@ -1536,7 +1536,7 @@
     {
       "model": "ministral-8b",
       "months": 9.5,
-      "resid": 0.03724160206682098,
+      "resid": 0.03724160206682092,
       "log10_params": 0.9030899869919435,
       "vendor": "mistral",
       "thinking": false
@@ -1544,7 +1544,7 @@
     {
       "model": "smollm2-360m",
       "months": 10.0,
-      "resid": 0.02785126241743678,
+      "resid": 0.027851262417436767,
       "log10_params": -0.4412914294668343,
       "vendor": "huggingface",
       "thinking": false
@@ -1552,7 +1552,7 @@
     {
       "model": "smollm2-1.7b",
       "months": 10.0,
-      "resid": 0.047072058277444345,
+      "resid": 0.04707205827744432,
       "log10_params": 0.2304489213782739,
       "vendor": "huggingface",
       "thinking": false
@@ -1568,7 +1568,7 @@
     {
       "model": "mistral-large",
       "months": 10.566666666666666,
-      "resid": 0.05023590346797452,
+      "resid": 0.05023590346797441,
       "log10_params": 2.089905111439398,
       "vendor": "mistral",
       "thinking": false
@@ -1576,7 +1576,7 @@
     {
       "model": "llama-3.3-70b",
       "months": 11.166666666666666,
-      "resid": 0.0980746601749482,
+      "resid": 0.09807466017494809,
       "log10_params": 1.8488047010518038,
       "vendor": "meta",
       "thinking": false
@@ -1584,7 +1584,7 @@
     {
       "model": "phi-4",
       "months": 11.366666666666667,
-      "resid": 0.009467157714879049,
+      "resid": 0.009467157714878938,
       "log10_params": 1.167317334748176,
       "vendor": "microsoft",
       "thinking": false
@@ -1592,7 +1592,7 @@
     {
       "model": "command-r7b",
       "months": 11.4,
-      "resid": -0.01878825432139658,
+      "resid": -0.018788254321396636,
       "log10_params": 0.8450980400142568,
       "vendor": "cohere",
       "thinking": false
@@ -1600,7 +1600,7 @@
     {
       "model": "deepseek-v3",
       "months": 11.833333333333334,
-      "resid": 0.019521537726656435,
+      "resid": 0.019521537726656324,
       "log10_params": 2.826722520168992,
       "vendor": "deepseek",
       "thinking": false
@@ -1616,7 +1616,7 @@
     {
       "model": "deepseek-r1-distill-qwen-32b-think",
       "months": 12.633333333333333,
-      "resid": -0.03868973968652023,
+      "resid": -0.03868973968652034,
       "log10_params": 1.505149978319906,
       "vendor": "deepseek",
       "thinking": true
@@ -1624,7 +1624,7 @@
     {
       "model": "deepseek-r1-think",
       "months": 12.633333333333333,
-      "resid": -0.0015498908447721949,
+      "resid": -0.0015498908447723059,
       "log10_params": 2.826722520168992,
       "vendor": "deepseek",
       "thinking": true
@@ -1640,7 +1640,7 @@
     {
       "model": "qwq-32b-think",
       "months": 14.166666666666666,
-      "resid": -0.0011897396865202525,
+      "resid": -0.0011897396865203635,
       "log10_params": 1.505149978319906,
       "vendor": "alibaba",
       "thinking": false
@@ -1648,7 +1648,7 @@
     {
       "model": "gemma-3-4b",
       "months": 14.366666666666667,
-      "resid": 0.0021715586577773227,
+      "resid": 0.002171558657777267,
       "log10_params": 0.6020599913279624,
       "vendor": "google",
       "thinking": false
@@ -1656,7 +1656,7 @@
     {
       "model": "gemma-3-12b",
       "months": 14.366666666666667,
-      "resid": -0.021385527873656107,
+      "resid": -0.021385527873656218,
       "log10_params": 1.0791812460476249,
       "vendor": "google",
       "thinking": false
@@ -1664,7 +1664,7 @@
     {
       "model": "gemma-3-27b",
       "months": 14.366666666666667,
-      "resid": -0.021496930611753284,
+      "resid": -0.02149693061175334,
       "log10_params": 1.4313637641589874,
       "vendor": "google",
       "thinking": false
@@ -1672,7 +1672,7 @@
     {
       "model": "gemma-3-1b",
       "months": 14.366666666666667,
-      "resid": -0.044397099588881425,
+      "resid": -0.04439709958888145,
       "log10_params": 0.0,
       "vendor": "google",
       "thinking": false
@@ -1680,7 +1680,7 @@
     {
       "model": "gemma-3-270m",
       "months": 14.366666666666667,
-      "resid": -0.05650696934031724,
+      "resid": -0.05650696934031725,
       "log10_params": -0.5718652059712112,
       "vendor": "google",
       "thinking": false
@@ -1688,7 +1688,7 @@
     {
       "model": "command-a",
       "months": 14.4,
-      "resid": 0.06380815280719304,
+      "resid": 0.06380815280719293,
       "log10_params": 2.0453229787866576,
       "vendor": "cohere",
       "thinking": false
@@ -1696,7 +1696,7 @@
     {
       "model": "nemotron-super-49b-think",
       "months": 14.566666666666666,
-      "resid": -0.04603655191105471,
+      "resid": -0.04603655191105477,
       "log10_params": 1.6901960800285136,
       "vendor": "nvidia",
       "thinking": true
@@ -1704,7 +1704,7 @@
     {
       "model": "llama-4-scout",
       "months": 15.133333333333333,
-      "resid": -0.09511631765336193,
+      "resid": -0.09511631765336198,
       "log10_params": 2.037426497940624,
       "vendor": "meta",
       "thinking": false
@@ -1712,7 +1712,7 @@
     {
       "model": "llama-4-maverick",
       "months": 15.133333333333333,
-      "resid": 0.035183512247104254,
+      "resid": 0.03518351224710414,
       "log10_params": 2.60422605308447,
       "vendor": "meta",
       "thinking": false
@@ -1720,7 +1720,7 @@
     {
       "model": "glm-4-32b",
       "months": 15.466666666666667,
-      "resid": 0.0016674031706225834,
+      "resid": 0.0016674031706224723,
       "log10_params": 1.505149978319906,
       "vendor": "zhipu",
       "thinking": false
@@ -1728,7 +1728,7 @@
     {
       "model": "granite-3.3-2b",
       "months": 15.466666666666667,
-      "resid": 0.011030086677305095,
+      "resid": 0.011030086677305068,
       "log10_params": 0.3010299956639812,
       "vendor": "ibm",
       "thinking": false
@@ -1736,7 +1736,7 @@
     {
       "model": "qwen3-235b-a22b-think",
       "months": 15.933333333333334,
-      "resid": -0.023416633224473515,
+      "resid": -0.02341663322447357,
       "log10_params": 2.3710678622717363,
       "vendor": "alibaba",
       "thinking": true
@@ -1752,7 +1752,7 @@
     {
       "model": "qwen3-30b-a3b-think",
       "months": 15.933333333333334,
-      "resid": 0.005485017722317964,
+      "resid": 0.005485017722317853,
       "log10_params": 1.4771212547196624,
       "vendor": "alibaba",
       "thinking": true
@@ -1760,7 +1760,7 @@
     {
       "model": "qwen3-32b-think",
       "months": 15.933333333333334,
-      "resid": 0.017738831742051153,
+      "resid": 0.017738831742051042,
       "log10_params": 1.505149978319906,
       "vendor": "alibaba",
       "thinking": true
@@ -1768,7 +1768,7 @@
     {
       "model": "qwen3-0.6b",
       "months": 15.933333333333334,
-      "resid": -0.07878481907261194,
+      "resid": -0.07878481907261195,
       "log10_params": -0.22475374025976358,
       "vendor": "alibaba",
       "thinking": false
@@ -1776,7 +1776,7 @@
     {
       "model": "qwen3-8b-think",
       "months": 15.933333333333334,
-      "resid": 0.0054558877811067275,
+      "resid": 0.005455887781106672,
       "log10_params": 0.9030899869919435,
       "vendor": "alibaba",
       "thinking": true
@@ -1784,7 +1784,7 @@
     {
       "model": "minimax-m1-think",
       "months": 17.5,
-      "resid": -0.3837006822994906,
+      "resid": -0.3837006822994907,
       "log10_params": 2.658964842664435,
       "vendor": "minimax",
       "thinking": true
@@ -1792,7 +1792,7 @@
     {
       "model": "gemma-3n-e4b",
       "months": 17.833333333333332,
-      "resid": 0.029314415800634458,
+      "resid": 0.029314415800634402,
       "log10_params": 0.6020599913279624,
       "vendor": "google",
       "thinking": false
@@ -1800,7 +1800,7 @@
     {
       "model": "hunyuan-a13b-think",
       "months": 17.866666666666667,
-      "resid": -0.162176336947689,
+      "resid": -0.1621763369476891,
       "log10_params": 1.9030899869919435,
       "vendor": "tencent",
       "thinking": true
@@ -1808,7 +1808,7 @@
     {
       "model": "hunyuan-a13b",
       "months": 17.866666666666667,
-      "resid": -0.16146205123340326,
+      "resid": -0.16146205123340338,
       "log10_params": 1.9030899869919435,
       "vendor": "tencent",
       "thinking": false
@@ -1816,7 +1816,7 @@
     {
       "model": "ernie-4.5-300b-a47b",
       "months": 17.966666666666665,
-      "resid": -0.026075778435049157,
+      "resid": -0.02607577843504927,
       "log10_params": 2.4771212547196626,
       "vendor": "baidu",
       "thinking": false
@@ -1824,7 +1824,7 @@
     {
       "model": "kimi-k2",
       "months": 18.333333333333332,
-      "resid": -0.026222345203840036,
+      "resid": -0.026222345203840147,
       "log10_params": 3.0,
       "vendor": "moonshot",
       "thinking": false
@@ -1832,7 +1832,7 @@
     {
       "model": "glm-4.5-think",
       "months": 18.9,
-      "resid": 0.04789533911805771,
+      "resid": 0.047895339118057545,
       "log10_params": 2.550228353055094,
       "vendor": "zhipu",
       "thinking": true
@@ -1840,7 +1840,7 @@
     {
       "model": "glm-4.5-air-think",
       "months": 18.9,
-      "resid": 0.031177413940256526,
+      "resid": 0.03117741394025647,
       "log10_params": 2.0253058652647704,
       "vendor": "zhipu",
       "thinking": true
@@ -1848,7 +1848,7 @@
     {
       "model": "gpt-oss-20b-think",
       "months": 19.133333333333333,
-      "resid": -0.009459280908633516,
+      "resid": -0.009459280908633572,
       "log10_params": 1.3010299956639813,
       "vendor": "openai",
       "thinking": true
@@ -1856,7 +1856,7 @@
     {
       "model": "gpt-oss-120b-think",
       "months": 19.133333333333333,
-      "resid": -0.03973203831673755,
+      "resid": -0.039732038316737606,
       "log10_params": 2.0791812460476247,
       "vendor": "openai",
       "thinking": true
@@ -1872,7 +1872,7 @@
     {
       "model": "hermes-4-405b",
       "months": 19.833333333333332,
-      "resid": 0.003672286147545223,
+      "resid": 0.003672286147545112,
       "log10_params": 2.6074550232146687,
       "vendor": "meta",
       "thinking": false
@@ -1880,7 +1880,7 @@
     {
       "model": "qwen3-next-80b-a3b",
       "months": 20.333333333333332,
-      "resid": 0.04710937733802528,
+      "resid": 0.04710937733802517,
       "log10_params": 1.9030899869919435,
       "vendor": "alibaba",
       "thinking": false
@@ -1888,7 +1888,7 @@
     {
       "model": "deepseek-v3.2-think",
       "months": 20.933333333333334,
-      "resid": 0.010592966298084927,
+      "resid": 0.010592966298084816,
       "log10_params": 2.826722520168992,
       "vendor": "deepseek",
       "thinking": true
@@ -1896,7 +1896,7 @@
     {
       "model": "deepseek-v3.2",
       "months": 20.933333333333334,
-      "resid": -0.016549890844772097,
+      "resid": -0.016549890844772208,
       "log10_params": 2.826722520168992,
       "vendor": "deepseek",
       "thinking": false
@@ -1904,7 +1904,7 @@
     {
       "model": "glm-4.6-think",
       "months": 20.966666666666665,
-      "resid": 0.02649159228470005,
+      "resid": 0.026491592284699883,
       "log10_params": 2.552668216112193,
       "vendor": "zhipu",
       "thinking": true
@@ -1912,7 +1912,7 @@
     {
       "model": "deepseek-v3.1-nex-n1",
       "months": 22.0,
-      "resid": -0.15226417655905783,
+      "resid": -0.15226417655905794,
       "log10_params": 2.826722520168992,
       "vendor": "nex-agi",
       "thinking": false
@@ -1920,7 +1920,7 @@
     {
       "model": "olmo-3.1-32b",
       "months": 22.633333333333333,
-      "resid": -0.03976116825794884,
+      "resid": -0.03976116825794895,
       "log10_params": 1.505149978319906,
       "vendor": "allenai",
       "thinking": false
@@ -1928,7 +1928,7 @@
     {
       "model": "intellect-3-think",
       "months": 22.866666666666667,
-      "resid": -0.08275115748831496,
+      "resid": -0.08275115748831502,
       "log10_params": 2.0253058652647704,
       "vendor": "prime-intellect",
       "thinking": true
@@ -1936,7 +1936,7 @@
     {
       "model": "nemotron-3-nano-30b",
       "months": 23.466666666666665,
-      "resid": -0.028086410849110566,
+      "resid": -0.028086410849110677,
       "log10_params": 1.4771212547196624,
       "vendor": "nvidia",
       "thinking": false
@@ -1944,7 +1944,7 @@
     {
       "model": "mimo-v2-flash",
       "months": 23.5,
-      "resid": -0.021752826766700872,
+      "resid": -0.02175282676670104,
       "log10_params": 2.4899584794248346,
       "vendor": "xiaomi",
       "thinking": false
@@ -1952,7 +1952,7 @@
     {
       "model": "mimo-v2-flash-think",
       "months": 23.5,
-      "resid": -0.023181398195272374,
+      "resid": -0.02318139819527254,
       "log10_params": 2.4899584794248346,
       "vendor": "xiaomi",
       "thinking": true
@@ -1960,7 +1960,7 @@
     {
       "model": "glm-4.7-flash-think",
       "months": 23.7,
-      "resid": 0.028342160579460873,
+      "resid": 0.028342160579460762,
       "log10_params": 1.4771212547196624,
       "vendor": "zhipu",
       "thinking": true
@@ -1968,7 +1968,7 @@
     {
       "model": "glm-4.7-think",
       "months": 23.7,
-      "resid": 0.06704041636650315,
+      "resid": 0.06704041636650304,
       "log10_params": 2.5538830266438746,
       "vendor": "zhipu",
       "thinking": true
@@ -1976,7 +1976,7 @@
     {
       "model": "kimi-k2.5-think",
       "months": 24.866666666666667,
-      "resid": 0.09717193747004971,
+      "resid": 0.0971719374700496,
       "log10_params": 3.0170333392987803,
       "vendor": "moonshot",
       "thinking": true
@@ -1984,7 +1984,7 @@
     {
       "model": "step-3.5-flash-think",
       "months": 24.933333333333334,
-      "resid": 0.017373932319645347,
+      "resid": 0.017373932319645236,
       "log10_params": 2.294466226161593,
       "vendor": "stepfun",
       "thinking": true
@@ -1992,7 +1992,7 @@
     {
       "model": "glm-5-think",
       "months": 25.333333333333332,
-      "resid": 0.04126989015743476,
+      "resid": 0.04126989015743465,
       "log10_params": 2.8715729355458786,
       "vendor": "zhipu",
       "thinking": true
@@ -2000,7 +2000,7 @@
     {
       "model": "qwen3.5-0.8b",
       "months": 25.5,
-      "resid": -0.07619760177581189,
+      "resid": -0.07619760177581192,
       "log10_params": -0.09691001300805639,
       "vendor": "alibaba",
       "thinking": false
@@ -2008,7 +2008,7 @@
     {
       "model": "qwen3.5-397b-a17b-think",
       "months": 25.5,
-      "resid": -0.0008618607719588778,
+      "resid": -0.0008618607719589888,
       "log10_params": 2.598790506763115,
       "vendor": "alibaba",
       "thinking": true
@@ -2016,7 +2016,7 @@
     {
       "model": "qwen3.5-27b-think",
       "months": 25.766666666666666,
-      "resid": 0.029574497959675317,
+      "resid": 0.02957449795967526,
       "log10_params": 1.4313637641589874,
       "vendor": "alibaba",
       "thinking": true
@@ -2024,7 +2024,7 @@
     {
       "model": "qwen3.5-122b-a10b-think",
       "months": 25.766666666666666,
-      "resid": 0.06321878366009487,
+      "resid": 0.06321878366009476,
       "log10_params": 2.0863598306747484,
       "vendor": "alibaba",
       "thinking": true
@@ -2032,7 +2032,7 @@
     {
       "model": "qwen3.5-35b-a3b-think",
       "months": 25.766666666666666,
-      "resid": 0.027438048969335438,
+      "resid": 0.027438048969335382,
       "log10_params": 1.5440680443502757,
       "vendor": "alibaba",
       "thinking": true
@@ -2048,7 +2048,7 @@
     {
       "model": "nemotron-3-super-120b",
       "months": 26.333333333333332,
-      "resid": 0.027053675968976676,
+      "resid": 0.02705367596897662,
       "log10_params": 2.0791812460476247,
       "vendor": "nvidia",
       "thinking": false
@@ -2056,7 +2056,7 @@
     {
       "model": "minimax-m2.7-think",
       "months": 26.566666666666666,
-      "resid": -0.048573058955310555,
+      "resid": -0.048573058955310666,
       "log10_params": 2.361727836017593,
       "vendor": "minimax",
       "thinking": true
@@ -2064,7 +2064,7 @@
     {
       "model": "gemma-4-31b",
       "months": 27.033333333333335,
-      "resid": -0.026097439252548482,
+      "resid": -0.026097439252548593,
       "log10_params": 1.4913616938342726,
       "vendor": "google",
       "thinking": false
@@ -2072,7 +2072,7 @@
     {
       "model": "gemma-4-26b-a4b",
       "months": 27.033333333333335,
-      "resid": -0.016050210333527715,
+      "resid": -0.016050210333527826,
       "log10_params": 1.414973347970818,
       "vendor": "google",
       "thinking": false
@@ -2080,7 +2080,7 @@
     {
       "model": "glm-5.1-think",
       "months": 27.2,
-      "resid": 0.05048012548798653,
+      "resid": 0.050480125487986416,
       "log10_params": 2.877371345869774,
       "vendor": "zhipu",
       "thinking": true
@@ -2088,7 +2088,7 @@
     {
       "model": "kimi-k2.6-think",
       "months": 27.633333333333333,
-      "resid": 0.07717193747004958,
+      "resid": 0.07717193747004947,
       "log10_params": 3.0170333392987803,
       "vendor": "moonshot",
       "thinking": true
@@ -2096,7 +2096,7 @@
     {
       "model": "ling-2.6-flash",
       "months": 27.7,
-      "resid": -0.27341012351544036,
+      "resid": -0.2734101235154405,
       "log10_params": 2.0170333392987803,
       "vendor": "inclusionai",
       "thinking": false
@@ -2104,7 +2104,7 @@
     {
       "model": "deepseek-v4-pro",
       "months": 27.766666666666666,
-      "resid": 0.0266900531611306,
+      "resid": 0.02669005316113049,
       "log10_params": 3.2041199826559246,
       "vendor": "deepseek",
       "thinking": false
@@ -2112,7 +2112,7 @@
     {
       "model": "deepseek-v4-flash-think",
       "months": 27.766666666666666,
-      "resid": 0.09859483693112725,
+      "resid": 0.09859483693112714,
       "log10_params": 2.4533183400470375,
       "vendor": "deepseek",
       "thinking": true
@@ -2120,7 +2120,7 @@
     {
       "model": "deepseek-v4-flash",
       "months": 27.766666666666666,
-      "resid": 0.09252340835969874,
+      "resid": 0.09252340835969863,
       "log10_params": 2.4533183400470375,
       "vendor": "deepseek",
       "thinking": false
@@ -2128,7 +2128,7 @@
     {
       "model": "deepseek-v4-pro-think",
       "months": 27.766666666666666,
-      "resid": 0.04061862458970189,
+      "resid": 0.04061862458970178,
       "log10_params": 3.2041199826559246,
       "vendor": "deepseek",
       "thinking": true

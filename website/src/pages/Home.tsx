@@ -143,7 +143,7 @@ export default function Home() {
         />
         <NavCard
           to="/models"
-          title="All 188 models"
+          title="All 201 models"
           desc="Drill into any model: per-tier accuracy, sample correct/wrong/refusal responses."
         />
         <NavCard
@@ -252,7 +252,7 @@ function CalibrationMini({ cal }: { cal: CalibrationData }) {
               tickFormatter={(v) => `${(v * 100).toFixed(0)}%`}
               stroke="#6b7280"
               fontSize={12}
-              label={{ value: "IKP accuracy (penalized)", angle: -90, position: "insideLeft", offset: 14, fill: "#6b7280", fontSize: 13 }}
+              label={{ value: "IKP accuracy (λ=0)", angle: -90, position: "insideLeft", offset: 14, fill: "#6b7280", fontSize: 13 }}
             />
             <ZAxis range={[60, 60]} />
             <Tooltip content={<MiniTooltip />} />

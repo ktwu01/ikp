@@ -51,7 +51,7 @@ export default function Pipeline() {
           difficulty distribution from any single model's idiosyncrasies, and gives us a stable
           7-tier scaffold (T1 = all six landmarks correct; T7 = only Gemini 3.1 Pro correct). The
           final scaling-curve fit then maps overall IKP accuracy to log<sub>10</sub>(parameters)
-          with R² &gt; 0.9 across 89 open-weight models.
+          with R² &gt; 0.9 across 93 open-weight models.
         </p>
       </div>
     </div>

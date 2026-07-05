@@ -1,7 +1,7 @@
 {
   "n": 345,
   "n_with_citations": 345,
-  "pearson_log_citations": 0.5881509138030564,
+  "pearson_log_citations": 0.5881509138030565,
   "spearman_log_citations": 0.5751127475516681,
   "quintile_buckets": [
     {
@@ -22,7 +22,7 @@
       "index": 1,
       "n": 69,
       "log_cit_range": [
-        2.3201462861110542,
+        2.320146286111054,
         2.8305886686851442
       ],
       "citations_range": [
