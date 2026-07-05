@@ -2039,6 +2039,149 @@
       "vendor": "inclusionai",
       "thinking": false,
       "release_date": "2026-04-22"
+    },
+    "glm-5": {
+      "id": "z-ai/glm-5",
+      "params_B": 744,
+      "family": "glm",
+      "arch": "moe",
+      "active_B": 40,
+      "type": "open",
+      "vendor": "zhipu",
+      "thinking": false,
+      "release_date": "2026-02-11"
+    },
+    "glm-5.1": {
+      "id": "z-ai/glm-5.1",
+      "params_B": 754,
+      "family": "glm",
+      "arch": "moe",
+      "active_B": 40,
+      "type": "open",
+      "vendor": "zhipu",
+      "thinking": false,
+      "release_date": "2026-04-07"
+    },
+    "kimi-k2.7-code": {
+      "id": "moonshotai/kimi-k2.7-code",
+      "params_B": 1040,
+      "family": "kimi",
+      "arch": "moe",
+      "active_B": 32,
+      "type": "open",
+      "vendor": "moonshot",
+      "thinking": false,
+      "release_date": "2026-06-12"
+    },
+    "nemotron-3-ultra": {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "params_B": 550,
+      "family": "nemotron",
+      "arch": "moe",
+      "active_B": 55,
+      "type": "open",
+      "vendor": "nvidia",
+      "thinking": false,
+      "release_date": "2026-06-04"
+    },
+    "claude-opus-4.8": {
+      "id": "anthropic/claude-opus-4.8",
+      "params_B": null,
+      "family": "claude",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "anthropic",
+      "thinking": false,
+      "release_date": "2026-05-27"
+    },
+    "claude-sonnet-5": {
+      "id": "anthropic/claude-sonnet-5",
+      "params_B": null,
+      "family": "claude",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "anthropic",
+      "thinking": false,
+      "release_date": "2026-06-30"
+    },
+    "claude-fable-5": {
+      "id": "anthropic/claude-fable-5",
+      "params_B": null,
+      "family": "claude",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "anthropic",
+      "thinking": false,
+      "release_date": "2026-06-09"
+    },
+    "qwen3.7-plus": {
+      "id": "qwen/qwen3.7-plus",
+      "params_B": null,
+      "family": "qwen-prop",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "alibaba",
+      "thinking": false,
+      "release_date": "2026-06-03"
+    },
+    "qwen3.7-max": {
+      "id": "qwen/qwen3.7-max",
+      "params_B": null,
+      "family": "qwen-prop",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "alibaba",
+      "thinking": false,
+      "release_date": "2026-05-21"
+    },
+    "minimax-m3": {
+      "id": "minimax/minimax-m3",
+      "params_B": null,
+      "family": "minimax",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "minimax",
+      "thinking": false,
+      "release_date": "2026-05-31"
+    },
+    "glm-5.2": {
+      "id": "z-ai/glm-5.2",
+      "params_B": null,
+      "family": "glm",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "zhipu",
+      "thinking": false,
+      "release_date": "2026-06-16"
+    },
+    "glm-5-turbo": {
+      "id": "z-ai/glm-5-turbo",
+      "params_B": null,
+      "family": "glm",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "zhipu",
+      "thinking": false,
+      "release_date": "2026-03-15"
+    },
+    "step-3.7-flash": {
+      "id": "stepfun/step-3.7-flash",
+      "params_B": null,
+      "family": "step",
+      "arch": "unknown",
+      "active_B": null,
+      "type": "proprietary",
+      "vendor": "stepfun",
+      "thinking": false,
+      "release_date": "2026-05-28"
     }
   }
 }
