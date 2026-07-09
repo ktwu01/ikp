@@ -85,11 +85,11 @@ With `--output out.json`:
   "probes_used": 1400,
   "accuracy":      0.639,      // λ=0: correct / total, averaged per tier (no penalty)
   "raw_accuracy":  0.639,      // overall correct / total
-  "estimated_params_B": 402.1,
+  "estimated_params_B": 663.6,
   "tier_accuracy": {"T1": 0.99, …, "T7": 0.04},
   "tier_stats":    {"T1": {"correct":…, "total":…, "refusal":…, "wrong":…}, …},
-  "calibration": {"slope": 6.790, "intercept": -0.899,
-                   "n_models": 93, "r_squared": 0.910},
+  "calibration": {"slope": 6.701, "intercept": -1.461,
+                   "n_models": 89, "r_squared": 0.907},
   "results":       [ /* 1400 per-probe records */ ]
 }
 ```
@@ -119,14 +119,17 @@ Per-probe record:
 3. For each tier, `tier_score = correct / total` (λ=0; not floored, since
    scores are ≥ 0 by construction).
 4. `accuracy = mean(tier_score)` across all seven tiers.
-5. `log10(params_B) = 6.790 · accuracy − 0.899` (constants fixed;
-   see `CALIB_SLOPE`, `CALIB_INTERCEPT`).
+5. `log10(params_B) = 6.701 · accuracy − 1.461` (i.e. the inverse of the
+   fitted `accuracy = 0.14922 · log10(params_B) + 0.21805`).
 
-These constants are the OLS fit on the full 89-model open-weight
-calibration set (135M–1.6T, R² = 0.910, no-penalty λ=0, LOO median fold error 1.48×,
-72% within 2× and 86% within 3×). The fit is updated whenever new open-weight models
-are added to `data/results/` and `scripts/loo_cv_analysis.py` is
-rerun.
+The tool loads these constants at runtime from the fitted artifact
+`data/results/calibration_refit_v2.json` (λ=0 row) — the single source of
+truth shared by the estimator and every analysis script — falling back to
+the values above if the file is absent. That artifact is the OLS fit on the
+89-model open-weight calibration set (135M–1.6T, R² = 0.907, no-penalty
+λ=0, LOO median fold error ≈1.6×). Regenerate it with
+`scripts/calibration_refit_v2.py` (or `scripts/loo_cv_analysis.py`) when new
+open-weight models are added.
 
 ## Scope and known limitations
 

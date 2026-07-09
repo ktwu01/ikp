@@ -48,7 +48,8 @@ PROJECT_ROOT = Path(__file__).parent.parent
 SPLIT_FILE = PROJECT_ROOT / "data" / "probes" / "split_manifest_v2.json"
 CALIB_FILE = PROJECT_ROOT / "data" / "results" / "calibration_refit_v2.json"
 TIERS = ["T1", "T2", "T3", "T4", "T5", "T6", "T7"]
-CALIB_MAX_B = 1800.0  # largest model in the calibration set; above this is extrapolation
+CALIB_MAX_B = 1600.0  # largest OPEN model in the calibration cohort (deepseek-v4-pro,
+#                       1.6T); above this the estimate is extrapolation
 
 # Canonical calibration: the fitted artifact, not hand-copied constants, so v2,
 # the adversarial analysis, and any refit stay on ONE source of truth. Form:

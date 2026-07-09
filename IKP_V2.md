@@ -83,14 +83,17 @@ checks:
   models.** We did not re-grade or invent anything; we reproduce upstream's
   own scoring exactly. (The one model needing the fixed-7-tier convention,
   `ling-2.6-flash`, is the same one the repo lists in `CALIBRATION_EXCLUDE`.)
-- **CHECK 2 — the curve is the paper's curve.** We rebuild the calibration
-  cohort (open-weight, known size, minus the repo's documented exclusions)
-  and refit. Result: **R² = 0.91, median in-sample fold error 1.47×, 74%
-  within 2×, 88% within 3×** — matching the paper's reported calibration
-  quality. The refit slope drifts slightly from the stored fit only because
-  the current cohort is n=93 vs the stored n=89 (4 models added since); v2's
-  absolute estimates use the *stored* (paper) fit, so they match published
-  numbers.
+- **CHECK 2 — the curve reproduces the paper's calibration quality.** We
+  rebuild the calibration cohort (open-weight, known size, minus the repo's
+  documented exclusions) and refit. Result: **R² = 0.91, median in-sample
+  fold error 1.47×, 74% within 2×, 88% within 3×** — the same quality the
+  paper reports. The refit slope differs slightly from the stored fit
+  because the stored fit uses the curated `final_assembly.json` cohort
+  (n=89) while this independent refit uses the broader `evaluation_summary`
+  open set (n=93); it is a cohort difference, not staleness — regenerating
+  the artifact with `scripts/calibration_refit_v2.py` reproduces the
+  committed file to floating-point precision. v2's absolute estimates use
+  the *stored* (paper) fit, so they match published numbers.
 - **CHECK 3 — intervals behave.** Across the roster, the refusal-robust
   interval width rises from a median **1.35×** for low-refusal models to
   **5.64×** for high-refusal ones — i.e. the interval encodes exactly the
