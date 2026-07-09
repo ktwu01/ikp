@@ -83,21 +83,19 @@ def tier_counts(model):
 
 
 def base_accuracy(counts):
-    """λ=0 accuracy = mean over tiers of correct/total."""
-    scores = [c / tot for (c, _, tot) in counts.values()]
-    return sum(scores) / len(scores) if scores else 0.0
+    """λ=0 accuracy = mean over a FIXED 7 tiers (missing tier = 0), matching the
+    repo's convention so this reproduces the recorded `accuracy` exactly."""
+    return sum(c / tot for (c, _, tot) in counts.values()) / len(TIERS)
 
 
 def sandbag_accuracy(counts, p):
     """Suppress fraction p of correct answers uniformly across tiers."""
-    scores = [(c * (1 - p)) / tot for (c, _, tot) in counts.values()]
-    return sum(scores) / len(scores) if scores else 0.0
+    return sum((c * (1 - p)) / tot for (c, _, tot) in counts.values()) / len(TIERS)
 
 
 def contaminate_accuracy(counts, q):
     """Convert fraction q of non-correct answers into correct."""
-    scores = [(c + q * nc) / tot for (c, nc, tot) in counts.values()]
-    return sum(scores) / len(scores) if scores else 0.0
+    return sum((c + q * nc) / tot for (c, nc, tot) in counts.values()) / len(TIERS)
 
 
 # ── Gaming-resistance metrics ──────────────────────────────────

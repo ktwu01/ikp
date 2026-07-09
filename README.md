@@ -190,6 +190,7 @@ ikp-paper/
 ├── TOOLKIT.md              ← ikp_estimate.py reference
 ├── REPRODUCTION.md         ← figure/table ⇄ script map
 ├── ADVERSARIAL_IKP.md      ← how cheaply an operator can game its estimate
+├── IKP_V2.md               ← gaming-resistant estimator (refusal interval + held-out split)
 ├── requirements.txt
 │
 ├── paper/                  ← LaTeX sources
