@@ -3,9 +3,10 @@
 `scripts/ikp_estimate.py` is a self-contained CLI that scores a model
 against the 1,400-probe IKP benchmark and maps the result to an
 effective parameter-count estimate via the calibrated log-linear curve
-from the paper. The only external state it reads is
-`data/probes/final_probe_set_v8.json`; all calibration constants are
-baked into the script.
+from the paper. It reads the probe set
+`data/probes/final_probe_set_v8.json` and the fitted calibration
+`data/results/calibration_refit_v2.json` (falling back to baked-in
+constants if the latter is absent).
 
 ## Install
 
@@ -29,6 +30,52 @@ answer with Gemini 3 Flash Preview, (4) print a per-tier breakdown and
 an estimated parameter count. Typical cost per run: **$0.10–$3** at
 OpenRouter list prices, depending on the target model and thinking
 budget.
+
+## Budgeting a run (before you spend a token)
+
+Not sure a run fits your wallet? `scripts/ikp_budget.py` prices it
+up-front — no API key needed — by multiplying the benchmark's measured
+per-probe token footprint by live OpenRouter prices:
+
+```bash
+# What does a full run against gpt-4.1 cost?
+python scripts/ikp_budget.py --model openai/gpt-4.1
+
+# A thinking model, quick 200-probe sample
+python scripts/ikp_budget.py --model anthropic/claude-opus-4.7 --thinking --sample 200
+
+# "I have $10 — what can I run?"
+python scripts/ikp_budget.py --model openai/gpt-4.1 --budget 10
+
+# Compare common models at a glance
+python scripts/ikp_budget.py --list
+```
+
+Example output:
+
+```
+  ╔══════════════════════════════════════════════════════════╗
+  ║ IKP Budget Estimate                                      ║
+  ╠══════════════════════════════════════════════════════════╣
+  ║ Target:    openai/gpt-4.1                                ║
+  ║ Probes:    1400  (standard mode)                         ║
+  ║ Est. cost: $0.890 per run                                ║
+  ╚══════════════════════════════════════════════════════════╝
+
+  Breakdown (per run of 1400 probes):
+    Target model  (  2.00/  8.00 $/Mtok in/out) :     $0.616
+    Judge  (google/gemini-3-flash-preview)      :     $0.274
+    Total                                       :     $0.890
+```
+
+Prices come live from OpenRouter's public `/models` endpoint; if that
+call fails the tool falls back to a built-in early-2026 snapshot and
+labels the output as an estimate. Add `--offline` to force the snapshot,
+`--json` for machine-readable output. Every dollar figure is derived
+from the same prompts and probe set the estimator actually sends, so the
+budget and the run stay in sync. Costs scale linearly with `--sample`,
+so if a full run is too pricey, the tool suggests a stratified sample
+that fits your `--budget`.
 
 ## CLI reference
 

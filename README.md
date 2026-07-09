@@ -266,7 +266,9 @@ predict accuracy (R² = 0.79) much better than active parameters
   all 188 evaluated models; OpenAI-compatible endpoints also work)
 - An `OPENROUTER_API_KEY` for the judge (always Gemini 3 Flash Preview)
 - ~$0.10–$3 per model to score the full 1,400 probes, depending on the
-  model priced at OpenRouter rates
+  model priced at OpenRouter rates. Get the exact figure up-front with
+  `python scripts/ikp_budget.py --model <id>` (no API key needed) — see
+  the "Budgeting a run" section of `TOOLKIT.md`.
 
 ## Citing
 

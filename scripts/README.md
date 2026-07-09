@@ -6,6 +6,7 @@
 |---|---|
 | `ikp_estimate.py` | Score one model against the 1,400-probe set and print an estimated parameter count. See `../TOOLKIT.md`. |
 | `ikp_estimate_v2.py` | Gaming-resistant estimate: refusal-robust interval + held-out `--split`. See `../IKP_V2.md`. |
+| `ikp_budget.py` | Estimate the $ cost of a run before spending a token (no API key). See `../TOOLKIT.md`. |
 | `make_probe_split.py` | Generate the deterministic public/private probe split used by v2. |
 | `run_all_models.py` | Batch-score every model in `configs/all_models.json` (idempotent, resumable). |
 | `run_evaluation.py` | Score a single model by name; called from `run_all_models.py` but runnable standalone. |
