@@ -187,8 +187,9 @@ website documentation, nginx config, and GitHub Pages instructions.
 ```
 ikp-paper/
 ├── README.md               ← this file
-├── TOOLKIT.md              ← ikp_estimate.py reference
+├── TOOLKIT.md              ← ikp_estimate.py + ikp_budget.py reference
 ├── REPRODUCTION.md         ← figure/table ⇄ script map
+├── ADVERSARIAL_IKP.md      ← how cheaply an operator can game its estimate
 ├── requirements.txt
 │
 ├── paper/                  ← LaTeX sources
