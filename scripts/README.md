@@ -5,6 +5,7 @@
 | Script | Purpose |
 |---|---|
 | `ikp_estimate.py` | Score one model against the 1,400-probe set and print an estimated parameter count. See `../TOOLKIT.md`. |
+| `ikp_budget.py` | Estimate the $ cost of a run before spending a token (no API key). See `../TOOLKIT.md`. |
 | `run_all_models.py` | Batch-score every model in `configs/all_models.json` (idempotent, resumable). |
 | `run_evaluation.py` | Score a single model by name; called from `run_all_models.py` but runnable standalone. |
 
@@ -37,6 +38,7 @@ already ships in `data/`.
 |---|---|
 | `analyze_results.py` | Aggregates per-tier accuracy, builds `data/results/evaluation_summary.json`, fits scaling curves. |
 | `loo_cv_analysis.py` | Leave-one-out CV + writes Fig 7 (`paper/figures/fig7_loo_validation.pdf`). |
+| `17_adversarial_robustness.py` | Quantifies how cheaply a black-box operator can game its IKP estimate (sandbagging vs. contamination) across the full roster; writes `data/results/adversarial_ikp.json` + `paper/figures/adversarial_ikp.png`. Findings in `../ADVERSARIAL_IKP.md`. |
 | `show_progress.py` | Quick text progress dump across `data/results/`. |
 
 ## legacy/
