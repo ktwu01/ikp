@@ -7,6 +7,7 @@
 #   make data     Refresh calibration / analysis / website data from data/results/
 #   make all      data -> figs -> pdf
 #   make eval     Run scripts/run_evaluation.py (auto-skips models with existing results)
+#   make budget   Estimate the $ cost of a run (make budget MODEL=openai/gpt-4.1)
 #   make clean    Remove LaTeX intermediates
 #   make watch    Rebuild PDF on every main.tex / appendix.tex / .bib edit (requires fswatch)
 #
@@ -21,7 +22,7 @@ LATEX := pdflatex -interaction=nonstopmode
 BIBTEX := bibtex
 MAIN := main
 
-.PHONY: help pdf full figs data all eval calibration website website-dev website-build website-preview website-deploy docs clean watch
+.PHONY: help pdf full figs data all eval budget calibration website website-dev website-build website-preview website-deploy docs clean watch
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) 2>/dev/null \
@@ -81,6 +82,18 @@ all: data figs pdf ## Full pipeline: data refresh → figures → PDF
 # ── Evaluation ─────────────────────────────────────────────────────────────
 eval: ## Run model evaluation (auto-skips done models). Logs to data/eval.log.
 	$(PYTHON) scripts/run_evaluation.py 2>&1 | tee data/eval.log
+
+# ── Budget ─────────────────────────────────────────────────────────────────
+# Estimate a run's $ cost before spending a token (no API key needed).
+# Pass a model:  make budget MODEL=openai/gpt-4.1
+# Or compare common models:  make budget   (falls back to --list)
+MODEL ?=
+budget: ## Estimate run cost. `make budget MODEL=openai/gpt-4.1`, else a comparison table.
+	@if [ -n "$(MODEL)" ]; then \
+	  $(PYTHON) scripts/ikp_budget.py --model $(MODEL); \
+	else \
+	  $(PYTHON) scripts/ikp_budget.py --list; \
+	fi
 
 # ── Maintenance ────────────────────────────────────────────────────────────
 clean: ## Remove LaTeX intermediates (keep main.pdf)

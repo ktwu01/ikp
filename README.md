@@ -189,6 +189,8 @@ ikp-paper/
 ├── README.md               ← this file
 ├── TOOLKIT.md              ← ikp_estimate.py reference
 ├── REPRODUCTION.md         ← figure/table ⇄ script map
+├── ADVERSARIAL_IKP.md      ← how cheaply an operator can game its estimate
+├── IKP_V2.md               ← gaming-resistant estimator (refusal interval + held-out split)
 ├── requirements.txt
 │
 ├── paper/                  ← LaTeX sources
@@ -249,9 +251,11 @@ item; CORRECT_WEAK = subfield only; REFUSAL; WRONG); other probes use
 a 3-way judge (CORRECT / REFUSAL / WRONG). Penalized accuracy scores
 each probe in `{+1.0, +0.5, 0, λ}` for the four classes with `λ = -1`
 (WRONG); hallucinations are penalized to discourage guessing. The
-calibration curve is `log10(params_B) = 6.790 · accuracy − 0.899`
-(R² = 0.910 on 93 open models, no-penalty λ=0; LOO median fold error 1.48×, 72%
-within 2× and 86% within 3×). For MoE models, *total* parameters
+calibration curve, loaded at runtime from
+`data/results/calibration_refit_v2.json` (λ=0), is
+`log10(params_B) = 6.701 · accuracy − 1.461` (equivalently the fitted
+`accuracy = 0.149 · log10(params_B) + 0.218`; R² ≈ 0.91, no-penalty λ=0,
+LOO median fold error ≈1.6×). For MoE models, *total* parameters
 predict accuracy (R² = 0.79) much better than active parameters
 (R² = 0.51) — so the curve is fit against total parameter count.
 
@@ -262,7 +266,9 @@ predict accuracy (R² = 0.79) much better than active parameters
   all 188 evaluated models; OpenAI-compatible endpoints also work)
 - An `OPENROUTER_API_KEY` for the judge (always Gemini 3 Flash Preview)
 - ~$0.10–$3 per model to score the full 1,400 probes, depending on the
-  model priced at OpenRouter rates
+  model priced at OpenRouter rates. Get the exact figure up-front with
+  `python scripts/ikp_budget.py --model <id>` (no API key needed) — see
+  the "Budgeting a run" section of `TOOLKIT.md`.
 
 ## Citing
 
