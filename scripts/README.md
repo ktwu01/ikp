@@ -5,7 +5,6 @@
 | Script | Purpose |
 |---|---|
 | `ikp_estimate.py` | Score one model against the 1,400-probe set and print an estimated parameter count. See `../TOOLKIT.md`. |
-| `ikp_budget.py` | Estimate the $ cost of a run before spending a token (no API key). See `../TOOLKIT.md`. |
 | `run_all_models.py` | Batch-score every model in `configs/all_models.json` (idempotent, resumable). |
 | `run_evaluation.py` | Score a single model by name; called from `run_all_models.py` but runnable standalone. |
 
