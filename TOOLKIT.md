@@ -3,9 +3,10 @@
 `scripts/ikp_estimate.py` is a self-contained CLI that scores a model
 against the 1,400-probe IKP benchmark and maps the result to an
 effective parameter-count estimate via the calibrated log-linear curve
-from the paper. The only external state it reads is
-`data/probes/final_probe_set_v8.json`; all calibration constants are
-baked into the script.
+from the paper. It reads the probe set
+`data/probes/final_probe_set_v8.json` and the fitted calibration
+`data/results/calibration_refit_v2.json` (falling back to baked-in
+constants if the latter is absent).
 
 ## Install
 
@@ -29,6 +30,52 @@ answer with Gemini 3 Flash Preview, (4) print a per-tier breakdown and
 an estimated parameter count. Typical cost per run: **$0.10–$3** at
 OpenRouter list prices, depending on the target model and thinking
 budget.
+
+## Budgeting a run (before you spend a token)
+
+Not sure a run fits your wallet? `scripts/ikp_budget.py` prices it
+up-front — no API key needed — by multiplying the benchmark's measured
+per-probe token footprint by live OpenRouter prices:
+
+```bash
+# What does a full run against gpt-4.1 cost?
+python scripts/ikp_budget.py --model openai/gpt-4.1
+
+# A thinking model, quick 200-probe sample
+python scripts/ikp_budget.py --model anthropic/claude-opus-4.7 --thinking --sample 200
+
+# "I have $10 — what can I run?"
+python scripts/ikp_budget.py --model openai/gpt-4.1 --budget 10
+
+# Compare common models at a glance
+python scripts/ikp_budget.py --list
+```
+
+Example output:
+
+```
+  ╔══════════════════════════════════════════════════════════╗
+  ║ IKP Budget Estimate                                      ║
+  ╠══════════════════════════════════════════════════════════╣
+  ║ Target:    openai/gpt-4.1                                ║
+  ║ Probes:    1400  (standard mode)                         ║
+  ║ Est. cost: $0.890 per run                                ║
+  ╚══════════════════════════════════════════════════════════╝
+
+  Breakdown (per run of 1400 probes):
+    Target model  (  2.00/  8.00 $/Mtok in/out) :     $0.616
+    Judge  (google/gemini-3-flash-preview)      :     $0.274
+    Total                                       :     $0.890
+```
+
+Prices come live from OpenRouter's public `/models` endpoint; if that
+call fails the tool falls back to a built-in early-2026 snapshot and
+labels the output as an estimate. Add `--offline` to force the snapshot,
+`--json` for machine-readable output. Every dollar figure is derived
+from the same prompts and probe set the estimator actually sends, so the
+budget and the run stay in sync. Costs scale linearly with `--sample`,
+so if a full run is too pricey, the tool suggests a stratified sample
+that fits your `--budget`.
 
 ## CLI reference
 
@@ -85,11 +132,11 @@ With `--output out.json`:
   "probes_used": 1400,
   "accuracy":      0.639,      // λ=0: correct / total, averaged per tier (no penalty)
   "raw_accuracy":  0.639,      // overall correct / total
-  "estimated_params_B": 402.1,
+  "estimated_params_B": 663.6,
   "tier_accuracy": {"T1": 0.99, …, "T7": 0.04},
   "tier_stats":    {"T1": {"correct":…, "total":…, "refusal":…, "wrong":…}, …},
-  "calibration": {"slope": 6.790, "intercept": -0.899,
-                   "n_models": 93, "r_squared": 0.910},
+  "calibration": {"slope": 6.701, "intercept": -1.461,
+                   "n_models": 89, "r_squared": 0.907},
   "results":       [ /* 1400 per-probe records */ ]
 }
 ```
@@ -119,14 +166,17 @@ Per-probe record:
 3. For each tier, `tier_score = correct / total` (λ=0; not floored, since
    scores are ≥ 0 by construction).
 4. `accuracy = mean(tier_score)` across all seven tiers.
-5. `log10(params_B) = 6.790 · accuracy − 0.899` (constants fixed;
-   see `CALIB_SLOPE`, `CALIB_INTERCEPT`).
+5. `log10(params_B) = 6.701 · accuracy − 1.461` (i.e. the inverse of the
+   fitted `accuracy = 0.14922 · log10(params_B) + 0.21805`).
 
-These constants are the OLS fit on the full 89-model open-weight
-calibration set (135M–1.6T, R² = 0.910, no-penalty λ=0, LOO median fold error 1.48×,
-72% within 2× and 86% within 3×). The fit is updated whenever new open-weight models
-are added to `data/results/` and `scripts/loo_cv_analysis.py` is
-rerun.
+The tool loads these constants at runtime from the fitted artifact
+`data/results/calibration_refit_v2.json` (λ=0 row) — the single source of
+truth shared by the estimator and every analysis script — falling back to
+the values above if the file is absent. That artifact is the OLS fit on the
+89-model open-weight calibration set (135M–1.6T, R² = 0.907, no-penalty
+λ=0, LOO median fold error ≈1.6×). Regenerate it with
+`scripts/calibration_refit_v2.py` (or `scripts/loo_cv_analysis.py`) when new
+open-weight models are added.
 
 ## Scope and known limitations
 

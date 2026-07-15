@@ -2,7 +2,7 @@
 """IKP Estimate — estimate a model's parameter count via factual knowledge probing.
 
 Runs the IKP benchmark against a model and estimates its parameter count
-based on a calibration curve fitted on 62 open-weight models (1B to 1040B).
+based on the calibration curve fitted on the open-weight cohort (135M to 1.6T).
 
 Usage:
   # Estimate via OpenRouter
@@ -45,13 +45,30 @@ SYSTEM_MSG = "Answer factual questions directly and concisely. If you don't know
 JUDGE_MODEL = "google/gemini-3-flash-preview"
 HALLUCINATION_PENALTY = 0.0  # no penalty: wrong answers score the same as refusals (λ=0)
 
-# Calibration curve: log10(params_B) = SLOPE * accuracy + INTERCEPT
-# Fitted on 93 open-weight models (135M to 1.6T), R² = 0.900, no-penalty scoring (λ=0)
-# (LOO median fold 1.53×, 73.1% within 2×, 87.1% within 3×, 90% PI factor 3.45×)
-CALIB_SLOPE = 5.700
-CALIB_INTERCEPT = -1.198  # in log10(params_B) space
-CALIB_N = 93
-CALIB_R2 = 0.900
+# Calibration curve. The single source of truth is the fitted artifact
+# data/results/calibration_refit_v2.json, stored as
+#   accuracy = a · log10(params_B) + b   (λ=0, no penalty)
+# which we invert to  log10(params_B) = CALIB_SLOPE · accuracy + CALIB_INTERCEPT.
+# We load it at runtime (falling back to the last known fit) so this tool, the
+# analysis scripts, and the paper all use one calibration. Regenerate the
+# artifact with scripts/loo_cv_analysis.py after adding open-weight models.
+CALIB_FILE = PROJECT_ROOT / "data" / "results" / "calibration_refit_v2.json"
+
+
+def _load_calibration():
+    a, b, n, r2 = 0.14922, 0.21805, 89, 0.9075  # fallback = current λ=0 fit
+    try:
+        d = json.load(open(CALIB_FILE))
+        row = next((r for r in d.get("sensitivity_sweep", [])
+                    if abs(r.get("lambda", 9)) < 1e-9), None)
+        if row:
+            a, b, n, r2 = row["slope"], row["intercept"], row["n"], row["r_squared"]
+    except Exception:
+        pass
+    return 1.0 / a, -b / a, n, r2  # invert to log10(params) = SLOPE·acc + INTERCEPT
+
+
+CALIB_SLOPE, CALIB_INTERCEPT, CALIB_N, CALIB_R2 = _load_calibration()
 
 # Tier boundary descriptions
 TIER_INFO = {
@@ -312,7 +329,7 @@ def display_calibration():
     print(f"\n  IKP Calibration Curve")
     print(f"  {'─' * 50}")
     print(f"  log₁₀(params_B) = {CALIB_SLOPE:.4f} × accuracy + ({CALIB_INTERCEPT:.4f})")
-    print(f"  Fitted on {CALIB_N} open-weight models (1B to 1040B)")
+    print(f"  Fitted on {CALIB_N} open-weight models (135M to 1.6T)")
     print(f"  R² = {CALIB_R2:.3f}")
     print(f"\n  Reference points:")
 
