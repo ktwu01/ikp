@@ -3,12 +3,12 @@
   "a": "deepseek-v3.1",
   "b": "deepseek-v3.2",
   "family": "DeepSeek V3",
-  "hss": 0.278,
-  "jaccard": 0.471,
-  "lift": 2.36,
-  "both_wrong": 18,
-  "same_wrong": 5,
-  "class": "independent",
+  "hss": 0.333,
+  "jaccard": 0.503,
+  "lift": 2.25,
+  "both_wrong": 21,
+  "same_wrong": 7,
+  "class": "lineage",
   "sources": [
     "consecutive"
   ],

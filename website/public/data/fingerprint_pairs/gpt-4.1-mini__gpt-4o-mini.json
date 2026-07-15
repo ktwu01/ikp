@@ -3,11 +3,11 @@
   "a": "gpt-4o-mini",
   "b": "gpt-4.1-mini",
   "family": "OpenAI GPT-mini",
-  "hss": 0.079,
-  "jaccard": 0.293,
-  "lift": 2.19,
-  "both_wrong": 152,
-  "same_wrong": 12,
+  "hss": 0.07,
+  "jaccard": 0.304,
+  "lift": 2.06,
+  "both_wrong": 143,
+  "same_wrong": 10,
   "class": "retrained",
   "sources": [
     "consecutive"

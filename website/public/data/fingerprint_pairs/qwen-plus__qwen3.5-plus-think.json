@@ -4,9 +4,9 @@
   "b": "qwen3.5-plus-think",
   "family": "Alibaba Qwen Plus",
   "hss": 0.0,
-  "jaccard": 0.455,
-  "lift": 1.95,
-  "both_wrong": 116,
+  "jaccard": 0.464,
+  "lift": 2.1,
+  "both_wrong": 94,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

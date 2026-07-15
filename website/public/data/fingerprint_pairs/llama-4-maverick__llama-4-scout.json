@@ -3,11 +3,11 @@
   "a": "llama-4-scout",
   "b": "llama-4-maverick",
   "family": "Meta Llama 4",
-  "hss": 0.083,
-  "jaccard": 0.25,
-  "lift": 2.14,
-  "both_wrong": 48,
-  "same_wrong": 4,
+  "hss": 0.065,
+  "jaccard": 0.255,
+  "lift": 2.01,
+  "both_wrong": 46,
+  "same_wrong": 3,
   "class": "retrained",
   "sources": [
     "consecutive"

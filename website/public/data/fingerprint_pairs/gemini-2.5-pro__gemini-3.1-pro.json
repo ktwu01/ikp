@@ -4,7 +4,7 @@
   "b": "gemini-3.1-pro",
   "family": "Google Gemini Pro",
   "hss": 0.0,
-  "jaccard": 0.665,
+  "jaccard": 0.692,
   "lift": 1.03,
   "both_wrong": 5,
   "same_wrong": 0,

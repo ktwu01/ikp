@@ -4,9 +4,9 @@
   "b": "grok-4.20",
   "family": "xAI Grok",
   "hss": 0.0,
-  "jaccard": 0.54,
-  "lift": 1.27,
-  "both_wrong": 52,
+  "jaccard": 0.557,
+  "lift": 1.38,
+  "both_wrong": 44,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

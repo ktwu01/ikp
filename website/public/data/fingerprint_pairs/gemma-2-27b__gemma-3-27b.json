@@ -3,10 +3,10 @@
   "a": "gemma-2-27b",
   "b": "gemma-3-27b",
   "family": "Google Gemma",
-  "hss": 0.043,
+  "hss": 0.047,
   "jaccard": 0.118,
-  "lift": 3.66,
-  "both_wrong": 93,
+  "lift": 3.81,
+  "both_wrong": 85,
   "same_wrong": 4,
   "class": "retrained",
   "sources": [

@@ -4,9 +4,9 @@
   "b": "claude-opus-4.7",
   "family": "Anthropic Claude Opus",
   "hss": 0.0,
-  "jaccard": 0.601,
-  "lift": 1.69,
-  "both_wrong": 17,
+  "jaccard": 0.604,
+  "lift": 1.64,
+  "both_wrong": 15,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

@@ -3,11 +3,11 @@
   "a": "nova-pro",
   "b": "nova-premier",
   "family": "Amazon Nova",
-  "hss": 0.014,
-  "jaccard": 0.321,
-  "lift": 2.02,
-  "both_wrong": 146,
-  "same_wrong": 2,
+  "hss": 0.008,
+  "jaccard": 0.327,
+  "lift": 2.24,
+  "both_wrong": 122,
+  "same_wrong": 1,
   "class": "retrained",
   "sources": [
     "consecutive"

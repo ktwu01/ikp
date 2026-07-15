@@ -4,9 +4,9 @@
   "b": "mistral-large",
   "family": "Mistral large/medium",
   "hss": 0.0,
-  "jaccard": 0.421,
-  "lift": 2.97,
-  "both_wrong": 36,
+  "jaccard": 0.42,
+  "lift": 3.19,
+  "both_wrong": 33,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

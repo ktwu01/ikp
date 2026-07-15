@@ -3,11 +3,11 @@
   "a": "glm-4.6-think",
   "b": "glm-4.7-think",
   "family": "Zhipu GLM",
-  "hss": 0.198,
-  "jaccard": 0.686,
-  "lift": 1.6,
-  "both_wrong": 131,
-  "same_wrong": 26,
+  "hss": 0.209,
+  "jaccard": 0.707,
+  "lift": 1.58,
+  "both_wrong": 129,
+  "same_wrong": 27,
   "class": "lineage",
   "sources": [
     "consecutive"

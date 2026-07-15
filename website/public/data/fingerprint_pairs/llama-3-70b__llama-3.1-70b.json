@@ -3,12 +3,12 @@
   "a": "llama-3-70b",
   "b": "llama-3.1-70b",
   "family": "Meta Llama 3 (70B)",
-  "hss": 0.636,
-  "jaccard": 0.5,
-  "lift": 4.74,
-  "both_wrong": 11,
-  "same_wrong": 7,
-  "class": "lineage",
+  "hss": 0.625,
+  "jaccard": 0.424,
+  "lift": 4.06,
+  "both_wrong": 8,
+  "same_wrong": 5,
+  "class": "independent",
   "sources": [
     "consecutive"
   ],

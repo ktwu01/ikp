@@ -3,11 +3,11 @@
   "a": "claude-opus-4",
   "b": "claude-opus-4.1",
   "family": "Anthropic Claude Opus",
-  "hss": 1.0,
-  "jaccard": 0.5,
-  "lift": 8.0,
-  "both_wrong": 7,
-  "same_wrong": 7,
+  "hss": 0.889,
+  "jaccard": 0.525,
+  "lift": 6.56,
+  "both_wrong": 9,
+  "same_wrong": 8,
   "class": "lineage",
   "sources": [
     "consecutive"

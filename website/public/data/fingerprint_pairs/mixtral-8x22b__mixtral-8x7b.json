@@ -4,9 +4,9 @@
   "b": "mixtral-8x22b",
   "family": "Mistral MoE (Mixtral)",
   "hss": 0.0,
-  "jaccard": 0.215,
-  "lift": 1.87,
-  "both_wrong": 62,
+  "jaccard": 0.209,
+  "lift": 1.78,
+  "both_wrong": 51,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

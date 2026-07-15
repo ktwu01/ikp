@@ -4,9 +4,9 @@
   "b": "gpt-5",
   "family": "OpenAI GPT base",
   "hss": 0.0,
-  "jaccard": 0.735,
-  "lift": 1.42,
-  "both_wrong": 42,
+  "jaccard": 0.758,
+  "lift": 1.38,
+  "both_wrong": 38,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

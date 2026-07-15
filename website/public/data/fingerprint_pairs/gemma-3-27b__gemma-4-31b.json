@@ -4,9 +4,9 @@
   "b": "gemma-4-31b",
   "family": "Google Gemma",
   "hss": 0.0,
-  "jaccard": 0.078,
-  "lift": 1.39,
-  "both_wrong": 232,
+  "jaccard": 0.076,
+  "lift": 1.33,
+  "both_wrong": 238,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

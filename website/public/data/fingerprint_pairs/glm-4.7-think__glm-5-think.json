@@ -3,11 +3,11 @@
   "a": "glm-4.7-think",
   "b": "glm-5-think",
   "family": "Zhipu GLM",
-  "hss": 0.022,
-  "jaccard": 0.543,
-  "lift": 1.32,
-  "both_wrong": 91,
-  "same_wrong": 2,
+  "hss": 0.011,
+  "jaccard": 0.561,
+  "lift": 1.33,
+  "both_wrong": 92,
+  "same_wrong": 1,
   "class": "retrained",
   "sources": [
     "consecutive"

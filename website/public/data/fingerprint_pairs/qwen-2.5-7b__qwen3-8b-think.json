@@ -3,11 +3,11 @@
   "a": "qwen-2.5-7b",
   "b": "qwen3-8b-think",
   "family": "Alibaba Qwen dense (7B)",
-  "hss": 0.042,
+  "hss": 0.04,
   "jaccard": 0.143,
   "lift": 10.26,
-  "both_wrong": 118,
-  "same_wrong": 5,
+  "both_wrong": 100,
+  "same_wrong": 4,
   "class": "retrained",
   "sources": [
     "consecutive"

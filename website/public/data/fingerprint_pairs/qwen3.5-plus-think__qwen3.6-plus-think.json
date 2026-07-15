@@ -3,12 +3,12 @@
   "a": "qwen3.5-plus-think",
   "b": "qwen3.6-plus-think",
   "family": "Alibaba Qwen Plus",
-  "hss": 0.095,
-  "jaccard": 0.533,
-  "lift": 2.2,
-  "both_wrong": 21,
+  "hss": 0.105,
+  "jaccard": 0.545,
+  "lift": 2.36,
+  "both_wrong": 19,
   "same_wrong": 2,
-  "class": "retrained",
+  "class": "lineage",
   "sources": [
     "consecutive"
   ],

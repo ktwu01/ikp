@@ -3,11 +3,11 @@
   "a": "gemini-2.0-flash",
   "b": "gemini-2.5-flash",
   "family": "Google Gemini Flash",
-  "hss": 0.0,
-  "jaccard": 0.49,
-  "lift": 2.29,
-  "both_wrong": 55,
-  "same_wrong": 0,
+  "hss": 0.021,
+  "jaccard": 0.497,
+  "lift": 2.14,
+  "both_wrong": 48,
+  "same_wrong": 1,
   "class": "retrained",
   "sources": [
     "consecutive"

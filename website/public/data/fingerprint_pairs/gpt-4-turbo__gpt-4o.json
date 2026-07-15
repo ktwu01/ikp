@@ -3,11 +3,11 @@
   "a": "gpt-4-turbo",
   "b": "gpt-4o",
   "family": "OpenAI GPT base",
-  "hss": 0.212,
-  "jaccard": 0.448,
+  "hss": 0.2,
+  "jaccard": 0.482,
   "lift": 1.47,
-  "both_wrong": 33,
-  "same_wrong": 7,
+  "both_wrong": 30,
+  "same_wrong": 6,
   "class": "independent",
   "sources": [
     "consecutive"

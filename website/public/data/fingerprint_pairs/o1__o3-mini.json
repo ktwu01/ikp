@@ -4,9 +4,9 @@
   "b": "o3-mini",
   "family": "OpenAI o-series",
   "hss": 0.0,
-  "jaccard": 0.115,
-  "lift": 1.73,
-  "both_wrong": 15,
+  "jaccard": 0.131,
+  "lift": 1.62,
+  "both_wrong": 17,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

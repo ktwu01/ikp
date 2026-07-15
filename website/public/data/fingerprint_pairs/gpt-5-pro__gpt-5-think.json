@@ -3,11 +3,11 @@
   "a": "gpt-5-pro",
   "b": "gpt-5-think",
   "family": "OpenAI GPT-5 base/pro/think cluster",
-  "hss": 0.532,
-  "jaccard": 0.837,
-  "lift": 1.51,
-  "both_wrong": 47,
-  "same_wrong": 25,
+  "hss": 0.523,
+  "jaccard": 0.846,
+  "lift": 1.46,
+  "both_wrong": 44,
+  "same_wrong": 23,
   "class": "shared-base",
   "sources": [
     "consecutive"

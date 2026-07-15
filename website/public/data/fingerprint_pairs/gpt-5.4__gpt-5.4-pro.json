@@ -3,11 +3,11 @@
   "a": "gpt-5.4",
   "b": "gpt-5.4-pro",
   "family": "OpenAI GPT-5 .x transitions",
-  "hss": 0.113,
-  "jaccard": 0.713,
-  "lift": 1.49,
-  "both_wrong": 71,
-  "same_wrong": 8,
+  "hss": 0.101,
+  "jaccard": 0.715,
+  "lift": 1.44,
+  "both_wrong": 69,
+  "same_wrong": 7,
   "class": "lineage",
   "sources": [
     "consecutive"

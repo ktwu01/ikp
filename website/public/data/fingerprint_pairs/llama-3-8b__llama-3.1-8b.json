@@ -3,11 +3,11 @@
   "a": "llama-3-8b",
   "b": "llama-3.1-8b",
   "family": "Meta Llama 3 (8B)",
-  "hss": 0.222,
-  "jaccard": 0.231,
-  "lift": 13.71,
-  "both_wrong": 9,
-  "same_wrong": 2,
+  "hss": 0.125,
+  "jaccard": 0.214,
+  "lift": 12.7,
+  "both_wrong": 8,
+  "same_wrong": 1,
   "class": "independent",
   "sources": [
     "consecutive"

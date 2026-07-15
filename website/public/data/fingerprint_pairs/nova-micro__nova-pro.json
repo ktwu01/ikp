@@ -3,11 +3,11 @@
   "a": "nova-micro",
   "b": "nova-pro",
   "family": "Amazon Nova",
-  "hss": 0.067,
-  "jaccard": 0.136,
-  "lift": 3.17,
-  "both_wrong": 134,
-  "same_wrong": 9,
+  "hss": 0.07,
+  "jaccard": 0.135,
+  "lift": 3.51,
+  "both_wrong": 114,
+  "same_wrong": 8,
   "class": "retrained",
   "sources": [
     "consecutive"

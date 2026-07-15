@@ -4,9 +4,9 @@
   "b": "glm-5.1-think",
   "family": "Zhipu GLM",
   "hss": 0.012,
-  "jaccard": 0.69,
-  "lift": 1.5,
-  "both_wrong": 83,
+  "jaccard": 0.687,
+  "lift": 1.46,
+  "both_wrong": 84,
   "same_wrong": 1,
   "class": "retrained",
   "sources": [

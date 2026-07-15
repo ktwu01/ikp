@@ -3,11 +3,11 @@
   "a": "gemma-2-2b",
   "b": "gemma-3-1b",
   "family": "Google Gemma",
-  "hss": 0.007,
+  "hss": 0.014,
   "jaccard": 0.048,
   "lift": 4.1,
   "both_wrong": 284,
-  "same_wrong": 2,
+  "same_wrong": 4,
   "class": "retrained",
   "sources": [
     "consecutive"

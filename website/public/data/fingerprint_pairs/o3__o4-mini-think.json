@@ -4,9 +4,9 @@
   "b": "o4-mini-think",
   "family": "OpenAI o-series",
   "hss": 0.0,
-  "jaccard": 0.381,
-  "lift": 1.4,
-  "both_wrong": 52,
+  "jaccard": 0.404,
+  "lift": 1.38,
+  "both_wrong": 46,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

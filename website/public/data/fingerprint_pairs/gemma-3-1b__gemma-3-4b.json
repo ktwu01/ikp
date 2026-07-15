@@ -6,7 +6,7 @@
   "hss": 0.006,
   "jaccard": 0.0,
   "lift": 0.0,
-  "both_wrong": 351,
+  "both_wrong": 349,
   "same_wrong": 2,
   "class": "retrained",
   "sources": [

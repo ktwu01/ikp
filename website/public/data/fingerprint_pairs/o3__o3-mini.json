@@ -4,9 +4,9 @@
   "b": "o3",
   "family": "OpenAI o-series",
   "hss": 0.0,
-  "jaccard": 0.099,
-  "lift": 1.48,
-  "both_wrong": 26,
+  "jaccard": 0.12,
+  "lift": 1.47,
+  "both_wrong": 29,
   "same_wrong": 0,
   "class": "retrained",
   "sources": [

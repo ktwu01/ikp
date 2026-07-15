@@ -3,11 +3,11 @@
   "a": "kimi-k2.5-think",
   "b": "kimi-k2.6-think",
   "family": "Moonshot Kimi K2",
-  "hss": 0.451,
-  "jaccard": 0.772,
-  "lift": 1.68,
-  "both_wrong": 51,
-  "same_wrong": 23,
+  "hss": 0.51,
+  "jaccard": 0.765,
+  "lift": 1.63,
+  "both_wrong": 49,
+  "same_wrong": 25,
   "class": "shared-base",
   "sources": [
     "consecutive"

@@ -3,12 +3,12 @@
   "a": "gpt-5.2",
   "b": "gpt-5.2-pro",
   "family": "OpenAI GPT-5 .x transitions",
-  "hss": 0.325,
-  "jaccard": 0.777,
-  "lift": 2.25,
-  "both_wrong": 40,
-  "same_wrong": 13,
-  "class": "shared-base",
+  "hss": 0.286,
+  "jaccard": 0.776,
+  "lift": 2.15,
+  "both_wrong": 42,
+  "same_wrong": 12,
+  "class": "lineage",
   "sources": [
     "consecutive"
   ],

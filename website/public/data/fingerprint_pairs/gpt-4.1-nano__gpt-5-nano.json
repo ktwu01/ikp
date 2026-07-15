@@ -4,9 +4,9 @@
   "b": "gpt-5-nano",
   "family": "OpenAI GPT-nano",
   "hss": 0.0,
-  "jaccard": 0.1,
-  "lift": 5.07,
-  "both_wrong": 9,
+  "jaccard": 0.107,
+  "lift": 4.38,
+  "both_wrong": 8,
   "same_wrong": 0,
   "class": "independent",
   "sources": [

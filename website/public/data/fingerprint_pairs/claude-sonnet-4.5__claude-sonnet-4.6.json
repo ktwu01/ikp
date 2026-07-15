@@ -3,12 +3,12 @@
   "a": "claude-sonnet-4.5",
   "b": "claude-sonnet-4.6",
   "family": "Anthropic Claude Sonnet",
-  "hss": 0.091,
-  "jaccard": 0.315,
-  "lift": 2.09,
-  "both_wrong": 11,
-  "same_wrong": 1,
-  "class": "retrained",
+  "hss": 0.133,
+  "jaccard": 0.324,
+  "lift": 2.0,
+  "both_wrong": 15,
+  "same_wrong": 2,
+  "class": "independent",
   "sources": [
     "consecutive"
   ],

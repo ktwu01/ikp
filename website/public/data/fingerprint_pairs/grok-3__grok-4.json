@@ -3,11 +3,11 @@
   "a": "grok-3",
   "b": "grok-4",
   "family": "xAI Grok",
-  "hss": 0.043,
-  "jaccard": 0.772,
-  "lift": 1.36,
-  "both_wrong": 46,
-  "same_wrong": 2,
+  "hss": 0.027,
+  "jaccard": 0.779,
+  "lift": 1.45,
+  "both_wrong": 37,
+  "same_wrong": 1,
   "class": "retrained",
   "sources": [
     "consecutive"

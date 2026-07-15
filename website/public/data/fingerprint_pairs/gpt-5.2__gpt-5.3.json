@@ -3,11 +3,11 @@
   "a": "gpt-5.2",
   "b": "gpt-5.3",
   "family": "OpenAI GPT base",
-  "hss": 0.04,
+  "hss": 0.0,
   "jaccard": 0.596,
-  "lift": 1.74,
-  "both_wrong": 25,
-  "same_wrong": 1,
+  "lift": 1.67,
+  "both_wrong": 23,
+  "same_wrong": 0,
   "class": "retrained",
   "sources": [
     "consecutive"

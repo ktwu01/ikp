@@ -3,11 +3,11 @@
   "a": "gpt-4o",
   "b": "gpt-4.1",
   "family": "OpenAI GPT base",
-  "hss": 0.333,
-  "jaccard": 0.527,
-  "lift": 1.51,
-  "both_wrong": 27,
-  "same_wrong": 9,
+  "hss": 0.318,
+  "jaccard": 0.538,
+  "lift": 1.46,
+  "both_wrong": 22,
+  "same_wrong": 7,
   "class": "lineage",
   "sources": [
     "consecutive"
