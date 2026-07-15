@@ -131,7 +131,10 @@ released probe set is audited for name collisions and label ambiguity by
 `scripts/clean_flag_researchers.py` (OpenAlex) and
 `scripts/clean_flag_wikidata.py`, combined into `data/probes/clean_mask.json`
 by `scripts/clean_build_mask.py`; all paper results are scored on the cleaned
-1,311-probe subset.
+1,311-probe subset. That subset is materialized as a single drop-in file,
+`data/probes/final_probe_set_clean.json` (regenerate with
+`scripts/build_clean_probe_set.py`), for anyone who wants the released
+benchmark directly without applying the mask.
 
 Short path:
 
@@ -208,6 +211,8 @@ ikp-paper/
 ├── data/                   ← see data/README.md for schemas
 │   ├── probes/
 │   │   ├── final_probe_set_v8.json  ← THE 1,400 probes (the benchmark)
+│   │   ├── final_probe_set_clean.json ← the cleaned 1,311-probe subset (paper results)
+│   │   ├── clean_mask.json          ← flags the 89 dropped probes; clean_ids
 │   │   ├── researcher_probes.json   ← researcher sub-probe source
 │   │   └── archive/                 ← earlier probe versions (v1..v7, batches, candidates)
 │   ├── results/<model>.json         ← per-model raw evaluations (188 files)
