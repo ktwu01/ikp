@@ -237,6 +237,7 @@ def make_figure(models, slope, intercept):
     fig.tight_layout()
     OUT_FIG.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_FIG, dpi=150)
+    fig.savefig(OUT_FIG.with_suffix(".pdf"))
     print(f"  Figure → {OUT_FIG.relative_to(PROJECT_ROOT)}")
 
 
