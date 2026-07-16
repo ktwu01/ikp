@@ -36,12 +36,13 @@ Output:
   ║  Model:     openai/gpt-4.1                              ║
   ║  Probes:    1400                                         ║
   ║  Accuracy:  63.9% (λ=0, no penalty; raw 65.2%)         ║
-  ║  N_eff:    ~  400B effective parameters                  ║
+  ║  N_eff:    ~  315B effective parameters                  ║
   ╚══════════════════════════════════════════════════════════╝
   T1   99%  …  T7    4%
   Effective tier: T6
-  Effective size: ~400B IKP-effective parameters (calibrated on 93 open models, R²=0.910)
-  90% band (new-vendor LOFO): 114B – 1.4T
+  Effective size: ~315B IKP-effective parameters (calibrated on 93 open models, R²=0.910)
+  Refusal interval: 315B – 355B (1.2% refusals; Reliable)
+  90% band (new-vendor LOFO): 90B – 1.1T
   N_eff is the open-cohort-equivalent size, not the true weight count — see PARAM_POLICY.md.
 ```
 
@@ -270,12 +271,12 @@ different latent axes — penalizing hallucinations (`λ = -1`, kept only
 as an ablation) mixes a vendor-dependent honesty policy into the size
 estimate; see `PARAM_POLICY.md` §4. The
 calibration curve, loaded at runtime from
-`data/results/calibration_refit_v2.json` (λ=0), is
-`log10(params_B) = 6.701 · accuracy − 1.461` (equivalently the fitted
-`accuracy = 0.149 · log10(params_B) + 0.218`; R² ≈ 0.91, no-penalty λ=0,
-LOO median fold error ≈1.6×). For MoE models, *total* parameters
-predict accuracy (R² = 0.79) much better than active parameters
-(R² = 0.51) — so the curve is fit against total parameter count. This is
+`data/results/effective_params.json` (λ=0), is
+`log10(N_eff_B) = 6.298 · accuracy − 1.526` (equivalently the fitted
+`accuracy = 0.159 · log10(N_B) + 0.242`; R² ≈ 0.91, no-penalty λ=0,
+LOO median fold error ≈1.5×). For MoE models, *total* parameters
+predict accuracy (R² = 0.667) better than active parameters
+(R² = 0.412) — so the curve is fit against total parameter count. This is
 a fitted convention, not an assumption: the continuous MoE exponent γ
 (1 = total, 0 = active) lands at γ̂ = 1.00 with bootstrap 90% CI
 [0.86, 1.00] (`scripts/19_effective_params.py`).

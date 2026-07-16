@@ -31,7 +31,7 @@ measures exactly (up to fit noise) is:
 > N_eff ≡ 10^((A − β) / α)
 >
 > where A is λ=0 IKP accuracy and (α, β) are the pooled calibration slope
-> and intercept (`data/results/calibration_refit_v2.json`, λ=0 row).
+> and intercept (`data/results/effective_params.json`, calibration object).
 
 This is the same construct as the Densing Law's "effective parameter size"
 ([arXiv 2412.04315](https://arxiv.org/abs/2412.04315)) with IKP as the
@@ -66,12 +66,15 @@ N_true ──(storage density)──▶ stored bits ──(corpus overlap)──
 - *elicitation* — refusal policy, thinking mode, prompt format (bounded by
   the v2 interval, §5).
 
-On the 93-model open cohort: sd(log₁₀ ρ) ≈ 0.33 (1σ ≈ 2.1×), and **~49% of
-the density variance is a between-family (vendor) effect**, not noise.
-Extremes span deepseek-v4-flash (ρ ≈ 12) to deepseek-v4-pro (ρ ≈ 0.23). So:
+On the 93-model open cohort, sd(log₁₀ ρ) ≈ 0.31 (1σ ≈ 2.0×). Family
+labels explain 45% of the in-sample variance before adjustment and 18% by
+omega-squared after accounting for the number and size of groups. A
+10,000-draw label-permutation test gives p ≈ 0.058, so the family effect is
+suggestive rather than established at the conventional 5% threshold.
+Extremes span deepseek-v4-flash (ρ ≈ 5.4) to deepseek-v4-pro (ρ ≈ 0.11). So:
 
-- Read "Estimated: 400B" as **N_eff = 400B open-cohort-equivalent
-  parameters**, exact by construction.
+- Read an estimate of `N_eff = X` as **X open-cohort-equivalent
+  parameters**, not X true weights.
 - Converting N_eff to a true weight count requires a prior on ρ; absent
   vendor-specific evidence, the honest conversion band is the LOFO band
   below.
@@ -111,7 +114,7 @@ across architectures" concern.
 |---|---|---|---|
 | **A (accuracy)** | Mean of the 7 per-tier accuracies (fixed 7-tier average; an empty tier scores 0) | — | Equal tier weighting keeps the score sensitive across the whole size range instead of being dominated by easy tiers. |
 | **λ (hallucination penalty)** | Score assigned to a WRONG verdict; probes score {+1, +0.5 weak-correct, 0 refusal, λ wrong} | **λ = 0 (no penalty)** | See below. |
-| **α, β (slope, intercept)** | Pooled fit acc = α·log₁₀(N_B) + β on the open cohort (n=89 curated; α ≈ 0.149, β ≈ 0.218, R² ≈ 0.91) | loaded from `calibration_refit_v2.json` | Single source of truth shared by the CLI, the analysis scripts, and the paper. |
+| **α, β (slope, intercept)** | Pooled fit acc = α·log₁₀(N_B) + β on the open cohort (n=93; α ≈ 0.159, β ≈ 0.242, R² ≈ 0.91) | loaded from `effective_params.json` | Single source of truth shared by both estimator CLIs and the issue-5 analysis. |
 | **γ (MoE exponent)** | Weight on log-total vs log-active in the MoE size axis | **γ = 1 (total)** | Fitted, with CI — see §3. |
 | **Tier flooring** | Whether negative per-tier scores are clipped at 0 | none | Moot at λ = 0; the λ×flooring ablation is in the paper appendix. |
 
@@ -134,7 +137,8 @@ shipped estimates use λ = 0.
 ## 5. Refusal policy: interval, not model, not filter
 
 Refusals are **not** filtered out, **not** counted as wrong-with-penalty, and
-**not** behaviorally modeled. They are propagated into an interval (IKP v2,
+**not** behaviorally modeled. They are propagated into an interval by the
+default estimator and IKP v2 (`scripts/ikp_estimate.py`,
 `scripts/ikp_estimate_v2.py`, `IKP_V2.md`):
 
 - **Floor** — refusals score 0 (a refusing model proves nothing about
